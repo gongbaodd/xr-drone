@@ -28,6 +28,8 @@ namespace YueUltimateDronePhysics
 
         void Update()
         {
+            inputModule.rawLeftHorizontal = Input.GetAxis("Yaw");
+
             // Example Population of InputModule
             switch (dronePhysics.flightConfig)
             {
