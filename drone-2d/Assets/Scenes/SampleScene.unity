@@ -892,7 +892,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2079355741}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1571491094
 GameObject:
@@ -918,7 +918,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571491094}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -927,7 +927,7 @@ Transform:
   - {fileID: 1109911849}
   - {fileID: 251884081}
   - {fileID: 501481119}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2079355741}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1797034462
 PrefabInstance:
@@ -935,7 +935,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2079355741}
     m_Modifications:
     - target: {fileID: 1310926270657974288, guid: adb540b78007b484fb4e85791757953c, type: 3}
       propertyPath: hoverEffectLayerMask.m_Bits
@@ -993,10 +993,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1310926270657974287, guid: adb540b78007b484fb4e85791757953c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1904809370}
     - targetCorrespondingSourceObject: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1904809364}
@@ -1032,6 +1036,28 @@ MonoBehaviour:
   orbitPoints: 4
   waypointReachedThreshold: 1
   currentPhase: 0
+--- !u!114 &1904809365 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1310926270657974288, guid: adb540b78007b484fb4e85791757953c, type: 3}
+  m_PrefabInstance: {fileID: 1797034462}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797034463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31fc9fb73d8f7e843b4cd93368e215e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1904809367 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1310926270657974289, guid: adb540b78007b484fb4e85791757953c, type: 3}
+  m_PrefabInstance: {fileID: 1797034462}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797034463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5ef81ab4b4a4e43adff653acf33699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &1904809368 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 1310926270657974290, guid: adb540b78007b484fb4e85791757953c, type: 3}
@@ -1058,12 +1084,58 @@ MonoBehaviour:
   weightEnergy: 0.15
   idealCompletionTime: 60
   maxAcceptableDeviation: 20
+--- !u!114 &1904809370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797034463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d40d3af2082b3489a9e30f72e8609796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::YueUltimateDronePhysics.AgentDroneEmulator
+  dronePhysics: {fileID: 1904809365}
+  inputModule: {fileID: 1904809367}
+--- !u!1 &2079355740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2079355741}
+  m_Layer: 0
+  m_Name: Training Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2079355741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079355740}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1904809363}
+  - {fileID: 1446190851}
+  - {fileID: 1571491095}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1797034462}
-  - {fileID: 1446190851}
-  - {fileID: 1571491095}
+  - {fileID: 2079355741}
