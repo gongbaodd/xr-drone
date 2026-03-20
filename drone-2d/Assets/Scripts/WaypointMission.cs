@@ -45,6 +45,15 @@ public class DroneWaypointMission : MonoBehaviour
         Debug.Log("Mission started! Waypoints: " + missionPath.Count);
     }
 
+    // Called by `DroneAgent` between episodes to rebuild internal mission state.
+    public void ResetMission()
+    {
+        currentWaypointIndex = 0;
+        currentPhase = MissionPhase.GoToTarget;
+        currentTargetTransform = null;
+        BuildMissionPath();
+    }
+
     void BuildMissionPath()
     {
         missionPath.Clear();

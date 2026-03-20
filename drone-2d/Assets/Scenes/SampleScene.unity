@@ -1007,6 +1007,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1904809369}
+    - targetCorrespondingSourceObject: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1904809371}
+    - targetCorrespondingSourceObject: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1904809373}
+    - targetCorrespondingSourceObject: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1904809372}
   m_SourcePrefab: {fileID: 100100000, guid: adb540b78007b484fb4e85791757953c, type: 3}
 --- !u!1 &1797034463 stripped
 GameObject:
@@ -1035,6 +1044,7 @@ MonoBehaviour:
   orbitRadius: 3
   orbitPoints: 4
   waypointReachedThreshold: 1
+  currentWaypointIndex: 0
   currentPhase: 0
 --- !u!114 &1904809365 stripped
 MonoBehaviour:
@@ -1098,6 +1108,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::YueUltimateDronePhysics.AgentDroneEmulator
   dronePhysics: {fileID: 1904809365}
   inputModule: {fileID: 1904809367}
+  useAgentInput: 0
+  agentThrottle: 0
+  agentYaw: 0
+  agentPitch: 0
+  agentRoll: 0
+--- !u!114 &1904809371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797034463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.Policies.BehaviorParameters
+  m_BrainParameters:
+    VectorObservationSize: 25
+    NumStackedVectorObservations: 3
+    m_ActionSpec:
+      m_NumContinuousActions: 4
+      BranchSizes: 
+    VectorActionSize: 04000000
+    VectorActionDescriptions: []
+    VectorActionSpaceType: 1
+    hasUpgradedBrainParametersWithActionSpec: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DroneNav
+  TeamId: 0
+  m_UseChildSensors: 1
+  m_UseChildActuators: 1
+  m_ObservableAttributeHandling: 0
+--- !u!114 &1904809372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797034463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.DecisionRequester
+  DecisionPeriod: 5
+  TakeActionsBetweenDecisions: 1
+--- !u!114 &1904809373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797034463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b6042bc9a5d4aa58d931eae49442e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.Agent
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
 --- !u!1 &2079355740
 GameObject:
   m_ObjectHideFlags: 0

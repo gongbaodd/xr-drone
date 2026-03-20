@@ -32,6 +32,7 @@ public class FlightScorer : MonoBehaviour
     private float totalCollisionForce;
     private bool scored = false;
     private float completionTime;
+    private float finalScore = -1f;
 
     void Start()
     {
@@ -75,7 +76,7 @@ public class FlightScorer : MonoBehaviour
         {
             scored = true;
             completionTime = Time.time - missionStartTime;
-            float finalScore = CalculateFinalScore();
+            finalScore = CalculateFinalScore();
             DisplayScore(finalScore);
         }
     }
@@ -155,10 +156,49 @@ public class FlightScorer : MonoBehaviour
     void DisplayScore(float score)
     {
         // You'll see this in the Game view via OnGUI
+        finalScore = score;
         finalDisplayScore = score;
     }
 
     private float finalDisplayScore = -1f;
+
+    // Called by `DroneAgent` between episodes.
+    public void ResetScorer()
+    {
+        missionStartTime = Time.time;
+        totalPathDeviation = 0f;
+        deviationSamples = 0;
+        totalAngularVelocity = 0f;
+        totalAcceleration = 0f;
+        physicsSamples = 0;
+        lastVelocity = Vector3.zero;
+        maxTiltAngle = 0f;
+        speedSamples.Clear();
+        collisionCount = 0;
+        totalCollisionForce = 0f;
+        scored = false;
+        completionTime = 0f;
+        finalScore = -1f;
+        finalDisplayScore = -1f;
+
+        if (droneRigidbody == null)
+            droneRigidbody = GetComponent<Rigidbody>();
+    }
+
+    // Exposed for `DroneAgent` reward shaping.
+    public float CalculateScore()
+    {
+        if (scored && finalScore >= 0f) return finalScore;
+        if (mission == null) return 0f;
+
+        // If mission is already complete, completionTime will have been tracked,
+        // but we recompute defensively here.
+        completionTime = Time.time - missionStartTime;
+        scored = true;
+        finalScore = CalculateFinalScore();
+        DisplayScore(finalScore);
+        return finalScore;
+    }
 
     void OnGUI()
     {
