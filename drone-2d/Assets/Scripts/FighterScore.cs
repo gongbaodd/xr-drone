@@ -91,7 +91,9 @@ public class FlightScorer : MonoBehaviour
     {
         // 1. Path accuracy (0-1)
         float avgDeviation = deviationSamples > 0 ? totalPathDeviation / deviationSamples : 999f;
-        float pathScore = Mathf.Clamp01(1f - (avgDeviation / maxAcceptableDeviation));
+        float deviationScore = Mathf.Clamp01(1f - (avgDeviation / maxAcceptableDeviation));
+        float waypointCoverage = Mathf.Clamp01((float)mission.currentWaypointIndex / mission.TotalWaypoints);
+        float pathScore = deviationScore * waypointCoverage;
 
         // 2. Smoothness (0-1)
         float avgAngVel = physicsSamples > 0 ? totalAngularVelocity / physicsSamples : 10f;
@@ -127,6 +129,7 @@ public class FlightScorer : MonoBehaviour
         Debug.Log("══════════════════════════════════════");
         Debug.Log("        FLIGHT SCORE BREAKDOWN        ");
         Debug.Log("══════════════════════════════════════");
+        Debug.Log($"  Waypoint Coverage: {(waypointCoverage * 100f):F1}%");
         Debug.Log($"  Path Accuracy:   {pathScore * 100f:F1}%");
         Debug.Log($"  Smoothness:      {smoothScore * 100f:F1}%");
         Debug.Log($"  Time Efficiency: {timeScore * 100f:F1}%  ({completionTime:F1}s / {idealCompletionTime:F1}s ideal)");

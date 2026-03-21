@@ -18,6 +18,7 @@ public class DroneWaypointMission : MonoBehaviour
     private List<Vector3> missionPath = new List<Vector3>();
     public int currentWaypointIndex = 0;
     private Transform currentTargetTransform;
+    private bool hasFinishedGoToTarget = false;
 
     public enum MissionPhase { GoToTarget, Orbit, ReturnHome, Complete }
     public MissionPhase currentPhase = MissionPhase.GoToTarget;
@@ -51,6 +52,7 @@ public class DroneWaypointMission : MonoBehaviour
         currentWaypointIndex = 0;
         currentPhase = MissionPhase.GoToTarget;
         currentTargetTransform = null;
+        hasFinishedGoToTarget = false;
         BuildMissionPath();
     }
 
@@ -81,6 +83,15 @@ public class DroneWaypointMission : MonoBehaviour
     {
         if (currentPhase == MissionPhase.Complete) return;
 
+        // Mission completes only if the drone has already reached the target once
+        // and is now back at home.
+        if (hasFinishedGoToTarget && IsDroneAtHome())
+        {
+            currentPhase = MissionPhase.Complete;
+            Debug.Log("=== MISSION COMPLETE (HOME REACHED) ===");
+            return;
+        }
+
         // Check if drone reached the current waypoint
         float dist = Vector3.Distance(transform.position, GetCurrentTarget());
         if (dist < waypointReachedThreshold)
@@ -97,7 +108,10 @@ public class DroneWaypointMission : MonoBehaviour
 
             // Update phase
             if (currentWaypointIndex == 1)
+            {
+                hasFinishedGoToTarget = true;
                 currentPhase = MissionPhase.Orbit;
+            }
             else if (currentWaypointIndex >= 1 + orbitPoints)
                 currentPhase = MissionPhase.ReturnHome;
         }
@@ -108,6 +122,11 @@ public class DroneWaypointMission : MonoBehaviour
         if (currentWaypointIndex < missionPath.Count)
             return missionPath[currentWaypointIndex];
         return homePoint.position;
+    }
+
+    bool IsDroneAtHome()
+    {
+        return Vector3.Distance(transform.position, homePoint.position) < waypointReachedThreshold;
     }
 
     // Draw the waypoint path in the Scene view so you can see it
