@@ -171,6 +171,7 @@ private void OnCollisionEnter(Collision collision)
     if (collision.gameObject.CompareTag("Obstacle"))
     {
         AddReward(-2.0f);
+        EndEpisode();
     }
 }
 
