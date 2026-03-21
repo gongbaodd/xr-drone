@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 using System.Collections.Generic;
 
 public class DroneWaypointMission : MonoBehaviour
@@ -7,18 +8,18 @@ public class DroneWaypointMission : MonoBehaviour
     public Transform homePoint;
     public Transform targetWaypoint;
 
-    [Header("Orbit Settings")]
+    [Header("Orbit / teardrop scale")]
+    [Tooltip("Minimum scale for Bezier handles; also used if home and target coincide.")]
     public float orbitRadius = 10f;
+    [Tooltip("Unused for path geometry; kept for existing scenes/prefabs.")]
     public int orbitPoints = 8;
 
-    [Header("Bezier path (teardrop: home ↔ orbit)")]
-    [Tooltip("Samples along the cubic Bezier from home to orbit entry.")]
-    [Min(2)]
-    public int outboundBezierSamples = 16;
-    [Tooltip("Samples along the cubic Bezier from orbit exit back to home.")]
-    [Min(2)]
-    public int returnBezierSamples = 16;
-    [Tooltip("Lateral offset of the Bezier handles as a fraction of chord length (water-drop bulge).")]
+    [Header("Bezier path (single cubic teardrop)")]
+    [Tooltip("Waypoints sampled along one cubic Bezier from home back to home (P0 = P3).")]
+    [Min(8)]
+    [FormerlySerializedAs("outboundBezierSamples")]
+    public int bezierSamples = 48;
+    [Tooltip("Lateral offset of the handles vs scale (water-drop bulge).")]
     [Range(0.05f, 0.95f)]
     public float bezierBulge = 0.38f;
 
@@ -36,8 +37,9 @@ public class DroneWaypointMission : MonoBehaviour
 
     // Internal state
     private List<Vector3> missionPath = new List<Vector3>();
-    /// <summary>Waypoints on the outbound Bezier leg (home → orbit entry) — used for phase transitions.</summary>
+    /// <summary>Waypoint count for the first third of the loop — phase transitions.</summary>
     private int outboundWaypointCount = 0;
+    private int orbitWaypointCount = 0;
     public int currentWaypointIndex = 0;
     private bool hasFinishedGoToTarget = false;
 
@@ -75,68 +77,36 @@ public class DroneWaypointMission : MonoBehaviour
         Vector3 home = homePoint.position;
         Vector3 target = targetWaypoint.position;
 
-        int nOrbit = Mathf.Max(1, orbitPoints);
-
-        // Orbit arc (semi-circle in XZ), same convention as before
-        var orbitRing = new Vector3[nOrbit];
-        for (int i = 0; i < nOrbit; i++)
-        {
-            float angle = (Mathf.PI / nOrbit) * i;
-            orbitRing[i] = target + new Vector3(
-                Mathf.Cos(angle) * orbitRadius,
-                0f,
-                Mathf.Sin(angle) * orbitRadius
-            );
-        }
-
-        Vector3 orbitStart = orbitRing[0];
-        Vector3 orbitEnd = orbitRing[nOrbit - 1];
-
-        // Step 1: Teardrop Bezier — home → orbit entry (narrow tip → wide bulge)
-        GetBezierControls(home, orbitStart, out Vector3 o0, out Vector3 o1, out Vector3 o2, out Vector3 o3, bezierBulge, mirrorLateral: false);
-        outboundWaypointCount = Mathf.Max(2, outboundBezierSamples);
-        for (int s = 1; s <= outboundWaypointCount; s++)
-        {
-            float t = s / (float)outboundWaypointCount;
-            missionPath.Add(EvaluateCubicBezier(o0, o1, o2, o3, t));
-        }
-
-        // Step 2: Fly along the orbit arc (skip duplicate at orbit start)
-        for (int i = 1; i < nOrbit; i++)
-            missionPath.Add(orbitRing[i]);
-
-        // Step 3: Teardrop Bezier — orbit exit → home
-        GetBezierControls(orbitEnd, home, out Vector3 r0, out Vector3 r1, out Vector3 r2, out Vector3 r3, bezierBulge, mirrorLateral: true);
-        int retSamples = Mathf.Max(2, returnBezierSamples);
-        for (int s = 1; s <= retSamples; s++)
-        {
-            float t = s / (float)retSamples;
-            missionPath.Add(EvaluateCubicBezier(r0, r1, r2, r3, t));
-        }
-    }
-
-    void GetBezierControls(Vector3 p0, Vector3 p3, out Vector3 o0, out Vector3 o1, out Vector3 o2, out Vector3 o3, float bulge, bool mirrorLateral)
-    {
-        o0 = p0;
-        o3 = p3;
-        Vector3 delta = p3 - p0;
-        float chord = delta.magnitude;
-        if (chord < 1e-6f)
-        {
-            o1 = o2 = p0;
-            return;
-        }
-
-        Vector3 forward = delta / chord;
+        // One cubic Bezier: P0 = P3 = home (closed teardrop); P1/P2 bulge toward target region.
+        Vector3 delta = target - home;
+        float d = delta.magnitude;
+        Vector3 forward = d > 1e-6f ? delta / d : Vector3.forward;
         Vector3 right = Vector3.Cross(Vector3.up, forward);
         if (right.sqrMagnitude < 1e-8f)
             right = Vector3.Cross(Vector3.forward, forward);
         right.Normalize();
 
-        float lateral = chord * Mathf.Clamp(bulge, 0.05f, 0.95f);
-        if (mirrorLateral) lateral = -lateral;
-        o1 = p0 + forward * (chord * 0.33f) + right * lateral;
-        o2 = p3 - forward * (chord * 0.33f) + right * lateral;
+        float scale = Mathf.Max(d, orbitRadius, 1f);
+        float lateral = scale * Mathf.Clamp(bezierBulge, 0.05f, 0.95f);
+
+        Vector3 p0 = home;
+        Vector3 p3 = home;
+        Vector3 p1 = target + forward * (scale * 0.35f) + right * lateral;
+        Vector3 p2 = target + forward * (scale * 0.65f) - right * lateral;
+
+        int samples = Mathf.Max(8, bezierSamples);
+        for (int s = 1; s <= samples; s++)
+        {
+            float t = s / (float)samples;
+            missionPath.Add(EvaluateCubicBezier(p0, p1, p2, p3, t));
+        }
+
+        int n = missionPath.Count;
+        int third = Mathf.Max(1, n / 3);
+        outboundWaypointCount = third;
+        orbitWaypointCount = third;
+        if (outboundWaypointCount + orbitWaypointCount >= n)
+            orbitWaypointCount = Mathf.Max(0, n - outboundWaypointCount - 1);
     }
 
     static Vector3 EvaluateCubicBezier(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t)
@@ -178,17 +148,17 @@ public class DroneWaypointMission : MonoBehaviour
                 return;
             }
 
-            // Update phase (outbound leg length is outboundWaypointCount)
+            // Phases split ~thirds along the single closed curve
             if (currentWaypointIndex == outboundWaypointCount)
             {
                 hasFinishedGoToTarget = true;
-                if (orbitPoints >= 2)
+                if (orbitWaypointCount >= 1 && outboundWaypointCount + orbitWaypointCount < missionPath.Count)
                     currentPhase = MissionPhase.Orbit;
                 else
                     currentPhase = MissionPhase.ReturnHome;
                 SetGroundColor(goToTargetCompletedGroundColor);
             }
-            else if (currentWaypointIndex >= outboundWaypointCount + Mathf.Max(1, orbitPoints) - 1)
+            else if (currentWaypointIndex >= outboundWaypointCount + orbitWaypointCount)
                 currentPhase = MissionPhase.ReturnHome;
         }
     }
