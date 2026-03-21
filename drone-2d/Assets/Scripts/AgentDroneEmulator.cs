@@ -106,7 +106,7 @@ namespace YueUltimateDronePhysics
             }
 
             // Respawn on Fire 1
-            if (Input.GetButton("Fire1"))
+            if (Input.GetButton("Fire1") && !useAgentInput)
             {
                 //Reset Position & Rotation on Respawn
                 transform.position = startPos;

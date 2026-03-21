@@ -71,11 +71,13 @@ public class DroneAgent : Agent
     // Total: 3+1+3+3+6+3+1+3+1+1 = 25 observations
     public override void OnActionReceived(ActionBuffers actions)
     {
+
         // 4 continuous actions, each in [-1, 1]
         float throttle = Mathf.Clamp(actions.ContinuousActions[0], -1f, 1f);
         float roll = Mathf.Clamp(actions.ContinuousActions[1], -1f, 1f);
         float pitch = Mathf.Clamp(actions.ContinuousActions[2], -1f, 1f);
         float yaw = Mathf.Clamp(actions.ContinuousActions[3], -1f, 1f);
+
 
         if (droneInput == null)
         {
@@ -89,6 +91,24 @@ public class DroneAgent : Agent
         droneInput.agentRoll = roll;
         droneInput.agentPitch = pitch;
         droneInput.agentYaw = yaw;
+    }
+
+    public override void Heuristic(in ActionBuffers actionsOut)
+    {
+        var continuousActions = actionsOut.ContinuousActions;
+
+        // Keep the same action semantics used by training/inference:
+        // [0] throttle, [1] roll, [2] pitch, [3] yaw
+        // Jump axis is typically [0,1], so remap to [-1,1].
+        float throttle = Mathf.Clamp(Input.GetAxis("Jump") * 2f - 1f, -1f, 1f);
+        float roll = Mathf.Clamp(Input.GetAxis("Horizontal"), -1f, 1f);
+        float pitch = Mathf.Clamp(Input.GetAxis("Vertical"), -1f, 1f);
+        float yaw = Mathf.Clamp(Input.GetAxis("Yaw"), -1f, 1f);
+
+        continuousActions[0] = throttle;
+        continuousActions[1] = roll;
+        continuousActions[2] = pitch;
+        continuousActions[3] = yaw;
     }
 
     // In DroneAgent.cs — called inside OnActionReceived or a separate method
