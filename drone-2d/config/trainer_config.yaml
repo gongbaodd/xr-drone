@@ -1,0 +1,3 @@
+# Faster training with:
+time_scale: 10       # Unity will run 10x faster during training
+fixed_deltatime: 0.01 # Keep physics stable
