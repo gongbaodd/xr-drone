@@ -85,16 +85,16 @@ public class DroneAgent : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        Transform currentTarget = mission.GetCurrentTargetTransform();
+        Vector3 currentTarget = mission.GetCurrentTarget();
 
         // 1. Relative position to current waypoint (local space) — 3 floats
         Vector3 localTargetDir = droneRb.transform.InverseTransformPoint(
-            currentTarget.position);
+            currentTarget);
         sensor.AddObservation(localTargetDir / 50f); // normalized
 
         // 2. Distance to current waypoint — 1 float
         sensor.AddObservation(Vector3.Distance(
-            droneRb.position, currentTarget.position) / 100f);
+            droneRb.position, currentTarget) / 100f);
 
         // 3. Drone velocity (local space) — 3 floats
         Vector3 localVelocity = droneRb.transform.InverseTransformDirection(
@@ -177,9 +177,9 @@ private float previousDistanceToWaypoint;
 
 private void CalculateReward()
 {
-    Transform currentTarget = mission.GetCurrentTargetTransform();
+    var currentTarget = mission.GetCurrentTarget();
     float currentDistance = Vector3.Distance(
-        droneRb.position, currentTarget.position);
+        droneRb.position, currentTarget);
 
     // === REWARD 1: Progress toward current waypoint ===
     // Positive when getting closer, negative when drifting away
@@ -256,7 +256,7 @@ public override void OnEpisodeBegin()
 
     // 4. Reset tracking variables
     previousDistanceToWaypoint = Vector3.Distance(
-        startPosition, mission.GetCurrentTargetTransform().position);
+        startPosition, mission.GetCurrentTarget());
 
     // 5. (Optional) Randomize waypoint position slightly for generalization
     // targetWaypoint.position = new Vector3(

@@ -26,7 +26,6 @@ public class DroneWaypointMission : MonoBehaviour
     // Internal state
     private List<Vector3> missionPath = new List<Vector3>();
     public int currentWaypointIndex = 0;
-    private Transform currentTargetTransform;
     private bool hasFinishedGoToTarget = false;
 
     public enum MissionPhase { GoToTarget, Orbit, ReturnHome, Complete }
@@ -34,20 +33,6 @@ public class DroneWaypointMission : MonoBehaviour
 
     public MissionPhase CurrentPhase => currentPhase;
     public int TotalWaypoints => Mathf.Max(1, missionPath.Count);
-
-    public Transform GetCurrentTargetTransform()
-    {
-        if (currentTargetTransform == null)
-        {
-            var go = new GameObject("CurrentTargetTransform");
-            go.transform.SetParent(transform, false);
-            currentTargetTransform = go.transform;
-        }
-
-        // Keep this transform position in sync with the current waypoint.
-        currentTargetTransform.position = GetCurrentTarget();
-        return currentTargetTransform;
-    }
 
     void Start()
     {
@@ -62,7 +47,6 @@ public class DroneWaypointMission : MonoBehaviour
     {
         currentWaypointIndex = 0;
         currentPhase = MissionPhase.GoToTarget;
-        currentTargetTransform = null;
         hasFinishedGoToTarget = false;
         BuildMissionPath();
         ResetGroundColor();
