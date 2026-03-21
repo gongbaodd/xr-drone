@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1774098428",
+        "python_version": "3.10.12 (main, Jul  5 2023, 15:02:25) [Clang 14.0.6 ]",
+        "command_line_arguments": "/opt/miniconda3/envs/mlagents/bin/mlagents-learn config/DroneNav.yaml --run-id=eight-hreads-test-15-07 --time-scale=5",
+        "mlagents_version": "1.2.0.dev0",
+        "mlagents_envs_version": "1.2.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.10.0",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1774098432"
+    },
+    "total": 4.139580874994863,
+    "count": 1,
+    "self": 0.00815287500154227,
+    "children": {
+        "run_training.setup": {
+            "total": 0.012718332989607006,
+            "count": 1,
+            "self": 0.012718332989607006
+        },
+        "TrainerController.start_learning": {
+            "total": 4.1187096670037135,
+            "count": 1,
+            "self": 0.00016666599549353123,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 4.118397084006574,
+                    "count": 1,
+                    "self": 4.118397084006574
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00014591700164601207,
+                    "count": 1,
+                    "self": 0.00014591700164601207
+                }
+            }
+        }
+    }
+}

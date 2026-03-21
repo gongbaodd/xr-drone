@@ -154,6 +154,11 @@ private void CalculateReward()
         AddReward(-1.0f);
         EndEpisode(); // crash = episode over
     }
+    else if (droneRb.position.y > 20.0f)
+    {
+        AddReward(-2.0f);
+        EndEpisode();
+    }
 
     // === REWARD 8: Mission complete bonus ===
     if (mission.CurrentPhase == DroneWaypointMission.MissionPhase.Complete)

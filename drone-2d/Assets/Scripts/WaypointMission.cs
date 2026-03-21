@@ -14,6 +14,15 @@ public class DroneWaypointMission : MonoBehaviour
     [Header("Navigation")]
     public float waypointReachedThreshold = 3f;
 
+    [Header("Ground")]
+    public GameObject ground;
+    public Color goToTargetCompletedGroundColor = Color.blue;
+    public Color missionCompletedGroundColor = new Color(1f, 0.5f, 0f); // Orange
+
+    private Renderer groundRenderer;
+    private Color initialGroundColor = Color.white;
+    private bool hasInitialGroundColor = false;
+
     // Internal state
     private List<Vector3> missionPath = new List<Vector3>();
     public int currentWaypointIndex = 0;
@@ -42,7 +51,9 @@ public class DroneWaypointMission : MonoBehaviour
 
     void Start()
     {
+        CacheGroundRenderer();
         BuildMissionPath();
+        ResetGroundColor();
         Debug.Log("Mission started! Waypoints: " + missionPath.Count);
     }
 
@@ -54,6 +65,7 @@ public class DroneWaypointMission : MonoBehaviour
         currentTargetTransform = null;
         hasFinishedGoToTarget = false;
         BuildMissionPath();
+        ResetGroundColor();
     }
 
     void BuildMissionPath()
@@ -88,6 +100,7 @@ public class DroneWaypointMission : MonoBehaviour
         if (hasFinishedGoToTarget && IsDroneAtHome())
         {
             currentPhase = MissionPhase.Complete;
+            SetGroundColor(missionCompletedGroundColor);
             Debug.Log("=== MISSION COMPLETE (HOME REACHED) ===");
             return;
         }
@@ -102,6 +115,7 @@ public class DroneWaypointMission : MonoBehaviour
             if (currentWaypointIndex >= missionPath.Count)
             {
                 currentPhase = MissionPhase.Complete;
+                SetGroundColor(missionCompletedGroundColor);
                 Debug.Log("=== MISSION COMPLETE ===");
                 return;
             }
@@ -111,10 +125,46 @@ public class DroneWaypointMission : MonoBehaviour
             {
                 hasFinishedGoToTarget = true;
                 currentPhase = MissionPhase.Orbit;
+                SetGroundColor(goToTargetCompletedGroundColor);
             }
             else if (currentWaypointIndex >= 1 + orbitPoints)
                 currentPhase = MissionPhase.ReturnHome;
         }
+    }
+
+    void CacheGroundRenderer()
+    {
+        if (ground == null) return;
+
+        groundRenderer = ground.GetComponent<Renderer>();
+        if (groundRenderer == null)
+            groundRenderer = ground.GetComponentInChildren<Renderer>();
+
+        if (groundRenderer != null)
+        {
+            initialGroundColor = groundRenderer.material.color;
+            hasInitialGroundColor = true;
+        }
+    }
+
+    void ResetGroundColor()
+    {
+        if (groundRenderer == null)
+            CacheGroundRenderer();
+
+        if (groundRenderer == null) return;
+        if (!hasInitialGroundColor) return;
+
+        SetGroundColor(initialGroundColor);
+    }
+
+    void SetGroundColor(Color color)
+    {
+        if (groundRenderer == null)
+            CacheGroundRenderer();
+
+        if (groundRenderer == null) return;
+        groundRenderer.material.color = color;
     }
 
     public Vector3 GetCurrentTarget()

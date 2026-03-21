@@ -1,5 +1,5 @@
 behaviors:
-  DroneNav:
+  DroneAgent:
     trainer_type: ppo
     hyperparameters:
       batch_size: 2048
@@ -24,5 +24,3 @@ behaviors:
     summary_freq: 25000
     keep_checkpoints: 5
     checkpoint_interval: 250000
-    time_scale: 10       # Unity will run 10x faster during training
-    fixed_deltatime: 0.01 # Keep physics stable
