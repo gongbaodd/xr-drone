@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Training Area (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6826742402556627817, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -404,6 +408,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Training Area (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6826742402556627817, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -460,6 +468,10 @@ PrefabInstance:
     - target: {fileID: 6826742402556627817, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
       propertyPath: m_Name
       value: Training Area (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6826742402556627817, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -518,6 +530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Training Area (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6826742402556627817, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -574,6 +590,10 @@ PrefabInstance:
     - target: {fileID: 6826742402556627817, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
       propertyPath: m_Name
       value: Training Area (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6826742402556627817, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -632,6 +652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Training Area (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6826742402556627817, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -689,6 +713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Training Area (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6826742402556627817, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -741,6 +769,10 @@ PrefabInstance:
     - target: {fileID: 399617581619130739, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987669845545108646, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6826742402556627817, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
       propertyPath: m_Name
