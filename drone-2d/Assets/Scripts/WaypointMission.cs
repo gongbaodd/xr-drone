@@ -25,6 +25,12 @@ public class DroneWaypointMission : MonoBehaviour
 
     [Header("Navigation")]
     public float waypointReachedThreshold = 3f;
+    [Tooltip("3D distance from home must exceed (threshold × this) before 'left home' is set. Must be greater than home arrival multiplier.")]
+    [Min(1.5f)]
+    public float minDepartureDistanceMultiplier = 3f;
+    [Tooltip("Mission can complete on return when 3D distance to home is below (threshold × this). Must be less than departure multiplier.")]
+    [Min(1f)]
+    public float homeArrivalRadiusMultiplier = 2f;
 
     [Header("Ground")]
     public GameObject ground;
@@ -35,6 +41,8 @@ public class DroneWaypointMission : MonoBehaviour
     private Color initialGroundColor = Color.white;
     private bool hasInitialGroundColor = false;
 
+    private Rigidbody droneBody;
+
     // Internal state
     private List<Vector3> missionPath = new List<Vector3>();
     /// <summary>Waypoint count for the first third of the loop — phase transitions.</summary>
@@ -42,7 +50,7 @@ public class DroneWaypointMission : MonoBehaviour
     private int orbitWaypointCount = 0;
     public int currentWaypointIndex = 0;
     private bool hasFinishedGoToTarget = false;
-    /// <summary>True after the drone moves beyond <see cref="waypointReachedThreshold"/> of home.</summary>
+    /// <summary>True after the drone moves beyond the departure radius (see <see cref="minDepartureDistanceMultiplier"/>).</summary>
     private bool hasLeftHome = false;
 
     public enum MissionPhase { GoToTarget, Orbit, ReturnHome, Complete }
@@ -52,6 +60,11 @@ public class DroneWaypointMission : MonoBehaviour
     public int TotalWaypoints => Mathf.Max(1, missionPath.Count);
     /// <summary>Mission is underway only after the drone has left the home position.</summary>
     public bool MissionStarted => hasLeftHome;
+
+    void Awake()
+    {
+        droneBody = GetComponent<Rigidbody>();
+    }
 
     void Start()
     {
@@ -128,14 +141,14 @@ public class DroneWaypointMission : MonoBehaviour
     {
         if (currentPhase == MissionPhase.Complete) return;
 
-        if (!hasLeftHome && !IsDroneAtHome())
+        if (!hasLeftHome && HasDepartedHome())
             hasLeftHome = true;
 
-        // Require full path before "home": first Bezier samples sit near P0, so otherwise
-        // reaching waypoint 0 can still be within threshold of homePoint.
-        if (hasLeftHome && IsDroneAtHome()
-            && missionPath.Count > 0
-            && currentWaypointIndex >= missionPath.Count)
+        // Hysteresis: departure radius > arrival radius so "left home" cannot fire at the same
+        // time as "returned home" (loose XZ-only checks caused instant complete on takeoff).
+        // Complete when: (1) departed, then re-enter inner 3D home sphere, or (2) all waypoints.
+        if (hasLeftHome && missionPath.Count > 0
+            && (IsReturnedHomeForMission() || currentWaypointIndex >= missionPath.Count))
         {
             currentPhase = MissionPhase.Complete;
             SetGroundColor(missionCompletedGroundColor);
@@ -147,7 +160,7 @@ public class DroneWaypointMission : MonoBehaviour
             return;
 
         // Check if drone reached the current waypoint
-        float dist = Vector3.Distance(transform.position, GetCurrentTarget());
+        float dist = Vector3.Distance(DronePosition(), GetCurrentTarget());
         if (dist < waypointReachedThreshold)
         {
             currentWaypointIndex++;
@@ -210,9 +223,27 @@ public class DroneWaypointMission : MonoBehaviour
         return homePoint.position;
     }
 
-    bool IsDroneAtHome()
+    Vector3 DronePosition()
     {
-        return Vector3.Distance(transform.position, homePoint.position) < waypointReachedThreshold;
+        return droneBody != null ? droneBody.position : transform.position;
+    }
+
+    float DistanceToHome3D()
+    {
+        if (homePoint == null) return float.PositiveInfinity;
+        return Vector3.Distance(DronePosition(), homePoint.position);
+    }
+
+    bool HasDepartedHome()
+    {
+        float outer = waypointReachedThreshold * minDepartureDistanceMultiplier;
+        return DistanceToHome3D() > outer;
+    }
+
+    bool IsReturnedHomeForMission()
+    {
+        float inner = waypointReachedThreshold * homeArrivalRadiusMultiplier;
+        return DistanceToHome3D() < inner;
     }
 
     // Draw the waypoint path in the Scene view so you can see it
@@ -230,6 +261,12 @@ public class DroneWaypointMission : MonoBehaviour
             Gizmos.DrawSphere(missionPath[i], 0.5f);
         }
         Gizmos.DrawSphere(missionPath[missionPath.Count - 1], 0.5f);
+
+        // Reach radius (same as distance check in Update) — wire "collider" per waypoint
+        Gizmos.color = new Color(0.4f, 0.85f, 1f, 1f);
+        float reachR = waypointReachedThreshold;
+        for (int i = 0; i < missionPath.Count; i++)
+            Gizmos.DrawWireSphere(missionPath[i], reachR);
 
         // Draw current target in red
         if (currentWaypointIndex < missionPath.Count)
