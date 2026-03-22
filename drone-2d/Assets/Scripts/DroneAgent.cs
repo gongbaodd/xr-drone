@@ -19,9 +19,18 @@ public class DroneAgent : Agent
     [SerializeField] private bool showRewardOnCanvas = true;
     [SerializeField] private Text rewardText;
 
-    // Cache
+    [Header("Rewards")]
+    [SerializeField] private float waypointReward = 2f;
+    [SerializeField] private float progressPerMeter = 0.5f;
+    [SerializeField] private float livingCostPerSecond = 0.02f;
+    [SerializeField] private float minYEndEpisode = 0.1f;
+    [SerializeField] private float maxYEndEpisode = 25f;
+
     private Vector3 startPosition;
     private Quaternion startRotation;
+    private float prevDistToTarget;
+    private int prevWaypointIndex;
+    private bool gaveMissionCompleteReward;
 
     public override void Initialize()
     {
@@ -37,9 +46,47 @@ public class DroneAgent : Agent
 
     private void LateUpdate()
     {
-        if (!showRewardOnCanvas || rewardText == null)
-            return;
-        rewardText.text = $"Reward: {GetCumulativeReward():F2}";
+        // After DroneWaypointMission.Update — waypoint index is up to date.
+        ApplyRewards();
+
+        if (showRewardOnCanvas && rewardText != null)
+            rewardText.text = $"Reward: {GetCumulativeReward():F2}";
+    }
+
+    private void ApplyRewards()
+    {
+        Vector3 target = mission.GetCurrentTarget();
+        float dist = Vector3.Distance(droneRb.position, target);
+        float dt = Time.deltaTime;
+
+        if (mission.currentWaypointIndex > prevWaypointIndex)
+        {
+            AddReward(waypointReward * (mission.currentWaypointIndex - prevWaypointIndex));
+            prevWaypointIndex = mission.currentWaypointIndex;
+        }
+
+        AddReward((prevDistToTarget - dist) * progressPerMeter);
+        AddReward(-livingCostPerSecond * dt);
+
+        if (droneRb.position.y < minYEndEpisode)
+        {
+            AddReward(-1f);
+            EndEpisode();
+        }
+        else if (droneRb.position.y > maxYEndEpisode)
+        {
+            AddReward(-2f);
+            EndEpisode();
+        }
+        else if (mission.CurrentPhase == DroneWaypointMission.MissionPhase.Complete
+                 && !gaveMissionCompleteReward)
+        {
+            gaveMissionCompleteReward = true;
+            AddReward(scorer.CalculateScore() * 0.1f);
+            EndEpisode();
+        }
+
+        prevDistToTarget = dist;
     }
 
     private static Text CreateOrFindRewardText()
@@ -87,57 +134,44 @@ public class DroneAgent : Agent
     {
         Vector3 currentTarget = mission.GetCurrentTarget();
 
-        // 1. Relative position to current waypoint (local space) — 3 floats
         Vector3 localTargetDir = droneRb.transform.InverseTransformPoint(
             currentTarget);
-        sensor.AddObservation(localTargetDir / 50f); // normalized
+        sensor.AddObservation(localTargetDir / 50f);
 
-        // 2. Distance to current waypoint — 1 float
         sensor.AddObservation(Vector3.Distance(
             droneRb.position, currentTarget) / 100f);
 
-        // 3. Drone velocity (local space) — 3 floats
         Vector3 localVelocity = droneRb.transform.InverseTransformDirection(
             droneRb.linearVelocity);
         sensor.AddObservation(localVelocity / 20f);
 
-        // 4. Drone angular velocity (local space) — 3 floats
         Vector3 localAngVel = droneRb.transform.InverseTransformDirection(
             droneRb.angularVelocity);
         sensor.AddObservation(localAngVel / 10f);
 
-        // 5. Drone orientation (forward + up vectors) — 6 floats
         sensor.AddObservation(droneRb.transform.forward);
         sensor.AddObservation(droneRb.transform.up);
 
-        // 6. Mission phase (one-hot: GoToTarget, Orbit, ReturnHome) — 3 floats
         sensor.AddOneHotObservation((int)mission.CurrentPhase, 3);
 
-        // 7. Waypoint progress — 1 float
         sensor.AddObservation(
             (float)mission.currentWaypointIndex / mission.TotalWaypoints);
 
-        // 8. Relative position to home (local space) — 3 floats
         Vector3 localHome = droneRb.transform.InverseTransformPoint(
             homePoint.position);
         sensor.AddObservation(localHome / 50f);
 
-        // 9. Current altitude — 1 float
         sensor.AddObservation(droneRb.position.y / 50f);
 
-        // 10. Speed scalar — 1 float
         sensor.AddObservation(droneRb.linearVelocity.magnitude / 20f);
     }
-    // Total: 3+1+3+3+6+3+1+3+1+1 = 25 observations
+
     public override void OnActionReceived(ActionBuffers actions)
     {
-
-        // 4 continuous actions, each in [-1, 1]
         float throttle = Mathf.Clamp(actions.ContinuousActions[0], -1f, 1f);
         float roll = Mathf.Clamp(actions.ContinuousActions[1], -1f, 1f);
         float pitch = Mathf.Clamp(actions.ContinuousActions[2], -1f, 1f);
         float yaw = Mathf.Clamp(actions.ContinuousActions[3], -1f, 1f);
-
 
         if (droneInput == null)
         {
@@ -145,7 +179,6 @@ public class DroneAgent : Agent
             return;
         }
 
-        // Feed ML actions into Yue's InputModule through the emulator.
         droneInput.SetUseAgentInput(true);
         droneInput.agentThrottle = throttle;
         droneInput.agentRoll = roll;
@@ -157,9 +190,6 @@ public class DroneAgent : Agent
     {
         var continuousActions = actionsOut.ContinuousActions;
 
-        // Keep the same action semantics used by training/inference:
-        // [0] throttle, [1] roll, [2] pitch, [3] yaw
-        // Jump axis is typically [0,1], so remap to [-1,1].
         float throttle = Mathf.Clamp(Input.GetAxis("Jump") * 2f - 1f, -1f, 1f);
         float roll = Mathf.Clamp(Input.GetAxis("Horizontal"), -1f, 1f);
         float pitch = Mathf.Clamp(Input.GetAxis("Vertical"), -1f, 1f);
@@ -171,98 +201,27 @@ public class DroneAgent : Agent
         continuousActions[3] = yaw;
     }
 
-    // In DroneAgent.cs — called inside OnActionReceived or a separate method
-
-private float previousDistanceToWaypoint;
-
-private void CalculateReward()
-{
-    var currentTarget = mission.GetCurrentTarget();
-    float currentDistance = Vector3.Distance(
-        droneRb.position, currentTarget);
-
-    // === REWARD 1: Progress toward current waypoint ===
-    // Positive when getting closer, negative when drifting away
-    float progressReward = (previousDistanceToWaypoint - currentDistance) * 0.1f;
-    AddReward(progressReward);
-
-    // === REWARD 2: Waypoint reached bonus ===
-    // (Call this from mission callback when waypoint index advances)
-    // AddReward(+2.0f) per waypoint reached — see Step 7
-
-    // === REWARD 3: Smoothness penalty (per-step) ===
-    float angularVelMag = droneRb.angularVelocity.magnitude;
-    float smoothnessPenalty = -0.001f * angularVelMag;
-    AddReward(smoothnessPenalty);
-
-    // === REWARD 4: Excessive tilt penalty ===
-    float tiltAngle = Vector3.Angle(Vector3.up, droneRb.transform.up);
-    if (tiltAngle > 45f)
+    private void OnCollisionEnter(Collision collision)
     {
-        AddReward(-0.005f * (tiltAngle - 45f) / 45f);
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            AddReward(-2f);
+            EndEpisode();
+        }
     }
 
-    // === REWARD 5: Time penalty (encourage efficiency) ===
-    AddReward(-0.001f); // small constant penalty per step
-
-    // === REWARD 6: Collision penalty ===
-    // Handled in OnCollisionEnter
-
-    // === REWARD 7: Altitude penalty (don't crash into ground) ===
-    if (droneRb.position.y < 1.0f)
+    public override void OnEpisodeBegin()
     {
-        AddReward(-1.0f);
-        EndEpisode(); // crash = episode over
+        droneRb.transform.position = startPosition;
+        droneRb.transform.rotation = startRotation;
+        droneRb.linearVelocity = Vector3.zero;
+        droneRb.angularVelocity = Vector3.zero;
+
+        mission.ResetMission();
+        scorer.ResetScorer();
+
+        prevWaypointIndex = mission.currentWaypointIndex;
+        prevDistToTarget = Vector3.Distance(startPosition, mission.GetCurrentTarget());
+        gaveMissionCompleteReward = false;
     }
-    else if (droneRb.position.y > 20.0f)
-    {
-        AddReward(-2.0f);
-        EndEpisode();
-    }
-
-    // === REWARD 8: Mission complete bonus ===
-    if (mission.CurrentPhase == DroneWaypointMission.MissionPhase.Complete)
-    {
-        float finalScore = scorer.CalculateScore(); // 0-100
-        AddReward(finalScore / 10f); // scale to ~0-10 range
-        EndEpisode();
-    }
-
-    previousDistanceToWaypoint = currentDistance;
-}
-
-private void OnCollisionEnter(Collision collision)
-{
-    if (collision.gameObject.CompareTag("Obstacle"))
-    {
-        AddReward(-2.0f);
-        EndEpisode();
-    }
-}
-
-public override void OnEpisodeBegin()
-{
-    // 1. Reset drone position and physics
-    droneRb.transform.position = startPosition;
-    droneRb.transform.rotation = startRotation;
-    droneRb.linearVelocity = Vector3.zero;
-    droneRb.angularVelocity = Vector3.zero;
-
-    // 2. Reset the mission state machine
-    mission.ResetMission();
-
-    // 3. Reset the scorer
-    scorer.ResetScorer();
-
-    // 4. Reset tracking variables
-    previousDistanceToWaypoint = Vector3.Distance(
-        startPosition, mission.GetCurrentTarget());
-
-    // 5. (Optional) Randomize waypoint position slightly for generalization
-    // targetWaypoint.position = new Vector3(
-    //     20 + Random.Range(-5f, 5f),
-    //     10 + Random.Range(-3f, 3f),
-    //     30 + Random.Range(-5f, 5f));
-    // mission.RebuildPath();
-}
 }

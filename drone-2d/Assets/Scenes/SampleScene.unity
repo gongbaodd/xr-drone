@@ -802,6 +802,10 @@ PrefabInstance:
       propertyPath: waypointReachedThreshold
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5738657869891069455, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
+      propertyPath: minYEndEpisode
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 6826742402556627817, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
       propertyPath: m_Name
       value: Training Area

@@ -131,8 +131,11 @@ public class DroneWaypointMission : MonoBehaviour
         if (!hasLeftHome && !IsDroneAtHome())
             hasLeftHome = true;
 
-        // Complete only after leaving home, then returning within threshold of home.
-        if (hasLeftHome && IsDroneAtHome())
+        // Require full path before "home": first Bezier samples sit near P0, so otherwise
+        // reaching waypoint 0 can still be within threshold of homePoint.
+        if (hasLeftHome && IsDroneAtHome()
+            && missionPath.Count > 0
+            && currentWaypointIndex >= missionPath.Count)
         {
             currentPhase = MissionPhase.Complete;
             SetGroundColor(missionCompletedGroundColor);
