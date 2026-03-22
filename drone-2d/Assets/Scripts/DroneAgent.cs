@@ -23,6 +23,8 @@ public class DroneAgent : Agent
     [SerializeField] private float waypointReward = 2f;
     [SerializeField] private float progressPerMeter = 0.5f;
     [SerializeField] private float livingCostPerSecond = 0.02f;
+    [Tooltip("Per-second reward scaled by horizontal heading alignment (yaw toward target). GoToTarget/Orbit: current waypoint; ReturnHome: home.")]
+    [SerializeField] private float headingAlignmentRewardPerSecond = 0.15f;
     [SerializeField] private float minYEndEpisode = 0.1f;
     [SerializeField] private float maxYEndEpisode = 25f;
 
@@ -68,6 +70,18 @@ public class DroneAgent : Agent
         AddReward((prevDistToTarget - dist) * progressPerMeter);
         AddReward(-livingCostPerSecond * dt);
 
+        var phase = mission.CurrentPhase;
+        if (phase == DroneWaypointMission.MissionPhase.GoToTarget
+            || phase == DroneWaypointMission.MissionPhase.Orbit
+            || phase == DroneWaypointMission.MissionPhase.ReturnHome)
+        {
+            Vector3 lookAt = phase == DroneWaypointMission.MissionPhase.ReturnHome
+                ? homePoint.position
+                : mission.GetCurrentTarget();
+            float align = HorizontalHeadingAlignment01(droneRb.transform.forward, droneRb.position, lookAt);
+            AddReward(align * headingAlignmentRewardPerSecond * dt);
+        }
+
         if (droneRb.position.y < minYEndEpisode)
         {
             AddReward(-1f);
@@ -87,6 +101,26 @@ public class DroneAgent : Agent
         }
 
         prevDistToTarget = dist;
+    }
+
+    /// <summary>
+    /// 0..1 from horizontal forward vs. direction to point (yaw toward waypoint / home); 0 if no horizontal offset.
+    /// </summary>
+    static float HorizontalHeadingAlignment01(Vector3 forward, Vector3 from, Vector3 to)
+    {
+        Vector3 flatF = forward;
+        flatF.y = 0f;
+        if (flatF.sqrMagnitude < 1e-8f)
+            return 0f;
+        flatF.Normalize();
+
+        Vector3 flatDir = to - from;
+        flatDir.y = 0f;
+        if (flatDir.sqrMagnitude < 1e-8f)
+            return 1f;
+        flatDir.Normalize();
+
+        return Mathf.Max(0f, Vector3.Dot(flatF, flatDir));
     }
 
     private static Text CreateOrFindRewardText()
