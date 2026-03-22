@@ -246,6 +246,19 @@ public class DroneWaypointMission : MonoBehaviour
         return DistanceToHome3D() < inner;
     }
 
+    /// <summary>
+    /// Horizontal distance to <see cref="targetWaypoint"/> within <see cref="waypointReachedThreshold"/> (e.g. ground crash at the goal).
+    /// </summary>
+    public bool IsNearWorldTargetWaypoint(Vector3 worldPosition)
+    {
+        if (targetWaypoint == null) return false;
+        Vector3 t = targetWaypoint.position;
+        float dx = worldPosition.x - t.x;
+        float dz = worldPosition.z - t.z;
+        float r = waypointReachedThreshold;
+        return dx * dx + dz * dz <= r * r;
+    }
+
     // Draw the waypoint path in the Scene view so you can see it
     void OnDrawGizmos()
     {

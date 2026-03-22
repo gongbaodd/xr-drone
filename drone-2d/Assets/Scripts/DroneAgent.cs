@@ -27,6 +27,8 @@ public class DroneAgent : Agent
     [SerializeField] private float headingAlignmentRewardPerSecond = 0.15f;
     [SerializeField] private float minYEndEpisode = 0.1f;
     [SerializeField] private float maxYEndEpisode = 25f;
+    [Tooltip("Penalty when the episode ends because the drone hit the ground near the mission target waypoint.")]
+    [SerializeField] private float crashOnTargetWaypointReward = -20f;
 
     private Vector3 startPosition;
     private Quaternion startRotation;
@@ -84,7 +86,10 @@ public class DroneAgent : Agent
 
         if (droneRb.position.y < minYEndEpisode)
         {
-            AddReward(-1f);
+            if (mission.IsNearWorldTargetWaypoint(droneRb.position))
+                AddReward(crashOnTargetWaypointReward);
+            else
+                AddReward(-1f);
             EndEpisode();
         }
         else if (droneRb.position.y > maxYEndEpisode)
