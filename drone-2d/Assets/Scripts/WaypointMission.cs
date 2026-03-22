@@ -122,7 +122,8 @@ public class DroneWaypointMission : MonoBehaviour
         int n = missionPath.Count;
         int third = Mathf.Max(1, n / 3);
         outboundWaypointCount = third;
-        orbitWaypointCount = third;
+        // Orbit gets one extra sample vs a strict third so the drone crosses one more path point before return.
+        orbitWaypointCount = third + 1;
         if (outboundWaypointCount + orbitWaypointCount >= n)
             orbitWaypointCount = Mathf.Max(0, n - outboundWaypointCount - 1);
     }

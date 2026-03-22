@@ -911,7 +911,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6765868748783906929}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!114 &1448413931381274736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1387,8 +1387,12 @@ MonoBehaviour:
   homePoint: {fileID: 4418376662546335173}
   targetWaypoint: {fileID: 6911967573235066784}
   orbitRadius: 3
-  orbitPoints: 4
+  orbitPoints: 2
+  bezierSamples: 8
+  bezierBulge: 0.771
   waypointReachedThreshold: 1
+  minDepartureDistanceMultiplier: 3
+  homeArrivalRadiusMultiplier: 2
   ground: {fileID: 6612692218102959727}
   goToTargetCompletedGroundColor: {r: 0, g: 0, b: 1, a: 1}
   missionCompletedGroundColor: {r: 1, g: 0.5, b: 0, a: 1}
@@ -1480,3 +1484,12 @@ MonoBehaviour:
   scorer: {fileID: 2557395035679431081}
   homePoint: {fileID: 4418376662546335173}
   droneInput: {fileID: 8881663138709787553}
+  showRewardOnCanvas: 1
+  rewardText: {fileID: 0}
+  waypointReward: 20
+  progressPerMeter: 2
+  livingCostPerSecond: 0.02
+  headingAlignmentRewardPerSecond: 1
+  minYEndEpisode: 0
+  maxYEndEpisode: 10
+  crashOnTargetWaypointReward: -20
