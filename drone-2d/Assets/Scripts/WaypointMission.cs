@@ -42,19 +42,23 @@ public class DroneWaypointMission : MonoBehaviour
     private int orbitWaypointCount = 0;
     public int currentWaypointIndex = 0;
     private bool hasFinishedGoToTarget = false;
+    /// <summary>True after the drone moves beyond <see cref="waypointReachedThreshold"/> of home.</summary>
+    private bool hasLeftHome = false;
 
     public enum MissionPhase { GoToTarget, Orbit, ReturnHome, Complete }
     public MissionPhase currentPhase = MissionPhase.GoToTarget;
 
     public MissionPhase CurrentPhase => currentPhase;
     public int TotalWaypoints => Mathf.Max(1, missionPath.Count);
+    /// <summary>Mission is underway only after the drone has left the home position.</summary>
+    public bool MissionStarted => hasLeftHome;
 
     void Start()
     {
         CacheGroundRenderer();
         BuildMissionPath();
         ResetGroundColor();
-        Debug.Log("Mission started! Waypoints: " + missionPath.Count);
+        Debug.Log("Waypoint path ready (" + missionPath.Count + " points). Mission starts when the drone leaves home.");
     }
 
     // Called by `DroneAgent` between episodes to rebuild internal mission state.
@@ -63,6 +67,7 @@ public class DroneWaypointMission : MonoBehaviour
         currentWaypointIndex = 0;
         currentPhase = MissionPhase.GoToTarget;
         hasFinishedGoToTarget = false;
+        hasLeftHome = false;
         BuildMissionPath();
         ResetGroundColor();
     }
@@ -123,9 +128,11 @@ public class DroneWaypointMission : MonoBehaviour
     {
         if (currentPhase == MissionPhase.Complete) return;
 
-        // Mission completes only if the drone has already reached the target once
-        // and is now back at home.
-        if (hasFinishedGoToTarget && IsDroneAtHome())
+        if (!hasLeftHome && !IsDroneAtHome())
+            hasLeftHome = true;
+
+        // Complete only after leaving home, then returning within threshold of home.
+        if (hasLeftHome && IsDroneAtHome())
         {
             currentPhase = MissionPhase.Complete;
             SetGroundColor(missionCompletedGroundColor);
@@ -133,20 +140,15 @@ public class DroneWaypointMission : MonoBehaviour
             return;
         }
 
+        if (currentWaypointIndex >= missionPath.Count)
+            return;
+
         // Check if drone reached the current waypoint
         float dist = Vector3.Distance(transform.position, GetCurrentTarget());
         if (dist < waypointReachedThreshold)
         {
             currentWaypointIndex++;
             Debug.Log("Reached waypoint " + currentWaypointIndex + " / " + missionPath.Count);
-
-            if (currentWaypointIndex >= missionPath.Count)
-            {
-                currentPhase = MissionPhase.Complete;
-                SetGroundColor(missionCompletedGroundColor);
-                Debug.Log("=== MISSION COMPLETE ===");
-                return;
-            }
 
             // Phases split ~thirds along the single closed curve
             if (currentWaypointIndex == outboundWaypointCount)

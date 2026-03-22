@@ -33,6 +33,7 @@ public class FlightScorer : MonoBehaviour
     private bool scored = false;
     private float completionTime;
     private float finalScore = -1f;
+    private bool missionClockStarted = false;
 
     void Start()
     {
@@ -47,6 +48,14 @@ public class FlightScorer : MonoBehaviour
     {
         if (scored) return;
         if (mission == null) return;
+
+        if (mission.MissionStarted && !missionClockStarted)
+        {
+            missionClockStarted = true;
+            missionStartTime = Time.time;
+        }
+        if (!mission.MissionStarted)
+            return;
 
         // --- Sample path deviation ---
         Vector3 target = mission.GetCurrentTarget();
@@ -183,6 +192,7 @@ public class FlightScorer : MonoBehaviour
         completionTime = 0f;
         finalScore = -1f;
         finalDisplayScore = -1f;
+        missionClockStarted = false;
 
         if (droneRigidbody == null)
             droneRigidbody = GetComponent<Rigidbody>();
