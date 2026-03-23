@@ -434,17 +434,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f686cec1d263e4f40a7259cd68f0f0ce, type: 3}
---- !u!114 &471660876 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3507129856291540883, guid: f686cec1d263e4f40a7259cd68f0f0ce, type: 3}
-  m_PrefabInstance: {fileID: 4851499704323121694}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28faaea7ed60e4224a6e6f0881532eee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HoverScorer
 --- !u!1001 &723695261
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1142,6 +1131,10 @@ PrefabInstance:
     - target: {fileID: 3507129856291540883, guid: f686cec1d263e4f40a7259cd68f0f0ce, type: 3}
       propertyPath: targetHeight
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953105417877376053, guid: f686cec1d263e4f40a7259cd68f0f0ce, type: 3}
+      propertyPath: maxEpisodeTime
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7068138384181861894, guid: f686cec1d263e4f40a7259cd68f0f0ce, type: 3}
       propertyPath: m_Name

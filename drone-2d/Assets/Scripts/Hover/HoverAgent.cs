@@ -35,7 +35,10 @@ public class DroneHoverAgent : Agent
     [SerializeField] float verticalVelocityDampingInBand = 0f;
 
     [Header("Episode")]
-    [Tooltip("If ≤ 0, no timeout. Otherwise episode ends after this many seconds.")]
+    [Tooltip(
+        "If ≤ 0, no timeout. Otherwise episode ends after this many simulated seconds. " +
+        "Default rewards (10 + 0.5/s in band) make a 60s cap land near cumulative reward ~40; that is timeout, not a crash. " +
+        "Use 0 for endless inference.")]
     public float maxEpisodeTime = 0f;
     [Tooltip("Episode ends if height goes below this value.")]
     public float failHeightLow = 0.2f;
@@ -48,6 +51,9 @@ public class DroneHoverAgent : Agent
     Quaternion startRotation;
     float episodeTimer;
     bool firstArrivalBonusClaimed;
+
+    // Physics steps per decision (from DecisionRequester); scales dt for reward and episode timer.
+    int decisionPeriodCached = 1;
 
     HoverScorer hoverScorer;
 
@@ -71,6 +77,9 @@ public class DroneHoverAgent : Agent
     void Awake()
     {
         hoverScorer = GetComponent<HoverScorer>();
+        var decisionRequester = GetComponent<DecisionRequester>();
+        if (decisionRequester != null && decisionRequester.DecisionPeriod > 0)
+            decisionPeriodCached = decisionRequester.DecisionPeriod;
         if (showRewardOnCanvas && rewardText == null)
             rewardText = CreateOrFindRewardText();
     }
@@ -123,7 +132,7 @@ public class DroneHoverAgent : Agent
         float y = transform.position.y;
         float heightError = Mathf.Abs(y - TargetH);
         bool inBand = heightError <= Radius;
-        float dt = Time.fixedDeltaTime;
+        float dt = Time.fixedDeltaTime * decisionPeriodCached;
 
         if (!firstArrivalBonusClaimed && inBand)
         {
