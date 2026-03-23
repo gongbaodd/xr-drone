@@ -308,22 +308,6 @@ MonoBehaviour:
   maxEpisodeTime: 10
   failHeightLow: 0.2
   failHeight: 50
---- !u!114 &471660871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471660863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 570fdbe3784ac458c946b0de2a74c9e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HeightIndicator
-  hoverAgent: {fileID: 471660870}
-  showIndicator: 1
-  quadSize: 4
-  color: {r: 0.25, g: 0.85, b: 1, a: 0.45}
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,9 +805,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2378016171709050836, guid: 74ce8ff407d354ce088c892f09cff9f8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 471660869}
-    - targetCorrespondingSourceObject: {fileID: 2378016171709050836, guid: 74ce8ff407d354ce088c892f09cff9f8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 471660871}
   m_SourcePrefab: {fileID: 100100000, guid: 74ce8ff407d354ce088c892f09cff9f8, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
