@@ -10,6 +10,9 @@ public class HeightIndicator : MonoBehaviour
     [Header("Source")]
     [SerializeField] HoverScorer hoverScorer;
 
+    [Header("Ground")]
+    public GameObject ground;
+
     [Tooltip("Used only if HoverScorer is missing.")]
     public float targetHeight = 3f;
     [Tooltip("Used only if HoverScorer is missing.")]
@@ -25,12 +28,66 @@ public class HeightIndicator : MonoBehaviour
     public Color topBandColor = new Color(1f, 0.45f, 0.2f, 1f);
     public Color bottomBandColor = new Color(1f, 0.85f, 0.2f, 1f);
 
+    [Tooltip("Drone height at or above (target − margin) counts as having reached target height.")]
+    [SerializeField] float reachTargetHeightMargin = 0.02f;
+    [Tooltip("If height drops below this (e.g. episode reset to ground), reach state resets.")]
+    [SerializeField] float reachResetBelowHeight = 1f;
+
+    Renderer _groundRenderer;
+    Color _groundColorBeforeReach;
+    bool _hasReachedTargetHeight;
+
     float TargetH => hoverScorer != null ? hoverScorer.targetHeight : targetHeight;
 
     float Radius => Mathf.Max(hoverScorer != null ? hoverScorer.acceptableRadius : acceptableRadius, 1e-6f);
 
     float BandTop => TargetH + Radius;
     float BandBottom => TargetH - Radius;
+
+    void Awake()
+    {
+        if (ground != null)
+        {
+            _groundRenderer = ground.GetComponent<Renderer>();
+            if (_groundRenderer != null)
+                _groundColorBeforeReach = _groundRenderer.material.color;
+        }
+    }
+
+    void LateUpdate()
+    {
+        if (_groundRenderer == null)
+            return;
+
+        if (hoverScorer == null)
+            hoverScorer = GetComponent<HoverScorer>();
+
+        float y = hoverScorer != null ? hoverScorer.transform.position.y : transform.position.y;
+
+        if (y < reachResetBelowHeight)
+            _hasReachedTargetHeight = false;
+
+        if (!_hasReachedTargetHeight)
+        {
+            if (y >= TargetH - reachTargetHeightMargin)
+                _hasReachedTargetHeight = true;
+            else
+            {
+                _groundRenderer.material.color = _groundColorBeforeReach;
+                return;
+            }
+        }
+
+        Color c;
+        if (y > BandTop)
+            c = topBandColor;
+        else if (y < BandBottom)
+            c = bottomBandColor;
+        else
+            c = targetColor;
+
+        _groundRenderer.material.color = c;
+    }
 
     void OnDrawGizmos()
     {
