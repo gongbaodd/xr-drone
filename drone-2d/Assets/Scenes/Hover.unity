@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.Policies.BehaviorParameters
   m_BrainParameters:
-    VectorObservationSize: 4
+    VectorObservationSize: 2
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 1
@@ -307,7 +307,7 @@ MonoBehaviour:
   hoverScorer: {fileID: 0}
   targetHeight: 10
   acceptableRadius: 2
-  maxEpisodeTime: 10
+  maxEpisodeTime: 0
   failHeightLow: 0.2
   failHeight: 50
 --- !u!114 &471660872 stripped
