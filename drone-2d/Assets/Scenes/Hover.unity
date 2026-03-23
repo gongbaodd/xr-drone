@@ -366,14 +366,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570fdbe3784ac458c946b0de2a74c9e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HeightIndicator
-  hoverScorer: {fileID: 0}
+  hoverScorer: {fileID: 471660876}
   targetHeight: 3
   acceptableRadius: 0.5
-  showIndicator: 1
-  quadSize: 4
-  targetColor: {r: 0.25, g: 0.85, b: 1, a: 0.039215688}
-  topBandColor: {r: 1, g: 0.45, b: 0.2, a: 0.039215688}
-  bottomBandColor: {r: 1, g: 0.85, b: 0.2, a: 0.039215688}
+  drawGizmos: 1
+  gizmoSize: 4
+  targetColor: {r: 0.25, g: 0.85, b: 1, a: 1}
+  topBandColor: {r: 1, g: 0.45, b: 0.2, a: 1}
+  bottomBandColor: {r: 1, g: 0.85, b: 0.2, a: 1}
 --- !u!1 &1359530377
 GameObject:
   m_ObjectHideFlags: 0

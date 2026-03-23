@@ -62,7 +62,6 @@ public class DroneHoverAgent : Agent
 
         if (hoverScorer == null)
             hoverScorer = GetComponent<HoverScorer>();
-        hoverScorer?.StartScoring();
     }
 
     // --- OBSERVATIONS (4 floats) ---
@@ -99,7 +98,7 @@ public class DroneHoverAgent : Agent
         droneInput.agentThrottle = throttleNormalized;
 
         float y = transform.position.y;
-        // --- REWARDS (same height space & band as HoverScorer) ---
+        // --- REWARDS (height vs HoverScorer / fallback) ---
         float heightError = Mathf.Abs(y - TargetH);
         float proximityReward = 1f / (1f + (heightError / Radius) * (heightError / Radius));
         AddReward(proximityReward * 0.01f);
@@ -119,23 +118,17 @@ public class DroneHoverAgent : Agent
         if (crashed || flipped)
         {
             AddReward(-1f);
-            StopScorerAndEndEpisode();
+            EndEpisode();
         }
         else if (tooHigh)
         {
             AddReward(-0.5f);
-            StopScorerAndEndEpisode();
+            EndEpisode();
         }
         else if (timeout)
         {
-            StopScorerAndEndEpisode();
+            EndEpisode();
         }
-    }
-
-    void StopScorerAndEndEpisode()
-    {
-        hoverScorer?.StopAndGetScore();
-        EndEpisode();
     }
 
     // --- MANUAL TESTING (lets you fly with keyboard) ---
