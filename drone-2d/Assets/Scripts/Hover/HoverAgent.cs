@@ -66,20 +66,21 @@ public class DroneHoverAgent : Agent
         sensor.AddObservation(Vector3.Dot(transform.up, Vector3.up));
     }
 
-    // --- ACTIONS (1 continuous: throttle) ---
-    public override void OnActionReceived(ActionBuffers actions)
-    {
-        float throttleNormalized = Mathf.Clamp(actions.ContinuousActions[0], -1f, 1f);
+     // --- ACTIONS (1 continuous: throttle) ---
+     public override void OnActionReceived(ActionBuffers actions)
+     {
+        print($"Actions: {actions.ContinuousActions[0]}");
+         float throttleNormalized = Mathf.Clamp(actions.ContinuousActions[0], -1f, 1f);
 
-        if (droneInput == null)
-        {
-            Debug.LogError(
-                $"{nameof(DroneHoverAgent)}: missing reference to {nameof(AgentDroneEmulator)} ({nameof(droneInput)}).");
-            return;
-        }
+         if (droneInput == null)
+         {
+             Debug.LogError(
+                 $"{nameof(DroneHoverAgent)}: missing reference to {nameof(AgentDroneEmulator)} ({nameof(droneInput)}).");
+             return;
+         }
 
-        droneInput.SetUseAgentInput(true);
-        droneInput.agentThrottle = throttleNormalized;
+         droneInput.SetUseAgentInput(true);
+         droneInput.agentThrottle = throttleNormalized;
 
         // --- REWARDS ---
         float heightError = Mathf.Abs(transform.localPosition.y - targetHeight);
@@ -118,11 +119,20 @@ public class DroneHoverAgent : Agent
         }
     }
 
-    // --- MANUAL TESTING (lets you fly with keyboard) ---
-    public override void Heuristic(in ActionBuffers actionsOut)
-    {
-        // Match AgentDroneEmulator manual throttle: Jump axis → [-1, 1] (see DroneAgent.Heuristic)
-        var continuous = actionsOut.ContinuousActions;
-        continuous[0] = Mathf.Clamp(Input.GetAxis("Jump") * 2f - 1f, -1f, 1f);
-    }
+     // --- MANUAL TESTING (lets you fly with keyboard) ---
+     public override void Heuristic(in ActionBuffers actionsOut)
+     {
+
+        print($"Heuristic");
+        var continuousActions = actionsOut.ContinuousActions;
+
+        float throttle = Mathf.Clamp(Input.GetAxis("Throttle"), 0f, 1f);
+        float roll = Mathf.Clamp(Input.GetAxis("Horizontal"), -1f, 1f);
+        float pitch = Mathf.Clamp(Input.GetAxis("Vertical"), -1f, 1f);
+        float yaw = Mathf.Clamp(Input.GetAxis("Yaw"), -1f, 1f);
+
+        print($"Throttle: {throttle}, Roll: {roll}, Pitch: {pitch}, Yaw: {yaw}");
+
+        continuousActions[0] = throttle;
+     }
 }

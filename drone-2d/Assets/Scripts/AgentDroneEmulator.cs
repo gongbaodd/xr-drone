@@ -47,7 +47,7 @@ namespace YueUltimateDronePhysics
             if (useAgentInput)
             {
                 // Map from [-1, 1] to [0, 1] since the original "Jump" thrust axis is effectively non-negative.
-                return Mathf.Clamp01((agentThrottle + 1f) * 0.5f);
+                return agentThrottle;
             }
             return Input.GetAxis("Jump"); // original
         }
