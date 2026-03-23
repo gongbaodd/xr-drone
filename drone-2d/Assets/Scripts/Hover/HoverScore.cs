@@ -12,17 +12,23 @@ public class HoverScorer : MonoBehaviour
     private float totalError;
     private int sampleCount;
     private bool scoring;
+    private bool waitingForArrival = true;
 
+    /// <summary>
+    /// Arms a run: clears samples and waits until the drone first enters the target band (within acceptableRadius of targetHeight) before scoring begins.
+    /// </summary>
     public void StartScoring()
     {
         totalError = 0f;
         sampleCount = 0;
-        scoring = true;
+        scoring = false;
+        waitingForArrival = true;
     }
 
     public float StopAndGetScore()
     {
         scoring = false;
+        waitingForArrival = true;
         if (sampleCount == 0) return 0f;
 
         float avgError = totalError / sampleCount;
@@ -38,9 +44,22 @@ public class HoverScorer : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!scoring) return;
-
         float error = Mathf.Abs(transform.position.y - targetHeight);
+        float r = Mathf.Max(acceptableRadius, 1e-6f);
+
+        if (!scoring && waitingForArrival)
+        {
+            if (error > r)
+                return;
+            scoring = true;
+            waitingForArrival = false;
+            totalError = 0f;
+            sampleCount = 0;
+        }
+
+        if (!scoring)
+            return;
+
         totalError += error;
         sampleCount++;
     }
