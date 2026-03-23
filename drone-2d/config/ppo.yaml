@@ -1,5 +1,5 @@
 behaviors:
-  3DBall:
+  DroneHover:
     trainer_type: ppo
     hyperparameters:
       batch_size: 64

@@ -5,19 +5,12 @@ using UnityEngine.Serialization;
 /// Scene view gizmos for <see cref="HoverScorer"/>: target height and acceptable band
 /// (targetHeight ± acceptableRadius). Not visible in Game view.
 /// </summary>
+[RequireComponent(typeof(HoverScorer))]
 public class HeightIndicator : MonoBehaviour
 {
-    [Header("Source")]
-    [SerializeField] HoverScorer hoverScorer;
-
     [Header("Ground")]
     public GameObject ground;
-
-    [Tooltip("Used only if HoverScorer is missing.")]
-    public float targetHeight = 3f;
-    [Tooltip("Used only if HoverScorer is missing.")]
-    public float acceptableRadius = 0.5f;
-
+    
     [Header("Gizmos")]
     [FormerlySerializedAs("showIndicator")]
     public bool drawGizmos = true;
@@ -37,15 +30,28 @@ public class HeightIndicator : MonoBehaviour
     Color _groundColorBeforeReach;
     bool _hasReachedTargetHeight;
 
-    float TargetH => hoverScorer != null ? hoverScorer.targetHeight : targetHeight;
+    HoverScorer hoverScorer;
 
-    float Radius => Mathf.Max(hoverScorer != null ? hoverScorer.acceptableRadius : acceptableRadius, 1e-6f);
+    float TargetH => hoverScorer.targetHeight;
+
+    float Radius => Mathf.Max(hoverScorer.acceptableRadius, 1e-6f);
 
     float BandTop => TargetH + Radius;
     float BandBottom => TargetH - Radius;
 
+    /// <summary>
+    /// Gizmos run in edit mode before <see cref="Awake"/>; resolve scorer lazily.
+    /// </summary>
+    bool EnsureHoverScorer()
+    {
+        if (hoverScorer == null)
+            hoverScorer = GetComponent<HoverScorer>();
+        return hoverScorer != null;
+    }
+
     void Awake()
     {
+        hoverScorer = GetComponent<HoverScorer>();
         if (ground != null)
         {
             _groundRenderer = ground.GetComponent<Renderer>();
@@ -59,10 +65,7 @@ public class HeightIndicator : MonoBehaviour
         if (_groundRenderer == null)
             return;
 
-        if (hoverScorer == null)
-            hoverScorer = GetComponent<HoverScorer>();
-
-        float y = hoverScorer != null ? hoverScorer.transform.position.y : transform.position.y;
+        float y = transform.position.y;
 
         if (y < reachResetBelowHeight)
             _hasReachedTargetHeight = false;
@@ -93,11 +96,10 @@ public class HeightIndicator : MonoBehaviour
     {
         if (!drawGizmos)
             return;
+        if (!EnsureHoverScorer())
+            return;
 
-        if (hoverScorer == null)
-            hoverScorer = GetComponent<HoverScorer>();
-
-        Vector3 p = hoverScorer != null ? hoverScorer.transform.position : transform.position;
+        Vector3 p = transform.position;
         float h = gizmoSize * 0.5f;
 
         DrawHorizontalSquare(new Vector3(p.x, TargetH, p.z), h, targetColor);

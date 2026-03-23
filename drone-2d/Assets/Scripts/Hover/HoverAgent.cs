@@ -5,24 +5,17 @@ using UnityEngine;
 using UnityEngine.UI;
 using YueUltimateDronePhysics;
 
+[RequireComponent(typeof(HoverScorer))]
 public class DroneHoverAgent : Agent
 {
     [Header("References")]
     public Rigidbody droneRb;
     public AgentDroneEmulator droneInput;
-    [Tooltip("If set, target height and acceptable radius are taken from HoverScorer (same GameObject as this agent in the Hover scene).")]
-    [SerializeField] HoverScorer hoverScorer;
 
     [Header("UI")]
     [Tooltip("If enabled and Reward Text is unassigned, a screen-space Canvas is created at runtime.")]
     [SerializeField] bool showRewardOnCanvas = true;
     [SerializeField] Text rewardText;
-
-    [Header("Target")]
-    [Tooltip("Fallback when HoverScorer is not assigned; keep in sync with HoverScorer.targetHeight.")]
-    public float targetHeight = 10f;
-    [Tooltip("Fallback when HoverScorer is not assigned; keep in sync with HoverScorer.acceptableRadius.")]
-    public float acceptableRadius = 2f;
 
     [Header("Observations")]
     [Tooltip("Clamp (y - TargetH) / Radius to [-k, k] before dividing by k for observation 1.")]
@@ -56,11 +49,13 @@ public class DroneHoverAgent : Agent
     float episodeTimer;
     bool firstArrivalBonusClaimed;
 
-    float TargetH => hoverScorer != null ? hoverScorer.targetHeight : targetHeight;
-    float Radius => Mathf.Max(hoverScorer != null ? hoverScorer.acceptableRadius : acceptableRadius, 1e-6f);
+    HoverScorer hoverScorer;
 
-    /// <summary>World-space target height (m); matches HoverScorer when present.</summary>
-    public float ResolvedTargetHeight => TargetH;
+    float TargetH => hoverScorer.targetHeight;
+    float Radius => Mathf.Max(hoverScorer.acceptableRadius, 1e-6f);
+
+    /// <summary>World-space target height (m) from <see cref="HoverScorer"/>.</summary>
+    public float ResolvedTargetHeight => hoverScorer.targetHeight;
 
     public override void Initialize()
     {
@@ -68,8 +63,6 @@ public class DroneHoverAgent : Agent
             droneRb = GetComponent<Rigidbody>();
         if (droneInput == null)
             droneInput = GetComponent<AgentDroneEmulator>();
-        if (hoverScorer == null)
-            hoverScorer = GetComponent<HoverScorer>();
 
         startPosition = transform.localPosition;
         startRotation = transform.localRotation;
@@ -77,6 +70,7 @@ public class DroneHoverAgent : Agent
 
     void Awake()
     {
+        hoverScorer = GetComponent<HoverScorer>();
         if (showRewardOnCanvas && rewardText == null)
             rewardText = CreateOrFindRewardText();
     }
@@ -99,9 +93,6 @@ public class DroneHoverAgent : Agent
         var physics = GetComponent<YueDronePhysics>();
         if (physics != null)
             physics.ResetInternals();
-
-        if (hoverScorer == null)
-            hoverScorer = GetComponent<HoverScorer>();
     }
 
     public override void CollectObservations(VectorSensor sensor)

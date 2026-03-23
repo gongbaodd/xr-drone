@@ -1,0 +1,38 @@
+{
+    "DroneHover": {
+        "checkpoints": [
+            {
+                "steps": 499620,
+                "file_path": "results/hover-2026-03-23-16-35/DroneHover/DroneHover-499620.onnx",
+                "reward": 26.946106062995064,
+                "creation_time": 1774276818.335273,
+                "auxillary_file_paths": [
+                    "results/hover-2026-03-23-16-35/DroneHover/DroneHover-499620.pt"
+                ]
+            },
+            {
+                "steps": 500220,
+                "file_path": "results/hover-2026-03-23-16-35/DroneHover/DroneHover-500220.onnx",
+                "reward": 26.961573851735967,
+                "creation_time": 1774276818.3523772,
+                "auxillary_file_paths": [
+                    "results/hover-2026-03-23-16-35/DroneHover/DroneHover-500220.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500220,
+            "file_path": "results/hover-2026-03-23-16-35/DroneHover.onnx",
+            "reward": 26.961573851735967,
+            "creation_time": 1774276818.3523772,
+            "auxillary_file_paths": [
+                "results/hover-2026-03-23-16-35/DroneHover/DroneHover-500220.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.10.0"
+    }
+}
