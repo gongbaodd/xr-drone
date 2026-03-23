@@ -770,58 +770,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1987669845545108646, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455446455890505519, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: bezierBulge
-      value: 0.771
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455446455890505519, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: orbitPoints
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455446455890505519, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: orbitRadius
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455446455890505519, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: bezierSamples
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455446455890505519, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: returnBezierSamples
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455446455890505519, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: outboundBezierSamples
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455446455890505519, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: waypointReachedThreshold
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5738657869891069455, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: maxYEndEpisode
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5738657869891069455, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: minYEndEpisode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5738657869891069455, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: waypointReward
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5738657869891069455, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: progressPerMeter
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5738657869891069455, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
-      propertyPath: headingAlignmentRewardPerSecond
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6826742402556627817, guid: 79cd30ee587ecd143976d5c8ea5abc08, type: 3}
       propertyPath: m_Name
       value: Training Area
