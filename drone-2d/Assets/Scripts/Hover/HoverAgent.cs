@@ -9,9 +9,14 @@ public class DroneHoverAgent : Agent
     [Header("References")]
     public Rigidbody droneRb;
     public AgentDroneEmulator droneInput;
+    [Tooltip("If set, target height and acceptable radius are taken from HoverScorer (same GameObject as this agent in the Hover scene).")]
+    [SerializeField] HoverScorer hoverScorer;
 
     [Header("Target")]
+    [Tooltip("Fallback when HoverScorer is not assigned; keep in sync with HoverScorer.targetHeight.")]
     public float targetHeight = 10f;
+    [Tooltip("Fallback when HoverScorer is not assigned; keep in sync with HoverScorer.acceptableRadius.")]
+    public float acceptableRadius = 2f;
 
     [Header("Episode")]
     public float maxEpisodeTime = 10f;
@@ -24,12 +29,19 @@ public class DroneHoverAgent : Agent
     private Quaternion startRotation;
     private float episodeTimer;
 
+    float TargetH => hoverScorer != null ? hoverScorer.targetHeight : targetHeight;
+    float Radius => Mathf.Max(hoverScorer != null ? hoverScorer.acceptableRadius : acceptableRadius, 1e-6f);
+    /// <summary>World-space target height (m); matches HoverScorer when present.</summary>
+    public float ResolvedTargetHeight => TargetH;
+
     public override void Initialize()
     {
         if (droneRb == null)
             droneRb = GetComponent<Rigidbody>();
         if (droneInput == null)
             droneInput = GetComponent<AgentDroneEmulator>();
+        if (hoverScorer == null)
+            hoverScorer = GetComponent<HoverScorer>();
 
         startPosition = transform.localPosition;
         startRotation = transform.localRotation;
@@ -47,17 +59,22 @@ public class DroneHoverAgent : Agent
         var physics = GetComponent<YueDronePhysics>();
         if (physics != null)
             physics.ResetInternals();
+
+        if (hoverScorer == null)
+            hoverScorer = GetComponent<HoverScorer>();
+        hoverScorer?.StartScoring();
     }
 
     // --- OBSERVATIONS (4 floats) ---
     public override void CollectObservations(VectorSensor sensor)
     {
+        float y = transform.position.y;
         // 1. Current height (normalized rough estimate)
-        sensor.AddObservation(transform.localPosition.y / failHeight);
+        sensor.AddObservation(y / failHeight);
 
-        // 2. Height error (signed)
-        float error = transform.localPosition.y - targetHeight;
-        sensor.AddObservation(error / failHeight);
+        // 2. Signed height error vs target, in units of acceptable radius (clamped for stability)
+        float signedError = y - TargetH;
+        sensor.AddObservation(Mathf.Clamp(signedError / Radius, -3f, 3f) / 3f);
 
         // 3. Vertical velocity
         sensor.AddObservation(droneRb.linearVelocity.y / 20f);
@@ -66,28 +83,26 @@ public class DroneHoverAgent : Agent
         sensor.AddObservation(Vector3.Dot(transform.up, Vector3.up));
     }
 
-     // --- ACTIONS (1 continuous: throttle) ---
-     public override void OnActionReceived(ActionBuffers actions)
-     {
+    // --- ACTIONS (1 continuous: throttle) ---
+    public override void OnActionReceived(ActionBuffers actions)
+    {
         print($"Actions: {actions.ContinuousActions[0]}");
-         float throttleNormalized = Mathf.Clamp(actions.ContinuousActions[0], -1f, 1f);
+        float throttleNormalized = Mathf.Clamp(actions.ContinuousActions[0], -1f, 1f);
 
-         if (droneInput == null)
-         {
-             Debug.LogError(
-                 $"{nameof(DroneHoverAgent)}: missing reference to {nameof(AgentDroneEmulator)} ({nameof(droneInput)}).");
-             return;
-         }
+        if (droneInput == null)
+        {
+            Debug.LogError(
+                $"{nameof(DroneHoverAgent)}: missing reference to {nameof(AgentDroneEmulator)} ({nameof(droneInput)}).");
+            return;
+        }
 
-         droneInput.SetUseAgentInput(true);
-         droneInput.agentThrottle = throttleNormalized;
+        droneInput.SetUseAgentInput(true);
+        droneInput.agentThrottle = throttleNormalized;
 
-        // --- REWARDS ---
-        float heightError = Mathf.Abs(transform.localPosition.y - targetHeight);
-
-        // Small reward every step for being close to target
-        // At error=0 → reward = +1/step, at error=5 → reward ≈ +0.14/step
-        float proximityReward = 1f / (1f + heightError * heightError);
+        float y = transform.position.y;
+        // --- REWARDS (same height space & band as HoverScorer) ---
+        float heightError = Mathf.Abs(y - TargetH);
+        float proximityReward = 1f / (1f + (heightError / Radius) * (heightError / Radius));
         AddReward(proximityReward * 0.01f);
 
         // Penalty for large velocity (encourage stillness)
@@ -97,33 +112,36 @@ public class DroneHoverAgent : Agent
         // --- EPISODE END CONDITIONS ---
         episodeTimer += Time.fixedDeltaTime;
 
-        bool crashed = transform.localPosition.y < failHeightLow && episodeTimer > 0.5f;
-        bool tooHigh = transform.localPosition.y > failHeight;
+        bool crashed = y < failHeightLow && episodeTimer > 0.5f;
+        bool tooHigh = y > failHeight;
         bool timeout = episodeTimer >= maxEpisodeTime;
         bool flipped = Vector3.Dot(transform.up, Vector3.up) < 0f;
 
         if (crashed || flipped)
         {
             AddReward(-1f);
-            EndEpisode();
+            StopScorerAndEndEpisode();
         }
         else if (tooHigh)
         {
             AddReward(-0.5f);
-            EndEpisode();
+            StopScorerAndEndEpisode();
         }
         else if (timeout)
         {
-            // No extra penalty — cumulative rewards speak for themselves
-            EndEpisode();
+            StopScorerAndEndEpisode();
         }
     }
 
-     // --- MANUAL TESTING (lets you fly with keyboard) ---
-     public override void Heuristic(in ActionBuffers actionsOut)
-     {
+    void StopScorerAndEndEpisode()
+    {
+        hoverScorer?.StopAndGetScore();
+        EndEpisode();
+    }
 
-        print($"Heuristic");
+    // --- MANUAL TESTING (lets you fly with keyboard) ---
+    public override void Heuristic(in ActionBuffers actionsOut)
+    {
         var continuousActions = actionsOut.ContinuousActions;
 
         float throttle = Mathf.Clamp(Input.GetAxis("Throttle"), 0f, 1f);
@@ -131,8 +149,7 @@ public class DroneHoverAgent : Agent
         float pitch = Mathf.Clamp(Input.GetAxis("Vertical"), -1f, 1f);
         float yaw = Mathf.Clamp(Input.GetAxis("Yaw"), -1f, 1f);
 
-        print($"Throttle: {throttle}, Roll: {roll}, Pitch: {pitch}, Yaw: {yaw}");
 
         continuousActions[0] = throttle;
-     }
+    }
 }

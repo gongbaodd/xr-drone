@@ -57,11 +57,10 @@ public class HeightIndicator : MonoBehaviour
         if (quad == null || hoverAgent == null)
             return;
 
-        float yLocal = Mathf.Clamp(hoverAgent.targetHeight, hoverAgent.failHeightLow, hoverAgent.failHeight);
-        Vector3 local = hoverAgent.transform.localPosition;
-        local.y = yLocal;
-        quad.transform.position = hoverAgent.transform.parent != null
-            ? hoverAgent.transform.parent.TransformPoint(local)
-            : new Vector3(hoverAgent.transform.position.x, yLocal, hoverAgent.transform.position.z);
+        float yWorld = Mathf.Clamp(hoverAgent.ResolvedTargetHeight, hoverAgent.failHeightLow, hoverAgent.failHeight);
+        quad.transform.position = new Vector3(
+            hoverAgent.transform.position.x,
+            yWorld,
+            hoverAgent.transform.position.z);
     }
 }
