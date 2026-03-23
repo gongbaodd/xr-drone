@@ -2,6 +2,7 @@ using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 using UnityEngine;
+using UnityEngine.UI;
 using YueUltimateDronePhysics;
 
 public class DroneHoverAgent : Agent
@@ -11,6 +12,11 @@ public class DroneHoverAgent : Agent
     public AgentDroneEmulator droneInput;
     [Tooltip("If set, target height and acceptable radius are taken from HoverScorer (same GameObject as this agent in the Hover scene).")]
     [SerializeField] HoverScorer hoverScorer;
+
+    [Header("UI")]
+    [Tooltip("If enabled and Reward Text is unassigned, a screen-space Canvas is created at runtime.")]
+    [SerializeField] bool showRewardOnCanvas = true;
+    [SerializeField] Text rewardText;
 
     [Header("Target")]
     [Tooltip("Fallback when HoverScorer is not assigned; keep in sync with HoverScorer.targetHeight.")]
@@ -67,6 +73,18 @@ public class DroneHoverAgent : Agent
 
         startPosition = transform.localPosition;
         startRotation = transform.localRotation;
+    }
+
+    void Awake()
+    {
+        if (showRewardOnCanvas && rewardText == null)
+            rewardText = CreateOrFindRewardText();
+    }
+
+    void LateUpdate()
+    {
+        if (showRewardOnCanvas && rewardText != null)
+            rewardText.text = $"Reward: {GetCumulativeReward():F2}";
     }
 
     public override void OnEpisodeBegin()
@@ -174,5 +192,46 @@ public class DroneHoverAgent : Agent
 
 
         continuousActions[0] = throttle;
+    }
+
+    static Text CreateOrFindRewardText()
+    {
+        const string canvasName = "HoverRewardCanvas";
+        GameObject existing = GameObject.Find(canvasName);
+        if (existing != null)
+        {
+            Text found = existing.GetComponentInChildren<Text>();
+            if (found != null)
+                return found;
+        }
+
+        var canvasGo = new GameObject(canvasName);
+        DontDestroyOnLoad(canvasGo);
+        var canvas = canvasGo.AddComponent<Canvas>();
+        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        var scaler = canvasGo.AddComponent<CanvasScaler>();
+        scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+        scaler.referenceResolution = new Vector2(1920, 1080);
+        canvasGo.AddComponent<GraphicRaycaster>();
+
+        var textGo = new GameObject("RewardText");
+        textGo.transform.SetParent(canvasGo.transform, false);
+        var text = textGo.AddComponent<Text>();
+        Font font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        if (font == null)
+            font = Resources.GetBuiltinResource<Font>("Arial.ttf");
+        text.font = font;
+        text.fontSize = 28;
+        text.color = Color.white;
+        text.alignment = TextAnchor.UpperLeft;
+
+        var rt = text.GetComponent<RectTransform>();
+        rt.anchorMin = new Vector2(0f, 1f);
+        rt.anchorMax = new Vector2(0f, 1f);
+        rt.pivot = new Vector2(0f, 1f);
+        rt.anchoredPosition = new Vector2(24f, -24f);
+        rt.sizeDelta = new Vector2(480f, 56f);
+
+        return text;
     }
 }
