@@ -20,14 +20,6 @@ public class DroneHoverAgent : Agent
     [Tooltip("Episode ends if height goes above this value.")]
     public float failHeight = 50f;
 
-    [Header("Target height visual")]
-    [Tooltip("Semi-transparent plane above the drone at target height (between fail low / fail high).")]
-    public bool showTargetHeightIndicator = true;
-    [Tooltip("World size of the quad (width & height of the plane).")]
-    public float heightIndicatorSize = 4f;
-    public Color heightIndicatorColor = new Color(0.25f, 0.85f, 1f, 0.45f);
-
-    private GameObject heightIndicator;
     private Vector3 startPosition;
     private Quaternion startRotation;
     private float episodeTimer;
@@ -41,39 +33,6 @@ public class DroneHoverAgent : Agent
 
         startPosition = transform.localPosition;
         startRotation = transform.localRotation;
-
-        if (showTargetHeightIndicator)
-            CreateHeightIndicator();
-    }
-
-    void CreateHeightIndicator()
-    {
-        heightIndicator = GameObject.CreatePrimitive(PrimitiveType.Quad);
-        heightIndicator.name = "TargetHeightIndicator";
-        Destroy(heightIndicator.GetComponent<Collider>());
-
-        var mr = heightIndicator.GetComponent<MeshRenderer>();
-        var mat = new Material(Shader.Find("Unlit/Transparent"));
-        mat.color = heightIndicatorColor;
-        mr.material = mat;
-        mr.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
-        mr.receiveShadows = false;
-
-        heightIndicator.transform.rotation = Quaternion.Euler(90f, 0f, 0f);
-        heightIndicator.transform.localScale = Vector3.one * heightIndicatorSize;
-    }
-
-    void LateUpdate()
-    {
-        if (heightIndicator == null)
-            return;
-
-        float yLocal = Mathf.Clamp(targetHeight, failHeightLow, failHeight);
-        Vector3 local = transform.localPosition;
-        local.y = yLocal;
-        heightIndicator.transform.position = transform.parent != null
-            ? transform.parent.TransformPoint(local)
-            : new Vector3(transform.position.x, yLocal, transform.position.z);
     }
 
     public override void OnEpisodeBegin()
