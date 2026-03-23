@@ -304,7 +304,9 @@ MonoBehaviour:
   MaxStep: 0
   droneRb: {fileID: 471660875}
   droneInput: {fileID: 471660872}
+  hoverScorer: {fileID: 0}
   targetHeight: 10
+  acceptableRadius: 2
   maxEpisodeTime: 10
   failHeightLow: 0.2
   failHeight: 50
@@ -336,8 +338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28faaea7ed60e4224a6e6f0881532eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HoverScorer
-  targetHeight: 10
-  maxError: 10
+  targetHeight: 3
+  acceptableRadius: 0.5
 --- !u!114 &471660879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,6 +354,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.DecisionRequester
   DecisionPeriod: 5
   TakeActionsBetweenDecisions: 1
+--- !u!114 &471660880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471660863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 570fdbe3784ac458c946b0de2a74c9e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HeightIndicator
+  hoverScorer: {fileID: 0}
+  targetHeight: 3
+  acceptableRadius: 0.5
+  showIndicator: 1
+  quadSize: 4
+  targetColor: {r: 0.25, g: 0.85, b: 1, a: 0.039215688}
+  topBandColor: {r: 1, g: 0.45, b: 0.2, a: 0.039215688}
+  bottomBandColor: {r: 1, g: 0.85, b: 0.2, a: 0.039215688}
 --- !u!1 &1359530377
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,9 +734,12 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2378016171709050836, guid: 74ce8ff407d354ce088c892f09cff9f8, type: 3}
       insertIndex: 2
-      addedObject: {fileID: 471660876}
+      addedObject: {fileID: 471660880}
     - targetCorrespondingSourceObject: {fileID: 2378016171709050836, guid: 74ce8ff407d354ce088c892f09cff9f8, type: 3}
       insertIndex: 3
+      addedObject: {fileID: 471660876}
+    - targetCorrespondingSourceObject: {fileID: 2378016171709050836, guid: 74ce8ff407d354ce088c892f09cff9f8, type: 3}
+      insertIndex: 4
       addedObject: {fileID: 471660870}
     - targetCorrespondingSourceObject: {fileID: 2378016171709050836, guid: 74ce8ff407d354ce088c892f09cff9f8, type: 3}
       insertIndex: -1

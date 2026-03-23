@@ -4,10 +4,10 @@ using UnityEngine.Serialization;
 public class HoverScorer : MonoBehaviour
 {
     [Tooltip("World-space height (m) the drone should hold.")]
-    public float targetHeight = 10f;
+    public float targetHeight = 3f;
     [Tooltip("Average absolute height error at or below this (m) earns 100. Above this, score falls linearly to 0 at twice this radius.")]
     [FormerlySerializedAs("maxError")]
-    public float acceptableRadius = 2f;
+    public float acceptableRadius = 0.5f;
 
     private float totalError;
     private int sampleCount;

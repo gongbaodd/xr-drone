@@ -86,7 +86,6 @@ public class DroneHoverAgent : Agent
     // --- ACTIONS (1 continuous: throttle) ---
     public override void OnActionReceived(ActionBuffers actions)
     {
-        print($"Actions: {actions.ContinuousActions[0]}");
         float throttleNormalized = Mathf.Clamp(actions.ContinuousActions[0], -1f, 1f);
 
         if (droneInput == null)
