@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd">
+    <ui:Style src="Controller.uss" />
+    <ui:VisualElement name="controller-root" class="controller-root">
+        <ui:VisualElement name="left-stick" class="stick-surface" picking-mode="Ignore">
+            <ui:VisualElement name="left-dot" class="stick-dot" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right-stick" class="stick-surface" picking-mode="Ignore">
+            <ui:VisualElement name="right-dot" class="stick-dot" picking-mode="Ignore" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
