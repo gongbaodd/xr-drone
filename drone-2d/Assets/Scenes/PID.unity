@@ -337,10 +337,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1310926270657974287, guid: adb540b78007b484fb4e85791757953c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 553831006}
     - targetCorrespondingSourceObject: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 553831005}
@@ -358,6 +362,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
   m_PrefabInstance: {fileID: 292910741}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &553831000 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1310926270657974288, guid: adb540b78007b484fb4e85791757953c, type: 3}
+  m_PrefabInstance: {fileID: 292910741}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553830999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31fc9fb73d8f7e843b4cd93368e215e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &553831002 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1310926270657974289, guid: adb540b78007b484fb4e85791757953c, type: 3}
+  m_PrefabInstance: {fileID: 292910741}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553830999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5ef81ab4b4a4e43adff653acf33699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &553831003 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 1310926270657974290, guid: adb540b78007b484fb4e85791757953c, type: 3}
@@ -435,8 +461,22 @@ MonoBehaviour:
     Kd: 1
     maxOutput: 5
     maxIntegral: 5
-  mass: 1.5
-  maxTilt: 30
+--- !u!114 &553831006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553830999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475e0cd20a72b415c93484b88c78f9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::YueUltimateDronePhysics.PIDDroneEmulator
+  dronePhysics: {fileID: 553831000}
+  inputModule: {fileID: 553831002}
+  pidFlightController: {fileID: 553831005}
+  preferPidMissionInputs: 1
 --- !u!1 &1193398555
 GameObject:
   m_ObjectHideFlags: 0
