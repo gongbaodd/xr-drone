@@ -63,6 +63,8 @@ public class DroneHoverAgent : Agent
     /// <summary>World-space target height (m) from <see cref="HoverScorer"/>.</summary>
     public float ResolvedTargetHeight => hoverScorer.targetHeight;
 
+    public bool useAgentInput = true;
+
     public override void Initialize()
     {
         if (droneRb == null)
@@ -126,58 +128,62 @@ public class DroneHoverAgent : Agent
             return;
         }
 
-        droneInput.SetUseAgentInput(true);
-        droneInput.agentThrottle = throttleNormalized;
+        droneInput.SetUseAgentInput(useAgentInput);
 
-        float y = transform.position.y;
-        float heightError = Mathf.Abs(y - TargetH);
-        bool inBand = heightError <= Radius;
-        float dt = Time.fixedDeltaTime * decisionPeriodCached;
+        if (useAgentInput)
+        {
+            droneInput.agentThrottle = throttleNormalized;
 
-        if (!firstArrivalBonusClaimed && inBand)
-        {
-            AddReward(firstArrivalReward);
-            firstArrivalBonusClaimed = true;
-        }
+            float y = transform.position.y;
+            float heightError = Mathf.Abs(y - TargetH);
+            bool inBand = heightError <= Radius;
+            float dt = Time.fixedDeltaTime * decisionPeriodCached;
 
-        float sustain = livingRewardPerSecond * dt;
-        if (inBand)
-        {
-            AddReward(sustain);
-            if (verticalVelocityDampingInBand > 0f)
-                AddReward(-Mathf.Abs(droneRb.linearVelocity.y) * verticalVelocityDampingInBand * dt);
-        }
-        else
-        {
-            AddReward(sustain * outsideBandRewardScale);
-            if (outsideBandShapingPenaltyPerSecond > 0f)
+            if (!firstArrivalBonusClaimed && inBand)
             {
-                float excess = Mathf.Max(0f, heightError - Radius);
-                float norm = excess / Radius;
-                AddReward(-outsideBandShapingPenaltyPerSecond * norm * dt);
+                AddReward(firstArrivalReward);
+                firstArrivalBonusClaimed = true;
             }
-        }
 
-        episodeTimer += dt;
+            float sustain = livingRewardPerSecond * dt;
+            if (inBand)
+            {
+                AddReward(sustain);
+                if (verticalVelocityDampingInBand > 0f)
+                    AddReward(-Mathf.Abs(droneRb.linearVelocity.y) * verticalVelocityDampingInBand * dt);
+            }
+            else
+            {
+                AddReward(sustain * outsideBandRewardScale);
+                if (outsideBandShapingPenaltyPerSecond > 0f)
+                {
+                    float excess = Mathf.Max(0f, heightError - Radius);
+                    float norm = excess / Radius;
+                    AddReward(-outsideBandShapingPenaltyPerSecond * norm * dt);
+                }
+            }
 
-        bool crashed = y < failHeightLow && episodeTimer > crashGraceSeconds;
-        bool tooHigh = y > failHeight;
-        bool timeout = maxEpisodeTime > 0f && episodeTimer >= maxEpisodeTime;
-        bool flipped = Vector3.Dot(transform.up, Vector3.up) < 0f;
+            episodeTimer += dt;
 
-        if (crashed || flipped)
-        {
-            AddReward(-1f);
-            EndEpisode();
-        }
-        else if (tooHigh)
-        {
-            AddReward(-0.5f);
-            EndEpisode();
-        }
-        else if (timeout)
-        {
-            EndEpisode();
+            bool crashed = y < failHeightLow && episodeTimer > crashGraceSeconds;
+            bool tooHigh = y > failHeight;
+            bool timeout = maxEpisodeTime > 0f && episodeTimer >= maxEpisodeTime;
+            bool flipped = Vector3.Dot(transform.up, Vector3.up) < 0f;
+
+            if (crashed || flipped)
+            {
+                AddReward(-1f);
+                EndEpisode();
+            }
+            else if (tooHigh)
+            {
+                AddReward(-0.5f);
+                EndEpisode();
+            }
+            else if (timeout)
+            {
+                EndEpisode();
+            }
         }
     }
 
