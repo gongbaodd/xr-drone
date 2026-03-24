@@ -119,7 +119,7 @@ public class DroneHoverAgent : Agent
 
     public override void OnActionReceived(ActionBuffers actions)
     {
-        float throttleNormalized = Mathf.Clamp(actions.ContinuousActions[0], -1f, 1f);
+        float throttleNormalized = Mathf.Clamp01(actions.ContinuousActions[0]);
 
         if (droneInput == null)
         {
@@ -130,10 +130,11 @@ public class DroneHoverAgent : Agent
 
         droneInput.SetUseAgentInput(useAgentInput);
 
+        // Always mirror actions so UI (e.g. yellow agent dots) can show policy output when not driving the drone.
+        droneInput.agentThrottle = throttleNormalized;
+
         if (useAgentInput)
         {
-            droneInput.agentThrottle = throttleNormalized;
-
             float y = transform.position.y;
             float heightError = Mathf.Abs(y - TargetH);
             bool inBand = heightError <= Radius;

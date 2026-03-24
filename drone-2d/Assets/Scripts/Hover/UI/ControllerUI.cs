@@ -10,6 +10,8 @@ public class ControllerUI : MonoBehaviour
     UIDocument _doc;
     VisualElement _leftDot;
     VisualElement _rightDot;
+    VisualElement _leftAgentDot;
+    VisualElement _rightAgentDot;
 
     const float StickPx = 120f;
     const float DotPx = 14f;
@@ -24,6 +26,8 @@ public class ControllerUI : MonoBehaviour
         var root = _doc.rootVisualElement;
         _leftDot = root.Q<VisualElement>("left-dot");
         _rightDot = root.Q<VisualElement>("right-dot");
+        _leftAgentDot = root.Q<VisualElement>("left-agent-dot");
+        _rightAgentDot = root.Q<VisualElement>("right-agent-dot");
     }
 
     void Start()
@@ -40,6 +44,13 @@ public class ControllerUI : MonoBehaviour
         emulator.GetStickVisualization(out var left, out var right);
         ApplyLeftStick(_leftDot, left);
         ApplyRightStick(_rightDot, right);
+
+        if (_leftAgentDot != null && _rightAgentDot != null)
+        {
+            emulator.GetAgentStickVisualization(out var leftAgent, out var rightAgent);
+            ApplyLeftStick(_leftAgentDot, leftAgent);
+            ApplyRightStick(_rightAgentDot, rightAgent);
+        }
     }
 
     /// <summary>Left: x ∈ [-1,1], y ∈ [0,1] with 0 = bottom of the square.</summary>

@@ -5,10 +5,12 @@
     <ui:Style src="Controller.uss" />
     <ui:VisualElement name="controller-root" class="controller-root">
         <ui:VisualElement name="left-stick" class="stick-surface" picking-mode="Ignore">
-            <ui:VisualElement name="left-dot" class="stick-dot" picking-mode="Ignore" />
+            <ui:VisualElement name="left-agent-dot" class="stick-dot agent-stick-dot" picking-mode="Ignore" />
+            <ui:VisualElement name="left-dot" class="stick-dot manual-stick-dot" picking-mode="Ignore" />
         </ui:VisualElement>
         <ui:VisualElement name="right-stick" class="stick-surface" picking-mode="Ignore">
-            <ui:VisualElement name="right-dot" class="stick-dot" picking-mode="Ignore" />
+            <ui:VisualElement name="right-agent-dot" class="stick-dot agent-stick-dot" picking-mode="Ignore" />
+            <ui:VisualElement name="right-dot" class="stick-dot manual-stick-dot" picking-mode="Ignore" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

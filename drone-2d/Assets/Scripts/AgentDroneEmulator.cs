@@ -22,6 +22,11 @@ namespace YueUltimateDronePhysics
 
         // These values are expected to be written by whatever is producing agent actions.
         // When `useAgentInput` is false, we fall back to reading Unity Input axes.
+        /// <summary>
+        /// If true, <see cref="agentThrottle"/> is in [0, 1] (hover policy). If false, [-1, 1] (e.g. mission agent).
+        /// </summary>
+        public bool agentThrottleZeroToOne = true;
+
         public float agentThrottle;
         public float agentYaw;
         public float agentPitch;
@@ -45,10 +50,7 @@ namespace YueUltimateDronePhysics
         float GetThrottle()
         {
             if (useAgentInput)
-            {
-                // Map from [-1, 1] to [0, 1] since the original "Jump" thrust axis is effectively non-negative.
-                return agentThrottle;
-            }
+                return agentThrottleZeroToOne ? Mathf.Clamp01(agentThrottle) : agentThrottle;
             return Input.GetAxis("Throttle"); // original
         }
 
@@ -85,17 +87,28 @@ namespace YueUltimateDronePhysics
                 case YueDronePhysicsFlightConfiguration.SelfLeveling:
                     return GetThrottle();
                 case YueDronePhysicsFlightConfiguration.AltitudeHold:
-                    return useAgentInput ? agentThrottle * 100f : Input.GetAxis("Mouse ScrollWheel") * 100f;
+                    return useAgentInput
+                        ? (agentThrottleZeroToOne ? Mathf.Clamp01(agentThrottle) : agentThrottle) * 100f
+                        : Input.GetAxis("Mouse ScrollWheel") * 100f;
                 default:
                     return GetThrottle();
             }
         }
 
-        /// <summary>Left vertical for HUD: 0 = bottom, 1 = top. Altitude-hold maps trimmed axis to 0–1.</summary>
-        static float NormalizeLeftVerticalZeroToOne(float raw, YueDronePhysicsFlightConfiguration mode)
+        /// <summary>Left vertical for HUD: 0 = bottom, 1 = top.</summary>
+        /// <param name="altitudeHoldFromAgentThrottle">
+        /// When true, <paramref name="raw"/> is <c>throttle01 * 100</c> (unipolar); maps linearly to stick Y.
+        /// When false (mouse wheel), raw is signed; center maps to mid-stick.
+        /// </param>
+        static float NormalizeLeftVerticalZeroToOne(
+            float raw,
+            YueDronePhysicsFlightConfiguration mode,
+            bool altitudeHoldFromAgentThrottle = false)
         {
             if (mode == YueDronePhysicsFlightConfiguration.AltitudeHold)
             {
+                if (altitudeHoldFromAgentThrottle)
+                    return Mathf.Clamp01(raw / 100f);
                 float n = Mathf.Clamp(raw / 100f, -1f, 1f);
                 return (n + 1f) * 0.5f;
             }
@@ -120,9 +133,57 @@ namespace YueUltimateDronePhysics
             }
 
             float lx = Mathf.Clamp(GetYaw(), -1f, 1f);
-            float ly = NormalizeLeftVerticalZeroToOne(GetLeftVerticalRaw(), dronePhysics.flightConfig);
+            bool agentAltStick =
+                useAgentInput
+                && dronePhysics.flightConfig == YueDronePhysicsFlightConfiguration.AltitudeHold
+                && agentThrottleZeroToOne;
+            float ly = NormalizeLeftVerticalZeroToOne(
+                GetLeftVerticalRaw(),
+                dronePhysics.flightConfig,
+                agentAltStick);
             float rx = Mathf.Clamp(GetRoll(), -1f, 1f);
             float ry = Mathf.Clamp(GetPitch(), -1f, 1f);
+            leftStick = new Vector2(lx, ly);
+            rightStick = new Vector2(rx, ry);
+        }
+
+        /// <summary>
+        /// Stick positions from the last-written <c>agent*</c> fields (policy output), for HUD when
+        /// <see cref="SetUseAgentInput"/> is false and sticks are driven by manual input instead.
+        /// </summary>
+        public void GetAgentStickVisualization(out Vector2 leftStick, out Vector2 rightStick)
+        {
+            if (dronePhysics == null)
+                dronePhysics = GetComponent<YueDronePhysics>();
+            if (dronePhysics == null)
+            {
+                leftStick = rightStick = Vector2.zero;
+                return;
+            }
+
+            float t = agentThrottleZeroToOne ? Mathf.Clamp01(agentThrottle) : agentThrottle;
+            float rawLeftVertical;
+            switch (dronePhysics.flightConfig)
+            {
+                case YueDronePhysicsFlightConfiguration.AcroMode:
+                case YueDronePhysicsFlightConfiguration.SelfLeveling:
+                    rawLeftVertical = t;
+                    break;
+                case YueDronePhysicsFlightConfiguration.AltitudeHold:
+                    rawLeftVertical = t * 100f;
+                    break;
+                default:
+                    rawLeftVertical = t;
+                    break;
+            }
+
+            float lx = Mathf.Clamp(agentYaw, -1f, 1f);
+            bool agentAltStick =
+                dronePhysics.flightConfig == YueDronePhysicsFlightConfiguration.AltitudeHold
+                && agentThrottleZeroToOne;
+            float ly = NormalizeLeftVerticalZeroToOne(rawLeftVertical, dronePhysics.flightConfig, agentAltStick);
+            float rx = Mathf.Clamp(-agentRoll, -1f, 1f);
+            float ry = Mathf.Clamp(agentPitch, -1f, 1f);
             leftStick = new Vector2(lx, ly);
             rightStick = new Vector2(rx, ry);
         }
@@ -155,7 +216,7 @@ namespace YueUltimateDronePhysics
                     // Altitude hold uses mouse wheel sign/direction in manual play.
                     // When driven by an agent, preserve action sign for up/down.
                     inputModule.rawLeftVertical = useAgentInput
-                        ? agentThrottle * 100f
+                        ? (agentThrottleZeroToOne ? Mathf.Clamp01(agentThrottle) : agentThrottle) * 100f
                         : Input.GetAxis("Mouse ScrollWheel") * 100f;
                     break;
             }

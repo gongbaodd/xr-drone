@@ -40,6 +40,8 @@ public class DroneAgent : Agent
     {
         startPosition = droneRb.transform.position;
         startRotation = droneRb.transform.rotation;
+        if (droneInput != null)
+            droneInput.agentThrottleZeroToOne = false;
     }
 
     private void Awake()
