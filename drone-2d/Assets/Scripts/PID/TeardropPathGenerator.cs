@@ -15,9 +15,19 @@ public class TeardropPathGenerator : MonoBehaviour
     public float bulgePosition = 0.4f; // 最宽处在路径上的位置（0=起点, 1=waypoint）
     
     [Header("精度")]
-    public int pointsPerSegment = 50;  // 每段曲线的采样点数
+    public int pointsPerSegment = 50;  // 每段曲线的采样点数（沿 t 的步数）
+    [Tooltip("Along each segment, only keep every Nth sample (1 = use all points above). Endpoints are always kept.")]
+    [Min(1)]
+    public int sampleStride = 25;
 
     private List<Vector3> pathPoints = new List<Vector3>();
+
+    static bool ShouldEmitSample(int i, int segmentSteps, int stride)
+    {
+        if (stride <= 1) return true;
+        if (i == 0 || i == segmentSteps) return true;
+        return i % stride == 0;
+    }
 
     /// <summary>
     /// 生成完整的水滴形路径
@@ -25,6 +35,7 @@ public class TeardropPathGenerator : MonoBehaviour
     public List<Vector3> GeneratePath()
     {
         pathPoints.Clear();
+        int stride = sampleStride < 1 ? 50 : sampleStride;
 
         Vector3 home = homePoint.position;
         Vector3 waypoint = waypointTarget.position;
@@ -61,6 +72,8 @@ public class TeardropPathGenerator : MonoBehaviour
         // 采样去程
         for (int i = 0; i <= pointsPerSegment; i++)
         {
+            if (!ShouldEmitSample(i, pointsPerSegment, stride))
+                continue;
             float t = (float)i / pointsPerSegment;
             pathPoints.Add(CubicBezier(p0_out, p1_out, p2_out, p3_out, t));
         }
@@ -68,6 +81,8 @@ public class TeardropPathGenerator : MonoBehaviour
         // 采样回程（跳过第一个点，避免重复waypoint）
         for (int i = 1; i <= pointsPerSegment; i++)
         {
+            if (!ShouldEmitSample(i, pointsPerSegment, stride))
+                continue;
             float t = (float)i / pointsPerSegment;
             pathPoints.Add(CubicBezier(p0_ret, p1_ret, p2_ret, p3_ret, t));
         }
