@@ -285,6 +285,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4851499704323121695}
     m_Modifications:
+    - target: {fileID: 1310926270657974289, guid: adb540b78007b484fb4e85791757953c, type: 3}
+      propertyPath: rawLeftHorizontal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
       propertyPath: m_Name
       value: SelfLevelingQuad
@@ -405,6 +409,8 @@ MonoBehaviour:
   pathCompleteThreshold: 1
   closestPointSearchBack: 45
   closestTieEpsilon: 0.001
+  tiePreferHigherAfterPathFraction: 0.45
+  minCompletionPathFraction: 0.2
 --- !u!114 &553831005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,6 +427,7 @@ MonoBehaviour:
   droneRigidbody: {fileID: 553831003}
   takeoffHeight: 2
   cruiseSpeed: 5
+  altitudeIntegralDeadband: 0.15
   pidX:
     Kp: 2
     Ki: 0.1
@@ -429,8 +436,8 @@ MonoBehaviour:
     maxIntegral: 5
   pidY:
     Kp: 3
-    Ki: 0.2
-    Kd: 2
+    Ki: 0.12
+    Kd: 1.5
     maxOutput: 15
     maxIntegral: 5
   pidZ:

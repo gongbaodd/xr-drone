@@ -58,4 +58,10 @@ public class PIDController
         previousError = 0f;
         isFirstUpdate = true;
     }
+
+    /// <summary>Clears integral only (keeps derivative state). Use near setpoint to avoid I windup sticking throttle.</summary>
+    public void ClearIntegral()
+    {
+        integral = 0f;
+    }
 }

@@ -20,8 +20,11 @@ public class DronePIDFlightController : MonoBehaviour
 
     [Header("位置PID（外环）")]
     public PIDController pidX = new PIDController { Kp = 2f, Ki = 0.1f, Kd = 1.5f, maxOutput = 10f };
-    public PIDController pidY = new PIDController { Kp = 3f, Ki = 0.2f, Kd = 2.0f, maxOutput = 15f };
+    public PIDController pidY = new PIDController { Kp = 3f, Ki = 0.12f, Kd = 1.5f, maxOutput = 15f };
     public PIDController pidZ = new PIDController { Kp = 2f, Ki = 0.1f, Kd = 1.5f, maxOutput = 10f };
+
+    [Tooltip("When |altitude error| is inside this band, pidY integral is cleared each frame to prevent hover throttle windup.")]
+    public float altitudeIntegralDeadband = 0.15f;
 
     [Header("速度PID（内环）- 串级控制")]
     public PIDController pidVx = new PIDController { Kp = 1f, Ki = 0.05f, Kd = 0.3f, maxOutput = 8f };
@@ -83,12 +86,12 @@ public class DronePIDFlightController : MonoBehaviour
             case FlightPhase.TakeOff:
                 HandleTakeOff(dt);
                 break;
-            case FlightPhase.FollowPath:
-                HandleFollowPath(dt);
-                break;
-            case FlightPhase.Landing:
-                HandleLanding(dt);
-                break;
+        //     case FlightPhase.FollowPath:
+        //         HandleFollowPath(dt);
+        //         break;
+        //     case FlightPhase.Landing:
+        //         HandleLanding(dt);
+        //         break;
         }
     }
 
@@ -156,6 +159,20 @@ public class DronePIDFlightController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Altitude outer loop: restores D (damping), clears I near setpoint to avoid stuck throttle, and
+    /// never commands below-hover stick while still below target (D can oppose P+I while climbing).
+    /// </summary>
+    private float UpdatePidYAltitudeOutput(float errorY, float dt)
+    {
+        if (Mathf.Abs(errorY) < altitudeIntegralDeadband)
+            pidY.ClearIntegral();
+        float fy = pidY.Update(errorY, dt);
+        if (errorY > 0f)
+            fy = Mathf.Max(0f, fy);
+        return fy;
+    }
+
     private void ApplyPositionPidSticks(Vector3 target, float dt)
     {
         OutRawLeftHorizontal = 0f;
@@ -166,7 +183,7 @@ public class DronePIDFlightController : MonoBehaviour
         float errorZ = target.z - pos.z;
 
         float fx = pidX.Update(errorX, dt);
-        float fy = pidY.Update(errorY, dt);
+        float fy = UpdatePidYAltitudeOutput(errorY, dt);
         float fz = pidZ.Update(errorZ, dt);
 
         // Match Yue manual input: rawRoll = -Horizontal (see PIDDroneEmulator / AgentDroneEmulator).
@@ -185,7 +202,7 @@ public class DronePIDFlightController : MonoBehaviour
         float errorZ = target.z - pos.z;
 
         float desiredVx = pidX.Update(errorX, dt);
-        float desiredVy = pidY.Update(errorY, dt);
+        float desiredVy = UpdatePidYAltitudeOutput(errorY, dt);
         float desiredVz = pidZ.Update(errorZ, dt);
 
         Vector3 desiredVel = new Vector3(desiredVx, desiredVy, desiredVz);
