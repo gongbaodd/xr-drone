@@ -40,7 +40,8 @@ namespace YueUltimateDronePhysics
             if (preferPidMissionInputs && pidFlightController != null && pidFlightController.IsPidDrivingInputs)
             {
                 inputModule.rawLeftHorizontal = pidFlightController.OutRawLeftHorizontal;
-                inputModule.rawLeftVertical = pidFlightController.OutRawLeftVertical;
+                // Controller exposes throttle as 0..1; YueInputModule expects -1..1 for rawThrust.
+                inputModule.rawLeftVertical = pidFlightController.OutRawLeftVertical * 2f - 1f;
                 inputModule.rawRightHorizontal = pidFlightController.OutRawRightHorizontal;
                 inputModule.rawRightVertical = pidFlightController.OutRawRightVertical;
             }

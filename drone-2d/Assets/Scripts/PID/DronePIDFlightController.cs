@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Mission / path PID: reads drone state, outputs raw transmitter-style stick values
-/// (-1..1) for throttle, yaw, pitch, roll. Physics and position come from Yue drone + <see cref="YueUltimateDronePhysics.PIDDroneEmulator"/>.
+/// Mission / path PID: reads drone state, outputs transmitter-style sticks: left vertical throttle 0..1
+/// (0.5 neutral), other axes -1..1. Physics and position come from Yue drone + <see cref="YueUltimateDronePhysics.PIDDroneEmulator"/>.
 /// </summary>
 [DefaultExecutionOrder(-100)]
 public class DronePIDFlightController : MonoBehaviour
@@ -31,7 +31,7 @@ public class DronePIDFlightController : MonoBehaviour
     [Header("偏航PID")]
     public PIDController pidYaw = new PIDController { Kp = 3f, Ki = 0.0f, Kd = 1.0f, maxOutput = 5f };
 
-    /// <summary>Mode2: rawLeftVertical = thrust stick (-1..1).</summary>
+    /// <summary>Mode2: left vertical = throttle stick (0..1, 0.5 = neutral).</summary>
     public float OutRawLeftVertical { get; private set; }
     /// <summary>Mode2: rawLeftHorizontal = yaw.</summary>
     public float OutRawLeftHorizontal { get; private set; }
@@ -172,7 +172,7 @@ public class DronePIDFlightController : MonoBehaviour
         // Match Yue manual input: rawRoll = -Horizontal (see PIDDroneEmulator / AgentDroneEmulator).
         OutRawRightHorizontal = -Mathf.Clamp(fx / pidX.maxOutput, -1f, 1f);
         OutRawRightVertical = Mathf.Clamp(fz / pidZ.maxOutput, -1f, 1f);
-        OutRawLeftVertical = Mathf.Clamp(fy / pidY.maxOutput, -1f, 1f);
+        OutRawLeftVertical = SignedThrottleToLeftVertical01(fy / pidY.maxOutput);
     }
 
     private void ApplyCascadePidSticks(Vector3 target, float dt)
@@ -202,7 +202,7 @@ public class DronePIDFlightController : MonoBehaviour
 
         OutRawRightHorizontal = -Mathf.Clamp(forceX / pidVx.maxOutput, -1f, 1f);
         OutRawRightVertical = Mathf.Clamp(forceZ / pidVz.maxOutput, -1f, 1f);
-        OutRawLeftVertical = Mathf.Clamp(forceY / pidVy.maxOutput, -1f, 1f);
+        OutRawLeftVertical = SignedThrottleToLeftVertical01(forceY / pidVy.maxOutput);
     }
 
     private void ApplyYawStick(float targetYawDeg, float dt)
@@ -215,7 +215,7 @@ public class DronePIDFlightController : MonoBehaviour
 
     private void ClearStickOutputs()
     {
-        OutRawLeftVertical = 0f;
+        OutRawLeftVertical = 0.5f;
         OutRawLeftHorizontal = 0f;
         OutRawRightVertical = 0f;
         OutRawRightHorizontal = 0f;
@@ -225,6 +225,12 @@ public class DronePIDFlightController : MonoBehaviour
     {
         for (int i = 0; i < path.Count; i++)
             path[i] = new Vector3(path[i].x, altitude, path[i].z);
+    }
+
+    /// <summary>Maps signed PID output (-1..1) to throttle stick 0..1 (0.5 = hover).</summary>
+    static float SignedThrottleToLeftVertical01(float signedUnit)
+    {
+        return Mathf.Clamp01(0.5f + 0.5f * Mathf.Clamp(signedUnit, -1f, 1f));
     }
 
     private void ResetAllPIDs()
