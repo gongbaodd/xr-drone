@@ -61,7 +61,9 @@ public class DronePIDFlightController : MonoBehaviour
 
     void Start()
     {
-        pathFollower = gameObject.AddComponent<PathFollower>();
+        pathFollower = GetComponent<PathFollower>();
+        if (pathFollower == null)
+            pathFollower = gameObject.AddComponent<PathFollower>();
         homePosition = transform.position;
     }
 
@@ -167,7 +169,8 @@ public class DronePIDFlightController : MonoBehaviour
         float fy = pidY.Update(errorY, dt);
         float fz = pidZ.Update(errorZ, dt);
 
-        OutRawRightHorizontal = Mathf.Clamp(fx / pidX.maxOutput, -1f, 1f);
+        // Match Yue manual input: rawRoll = -Horizontal (see PIDDroneEmulator / AgentDroneEmulator).
+        OutRawRightHorizontal = -Mathf.Clamp(fx / pidX.maxOutput, -1f, 1f);
         OutRawRightVertical = Mathf.Clamp(fz / pidZ.maxOutput, -1f, 1f);
         OutRawLeftVertical = Mathf.Clamp(fy / pidY.maxOutput, -1f, 1f);
     }
@@ -197,7 +200,7 @@ public class DronePIDFlightController : MonoBehaviour
         float forceY = pidVy.Update(velErrorY, dt);
         float forceZ = pidVz.Update(velErrorZ, dt);
 
-        OutRawRightHorizontal = Mathf.Clamp(forceX / pidVx.maxOutput, -1f, 1f);
+        OutRawRightHorizontal = -Mathf.Clamp(forceX / pidVx.maxOutput, -1f, 1f);
         OutRawRightVertical = Mathf.Clamp(forceZ / pidVz.maxOutput, -1f, 1f);
         OutRawLeftVertical = Mathf.Clamp(forceY / pidVy.maxOutput, -1f, 1f);
     }

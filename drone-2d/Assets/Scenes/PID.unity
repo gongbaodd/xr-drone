@@ -403,6 +403,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PathFollower
   lookAheadDistance: 2
   pathCompleteThreshold: 1
+  closestPointSearchBack: 45
+  closestTieEpsilon: 0.001
 --- !u!114 &553831005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -417,7 +419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DronePIDFlightController
   pathGenerator: {fileID: 1396088956}
   droneRigidbody: {fileID: 553831003}
-  takeoffHeight: 10
+  takeoffHeight: 2
   cruiseSpeed: 5
   pidX:
     Kp: 2
