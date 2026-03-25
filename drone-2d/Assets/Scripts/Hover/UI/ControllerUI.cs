@@ -6,6 +6,8 @@ using YueUltimateDronePhysics;
 public class ControllerUI : MonoBehaviour
 {
     [SerializeField] AgentDroneEmulator emulator;
+    [Tooltip("Optional (e.g. PID scene): HUD sticks from DronePIDFlightController / PIDController outputs when no AgentDroneEmulator or when the PID mission is driving inputs.")]
+    [SerializeField] DronePIDFlightController pidFlightController;
 
     UIDocument _doc;
     VisualElement _leftDot;
@@ -34,23 +36,61 @@ public class ControllerUI : MonoBehaviour
     {
         if (emulator == null)
             emulator = FindFirstObjectByType<AgentDroneEmulator>();
+        if (pidFlightController == null)
+            pidFlightController = FindFirstObjectByType<DronePIDFlightController>();
     }
 
     void LateUpdate()
     {
-        if (emulator == null || _leftDot == null || _rightDot == null)
+        if (_leftDot == null || _rightDot == null)
             return;
 
-        emulator.GetStickVisualization(out var left, out var right);
+        if (!TryGetStickVisualization(out var left, out var right))
+            return;
+
         ApplyLeftStick(_leftDot, left);
         ApplyRightStick(_rightDot, right);
 
-        if (_leftAgentDot != null && _rightAgentDot != null)
+        if (_leftAgentDot != null && _rightAgentDot != null && emulator != null)
         {
             emulator.GetAgentStickVisualization(out var leftAgent, out var rightAgent);
             ApplyLeftStick(_leftAgentDot, leftAgent);
             ApplyRightStick(_rightAgentDot, rightAgent);
         }
+    }
+
+    /// <summary>
+    /// Prefer PID mission sticks when <see cref="DronePIDFlightController"/> is present and either there is no
+    /// emulator or the mission is active; otherwise use <see cref="AgentDroneEmulator"/> sticks.
+    /// </summary>
+    bool TryGetStickVisualization(out Vector2 left, out Vector2 right)
+    {
+        left = right = default;
+
+        if (pidFlightController != null && (emulator == null || pidFlightController.IsPidDrivingInputs))
+        {
+            GetPidStickVisualization(pidFlightController, out left, out right);
+            return true;
+        }
+
+        if (emulator != null)
+        {
+            emulator.GetStickVisualization(out left, out right);
+            return true;
+        }
+
+        return false;
+    }
+
+    /// <summary>Same Mode2 HUD convention as <see cref="AgentDroneEmulator.GetStickVisualization"/>.</summary>
+    static void GetPidStickVisualization(DronePIDFlightController pid, out Vector2 leftStick, out Vector2 rightStick)
+    {
+        leftStick = new Vector2(
+            Mathf.Clamp(pid.OutRawLeftHorizontal, -1f, 1f),
+            Mathf.Clamp01(pid.OutRawLeftVertical));
+        rightStick = new Vector2(
+            Mathf.Clamp(pid.OutRawRightHorizontal, -1f, 1f),
+            Mathf.Clamp(pid.OutRawRightVertical, -1f, 1f));
     }
 
     /// <summary>Left: x ∈ [-1,1], y ∈ [0,1] with 0 = bottom of the square.</summary>

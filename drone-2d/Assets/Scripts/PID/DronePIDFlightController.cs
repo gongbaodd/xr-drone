@@ -1,6 +1,9 @@
 // DronePIDFlightController.cs
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 /// <summary>
 /// Mission / path PID: reads drone state, outputs transmitter-style sticks: left vertical throttle 0..1
@@ -55,6 +58,8 @@ public class DronePIDFlightController : MonoBehaviour
     private List<Vector3> flightPath;
     private Vector3 targetPosition;
     private Vector3 homePosition;
+    /// <summary>Last lookahead target from <see cref="HandleFollowPath"/>; for Gizmos only (do not call <see cref="PathFollower.GetTargetPoint"/> from OnDrawGizmos).</summary>
+    private Vector3 debugPathTargetPoint;
 
     void Awake()
     {
@@ -86,12 +91,12 @@ public class DronePIDFlightController : MonoBehaviour
             case FlightPhase.TakeOff:
                 HandleTakeOff(dt);
                 break;
-        //     case FlightPhase.FollowPath:
-        //         HandleFollowPath(dt);
-        //         break;
-        //     case FlightPhase.Landing:
-        //         HandleLanding(dt);
-        //         break;
+            case FlightPhase.FollowPath:
+                HandleFollowPath(dt);
+                break;
+            case FlightPhase.Landing:
+                HandleLanding(dt);
+                break;
         }
     }
 
@@ -133,6 +138,7 @@ public class DronePIDFlightController : MonoBehaviour
         }
 
         Vector3 target = pathFollower.GetTargetPoint(transform.position);
+        debugPathTargetPoint = target;
         ApplyCascadePidSticks(target, dt);
 
         Vector3 velocity = droneRigidbody != null ? droneRigidbody.linearVelocity : Vector3.zero;
@@ -205,20 +211,35 @@ public class DronePIDFlightController : MonoBehaviour
         float desiredVy = UpdatePidYAltitudeOutput(errorY, dt);
         float desiredVz = pidZ.Update(errorZ, dt);
 
-        Vector3 desiredVel = new Vector3(desiredVx, desiredVy, desiredVz);
-        if (desiredVel.magnitude > cruiseSpeed)
-            desiredVel = desiredVel.normalized * cruiseSpeed;
+        // Do not mix horizontal and vertical into one vector magnitude — that steals headroom from altitude vs XY.
+        Vector3 desiredH = new Vector3(desiredVx, 0f, desiredVz);
+        if (desiredH.sqrMagnitude > cruiseSpeed * cruiseSpeed)
+            desiredH = desiredH.normalized * cruiseSpeed;
+        desiredVy = Mathf.Clamp(desiredVy, -cruiseSpeed, cruiseSpeed);
 
-        float velErrorX = desiredVel.x - vel.x;
-        float velErrorY = desiredVel.y - vel.y;
-        float velErrorZ = desiredVel.z - vel.z;
+        // Roll/pitch sticks act in body frame; yaw can track path. Project horizontal setpoint/velocity onto yaw forward/right.
+        float yawDeg = transform.eulerAngles.y;
+        Quaternion yawOnly = Quaternion.AngleAxis(yawDeg, Vector3.up);
+        Vector3 forward = yawOnly * Vector3.forward;
+        Vector3 right = yawOnly * Vector3.right;
 
-        float forceX = pidVx.Update(velErrorX, dt);
+        Vector3 velH = new Vector3(vel.x, 0f, vel.z);
+        float desiredAlong = Vector3.Dot(desiredH, forward);
+        float desiredSide = Vector3.Dot(desiredH, right);
+        float velAlong = Vector3.Dot(velH, forward);
+        float velSide = Vector3.Dot(velH, right);
+
+        float errAlong = desiredAlong - velAlong;
+        float errSide = desiredSide - velSide;
+        float velErrorY = desiredVy - vel.y;
+
+        // Forward horizontal error → pitch; lateral → roll (same pairing as world Z / world X at yaw 0).
+        float forcePitch = pidVz.Update(errAlong, dt);
+        float forceRoll = pidVx.Update(errSide, dt);
         float forceY = pidVy.Update(velErrorY, dt);
-        float forceZ = pidVz.Update(velErrorZ, dt);
 
-        OutRawRightHorizontal = -Mathf.Clamp(forceX / pidVx.maxOutput, -1f, 1f);
-        OutRawRightVertical = Mathf.Clamp(forceZ / pidVz.maxOutput, -1f, 1f);
+        OutRawRightHorizontal = -Mathf.Clamp(forceRoll / pidVx.maxOutput, -1f, 1f);
+        OutRawRightVertical = Mathf.Clamp(forcePitch / pidVz.maxOutput, -1f, 1f);
         OutRawLeftVertical = SignedThrottleToLeftVertical01(forceY / pidVy.maxOutput);
     }
 
@@ -257,14 +278,34 @@ public class DronePIDFlightController : MonoBehaviour
         pidYaw.Reset();
     }
 
+#if UNITY_EDITOR
+    private static GUIStyle s_TargetPointGizmoLabelStyle;
+#endif
+
     private void OnDrawGizmos()
     {
-        if (pathFollower != null && pathFollower.IsFollowing)
+#if UNITY_EDITOR
+        if (!Application.isPlaying || currentPhase != FlightPhase.FollowPath || pathFollower == null)
+            return;
+
+        Vector3 target = debugPathTargetPoint;
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawSphere(target, 0.35f);
+        Gizmos.color = new Color(1f, 1f, 0f, 0.9f);
+        Gizmos.DrawWireSphere(target, 0.45f);
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawLine(transform.position, target);
+
+        if (s_TargetPointGizmoLabelStyle == null)
         {
-            Vector3 target = pathFollower.GetTargetPoint(transform.position);
-            Gizmos.color = Color.yellow;
-            Gizmos.DrawSphere(target, 0.3f);
-            Gizmos.DrawLine(transform.position, target);
+            s_TargetPointGizmoLabelStyle = new GUIStyle(EditorStyles.boldLabel)
+            {
+                normal = { textColor = Color.yellow },
+                alignment = TextAnchor.MiddleCenter,
+                fontSize = 12
+            };
         }
+        Handles.Label(target + Vector3.up * 0.55f, "TargetPoint", s_TargetPointGizmoLabelStyle);
+#endif
     }
 }
