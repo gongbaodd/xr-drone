@@ -370,6 +370,10 @@ PrefabInstance:
       propertyPath: armed
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1310926270657974288, guid: adb540b78007b484fb4e85791757953c, type: 3}
+      propertyPath: physicsConfig.thrust
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
       propertyPath: m_Name
       value: SelfLevelingQuad
@@ -449,8 +453,8 @@ Transform:
   m_GameObject: {fileID: 771200001}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.01072, y: 0.1174, z: -0.341}
-  m_LocalScale: {x: 0.17704782, y: 0.5, z: 0.7}
+  m_LocalPosition: {x: 0.01072, y: 0.1174, z: -0.307}
+  m_LocalScale: {x: 0.17704782, y: 0.5, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 243945980}
