@@ -1,0 +1,27 @@
+---
+description: MRTKDev Unity XR drone project — rendering, packages, emulators, known fixes
+alwaysApply: true
+---
+
+# MRTKDev project memory
+
+## Stack
+- Unity 6, **URP** (`com.unity.render-pipelines.universal` ~17.x). A **URP asset must be assigned** in **Project Settings → Graphics** and **Quality** or Lit materials render **pink/magenta**.
+- URP assets live under `Assets/Settings/URP/` (e.g. `MRTKDev_URP_Asset.asset`, `MRTKDev_ForwardRenderer.asset`).
+
+## MRTK Graphics Tools (embedded + shader fix)
+- `com.microsoft.mrtk.graphicstools.unity` is a **local package**: `Packages/com.microsoft.mrtk.graphicstools.unity` via manifest `file:com.microsoft.mrtk.graphicstools.unity` (registry copy minus `Samples~` to save size).
+- **Metal / Unity 6:** `Editor/Shaders/DebugMipColor.shader` second subshader must include `Packages/com.unity.render-pipelines.core/ShaderLibrary/DebugMipmapStreaming.hlsl` (not only `Debug.hlsl`) so `GetDebugMipColor` resolves.
+
+## Yue drone materials (pink fix)
+- Prefabs under `Assets/Yuetility-Studios/YueUltimateDronePhysics/` use materials in `Model/Materials/`. They were migrated from **Built-in Standard** to **URP Lit** (`guid: 933532a4fcc9baf4fa0491de14d08ed7`).
+- Do not revert those `.mat` files to `fileID: 46` Standard while on URP.
+
+## Drone emulator & glass
+- `Assets/Scripts/Emulators/LimitedDroneEmulator.cs`: PC-style input, rigidbody; optional `BoxCollider flightVolume` clamps position in `FixedUpdate`.
+- Glass volume: `GlassFlightVolume.mat` (URP Lit transparent); `EnsureURPGlassBoxMaterial.cs` can correct materials if the error shader appears.
+- `SelfLevelingQuad.prefab` and scenes (`PCInput.unity`, `ControllerScene.unity`) reference the emulator and flight volume as set up in-repo.
+
+## Conventions
+- Prefer **URP Lit** (or project shaders) for new meshes; avoid Built-in Standard in this project.
+- After changing `Packages/manifest.json` or embedded packages, let Unity refresh; resolve duplicate package paths if both registry and `Packages/` define the same name.
