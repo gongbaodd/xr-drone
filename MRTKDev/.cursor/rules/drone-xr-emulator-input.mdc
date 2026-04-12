@@ -1,0 +1,19 @@
+---
+description: XR drone emulator input and arming conventions
+globs: Assets/Scripts/Emulators/LimitedDroneEmulator.cs
+alwaysApply: false
+---
+
+# LimitedDroneEmulator input conventions
+
+- Use XR thumbstick input (`CommonUsages.primary2DAxis`) for both hands; do not reintroduce keyboard fallback.
+- Keep transmitter layout as American hands / Mode 4 intent:
+  - Left Y: throttle
+  - Left X: roll
+  - Right Y: pitch
+  - Right X: yaw
+- Keep left stick Y mapped to `0..1` for `rawLeftVertical` using `(leftY + 1) * 0.5`.
+- Keep arming safety gate:
+  - Start disarmed on game start.
+  - Arm only after the left stick is intentionally brought to minimum throttle (near `-1`, mapped near `0`).
+  - Apply arming once via gate state, not continuously every frame.

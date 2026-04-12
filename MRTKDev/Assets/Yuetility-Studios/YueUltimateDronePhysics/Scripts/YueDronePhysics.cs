@@ -48,7 +48,7 @@ namespace YueUltimateDronePhysics
             // Instantiate Target Transform
             targetQuad = new GameObject("TargetQuad").transform;
             targetQuad.parent = transform;
-            targetQuad.SetPositionAndRotation(transform.position, transform.rotation * Quaternion.Euler(0, 90, 0));
+            // targetQuad.SetPositionAndRotation(transform.position, transform.rotation * Quaternion.Euler(0, 90, 0));
 
             rotationPID = new YuePIDController();
             altitudePID = new YuePIDController();
@@ -213,8 +213,8 @@ namespace YueUltimateDronePhysics
 
         public void ResetInternals()
         {
-            targetAltitude = transform.position.y;
-            targetQuad.transform.rotation = transform.rotation * Quaternion.Euler(0,90,0);
+            // targetAltitude = transform.position.y;
+            // targetQuad.transform.rotation = transform.rotation * Quaternion.Euler(0,90,0);
         }
     }
 }

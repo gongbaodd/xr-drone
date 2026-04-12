@@ -1,0 +1,13 @@
+---
+description: ControllerScene flight volume and glass visual split
+globs: Assets/Scenes/ControllerScene.unity
+alwaysApply: false
+---
+
+# Flight volume vs glass visual
+
+- `DroneFlight Volume` is collider-only for drone bounds (no visible mesh renderer requirement).
+- `LimitedDroneEmulator.flightVolume` should reference `DroneFlight Volume`'s `BoxCollider`.
+- `GlassBox Visual` is the visible glass mesh and should hold the glass material.
+- Avoid duplicating trigger colliders across both objects unless intentionally needed.
+- Keep naming clear (`DroneFlight Volume`, `GlassBox Visual`) to avoid wiring mistakes.

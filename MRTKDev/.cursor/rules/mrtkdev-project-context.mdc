@@ -18,9 +18,9 @@ alwaysApply: true
 - Do not revert those `.mat` files to `fileID: 46` Standard while on URP.
 
 ## Drone emulator & glass
-- `Assets/Scripts/Emulators/LimitedDroneEmulator.cs`: PC-style input, rigidbody; optional `BoxCollider flightVolume` clamps position in `FixedUpdate`.
+- `Assets/Scripts/Emulators/LimitedDroneEmulator.cs`: XR-controller input path for the drone plus optional `BoxCollider flightVolume` clamp in `FixedUpdate`.
 - Glass volume: `GlassFlightVolume.mat` (URP Lit transparent); `EnsureURPGlassBoxMaterial.cs` can correct materials if the error shader appears.
-- `SelfLevelingQuad.prefab` and scenes (`PCInput.unity`, `ControllerScene.unity`) reference the emulator and flight volume as set up in-repo.
+- `SelfLevelingQuad.prefab` and scenes (`PCInput.unity`, `ControllerScene.unity`) reference the emulator and flight volume setup in-repo.
 
 ## Conventions
 - Prefer **URP Lit** (or project shaders) for new meshes; avoid Built-in Standard in this project.

@@ -2,6 +2,9 @@
 
 Machine-readable project notes for assistants and tools:
 
-- **Cursor:** `.cursor/rules/mrtkdev-project-context.mdc` (`alwaysApply: true`) — URP setup, embedded MRTK Graphics Tools + `DebugMipColor` fix, Yue drone URP materials, emulator/glass paths.
+- **Cursor (always):** `.cursor/rules/mrtkdev-project-context.mdc` — project-wide rendering/package context.
+- **Cursor (file-specific):**
+  - `.cursor/rules/drone-xr-emulator-input.mdc` — `LimitedDroneEmulator.cs` XR mapping, 0..1 throttle mapping, arming gate behavior.
+  - `.cursor/rules/controller-scene-flight-volume.mdc` — `ControllerScene.unity` collider-only flight volume + separate glass visual convention.
 
-Open that file for the full checklist; keep it updated when rendering, packages, or flight tooling changes.
+Open the relevant rule(s) above and keep them updated when rendering, packages, or flight tooling changes.

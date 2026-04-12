@@ -11,7 +11,7 @@ namespace YueUltimateDronePhysics
     [DefaultExecutionOrder(-50)]
     public class LimitedDroneEmulator : MonoBehaviour
     {
-        private const float ArmThrottleThreshold01 = 0.05f;
+        private const float ArmStickYThreshold = -0.9f;
         private const float MinStickValue = -1f;
         private const float MaxStickValue = 1f;
 
@@ -54,22 +54,20 @@ namespace YueUltimateDronePhysics
             if (inputModule == null)
                 return;
 
-            bool hasLeftStick = TryReadPrimary2DAxis(XRNode.LeftHand, out Vector2 left);
+            TryReadPrimary2DAxis(XRNode.LeftHand, out Vector2 left);
             TryReadPrimary2DAxis(XRNode.RightHand, out Vector2 right);
 
-            inputModule.ratesConfig.mode = YueTransmitterMode.Mode4;
-            float throttle01 = StickToThrottle01(left.y);
-            inputModule.rawLeftVertical = throttle01;
+            inputModule.rawLeftVertical = StickToThrottle01(left.y);
             inputModule.rawLeftHorizontal = left.x;
             inputModule.rawRightVertical = right.y;
             inputModule.rawRightHorizontal = right.x;
 
-            TryArmFromThrottleGate(hasLeftStick, throttle01);
+            TryArmFromThrottleGate(left.y);
         }
 
-        private void TryArmFromThrottleGate(bool hasLeftStick, float throttle01)
+        private void TryArmFromThrottleGate(float leftStickY)
         {
-            if (hasArmedFromThrottleGate || !hasLeftStick || throttle01 > ArmThrottleThreshold01 || dronePhysics == null)
+            if (hasArmedFromThrottleGate || leftStickY > ArmStickYThreshold || dronePhysics == null)
                 return;
 
             dronePhysics.armed = true;
