@@ -1,0 +1,46 @@
+# Copyright (c) Mixed Reality Toolkit Contributors
+# Licensed under the BSD 3-Clause
+
+# Build for PR validation
+
+variables:
+  - template: Config/settings.yaml
+
+trigger: none # disable CI
+
+stages:
+  - stage: UnityValidation
+    jobs:
+      - job: BuildStandaloneAndTest
+        pool: Unity_2021.3.21f1_Pool
+        steps:
+          - checkout: self
+            fetchDepth: 3
+
+          - template: Templates/unity.yaml
+            parameters:
+              Platform: Standalone
+              RunTests: true
+              PathToProject: $(Build.SourcesDirectory)/UnityProjects/MRTKDevTemplate
+
+      - job: BuildUWP
+        pool: Unity_2021.3.21f1_Pool
+        steps:
+          - checkout: self
+            fetchDepth: 3
+
+          - template: Templates/unity.yaml
+            parameters:
+              Platform: UWP
+              PathToProject: $(Build.SourcesDirectory)/UnityProjects/MRTKDevTemplate
+
+      - job: BuildAndroid
+        pool: Unity_2021.3.21f1_Pool
+        steps:
+          - checkout: self
+            fetchDepth: 3
+
+          - template: Templates/unity.yaml
+            parameters:
+              Platform: Android
+              PathToProject: $(Build.SourcesDirectory)/UnityProjects/MRTKDevTemplate

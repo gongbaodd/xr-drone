@@ -488,10 +488,10 @@ namespace MixedReality.Toolkit.Examples
                 if (TryGetComponent<Rigidbody>(out var rigidbody))
                 {
                     originalUseGravity = rigidbody.useGravity;
-                    originalDrag = rigidbody.drag;
+                    originalDrag = rigidbody.linearDamping;
 
                     rigidbody.useGravity = false;
-                    rigidbody.drag = float.PositiveInfinity;
+                    rigidbody.linearDamping = float.PositiveInfinity;
                 }
             }
         }
@@ -520,7 +520,7 @@ namespace MixedReality.Toolkit.Examples
                 if (TryGetComponent<Rigidbody>(out var rigidbody))
                 {
                     rigidbody.useGravity = originalUseGravity;
-                    rigidbody.drag = originalDrag;
+                    rigidbody.linearDamping = originalDrag;
                 }
 
                 onDrop.Invoke();
