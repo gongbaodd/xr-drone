@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/component-detection-manifest.json",
+  "registrations": [
+    {
+      "component": {
+        "type": "git",
+          "git": {
+            "repositoryUrl": "https://github.com/immersive-web/webxr-input-profiles",
+            "commitHash": "21272c8a0a5512614e60dca5be26f7b1485ad6e7"
+          }
+      }
+    }
+  ]
+}

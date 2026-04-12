@@ -1,0 +1,7 @@
+variables:
+  # Note that when updating this value also ensure that you update the
+  # following locations to match. There will be a CI failure if they don't
+  # match (see scripts/packaging/versionmetadata.ps1)
+  # ProjectSettings/ProjectSettings.asset:  bundleVersion: x.x.x
+  # ProjectSettings/ProjectSettings.asset:  metroPackageVersion: x.x.x.0
+  ProjectVersion: 3.0.0        # used for overall build number of sample projects
