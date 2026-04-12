@@ -1,12 +1,14 @@
 using UnityEngine;
+using UnityEngine.XR;
 
 namespace YueUltimateDronePhysics
 {
     /// <summary>
-    /// Keyboard emulator: Space disarm, W throttle, A/D roll, Left/Right arrow yaw, Up/Down arrow pitch.
+    /// XR thumbsticks (American / Mode 4): left Y throttle, left X roll, right Y pitch, right X yaw
+    /// (see <see cref="YueTransmitterMode.Mode4"/> in <see cref="YueInputModule"/>).
     /// When <see cref="flightVolume"/> is set, the rigidbody is clamped to that collider's world-space AABB.
     /// </summary>
-    [DefaultExecutionOrder(50)]
+    [DefaultExecutionOrder(-50)]
     public class LimitedDroneEmulator : MonoBehaviour
     {
         [Header("References (auto-filled on this object if empty)")]
@@ -37,44 +39,23 @@ namespace YueUltimateDronePhysics
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Space) && dronePhysics != null)
-                dronePhysics.armed = false;
-
             if (inputModule == null)
                 return;
 
-            float roll = -Input.GetAxisRaw("Horizontal");
-            float yaw = 0f;
-            if (Input.GetKey(KeyCode.LeftArrow))
-                yaw -= 1f;
-            if (Input.GetKey(KeyCode.RightArrow))
-                yaw += 1f;
+            InputDevice leftDevice = InputDevices.GetDeviceAtXRNode(XRNode.LeftHand);
+            InputDevice rightDevice = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
 
-            float pitch = 0f;
-            if (Input.GetKey(KeyCode.UpArrow))
-                pitch += 1f;
-            if (Input.GetKey(KeyCode.DownArrow))
-                pitch -= 1f;
+            Vector2 leftStick = Vector2.zero;
+            Vector2 rightStick = Vector2.zero;
+            bool hasLeftStick = leftDevice.isValid && leftDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out leftStick);
+            bool hasRightStick = rightDevice.isValid && rightDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out rightStick);
 
-            float throttleStick = Input.GetKey(KeyCode.W) ? 1f : 0f;
-
-            switch (dronePhysics != null ? dronePhysics.flightConfig : YueDronePhysicsFlightConfiguration.SelfLeveling)
-            {
-                case YueDronePhysicsFlightConfiguration.AcroMode:
-                case YueDronePhysicsFlightConfiguration.SelfLeveling:
-                    inputModule.rawLeftHorizontal = yaw;
-                    inputModule.rawLeftVertical = throttleStick;
-                    inputModule.rawRightHorizontal = roll;
-                    inputModule.rawRightVertical = pitch;
-                    break;
-
-                case YueDronePhysicsFlightConfiguration.AltitudeHold:
-                    inputModule.rawLeftHorizontal = yaw;
-                    inputModule.rawLeftVertical = Input.GetAxis("Mouse ScrollWheel") * 100f + (Input.GetKey(KeyCode.W) ? 1f : 0f);
-                    inputModule.rawRightHorizontal = roll;
-                    inputModule.rawRightVertical = pitch;
-                    break;
-            }
+            // Mode4: thrust=L vertical, yaw=R horizontal, pitch=R vertical, roll=L horizontal
+            inputModule.ratesConfig.mode = YueTransmitterMode.Mode4;
+            inputModule.rawLeftVertical = hasLeftStick ? leftStick.y : 0f;
+            inputModule.rawLeftHorizontal = hasLeftStick ? leftStick.x : 0f;
+            inputModule.rawRightVertical = hasRightStick ? rightStick.y : 0f;
+            inputModule.rawRightHorizontal = hasRightStick ? rightStick.x : 0f;
         }
 
         private void FixedUpdate()
