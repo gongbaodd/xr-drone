@@ -20,15 +20,9 @@ namespace YueUltimateDronePhysics
         [Tooltip("Assign a BoxCollider (e.g. on a glass cage). Bounds use BoxCollider.bounds each physics step.")]
         [SerializeField] private BoxCollider flightVolume;
 
-        private void Awake()
-        {
-            ResolveDroneComponents();
-        }
+        private void Awake() => ResolveDroneComponents();
 
-        private void OnValidate()
-        {
-            ResolveDroneComponents();
-        }
+        private void OnValidate() => ResolveDroneComponents();
 
         private void ResolveDroneComponents()
         {
@@ -42,20 +36,22 @@ namespace YueUltimateDronePhysics
             if (inputModule == null)
                 return;
 
-            InputDevice leftDevice = InputDevices.GetDeviceAtXRNode(XRNode.LeftHand);
-            InputDevice rightDevice = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
+            TryReadPrimary2DAxis(XRNode.LeftHand, out Vector2 left);
+            TryReadPrimary2DAxis(XRNode.RightHand, out Vector2 right);
 
-            Vector2 leftStick = Vector2.zero;
-            Vector2 rightStick = Vector2.zero;
-            bool hasLeftStick = leftDevice.isValid && leftDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out leftStick);
-            bool hasRightStick = rightDevice.isValid && rightDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out rightStick);
-
-            // Mode4: thrust=L vertical, yaw=R horizontal, pitch=R vertical, roll=L horizontal
             inputModule.ratesConfig.mode = YueTransmitterMode.Mode4;
-            inputModule.rawLeftVertical = hasLeftStick ? leftStick.y : 0f;
-            inputModule.rawLeftHorizontal = hasLeftStick ? leftStick.x : 0f;
-            inputModule.rawRightVertical = hasRightStick ? rightStick.y : 0f;
-            inputModule.rawRightHorizontal = hasRightStick ? rightStick.x : 0f;
+            float throttle01 = (left.y + 1f) * 0.5f;
+            inputModule.rawLeftVertical = throttle01;
+            inputModule.rawLeftHorizontal = left.x;
+            inputModule.rawRightVertical = right.y;
+            inputModule.rawRightHorizontal = right.x;
+        }
+
+        private static bool TryReadPrimary2DAxis(XRNode hand, out Vector2 axis)
+        {
+            InputDevice device = InputDevices.GetDeviceAtXRNode(hand);
+            axis = default;
+            return device.isValid && device.TryGetFeatureValue(CommonUsages.primary2DAxis, out axis);
         }
 
         private void FixedUpdate()
@@ -63,29 +59,22 @@ namespace YueUltimateDronePhysics
             if (rb == null || flightVolume == null)
                 return;
 
-            Bounds worldBounds = flightVolume.bounds;
-
+            Bounds b = flightVolume.bounds;
             Vector3 p = rb.position;
-            Vector3 min = worldBounds.min;
-            Vector3 max = worldBounds.max;
+            Vector3 min = b.min;
+            Vector3 max = b.max;
 
             p.x = Mathf.Clamp(p.x, min.x, max.x);
             p.y = Mathf.Clamp(p.y, min.y, max.y);
             p.z = Mathf.Clamp(p.z, min.z, max.z);
 
             Vector3 v = rb.linearVelocity;
-            if (p.x <= min.x && v.x < 0f)
-                v.x = 0f;
-            if (p.x >= max.x && v.x > 0f)
-                v.x = 0f;
-            if (p.y <= min.y && v.y < 0f)
-                v.y = 0f;
-            if (p.y >= max.y && v.y > 0f)
-                v.y = 0f;
-            if (p.z <= min.z && v.z < 0f)
-                v.z = 0f;
-            if (p.z >= max.z && v.z > 0f)
-                v.z = 0f;
+            if (p.x <= min.x) v.x = Mathf.Max(0f, v.x);
+            if (p.x >= max.x) v.x = Mathf.Min(0f, v.x);
+            if (p.y <= min.y) v.y = Mathf.Max(0f, v.y);
+            if (p.y >= max.y) v.y = Mathf.Min(0f, v.y);
+            if (p.z <= min.z) v.z = Mathf.Max(0f, v.z);
+            if (p.z >= max.z) v.z = Mathf.Min(0f, v.z);
 
             rb.position = p;
             rb.linearVelocity = v;
