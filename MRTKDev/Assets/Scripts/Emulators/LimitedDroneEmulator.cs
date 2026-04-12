@@ -24,6 +24,9 @@ namespace YueUltimateDronePhysics
         [Tooltip("Assign a BoxCollider (e.g. on a glass cage). Bounds use BoxCollider.bounds each physics step.")]
         [SerializeField] private BoxCollider flightVolume;
 
+        public Vector2 CurrentLeftStick { get; private set; }
+        public Vector2 CurrentRightStick { get; private set; }
+
         private bool hasArmedFromThrottleGate;
 
         private void Awake()
@@ -56,6 +59,8 @@ namespace YueUltimateDronePhysics
 
             TryReadPrimary2DAxis(XRNode.LeftHand, out Vector2 left);
             TryReadPrimary2DAxis(XRNode.RightHand, out Vector2 right);
+            CurrentLeftStick = left;
+            CurrentRightStick = right;
 
             inputModule.rawLeftVertical = StickToThrottle01(left.y);
             inputModule.rawLeftHorizontal = left.x;

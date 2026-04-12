@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="project://database/Assets/Scripts/UI/XRJoystickHud.uss?fileID=7433441132597879392&amp;guid=3f6efadcf50fd434d9667e01c6682ede&amp;type=3" />
+    <ui:VisualElement name="hud-root" class="hud-root">
+        <ui:VisualElement name="maps-row" class="maps-row">
+            <ui:VisualElement name="left-map" class="stick-map">
+                <ui:VisualElement class="cross-horizontal" />
+                <ui:VisualElement class="cross-vertical" />
+                <ui:VisualElement name="left-dot" class="stick-dot" />
+            </ui:VisualElement>
+            <ui:VisualElement name="right-map" class="stick-map map-right">
+                <ui:VisualElement class="cross-horizontal" />
+                <ui:VisualElement class="cross-vertical" />
+                <ui:VisualElement name="right-dot" class="stick-dot" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

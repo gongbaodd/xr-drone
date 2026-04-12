@@ -1,0 +1,60 @@
+.hud-root {
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 48px;
+}
+
+.maps-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.stick-map {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    border-left-color: rgba(255, 255, 255, 0.5);
+    border-right-color: rgba(255, 255, 255, 0.5);
+}
+
+.map-right {
+    margin-left: 24px;
+}
+
+.cross-horizontal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 59px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.cross-vertical {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 59px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.stick-dot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: rgba(41, 242, 255, 0.95);
+}
