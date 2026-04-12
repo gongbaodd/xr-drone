@@ -11,6 +11,10 @@ namespace YueUltimateDronePhysics
     [DefaultExecutionOrder(-50)]
     public class LimitedDroneEmulator : MonoBehaviour
     {
+        private const float ArmThrottleThreshold01 = 0.05f;
+        private const float MinStickValue = -1f;
+        private const float MaxStickValue = 1f;
+
         [Header("References (auto-filled on this object if empty)")]
         [SerializeField] private YueDronePhysics dronePhysics;
         [SerializeField] private YueInputModule inputModule;
@@ -20,7 +24,13 @@ namespace YueUltimateDronePhysics
         [Tooltip("Assign a BoxCollider (e.g. on a glass cage). Bounds use BoxCollider.bounds each physics step.")]
         [SerializeField] private BoxCollider flightVolume;
 
-        private void Awake() => ResolveDroneComponents();
+        private bool hasArmedFromThrottleGate;
+
+        private void Awake()
+        {
+            ResolveDroneComponents();
+            ResetArmingState();
+        }
 
         private void OnValidate() => ResolveDroneComponents();
 
@@ -31,20 +41,39 @@ namespace YueUltimateDronePhysics
             rb ??= GetComponent<Rigidbody>();
         }
 
+        private void ResetArmingState()
+        {
+            hasArmedFromThrottleGate = false;
+
+            if (dronePhysics != null)
+                dronePhysics.armed = false;
+        }
+
         private void Update()
         {
             if (inputModule == null)
                 return;
 
-            TryReadPrimary2DAxis(XRNode.LeftHand, out Vector2 left);
+            bool hasLeftStick = TryReadPrimary2DAxis(XRNode.LeftHand, out Vector2 left);
             TryReadPrimary2DAxis(XRNode.RightHand, out Vector2 right);
 
             inputModule.ratesConfig.mode = YueTransmitterMode.Mode4;
-            float throttle01 = (left.y + 1f) * 0.5f;
+            float throttle01 = StickToThrottle01(left.y);
             inputModule.rawLeftVertical = throttle01;
             inputModule.rawLeftHorizontal = left.x;
             inputModule.rawRightVertical = right.y;
             inputModule.rawRightHorizontal = right.x;
+
+            TryArmFromThrottleGate(hasLeftStick, throttle01);
+        }
+
+        private void TryArmFromThrottleGate(bool hasLeftStick, float throttle01)
+        {
+            if (hasArmedFromThrottleGate || !hasLeftStick || throttle01 > ArmThrottleThreshold01 || dronePhysics == null)
+                return;
+
+            dronePhysics.armed = true;
+            hasArmedFromThrottleGate = true;
         }
 
         private static bool TryReadPrimary2DAxis(XRNode hand, out Vector2 axis)
@@ -52,6 +81,12 @@ namespace YueUltimateDronePhysics
             InputDevice device = InputDevices.GetDeviceAtXRNode(hand);
             axis = default;
             return device.isValid && device.TryGetFeatureValue(CommonUsages.primary2DAxis, out axis);
+        }
+
+        private static float StickToThrottle01(float stickY)
+        {
+            float clampedStick = Mathf.Clamp(stickY, MinStickValue, MaxStickValue);
+            return (clampedStick + 1f) * 0.5f;
         }
 
         private void FixedUpdate()
