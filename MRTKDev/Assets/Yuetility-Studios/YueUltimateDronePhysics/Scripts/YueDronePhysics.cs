@@ -88,7 +88,7 @@ namespace YueUltimateDronePhysics
                 rb.AddForce(appliedForce.y * transform.up);
 
                 // Update HoverEffect
-                UpdateHoverEffect();
+                // UpdateHoverEffect();
 
                 // Update Rigigbody Configuration
                 UpdateRigidbody();
