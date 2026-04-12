@@ -2988,11 +2988,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1310926270657974294}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82d367c92722bc74093df063e646e773, type: 3}
+  m_Script: {fileID: 11500000, guid: 913b7e32b8d0d4e1a9409b9b2d4c74bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dronePhysics: {fileID: 1310926270657974288}
   inputModule: {fileID: 1310926270657974289}
+  rb: {fileID: 1310926270657974290}
+  flightVolume: {fileID: 0}
 --- !u!1 &1310926270682270410
 GameObject:
   m_ObjectHideFlags: 0
