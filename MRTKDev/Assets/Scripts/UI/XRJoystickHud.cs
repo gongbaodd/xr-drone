@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Rendering;
 using UnityEngine.UIElements;
 
 namespace YueUltimateDronePhysics
@@ -7,36 +6,28 @@ namespace YueUltimateDronePhysics
     [RequireComponent(typeof(UIDocument))]
     public class XRJoystickHud : MonoBehaviour
     {
-        private static readonly Vector2Int PanelTextureSize = new(512, 256);
-        private static readonly Vector3 HudLocalPosition = new(0f, -0.12f, 0.7f);
-        private static readonly Vector2 HudWorldSize = new(0.34f, 0.18f);
-
-        [Header("Data source")]
-        [SerializeField] private LimitedDroneEmulator emulator;
-
-        [SerializeField, HideInInspector] private VisualTreeAsset layoutAsset;
+        private const string HudQuadName = "XR Joystick HUD Quad";
 
         private UIDocument uiDocument;
+        private LimitedDroneEmulator emulator;
         private VisualElement leftDot;
         private VisualElement rightDot;
-        private PanelSettings runtimePanelSettings;
-        private RenderTexture panelTexture;
-        private GameObject hudQuad;
-        private Material hudMaterial;
+        private Transform hudQuadTransform;
         private Transform mainCameraTransform;
+        private bool isHudReady;
+        private bool isUiReady;
 
         private void Awake()
         {
             uiDocument = GetComponent<UIDocument>();
-            emulator ??= FindAnyObjectByType<LimitedDroneEmulator>();
-            EnsureUiAssets();
-            SetupWorldView();
+            emulator = FindAnyObjectByType<LimitedDroneEmulator>();
             BuildUi();
+            SetupWorldView();
         }
 
         private void Update()
         {
-            if (emulator == null || leftDot == null || rightDot == null)
+            if (emulator == null || !isUiReady)
                 return;
 
             ApplyDotPosition(leftDot, emulator.CurrentLeftStick);
@@ -53,81 +44,27 @@ namespace YueUltimateDronePhysics
             VisualElement root = uiDocument.rootVisualElement;
             root.Clear();
 
-            if (layoutAsset != null)
-                layoutAsset.CloneTree(root);
+            if (uiDocument.visualTreeAsset != null)
+                uiDocument.visualTreeAsset.CloneTree(root);
 
             leftDot = root.Q<VisualElement>("left-dot");
             rightDot = root.Q<VisualElement>("right-dot");
-        }
-
-        private void EnsureUiAssets()
-        {
-            layoutAsset ??= uiDocument.visualTreeAsset;
+            isUiReady = leftDot != null && rightDot != null;
         }
 
         private void SetupWorldView()
         {
-            if (uiDocument.panelSettings == null)
+            hudQuadTransform = transform.Find(HudQuadName);
+            RenderTexture panelTextureAsset = hudQuadTransform?.GetComponent<Renderer>()?.sharedMaterial?.mainTexture as RenderTexture;
+
+            isHudReady = uiDocument.panelSettings != null && hudQuadTransform != null && panelTextureAsset != null;
+            if (!isHudReady)
                 return;
 
-            runtimePanelSettings = Instantiate(uiDocument.panelSettings);
-            runtimePanelSettings.name = $"{uiDocument.panelSettings.name}_Runtime";
+            if (uiDocument.panelSettings.targetTexture != panelTextureAsset)
+                uiDocument.panelSettings.targetTexture = panelTextureAsset;
 
-            panelTexture = new RenderTexture(PanelTextureSize.x, PanelTextureSize.y, 0, RenderTextureFormat.ARGB32)
-            {
-                name = "XRJoystickHudRT"
-            };
-            panelTexture.Create();
-            runtimePanelSettings.targetTexture = panelTexture;
-            uiDocument.panelSettings = runtimePanelSettings;
-
-            hudQuad = GameObject.CreatePrimitive(PrimitiveType.Quad);
-            hudQuad.name = "XR Joystick HUD Quad";
-            hudQuad.transform.SetParent(transform, false);
-            hudQuad.transform.localPosition = HudLocalPosition;
-            hudQuad.transform.localRotation = Quaternion.identity;
-            hudQuad.transform.localScale = new Vector3(HudWorldSize.x, HudWorldSize.y, 1f);
-
-            Collider quadCollider = hudQuad.GetComponent<Collider>();
-            if (quadCollider != null)
-                Destroy(quadCollider);
-
-            Shader shader = Shader.Find("Sprites/Default");
-            if (shader == null)
-                shader = Shader.Find("Unlit/Texture");
-
-            if (shader != null)
-            {
-                hudMaterial = new Material(shader);
-                hudMaterial.mainTexture = panelTexture;
-                Renderer renderer = hudQuad.GetComponent<Renderer>();
-                renderer.sharedMaterial = hudMaterial;
-                renderer.shadowCastingMode = ShadowCastingMode.Off;
-                renderer.receiveShadows = false;
-                renderer.lightProbeUsage = LightProbeUsage.Off;
-                renderer.reflectionProbeUsage = ReflectionProbeUsage.Off;
-            }
-
-            if (Camera.main != null)
-                mainCameraTransform = Camera.main.transform;
-        }
-
-        private void OnDestroy()
-        {
-            if (hudQuad != null)
-                Destroy(hudQuad);
-
-            if (hudMaterial != null)
-                Destroy(hudMaterial);
-
-            if (panelTexture != null)
-            {
-                panelTexture.Release();
-                Destroy(panelTexture);
-            }
-
-            if (runtimePanelSettings != null)
-                Destroy(runtimePanelSettings);
+            mainCameraTransform = Camera.main != null ? Camera.main.transform : null;
         }
 
         private static void ApplyDotPosition(VisualElement dot, Vector2 stick)
@@ -149,7 +86,7 @@ namespace YueUltimateDronePhysics
 
         private void UpdateHudFacing()
         {
-            if (hudQuad == null)
+            if (!isHudReady)
                 return;
 
             if (mainCameraTransform == null && Camera.main != null)
@@ -158,11 +95,11 @@ namespace YueUltimateDronePhysics
             if (mainCameraTransform == null)
                 return;
 
-            Vector3 toCamera = mainCameraTransform.position - hudQuad.transform.position;
+            Vector3 toCamera = mainCameraTransform.position - hudQuadTransform.position;
             if (toCamera.sqrMagnitude <= Mathf.Epsilon)
                 return;
 
-            hudQuad.transform.rotation = Quaternion.LookRotation(toCamera.normalized, mainCameraTransform.up);
+            hudQuadTransform.rotation = Quaternion.LookRotation(-toCamera.normalized, mainCameraTransform.up);
         }
     }
 }
