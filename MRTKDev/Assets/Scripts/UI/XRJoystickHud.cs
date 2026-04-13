@@ -23,6 +23,7 @@ namespace YueUltimateDronePhysics
         private RenderTexture panelTexture;
         private GameObject hudQuad;
         private Material hudMaterial;
+        private Transform mainCameraTransform;
 
         private void Awake()
         {
@@ -40,6 +41,11 @@ namespace YueUltimateDronePhysics
 
             ApplyDotPosition(leftDot, emulator.CurrentLeftStick);
             ApplyDotPosition(rightDot, emulator.CurrentRightStick);
+        }
+
+        private void LateUpdate()
+        {
+            UpdateHudFacing();
         }
 
         private void BuildUi()
@@ -101,6 +107,9 @@ namespace YueUltimateDronePhysics
                 renderer.lightProbeUsage = LightProbeUsage.Off;
                 renderer.reflectionProbeUsage = ReflectionProbeUsage.Off;
             }
+
+            if (Camera.main != null)
+                mainCameraTransform = Camera.main.transform;
         }
 
         private void OnDestroy()
@@ -136,6 +145,24 @@ namespace YueUltimateDronePhysics
             float y = Mathf.Clamp(stick.y, -1f, 1f) * travel;
             dot.style.left = travel + x;
             dot.style.top = travel - y;
+        }
+
+        private void UpdateHudFacing()
+        {
+            if (hudQuad == null)
+                return;
+
+            if (mainCameraTransform == null && Camera.main != null)
+                mainCameraTransform = Camera.main.transform;
+
+            if (mainCameraTransform == null)
+                return;
+
+            Vector3 toCamera = mainCameraTransform.position - hudQuad.transform.position;
+            if (toCamera.sqrMagnitude <= Mathf.Epsilon)
+                return;
+
+            hudQuad.transform.rotation = Quaternion.LookRotation(toCamera.normalized, mainCameraTransform.up);
         }
     }
 }
