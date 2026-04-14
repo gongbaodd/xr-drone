@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0264e726c8b3aa141ab8e71c2e915869, type: 3}
+  m_Name: VideoInstructionTextLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::VideoInstructionTextLibrary
+  entries:
+  - option: 0
+    clip: {fileID: 32900000, guid: d1693cf1644230e4b9d58568b33defe2, type: 3}
+    header: Grab
+    body: Point the controller at the object and press the Grab button to grab.
+  - option: 1
+    clip: {fileID: 32900000, guid: 981433469c0451a41b8e2d972c9da92e, type: 3}
+    header: Pitch
+    body: Move the right joystick up and down to control the drone's pitch.
+  - option: 2
+    clip: {fileID: 32900000, guid: f849b24507069284c9185b3dc7d46f41, type: 3}
+    header: Roll
+    body: Move the right joystick left and right to control the drone's roll.
+  - option: 3
+    clip: {fileID: 32900000, guid: 2fc1eecc3a95f284d8871d34dd2e0f21, type: 3}
+    header: Throttle
+    body: Move the left joystick up and down to control the throttle.
+  - option: 5
+    clip: {fileID: 32900000, guid: d2c422301862b774e93f93ad555f0175, type: 3}
+    header: Yaw
+    body: Move the left joystick left and right to control the yaw.
+  - option: 6
+    clip: {fileID: 32900000, guid: b96945ac7416d834fbe52f57a7636759, type: 3}
+    header: Arm
+    body: Move the left joystick to the bottom to arm the drone.
+  - option: 4
+    clip: {fileID: 32900000, guid: d8f528eb5129642428936b2b809ff811, type: 3}
+    header: Trigger
+    body: Point the controller at the object and press the trigger button to select.
