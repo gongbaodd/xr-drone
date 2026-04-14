@@ -3,7 +3,6 @@ using UnityEngine.UI;
 using UnityEngine.Video;
 using TMPro;
 
-[RequireComponent(typeof(RawImage), typeof(VideoPlayer))]
 public class VideoPanelPlayer : MonoBehaviour
 {
     public enum VideoOption
@@ -19,6 +18,7 @@ public class VideoPanelPlayer : MonoBehaviour
 
     [Header("References")]
     [SerializeField] private RawImage rawImage;
+    [SerializeField] private GameObject videoPlayerObject;
     [SerializeField] private VideoPlayer videoPlayer;
     [SerializeField] private TMP_Text headerText;
     [SerializeField] private TMP_Text bodyText;
@@ -34,7 +34,12 @@ public class VideoPanelPlayer : MonoBehaviour
     private void Reset()
     {
         rawImage = GetComponent<RawImage>();
-        videoPlayer = GetComponent<VideoPlayer>();
+        if (videoPlayer == null)
+        {
+            videoPlayer = GetComponentInChildren<VideoPlayer>(true);
+            if (videoPlayer != null)
+                videoPlayerObject = videoPlayer.gameObject;
+        }
         ConfigureVideoPlayer();
     }
 
@@ -46,6 +51,9 @@ public class VideoPanelPlayer : MonoBehaviour
 
     private void OnEnable()
     {
+        if (videoPlayer == null)
+            return;
+
         videoPlayer.prepareCompleted += OnPrepared;
 
         if (Application.isPlaying)
@@ -54,11 +62,15 @@ public class VideoPanelPlayer : MonoBehaviour
 
     private void OnDisable()
     {
+        if (videoPlayer == null)
+            return;
+
         videoPlayer.prepareCompleted -= OnPrepared;
     }
 
     private void OnValidate()
     {
+        EnsureReferences();
         ConfigureVideoPlayer();
         ApplySelectedClip(playNow: false);
     }
@@ -89,6 +101,10 @@ public class VideoPanelPlayer : MonoBehaviour
 
     private void ApplySelectedClip(bool playNow)
     {
+        EnsureReferences();
+        if (videoPlayer == null || rawImage == null || instructionTextLibrary == null)
+            return;
+
         instructionTextLibrary.TryGet(selectedVideo, out VideoClip clip, out string title, out string description);
         UpdateInstructionText(title, description);
 
@@ -118,6 +134,10 @@ public class VideoPanelPlayer : MonoBehaviour
 
     private void ConfigureVideoPlayer()
     {
+        EnsureReferences();
+        if (videoPlayer == null)
+            return;
+
         videoPlayer.playOnAwake = false;
         videoPlayer.waitForFirstFrame = true;
         videoPlayer.source = VideoSource.VideoClip;
@@ -128,8 +148,23 @@ public class VideoPanelPlayer : MonoBehaviour
 
     private void UpdateInstructionText(string title, string description)
     {
-        headerText.text = title;
-        bodyText.text = description;
+        if (headerText != null)
+            headerText.text = title;
+        if (bodyText != null)
+            bodyText.text = description;
     }
 
+    private void EnsureReferences()
+    {
+        if (rawImage == null)
+            rawImage = GetComponent<RawImage>();
+
+        if (videoPlayerObject != null)
+            videoPlayer = videoPlayerObject.GetComponent<VideoPlayer>();
+        else if (videoPlayer == null)
+            videoPlayer = GetComponentInChildren<VideoPlayer>(true);
+
+        if (videoPlayer != null && videoPlayerObject == null)
+            videoPlayerObject = videoPlayer.gameObject;
+    }
 }
