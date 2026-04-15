@@ -1,0 +1,782 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 30.11.2010 12:45:11
+
+newmtl tex_18
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 37.jpg
+	map_Kd Vabaduse tex 37.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_32
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 40.jpg
+	map_Kd Vabaduse tex 40.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_36
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 23.jpg
+	map_Kd Vabaduse tex 23.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_31
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 22.jpg
+	map_Kd Vabaduse tex 22.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_30
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 39.jpg
+	map_Kd Vabaduse tex 39.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_28
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 30.jpg
+	map_Kd Vabaduse tex 30.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_29
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 44.jpg
+	map_Kd Vabaduse tex 44.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_33
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 29 a.jpg
+	map_Kd Vabaduse tex 29 a.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_34
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 29 b.jpg
+	map_Kd Vabaduse tex 29 b.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_4
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 9.jpg
+	map_Kd Vabaduse tex 9.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_12
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 35.jpg
+	map_Kd Vabaduse tex 35.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_8
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 42.jpg
+	map_Kd Vabaduse tex 42.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_16
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 34.jpg
+	map_Kd Vabaduse tex 34.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_14
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 2.jpg
+	map_Kd Vabaduse tex 2.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_13
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 3.jpg
+	map_Kd Vabaduse tex 3.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_17
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 1.jpg
+	map_Kd Vabaduse tex 1.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_26
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 1 a.jpg
+	map_Kd Vabaduse tex 1 a.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_10
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 8.jpg
+	map_Kd Vabaduse tex 8.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_9
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 8 a.jpg
+	map_Kd Vabaduse tex 8 a.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_21
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 36.jpg
+	map_Kd Vabaduse tex 36.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_20
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 33.jpg
+	map_Kd Vabaduse tex 33.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_19
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 4.jpg
+	map_Kd Vabaduse tex 4.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_7
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 17.jpg
+	map_Kd Vabaduse tex 17.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_22
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 18.jpg
+	map_Kd Vabaduse tex 18.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_24
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 20.jpg
+	map_Kd Vabaduse tex 20.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_25
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 19.jpg
+	map_Kd Vabaduse tex 19.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 32.jpg
+	map_Kd Vabaduse tex 32.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 5.jpg
+	map_Kd Vabaduse tex 5.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_5
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 7.jpg
+	map_Kd Vabaduse tex 7.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 3 a.jpg
+	map_Kd Vabaduse tex 3 a.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_6
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 41.jpg
+	map_Kd Vabaduse tex 41.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_11
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 6.jpg
+	map_Kd Vabaduse tex 6.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_42
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 55.jpg
+	map_Kd Vabaduse tex 55.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_40
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 52.jpg
+	map_Kd Vabaduse tex 52.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_38
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 50.jpg
+	map_Kd Vabaduse tex 50.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_51
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 10.jpg
+	map_Kd Vabaduse tex 10.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_39
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 51.jpg
+	map_Kd Vabaduse tex 51.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_27
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 38.jpg
+	map_Kd Vabaduse tex 38.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_44
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 12.jpg
+	map_Kd Vabaduse tex 12.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_41
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 53.jpg
+	map_Kd Vabaduse tex 53.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_43
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 56.jpg
+	map_Kd Vabaduse tex 56.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_37
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 49.jpg
+	map_Kd Vabaduse tex 49.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_46
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 57.jpg
+	map_Kd Vabaduse tex 57.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_45
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 24.jpg
+	map_Kd Vabaduse tex 24.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_47
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 25.jpg
+	map_Kd Vabaduse tex 25.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_50
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 28.jpg
+	map_Kd Vabaduse tex 28.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_48
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 26.jpg
+	map_Kd Vabaduse tex 26.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_49
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 27.jpg
+	map_Kd Vabaduse tex 27.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_15
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 43.jpg
+	map_Kd Vabaduse tex 43.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_23
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 21.jpg
+	map_Kd Vabaduse tex 21.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_35
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 45.jpg
+	map_Kd Vabaduse tex 45.jpg
+	map_Ks Vabaduse tex 58 specular.jpg
+
+newmtl tex_52
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Vabaduse tex 15.jpg
+	map_Kd Vabaduse tex 15.jpg
+	map_Ks Vabaduse tex 58 specular.jpg

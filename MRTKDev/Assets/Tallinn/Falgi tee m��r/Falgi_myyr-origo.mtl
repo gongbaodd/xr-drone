@@ -1,0 +1,44 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 02.12.2011 00:42:04
+
+newmtl Concrete_Aggregate_Smoke
+	Ns 30.000002
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.356863 0.352941 0.337255
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Concrete_Aggregate_Smoke.jpg
+	map_Kd Concrete_Aggregate_Smoke.jpg
+
+newmtl Paekivi_fat_old
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka paekivi_fat_old_yelw.jpg
+	map_Kd paekivi_fat_old_yelw.jpg
+
+newmtl Slate_14
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.501961 0.501961 0.501961
+	Kd 0.501961 0.501961 0.501961
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka slate_14.jpg
+	map_Kd slate_14.jpg

@@ -1,0 +1,367 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 23.10.2010 01:49:53
+
+newmtl BlocksBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\Skutting.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\Skutting.jpg
+
+newmtl yellowPlaster
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\kr_ko_s.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\kr_ko_s.jpg
+
+newmtl GreyPlaster
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\kr_hall.JPG
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\kr_hall.JPG
+
+newmtl UnderneathWithTexture
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\Bricks.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\Bricks.jpg
+
+newmtl Door
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\Door.png
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\Door.png
+	map_d K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\Door.png
+
+newmtl smallWindowsDownWidnows
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\smallFrontWindow.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\smallFrontWindow.jpg
+
+newmtl FrontDoorBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\BigHouseFrontDoor.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\BigHouseFrontDoor.jpg
+
+newmtl FrontDoorSideDesignBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\FrontDoorSideDesign.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\FrontDoorSideDesign.jpg
+
+newmtl WhitePlasterBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\kr_v_sile.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\kr_v_sile.jpg
+
+newmtl WindowsInRowBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\windowsRowsVertical.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\windowsRowsVertical.jpg
+
+newmtl TwinWindowsBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\twinWindows.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\twinWindows.jpg
+
+newmtl WindowWithWhite
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\WindowWithWhite.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\WindowWithWhite.jpg
+
+newmtl FrontWindowsLargeBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\frontWindow.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\frontWindow.jpg
+
+newmtl PinkRoofTilesBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\ka_ker_2_old.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\ka_ker_2_old.jpg
+
+newmtl blueTinBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\KAT_plekk_hall.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\KAT_plekk_hall.jpg
+
+newmtl MostTopRoofSlantingBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\TopMostRoofSlanting.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\TopMostRoofSlanting.jpg
+
+newmtl sideTopWindow
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\sideGlassWindow.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\sideGlassWindow.jpg
+
+newmtl SideBottomWindow
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\sideShadingWindow.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\sideShadingWindow.jpg
+
+newmtl SideMiddleWinodow
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\anotherSideWhiteWindow.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\anotherSideWhiteWindow.jpg
+
+newmtl ThreeWindowBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\ThreeWindows.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\ThreeWindows.jpg
+
+newmtl FrontTopDesign
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\UpperFrontDesign.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\UpperFrontDesign.jpg
+
+newmtl anotherTopDesignBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\anotherFrontDesign.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\anotherFrontDesign.jpg
+
+newmtl DoorTopDesignBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\DoorTopDesign.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\DoorTopDesign.jpg
+
+newmtl SideDoor
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\SideDoor.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\SideDoor.jpg
+
+newmtl PinkPlasterBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\kr_roos_s.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\kr_roos_s.jpg
+
+newmtl ChimneyHoleBlinn
+	Ns 3.1699
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\chimeneyHole.jpg
+	map_Kd K:\program files\Projects\Low poly architectural 3D modelling vol 2\SecondProject\Tp12\chimeneyHole.jpg
