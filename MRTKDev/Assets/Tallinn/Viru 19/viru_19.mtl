@@ -1,0 +1,470 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 6.2 x64 6.2.2.7430
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl background_02
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd viru_17_tex.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA viru_17_tex.jpg
+map_Ns 
+
+newmtl gray_bottom
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd thumb.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA thumb.jpg
+map_Ns 
+
+newmtl windows_19_00
+Ka 0.588 0.588 0.588
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_small_03.jpg
+map_bump window_small_03_bump.jpg
+bump window_small_03_bump.jpg
+map_opacity 
+map_d 
+refl window_small_03_reflect.jpg
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl all
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd yellow.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA yellow.jpg
+map_Ns 
+
+newmtl other_002
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd 002.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 002.jpg
+map_Ns 
+
+newmtl other_006
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd 006.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 006.jpg
+map_Ns 
+
+newmtl other_003
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd 003.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 003.jpg
+map_Ns 
+
+newmtl cornice
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd cornice_tex.jpg
+map_bump cornice_tex_bump.jpg
+bump cornice_tex_bump.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA cornice_tex.jpg
+map_Ns 
+
+newmtl windows_004
+Ka 0.588 0.588 0.588
+Kd 0.5 0.5 0.5
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_small_04.jpg
+map_bump window_small_04_bump.jpg
+bump window_small_04_bump.jpg
+map_opacity 
+map_d 
+refl window_small_04_reflect.jpg
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl window_big_04
+Ka 0.588 0.588 0.588
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_big_04.jpg
+map_bump window_big_04_bump.jpg
+bump window_big_04_bump.jpg
+map_opacity 
+map_d 
+refl window_big_04_reflect.jpg
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl other_004
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd 004.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 004.jpg
+map_Ns 
+
+newmtl gray
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd thumb.jpg
+map_bump kr_krob_pru.jpg
+bump kr_krob_pru.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA thumb.jpg
+map_Ns 
+
+newmtl other_005
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd 005.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 005.jpg
+map_Ns 
+
+newmtl window_small_01
+Ka 0.588 0.588 0.588
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_small_01.jpg
+map_bump window_small_01_bump.jpg
+bump window_small_01_bump.jpg
+map_opacity 
+map_d 
+refl window_small_01_reflect.jpg
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl windows_002
+Ka 0.588 0.588 0.588
+Kd 0.5 0.5 0.5
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_small_02.jpg
+map_bump window_small_02_bump.jpg
+bump window_small_02_bump.jpg
+map_opacity 
+map_d 
+refl window_small_02_reflect.jpg
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl other_008
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd 008.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 008.jpg
+map_Ns 
+
+newmtl other_007
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd 007.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 007.jpg
+map_Ns 
+
+newmtl other_001
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd 001.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 001.jpg
+map_Ns 
+
+newmtl roof
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd KAT_plekk_pun.jpg
+map_bump KAT_plekk_pun.jpg
+bump KAT_plekk_pun.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA KAT_plekk_pun.jpg
+map_Ns 
+
+newmtl doors_main
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd viru_19_doors_main.jpg
+map_bump viru_19_doors_main_bump.jpg
+bump viru_19_doors_main_bump.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA viru_19_doors_main.jpg
+map_Ns 
+
+newmtl all_01
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd kr_v_sile.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA kr_v_sile.jpg
+map_Ns 
+
+newmtl window_big_02
+Ka 0.588 0.588 0.588
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_big_02.jpg
+map_bump window_big_01_bump.jpg
+bump window_big_01_bump.jpg
+map_opacity 
+map_d 
+refl window_big_01_reflect.jpg
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl window_big_03
+Ka 0.588 0.588 0.588
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_big_03.jpg
+map_bump window_big_03_bump.jpg
+bump window_big_03_bump.jpg
+map_opacity 
+map_d 
+refl window_big_03_reflect.jpg
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl windows_small_17
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd DSC_0745.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA DSC_0745.jpg
+map_Ns 
+
+newmtl windows_small_17_01
+Ka 0.588 0.588 0.588
+Kd 0.5 0.5 0.5
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_002.jpg
+map_bump window_002_bump.jpg
+bump window_002_bump.jpg
+map_opacity 
+map_d 
+refl window_002_reflect.jpg
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl window_big_01
+Ka 0.588 0.588 0.588
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_big_01.jpg
+map_bump window_big_01_bump.jpg
+bump window_big_01_bump.jpg
+map_opacity 
+map_d 
+refl window_big_01_reflect.jpg
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl doors_other
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd doors_other.jpg
+map_bump doors_other_bump.jpg
+bump doors_other_bump.jpg
+map_opacity 
+map_d 
+refl doors_other_reflect.jpg
+map_kS 
+map_kA doors_other.jpg
+map_Ns 
+
+newmtl window_top
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd wind_top_tex.jpg
+map_bump wind_top_bump.jpg
+bump wind_top_bump.jpg
+map_opacity 
+map_d 
+refl wind_top_gloss.jpg
+map_kS 
+map_kA wind_top_tex.jpg
+map_Ns 
+
+newmtl Explorer_Default
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 

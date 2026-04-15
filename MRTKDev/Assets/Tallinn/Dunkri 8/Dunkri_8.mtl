@@ -1,0 +1,704 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 29.03.2012 16:17:05
+
+newmtl dunkri8_walls_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_kr_roos_s.jpg
+
+newmtl dunkri8_valge
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd kr_v_sile.jpg
+
+newmtl dunkri8_cornice_up_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri8_cornice_01.jpg
+
+newmtl dunkri8_windows_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_003.jpg
+
+newmtl dunkri_8_green
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_green_small.jpg
+
+newmtl dunkri_8_korstnaloor
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd must.jpg
+
+newmtl dunkri8_walls_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri8_plaster.jpg
+
+newmtl dunkri8_bottom_gray
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd kr_krob_pru.jpg
+
+newmtl dunkri8_walls_02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri8_wall_02.jpg
+
+newmtl dunkri8_walls_03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri8_wall_03.jpg
+
+newmtl dunkri8_walls_bottom
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri8_background_bottom.jpg
+
+newmtl dunkri8_cornice_up_03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri8_cornice_03.jpg
+
+newmtl dunkri8_cornice_up_02_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri8_cornice_02_2.jpg
+
+newmtl dunkri8_cornice_up_02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_cornice_02.jpg
+
+newmtl dunkri_8_cornice_up_02_02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_cornice_02_1.jpg
+
+newmtl dunkri_8_walls_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_wall_01.jpg
+
+newmtl dunkri_8_window_large
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_large.jpg
+
+newmtl dunkri_8_window_large_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_large_1.jpg
+
+newmtl dunkri_8_cap
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_cap.JPG
+
+newmtl dunkri_8_window_large_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_large_2.jpg
+
+newmtl dunkri_8_cap_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_cap_side_01.jpg
+
+newmtl dunkri_8_cap_02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_cap_01.jpg
+
+newmtl dunkri_8_cap_side
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_cap_side.jpg
+
+newmtl bracket
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_oo1_tex.jpg
+
+newmtl dunkri_8_windows_01_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_003_2.jpg
+
+newmtl dunkri_8_windows_d_small_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_windows_d_small_2.jpg
+
+newmtl dunkri_8_windows_d_small
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_windows_d_small.jpg
+
+newmtl dunkri_8_windows_bottom
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_windows_bottom.jpg
+
+newmtl dunkri_8_door_5
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_door_5.jpg
+
+newmtl dunkri_8_door_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_door_1.jpg
+
+newmtl dunkri_8_windows_d_small_02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_windows_d_small_left.jpg
+
+newmtl dunkri_8_door_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_door_2.jpg
+
+newmtl dunkri_8_windows_bottom_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_windows_bottom_2.jpg
+
+newmtl dunkri_8_windows_d_small_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_windows_d_small_right.jpg
+
+newmtl dunkri_8_windows_d_small_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_windows_d_small_1.jpg
+
+newmtl dunkri_8_portal
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_background_portal.jpg
+
+newmtl dunkri_8_windows_d_small_02_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_windows_d_big_left.jpg
+
+newmtl windows_d_small_01_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_windows_d_big_right.jpg
+
+newmtl dunkri_8_window_round_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_round_2.jpg
+
+newmtl dunkri_8_window_blinds
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_blinds.jpg
+
+newmtl dunkri_8_railings
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd Dunkri8_railings.png
+
+newmtl dunkri_8_portal_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_background_portal_2.jpg
+
+newmtl dunkri_8_window_005
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_005.jpg
+
+newmtl dunkri_8_window_006
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_006.jpg
+
+newmtl dunkri_8_window_007
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_007.jpg
+
+newmtl dunkri_8_door_4
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_door_4.jpg
+
+newmtl dunkri_8_stairs
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd kr_krob_pru.jpg
+
+newmtl dunkri_8_carpet
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_carpet.jpg
+
+newmtl dunkri_8_window_008
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_008.jpg
+
+newmtl dunkri_8_window_004
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_004.jpg
+
+newmtl dunkri_8_door_3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_door_3.jpg
+
+newmtl dunkri_8_window_round
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_round.jpg
+
+newmtl dunkri8_roof
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd KAT_plekk_hele_roheline.jpg
+
+newmtl dunkri_8_window_009
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5020 0.5020 0.5020
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd dunkri_8_window_009.jpg

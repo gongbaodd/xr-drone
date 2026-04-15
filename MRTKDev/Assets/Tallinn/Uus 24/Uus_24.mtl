@@ -1,0 +1,418 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 19.02.2012 14:52:42
+
+newmtl Windows_2ndFlr
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Windows_2ndFlr.jpg
+
+newmtl FrontDoor_Trim_Clr
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-FrontDoorTrim_Clr.jpg
+
+newmtl Wall_Clr
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Wall_Clr.jpg
+
+newmtl Windows_Basement
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Windows_Basement.jpg
+
+newmtl Cornice_Orange
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Cornice_Orange.jpg
+
+newmtl FacadeDetail_LeftFront
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Facade_Detail_LeftFront.jpg
+
+newmtl Window_Oval
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Window_Oval.jpg
+
+newmtl Bricks_Vertical
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Brick_Vertical.jpg
+
+newmtl Windows_1stFlr
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Windows_1stFlr.jpg
+
+newmtl Metal_Holder
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Metal_Holder.jpg
+
+newmtl Blue_Tin
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Tin_Blue.jpg
+
+newmtl Front_Step_Clr
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-FrontStep_Clr.jpg
+
+newmtl Brick
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Brick_Alt.jpg
+
+newmtl Door_Front
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Door_Front.jpg
+
+newmtl Facade_Detail_FrontRight
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Facade_Detail_RightFront.jpg
+
+newmtl Door_Balcony
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-t3d_wind_15.jpg
+
+newmtl Windows_Tall
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Windows_Tall.jpg
+
+newmtl Windows_GrndFlr
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Windows_Type1.jpg
+
+newmtl Windows_Type2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Windows_Type2.jpg
+
+newmtl Door_Back
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Door_Back.jpg
+
+newmtl Red_Metal
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Red_Metal.jpg
+
+newmtl Red_Detail
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Red_Detail.jpg
+
+newmtl Roof_Red_Tin
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd KAT_plekk_pun.jpg
+
+newmtl Dark_Grey
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Dark_Grey.jpg
+
+newmtl Windows_Roof_HalfRound
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Windows_Roof_HalfRound.jpg
+
+newmtl Window_Trim_Clr
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-WindowTrim_Clr.jpg
+
+newmtl Windows_3rdFlr
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Windows_3rdFlr.jpg
+
+newmtl Facade_Detail
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Facade_Detail.jpg
+
+newmtl Rear_Gate
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Rear_Gate.jpg
+
+newmtl Balcony
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-Balcony.png
+
+newmtl Back_Step_Clr
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-BackStep_Clr.jpg
+
+newmtl White_Clr
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7500 0.7500 0.7500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd U24-White_Clr.jpg

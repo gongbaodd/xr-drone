@@ -1,0 +1,346 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 6.2 x64 6.2.2.7430
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl background_02
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd viru_17_tex.jpg
+map_kA viru_17_tex.jpg
+
+newmtl gray_bottom
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd thumb.jpg
+map_kA thumb.jpg
+
+newmtl windows_19_00
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_small_03.jpg
+map_bump window_small_03_bump.jpg
+bump window_small_03_bump.jpg
+refl window_small_03_reflect.jpg
+
+newmtl all
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd yellow.jpg
+map_kA yellow.jpg
+
+newmtl other_002
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd 002.jpg
+map_kA 002.jpg
+
+newmtl other_006
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd 006.jpg
+map_kA 006.jpg 
+
+newmtl other_003
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd 003.jpg
+map_kA 003.jpg
+
+newmtl cornice
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd cornice_tex.jpg
+map_bump cornice_tex_bump.jpg
+bump cornice_tex_bump.jpg
+map_kA cornice_tex.jpg
+
+newmtl windows_004
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_small_04.jpg
+map_bump window_small_04_bump.jpg
+bump window_small_04_bump.jpg
+refl window_small_04_reflect.jpg
+
+newmtl window_big_04
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_big_04.jpg
+map_bump window_big_04_bump.jpg
+bump window_big_04_bump.jpg
+refl window_big_04_reflect.jpg
+
+newmtl other_004
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd 004.jpg
+map_kA 004.jpg
+
+newmtl gray
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd thumb.jpg
+map_bump kr_krob_pru.jpg
+bump kr_krob_pru.jpg
+map_kA thumb.jpg
+
+newmtl other_005
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd 005.jpg
+map_kA 005.jpg
+
+newmtl window_small_01
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_small_01.jpg
+map_bump window_small_01_bump.jpg
+bump window_small_01_bump.jpg
+refl window_small_01_reflect.jpg
+
+newmtl windows_002
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_small_02.jpg
+map_bump window_small_02_bump.jpg
+bump window_small_02_bump.jpg
+refl window_small_02_reflect.jpg
+
+newmtl other_008
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd 008.jpg
+map_kA 008.jpg
+
+newmtl other_007
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd 007.jpg
+map_kA 007.jpg
+
+newmtl other_001
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd 001.jpg
+map_kA 001.jpg
+
+newmtl roof
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd KAT_plekk_pun.jpg
+map_bump KAT_plekk_pun.jpg
+bump KAT_plekk_pun.jpg
+map_kA KAT_plekk_pun.jpg
+
+newmtl doors_main
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd viru_19_doors_main.jpg
+map_bump viru_19_doors_main_bump.jpg
+bump viru_19_doors_main_bump.jpg
+map_kA viru_19_doors_main.jpg
+
+newmtl all_01
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd kr_v_sile.jpg
+map_kA kr_v_sile.jpg
+
+newmtl window_big_02
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_big_02.jpg
+map_bump window_big_01_bump.jpg
+bump window_big_01_bump.jpg
+refl window_big_01_reflect.jpg
+
+newmtl window_big_03
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_big_03.jpg
+map_bump window_big_03_bump.jpg
+bump window_big_03_bump.jpg
+refl window_big_03_reflect.jpg
+
+newmtl windows_small_17
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd DSC_0745.jpg
+map_kA DSC_0745.jpg
+
+newmtl windows_small_17_01
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_002.jpg
+map_bump window_002_bump.jpg
+bump window_002_bump.jpg
+refl window_002_reflect.jpg
+
+newmtl window_big_01
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_big_01.jpg
+map_bump window_big_01_bump.jpg
+bump window_big_01_bump.jpg
+refl window_big_01_reflect.jpg
+
+newmtl doors_other
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd doors_other.jpg
+map_bump doors_other_bump.jpg
+bump doors_other_bump.jpg
+refl doors_other_reflect.jpg
+map_kA doors_other.jpg
+
+newmtl window_top
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd wind_top_tex.jpg
+map_bump wind_top_bump.jpg
+bump wind_top_bump.jpg
+refl wind_top_gloss.jpg
+map_kA wind_top_tex.jpg

@@ -1,0 +1,166 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 6.3 x64 6.3.3.8069
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl Windowsill
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd windowsill.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA windowsill.jpg
+map_Ns 
+
+newmtl Roof_wooden_RED
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd roof_wooden_RED.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA roof_wooden_RED.jpg
+map_Ns 
+
+newmtl Roof
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd ka_ker_1.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA ROOF11.jpg
+map_Ns 
+
+newmtl WindowCHERDAK
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd t3d_wind_11.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA window.jpg
+map_Ns 
+
+newmtl Explorer_Default
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Grey
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd 1000x674 grey.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 1000x674 grey.jpg
+map_Ns 
+
+newmtl Walls
+Ka 1 1 1
+Kd 0.588 0.588 0.588
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd 1000x674.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 1000x674.jpg
+map_Ns 
+
+newmtl Window
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA window.jpg
+map_Ns 
+
+newmtl Chimney
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd 030briques.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 030briques.jpg
+map_Ns 
+
+newmtl Chimney_top
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd Cimney_top.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA Cimney_top.jpg
+map_Ns 

@@ -1,0 +1,184 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 18.02.2012 18:04:05
+
+newmtl kivi_trepp_paek_1_jpg
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd paek-1.png
+
+newmtl laudis_paek_1_jpg
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd paek-1.png
+
+newmtl laudis_suurtyki_8_laudis_jpg
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd suurtyki_8_laudis.png
+
+newmtl laudis
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd suurtyki_8_laudis.png
+
+newmtl katus_suurtyki_8_katus_jpg
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6400 0.3861 0.3370
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd suurtyki_8_katus.png
+
+newmtl kivi_trepp_hall_kr_hall_JPG
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd kr_hall.png
+
+newmtl aken_suurtyki_8_aken_jpg
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd suurtyki_8_aken.png
+
+newmtl punane_tumepunane_jpg
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd tumepunane.png
+
+newmtl tumehall_tumehall_jpg
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd tumehall.png
+
+newmtl tellised_tellis_02_jpg
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd tellis-02.png
+
+newmtl otsailustus_suurtyki_8_otsailus
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd suurtyki_8_otsailustus.png
+
+newmtl otsaaken_suurtyki_8_otsaaken_jp
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd suurtyki_8_otsaaken.png
+
+newmtl uks_suurtyki_8_uks_jpg
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd suurtyki_8_uks.png
+
+newmtl laudis_risti_suurtyki_8_laudis_
+	Ns 15.000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.000000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.75 0.75 0.75
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd suurtyki_8_laudis_risti.png

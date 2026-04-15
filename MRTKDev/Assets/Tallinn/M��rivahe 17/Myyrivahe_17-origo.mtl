@@ -1,0 +1,474 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 06.01.2011 19:36:23
+
+newmtl Wall_Color
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.75 0.75 0.75
+	Kd 0.95 0.95 0.95
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Wall_Texture.jpg
+	map_Kd Wall_Texture.jpg
+
+newmtl White
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 1.000000 1.000000 1.000000
+	Kd 1.000000 1.000000 1.000000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+
+newmtl 07___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Big_Window.jpg
+	map_Kd Big_Window.jpg
+
+newmtl 20___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Red_Window_Three.jpg
+	map_Kd Red_Window_Three.jpg
+
+newmtl Curved_texture_Upper
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.95 0.95 0.95
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Curved_Door_uppper_tex.jpg
+	map_Kd Curved_Door_uppper_tex.jpg
+
+newmtl Dirty_Roof
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Dirty_roof.jpg
+	map_Kd Dirty_roof.jpg
+
+newmtl Door_Front
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Door_5.jpg
+	map_Kd Door_5.jpg
+
+newmtl Window_Antik
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Window_Antik_Side.jpg
+	map_Kd Window_Antik_Side.jpg
+
+newmtl Railing_Color
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.615686 0.215686 0.215686
+	Kd 0.615686 0.215686 0.215686
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+
+newmtl Dirty_plaster
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Dirty_plaster.jpg
+	map_Kd Dirty_plaster.jpg
+
+newmtl RAil_Tex
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Lined_Roof.jpg
+	map_Kd Lined_Roof.jpg
+
+newmtl Yellow_Wall_Texture
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Yellow_Wall_Texture.jpg
+	map_Kd Yellow_Wall_Texture.jpg
+
+newmtl Big_Window
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Window_Dirty.jpg
+	map_Kd Window_Dirty.jpg
+
+newmtl Green_lower_Panel
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Green_Door_Small_Lower.jpg
+	map_Kd Green_Door_Small_Lower.jpg
+
+newmtl Small_Window_Lower
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Lower_Panel_Small_Window.jpg
+	map_Kd Lower_Panel_Small_Window.jpg
+
+newmtl Black_Window
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Black_Window_4.jpg
+	map_Kd Black_Window_4.jpg
+
+newmtl Iron_Door_Small
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Dirty_Iron_Door.jpg
+	map_Kd Dirty_Iron_Door.jpg
+
+newmtl Small_Window_Down
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Small_Window_Down.jpg
+	map_Kd Small_Window_Down.jpg
+
+newmtl Door_Dirty
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Dirty_Door.jpg
+	map_Kd Dirty_Door.jpg
+
+newmtl Red_Roof
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Roof_Red.jpg
+	map_Kd Roof_Red.jpg
+
+newmtl Covering_Texture_Door
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Dirty_Door_Round_Part.jpg
+	map_Kd Dirty_Door_Round_Part.jpg
+
+newmtl Window_Chimney
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Window_White_chimney.jpg
+	map_Kd Window_White_chimney.jpg
+
+newmtl Window_Shutter
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Shutter_texture.jpg
+	map_Kd Shutter_texture.jpg
+
+newmtl Window_Lower_Panel
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Door_inside.jpg
+	map_Kd Door_inside.jpg
+
+newmtl 08___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Gallery_Door.jpg
+	map_Kd Gallery_Door.jpg
+
+newmtl 09___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Window_With_Door.jpg
+	map_Kd Window_With_Door.jpg
+
+newmtl 14___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Window_2.jpg
+	map_Kd Window_2.jpg
+
+newmtl 13___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Door_2.jpg
+	map_Kd Door_2.jpg
+
+newmtl 15___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Black_Window_4.jpg
+	map_Kd Black_Window_4.jpg
+
+newmtl 19___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Big_Window_Long.jpg
+	map_Kd Big_Window_Long.jpg
+
+newmtl 24___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Window_Antik_Side.jpg
+	map_Kd Window_Antik_Side.jpg
+
+newmtl Door_mid_Long
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Door_mid.jpg
+	map_Kd Door_mid.jpg
+
+newmtl Dormer_Texture
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Dormer_Texture.jpg
+	map_Kd Dormer_Texture.jpg
+
+newmtl Chiney_Holes
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.75 0.75 0.75
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Chimney_Texture.jpg
+	map_Kd Chimney_Texture.jpg

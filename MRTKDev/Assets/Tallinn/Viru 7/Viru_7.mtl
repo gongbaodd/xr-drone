@@ -1,0 +1,185 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 26.10.2011 16:34:51
+
+newmtl viru7_roofsliding
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka viru7-roofSliding copy.jpg
+	map_Kd viru7-roofSliding copy.jpg
+
+newmtl viru7_plaster01
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka viru7-plaster copy.jpg
+	map_Kd viru7-plaster copy.jpg
+
+newmtl viru7_door
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka viru7-Door copy.jpg
+	map_Kd viru7-Door copy.jpg
+
+newmtl viru7_windowtop
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka viru7-WinidowTop.jpg
+	map_Kd viru7-WinidowTop.jpg
+
+newmtl viru7_topdesign
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka viru7-TopDesign copy.jpg
+	map_Kd viru7-TopDesign copy.jpg
+
+newmtl viru7_leftbigwindow
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka viru7-LeftBigWindow copy.jpg
+	map_Kd viru7-LeftBigWindow copy.jpg
+
+newmtl viru7_topsmallwindow
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka viru7-TopSmallWindow.jpg
+	map_Kd viru7-TopSmallWindow.jpg
+
+newmtl viru7_sliding01
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka viru7-sliding copy.jpg
+	map_Kd viru7-sliding copy.jpg
+
+newmtl viru7_gate01
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka viru7-Gate.png
+	map_Kd viru7-Gate.png
+	map_d viru7-Gate.png
+
+newmtl viru7_chimneyhole
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka viru7-chimeneyHole.jpg
+	map_Kd viru7-chimeneyHole.jpg
+
+newmtl viru_7_design
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka viru7-design copy.jpg
+	map_Kd viru7-design copy.jpg
+
+newmtl viru7_brownroof
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka KAT_plekk_pruun.jpg
+	map_Kd KAT_plekk_pruun.jpg
+
+newmtl viru7__katplekk_hall
+	Ns 0.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.500000 0.500000 0.500000
+	Kd 1.500000 1.500000 1.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka KAT_plekk_hele_hall_lai.jpg
+	map_Kd KAT_plekk_hele_hall_lai.jpg

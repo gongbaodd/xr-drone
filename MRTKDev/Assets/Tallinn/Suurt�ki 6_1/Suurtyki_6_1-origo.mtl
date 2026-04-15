@@ -1,0 +1,156 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5 5.0.4.1779 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl aknad
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd aken1.jpg
+
+newmtl Default
+	Ns 15.000000
+	Ka 0.200000 0.200000 0.200000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+
+newmtl uks2
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd R8-green-doorLG.jpg
+
+
+newmtl uks1
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd door_right_(2).jpg
+
+newmtl laudis1
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd laudis_1.jpg
+
+newmtl laudis2
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd laudis2.jpg
+
+newmtl laudis
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd laudis.jpg
+
+newmtl punane_laud
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd laud_punane.jpg
+
+newmtl vundament
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd slate_12.jpg
+
+newmtl KORSTEN
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd tellis-02.jpg
+
+newmtl katuselaud
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd laud_punane.jpg
+
+newmtl katus
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd ka_ker_2_old.jpg
+
+newmtl postid
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd laud_punane.jpg
+
+newmtl aken2
+	Ns 15.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd aken2.jpg
+
+newmtl trepp
+	Ns 10.000000
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.750000 0.750000 0.750000
+	Ks 0.000000 0.000000 0.000000
+	Ni 1.450000
+	d 1.000000
+	illum 2
+	map_Kd con8.jpg

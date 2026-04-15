@@ -1,0 +1,205 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 6.2 x64 6.2.2.7430
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl roof
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd KAT_plekk_pun.jpg
+map_bump KAT_plekk_pun.jpg
+bump KAT_plekk_pun.jpg
+map_kA KAT_plekk_pun.jpg
+
+newmtl all
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd yellow.jpg
+
+newmtl all_01
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd kr_v_sile.jpg
+
+newmtl cornice
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd cornice_tex.jpg
+map_bump cornice_tex_bump.jpg
+bump cornice_tex_bump.jpg
+map_kA cornice_tex.jpg
+
+newmtl background
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd pink.jpg
+map_bump kr_krob_pru.jpg
+bump kr_krob_pru.jpg
+
+newmtl background_02
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd viru_17_tex.jpg
+map_kA viru_17_tex.jpg
+
+newmtl windows_small_17
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd DSC_0745.jpg
+map_kA DSC_0745.jpg
+
+newmtl viru_17_windows
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_003.jpg
+map_bump window_003_bump.jpg
+bump window_003_bump.jpg
+map_kA window_003.jpg
+
+newmtl doors_17_02
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_viru_17-02.jpg
+map_bump window_viru_17-01_bump.jpg
+bump window_viru_17-01_bump.jpg
+refl window_viru_17-01_reflect.jpg
+map_kA window_viru_17-02.jpg
+
+newmtl doors_17_01
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_viru_17-01.jpg
+map_bump window_viru_17-01_bump.jpg
+bump window_viru_17-01_bump.jpg
+refl window_viru_17-01_reflect.jpg
+map_kA window_viru_17-01.jpg
+
+newmtl gray
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd kr_krob_pru.jpg
+map_bump kr_krob_pru.jpg
+bump kr_krob_pru.jpg
+
+newmtl cornice_window
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd cornice_tex_01.jpg
+map_bump cornice_tex_01_bump.jpg
+bump cornice_tex_01_bump.jpg
+map_kA cornice_tex_01.jpg
+
+newmtl viru_17_windows_01
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd window_004.jpg
+map_bump window_004_bump.jpg
+bump window_004_bump.jpg
+map_kA window_004.jpg
+
+newmtl doors_other_01
+Ns 10.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd doors_other_01.jpg
+map_bump doors_other_01_bump.jpg
+bump doors_other_01_bump.jpg
+refl doors_other_01_reflect.jpg
+map_kA doors_other_01.jpg
+
+newmtl gates
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 0.215686 0.231373 0.262745
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd gates.jpg
+map_opacity gates.jpg
+map_d gates.jpg
+
+newmtl railings
+Ns 10.000000
+Ka 0.588000 0.588000 0.588000
+Kd 0.215686 0.231373 0.262745
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd railings.jpg
+map_bump  railings.jpg
+bump  railings.jpg
+map_opacity  railings.jpg
+map_d  railings.jpg

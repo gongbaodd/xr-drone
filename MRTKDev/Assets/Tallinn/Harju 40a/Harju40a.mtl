@@ -1,0 +1,182 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 6.3 x64 6.3.3.8069
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl _2___Default
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd fasad_front_01.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA fasad_front_01.jpg
+map_Ns 
+
+newmtl _01
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd 001zza.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 001zza.jpg
+map_Ns 
+
+newmtl Roof
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd roof.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA roof.jpg
+map_Ns 
+
+newmtl Brick_wall
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd STN005.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA STN005.jpg
+map_Ns 
+
+newmtl Karniz
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd Karniz.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA Karniz.jpg
+map_Ns 
+
+newmtl Fasad_side_01
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd fasad_side_01.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA fasad_side_01.jpg
+map_Ns 
+
+newmtl Roof_dark
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd roof_dark.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA roof_dark.jpg
+map_Ns 
+
+newmtl Roof_glass
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd roof_glass.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA roof_glass.jpg
+map_Ns 
+
+newmtl Roof_vertikals
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd roof_vertikal.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA roof_vertikal.jpg
+map_Ns 
+
+newmtl SIDESofWIND
+Ka 1 1 1
+Kd 0.75 0.75 0.75
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd sides_of_wind_color.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA sides_of_wind_color.jpg
+map_Ns 
+
+newmtl Explorer_Default
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 

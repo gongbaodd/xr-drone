@@ -1,0 +1,421 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 16.03.2011 18:38:46
+
+newmtl Material__29
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+
+newmtl door01
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\door01.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\door01.jpg
+
+newmtl win01
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\win01.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\win01.jpg
+
+newmtl win02
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\win02.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\win02.jpg
+
+newmtl win03
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\win03.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\win03.jpg
+
+newmtl win05
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\win05.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\win05.jpg
+
+newmtl win04
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\win04.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\win04.jpg
+
+newmtl win06
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\win06.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\win06.jpg
+
+newmtl win07
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\win07.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\win07.jpg
+
+newmtl door02
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\door02.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\door02.jpg
+
+newmtl wall01
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\wall01.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\wall01.jpg
+
+newmtl wall02
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\wall02.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\wall02.jpg
+
+newmtl win08
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\win08.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\win08.jpg
+
+newmtl wall03
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\wall03.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\wall03.jpg
+
+newmtl win09
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\win09.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\win09.jpg
+
+newmtl cylinder
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\cylinder.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\cylinder.jpg
+
+newmtl wall04
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\wall04.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\wall04.jpg
+
+newmtl wall05
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\wall05.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\wall05.jpg
+
+newmtl wall06
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\wall06.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\wall06.jpg
+
+newmtl win10
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\win10.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\win10.jpg
+
+newmtl dormer
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\dormer.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\dormer.jpg
+
+newmtl roof
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka ka_ker_2.jpg
+	map_d ka_ker_2.jpg
+	map_Kd kar_ker_3.jpg
+
+newmtl Material__51
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\chimneys.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\chimneys.jpg
+
+newmtl Material__52
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\stairs.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\stairs.jpg
+
+newmtl Material__53
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\wall07.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\wall07.jpg
+
+newmtl Material__54
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\wall09.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\wall09.jpg
+
+newmtl roof02
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka roof02.jpg
+	map_Kd roof02.jpg
+
+newmtl Material__56
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\wall08.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\wall08.jpg
+
+newmtl Material__57
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\wall10.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\wall10.jpg
+
+newmtl Material__58
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 1.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\WORK\scenes\15_Raekoja_Plats\8b\door_roof.jpg
+	map_Kd D:\WORK\scenes\15_Raekoja_Plats\8b\door_roof.jpg

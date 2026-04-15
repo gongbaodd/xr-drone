@@ -1,0 +1,36 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+# Multi/Sub House (3) to come 
+#
+newmtl houseMat
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.0
+illum 2
+map_Kd houseTex.jpg
+#
+newmtl doorMat
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.0
+illum 2
+map_Kd doorColorTex.jpg
+map_d doorTranTex.jpg
+#
+newmtl gateMat
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.0
+illum 2
+map_Kd gateColorTex.jpg
+map_d gateTransTex.jpg
+#
+# Multi/Sub House done 
+#
+# EOF

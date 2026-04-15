@@ -1,0 +1,62 @@
+newmtl blinn1SG
+illum 4
+Kd 0.75 0.75 0.75
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd SideLeft.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn2SG
+illum 4
+Kd 0.75 0.75 0.75
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd front.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn3SG
+illum 4
+Kd 0.75 0.75 0.75
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RightSide.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn4SG
+illum 4
+Kd 0.75 0.75 0.75
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TopRalling.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn5SG
+illum 4
+Kd 0.75 0.75 0.75
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd transperent.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn6SG
+illum 4
+Kd 0.75 0.75 0.75
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd green.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn7SG
+illum 4
+Kd 0.75 0.75 0.75
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd WhiteRoof.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00

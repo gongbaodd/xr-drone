@@ -1,0 +1,278 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 6.2 x64 6.2.2.7430
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl roof
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd KAT_plekk_pun.jpg
+map_bump KAT_plekk_pun.jpg
+bump KAT_plekk_pun.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA KAT_plekk_pun.jpg
+map_Ns 
+
+newmtl all
+Ka 0.588 0.588 0.588
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd yellow.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl all_01
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd kr_v_sile.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl cornice
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd cornice_tex.jpg
+map_bump cornice_tex_bump.jpg
+bump cornice_tex_bump.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA cornice_tex.jpg
+map_Ns 
+
+newmtl background
+Ka 1 0.960784 0.960784
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd pink.jpg
+map_bump kr_krob_pru.jpg
+bump kr_krob_pru.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl background_02
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd viru_17_tex.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA viru_17_tex.jpg
+map_Ns 
+
+newmtl windows_small_17
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd DSC_0745.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA DSC_0745.jpg
+map_Ns 
+
+newmtl viru_17_windows
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_003.jpg
+map_bump window_003_bump.jpg
+bump window_003_bump.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA window_003.jpg
+map_Ns 
+
+newmtl doors_17_02
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_viru_17-02.jpg
+map_bump window_viru_17-01_bump.jpg
+bump window_viru_17-01_bump.jpg
+map_opacity 
+map_d 
+refl window_viru_17-01_reflect.jpg
+map_kS 
+map_kA window_viru_17-02.jpg
+map_Ns 
+
+newmtl doors_17_01
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_viru_17-01.jpg
+map_bump window_viru_17-01_bump.jpg
+bump window_viru_17-01_bump.jpg
+map_opacity 
+map_d 
+refl window_viru_17-01_reflect.jpg
+map_kS 
+map_kA window_viru_17-01.jpg
+map_Ns 
+
+newmtl gray
+Ka 0.588 0.588 0.588
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd kr_krob_pru.jpg
+map_bump kr_krob_pru.jpg
+bump kr_krob_pru.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl cornice_window
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd cornice_tex_01.jpg
+map_bump cornice_tex_01_bump.jpg
+bump cornice_tex_01_bump.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA cornice_tex_01.jpg
+map_Ns 
+
+newmtl viru_17_windows_01
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd window_004.jpg
+map_bump window_004_bump.jpg
+bump window_004_bump.jpg
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA window_004.jpg
+map_Ns 
+
+newmtl doors_other_01
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd doors_other_01.jpg
+map_bump doors_other_01_bump.jpg
+bump doors_other_01_bump.jpg
+map_opacity 
+map_d 
+refl doors_other_01_reflect.jpg
+map_kS 
+map_kA doors_other_01.jpg
+map_Ns 
+
+newmtl gates
+Ka 0.588 0.588 0.588
+Kd 0.215686 0.231373 0.262745
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd gates.png
+map_bump 
+bump 
+map_opacity gates.jpg
+map_d gates.png
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl railings
+Ka 0.588 0.588 0.588
+Kd 0.215686 0.231373 0.262745
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd railings.png
+map_bump  railings.jpg
+bump  railings.jpg
+map_opacity  railings.jpg
+map_d  railings.png
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Explorer_Default
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
