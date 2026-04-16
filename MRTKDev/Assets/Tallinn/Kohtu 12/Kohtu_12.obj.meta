@@ -3,12 +3,107 @@ guid: e02c2c02264d24f84a7ca7cda1512163
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_aken001
+    second: {fileID: 2100000, guid: 1ecca4cd63a4c440fad9ecd0d803f5ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_aken03
+    second: {fileID: 2100000, guid: 82eaafb90efa24629bbf2cfe27a04784, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_black
+    second: {fileID: 2100000, guid: dc3ca5555fd99479a806bdc471e19672, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_door21
+    second: {fileID: 2100000, guid: 6c7aeb1e8b30440468063428b24a51e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_droonerwin
+    second: {fileID: 2100000, guid: d7772eaf24fd041deb5a7c034f08334d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_kat_kivi01
+    second: {fileID: 2100000, guid: 9cb5b4f5ec4bb41b38b440ddbb145db9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_krstn_peal
+    second: {fileID: 2100000, guid: 84e1323cda43e4dd8834a18258d520c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_orangewall
+    second: {fileID: 2100000, guid: 98117bd776e0d465aa8142052e72cd8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_paekivi01
+    second: {fileID: 2100000, guid: 1ed0c95149e5b4bb39968802c588bca4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_pinkwall
+    second: {fileID: 2100000, guid: 5551385381b3741fe9712a2427a86674, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_roofgrove
+    second: {fileID: 2100000, guid: fda9783666440466dab3a2f2b3de4820, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_sepis01
+    second: {fileID: 2100000, guid: b90956d8291ac425ca57fbbb0b4bf647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_sepis02
+    second: {fileID: 2100000, guid: e4e3cae95e62c4e2caa4133833c386bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_sepis03
+    second: {fileID: 2100000, guid: 1de3de888be184b078063b0651fac1a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_uks01
+    second: {fileID: 2100000, guid: ee10f13803feb4e3f8aba284da5a085b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_uks02
+    second: {fileID: 2100000, guid: d193854968d484be8a17ede151245c56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_uks03
+    second: {fileID: 2100000, guid: d437464118a8b44da80123b3787754d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_valgekrohv
+    second: {fileID: 2100000, guid: 70dbba59619b64d74bdd8a2af5da8da1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu12_win02
+    second: {fileID: 2100000, guid: 101fa7852400b458d83072b4fcb262d2, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

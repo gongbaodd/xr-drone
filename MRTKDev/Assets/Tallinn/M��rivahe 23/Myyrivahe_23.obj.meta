@@ -3,12 +3,87 @@ guid: 619b96cf48f854066a654ac213f930b0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick_Arch
+    second: {fileID: 2100000, guid: ff9b27e57170846d3a86da1cc3335cb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown_Strip
+    second: {fileID: 2100000, guid: b65ec955a60354aa39caa6210a087ff8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cornice
+    second: {fileID: 2100000, guid: 75590e2f05db14496b23af758bcb69b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Window
+    second: {fileID: 2100000, guid: 89c80c50befd841279bd5196b26a21d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pink
+    second: {fileID: 2100000, guid: d40c26a94b4b941468bd9562e312e133, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 590a9d68593754fcf8daf160c4a7f59b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Windows
+    second: {fileID: 2100000, guid: b34c38860c67f4a7b8ead1dbfd23d36e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Step
+    second: {fileID: 2100000, guid: 01ef9b289665f475695e363623db878a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tin
+    second: {fileID: 2100000, guid: 08031841c2ac14d2bbedeffcd5ac72e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2100000, guid: 1e95f2926ec90404f80aaa8314a715f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Side
+    second: {fileID: 2100000, guid: d9941529cd6e84064ba4c5af18a7e6ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Top
+    second: {fileID: 2100000, guid: 274234edb9c10449c8e2605a6705e589, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 6e6f75f839f0346ba93040188988a95b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodStrips_LightGreen
+    second: {fileID: 2100000, guid: 72a819a0c0e074d29a6e69a810e508ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodStrips_Pink
+    second: {fileID: 2100000, guid: e85f318fb7ab548998fdb9010b841f61, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

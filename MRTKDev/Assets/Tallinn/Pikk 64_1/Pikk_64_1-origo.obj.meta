@@ -3,12 +3,77 @@ guid: 3e2b02afef7c24b758be89aceb86a9f0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex1
+    second: {fileID: 2100000, guid: a666ff58daa9b4f9793bc52bbf28afe2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex10
+    second: {fileID: 2100000, guid: 35c763c0675e84370bb2122f364644be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex11
+    second: {fileID: 2100000, guid: a5c199cac569243e1a4b0fcc5818f7fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex12
+    second: {fileID: 2100000, guid: 98de12e35494e456385ee4ed364db5d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex13
+    second: {fileID: 2100000, guid: 54e52429329f24ad3b76291b22953d33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex2
+    second: {fileID: 2100000, guid: ac140ccfdbc60444fac27a61640b3460, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex3
+    second: {fileID: 2100000, guid: a99bed292a3b745609bb184e076aafca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex4
+    second: {fileID: 2100000, guid: ac800157b4fb24321a2530e770da80f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex5
+    second: {fileID: 2100000, guid: 129788c9b859d4be0801cc19afedaeff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex6
+    second: {fileID: 2100000, guid: 5dad8ed1699df40c58808d6677f61295, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex7
+    second: {fileID: 2100000, guid: aaf631ba0da4f444981d2b843856f7d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex8
+    second: {fileID: 2100000, guid: 261af1ff06e824a81bf3340d8373d21f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_64_1_Tex9
+    second: {fileID: 2100000, guid: bf0d68d08a64241a2b55bef427eaf43c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

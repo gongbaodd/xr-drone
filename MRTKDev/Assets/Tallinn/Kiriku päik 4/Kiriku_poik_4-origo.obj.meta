@@ -3,12 +3,142 @@ guid: ba4ff309832cf483d997035229040d24
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kirp_4_plaster
+    second: {fileID: 2100000, guid: 01b2865fe473a4eaea8aad141f3061df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp4_frontwindow
+    second: {fileID: 2100000, guid: 0de7111ef77d34342a1f2dc984141607, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp4_plaster02
+    second: {fileID: 2100000, guid: ba0b437ed740d4192a2ad5164518f93b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_aken01
+    second: {fileID: 2100000, guid: 2807d6738433e4e088d2330c3f68d03d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_bigwin
+    second: {fileID: 2100000, guid: d8bd6df2c621b4d09a3124ae2d0de210, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_chimney_sqare
+    second: {fileID: 2100000, guid: ab94a6d4a07a9494c80c69446177cb10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_door
+    second: {fileID: 2100000, guid: b25637a07f072491baef341f4efefe31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_doormerwin
+    second: {fileID: 2100000, guid: 3332188b9b29d469f898c1d302f4f18c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_hall
+    second: {fileID: 2100000, guid: 5ff48a0a65af3457ea42766ebc90e5e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_hall_krohv
+    second: {fileID: 2100000, guid: f0b00d372b623450e8f56e236acc14cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_kaker
+    second: {fileID: 2100000, guid: 59606f0a2e22d4d779f4a48f90b82478, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_kat_plekk_hall
+    second: {fileID: 2100000, guid: d5073267f8b464787a0748c53c74078c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_katplekk_hall
+    second: {fileID: 2100000, guid: 477501b61104d4e1aa27115c9b86959c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_n6lval
+    second: {fileID: 2100000, guid: 7f793531d92714fe892de82b27005898, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_plekk_hall
+    second: {fileID: 2100000, guid: 090de7e2cc51a40fe97c3679d449c6e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_red
+    second: {fileID: 2100000, guid: 6a7271328f4434b3caef100210d8e9c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_sideskatting
+    second: {fileID: 2100000, guid: 57997909270c04299b4105485ea1e3f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_sidetransp
+    second: {fileID: 2100000, guid: 8b16d71c0d65141fdb20722aec643056, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_skaatting
+    second: {fileID: 2100000, guid: 59fd6aaf0d0214a9d8518c9525fa8216, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_slimwin
+    second: {fileID: 2100000, guid: dd84b4fe0a69c43fcb9ec478d4b627c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_smallwindow
+    second: {fileID: 2100000, guid: f8dbaece6fa244adcb2634fce5abc707, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_uuk01
+    second: {fileID: 2100000, guid: 2e0533001350e4bc4ac3edb208dd8e82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_4_white
+    second: {fileID: 2100000, guid: 578c702da3d5c4eed84726faa6a8f6e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp__4_wood
+    second: {fileID: 2100000, guid: 7ba88f73116784c53a06fa73404aedf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_r__sidetransp_middle
+    second: {fileID: 2100000, guid: 4303e975b32d4496ba15a4f9b4d30a38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_r_doormertop
+    second: {fileID: 2100000, guid: 68d514750000a4e288c29866d9605391, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

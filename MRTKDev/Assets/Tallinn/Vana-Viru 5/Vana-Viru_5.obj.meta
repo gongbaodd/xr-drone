@@ -3,12 +3,152 @@ guid: d3f544b4e9f754c799fb8985c7842c58
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_BRICK
+    second: {fileID: 2100000, guid: ec295ffdeb5454dce9c258d37a17aebe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_CHIMENEY
+    second: {fileID: 2100000, guid: 0e178e901a3e94fcf8d99272454e1058, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_CHIMENEY_TOP
+    second: {fileID: 2100000, guid: c90eae1ed8e294580be399ccde472e35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_DOOR
+    second: {fileID: 2100000, guid: f7aaabed99a54471bb1946d4403666c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_FASCIA_ARC
+    second: {fileID: 2100000, guid: 40cd96376d56e4ebb926accbb5907b7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_METAL_ROOF_gray
+    second: {fileID: 2100000, guid: e380bea4aa86c4b50a2749400f27664d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_METAL_ROOF_red
+    second: {fileID: 2100000, guid: 27e5e31af5d52447884cc827cff66e63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_MOLD_OVER_ENTRANCE
+    second: {fileID: 2100000, guid: 2511fced5620b4a59aa9a3cc1650e7ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_MOLD_col01
+    second: {fileID: 2100000, guid: 912d21bcf0fb345459598bda1b22f56b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_MOLD_col02
+    second: {fileID: 2100000, guid: 4bf9ac7be0dd141698a0afe05948ca3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_MOLD_corbel
+    second: {fileID: 2100000, guid: 00843e4a2a2a0473ab482a7a5ead2b2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_MOLD_fascia01
+    second: {fileID: 2100000, guid: fa5bab6b3d44d484ea5010c8ae92c583, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_MOLD_fascia02
+    second: {fileID: 2100000, guid: 80ae95ba9ee1148ee8d56cc17e2c8bfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_PARAPET
+    second: {fileID: 2100000, guid: 0eca5962abfde47ba857935a7d13922a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_RAILING
+    second: {fileID: 2100000, guid: 52c5d4326f62a48548d334ff6f63de59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_STUCCO_YELLOW
+    second: {fileID: 2100000, guid: 2355f6b42f7a64d939a3f9d138e8cbf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_TRIM_MOLD
+    second: {fileID: 2100000, guid: d0e59fd421e4d40b7a3cc088c09e3a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_VENT
+    second: {fileID: 2100000, guid: a90a1b49ee0dc43278585a8c0047a5e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_VENT_LOUVER
+    second: {fileID: 2100000, guid: 73687841523ae45eeaddc4513d4b8b5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_WIN_center
+    second: {fileID: 2100000, guid: 032c5c489d868443aaf6eff3738663c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_WIN_center_mold
+    second: {fileID: 2100000, guid: a03e3da3673874c079ef44e92fb6ce14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_WIN_near_door
+    second: {fileID: 2100000, guid: c05f50bcd04f84a3db095d44be7c3512, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_WIN_second_floor
+    second: {fileID: 2100000, guid: 270c1d70950584eaaaf059f0870c630a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_WIN_top
+    second: {fileID: 2100000, guid: 1e33e612c70f741398046e288a1c719d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_WIN_topmold
+    second: {fileID: 2100000, guid: c8b74b8e0c016403480522e2cfe912b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_ka
+    second: {fileID: 2100000, guid: d397b189e6d634dedb73276e4fe11497, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_5_u1
+    second: {fileID: 2100000, guid: bebd1b06f6e454a048c932db1781448f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 0cdfb6a8f44204645ae213c72b54c15f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

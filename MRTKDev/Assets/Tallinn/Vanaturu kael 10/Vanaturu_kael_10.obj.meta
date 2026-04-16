@@ -3,12 +3,137 @@ guid: 8fc85f0b06fb944d382744537a3a6783
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_10SG
+    second: {fileID: 2100000, guid: fdeb2d3c1e38c4164be56fbb891a558c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_11SG
+    second: {fileID: 2100000, guid: 636e233b8ebf04b2ab4ad430011f13b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_12SG
+    second: {fileID: 2100000, guid: 6c7d97cc63a834e38937c710f13f16ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_12sein
+    second: {fileID: 2100000, guid: ed20d5f9b15c64453ae70eee67b9586f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_13SG
+    second: {fileID: 2100000, guid: 330302643db1949efa795d60aa6af08f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_14SG
+    second: {fileID: 2100000, guid: 15ab0f4811db747b396170294abb42b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_15SG
+    second: {fileID: 2100000, guid: 2c2588e05055149a38e9221aee447d8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_16SG
+    second: {fileID: 2100000, guid: 391eb6ebcb4804c89af4de193407f7ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_17SG
+    second: {fileID: 2100000, guid: 706467c6d4836412492ac3f0305775ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_18SG
+    second: {fileID: 2100000, guid: a03a5906ccd644ea4880a2c37843889f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_19SG
+    second: {fileID: 2100000, guid: 948a2fd27b7554c9ea715ed2498f186f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_1SG
+    second: {fileID: 2100000, guid: b16318e63c0b449889f8f9fac7ac4146, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_20SG
+    second: {fileID: 2100000, guid: e1ec51782a727469db8e95c498d6b345, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_22SG
+    second: {fileID: 2100000, guid: 5a05a21675ddf404e937024724c65b7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_23SG
+    second: {fileID: 2100000, guid: b6172bfac35ee4e6ab216f83fb56d4c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_24SG
+    second: {fileID: 2100000, guid: 96f3fba3e3ceb4d41ae8fa24c7897239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_2SG
+    second: {fileID: 2100000, guid: ee6886a28790c4230b69b7734810f2d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_3SG
+    second: {fileID: 2100000, guid: eb5c3aa439a7c423283c22ae35d080c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_4SG
+    second: {fileID: 2100000, guid: 9809a2978669b4edc9fec36227183368, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_5SG
+    second: {fileID: 2100000, guid: 41d528043389644cd9c99c3c6fa60d29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_6SG
+    second: {fileID: 2100000, guid: 5700cc460914449308a6a122fdfbda13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_7SG
+    second: {fileID: 2100000, guid: b961c57db9bef4acdb3ae7436da387d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_8SG
+    second: {fileID: 2100000, guid: 0c741ccc395f042848951197266b7705, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk10_9SG
+    second: {fileID: 2100000, guid: a4417b9b8f36b46728c452233cfd3e7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: a0d37ce9ab3c0432fae38d12a75d4a33, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

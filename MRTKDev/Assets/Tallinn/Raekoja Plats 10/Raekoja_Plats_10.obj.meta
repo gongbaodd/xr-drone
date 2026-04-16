@@ -3,12 +3,272 @@ guid: 703c3c4b5f5c34625b925361bbc02899
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mrkp10_door01
+    second: {fileID: 2100000, guid: 57982d2c8bc214be081e5bf36faa8962, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mroof04
+    second: {fileID: 2100000, guid: 615eb4462d3c24054bd7bfba9a5d15ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10__wall01
+    second: {fileID: 2100000, guid: a8031ec82f85b4fb78411640b96abdcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_ava01
+    second: {fileID: 2100000, guid: 00b9f58ca3fc74ec1b4e3aa4a7c7e9e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_ceiling
+    second: {fileID: 2100000, guid: d3abcc2ca07c44b5f89272b2d9d5cd95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_chimney_tops
+    second: {fileID: 2100000, guid: 4fa896c0a31c041f2a2aef62bf80eab6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_chimneys
+    second: {fileID: 2100000, guid: e4f944a219f3f451699d9f3be5fcb8d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_door02
+    second: {fileID: 2100000, guid: 2700b2f2677b64e10a2e02c32135d68c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_door03
+    second: {fileID: 2100000, guid: 3eda1ca2778da4a3b83502e1a204c7a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_door04
+    second: {fileID: 2100000, guid: cfaf3db0746e94ae78f1bfa4cc82cde3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_dormer
+    second: {fileID: 2100000, guid: a514fa31119384e0aba9c5be2bd760e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_dormer02
+    second: {fileID: 2100000, guid: 30fcaa0fbdf904f1287fc112fd5b779f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_dormer03
+    second: {fileID: 2100000, guid: 979b03bc7e30d438c9a65c94ad220755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_dormer04
+    second: {fileID: 2100000, guid: 329e8cc59df82478f99a4d69b950e528, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_fence
+    second: {fileID: 2100000, guid: cdaa54bf65dd049d0a6e4bba22d8c514, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_gate
+    second: {fileID: 2100000, guid: a1232efa132404242af23cc91fa245ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_kell
+    second: {fileID: 2100000, guid: 1092160d6b7254c04b727ec03905fd09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_kilp01
+    second: {fileID: 2100000, guid: 3293dfdb02f1a40d69aa42aaa2310d1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_kivi01
+    second: {fileID: 2100000, guid: fa585236eba9e46ef8491120b0b0bf6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_kivi02
+    second: {fileID: 2100000, guid: 835c93ba87532421da67531633864c85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_kohvik01
+    second: {fileID: 2100000, guid: bb014dd3e82e94fb6a12337fad092d82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_krohv_vlg
+    second: {fileID: 2100000, guid: 57d75fbd32b7345709689e359f314852, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_plate
+    second: {fileID: 2100000, guid: 78cfbc8f0c92940dc85b37aaa45cf93e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_plekk_pun
+    second: {fileID: 2100000, guid: ea418f14184854bb5b4c8ee3b853bec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_puit
+    second: {fileID: 2100000, guid: ae41da4e008c14081a144b38d5d69031, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_puit02
+    second: {fileID: 2100000, guid: 5d4722f4dcaf94e15b1c0e9e92d44609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_roof01
+    second: {fileID: 2100000, guid: 7b76e2e556c8048c1adae44eb77f9db8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_roof02
+    second: {fileID: 2100000, guid: 2093ac8f36bdd4e0e9236b7a2e88c66c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_roof03
+    second: {fileID: 2100000, guid: 375d80ba6f31e4b2d8d78259d6a2730b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_roof05
+    second: {fileID: 2100000, guid: a70b6dadaad3c4abb806b78444d27c0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_stairs
+    second: {fileID: 2100000, guid: 9e50b9fbd753b42f79507ab2a2b5d34b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_tellis01
+    second: {fileID: 2100000, guid: 00845a5decd824ef7b6c23d2fa6eb1e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_tracks
+    second: {fileID: 2100000, guid: 126fd16d09fea4f1bbb0ba3b3a042891, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_vintsk01
+    second: {fileID: 2100000, guid: 88b6ec00beacb4ab5ab60e2862983079, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_vintsk02
+    second: {fileID: 2100000, guid: b82fb12279d8147e6a4527d0346cb82a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_wall00
+    second: {fileID: 2100000, guid: 1ee87f4a4c14944be8b6b8e21ba88700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_wall02
+    second: {fileID: 2100000, guid: 22e41a5ef934247679d072b0fa855ba2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_wall03
+    second: {fileID: 2100000, guid: a63a68fe26d804731b0ca9ffdb1f18cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_wall04
+    second: {fileID: 2100000, guid: 606c5df6ddabc4d839fce3309f67498d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_wall05
+    second: {fileID: 2100000, guid: 7b3c35aa8082741cbaac55c6f0064043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_wall06
+    second: {fileID: 2100000, guid: 57dd37d2ec74144b990489730650fc02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_wall07
+    second: {fileID: 2100000, guid: 14b6189b5ce7c488e9f89a8751555ae4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_wall08
+    second: {fileID: 2100000, guid: 127cd7c410e7441c4aed5785e5c4f64d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_win0102
+    second: {fileID: 2100000, guid: 69eda04d218804c798f9555b9ded136a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_win03
+    second: {fileID: 2100000, guid: 6afccaae7db76459fab4ff5624a29649, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_win04
+    second: {fileID: 2100000, guid: 30ca516a2ba334df7a820f501f747887, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_win05
+    second: {fileID: 2100000, guid: 148cb24d96aba41628ca26244831364e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_win06
+    second: {fileID: 2100000, guid: ca819a723643e437cb039215fccf6140, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_win07
+    second: {fileID: 2100000, guid: 53f7f8b2b243b4fe2a2aa211731cc783, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_win08
+    second: {fileID: 2100000, guid: 905c81c22ed9f4be689dd7b20873e2f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rkp10_win09
+    second: {fileID: 2100000, guid: 855bc41c8e1414245b25e07239ebd4a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: a308ba665340f46f5b0c6569edabb22c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

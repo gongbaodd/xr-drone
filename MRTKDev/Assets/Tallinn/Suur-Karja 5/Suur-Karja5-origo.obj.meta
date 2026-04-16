@@ -3,12 +3,202 @@ guid: fcd8f966d0c924d93b76c5ce89b3f0a2
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__45
+    second: {fileID: 2100000, guid: c0decd1a556cc482d8355ec4a95bd2f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__46
+    second: {fileID: 2100000, guid: 30dd296f87309473fa0a80755d00bdea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__47
+    second: {fileID: 2100000, guid: 05f3b95e9ea264ac79370ca079ca8c4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__6966
+    second: {fileID: 2100000, guid: d0a20abbfb15a4c00affc17db663676a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__7011
+    second: {fileID: 2100000, guid: 87d9bad8a85944f70b1fbda0376c0ee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__7012
+    second: {fileID: 2100000, guid: 59eee009ff37243fca6da720871184c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__7013
+    second: {fileID: 2100000, guid: 6957185248654493d9135bb911155bd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__7014
+    second: {fileID: 2100000, guid: ac56ae6b5e0344c228a0e539ffeb2c39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__7712
+    second: {fileID: 2100000, guid: 5a52ea629224841899da29e74c45ecad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__7748
+    second: {fileID: 2100000, guid: 3be9bca49d50843b3b31aeb0d3cecd21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: back_wall_color
+    second: {fileID: 2100000, guid: d2ef7a6a03c5c48a4b42d47525f2c5ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bit_color
+    second: {fileID: 2100000, guid: a2f203eb0f94b4b41825deafe6ac17a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottom_window
+    second: {fileID: 2100000, guid: 5bb04ea67060e430caef7c6b7fef98e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chimni_color
+    second: {fileID: 2100000, guid: 4e76189773cd3470d8571f53f6c7b958, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_one
+    second: {fileID: 2100000, guid: a6583ba9444dd46b5961e4dde2e13c5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_two
+    second: {fileID: 2100000, guid: 0a74f1c1e8389484098a42adc4a2ca97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: low_wall_texture
+    second: {fileID: 2100000, guid: 7bf52ac264605418ea91aba262ae8537, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lower_wall_paint
+    second: {fileID: 2100000, guid: 17f18b53591224ed18de604c4ac0d8ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lower_wall_stone_decoration
+    second: {fileID: 2100000, guid: 04dfa22da8d7a4c56b88268e7e627831, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lower_window
+    second: {fileID: 2100000, guid: 1286f3c6ec46c4a06b3e2e6d772e681e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: piller_texture
+    second: {fileID: 2100000, guid: d0f90f317f34e481f86057fc6bb5b114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rod
+    second: {fileID: 2100000, guid: 5eda845ed3ebc4415b0aaff63665924b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_bid
+    second: {fileID: 2100000, guid: 96c3cefe8ce694e5b94cec3557c4b727, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_color
+    second: {fileID: 2100000, guid: 6a62c01eea6944ccb9ac8f33c1140a9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_link
+    second: {fileID: 2100000, guid: f03bb1e2bed57405ebdc4541378c1bc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_window
+    second: {fileID: 2100000, guid: 7d792368b59b74416984fb43039084ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: showcase_front
+    second: {fileID: 2100000, guid: bc6b002e44b47429997b38d704f53999, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: showcase_side
+    second: {fileID: 2100000, guid: a8750047a97284f348a3092ef2dcaa5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: small_window
+    second: {fileID: 2100000, guid: 9567b2f00666644eb97082d85a80fb33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steps
+    second: {fileID: 2100000, guid: fb110b88dc70041468e17f07f2bad0e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone
+    second: {fileID: 2100000, guid: 85192ab48e36d4d59948901a9cd59ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone_bit
+    second: {fileID: 2100000, guid: d83113d8f17bd4f3080a049fd9033a96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: under_roof_decoration
+    second: {fileID: 2100000, guid: d2b73b43b2e114782b443da701e78237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: upper_wall
+    second: {fileID: 2100000, guid: 0ba3b28cf1c464b2f82e884f56f52fd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: upper_wall_ornament
+    second: {fileID: 2100000, guid: 60908911f7ef64e95a6713c84d18debf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_decoration
+    second: {fileID: 2100000, guid: 9c2d7c2354afd4a18925a4919905f41c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_one
+    second: {fileID: 2100000, guid: 65ff4c476ea0940f8810abee8b10d720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_two
+    second: {fileID: 2100000, guid: 690c5cbff32e84397afcc6a9bd0ee876, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

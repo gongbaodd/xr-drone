@@ -3,12 +3,122 @@ guid: d10e44a7d75d34b93ad10928a7ebcab2
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_a1
+    second: {fileID: 2100000, guid: 731442390249f4ca9b608cea4843c5fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_a2
+    second: {fileID: 2100000, guid: cac7b04acbb6c490184fdeac5013f955, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_a3
+    second: {fileID: 2100000, guid: 6fc2f3948faa54b8a8a7d1213abe55f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_a4
+    second: {fileID: 2100000, guid: 531e592e745ad4331b30fcd86927a562, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_a5
+    second: {fileID: 2100000, guid: 5b8c3e724c2164320a05a3599a3dcd68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_bet
+    second: {fileID: 2100000, guid: 90b3f3869cd074192af8dc69c2b8b721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_he
+    second: {fileID: 2100000, guid: 1ae9f8707d4684064ab527e623d3fc56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_he_kr
+    second: {fileID: 2100000, guid: 37169c0031cc64ce7885e8d68420ea19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_he_pl
+    second: {fileID: 2100000, guid: d05e54656467d456aa11cb8a3a20c2f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_ka
+    second: {fileID: 2100000, guid: 3cba3336c19444e3ca4b73ce01659bde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_kake
+    second: {fileID: 2100000, guid: 97ccff0b2ea1a4d94bcea2dccd5629b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_koll
+    second: {fileID: 2100000, guid: 037f96b33ec964d5cbec6fe41444035f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_pun
+    second: {fileID: 2100000, guid: 753b79cfd53f0446fae6dc3aa8a6b24f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_pun_kr
+    second: {fileID: 2100000, guid: 459bcd002023b45e18ecfbca7836ce02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_tu
+    second: {fileID: 2100000, guid: 13e659a2056f34247a512cc4bff4b09d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_tu_pl
+    second: {fileID: 2100000, guid: ebbbd755fd4f34e91a40a86bb845833a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_u1
+    second: {fileID: 2100000, guid: 4c4543a0b271e4b3681e0fda2b346502, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_u2
+    second: {fileID: 2100000, guid: ebb961a2d217a4c9ebfdae9ac84bbd77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_v1
+    second: {fileID: 2100000, guid: d8d0cac23fe644608ad3310e0e6b3780, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_vr
+    second: {fileID: 2100000, guid: a035cbece93fd43e2ab70b1229549198, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia7_zok
+    second: {fileID: 2100000, guid: bf505a31de3dc40298823edd1db69fcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 3702c12452e6d485aba4ecccadd68cd4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

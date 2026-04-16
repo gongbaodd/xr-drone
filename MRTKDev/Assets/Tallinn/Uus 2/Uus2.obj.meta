@@ -3,12 +3,167 @@ guid: 0ac8d5a9641174aa29ebcc5dd60e8715
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Awning_Green
+    second: {fileID: 2100000, guid: 50a1298a488ac4cd9982c188381b729e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Balcony
+    second: {fileID: 2100000, guid: eaddb50308eb64a9f85d7712173e153f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Balcony_Doors
+    second: {fileID: 2100000, guid: 13024ae1e0f6d45ea9ffb192a6cafd25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Balustrade
+    second: {fileID: 2100000, guid: 062bda03f704c41eea4ecd52a88ba7e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Details_Black
+    second: {fileID: 2100000, guid: 153f9949d9ff84daf9fcec3d88f39ef4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dominica_Door
+    second: {fileID: 2100000, guid: 22acc5302ee0b41689e7a75c208e7869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doors_GrndFlr_Left
+    second: {fileID: 2100000, guid: 51aefb67cae6146568a3db38433869eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_Color
+    second: {fileID: 2100000, guid: 4bcdaaf53c2404e3ca18a1bd21ad95a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray_Strip
+    second: {fileID: 2100000, guid: abe21937acbd6431c856dc4da8f08931, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marble_Color
+    second: {fileID: 2100000, guid: 541da5f5a24444d48bf4494246176a19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Color
+    second: {fileID: 2100000, guid: 2096c683b3719435d9a44b1e85cd3226, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Palisade_Fence
+    second: {fileID: 2100000, guid: f079f7aedbae1489686e804a4b57af5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Trim
+    second: {fileID: 2100000, guid: 685705db889864ed8944e10b81b6e1db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: a108d7f95c0d34f5a95ba5b400b01913, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Detail
+    second: {fileID: 2100000, guid: e4e1c3dd082ef49b69e27fd93886a393, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Stone
+    second: {fileID: 2100000, guid: d098ddd7fb5ef4408990d9c37362f794, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Windows
+    second: {fileID: 2100000, guid: 83b75fce002fd428ab2053e9afbdd6fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SmallRoof_Braces
+    second: {fileID: 2100000, guid: 7d1a58421c138498385139753cc07166, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tunnel_Detail_Top
+    second: {fileID: 2100000, guid: 65bba45bf793f4a139ccfd31f8288b29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tunnel_Door
+    second: {fileID: 2100000, guid: 6c22d0891522e448488715bf45b2d3b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tunnel_Gate
+    second: {fileID: 2100000, guid: c3f108c00ec114cec817371da8f1af58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Green
+    second: {fileID: 2100000, guid: 772c5243c6b26479cbf262fd414936a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 32c13a30f48a74f86a741a90868d4702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wind_Vane
+    second: {fileID: 2100000, guid: 2ce2a6826ab764f85bd651d59458d930, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Basement
+    second: {fileID: 2100000, guid: 1a769730cc37b4b8e9b0be47a3b4894c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_GrndFlr_Side
+    second: {fileID: 2100000, guid: 6048ac27549e746469d87e013cafef69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Small_Square
+    second: {fileID: 2100000, guid: e76613ee2c8514f74a276687e76c0494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_1stFlr
+    second: {fileID: 2100000, guid: 3240764fd5404443d83dce5049964df0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_2ndFlr
+    second: {fileID: 2100000, guid: d4d1204f28062445fb1cb188f3f9be2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_GrndFlr
+    second: {fileID: 2100000, guid: 4ed212d801b1546ee9d3ee287d3abae4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_HalfRound
+    second: {fileID: 2100000, guid: 8591a267e974b4f9caeabfa34f7504a8, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

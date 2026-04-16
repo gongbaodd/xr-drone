@@ -3,12 +3,42 @@ guid: c8446be049888426f97aece383f103a7
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: karniis
+    second: {fileID: 2100000, guid: 25eb96e062f684a49b830528d10c73a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kat
+    second: {fileID: 2100000, guid: 88a9b626c17034382881b4b35a10a68d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi
+    second: {fileID: 2100000, guid: 22b056102ebe84f9ab04065d4d71a61c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laudis
+    second: {fileID: 2100000, guid: 51105745f608c4e268bf3d85ff693c3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maapind
+    second: {fileID: 2100000, guid: eee1842fb3f984aa1944480e47b92927, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: post
+    second: {fileID: 2100000, guid: aff537e361c944f0181cda3b41a876cc, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

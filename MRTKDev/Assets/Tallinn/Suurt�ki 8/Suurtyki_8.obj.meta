@@ -3,12 +3,82 @@ guid: c4d26b700df2949b292423ed6f512fa7
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken_suurtyki_8_aken_jpg
+    second: {fileID: 2100000, guid: a7dfd208ebfae488b8924721e1005106, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus_suurtyki_8_katus_jpg
+    second: {fileID: 2100000, guid: 8afa4dff345e1422d81d5508d2a1c97e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi_trepp_hall_kr_hall_JPG
+    second: {fileID: 2100000, guid: 8f95c16e571cb48a2ba8fc60126481fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi_trepp_paek_1_jpg
+    second: {fileID: 2100000, guid: 693bdc79ef546440ba5beae39548d6d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laudis
+    second: {fileID: 2100000, guid: 5acdc3a07432d42f88323ba942cc0796, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laudis_paek_1_jpg
+    second: {fileID: 2100000, guid: cb00cafc6a2f247d4b8a3dc5e22b959b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laudis_risti_suurtyki_8_laudis_
+    second: {fileID: 2100000, guid: c2ddbdebc0fc04d16b2e650aa7e375e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laudis_suurtyki_8_laudis_jpg
+    second: {fileID: 2100000, guid: 3567cb3a0d3ab42c18b42aeadf04b1b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: otsaaken_suurtyki_8_otsaaken_jp
+    second: {fileID: 2100000, guid: 13a7c80f439e64245858a4961909574a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: otsailustus_suurtyki_8_otsailus
+    second: {fileID: 2100000, guid: dbb8ecfaaba8f454abeb0e2785dece90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: punane_tumepunane_jpg
+    second: {fileID: 2100000, guid: db1a76f6e5b794f05b4636451e3f7776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tellised_tellis_02_jpg
+    second: {fileID: 2100000, guid: 620a384bbd8ca4e96b45e2500a1fae1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tumehall_tumehall_jpg
+    second: {fileID: 2100000, guid: 452bc912cf1aa4811baa136da00726e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uks_suurtyki_8_uks_jpg
+    second: {fileID: 2100000, guid: fb630f3c2395849a89d92010f8c1f71d, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

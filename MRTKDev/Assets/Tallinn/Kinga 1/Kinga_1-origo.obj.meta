@@ -3,12 +3,167 @@ guid: f95c530d352a841f19ee895d9e3c0000
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_37
+    second: {fileID: 2100000, guid: f0434bece74344dbfb4394837ba5ac4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_44
+    second: {fileID: 2100000, guid: ab6f56d7d0f7d41cd9b150bcccb15bb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1__34
+    second: {fileID: 2100000, guid: a146dc3aca463411fbd577b8905148fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_chimneys
+    second: {fileID: 2100000, guid: 525a79f91554d4e9096231534f82a858, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_door01
+    second: {fileID: 2100000, guid: 5484dedf294304d2bb193d6f899c6160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_door02
+    second: {fileID: 2100000, guid: 9f5310517c6364ff1a0111f54cc97e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_door03
+    second: {fileID: 2100000, guid: a29459c38f8e14600820738f965cc0b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_dormers
+    second: {fileID: 2100000, guid: e37a409ed987246279af58069bfd5585, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_fence
+    second: {fileID: 2100000, guid: ce2c5e5da53c8456ea8377cc28afb49b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_keldmy
+    second: {fileID: 2100000, guid: aca3799665c554a6b933967602ba3321, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_roof_stone
+    second: {fileID: 2100000, guid: 1fbf362a072b4451685763b3efffbcfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_roof_tin
+    second: {fileID: 2100000, guid: 1c3faef53e6014b67a7e1bbe26374583, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_terrace
+    second: {fileID: 2100000, guid: 950467e590df946f6b4776fa547d88f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_tracks
+    second: {fileID: 2100000, guid: d8fdf6ef29a934d89b61b1090839258f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_wall01
+    second: {fileID: 2100000, guid: e477b2b586a974c7d84a5e9b4f0a9867, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_wall02
+    second: {fileID: 2100000, guid: aa1629e27a268432ba68ee012a3aa93a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_wall03
+    second: {fileID: 2100000, guid: 2ff1e31d26d1c41f8b662cc66194e65c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_wall05
+    second: {fileID: 2100000, guid: 47cf135bfbe204270b728da44e947a0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_wall06
+    second: {fileID: 2100000, guid: fdb45b15b17214983a422af850852c02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_wall07
+    second: {fileID: 2100000, guid: a30f225dca726423c93ab91acbedaab7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_wall08
+    second: {fileID: 2100000, guid: f083ccc1e76ea45ebbcffa88f8fe312f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_wall09
+    second: {fileID: 2100000, guid: 9d19365a8b5834b3ab3266cfe1abb119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_wall11
+    second: {fileID: 2100000, guid: 573256a57a8624a7f8abb85a059fc43d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_wall12
+    second: {fileID: 2100000, guid: 533f13e8ccac148c5876def7b04efb63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_win01
+    second: {fileID: 2100000, guid: 89b0c30a0ecbe478e8d47f5c696f1cbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_win02
+    second: {fileID: 2100000, guid: fea9924659104456f88c21fc6e5f8118, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_win03
+    second: {fileID: 2100000, guid: ad19bf389b9fa4f5ea3a40bc9544adba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_win04
+    second: {fileID: 2100000, guid: 259eba558b3a34c6b9b921b05a31b1c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_win_roof01
+    second: {fileID: 2100000, guid: a59e5375dab3441e1b8e372eeff2de7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kinga1_winroo02
+    second: {fileID: 2100000, guid: 7897fbe5fe72e49d0ae3f87b97fec725, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall04
+    second: {fileID: 2100000, guid: 451bd712fcccc42b1846a082b0e522b0, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

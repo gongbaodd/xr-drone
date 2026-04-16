@@ -3,12 +3,57 @@ guid: 2a1a5d3a308e8408ab0023dfdc33f2a6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AIa15_kr_valge
+    second: {fileID: 2100000, guid: 6e90c88f63f184ad3bb0ec54f7f1961c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AIa15_lambert10SG
+    second: {fileID: 2100000, guid: 5d46056a0c5144baabc7c90cd51e7614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AIa15_lambert3SG
+    second: {fileID: 2100000, guid: ceb689c2fa9c4478c84202b5acb79002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AIa15_lambert4SG
+    second: {fileID: 2100000, guid: eaadc4dff797541bd8606b1f55abd497, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AIa15_lambert5SG
+    second: {fileID: 2100000, guid: 861dc92a6362b43a9a8216c8817cbe62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AIa15_lambert6SG
+    second: {fileID: 2100000, guid: 27d853f165396424cbbc8f4c6169d0ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AIa15_lambert7SG
+    second: {fileID: 2100000, guid: 4f8d7baa53e7140978dfcaba292b74aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AIa15_lambert8SG
+    second: {fileID: 2100000, guid: 9c588e66267654304b46f69cdec1cb44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AIa15_lambert9SG
+    second: {fileID: 2100000, guid: 20b3004e4595943eb8253e7e2df87133, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

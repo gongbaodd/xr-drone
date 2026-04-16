@@ -3,12 +3,187 @@ guid: 03f5beeac0de54a388bc610208dafbb5
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_base_01
+    second: {fileID: 2100000, guid: 9eced3223df1440b69cc4c9752f28dc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_decor_01
+    second: {fileID: 2100000, guid: 218d924eb42904d889c03e6659f4804c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_decor_02
+    second: {fileID: 2100000, guid: 39a5440b17f7e4ae9a606bf5916e831b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_decor_03
+    second: {fileID: 2100000, guid: 778764eb566be463b8f2cce938074576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_decor_04
+    second: {fileID: 2100000, guid: 520baf6b7c269429f988576dd2931c80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_door_01
+    second: {fileID: 2100000, guid: 923a94d3658114f2bac76edaab59d8b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_door_02
+    second: {fileID: 2100000, guid: 31d0e7093cd6644d9b4e1ccd8d8a1033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_door_03
+    second: {fileID: 2100000, guid: 48e43ae376c7b430c84e77212986912b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_gate
+    second: {fileID: 2100000, guid: 1cea26f7a46744cafb66345027a046c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_gstes
+    second: {fileID: 2100000, guid: 229b401363b97476088a2092beefc30a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_korstnaots
+    second: {fileID: 2100000, guid: c1f05b117d724484b87739ee05df2776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_mat_002
+    second: {fileID: 2100000, guid: 3f7831e4c62564963bdd0ffa414dc9c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_plek
+    second: {fileID: 2100000, guid: ca0505b195bdc41f6a59cd516444d9eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_roof_01
+    second: {fileID: 2100000, guid: 9dba5bd34c76049e5ab556f59b08c96c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_roof_02
+    second: {fileID: 2100000, guid: 6e16913f3eb13452593b3ef3efecbea6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_roof_03
+    second: {fileID: 2100000, guid: da9647a54a02e4725a0f8c5af16ecdf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_stairs_01
+    second: {fileID: 2100000, guid: 0b56105e82d27490484a83987cc48b41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_walls
+    second: {fileID: 2100000, guid: aafc607bc514e43d5b8728afa582e9fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_01
+    second: {fileID: 2100000, guid: 038b78f0bd5c743969e0733417ebda96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_01_1
+    second: {fileID: 2100000, guid: 2bc3538c75e4d4238aa6448b89bed134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_02
+    second: {fileID: 2100000, guid: b662c73bdf7144078bbccbd4851a02fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_03
+    second: {fileID: 2100000, guid: dd57ae10b49774bbc99891e1f321c6b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_03_1
+    second: {fileID: 2100000, guid: 11a3a562a35524b5f9d1f7c5d9a4c27d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_03_l
+    second: {fileID: 2100000, guid: 7173f8aaa0f5647eb9f9bf2c4c2d1b1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_03_r
+    second: {fileID: 2100000, guid: 4f32b87a13eee4794bdd1c66fecb97fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_04
+    second: {fileID: 2100000, guid: f96f2d7794c1147d2881523dc4e577f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_05
+    second: {fileID: 2100000, guid: 8d4f4ef86b999472db9f06b6ed1fa3a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_06
+    second: {fileID: 2100000, guid: e09c8f735c5b647f28a9a5a562d62dbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_07
+    second: {fileID: 2100000, guid: de13dc95635874da1875a65275149d8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_09
+    second: {fileID: 2100000, guid: 0407f0c393c98459c9a9eb7c4907119c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_10
+    second: {fileID: 2100000, guid: 76726c3162b2448729500bea9632ce3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_11
+    second: {fileID: 2100000, guid: b4160989bfafa4d1a931c6292f043712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu_18_window_12
+    second: {fileID: 2100000, guid: bc2b93036688e4e089162cd47a4f5d37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stairs_02
+    second: {fileID: 2100000, guid: e1b88378f4cd5422baae3d430f57d6dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: a5774e2e0923444368909295be7c68aa, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

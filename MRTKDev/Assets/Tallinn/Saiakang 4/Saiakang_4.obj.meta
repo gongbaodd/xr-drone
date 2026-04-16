@@ -3,12 +3,122 @@ guid: 9a4d41b6d76954476965b6fa9fcad489
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_aken
+    second: {fileID: 2100000, guid: 48e04a3c8c3b14a6e996eb8463b893f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_aken2
+    second: {fileID: 2100000, guid: de4638364126f4f689ca3f99af57786e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_aken4
+    second: {fileID: 2100000, guid: b7aecbe53957041d79f0487a54fea650, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_aken5
+    second: {fileID: 2100000, guid: 7504c7c6fb1eb43f7832dfc0075dca61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_aknaplekk
+    second: {fileID: 2100000, guid: 757de7175cc824b579dd670a3bf464b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_katus
+    second: {fileID: 2100000, guid: ae6967d42c7d4427e80ac4ce283e31cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_kivikuju
+    second: {fileID: 2100000, guid: 1a769826d5747492eb6375887a9cf75c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_korstnaplekk
+    second: {fileID: 2100000, guid: aff81b292c55e42d3bccf04082cc40fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_krohv_punane
+    second: {fileID: 2100000, guid: c3647b12f700645bc98969f98c94f021, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_krohv_roosa
+    second: {fileID: 2100000, guid: aea60026aa2074bfda06121d4799563e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_krohv_valge
+    second: {fileID: 2100000, guid: 2ba6f4612d1f2494bb37fd89d6dcfe7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_metall
+    second: {fileID: 2100000, guid: 0985dfe42a89740d6858c00049670bc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_puit2_hele
+    second: {fileID: 2100000, guid: a0950ee1cee714497afad60dffcd04f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_puit_hele
+    second: {fileID: 2100000, guid: 4c293d226bca44f3bb5a74f02be09066, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_puit_tume
+    second: {fileID: 2100000, guid: d49cd431424634ac89af468fc3ec27ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_trepikivi
+    second: {fileID: 2100000, guid: ea925d7571ec240109fdec6e5a3616a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_tume
+    second: {fileID: 2100000, guid: 22394259c623f4cfea9fd2ff9d511a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_uks1
+    second: {fileID: 2100000, guid: d11c8110aa8e74a5f8ca0f13cb1995eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiak4_uks2
+    second: {fileID: 2100000, guid: 57b072824567a4017adac3e9c8c172a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiakang4_ap
+    second: {fileID: 2100000, guid: 0ac46c7e5b7ab4d99985b35291fcd91e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saiakang4_trellid
+    second: {fileID: 2100000, guid: 6d7cfb77d698f4b85adf942924be6d80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: f59e2951e35a64f56b932505c5dd137e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

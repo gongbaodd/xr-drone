@@ -3,12 +3,47 @@ guid: 9671818d87d434fafafb1ddd57d6d4d5
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK15_katus_kivi_punane
+    second: {fileID: 2100000, guid: b1d0007679f244cfab388cf04136bc60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK15_kr_kollane
+    second: {fileID: 2100000, guid: 946ce32c9b74e42f1b88951e3b88d892, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK15_krohv
+    second: {fileID: 2100000, guid: badf040f5be82452b90399ba52998335, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK15_kuur_v_ravad
+    second: {fileID: 2100000, guid: 102e7479e34764a2aac70e6dcb181107, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK15_paekivi
+    second: {fileID: 2100000, guid: a0bf8ea022cac497881929d920beaf38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK15_pruun
+    second: {fileID: 2100000, guid: 3c0938ff733ca42279e7fbae593c155b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: fc60f812f5ddd4844b9d29704a7ef7cb, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,182 @@ guid: 34bc2a65572004610a11fea0bb71daf3
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07___Default
+    second: {fileID: 2100000, guid: a82acfd759cc44da58f95134a278bdff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08___Default
+    second: {fileID: 2100000, guid: 21ff0b0bd132d433c9948019b4ef5be0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09___Default
+    second: {fileID: 2100000, guid: 7d4d68c7b493841278e697b213687642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13___Default
+    second: {fileID: 2100000, guid: f31d7ca6d03b24d1eba37d6d72261b60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14___Default
+    second: {fileID: 2100000, guid: 612546c62edd0435b829245e5ba1a388, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15___Default
+    second: {fileID: 2100000, guid: 0f17ee87e86f3464e857679f58090c4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19___Default
+    second: {fileID: 2100000, guid: e90b3b93931924100b5129c95947857e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 20___Default
+    second: {fileID: 2100000, guid: fdfa3f8bda9d04cdca6badda228ff709, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24___Default
+    second: {fileID: 2100000, guid: fb03d721dfbb94ee0a1647ef953ace4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Big_Window
+    second: {fileID: 2100000, guid: 9b2a92ac80a494997a9da1f0d22d9234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black_Window
+    second: {fileID: 2100000, guid: 1d41d3a0b148142d2917de4889bde84b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chiney_Holes
+    second: {fileID: 2100000, guid: 721f659d0cb9f43b4b70753d8071e8f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Covering_Texture_Door
+    second: {fileID: 2100000, guid: 2d04c3224e0264c91a7732018a404a54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Curved_texture_Upper
+    second: {fileID: 2100000, guid: 3402266c48d9a4aef859e4d8d935e6a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dirty_Roof
+    second: {fileID: 2100000, guid: 82aab14c49bf24c09bcadbcde2959b80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dirty_plaster
+    second: {fileID: 2100000, guid: 9a172ac0c896c435a9357e54a0079c35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Dirty
+    second: {fileID: 2100000, guid: 86de057ec64a04280aef7e9ca76218bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Front
+    second: {fileID: 2100000, guid: d6b27e5298b234316bb7122e3e8b9406, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_mid_Long
+    second: {fileID: 2100000, guid: ddc2f2f563a524e05a8540345836919e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dormer_Texture
+    second: {fileID: 2100000, guid: 347769b213b4543cb8635ee60e05b16f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green_lower_Panel
+    second: {fileID: 2100000, guid: b3ff084be37634353a0abf4070a0c555, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Iron_Door_Small
+    second: {fileID: 2100000, guid: fbc9a691dd9d145d38cefacd0b5d57e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RAil_Tex
+    second: {fileID: 2100000, guid: 838c72a93e1984370bc0b825dc4af960, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Color
+    second: {fileID: 2100000, guid: ddddbec4a91c7469cbe92f62c999e43d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Roof
+    second: {fileID: 2100000, guid: f40dc520c5b6442fba352b42f558ce83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Small_Window_Down
+    second: {fileID: 2100000, guid: f6cb2ca78f07a44138b03574888bc9b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Small_Window_Lower
+    second: {fileID: 2100000, guid: d655a346d4e5e4517809bf549e1cb2f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Color
+    second: {fileID: 2100000, guid: 3aef4e4e97f344c49b31245fa49af33d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 267cbe0d5764f4f56959c75b8c41ed6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Antik
+    second: {fileID: 2100000, guid: 2ee3c2431f8774645972eaa06468d404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Chimney
+    second: {fileID: 2100000, guid: f2d19c97ed4a34f30982a478c93c9c12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Lower_Panel
+    second: {fileID: 2100000, guid: 8452d0d5759bc4590b97e9b81214dff3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Shutter
+    second: {fileID: 2100000, guid: 2d03668465b3949fdb32a7dc56378310, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow_Wall_Texture
+    second: {fileID: 2100000, guid: 0a27f9829d4b64908ac344ef636a8546, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

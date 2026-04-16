@@ -3,12 +3,42 @@ guid: 0bc7c3d28d0e54ac5810ad0571ba9e4f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai6_Other_Parts
+    second: {fileID: 2100000, guid: 4766657377c3d4e29bf0e1e469202146, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai6_Roof
+    second: {fileID: 2100000, guid: c39f83aa5f7434b8980980df63b9376e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai6_Roof2
+    second: {fileID: 2100000, guid: 664c6037bfeca486181592b0bc9db407, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai6_Wall
+    second: {fileID: 2100000, guid: fc905bb5948c442d8b4ab8ab5a6f7390, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai6_luuk
+    second: {fileID: 2100000, guid: 78766f820ea0a4d0fae6ac645d13c7d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 37d3027c16d094c9aa6dabf34224260e, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,82 @@ guid: d49fa84d97db4417da6899458f7eb3bc
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Dark_Grey
+    second: {fileID: 2100000, guid: af239a9c689f845a28b9c2a239916222, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Door_BigDouble
+    second: {fileID: 2100000, guid: 1188cc4ccd8de4703a9fa734cbd903c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Door_Main
+    second: {fileID: 2100000, guid: 84bb8ccd080fa49d496af9cea0a4c7c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Door_RedExterior
+    second: {fileID: 2100000, guid: 5762c8053c17c4dc2a309227765f7dab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Metal_Strip
+    second: {fileID: 2100000, guid: 5784428ffac3a4b0db804c164282962b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Roof
+    second: {fileID: 2100000, guid: e80303a928fbe43cb849193a0d71d3ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Roof_Detail
+    second: {fileID: 2100000, guid: 04dfeb99c907143b794691f8159ef93d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Step
+    second: {fileID: 2100000, guid: 459dfa7d8f31b47b0802652dd2f9dffb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Wall_Cream
+    second: {fileID: 2100000, guid: 8045de33a49104ba4a276deff4170bcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_White
+    second: {fileID: 2100000, guid: 6fad580ce9cce4b008cff84dc9395067, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Window_HalfRound
+    second: {fileID: 2100000, guid: 79d54cc532fac4ba0856df6d7a69e1dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Windows
+    second: {fileID: 2100000, guid: a26ea279b7ce24cf2b3bd89dd405d6d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Wood_Dark
+    second: {fileID: 2100000, guid: 45916078e6138444e9811bd286af053a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne10_Wood_Strips
+    second: {fileID: 2100000, guid: 09458967be429498cba8b4e1b9e0f050, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

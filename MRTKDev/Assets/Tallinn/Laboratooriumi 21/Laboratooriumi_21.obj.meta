@@ -3,12 +3,92 @@ guid: 22ff638f713434d4e974fb551ce09457
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_Yellow_Plaster_Wall
+    second: {fileID: 2100000, guid: b9414a373d9364a699cd3a9ec9b7b35c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_aken02
+    second: {fileID: 2100000, guid: eddbf9a370480449289eaa2e42bbfaaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_aken03
+    second: {fileID: 2100000, guid: eb087dd6a503144c3a2c8ed7f9b8ee15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_aken04
+    second: {fileID: 2100000, guid: cc20787890c8e4eeb859efa32695b086, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_krohv_vlg
+    second: {fileID: 2100000, guid: aa3da0a6a32a64e6da9152e120dc8bea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_main_door
+    second: {fileID: 2100000, guid: 62360c3afbc2640bba4682f6d2e7826a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_maindoorframe
+    second: {fileID: 2100000, guid: 93b244a979d424105a52b98ac4b28e49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_paek1
+    second: {fileID: 2100000, guid: f3610a467fdee4399bab1a8d786bf3e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_piire01
+    second: {fileID: 2100000, guid: 757437c0088c143c2b10f04d60d5a1e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_red_metal
+    second: {fileID: 2100000, guid: 353a06285c50e493697b6c95514c3cf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_rooftiles
+    second: {fileID: 2100000, guid: d8830063388dd45aaae0462a12a7084a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_ted_wind_12
+    second: {fileID: 2100000, guid: 149246672d1254d16a6d4c07ae78924d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_tedwind_5
+    second: {fileID: 2100000, guid: 4b2a9bfe1584d40ecb779cafdee2f2fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_win_circle
+    second: {fileID: 2100000, guid: db3db8aca41f7432cb202e4c272f6a14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab21_wind_half_circle
+    second: {fileID: 2100000, guid: 599c36ec1fe6c46d6a1163e6db6149ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material01
+    second: {fileID: 2100000, guid: 3eced7377510a4fb489d34046a5a55ac, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,92 @@ guid: 68d5ee548b3fe403c88cb56865b4de4e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_07
+    second: {fileID: 2100000, guid: 387a5b604744f4ca1bb38a34d337ef82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_08
+    second: {fileID: 2100000, guid: d2b4b2dc2dcd24c959e7f2f5e27171f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_1
+    second: {fileID: 2100000, guid: ac8608614e51c4ba0bd490be3b15fc32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_2
+    second: {fileID: 2100000, guid: eb6cea036dd5a47ea8e82c7648c2e4d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_aken
+    second: {fileID: 2100000, guid: f699632fc5f2b47c1a7d6099856a3907, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_eest
+    second: {fileID: 2100000, guid: 024091818b98648c59c2e18b8861a1dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_ka
+    second: {fileID: 2100000, guid: fa7c002e758cb43498f5766a9b95e382, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_korsten1
+    second: {fileID: 2100000, guid: 89f1d5411212d47bbb06cd3be44c207c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_korstn
+    second: {fileID: 2100000, guid: 9f8c6cb404d904d61b04f7d9b30e99f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_korstn2
+    second: {fileID: 2100000, guid: 48fe30cc6e4474855a91b5c729553849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_plekk
+    second: {fileID: 2100000, guid: efc8b816a4c634ff8b89cff512e79884, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_ridge
+    second: {fileID: 2100000, guid: 00e63aebaab4146db974a328baeda0a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_ridge2
+    second: {fileID: 2100000, guid: 1741b3e8e717e46ed9d457354dce2576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_thing
+    second: {fileID: 2100000, guid: fbbb2f68ff2d74733b9aac1fd050e410, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P49_white
+    second: {fileID: 2100000, guid: 60b7a8eeef53a4dcea9523a6aa390987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 71b4e36122ac3408fbbafe395f8fa821, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

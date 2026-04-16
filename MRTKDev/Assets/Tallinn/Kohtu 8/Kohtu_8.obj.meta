@@ -3,12 +3,262 @@ guid: 9f780be6e4f964ecdad70722804c93e4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_a0
+    second: {fileID: 2100000, guid: b83319a810bc84858b765338eb6c9151, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_a1
+    second: {fileID: 2100000, guid: cb93b1e5c037e48e09282180a9f6f99c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_a2
+    second: {fileID: 2100000, guid: a3a10e6096f6a409195a3915f2b094ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_aed
+    second: {fileID: 2100000, guid: f28383d2bd67041caad9bd2bc0febb93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_aiapost
+    second: {fileID: 2100000, guid: 2ea81af871cb5477c9b3f08beaf1c07d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_aiapostim
+    second: {fileID: 2100000, guid: 38b48438515b94d759398ded966aa6a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_aiapostit
+    second: {fileID: 2100000, guid: 8563e84f1b7444b4180184fab8784f6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_akaar
+    second: {fileID: 2100000, guid: 767a06ef547c7468bae186a79a2ecabe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_al_voo
+    second: {fileID: 2100000, guid: b650abc6c02c44d61b08917114bf37fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_aplekk
+    second: {fileID: 2100000, guid: ee41a5fe4acef4b26a0398003b323bd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_araam
+    second: {fileID: 2100000, guid: 49262a2ed2fe04b269d0b6a3211460bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_bet
+    second: {fileID: 2100000, guid: 5db17772b450d4a4ab3e5a53133714d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_fronto1
+    second: {fileID: 2100000, guid: cb7ed1b488ee54297aea9dfc4b4a3b84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_jutid
+    second: {fileID: 2100000, guid: de0a7657b7e6747d6a0d2ad5c4be2341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_jutid1
+    second: {fileID: 2100000, guid: 1b780ebb2033d4437807626f42918808, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_jutidd
+    second: {fileID: 2100000, guid: 1620535ba447a41aabc143260cb4020b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_kapiteelp
+    second: {fileID: 2100000, guid: 49b2c7656d0a14bd589e1427b3ab9457, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_kar2
+    second: {fileID: 2100000, guid: f2498546493404c108c7b23af791cfc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_karniiis
+    second: {fileID: 2100000, guid: 3b26826590d9448e09a98961860c7f46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_karniis2
+    second: {fileID: 2100000, guid: c98549674f05545c28d841db87d88cc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_karniis_v
+    second: {fileID: 2100000, guid: 6e99260142cf347d08e2deb392f03dc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_karniis_vv
+    second: {fileID: 2100000, guid: 870c3690f72eb41d5bc6dec14de9ad12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_katusekivi
+    second: {fileID: 2100000, guid: 68d3c14e5c9ff472282fda8403a3092e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_katyuseplekk
+    second: {fileID: 2100000, guid: adb987b664008460380e942fa268ab88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_korsten1
+    second: {fileID: 2100000, guid: 0022844fe4b41496f8d270a8af449232, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_korsten_auk
+    second: {fileID: 2100000, guid: a0030b733ac7f41d5a4008296a05b782, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_lukukivi
+    second: {fileID: 2100000, guid: 8ecdf671e67aa475899ecfde749922ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_paas
+    second: {fileID: 2100000, guid: d6c5afd84624b42a19986e5a045787ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_parentum
+    second: {fileID: 2100000, guid: a9798594be78540b3a32a932780d21cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_rel1
+    second: {fileID: 2100000, guid: 429d0149dd1dc42e08e65082751f344e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_rel11
+    second: {fileID: 2100000, guid: 18927504e2d954e97ad2e694276c2634, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_rel21
+    second: {fileID: 2100000, guid: 8297e7dac5c2e4787861f4e911aa708d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_rodupiire
+    second: {fileID: 2100000, guid: 62f739d4e1fbd4ce89de4d3848b34e27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_rp2
+    second: {fileID: 2100000, guid: f1b5b0d2951f8432aacf1f851dc0cc43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_sammas
+    second: {fileID: 2100000, guid: 1d6c856609a934c5987b1aed7a2144ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_sein
+    second: {fileID: 2100000, guid: 9463e16049480405d9834ae7e1b7b963, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_sein_heledam
+    second: {fileID: 2100000, guid: 11ca7656b0367483e8d2c1612a3db3b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_sokkel
+    second: {fileID: 2100000, guid: 388374cd17141499ab479c5424ac5199, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_trep1
+    second: {fileID: 2100000, guid: 0ec6df1d5bbad4efba92d9d3b1425c20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_trep_tnp
+    second: {fileID: 2100000, guid: 2534ad277cd7a4cbeb8e44a6a7b1bba6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_u11
+    second: {fileID: 2100000, guid: 21c423c1166ae4a79a75f5419c303f27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_u1p
+    second: {fileID: 2100000, guid: b276fe8c391cc4f5695fe5a4a1067b69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_u2
+    second: {fileID: 2100000, guid: 86da61857057f4a5b935b242424dbbe0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_u4
+    second: {fileID: 2100000, guid: 5af2da8baca2f4991b68d1d25b45559d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_uksekonsool
+    second: {fileID: 2100000, guid: b48bef35d250648a385ec3f270de34c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_valge
+    second: {fileID: 2100000, guid: 19e369e4dbd62406b878d86883403d63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_valge1
+    second: {fileID: 2100000, guid: 31e10ae9202504669bb66f9818d3a81f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_valge2
+    second: {fileID: 2100000, guid: e1901da87f0cc4b53ae4079659493548, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K8_varav
+    second: {fileID: 2100000, guid: e880d30fea32f40059ab5b7813365658, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 0418c838efa434e86a7c7fe154a181cc, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

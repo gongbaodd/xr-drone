@@ -3,12 +3,57 @@ guid: 385b5e001497343d3b571d300e20b94d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku8_must
+    second: {fileID: 2100000, guid: a34c69133fab94bbcbb1715cb8405b46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_OrangePlaster
+    second: {fileID: 2100000, guid: 935fd9f8a61db456ea2208587ffeb632, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_PlasterGrey
+    second: {fileID: 2100000, guid: 25446562714e44fa89a84d76551c482e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Roof01
+    second: {fileID: 2100000, guid: 7e97cfa84b6e142b0bf21ba98a3c83a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Roof02
+    second: {fileID: 2100000, guid: 313ce193fe7934adf8d6ed30ced6f32e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Window04
+    second: {fileID: 2100000, guid: e261b45f08b534720a0353804c1d9d71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Window05
+    second: {fileID: 2100000, guid: 9615716abf539406e85628a3e5856dfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_valge
+    second: {fileID: 2100000, guid: 734b8f08c4a594e5dafb62a11b95fd40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: b109dd184ac584a1eab8b0096df698de, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

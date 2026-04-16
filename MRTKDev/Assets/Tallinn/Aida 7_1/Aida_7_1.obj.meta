@@ -3,12 +3,52 @@ guid: 1ed1d9b3ce5594cf6814143ce5475c67
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2___Default
+    second: {fileID: 2100000, guid: a7ded6528c941472188fd310abef71b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a7u1
+    second: {fileID: 2100000, guid: d8db8f2c274c54f329a4e434bf6ed26b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aida5_7SG
+    second: {fileID: 2100000, guid: 8e047d5e4c90444178d6b72298316ecf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kat
+    second: {fileID: 2100000, guid: 1da82ddca45084280bc6274cc1fca560, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_sin
+    second: {fileID: 2100000, guid: 2308967ffeca44eb296a18faee5315cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paek
+    second: {fileID: 2100000, guid: 24a7f5404322747f2936e08b397b63ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruberoid_h
+    second: {fileID: 2100000, guid: b2897a786f3eb4c178bf6ded403db36e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 7ec44441ce5e44bb3a28f368e55f9cef, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,122 @@ guid: 37264347fd9004e1cbfc5b636cd356db
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_10SG
+    second: {fileID: 2100000, guid: ea283cc7094154e44ac41a941d924863, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_16SG
+    second: {fileID: 2100000, guid: 5d36bb6b37051442ca8b4521f80e9750, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_17SG
+    second: {fileID: 2100000, guid: 03a72d0ebfe32406297439a8ca967edc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_222SG
+    second: {fileID: 2100000, guid: e437467a794a8452a9ed35540f77d549, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_23SG
+    second: {fileID: 2100000, guid: b4d3b30932f7d4bca9e3e7575ac67fd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_24SG
+    second: {fileID: 2100000, guid: 4cdc0129cda5d4b35980bd8c247df90e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_26SG
+    second: {fileID: 2100000, guid: e28c9e35ea23c45d0818dfeb26b1a202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_27SG
+    second: {fileID: 2100000, guid: 1dabd56f15ebb442abee2d96c6f7aa7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_28SG
+    second: {fileID: 2100000, guid: d87ff07fe8c69478291f0a2e9a6ac968, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_29SG
+    second: {fileID: 2100000, guid: 67e189cbdcb2f49599d8de0bf985deb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_30SG
+    second: {fileID: 2100000, guid: 067a0ec5cc35a43de9d9f4f481291154, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_31SG
+    second: {fileID: 2100000, guid: 683bb6dbc00354110a7d00307f2b7ba2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_32SG
+    second: {fileID: 2100000, guid: cdcbfde4431aa4275a4061b0e61034ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_33SG
+    second: {fileID: 2100000, guid: 82b4d304ba35041ebb23faac5b21ccb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_35SG
+    second: {fileID: 2100000, guid: 3a64a280b001b4ed6863ad48c2b3174f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_36SG
+    second: {fileID: 2100000, guid: b37c6d7539dd944118ec8b89f5dff791, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_37SG
+    second: {fileID: 2100000, guid: 45dd3b44c132b412996142629b936519, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_38SG
+    second: {fileID: 2100000, guid: 661f455f05767485990b95119cf5d35b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_40SG
+    second: {fileID: 2100000, guid: 7e8196a9e8cf548f2a58ea143c222d0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_katvalge
+    second: {fileID: 2100000, guid: 6d1a0154eb49b47b59c594f2412c6912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_roh_hel
+    second: {fileID: 2100000, guid: 34e9a89faec504687bf70334adfdf370, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 0590582d53d414eb0ac62f21f1608c43, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

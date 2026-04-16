@@ -3,12 +3,77 @@ guid: e00d404113a45451aa0896b28b6af431
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_25_Door01
+    second: {fileID: 2100000, guid: ce94436f2f44344ccaae9c431a671eb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_25_Door02
+    second: {fileID: 2100000, guid: 40c5ba84eee054b99bbe249006427078, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_25_GrayPlaster
+    second: {fileID: 2100000, guid: 4f4f0030113924a17b672958111f0f54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_25_PinkPlaster
+    second: {fileID: 2100000, guid: 0e8054d4d0a7c4c4bb32ec16b59f0252, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_25_Roof01
+    second: {fileID: 2100000, guid: da08dde8f1a8144d3bbea124771f737d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_25_WhitePlaster
+    second: {fileID: 2100000, guid: a208fa473f60246eaae065717d955d1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_25_Window01
+    second: {fileID: 2100000, guid: 20707525112444928a8624c15fa17453, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_25_Window02
+    second: {fileID: 2100000, guid: 236ff9bbfaebe42be8723b4894b4c1b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_25_Window03
+    second: {fileID: 2100000, guid: c2489b2a0d1f146af94a5e92f347b4c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_25_Window04
+    second: {fileID: 2100000, guid: 5692c27100d4b47858108ab8d2018c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_25_Window05
+    second: {fileID: 2100000, guid: 0ac3ec255f8f1431c84f92cba9580c67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_25_Window06
+    second: {fileID: 2100000, guid: d0cf7cd3c70f0415b828c18bef7ddef2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 144e2611477654dd78f631427fdd5c75, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,107 @@ guid: 577718f05035a4b7a9169bf5c0e5bc50
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_01
+    second: {fileID: 2100000, guid: a9dac0dd6142e455aac6c93870abf653, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_10SG
+    second: {fileID: 2100000, guid: 600f10d3a655e42edbf8c9fabfd661d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_11SG
+    second: {fileID: 2100000, guid: 266e8d60e48e74e979b12bf7c07470b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_12SG
+    second: {fileID: 2100000, guid: d727da5e36e954de79a159368e767374, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_13SG
+    second: {fileID: 2100000, guid: cc7648501bb694fddb24287b24544af9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_14SG
+    second: {fileID: 2100000, guid: 8fab8247243274a5abff5b16587e51e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_2SG
+    second: {fileID: 2100000, guid: bf44902ef112c4e028fbbc836e221f10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_4SG
+    second: {fileID: 2100000, guid: 0894c86c5b71142bab0e96b91bdac830, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_5SG
+    second: {fileID: 2100000, guid: 35d80f262ec43497e99c4108edc16d20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_6SG
+    second: {fileID: 2100000, guid: 85ac58352852043459350901651e90e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_7SG
+    second: {fileID: 2100000, guid: 5ba9674fbc7544d0e828e444c1776bb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_8SG
+    second: {fileID: 2100000, guid: f94321b84ba1c4bbb9c8426b3a0b12aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_9SG
+    second: {fileID: 2100000, guid: 81dde0532081d4af7a0298990d776e0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_karniis
+    second: {fileID: 2100000, guid: aca66e83f5aa74a228e7dcd69f985ef5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_karupruun
+    second: {fileID: 2100000, guid: 7ac976b82007743d59d4a807c01b6092, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_kelda
+    second: {fileID: 2100000, guid: 8e7d38c68e4f6477791c4fee8b18e59e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_korstn
+    second: {fileID: 2100000, guid: 799e772aa1f5d433cb86919993bfe6fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_plekkkat
+    second: {fileID: 2100000, guid: 3197aca8fdb8740e283544dc07f95dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun2_trep
+    second: {fileID: 2100000, guid: dafce07ea533f475497f9b4dcc057931, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

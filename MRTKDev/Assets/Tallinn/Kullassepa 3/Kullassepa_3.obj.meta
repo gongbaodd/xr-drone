@@ -3,12 +3,137 @@ guid: 364900e17d8bc42418407d550db2ca50
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back_Door_Heavy_Kull_3
+    second: {fileID: 2100000, guid: 70df05a01038d49cf95585526278d57e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back_Door_Kull_3
+    second: {fileID: 2100000, guid: 900c59f10481f4e55b9c3c6baabf6b6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back_Gully_Window
+    second: {fileID: 2100000, guid: fef8368ccf2d84a6b915d843d46cbc39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chimney_Hole_Kull_3
+    second: {fileID: 2100000, guid: 31548b94b8ff04485b1d308d921daeb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chimney_Texture_Kull_3
+    second: {fileID: 2100000, guid: bb3cf049b301a4180818d1f9005c60c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_Door_Full_Kull_3
+    second: {fileID: 2100000, guid: d3f07c4256f6d475bbb3e446f83824ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_Low_Window_Kull_3
+    second: {fileID: 2100000, guid: b98151f9c0b4c4f028050589e66beb68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_Wall_Texture_Kull_3
+    second: {fileID: 2100000, guid: cd22706358dad4d3b8a21aacc62087c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Heavy_pillar_Back_Side_Kull_3
+    second: {fileID: 2100000, guid: cf29569b88eb54b56a1ff4745c1ab7c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kull_3_a1
+    second: {fileID: 2100000, guid: 2971638c7919541f39f7be974b82ffc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kull_3_karniis
+    second: {fileID: 2100000, guid: 9d46559b8cd3940e6807b6dca64edfc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kull_3_konsool
+    second: {fileID: 2100000, guid: b4bde5176b8634c998280a243223e43d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kull_3_nurk
+    second: {fileID: 2100000, guid: baae040ee545942268803b85c8a3aa01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lower_Panel_Back_Door_Kull_3
+    second: {fileID: 2100000, guid: 9b65530997ab444718561f939b79bbbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs_Texture_Kull_3
+    second: {fileID: 2100000, guid: 72ea8a4c58b6c4f5ab972ad7886cf784, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Back_Green_Kull_3
+    second: {fileID: 2100000, guid: 93cb044c0bc7e4d7e89dd48f523c5e39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Red_Kull_3
+    second: {fileID: 2100000, guid: d107e2a5b6bb946a292dc8ecb994d879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Upper_Kull_3
+    second: {fileID: 2100000, guid: e7655554c9fa14a13a11ae42a76485b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow_Stripe_Front_door_up_Kull_3
+    second: {fileID: 2100000, guid: 22b8ee7d859ae4a76b8e7309c7987c61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: friis_Kull_3
+    second: {fileID: 2100000, guid: 382b59c8a02fc4291a4dff335b512648, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katuseplekk_Kull_3
+    second: {fileID: 2100000, guid: dc11e4456586847c8acc9fbb2d67cf3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sein_Kull_3
+    second: {fileID: 2100000, guid: ade6dbd0c0e384204a321b8a4581cce5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: valge_Kull_3
+    second: {fileID: 2100000, guid: 412f09c4bf70c49188f0c80366972f83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 78562197c3b6e484ba89a5b81a547ec1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zokl_Kull_3
+    second: {fileID: 2100000, guid: ddc4818582f254eeaadfe6524e6f5914, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

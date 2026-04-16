@@ -3,12 +3,57 @@ guid: 167af8846050d4786a28c94467bc0e4f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 58_puit
+    second: {fileID: 2100000, guid: 1762f9ee984fa4b43a7670ac81f1c3c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi
+    second: {fileID: 2100000, guid: 3251f5c2824dd4bc8aed132f4b24c5ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m__r_katusepuit
+    second: {fileID: 2100000, guid: fa703b05983c0476f841f7fb87a6f0bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m__r_post_puit
+    second: {fileID: 2100000, guid: f99b4fbbb479b47be83e64b18d49bd25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m__ri_katus
+    second: {fileID: 2100000, guid: df07ff21af74449a39ec9d746068948a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myru1
+    second: {fileID: 2100000, guid: e3ea14de58b274bb5a6d9cead9dbcfce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paekivi
+    second: {fileID: 2100000, guid: 2b925b127add4472a9a384f28c50f39b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: palkpiire
+    second: {fileID: 2100000, guid: c02061fe0c0f54d31a5989a2f7585b0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 8a541c2ac96404b5e8d7c2c8dc57bea0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

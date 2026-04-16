@@ -3,12 +3,77 @@ guid: 12b179447702a4f128aa1892c791018c
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface10SG10
+    second: {fileID: 2100000, guid: 87b7fa6f0e56d45e19b76491427a0f94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface10SG16
+    second: {fileID: 2100000, guid: 8793035b3bfd24dc29fbe18d4299e9cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface10SG23
+    second: {fileID: 2100000, guid: 5d6e5dec0c710467d85624c215afc6df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface10SG24
+    second: {fileID: 2100000, guid: 6b291fa6dbb3443489c529cb47152ea1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface10SG25
+    second: {fileID: 2100000, guid: e63083e7617fb44f48673199434a803b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface10SG8
+    second: {fileID: 2100000, guid: 473a30633c9c041adb215c58862ffb92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface11SG1
+    second: {fileID: 2100000, guid: 5aba96a601207467eb3fafce40d009d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface11SG2
+    second: {fileID: 2100000, guid: 0e11f7f3d9b074f0faf133208e1dbdd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface11SG3
+    second: {fileID: 2100000, guid: 53aa6c6ad6f8049908b06b2e211c50b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface11SG4
+    second: {fileID: 2100000, guid: efd49b1d14c5743999a987d705da7f69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface11SG5
+    second: {fileID: 2100000, guid: cb4c4940909b04f7ca25828f92277ea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface11SG6
+    second: {fileID: 2100000, guid: eccec96eae60844b08fa00b19c011e6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface11SG7
+    second: {fileID: 2100000, guid: e4cd01963879f49d1beceed4f2e86fdc, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

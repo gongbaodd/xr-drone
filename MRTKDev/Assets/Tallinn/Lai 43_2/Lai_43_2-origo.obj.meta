@@ -3,12 +3,47 @@ guid: bd6879aba578b46eba46cb3b74c68ab5
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_43_b_aken_1
+    second: {fileID: 2100000, guid: 8db263b6e071b4d8ca75f0d2d0945a2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_43_b_katus
+    second: {fileID: 2100000, guid: f3cbeaebf43e842438bdf20912ef24db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_43_b_katus1
+    second: {fileID: 2100000, guid: 189c63c582d4b43fab35440151b7cbf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_43_b_katus2
+    second: {fileID: 2100000, guid: dabdc3c041ae847529bbb601dd31622c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_43_b_paekivi
+    second: {fileID: 2100000, guid: 05171f796a8234cb0b2afc2f5b7f21c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_43_b_plaster
+    second: {fileID: 2100000, guid: afe0d0acbac3f4696ae0876cbacdd0f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 378739cf131cb4896b45e35b0246f7b7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

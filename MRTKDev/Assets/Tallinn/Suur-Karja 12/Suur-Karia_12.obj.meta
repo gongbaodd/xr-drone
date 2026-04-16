@@ -3,12 +3,87 @@ guid: a55e17ed4639e41bc9a72b6749a7d3be
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06___Default
+    second: {fileID: 2100000, guid: e74bfab6f2d5f4726b11862fd6c63844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07___Default
+    second: {fileID: 2100000, guid: 8379c2b59a3af4e91b98ab99b8840b63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08___Default
+    second: {fileID: 2100000, guid: 64944a54e10b545d6aeab01d524a2678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09___Default
+    second: {fileID: 2100000, guid: 291cce16b924e4b5dbd6584212b46c16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11___Default
+    second: {fileID: 2100000, guid: 7c5cdd4f23a384a3086f711be8a0f77c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blank
+    second: {fileID: 2100000, guid: 84fe259969e9c484b948db4d7c640f07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ivory_plaster
+    second: {fileID: 2100000, guid: 992eebdd22d224ecab3041b916e37aaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outline_ribbon
+    second: {fileID: 2100000, guid: d8412611ae1164bb4b7e16f445982127, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: portal
+    second: {fileID: 2100000, guid: 5b49573edb82d4871833baa7b0ffedf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red_plaster
+    second: {fileID: 2100000, guid: 4822a3cc4ea1a45e3ba1848f5019e56b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ribbon
+    second: {fileID: 2100000, guid: 3b61a955e010c47b18d8499a825ca4ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: step
+    second: {fileID: 2100000, guid: 050c76c6b62854358b4185f05e2088f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stonewall
+    second: {fileID: 2100000, guid: 8058f0131786d4085ad99c56593ed2f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_plaster
+    second: {fileID: 2100000, guid: 8addf73cd784d4e02975530a37f7e332, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window
+    second: {fileID: 2100000, guid: ecf592038773b4675ada50464b3e8077, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

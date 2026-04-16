@@ -3,12 +3,32 @@ guid: 5697afac92bbd44218d72ad4407a308f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: noname02
+    second: {fileID: 2100000, guid: 21543a72d18104bb4bd1ea392f280535, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: noname03
+    second: {fileID: 2100000, guid: cf24562e1ef554897b04f58715c9a056, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paekivi_fat_ylw
+    second: {fileID: 2100000, guid: 03721d2decb1c4759a666164a03fa63a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: slate__4
+    second: {fileID: 2100000, guid: 0b2c4a2fb1981493fbf3145601bf2911, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

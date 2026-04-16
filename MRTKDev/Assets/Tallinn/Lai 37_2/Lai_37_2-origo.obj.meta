@@ -3,12 +3,42 @@ guid: 0ca74d676a4604da8a2bdcdddd509b9d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_katus1
+    second: {fileID: 2100000, guid: ba4c493fad8624946881271cf0141c44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_katus4
+    second: {fileID: 2100000, guid: 10f9f6f660320401a92372f227c13f76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_plaster
+    second: {fileID: 2100000, guid: 1610955b47f694d088239eeba5d50b6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_sokkel
+    second: {fileID: 2100000, guid: 55b1d102ecbd6422792045823f6519d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_valge
+    second: {fileID: 2100000, guid: f4f2532258cb542a29c8568c4b5380ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: faa83ad0ea3fe428a9617cb246ec396f, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

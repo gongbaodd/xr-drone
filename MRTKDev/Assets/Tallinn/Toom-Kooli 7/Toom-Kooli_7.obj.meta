@@ -3,12 +3,52 @@ guid: 78d585d75966b4d3f96db3a78867cf2d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_7_fass_1
+    second: {fileID: 2100000, guid: b295f4a191a714314a5b0bab8807558a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_7_myyr
+    second: {fileID: 2100000, guid: c302e6a93807845bb97d7265e8d949a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_7_raudpits
+    second: {fileID: 2100000, guid: 5b5b8dfed699143fe8a401936383357c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_7katus
+    second: {fileID: 2100000, guid: 1a98364db468947ad9884471fe945d0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_7katus_kivi
+    second: {fileID: 2100000, guid: ca6fcfdc5d11542cca88ed4e778776e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_7katusaken
+    second: {fileID: 2100000, guid: 3172ab4b6375d42e28f4c28c97314e81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: abaf6e49af64a42769d3ae3a04340695, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tk_7_plekkkatus
+    second: {fileID: 2100000, guid: b1085bd158fb049aca9f13f8afaa12dc, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

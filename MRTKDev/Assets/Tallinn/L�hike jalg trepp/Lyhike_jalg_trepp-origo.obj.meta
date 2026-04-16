@@ -3,12 +3,22 @@ guid: b2bd8674e0a8b4b4883bd49a298e65af
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bet_hele_001
+    second: {fileID: 2100000, guid: 298ffe1ebadaf4c508d3f8039842cbab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bet_tume_001
+    second: {fileID: 2100000, guid: 5068a8a6e180f4e16aa738a5d1db6509, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

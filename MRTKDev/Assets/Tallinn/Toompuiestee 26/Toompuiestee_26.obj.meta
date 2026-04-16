@@ -3,12 +3,207 @@ guid: 78623de7449ef4e6dba83aff4deac7a4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_Default
+    second: {fileID: 2100000, guid: f251b51170fe94d06a2d4a14eb700cf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_aken_ees_yl
+    second: {fileID: 2100000, guid: 1ef6f0c420f2e4e0d930ae1ae690e540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_bees_krohv
+    second: {fileID: 2100000, guid: 1e5326d4b82ff46e2a0f1ca8f08b5e68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_ees_all_aken
+    second: {fileID: 2100000, guid: e37e17f7df2374d51998cb881434abf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_ees_keskel
+    second: {fileID: 2100000, guid: 61036bfce13cf4d2f8c89d6ccaddb40a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_ees_pa
+    second: {fileID: 2100000, guid: 3d340b016a3fa48e3b7d0d161bfcc4dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_ees_paremal_k
+    second: {fileID: 2100000, guid: f5077ce8adc0b4e7fadd08d9737d0f6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_ees_pl
+    second: {fileID: 2100000, guid: 593a57a6125b7448eab7aa0bdd93465f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_ees_py
+    second: {fileID: 2100000, guid: 8aae24575f2a74d32936edcffa90467f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_ees_vasakul
+    second: {fileID: 2100000, guid: e56ae4b8399344a8da6701563afed554, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_ees_vasakul_all
+    second: {fileID: 2100000, guid: 73979e74436f54be39f7771b124645b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_ees_vk
+    second: {fileID: 2100000, guid: a93a7d95a6764429b9dd55cb154a1eee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_ivy
+    second: {fileID: 2100000, guid: 14c58552253514a63bc82762a2e5a889, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_katus
+    second: {fileID: 2100000, guid: 4ce6bbc205ee948e1837f5e1bf9b8098, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_korstnatellis
+    second: {fileID: 2100000, guid: fcb6836472ae3435c84783815f2a8357, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_lisaots
+    second: {fileID: 2100000, guid: 01e3688d4c88a462b95c7e2836855bb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_lisauks
+    second: {fileID: 2100000, guid: 380a4790e7f304133a29fb49f87bdc5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_p_hiaken
+    second: {fileID: 2100000, guid: 5b3bff58f789b4a5f87ea29af0bb2b88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_peauks
+    second: {fileID: 2100000, guid: 6d9c5ea537ff1401bbfa2d2778537bb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_peaukse_aken
+    second: {fileID: 2100000, guid: a31932da3367f42509755fbc37a88ce2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_peaukse_k_rval
+    second: {fileID: 2100000, guid: c41fb691f027945cebe004f835d45a64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_peaukse_kohal
+    second: {fileID: 2100000, guid: a582b63c792ce4e3c8c03abb7f23b161, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_plaat
+    second: {fileID: 2100000, guid: be4b15929967d434b930289ebe7abe5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_pots
+    second: {fileID: 2100000, guid: 451cc2141525a4393b5b462055f9dcf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_punane_k_sipuu
+    second: {fileID: 2100000, guid: 65e82b2387b424ccf8446c2db1c6017d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_r6dusein
+    second: {fileID: 2100000, guid: 42ef7568af98941e68cb26a7fa33964b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_sinine_plekk
+    second: {fileID: 2100000, guid: 1a5b5c80e32ba4cd4b9e6f8676fc08ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_taga_v_iksed_aknad
+    second: {fileID: 2100000, guid: 085c43f49167e4314a9503ec896e7cec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_taga_yleval_aken
+    second: {fileID: 2100000, guid: d192cf273ea644c248b8b1546b4c132f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_tagauks
+    second: {fileID: 2100000, guid: 4e3d12caf0bfe44878cea88ead79a4d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_teine_peauks
+    second: {fileID: 2100000, guid: 5d29d4945cc24456d8baf48e238db9e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_tots
+    second: {fileID: 2100000, guid: 73284767549a043a3b81ff110a56410a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_trepisein
+    second: {fileID: 2100000, guid: 8ca931773da20459db7301a9bf44902f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_trepp
+    second: {fileID: 2100000, guid: 90264ac5536af4da9820425dc0a7b472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_tuulekast
+    second: {fileID: 2100000, guid: 1a8025c14c2c74098a1cb22e58a3e9a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_tyhisein
+    second: {fileID: 2100000, guid: bb91b0304ae264e60a83373424494452, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_valge_puit
+    second: {fileID: 2100000, guid: 040bc388fdf20462f88881ab86c52478, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_varikatus
+    second: {fileID: 2100000, guid: bfeeabbdf382f4766becc7a3b057c145, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompuiestee_26_vots
+    second: {fileID: 2100000, guid: ec6ab6dfff8784582b86f6cd780a206a, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

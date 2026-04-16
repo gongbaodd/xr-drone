@@ -3,12 +3,67 @@ guid: dd657a95577da47f09c181262bff4171
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_v_sile
+    second: {fileID: 2100000, guid: c2ce8ccb978b445ac8befb3b00ba3b44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paek_1
+    second: {fileID: 2100000, guid: cb3f4afe132994787859e46571677a4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru_27a_bituumenl
+    second: {fileID: 2100000, guid: ebd2c204c902b429bba16cd9c91253d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru_27a_klaas1
+    second: {fileID: 2100000, guid: 109240d548012459c96ee755e2d8c557, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru_27a_kollakas_metall
+    second: {fileID: 2100000, guid: 7c4974f6f055f42f2996f14ac19ce4b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru_27a_plekk
+    second: {fileID: 2100000, guid: a3c180387802844d696105eaa3128f36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru_27a_sein1
+    second: {fileID: 2100000, guid: 74e8d87c754d148329f31dee6873323b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru_27a_tumehall
+    second: {fileID: 2100000, guid: b940812bad28a4619a2d90943a202c3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru_27a_uks1
+    second: {fileID: 2100000, guid: c0795720910a847daa4cdbe13e0e131d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru_27a_uks2
+    second: {fileID: 2100000, guid: 89df7055dba3e4eb7bd3e76f5d1a2df9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru_27a_uks3
+    second: {fileID: 2100000, guid: 9249c21c132b64e6590e69dfea34d3e1, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

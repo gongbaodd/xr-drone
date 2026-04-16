@@ -3,12 +3,27 @@ guid: 57eb8798fa5714bbea7bfd90a413f351
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_2_katus
+    second: {fileID: 2100000, guid: 6e4a8862e718c4725bc063b171ab5fec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_2_paekivi
+    second: {fileID: 2100000, guid: d6f0353caca4c4b5bbf9d005db6db2fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 732c4a55829634a43815273946fd4913, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

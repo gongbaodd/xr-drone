@@ -3,12 +3,132 @@ guid: ce509f55e00b64c499235f6a751f2801
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M1
+    second: {fileID: 2100000, guid: de953c71e60f04af6bceb60ecbb49ad4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne_11aMat
+    second: {fileID: 2100000, guid: 48a076557757b4c2a87acbe9079460f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: noTex
+    second: {fileID: 2100000, guid: 1be382c766dbf466ba1980f0d1f0b8fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne11a_22
+    second: {fileID: 2100000, guid: d30e521b0aac940c2af682638cea3f70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne11a_M
+    second: {fileID: 2100000, guid: 90f1e99f94efa44a4a74d4198058c3c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne11a_brick
+    second: {fileID: 2100000, guid: 9c14b4309fbe14a598987bca44bc660a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne11a_brick1
+    second: {fileID: 2100000, guid: 381671980f2ee4b17b6193675937bc0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne11a_door
+    second: {fileID: 2100000, guid: 0e03a3334c4e34568a106e6730159000, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne11a_gray
+    second: {fileID: 2100000, guid: c50dd00b86504487ba73eba204f5b099, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne11a_hsjs
+    second: {fileID: 2100000, guid: f708c1cb1be9b4f7bb0cbc2ddb607d41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne11a_stone
+    second: {fileID: 2100000, guid: 14c086d59a98644d9a585e70903c2d2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne11a_white_wall
+    second: {fileID: 2100000, guid: a1e7be14f6acd402694905423258f828, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne11a_window
+    second: {fileID: 2100000, guid: 257170e48cda74983b7d7b8e6b68942f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne11a_window2
+    second: {fileID: 2100000, guid: ba337c48d1f7b43c3a171a2202bc71bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne11a_wood1
+    second: {fileID: 2100000, guid: 0c0c4b53aa0674b66a7ed9d29ee1bf27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_11a_aken01
+    second: {fileID: 2100000, guid: 09493ad942b8547d18b5b445eea93810, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_11a_aken02
+    second: {fileID: 2100000, guid: e6ffbe7688dc2442bb19658ab5619de2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_11a_aken03
+    second: {fileID: 2100000, guid: b2cf274e39a4943d98e6b7fd9f8b53ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_11a_punane
+    second: {fileID: 2100000, guid: 2ec62d580dc5d4d9682324ae9b11f8b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_11a_tellis_hele
+    second: {fileID: 2100000, guid: cce4dd41a374748229b5a8b5e591bf36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_11a_tellis_punane
+    second: {fileID: 2100000, guid: 5f4f53cbdc63543148c0c9df3226a792, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_11a_uks01
+    second: {fileID: 2100000, guid: 6b736e68312f442439ed205c9be9280d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_11a_uks02
+    second: {fileID: 2100000, guid: cfb8124125d6b432faa291c7ba916bc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 04f483703c078430fa664ac213d4fc37, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

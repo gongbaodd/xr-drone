@@ -3,12 +3,377 @@ guid: 157741a1385aa4104a614e220eee4f96
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_AKNAVAHE_1
+    second: {fileID: 2100000, guid: 0d715bd66ef414a4babe3474d5ca34e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_FLAG
+    second: {fileID: 2100000, guid: edd32fd71c159431f9392b01381bc451, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_HALL
+    second: {fileID: 2100000, guid: 4071921c8223245e794dab866613c049, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_KARNIIS_1
+    second: {fileID: 2100000, guid: b2d2be9ca6c9b4b3c850f87977ceefa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_KAT_plekk_hall
+    second: {fileID: 2100000, guid: 006e75e12a4044872855703a7a697e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_KAT_plekk_pun
+    second: {fileID: 2100000, guid: a7874eb2674924e0cbe7b14664b6003f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_PIILAR_1
+    second: {fileID: 2100000, guid: bfac2ee7ecf804fe1aaa54a3ef5e847d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_TL_paekivi
+    second: {fileID: 2100000, guid: 6850838ed677e476ea2a7be44d1fc71c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_TMP_korsten_auk
+    second: {fileID: 2100000, guid: 62c3aa954835f4f18855cf0052818431, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_UKS_h_01
+    second: {fileID: 2100000, guid: d4e5ca55fb4164b2eba32df9b5c5df31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_UKS_h_02
+    second: {fileID: 2100000, guid: 4aefffad91ff84e2fa5f750c6f4cdadc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_VAPP
+    second: {fileID: 2100000, guid: 982b8e150f1004b6781ed887ed76d989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_alum_1
+    second: {fileID: 2100000, guid: 598b75575c555484ab5bfee5f346b262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_01
+    second: {fileID: 2100000, guid: 034011af83f8a4209afa7c9a896f2db9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_02
+    second: {fileID: 2100000, guid: 55207963ede8c418eba4c2ef024a4ed4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_03
+    second: {fileID: 2100000, guid: bf3aad35b92704172bdbfb212c1d658a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_04
+    second: {fileID: 2100000, guid: 41f7884b6d5d444678b46064dd423ba5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_05
+    second: {fileID: 2100000, guid: c02ada55fa9394ef1b56b5f36c524640, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f2_01
+    second: {fileID: 2100000, guid: e244bd6cb466843829651ec362a406d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f2_02
+    second: {fileID: 2100000, guid: c979ebabc74b04ee0ad27795d8cda44d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f2_M_01
+    second: {fileID: 2100000, guid: bf41d153e296247ad836f37a2b6b8a80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f2_M_02
+    second: {fileID: 2100000, guid: 2d8afce56473241319af53697b0eb43c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f2_M_lukukivi
+    second: {fileID: 2100000, guid: 7e2578215898c4e33a5c70a5f43310e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f4_01
+    second: {fileID: 2100000, guid: dbc1c216015a849b09b003ef3be84d9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_kaar_1
+    second: {fileID: 2100000, guid: ca1376920ada447c5bfa36c0a93051c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_kaar_1_b
+    second: {fileID: 2100000, guid: 27a383de53f0641428fbe8345c9188e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_sokli_1
+    second: {fileID: 2100000, guid: 66850d9c7888a4f4784c8739b843d2b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_sokli_2
+    second: {fileID: 2100000, guid: 56ef3060629dc4ff2b78f190153ee71e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_ylem_1
+    second: {fileID: 2100000, guid: 10dffa47c4bd54430b331e8759d762ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_ylem_2
+    second: {fileID: 2100000, guid: 42f453d60725c47e78e92640f5327bda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aknaplekk
+    second: {fileID: 2100000, guid: d09427a1773f64a4db01024eb07b7f5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_balkon_GATE_1
+    second: {fileID: 2100000, guid: 40c0c4a868aee4a55aae0d598945c9cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_balkon_front_left
+    second: {fileID: 2100000, guid: 39e731aef24f44d15bb048bff5629792, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_balkon_front_mid
+    second: {fileID: 2100000, guid: 4edbd6e71bf5046e4b3393b79fe78b84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_balkon_front_right
+    second: {fileID: 2100000, guid: 77ae6ff1726b842c3877c0d625c474cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_balkon_latern
+    second: {fileID: 2100000, guid: c636f305114f34fc489a4801eaa03fb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_balkon_side_left
+    second: {fileID: 2100000, guid: 5e16e6b8ce6aa40ebacebd55d4302685, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_balkon_side_right
+    second: {fileID: 2100000, guid: f08c8d62d4cb046fcb6040f59350c2fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_balustr_balkon
+    second: {fileID: 2100000, guid: fecdf0c8b71054504a4fe52f4a79d1df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_balustr_trepp_piilar
+    second: {fileID: 2100000, guid: 99831b85d01f047158ee08d9b22ea5c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_balustr_trepp_piilar_2
+    second: {fileID: 2100000, guid: 2dae0ef5caf1e49df971b6ac718337e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_bet1
+    second: {fileID: 2100000, guid: 2451b072119d74424b150beb625dacb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_betkivi
+    second: {fileID: 2100000, guid: 8d65a853497384a83a210cff54043918, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_door_1
+    second: {fileID: 2100000, guid: 2440099a4bf5b4100b48d472e939f6e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_door_F17_01
+    second: {fileID: 2100000, guid: 5d3614e76bdea4fb09a98aef15c6033a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_door_h_F2_01
+    second: {fileID: 2100000, guid: 1d87838b6d3b740a0a85297696ea14fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_door_h_F3_01
+    second: {fileID: 2100000, guid: 222e46319e2c4434aa1c1305458c2c90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_door_h_F3_02
+    second: {fileID: 2100000, guid: 5149f240139674f578c243153f9ad5d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_door_h_F3_03
+    second: {fileID: 2100000, guid: 77fc483b3a25c4d1c84c07579da673d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_door_h_F4_kaarkaunis
+    second: {fileID: 2100000, guid: 22a62d8dc552c4a629ec90800964bf29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_graniit_pun_tum
+    second: {fileID: 2100000, guid: de86f716d14824255b822e22c64d2991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_karniis_2
+    second: {fileID: 2100000, guid: a13790d4cde2b4748a4d223ae92714f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_korsten
+    second: {fileID: 2100000, guid: e21a8b1df823b47e6b93e4ec8a15d184, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_latern_h_F3_01
+    second: {fileID: 2100000, guid: dc1c417d467434ed89c58e28558f1a9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_lukukivi_1
+    second: {fileID: 2100000, guid: dbd253f1c05294f0e8dc19412bf84f01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_plaatkivi
+    second: {fileID: 2100000, guid: f07370b80ed8043eebfb0310034aaa7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_plaster_grey
+    second: {fileID: 2100000, guid: 20dfe19e56b294d8585c8f9d5b9f7708, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_plaster_light_ylw
+    second: {fileID: 2100000, guid: a1a5ce58d06fb44c8b5d2b667075184e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_plaster_red
+    second: {fileID: 2100000, guid: 53bff0a85b7d84e2b9decb6b930feced, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_plaster_white
+    second: {fileID: 2100000, guid: 62f261643455744c2b2496229f2b46a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_plaster_ylw
+    second: {fileID: 2100000, guid: 5b22ff908112c42d7bc90fda9b84284a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_sein_h_01
+    second: {fileID: 2100000, guid: 7750366b6c0364837b3e9acbe8b654e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_sein_h_triip
+    second: {fileID: 2100000, guid: 5a8c891650b79454891dd36a115a5edf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_sein_h_triip_peen
+    second: {fileID: 2100000, guid: e0fce2a1dfdf947b9a55a84a8c2a713a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_stone_grey
+    second: {fileID: 2100000, guid: d72cc846ada8349618ce6d91ed70b7f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_stripe_hor
+    second: {fileID: 2100000, guid: 6f194e35f02a047d7950b44f2447efaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_stripe_viltu
+    second: {fileID: 2100000, guid: 06bc52878081b410cab0ece0a033b350, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_uks_sokli_1
+    second: {fileID: 2100000, guid: 3327554daf1674852aadbd9cd34adeae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_varikatus_eest
+    second: {fileID: 2100000, guid: a374ae049040144768f0622d4631cbc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_varikatus_kylg
+    second: {fileID: 2100000, guid: 961fc44a25c2542d18edad0adc01a9c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VAPP_png
+    second: {fileID: 2100000, guid: 306c5f13d315241859b1ed95a0727243, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus_kivi
+    second: {fileID: 2100000, guid: 4e797434ae6ec42c281b72d14756fbb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus_kivi_valge
+    second: {fileID: 2100000, guid: 25730f5b853914b0c95a44256ee051b5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

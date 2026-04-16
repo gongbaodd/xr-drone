@@ -3,12 +3,57 @@ guid: 4b9e0a02f803a45129290414cfffeab6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suur_Karja_21_Tex1
+    second: {fileID: 2100000, guid: 3d0b5a47562fd48b690154a1f7a0bf2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suur_Karja_21_Tex2
+    second: {fileID: 2100000, guid: 4897b8344692f465a83b42516aeb6797, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suur_Karja_21_Tex4
+    second: {fileID: 2100000, guid: 278060afcefbf44339cc85ed93700790, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suur_Karja_21_Tex6
+    second: {fileID: 2100000, guid: 511ffbb70b978406e94426a41270e693, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suur_Karja_21_Tex7
+    second: {fileID: 2100000, guid: 7edd1e80960c0424ca83b9ee3b5b56cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suur_Karja_21_Tex8
+    second: {fileID: 2100000, guid: 89d8c5b88ff014ecd81cedf1d71e8399, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plk_kat
+    second: {fileID: 2100000, guid: d6763ee9bac00466493a16f4096ecb5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sk21_u1
+    second: {fileID: 2100000, guid: 9bfe6f5e1493a4e7a9628df06fe177cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 92b3539e75ab44b4e9cfe9d58351d8d8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

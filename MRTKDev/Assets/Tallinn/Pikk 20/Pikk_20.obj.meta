@@ -3,12 +3,182 @@ guid: a35176ccd0a4a427884472b60108a07e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_A3b
+    second: {fileID: 2100000, guid: f8b073111760948ebbd58f56cfda3da1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_A_1
+    second: {fileID: 2100000, guid: 185b5aa82a042422eb514b5ba16aa2a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_A_2
+    second: {fileID: 2100000, guid: 11c232553466f4ab7a4d4ef0687500c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_A_3
+    second: {fileID: 2100000, guid: ba73071ffbf8d4a6596450f6727c1583, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_A_4
+    second: {fileID: 2100000, guid: c82c963dd5c264e2f8673763ff3021a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_D1
+    second: {fileID: 2100000, guid: 24bbadef0f46b41ef8d7da7d9eb8a394, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_D2
+    second: {fileID: 2100000, guid: 452824b2d852e43b19928201f3dc836c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_D3
+    second: {fileID: 2100000, guid: b86812cf8684d47fa80eab3360530257, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_D3b
+    second: {fileID: 2100000, guid: 073e9ccc253bd45189f04f0f19a469c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_D4
+    second: {fileID: 2100000, guid: 9a334a3de2d3d4de78a6c02bcde3190e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_F1
+    second: {fileID: 2100000, guid: 12812dc1b04fd48d0a01c006c08d5e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_F1B
+    second: {fileID: 2100000, guid: 520b7f05ffd444480a35fe2f632e9298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_F2
+    second: {fileID: 2100000, guid: b07d161f14792481a8ae6d58cf058f05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_F2_A1
+    second: {fileID: 2100000, guid: 481d3752a350644838c9015c46ac3a46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_F2_A1b
+    second: {fileID: 2100000, guid: 731f01fc686c74e20890c9826aad4984, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_F2_A2
+    second: {fileID: 2100000, guid: 60564633f0d914d948b1ff0e95f36d9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_F2_A3
+    second: {fileID: 2100000, guid: 3fc2fcd3dfa1147a39f947a3cf32658b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_F2_AR
+    second: {fileID: 2100000, guid: 0631c2b4170e144b4a15ac754749fd91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_F2_D1
+    second: {fileID: 2100000, guid: 7502a64d8db674c7b9d65be00d34da4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_F2_D1b
+    second: {fileID: 2100000, guid: e7be5f4127db94d84bf603e046a89698, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_F2_D2
+    second: {fileID: 2100000, guid: 98af6825ed19a42bfaaf78c5a8f8fd1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_F2_D3
+    second: {fileID: 2100000, guid: dc2d98e9ff0184128bce858cf3324837, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_Kar1
+    second: {fileID: 2100000, guid: 7d6f2c67e0f6443699a0c5a631d7f3f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_KarD1
+    second: {fileID: 2100000, guid: dc4601d2810914fbc88761c64b462337, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_KarD1b
+    second: {fileID: 2100000, guid: 81fe9a40e848643d284b3b6b3ae30ce0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_Sokl
+    second: {fileID: 2100000, guid: b24162ff3218d444db71e46e00bd932a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_Sokl_Myyr_O
+    second: {fileID: 2100000, guid: eb6fa8ffa92c24c868693538c0c7dff7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_Texture_0
+    second: {fileID: 2100000, guid: 1d5a140b0fc1f4f6291b754f89647e7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_Texture_01
+    second: {fileID: 2100000, guid: 859a29fe9b8cd41f18221c747419f98a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_U1
+    second: {fileID: 2100000, guid: c8604f5d06d3041cca04855299fafe9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_U2
+    second: {fileID: 2100000, guid: f9420768d4f5d4a8caa976ffb34ce488, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_White
+    second: {fileID: 2100000, guid: 0085bf1ff0a41469cbdcb3c3750bfffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk20_katus
+    second: {fileID: 2100000, guid: 034bfa412d4674b48a132b3b68a200a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 035eb7267df874114bb2ab217864f4ee, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

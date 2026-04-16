@@ -3,12 +3,32 @@ guid: 964c0c6f1ed7a40d095062a1ee8790bb
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_4_2_betoon
+    second: {fileID: 2100000, guid: 131727ebaaed4498cbabc3f2c6c5e0f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_4_2_hallkivilaotis
+    second: {fileID: 2100000, guid: 49a0a75d25b8b4bcebadb238cac4a0ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_4_2_katus
+    second: {fileID: 2100000, guid: 5083ba33cbea24565ac0dd8e896ddca6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_4_2_uks
+    second: {fileID: 2100000, guid: d9f330083bcee44ca8d2a1d711028150, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

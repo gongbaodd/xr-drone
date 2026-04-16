@@ -3,12 +3,27 @@ guid: 18a0049a9a73f4eb2a9a58b4e3b656af
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VBRIST_rist
+    second: {fileID: 2100000, guid: ae71baba07fd1435cb64ea9746c0f917, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VBRIST_sammas
+    second: {fileID: 2100000, guid: c24f087e4f9b049fa87bbdaff16156a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VabadusesammasMat
+    second: {fileID: 2100000, guid: 491f11c9682e14bc0880d98a98f5b6a5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

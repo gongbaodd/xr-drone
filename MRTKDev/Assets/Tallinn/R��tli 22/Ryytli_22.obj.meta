@@ -3,12 +3,57 @@ guid: 965cd35b922fb42108d0c080332451fa
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_kivi1_jpg
+    second: {fileID: 2100000, guid: fa66168d2da634dc0acb5d40e126393c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__25
+    second: {fileID: 2100000, guid: ea2903fca496743f68c3f8fcd2be7927, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__26
+    second: {fileID: 2100000, guid: d296d7e990e024350ac1e06a3273c716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__27
+    second: {fileID: 2100000, guid: aa2c8f1c597f74dab82c695393e0a56e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__28
+    second: {fileID: 2100000, guid: cc9c3351c93834db09eb0fcb9947087d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__29
+    second: {fileID: 2100000, guid: e7c40ec4ad6904d64b71b16415ee0954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__30
+    second: {fileID: 2100000, guid: 503b625a06cf5432abaf4be4d95cbc84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__31
+    second: {fileID: 2100000, guid: 897a64eae23874daf81555bb7380c291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli22_D_2
+    second: {fileID: 2100000, guid: a583fb4a6a92d44508e6c41d771cfb11, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

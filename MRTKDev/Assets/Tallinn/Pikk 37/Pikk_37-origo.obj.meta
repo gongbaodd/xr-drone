@@ -3,12 +3,257 @@ guid: 831417b2ca6604fe5a0b44cee6e168c1
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_2_3k
+    second: {fileID: 2100000, guid: 259ff998dcf754d4b89d1753d2ce9189, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_Patches_2
+    second: {fileID: 2100000, guid: eedd52e9af1d741aaaa3fed7e90eccdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_Servad
+    second: {fileID: 2100000, guid: efa43b01a489d4ae2a5893847c38758c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_Standard_10
+    second: {fileID: 2100000, guid: bfd74147f689e48d1bf9bf56efb7e18e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_Standard_15
+    second: {fileID: 2100000, guid: 3c21fb0c5431545959b57e2cac1e4997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_Standard_5
+    second: {fileID: 2100000, guid: fae366daa2a79493797b7c9f071b29ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_Standard_9
+    second: {fileID: 2100000, guid: 9ea7336581e6a46f683b83ca1d42ec2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_alus
+    second: {fileID: 2100000, guid: 5bb9c33aafad44396aa6218872dafd6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_arches
+    second: {fileID: 2100000, guid: dd26830ad0eb34c23b2669ef9c2c641b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_blank
+    second: {fileID: 2100000, guid: 149db1bfdd5d14fbc960a3ef867a061e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_chimney
+    second: {fileID: 2100000, guid: 10646befdb3e441e38322e477f4c6a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_dark_grey_plaster
+    second: {fileID: 2100000, guid: 80005c5b284e849c8a75e152b70a2c55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_door_cty
+    second: {fileID: 2100000, guid: 4e8e229bbd408424f908ffe0b6d6c0b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_door_exp
+    second: {fileID: 2100000, guid: c574a3738a17a4ac7bb477442046913a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_exp_window
+    second: {fileID: 2100000, guid: 03e58d63e9b484b5a882dfe760f048c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_falloff
+    second: {fileID: 2100000, guid: b81139c60ca71428bafed96f0179549a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_front_central
+    second: {fileID: 2100000, guid: 46b2c2db0e09f411490b489d56e4825f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_front_down
+    second: {fileID: 2100000, guid: 70b0845d58c1a47d1b04291988d69eab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_front_tower_right
+    second: {fileID: 2100000, guid: e81defe37133945d7a816c8eb9bc762b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_gate
+    second: {fileID: 2100000, guid: c664b2c1d738f4873bd961e717294825, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_krohv01
+    second: {fileID: 2100000, guid: 0f87295890cc34e659f3f41d90ee1592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_left_door
+    second: {fileID: 2100000, guid: 30987a2d770364dbb8ac6904433e36da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_left_tower
+    second: {fileID: 2100000, guid: d5a7a144398af42449be5bb305885877, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_metall01
+    second: {fileID: 2100000, guid: 67e5016b26777438d89476e4a86c626e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_orange_plaster
+    second: {fileID: 2100000, guid: b2bba3dfdb0924c8fa3bd66acb755ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_plekk_hall
+    second: {fileID: 2100000, guid: 4649a69137f944e8a871f14e3580b197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_post_tellis
+    second: {fileID: 2100000, guid: 39a987c27421c49f9a62f60a2901bfd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_puit_pun
+    second: {fileID: 2100000, guid: bcae6f75d0feb4f34a8bb344fde1961f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_roof
+    second: {fileID: 2100000, guid: 456c667ce525043d5a372fbe563977e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_shutter
+    second: {fileID: 2100000, guid: 8304b055b9f864b85b078f4ee0564f3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_stone_roof
+    second: {fileID: 2100000, guid: 433494f67b88f450ab861ee4edf1c76e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_torn_aken
+    second: {fileID: 2100000, guid: d65a0ce795f734c3c9bc95e9c13de9b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_v_dark_grey
+    second: {fileID: 2100000, guid: c8cbd48a5315240038723ffde6a213aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_vintsk_aken
+    second: {fileID: 2100000, guid: 039ec0a8ed48a45648554870879e1153, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_wall_concaves
+    second: {fileID: 2100000, guid: c9b4459f379cf4f8990f6202179c3a45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_white_Plaster
+    second: {fileID: 2100000, guid: ec0d997cd72284613bf897d17eafc8e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_win_1
+    second: {fileID: 2100000, guid: d8c5ee18c140c40c5a9ae934f4b58ca8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_win_2
+    second: {fileID: 2100000, guid: b12e020f87fdf41f59c214c16ff83fa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_win_3
+    second: {fileID: 2100000, guid: a7237e3c8954d478bb44bcc40f65b94a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_win_base
+    second: {fileID: 2100000, guid: fd2dd1deb7ed6426f8ccc4753f627521, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_wind_pointer
+    second: {fileID: 2100000, guid: e570a239ce5c5420b9026a782e0fde01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_window_2nd_floor
+    second: {fileID: 2100000, guid: ead352270ad96412fb9cd6c2afdbcd8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_window_3rd
+    second: {fileID: 2100000, guid: 7fab9d5bd1dcc4816af4e243173b8814, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_window_attic
+    second: {fileID: 2100000, guid: 0977e1b17586f4606888ebef382c667f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_window_attic_rounded
+    second: {fileID: 2100000, guid: a5eb36e88fc284f86afee2c80c4d45e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_37_wood
+    second: {fileID: 2100000, guid: 0759aa685c69548f096d8eca4f70b090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk37_roosa01
+    second: {fileID: 2100000, guid: cc6794643ef4844dba05caca8b17e344, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_37_uks02
+    second: {fileID: 2100000, guid: 6c01a7a6a2f344e2d8f1c57212bd44a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 5e43321c8fb2847eba727760af7e15c4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

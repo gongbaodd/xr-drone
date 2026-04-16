@@ -3,12 +3,72 @@ guid: 23a74b2904509484999487553cb99b89
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taolli_6_aken
+    second: {fileID: 2100000, guid: 4af5561e6c74e4c9d814c5dccacb15f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taolli_6_aken_2
+    second: {fileID: 2100000, guid: 936f3da632ec94a11b72eb55e7167159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taolli_6_aken_3
+    second: {fileID: 2100000, guid: 9ed3bb491420c43f5ae654c7df86cd15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taolli_6_krohv_rooskas
+    second: {fileID: 2100000, guid: e857915cd561c4d799471d17221b538b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taolli_6_sokkel
+    second: {fileID: 2100000, guid: ed080f04fca8f49f8a096503d1091a97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taolli_6_uks
+    second: {fileID: 2100000, guid: d92d868165425495bad63a165f358020, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taolli_6_uks_2
+    second: {fileID: 2100000, guid: 8150b543b68704cad812eca39069b2ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taolli_6_valge_krohv
+    second: {fileID: 2100000, guid: 4be1b2ccde98641dc9fdb4776fa74118, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_6_karniis
+    second: {fileID: 2100000, guid: 44c3c735c75b040fdb23748a331e80f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_6_katus
+    second: {fileID: 2100000, guid: c2eca4464bcd34d1a9bf9b9824b7785b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_6_kollane_krohv
+    second: {fileID: 2100000, guid: 7bf9b9601871c4282b01d0ae5d3a6742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 01fd22bd0771e4ee0a7b2b46cf91c306, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

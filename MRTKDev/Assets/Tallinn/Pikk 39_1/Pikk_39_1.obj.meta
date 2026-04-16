@@ -3,12 +3,117 @@ guid: 6ed0e8c57844845d5bc2d5d76be0e203
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_aken01
+    second: {fileID: 2100000, guid: 7007911acfb914280bca1d9c27b4035a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_gran
+    second: {fileID: 2100000, guid: 595bd227a39624befb2e4ddf31490861, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_initialShadingGroup
+    second: {fileID: 2100000, guid: 6151548b747a5409f91ed9ebc66facbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_karniis02
+    second: {fileID: 2100000, guid: 89472750d5e424a4d986ff9a77cb51bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_kat_aken
+    second: {fileID: 2100000, guid: ee17d2a5545f14a6cb143b616cb7d77e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_katus01
+    second: {fileID: 2100000, guid: b2a0dc494374a4487b2963780a560898, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_katus_hari
+    second: {fileID: 2100000, guid: e135b3989a56f4722a31cf2c53eedec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_keldr
+    second: {fileID: 2100000, guid: 50ff374dd2ddb4246a9d815ab3cbe79e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_krohv
+    second: {fileID: 2100000, guid: 21fc781612a6040dca9abb627cf39b42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_krohv02
+    second: {fileID: 2100000, guid: 3f6e1538cf4b74cf9a9a608550bef460, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_krohv03
+    second: {fileID: 2100000, guid: ed414946a3b8546479c1b2672617f70b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_krstn
+    second: {fileID: 2100000, guid: 83d785b36f4b8482bb1b425e45d1d812, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_krstn02
+    second: {fileID: 2100000, guid: 3fe6d5a2626814eddb678377f1288899, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_lambert11SG
+    second: {fileID: 2100000, guid: 528666ff5d34d4efc9668a9cd0825383, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_lambert2SG
+    second: {fileID: 2100000, guid: 5c14b0d92250844f3965a09a26400613, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_lambert3SG
+    second: {fileID: 2100000, guid: 9bb3d03efc5284383a83a3873bbb9d3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_lambert4SG
+    second: {fileID: 2100000, guid: a23fd02ad88df4c4f8a930f0d4248514, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_lambert5SG
+    second: {fileID: 2100000, guid: 7acf61be459db42eb98c18451901266a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_sokkel
+    second: {fileID: 2100000, guid: ca715c0272f874cdf9daa46eb5c7d15b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_1_uks01
+    second: {fileID: 2100000, guid: bba609197c2dd4304ac540a0198b1d5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 173d5fe672bb74d65bd37bb59a147205, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

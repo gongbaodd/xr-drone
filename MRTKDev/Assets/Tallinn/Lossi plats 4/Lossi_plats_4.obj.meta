@@ -3,12 +3,152 @@ guid: 32e233dda6713406d93192b9956dafc9
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ARKLIAKEN_LP4
+    second: {fileID: 2100000, guid: 928ded7a8e56f4465b6ea47326a4c8db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_03
+    second: {fileID: 2100000, guid: fea3124f40d2b4eeca403d935b3279f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_03_LP4
+    second: {fileID: 2100000, guid: 6f4c510e374c24ff8a99b4c17f47ca1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_04_LP4
+    second: {fileID: 2100000, guid: 8ab030fddfdd243f98984243a2941c0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fassaad_1_LP4
+    second: {fileID: 2100000, guid: 5723b2214e35c42328b652983de5702c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KAPI_AKNAGA_3_LP4
+    second: {fileID: 2100000, guid: 025887e6e39f1424fb6c414be95c3c9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KAPI_AKNAGA_LP4
+    second: {fileID: 2100000, guid: 14eb4c31bb6794235b5838c93b8c80d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KAPI_ALUNE_LP4
+    second: {fileID: 2100000, guid: 25b85ce9c33db4608b5d408c0e96f254, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KAPI_ESINE_LP4
+    second: {fileID: 2100000, guid: cbfa393b31e66409c90a9c1bba9f11d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KATUSEAKEN_123_LP4
+    second: {fileID: 2100000, guid: 5e786e040a8824ed5b458a63fff658e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KATUSEPLEKK_LP4
+    second: {fileID: 2100000, guid: 6c38ba5a4a42a470f8cd35778c706268, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KATUS_1_LP4
+    second: {fileID: 2100000, guid: 942f91f73a3fe406f95ddf68639ef872, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KATUS_7_LP4
+    second: {fileID: 2100000, guid: 4a84d089d40ad4e27b71414d18135301, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTEN_22_LP4
+    second: {fileID: 2100000, guid: 703bd08c0813545b2a0c1481f6e3f1b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP4_Fassaad_2_LP4
+    second: {fileID: 2100000, guid: 91f0d82d7670f4ff59f7585b9bb6de21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP4_katus_kivi_valge
+    second: {fileID: 2100000, guid: 7272bc0a0f66e4b8e967d0f29d65491e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP4_krstn_peal
+    second: {fileID: 2100000, guid: 78788f7ab308a446da6c495a3f853e18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP4_kylg
+    second: {fileID: 2100000, guid: d440e539662504821a2852f4852c902f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: POSTKAST_1_LP4
+    second: {fileID: 2100000, guid: 149b56308bd424218a01cc459ee14f4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RODU_AAR_1_LP4
+    second: {fileID: 2100000, guid: d7e9009067f7d4dd5b81587a6d9bef9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RODU_PIIRE_1_LP4
+    second: {fileID: 2100000, guid: 235c94f15e4db4bd4b8642ea685423c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SISEHOOVIS_LP_4
+    second: {fileID: 2100000, guid: 719f7a033000146b79b205be52a99bb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SISEHOOV_1_LP4
+    second: {fileID: 2100000, guid: 176f50584bf4646e48689792d619d07b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SISEOUE_SEIN_1_LP4
+    second: {fileID: 2100000, guid: 3a90c644534c7438e87891bdc5dd5089, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SISEOUE_SEIN_2_LP4
+    second: {fileID: 2100000, guid: 3f5aa0bc083a142eca7d3a25e7a70f04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VALGMATT_LP4
+    second: {fileID: 2100000, guid: a559fcde58dc04f41b3eceed68231b18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VARAV_1_LP4
+    second: {fileID: 2100000, guid: bb2c29c60291948798e96e391e647358, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 75bea3d488b2847d0a8f0f660c972bb7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,112 @@ guid: 2ad01cf4275784f7eb771cac2e9100ff
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chimney
+    second: {fileID: 2100000, guid: 31d5889ffabf3477a881a3b5ff2b2f59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_02
+    second: {fileID: 2100000, guid: e2bfe9dff3461407d9be05a7b8eec1e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doors
+    second: {fileID: 2100000, guid: 2d85edb52f53141428dd9b0c02fb60ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Big
+    second: {fileID: 2100000, guid: 6652c90b12ce840149407c9e022e4aa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Detail01
+    second: {fileID: 2100000, guid: 112d8509f66a446cfb9630fd07f1d034, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Detail02
+    second: {fileID: 2100000, guid: a43d979b905ab4e85959fca3bdbce3ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Small
+    second: {fileID: 2100000, guid: 54a790265c64644f394aba8aa63f80c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Window
+    second: {fileID: 2100000, guid: 6e939c465668e480294a9d0db9bfc485, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shutters
+    second: {fileID: 2100000, guid: fffa76a5ffcf142e7a1157c08f3f69a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs
+    second: {fileID: 2100000, guid: 5ea1e0aa997fd4aa0aa66310aa3fe467, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steps
+    second: {fileID: 2100000, guid: f96f2813a2ca7430b92f426b81e9a271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tin_Roof
+    second: {fileID: 2100000, guid: 89c4155beac1f4b6a98eb08a21771d4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Upper_Floor
+    second: {fileID: 2100000, guid: 2dc3424c0394047d4bd289600a8e53bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2100000, guid: f07f65b5542bc4918aed9b36de84e277, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 5e1d53b04c2bf43c2a76eb1f549aab68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Type1
+    second: {fileID: 2100000, guid: 75a266dd35385486caad8f1d56394364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Type2
+    second: {fileID: 2100000, guid: 3f571b7ac60414ceb878be72700ed695, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Type3
+    second: {fileID: 2100000, guid: 4c04ce5a1b2514ebcad0c5b808523b59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Trimming
+    second: {fileID: 2100000, guid: 6042ded07bc224df09407cc55405edd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wooden_Panels
+    second: {fileID: 2100000, guid: 523126d4e381c446f8af381373f03251, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

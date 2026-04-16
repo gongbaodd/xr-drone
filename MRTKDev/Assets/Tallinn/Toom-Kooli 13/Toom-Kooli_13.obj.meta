@@ -3,12 +3,97 @@ guid: 650af175f6ab94ae4860db84a84d57b0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_FASS_1_1
+    second: {fileID: 2100000, guid: bc34a7ff907a540aab76c5f543de6b2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_FASS_1_2
+    second: {fileID: 2100000, guid: 1b6b82d6ec75a415b93510029cc78770, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_FASS_1_3
+    second: {fileID: 2100000, guid: f848a887d633b4466a17141fedba8503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_FASS_2_1
+    second: {fileID: 2100000, guid: 71d08711f8e9a4b3f90d79122e8584b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_FASS_2_2
+    second: {fileID: 2100000, guid: d5f3a8c626e8f4194830ba08602c4c3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_FASS_2_3
+    second: {fileID: 2100000, guid: ed2f734596c504bb7a94e1a1de753f73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_FASS_2_4
+    second: {fileID: 2100000, guid: e4f7f3b47aeff462784877392f0f7483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_KATUS_1
+    second: {fileID: 2100000, guid: 62a5d82865d044b6384175221e7dfb27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_KATUS_2
+    second: {fileID: 2100000, guid: 3b021422d31654d18bd6747f8f92bf62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_PLEKKKATUS_hall
+    second: {fileID: 2100000, guid: ab9e6be17ad6e44029fb84fdbf789328, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_PLEKKKATUS_pun
+    second: {fileID: 2100000, guid: 20b925c21430a44eea83d3d70b102b20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_RAUDPITS
+    second: {fileID: 2100000, guid: 16fcfbcc9222e4ab092e584f8fa30c62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_katusaken
+    second: {fileID: 2100000, guid: 7ae966d30632f4a2aa3c43724374ad33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_korsten
+    second: {fileID: 2100000, guid: 0f8288e111d0f47a69c65ffca7aa0a58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_korsten_auk_hall
+    second: {fileID: 2100000, guid: e2ceb761848204bd4a710b2d3b33750c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_korsten_auk_punane
+    second: {fileID: 2100000, guid: 8d67cff20616242f1adbc659ce959838, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_13_pruun
+    second: {fileID: 2100000, guid: b5da7e78881ef4c1b9c8c8941fb6b8ed, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

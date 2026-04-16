@@ -3,12 +3,152 @@ guid: de12eb153d9604236bed5e235267fee0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn10SG
+    second: {fileID: 2100000, guid: 849142ce193ce4e7fa1d04cbb56c97bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn11SG
+    second: {fileID: 2100000, guid: 609cb443854b14c61894e5805f6af195, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn12SG
+    second: {fileID: 2100000, guid: 1cfb1f256551a4ee1a55561437d4da74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn13SG
+    second: {fileID: 2100000, guid: ff85995e827ab4224a5035336d9062d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn14SG
+    second: {fileID: 2100000, guid: 4e0576951deb540d893fe903c8fe687c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn15SG
+    second: {fileID: 2100000, guid: f50e53524c830446e938316ce855feef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn16SG
+    second: {fileID: 2100000, guid: bdbace5370c8d4348aae85604401cd95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn17SG
+    second: {fileID: 2100000, guid: 7a319433f384248c6a8c768a83a609d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn18SG
+    second: {fileID: 2100000, guid: 9cccb7c0433444836ae6d9e52f9433d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn19SG
+    second: {fileID: 2100000, guid: 3fb9938aa55954372a31a3d7cb01cbdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1SG
+    second: {fileID: 2100000, guid: 7dd598f3ed4d44d7a8714607ac2f4ec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn20SG
+    second: {fileID: 2100000, guid: ded2b74a85ef44bdcbdd75db8b2c783e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn21SG
+    second: {fileID: 2100000, guid: c9f1f10e0795b4588bdd972fafa25c89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn22SG
+    second: {fileID: 2100000, guid: 709ced0fabd784d0690536eb67de0b36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn23SG
+    second: {fileID: 2100000, guid: 5c6eb1da373e54ca790bf6922039ca1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn24SG
+    second: {fileID: 2100000, guid: 45c58363eaf9847578426287fded42f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn25SG
+    second: {fileID: 2100000, guid: 60278a245781440189c57efd8774ffc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn26SG
+    second: {fileID: 2100000, guid: c94021b4ee68d4b71a2c914ca5aa7fbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn27SG
+    second: {fileID: 2100000, guid: f29342de0627a41438c5fb24761cd857, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn2SG
+    second: {fileID: 2100000, guid: 42e19cd21dc854156bed6faa8bbb40b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn3SG
+    second: {fileID: 2100000, guid: f32cfe45dd5e4441283c1ba281c4a343, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn4SG
+    second: {fileID: 2100000, guid: ca5ffa29708f94841b095e7223fd262c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn5SG
+    second: {fileID: 2100000, guid: 3a54a33b8f69f4a59b6d09fb63d12fe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn6SG
+    second: {fileID: 2100000, guid: 738273aa17b1b4502bf4eb8100754ff8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn7SG
+    second: {fileID: 2100000, guid: 4850f9d47b40f45dd9de1ce9e80744ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn8SG
+    second: {fileID: 2100000, guid: b22cd4f25df144990ab4b68d61b7165e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn9SG
+    second: {fileID: 2100000, guid: 81c0ec8b982a1463d8b88e496131f247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup
+    second: {fileID: 2100000, guid: de476c92e2b914a3ba83a4521a20ed1b, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

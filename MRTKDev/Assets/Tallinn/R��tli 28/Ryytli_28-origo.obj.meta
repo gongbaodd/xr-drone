@@ -3,12 +3,92 @@ guid: 043fb5f75f6934719ac4051e3497fd72
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_kivi1_jpg
+    second: {fileID: 2100000, guid: 8f465ee40390f4a2f91f54aaa9c5bb93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Grey
+    second: {fileID: 2100000, guid: cd9fd9bb151b0416cb3116c08cce5242, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doors
+    second: {fileID: 2100000, guid: 337750b619f29434abccdf461aa0ad17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gates
+    second: {fileID: 2100000, guid: 1f7e1a335913c4963b198cb2b34dcb6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Half_Round
+    second: {fileID: 2100000, guid: da15b50ae96da487db0fcebe2e29d60c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_LightGrey_Tin
+    second: {fileID: 2100000, guid: 93c378f15ae9a4c059580ceec6dd1a34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Red
+    second: {fileID: 2100000, guid: 66e018a7f08f2499ab0e67ab41a04693, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_RedTin
+    second: {fileID: 2100000, guid: 73d29f3e8d04b450096d90e1a0917a15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steps
+    second: {fileID: 2100000, guid: ade9676366c7f4d819bae113fbf35113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Brick
+    second: {fileID: 2100000, guid: 50577cc8ed49d4fabb2b63613aab45bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Cream
+    second: {fileID: 2100000, guid: 1dc85644b5b7a409cb4b13e67ea6a9b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_White
+    second: {fileID: 2100000, guid: 54e7bf545bcfb4d628b34320f2b806ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Middle
+    second: {fileID: 2100000, guid: 2a98afde8c60143b897d409da601289f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Bottom_Left
+    second: {fileID: 2100000, guid: 00727cbf2236d490389f55bbc43cc0f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Bottom_Right
+    second: {fileID: 2100000, guid: e631f2e96ad8c4d0197553ef673108ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Top_Left
+    second: {fileID: 2100000, guid: 11550b8394dda4bafb96bb5db615d441, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

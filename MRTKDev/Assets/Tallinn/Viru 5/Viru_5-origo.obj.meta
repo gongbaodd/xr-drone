@@ -3,12 +3,97 @@ guid: 2c2c8b96c13bf479eb93b10f2e2e93d1
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V5_94
+    second: {fileID: 2100000, guid: 200386c7b7e50458a89e378268ab64d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V5_95
+    second: {fileID: 2100000, guid: 7f9c6f2cbae33462f999bd27be9bbfb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V5_96
+    second: {fileID: 2100000, guid: 64fb1699ef5f946eb97c182cd69bfa36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V5_97
+    second: {fileID: 2100000, guid: 9885ccc1108c646fbba6c2aca471569d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V5_98
+    second: {fileID: 2100000, guid: 3c4cfcf11dbfa4c7baf67e2639d0c011, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V5_99
+    second: {fileID: 2100000, guid: a832fa182777948619fccef79d4de33d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V5_c1
+    second: {fileID: 2100000, guid: 9e1ac7872372b422dbb1fb5dcf6cdec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V5_c2
+    second: {fileID: 2100000, guid: c0e0e07757d7b419497add12f51ace26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V5_c3
+    second: {fileID: 2100000, guid: d6ca70639ce5e43b6a04ffde1c01e253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V5_c4
+    second: {fileID: 2100000, guid: f12443754b3e748d3a0224dcb0455485, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V5_kat
+    second: {fileID: 2100000, guid: 93e1a50a803ff41a6a44d2bfd0236a8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_5_paek
+    second: {fileID: 2100000, guid: bcd78259b438645a9b7f54a49b19f218, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru5_aken01
+    second: {fileID: 2100000, guid: 74c1136aa69b545659c0c0fad27a25a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru5_aken02
+    second: {fileID: 2100000, guid: 38b0fd188050e4e9798cc7a662ebb721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru5_hall
+    second: {fileID: 2100000, guid: 0a7d4461e31754b6380236e46a4abb0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru5_piire01
+    second: {fileID: 2100000, guid: d5f01d25990224ea59b9a4e4125f71d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru5_tellis_roheline
+    second: {fileID: 2100000, guid: 47c0cab5cff654da6b6f23da36fcbc2b, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

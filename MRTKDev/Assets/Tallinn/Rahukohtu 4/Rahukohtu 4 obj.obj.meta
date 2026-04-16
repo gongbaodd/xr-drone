@@ -3,12 +3,92 @@ guid: 2eeb764685300435d8daa95b452a58f1
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4Mat
+    second: {fileID: 2100000, guid: aaadc0bec48bf4560af87927de7d8cb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex10
+    second: {fileID: 2100000, guid: 95ade4262f2b54054bc97a4be2b2cd59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex11
+    second: {fileID: 2100000, guid: 05634abab79d64e54afb3fa4a9519d33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex12
+    second: {fileID: 2100000, guid: a864bc1f80b0e4cf793f368f2eeb320f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex13
+    second: {fileID: 2100000, guid: e2ece1596a65046d69e1c3bdd1ff995e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex14
+    second: {fileID: 2100000, guid: a8ec5b31df5e9428b826a0a9ca14ad06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex15
+    second: {fileID: 2100000, guid: efdc4e6c1e5f749d896f47c0f08be291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex16
+    second: {fileID: 2100000, guid: d2ad19b1e0931481ab0141a2e3c3c2fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex2
+    second: {fileID: 2100000, guid: 0de455163a4e542208ca25d2ee9b2c29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex3
+    second: {fileID: 2100000, guid: 1e8b6bfdaff4e47798e46324eac39c6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex4
+    second: {fileID: 2100000, guid: 6094c7b1eb18f4ed3a3240d20a292b5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex5
+    second: {fileID: 2100000, guid: ce53a07d935724f4dbd670edd06895a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex6
+    second: {fileID: 2100000, guid: 9ff8a30b821ea484f8c90ade829ffa5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex7
+    second: {fileID: 2100000, guid: c8a89938fb56d4b13ad8cbc1b85a0d18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex8
+    second: {fileID: 2100000, guid: cf9497a44cf434e6e85a2f26ecfd9edc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_4_Tex9
+    second: {fileID: 2100000, guid: 8d4c7d8080b154ee088aff94d4d9be20, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

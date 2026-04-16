@@ -3,12 +3,57 @@ guid: 0791ba79528ff4c01a9a9485c13353be
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aida5_001_aida5_Door.jpg.001
+    second: {fileID: 2100000, guid: 66dbecab0067a45cdbc7d253a5efe54c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aida5_1SG_aida5_plaster.jpg.001
+    second: {fileID: 2100000, guid: a50b816fd59994bef8aa234c7cda6d86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aida5_2SG_aida5_window.jpg.001
+    second: {fileID: 2100000, guid: 8e410acae885a474c8e3e26d2ada25be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aida5_4SG_ka_ker_2_old.jpg.001
+    second: {fileID: 2100000, guid: 631cfb3dc1a244d4dba4eba80f626f4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aida5_5SG_aida5_wood.jpg.001
+    second: {fileID: 2100000, guid: 76f41d70efcfe4a3f829c7762ab9cc88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aida5_7SG_kr_v_sile.jpg.001
+    second: {fileID: 2100000, guid: d6493e5ddbaac4b9b82508fc20099518, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aida5_korstn1_KORSTEN1-auk.jpg.001
+    second: {fileID: 2100000, guid: bca835014d52947768c70bef38864d69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aida5_laudis_aida5_laudis.jpg.001
+    second: {fileID: 2100000, guid: e2f444dc6913543e58b9f2a99b97b7fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aida5_n6SG_aida5_smallWindow.000
+    second: {fileID: 2100000, guid: 04438444ac97c40499703a05c6ef2b3a, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

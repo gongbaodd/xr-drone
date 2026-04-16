@@ -3,12 +3,117 @@ guid: 97379f1c95c994868a5459840b9266ce
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_aken6
+    second: {fileID: 2100000, guid: a2b2319cd01e7421a965fbd48a5318fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_door_1
+    second: {fileID: 2100000, guid: 94dadaa8701164190b4cd0b341731655, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_door_1_1
+    second: {fileID: 2100000, guid: 63d07517fe9604ad7b23ab8a7c0156c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_door_2
+    second: {fileID: 2100000, guid: 8e19c3980b9a3464794704d5618e14a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_gray
+    second: {fileID: 2100000, guid: 277008a025e384cd49692c75f7994e3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_kivi01
+    second: {fileID: 2100000, guid: 935867d5331d34f759a74e0277923244, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_plekk_kollakas
+    second: {fileID: 2100000, guid: f7ab8e2612daf4550af2df83a7dfbd94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_roof
+    second: {fileID: 2100000, guid: c7c740388f0ae4647a420b8aa5317c1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_roof02
+    second: {fileID: 2100000, guid: 5116a797934d2404f85ef88b2cbe8c52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_uksdetail
+    second: {fileID: 2100000, guid: 7fd33f1ebbfe44c20bd44a992194ba62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_walls
+    second: {fileID: 2100000, guid: fe24325097b8243f4a0a899e58843404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_white
+    second: {fileID: 2100000, guid: 43bc04fcbffd3405ca93ea31ee2d0c3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_window_small
+    second: {fileID: 2100000, guid: 39be976d521cc439783a6c8ff6a860f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_windows_1
+    second: {fileID: 2100000, guid: 40de84a9652de4b39b5ba1389c1378e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_windows_2
+    second: {fileID: 2100000, guid: 4ba9ec9c7832f435a89867019e5feaa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_windows_3
+    second: {fileID: 2100000, guid: df042491f35c343cdbd98557f2ac2f55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_windows_3_1
+    second: {fileID: 2100000, guid: 6cd09f2c1c184465c93734bb16cc0b58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_windows_4
+    second: {fileID: 2100000, guid: d2d387d5f0e2c4d48a7a41cb371ae666, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_windows_5
+    second: {fileID: 2100000, guid: 195899938c0d2455bbb20c8087f77193, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_wood
+    second: {fileID: 2100000, guid: 613b80366f7f2483d9a66ed656cbcee3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_wood02
+    second: {fileID: 2100000, guid: 7397090f3de8548faba06d009e64ac6d, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

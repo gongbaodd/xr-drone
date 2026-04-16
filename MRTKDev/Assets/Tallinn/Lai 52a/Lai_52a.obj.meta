@@ -3,12 +3,207 @@ guid: 5af756119e08a4f31a1b1d75434db26d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Balcony
+    second: {fileID: 2100000, guid: 32b0ba1c2af8748bf99e0e02cced0ae6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Balcony_Metal
+    second: {fileID: 2100000, guid: 27506fecb635749428fbcf502828883d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Brick_1
+    second: {fileID: 2100000, guid: 8dd66a804331941f9a38dbcbbff9b22a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Brick_2
+    second: {fileID: 2100000, guid: bc4f815f4e4304b579352a252beac16f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_ChevronDoors_Type1
+    second: {fileID: 2100000, guid: 93f6c2aff6ff64064864fb4d0412eaf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_ChevronDoors_Type2
+    second: {fileID: 2100000, guid: 89eaad6a9ff1340bfa16ec548dbfdee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Dark_Grey
+    second: {fileID: 2100000, guid: 0ffdb521d2c9348da989c603eab89793, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Door_Metal_Double
+    second: {fileID: 2100000, guid: a200c66a31b6d478a9cf494c955cd178, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Door_Metal_Single
+    second: {fileID: 2100000, guid: d7c1b1e4e53874e2aa1eceb1efe56eaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Door_Old_Wooden
+    second: {fileID: 2100000, guid: 50a7ad4d74fcb423f9f0310643c5b03c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Door_Type1
+    second: {fileID: 2100000, guid: 668cbec70b7a54313bb2225060ae7caa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Door_Type2
+    second: {fileID: 2100000, guid: 7e895b161d1b341758d3d3cbbced58a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Facia_Pink
+    second: {fileID: 2100000, guid: 6f0a105549e6341be84bec2a36877bd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Grey_Strip
+    second: {fileID: 2100000, guid: 89a7f76e4677b4fd9904876211e94d06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Metal_Grill
+    second: {fileID: 2100000, guid: 9f1fb1b0f7c6f405faf0a6e7188a20a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Pure_White
+    second: {fileID: 2100000, guid: 074e70ed12f59437fb863401f9b5144d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Roof_New
+    second: {fileID: 2100000, guid: 32a75f9def35f4fab97693af7c0d3090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Roof_Old
+    second: {fileID: 2100000, guid: 43d03f5758e844b43a4f210ff53fe3ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Roof_Red_Tin
+    second: {fileID: 2100000, guid: 9d563a97e842549c394b97c2f88368f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Roof_Small
+    second: {fileID: 2100000, guid: 73541b84d0bc44f97b6116585ef52ebd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Roof_Tin
+    second: {fileID: 2100000, guid: ecc10e59f75ed447cbabda6d8fb1104c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Roof_Window_Type1
+    second: {fileID: 2100000, guid: 837cf5bd2275e43c1a6524591c05f691, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Roof_Window_Type2
+    second: {fileID: 2100000, guid: bd8c10bf17b584205a64ec289c1ded76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Roof_Window_Type3
+    second: {fileID: 2100000, guid: 2a2eb987cc2f04f92a28615b8198c349, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Steps_Brown
+    second: {fileID: 2100000, guid: 9d04336f213c5409184fd375457d9aae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Steps_Grey
+    second: {fileID: 2100000, guid: dd459b684f0e94ad88d1f1883611def3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Wall_Brown
+    second: {fileID: 2100000, guid: 45b431edfcd1b451e97860668601361c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Wall_Concrete
+    second: {fileID: 2100000, guid: 249d7385afc884f56b836bd9b066aa3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Wall_Cream
+    second: {fileID: 2100000, guid: 80f9ff6c104ef436594322d22baea635, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Wall_Pink
+    second: {fileID: 2100000, guid: 3c1ae9c8dedf34dbb8eb76ee220613c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_White_Paint
+    second: {fileID: 2100000, guid: 1a6efc70a84954fe197d1ba4de50e495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Window_Triangular
+    second: {fileID: 2100000, guid: 237bbd4b1367645538a27466604ea9d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Window_Type1
+    second: {fileID: 2100000, guid: 8e2a1cad9f3da46c48c39f361c1c2b4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Window_Type2
+    second: {fileID: 2100000, guid: 46e81dd62ebb84ca5ae5825e925505b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Window_Type3
+    second: {fileID: 2100000, guid: 65b0193237b574e5bb0e52ecea97c504, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Window_Type4
+    second: {fileID: 2100000, guid: 087317e39a07a4f83b2d52af3932014a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Window_Type5
+    second: {fileID: 2100000, guid: 0cbb99ac897024b5e929fe000488bc5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Windows_Square
+    second: {fileID: 2100000, guid: ea433d729334a4458811dd1b7f4ee92b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_52a_Wooden_Gate
+    second: {fileID: 2100000, guid: 62808d59d09014e6c9e675e63db76a0f, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

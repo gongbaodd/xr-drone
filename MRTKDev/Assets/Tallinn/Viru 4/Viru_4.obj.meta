@@ -3,12 +3,172 @@ guid: 242ada55b05fd463bb0695f1e0f81fd2
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_DecorWindowsFirstFloorMat
+    second: {fileID: 2100000, guid: fd3d5d4eacc4f48268c5377fd9e68fe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_aknad02
+    second: {fileID: 2100000, guid: 632b2933c9e4046458d5f646b44a5617, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_balconySecondFloorMat
+    second: {fileID: 2100000, guid: e1280c0943c634e74ab328f9727a149e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_betoon01
+    second: {fileID: 2100000, guid: 87e1d7c2808c846d2b2b8dd8de5d3f39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_decorBalconyFirstFloorMat
+    second: {fileID: 2100000, guid: 04a894a36b84847f5b49528c52d4433e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_decorDoorsGroundFloorMat
+    second: {fileID: 2100000, guid: 7a70dbd853e614353b9e9024f2b9605a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_decorGroundFloorMat
+    second: {fileID: 2100000, guid: 0d0ce2a47bde34836aa0d58fb1cfa776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_doorGroundFloorMat
+    second: {fileID: 2100000, guid: 6279f3a6285284f028cf46310775a7c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_frameWindowsFirstFloorMat
+    second: {fileID: 2100000, guid: 906165f91427b442c89c1bc46ab97103, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_krohv_kollane
+    second: {fileID: 2100000, guid: ab9d57e7557304500bee5bc00bca35c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_krohv_vlg
+    second: {fileID: 2100000, guid: c69501b0134544b8d9f4c1bd3e89e9e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_krohvtumedam
+    second: {fileID: 2100000, guid: d115447f749e74c06acf1ea2c4e8fc3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_krstn_pealt
+    second: {fileID: 2100000, guid: 84cc091e2c7484d30845f2123fa8cd61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_ledgeFirstFloorMat01
+    second: {fileID: 2100000, guid: 1aadd0f9b78b7461dad03bd38179537b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_ledgeGroundFloorMat01
+    second: {fileID: 2100000, guid: 8ff92b0d7e7e7435ca47f28a9292e11f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_ledgeSecondFloorMat01
+    second: {fileID: 2100000, guid: 0f4acc79c60da4bc7b7874000b4f74c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_pillarsBalconyFirstFloorMat01
+    second: {fileID: 2100000, guid: 99cc769b004c842cb8cc597fb6740b51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_plekk_hall
+    second: {fileID: 2100000, guid: 7864ea274456f4a03856b674abe30fa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_roofFacadeMat
+    second: {fileID: 2100000, guid: 06c245b6cbf6b4ffeb8929db44f5c9c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_roofLedgeMat
+    second: {fileID: 2100000, guid: 9f28945a7e1284dfea06fd0c26435939, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_roofSidesDecorMat01
+    second: {fileID: 2100000, guid: 56e29106bd57e47f28b1054fa95aa8ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_roofWindowsMat
+    second: {fileID: 2100000, guid: 0d3a2360630bf4e18befdbc79e5c634b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_smallWindowsBalconyFirstFloorMat
+    second: {fileID: 2100000, guid: 9cb2463f57ec14b3fadd605f0d48aace, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_tellis01
+    second: {fileID: 2100000, guid: c03a708ff520842a79af16d7c987c8df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_wallSideMat
+    second: {fileID: 2100000, guid: 37c74a537155d4ccbbc0eb597dd33515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_wallsMainMat03
+    second: {fileID: 2100000, guid: 19433bb6059e148389ea325beb6fb6dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_windowsCenterBalconyFirstFloorMat
+    second: {fileID: 2100000, guid: e847cc890530e4cd5b955429be3a8815, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_windowsFirstFloorMat
+    second: {fileID: 2100000, guid: ef8b8e348d33a458082b73d6855a18d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_windowsGroundFloorMat
+    second: {fileID: 2100000, guid: 62ff2bedec52a4aef907091e9200cc80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_windowsMetalRoofMat
+    second: {fileID: 2100000, guid: 6e99472866a434dfcb9b30c89b4f4b4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru4_windowsRoofFacadeMat
+    second: {fileID: 2100000, guid: 07c92f63fe97a4476991a69502396a36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: d9874bc7ae8ed4117bfafe0aabcbcbc6, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

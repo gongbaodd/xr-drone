@@ -3,12 +3,47 @@ guid: 6d531a36e7bbf45d39bdc9a9aec587ae
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Det_U
+    second: {fileID: 2100000, guid: 79f328308ddb54ad6a97ea858baffa6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Katus
+    second: {fileID: 2100000, guid: bd9ed7d8a256745d8a220588fa074556, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krohv_hall
+    second: {fileID: 2100000, guid: 587b0e7a48c5642a99b25e49cc36a35b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krohv_kol
+    second: {fileID: 2100000, guid: 67bad7b64054e4365a69621bfe3a3371, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paekivi
+    second: {fileID: 2100000, guid: 1c65907bd1c62414d85553a5857bfb93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paekaar
+    second: {fileID: 2100000, guid: b4b2c0f41432c49c2bc3977c9308d960, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 3af4f7602c83e4823a9276cf33194667, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

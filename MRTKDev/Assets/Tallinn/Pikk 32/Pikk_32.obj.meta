@@ -3,12 +3,67 @@ guid: 36411079e9d964ccb89c50620f9fac10
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__16
+    second: {fileID: 2100000, guid: 8b556b733ce1c46428e3200464842b7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aed
+    second: {fileID: 2100000, guid: 8b9f4651ecc5f4cf1bee6f96c8d1bfc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon
+    second: {fileID: 2100000, guid: 4b4bb7fa3f900499bb0c656b4fb182a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front
+    second: {fileID: 2100000, guid: 2f57cf9f86d694abb956c17cfcca5b46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kat
+    second: {fileID: 2100000, guid: b67bd5a188f824cf89429487c6c66420, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi
+    second: {fileID: 2100000, guid: c3d1508666e094411896f5c232dc0d89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kuld
+    second: {fileID: 2100000, guid: 19ea75734812648feac063db702cd407, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rist
+    second: {fileID: 2100000, guid: 7d187d3355dc94265bdb9f6f30e5a814, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: slate
+    second: {fileID: 2100000, guid: 753b785eb95af41abb1d1ff02db14cdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tume
+    second: {fileID: 2100000, guid: 01c15ffdbf727479c8402206de19c299, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uks
+    second: {fileID: 2100000, guid: 7cfc07eaf13894c53a7960e4a0f26387, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

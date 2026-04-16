@@ -3,12 +3,102 @@ guid: 550891967dfea49d5b2dfe721d57298d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KLP_5_KATUS_kivi_valge
+    second: {fileID: 2100000, guid: e57ad4290b4f641738bfdddfadc44655, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP5_KORSTEN
+    second: {fileID: 2100000, guid: f0d8930b9883b4bb99f0ccffb12a712a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP5_krstn_auk
+    second: {fileID: 2100000, guid: 9ec165c96327e470d83f413f39f3c40a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_FS1
+    second: {fileID: 2100000, guid: d8820e678a2db4743aa6dc194de0b8c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_FS1_vkat_fr
+    second: {fileID: 2100000, guid: 574a5e8b2adad4b039b6d213de1ab337, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_FS1k
+    second: {fileID: 2100000, guid: b5a3ddef0c79f40b5891a371e2553bbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_FS2
+    second: {fileID: 2100000, guid: 1e033ee37b6364d959af6cec10cb39f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_FS3
+    second: {fileID: 2100000, guid: 42afc35a6630a4b908ea5863162d418c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_KAT_kivi
+    second: {fileID: 2100000, guid: bfa161daf49dd4161b923bfbce68d49c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_PLEKKATUS
+    second: {fileID: 2100000, guid: 877bc7719f93d4779bad69fa6e22cb03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_S_03b
+    second: {fileID: 2100000, guid: 5400a6b67282344bead4c62b1ba2ab07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_UUK_1
+    second: {fileID: 2100000, guid: 389bba09fdd104baa997ee6d13515c09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_UUK_2
+    second: {fileID: 2100000, guid: cc9500a95c5e04b038d775b01f9048dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_katusaken
+    second: {fileID: 2100000, guid: 4c3d736b27cb540958d34a0dfb37dd7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_paekivi
+    second: {fileID: 2100000, guid: 985eef08ad8f24001bfdddf6a1cb8080, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_trepp
+    second: {fileID: 2100000, guid: e6ce1eb9bd1c14617be423a8e93a0088, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_5_tulem__r
+    second: {fileID: 2100000, guid: f320b2a119b3741988a4a862194b1f33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 0667af62f8f204a099273cab653325a6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

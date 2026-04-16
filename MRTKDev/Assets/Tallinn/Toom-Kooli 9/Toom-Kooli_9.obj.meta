@@ -3,12 +3,82 @@ guid: 7f402c52a4dc749a798663783491f128
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ARKLIAKEN_TK9
+    second: {fileID: 2100000, guid: 0fe539df055284b479b5bbcbb52151af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_2_TK9
+    second: {fileID: 2100000, guid: 6681c1f76486042ec91ef1c915d22aa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_3_TK9
+    second: {fileID: 2100000, guid: edb34f830dac84da8a10a32f93640237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_5_TK9
+    second: {fileID: 2100000, guid: db4b6f4b9f2a54153a699e8f898a67b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_mingi
+    second: {fileID: 2100000, guid: 6091dcdcfc6674a4384e9edbd1983405, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTEN_VALGE_TK9
+    second: {fileID: 2100000, guid: 8814a1755471b4bc2951c875105e2976, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTNAD_TK9
+    second: {fileID: 2100000, guid: 73d88eb9d1fe449809f4b068f2345b3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kuljesein_TK9
+    second: {fileID: 2100000, guid: 3c8d7d41e30e84a918b4fdb97718d098, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_9_kollakas
+    second: {fileID: 2100000, guid: f300d888649fa4ee390da0a12a4a7a0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus
+    second: {fileID: 2100000, guid: a16181ccd4e9240f3a475fb0facfa342, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korstna_auk
+    second: {fileID: 2100000, guid: aa40e5f090e984e0b8b2967b127f5b9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mingi_fass_TK9
+    second: {fileID: 2100000, guid: 9d6e8f1ba2ec148688377ca938316978, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sile_kivi
+    second: {fileID: 2100000, guid: e73aa2508bd804d7fbe1cc4caa1e8ca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 079bbcddc46104b6898255357ba02e31, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

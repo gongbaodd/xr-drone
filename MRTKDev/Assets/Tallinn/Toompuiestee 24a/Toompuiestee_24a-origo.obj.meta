@@ -3,12 +3,72 @@ guid: 595ec8450f6e34679aa4f3f50d227d61
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tp24a_aed1
+    second: {fileID: 2100000, guid: 7ab8a618d6fd7406297121a46a21fd61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tp24a_aed2
+    second: {fileID: 2100000, guid: 75346b7831ccd46e5b5b1b55b912002a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tp24a_aken1
+    second: {fileID: 2100000, guid: ade39289e57fa4ed2bab2e9ede844db9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tp24a_brick1
+    second: {fileID: 2100000, guid: 5badfaea48100474ab488f614cf5aa77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tp24a_brick2
+    second: {fileID: 2100000, guid: 0f82abda05f1c4d5bbc0e5e3f00fda37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tp24a_door1
+    second: {fileID: 2100000, guid: e82385adcaa9a41afa26a9b5dd0e659b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tp24a_katus1
+    second: {fileID: 2100000, guid: ad6bc94e5069d40db9b5d54862ea841a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tp24a_katus_22r1
+    second: {fileID: 2100000, guid: ca53ce2b848a54e93a2be250e68ef7c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tp24a_kivi1
+    second: {fileID: 2100000, guid: 170dbfb1d3333438c93ea9da11346a80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tp24a_sein1
+    second: {fileID: 2100000, guid: 8e71a0bf995df4d5b9aaf09a44ce5bd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tp24a_uks1
+    second: {fileID: 2100000, guid: b854e0824c0864f9c9ffcc1d4f3465d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tp24a_uks2
+    second: {fileID: 2100000, guid: 6825af1bf674d4b7994d95710053725a, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

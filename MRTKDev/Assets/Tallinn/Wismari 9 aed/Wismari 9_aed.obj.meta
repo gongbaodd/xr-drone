@@ -3,12 +3,37 @@ guid: 429c16094b77d42f1a54b37aa0f215f6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_aed
+    second: {fileID: 2100000, guid: c975d5b880d9d4519bbf28a178de5c68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_krohv
+    second: {fileID: 2100000, guid: f50c8405ac298425bac32f5eff80ca54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_paas
+    second: {fileID: 2100000, guid: 298bae8d0fe184fda9a4fa521f421917, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_varavv
+    second: {fileID: 2100000, guid: 8e0ca11d2beca4e3bbf9a9d5ea9da025, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_9_aedMat
+    second: {fileID: 2100000, guid: 362e7da3d06af4e47add8ab40f668075, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

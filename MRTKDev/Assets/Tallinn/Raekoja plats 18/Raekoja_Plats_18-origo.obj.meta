@@ -3,12 +3,47 @@ guid: 50feb04efd00148d0bdfd1300e805e73
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rp_18_katus
+    second: {fileID: 2100000, guid: fa9ed1977f5a043af86beffbb0fa5fe7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rp_18_kivi
+    second: {fileID: 2100000, guid: 6279bd8077e904bdc9604e4bfa9d8211, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rp_18_krohv_valge
+    second: {fileID: 2100000, guid: 7db9eb5ce8d3142f5a77a03ce5010be1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rp_18_krstn
+    second: {fileID: 2100000, guid: bf6fbf287a2b0488ea9ae3e907e95a3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rp_18_krstn_pealt
+    second: {fileID: 2100000, guid: 7ad9acb53fd2a4817b8c767239a5368c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rp_18_plekk
+    second: {fileID: 2100000, guid: 7e06d79e0e10846ca93e0bf5f340016f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 2ccf9ce3cf8a04c838e2b91359958b41, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

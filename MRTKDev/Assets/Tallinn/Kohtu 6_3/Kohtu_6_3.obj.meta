@@ -3,12 +3,92 @@ guid: 90b6fc0ee16c94c568ee70137af41a7d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6a_door3
+    second: {fileID: 2100000, guid: e1ab4e520c3e44f79a59b1bd38eca24c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6a_hallplekk
+    second: {fileID: 2100000, guid: 88770f150931c4375b1c9b1e66bd7d59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6a_misc3
+    second: {fileID: 2100000, guid: 06bf1fb776cba4982a82832380922384, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6a_window1
+    second: {fileID: 2100000, guid: 58fa572c04336474392479bd488538e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6a_window2
+    second: {fileID: 2100000, guid: ed7c8107268084c628f2c3e2f3ec3d6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6a_window4
+    second: {fileID: 2100000, guid: 8d628349ab9e74f3baad1c64a0c4cda0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6a_window5
+    second: {fileID: 2100000, guid: d51838f286698432d999d34ae3a3f785, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6a_window6
+    second: {fileID: 2100000, guid: 0a0e6aefdfaff440f93034d23f3eaea1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6a_window7
+    second: {fileID: 2100000, guid: c759241dad2ac47208c28306fa3d8dfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu6a_aed
+    second: {fileID: 2100000, guid: 0b25cf9ca7d454aa3abf1560f708dd0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu6a_door_4
+    second: {fileID: 2100000, guid: cbaf0ede938354f19b28492b4d8b657a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu6a_katus_hall
+    second: {fileID: 2100000, guid: 963a537b1bf5a46cc8c1cc490ecbcc5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu6a_tellis_hall
+    second: {fileID: 2100000, guid: 2c43768c58b5740d79ebba42e81cae4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu6a_wall1
+    second: {fileID: 2100000, guid: 338f19ca537384d1480f71b3b4781684, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korsten_K6
+    second: {fileID: 2100000, guid: 9ae99d6cc5e834636bf32a06c41f4a91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 2e9021c8aac274cecb24765cfd3ca48f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

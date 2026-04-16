@@ -3,12 +3,102 @@ guid: 6a52c4115e6a344f587a472b8053d5c8
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_10SG
+    second: {fileID: 2100000, guid: 2301242f12cea417f82947c860422465, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_11SG
+    second: {fileID: 2100000, guid: cb147d4edab9f4d699baaf029e0a1bda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_12SG
+    second: {fileID: 2100000, guid: af06ca8ed563e46bbb658a3d18aa8c67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_13SG
+    second: {fileID: 2100000, guid: 7e0dda085781d452a954738bd69278d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_14SG
+    second: {fileID: 2100000, guid: a2a2522fb3c704fcd82ef66e49356f52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_15SG
+    second: {fileID: 2100000, guid: 4eeb1e16b686342709263054d49bd8c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_16SG
+    second: {fileID: 2100000, guid: 7417ae079baf148debf2de2aca4d2d57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_17SG
+    second: {fileID: 2100000, guid: 1fddf60122ab34e5791ad310cca9e016, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_18SG
+    second: {fileID: 2100000, guid: 55e5a3f972fcd448f8832e3f572a0a1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_19SG
+    second: {fileID: 2100000, guid: 261fea28b052749dea0c7e1d3fe06055, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_2SG
+    second: {fileID: 2100000, guid: f4b017e84d3c84f30960104842e75496, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_3SG
+    second: {fileID: 2100000, guid: 29f126cd117a6426c90fbe60ae8aa41f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_4SG
+    second: {fileID: 2100000, guid: c9f647769cd56443eb7d8bc21b0494f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_5SG
+    second: {fileID: 2100000, guid: 0dd1f51b62f6b4f368673c3fe2dc21a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_6SG
+    second: {fileID: 2100000, guid: 46ca9cb5bc68242b7baac2bac571fa5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_7SG
+    second: {fileID: 2100000, guid: 96df60592f04b4b7888b121569ba70d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_8SG
+    second: {fileID: 2100000, guid: e94e397ad9182463793830b0128cd308, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk38_9SG
+    second: {fileID: 2100000, guid: 10b21660ad2c343d6a64586b202a10d6, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

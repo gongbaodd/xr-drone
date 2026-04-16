@@ -3,12 +3,197 @@ guid: 57575f69f076e4c1994c45d1a15bfb71
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_144
+    second: {fileID: 2100000, guid: 33b87b4ae99bb47c7b50798d1d8e7878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_door_01
+    second: {fileID: 2100000, guid: dd9354e5bd0424f40bb0128b83acb589, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_door_03
+    second: {fileID: 2100000, guid: fb6a142acfa234fa3adcf28a3902f33b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_fence01
+    second: {fileID: 2100000, guid: f978870b3c4884ff6ae813da3b5b5a30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_fence03
+    second: {fileID: 2100000, guid: f46f303f3bcd74e2995802be118ed716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_gate
+    second: {fileID: 2100000, guid: 01bd09c306df54223ac5d93ffab0b449, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_gate3
+    second: {fileID: 2100000, guid: 9a3541f3e514c4bda8acfeef02ccb0fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_gate_01
+    second: {fileID: 2100000, guid: 77c9c7a188de947f5a4a7b5c103c3b8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_koll
+    second: {fileID: 2100000, guid: f712f39acaa944e8fb9047235123e651, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_mansarda_part
+    second: {fileID: 2100000, guid: 3e9f76b3f8d004ac292f0035e670cd41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_mansarda_part03
+    second: {fileID: 2100000, guid: cee80f9fa3239439c90204f683cceb48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_mansarda_part04
+    second: {fileID: 2100000, guid: 486f92441977145389e1b01361d8b874, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_mansarda_part05
+    second: {fileID: 2100000, guid: 9917bec1b959749cdb0ead2b0c2f545e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_mansarda_part2
+    second: {fileID: 2100000, guid: 7c96a378ebdde4ed9925d90305992844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_mansarda_window
+    second: {fileID: 2100000, guid: 6d6ca4c1f19a84b69810a62f1cca2cba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_pipes
+    second: {fileID: 2100000, guid: 4258547a1386141fcb6953d58e7c5107, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_roof1
+    second: {fileID: 2100000, guid: 22b11b91c42bf4dbf8136a887703054c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_roof2
+    second: {fileID: 2100000, guid: 79a55354823b44bd29a1dfb1902369f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_roof_profile01
+    second: {fileID: 2100000, guid: fe295edadebb64f05a7e404e392987dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_roof_profile02
+    second: {fileID: 2100000, guid: b83f818f627d648a99b873b4b75514f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_roof_profile03
+    second: {fileID: 2100000, guid: 112338bf62d374e10bbb312761783338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_valge
+    second: {fileID: 2100000, guid: cd77c6b52e79d4db5afcafabeaa24a39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_valgekivi
+    second: {fileID: 2100000, guid: f43f1987ba5164545ba525b450c50df4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_wall_border
+    second: {fileID: 2100000, guid: 02dab813e4806425cbc52333b4582ab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_wall_orange
+    second: {fileID: 2100000, guid: 8532826e1b8d44fa7b29221e7ca2d351, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_wall_profile
+    second: {fileID: 2100000, guid: 725f27495f7f445d682b68db35e8b1a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_wall_profile_02
+    second: {fileID: 2100000, guid: 38486e083c2514b9b9a1f1cc4f0726fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_wall_profile_03
+    second: {fileID: 2100000, guid: db5693138cd6e414bb2e73bb7cd0ef73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_widow_small_a
+    second: {fileID: 2100000, guid: bbd72cca77e5e450a94ebd81fb2b513e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_widow_small_b
+    second: {fileID: 2100000, guid: 8186e2453d4f04e299c44c3cf9f88b94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_window_01
+    second: {fileID: 2100000, guid: 9e74051e7925448ea9de633d804abc63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_window_03
+    second: {fileID: 2100000, guid: 79916d491535c4d1f99f00b7f632a4b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_window_04
+    second: {fileID: 2100000, guid: 2fdb924beefb34b0fbe98913fd193266, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_window_roof
+    second: {fileID: 2100000, guid: cabcb4b46b6844f469f2f236ec7b8b93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_window_roof2
+    second: {fileID: 2100000, guid: f8b6eb0a67252416a819dcbc9ced1718, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_2_yellow
+    second: {fileID: 2100000, guid: 1a0ee08eaf1e94e36b1d7607f8d356c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: d490707a75d35446283f6551344ec125, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

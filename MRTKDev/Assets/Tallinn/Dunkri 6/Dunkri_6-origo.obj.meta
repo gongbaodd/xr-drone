@@ -3,12 +3,137 @@ guid: 769ccd84a9d7044daa3f2ab58b188a0d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_12
+    second: {fileID: 2100000, guid: 24d15febb2bb545f99e5a658b3051b62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_5
+    second: {fileID: 2100000, guid: 5dccb1ac32d0c4f0695a8758dddf23a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_chimney
+    second: {fileID: 2100000, guid: cb10926c0ba2f4c63a0c720df0f5fa0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_door01
+    second: {fileID: 2100000, guid: 61d831bf92ac345edbacb916a3aa5abb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_heleplek
+    second: {fileID: 2100000, guid: 0405ca91728fe4eef8180fccd95277aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_roof
+    second: {fileID: 2100000, guid: 48f3ff49569bc468da739508705dc139, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_roof_door
+    second: {fileID: 2100000, guid: d3f87b28eb77945d39458b07fb81d21b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_stairs
+    second: {fileID: 2100000, guid: 3649f1b8b91904c91b5b381557c1f84a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_track
+    second: {fileID: 2100000, guid: fb6c4f34af75a4e8484142cbcd40c661, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_tumeplek
+    second: {fileID: 2100000, guid: 07d99e498b533441e868fedd31f8ed17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_valgekivi
+    second: {fileID: 2100000, guid: da0388187e79f4c878a1ad764a39482f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_wall02
+    second: {fileID: 2100000, guid: c2e0e816fa06741f6936356a2dfc21c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_wall03
+    second: {fileID: 2100000, guid: b881f253b95b04227839673011f32f83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_wall05
+    second: {fileID: 2100000, guid: b15cf01cbb1e84ac89164a23806f0100, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_wall06
+    second: {fileID: 2100000, guid: de7162354922e43d681181ee100eeba1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_win01
+    second: {fileID: 2100000, guid: 8fcce6e8d6b7148dcbafe745e0ad3357, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_win02
+    second: {fileID: 2100000, guid: 84eefd01f54e74687a9df19d815d5cb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_win03
+    second: {fileID: 2100000, guid: 1e67f4945e55048c18dfc33b33a9e1a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_win04
+    second: {fileID: 2100000, guid: 5fb845d78db3b44e691a0ac2a772e2eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_win05
+    second: {fileID: 2100000, guid: dce47dcb6bab84e9fa52ea71f232f84c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_win06
+    second: {fileID: 2100000, guid: be5368ee06f1248e0a0e95617558564f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_win07
+    second: {fileID: 2100000, guid: fa30e5aacda084fd19759f615a888064, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_win08
+    second: {fileID: 2100000, guid: 3b30f5f026aab4f8ebde31eb9b86dc47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri6_win09
+    second: {fileID: 2100000, guid: 65db765b941884013b510cef44af1a67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 472e8fa3f87b94f6eb043d3714cd5f76, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

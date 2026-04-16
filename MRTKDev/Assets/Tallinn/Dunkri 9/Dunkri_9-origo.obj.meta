@@ -3,12 +3,72 @@ guid: cc875f816acf0412a9568b4171c1a14e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri_9_01
+    second: {fileID: 2100000, guid: 68d6914e05f6c4d838bb2f0cf2ee711e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri_9_02
+    second: {fileID: 2100000, guid: 16fb9e391b63f4370982f08a85738ee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri_9_14
+    second: {fileID: 2100000, guid: 341c0fb44e30f491bb1d4670b3bee54a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri_9_15
+    second: {fileID: 2100000, guid: 35f41ca7243de419399cee11de963269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri_9_blackDark
+    second: {fileID: 2100000, guid: 1ea5ff0e943af420b8f2eebb2a7de610, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri_9_kivi
+    second: {fileID: 2100000, guid: 8e3ea4d1637364294abddfc3fc902f6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri_9_pl
+    second: {fileID: 2100000, guid: 570bb6292cc414878ba3e4383f5279f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri_9_u1
+    second: {fileID: 2100000, guid: 14f1259d746ce4ee1bd511a189e6fd95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri_9_wallConcrete
+    second: {fileID: 2100000, guid: 58c3eb674f01e4896875896271a80fca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri_9_wallDark
+    second: {fileID: 2100000, guid: 81ec4f7ea136741e18ab0fa4103b136b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri_9_wallLight
+    second: {fileID: 2100000, guid: 4d252ac51d82142c7a5dc676c7189c18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri_9_wallbaseMat
+    second: {fileID: 2100000, guid: 41e34b324bc1a4c4f951f68753372264, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

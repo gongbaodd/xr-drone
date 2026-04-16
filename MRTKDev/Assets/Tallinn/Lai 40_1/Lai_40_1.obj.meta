@@ -3,12 +3,97 @@ guid: fcd9c60fbfe7e4521b27bfabc11a83ad
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_001
+    second: {fileID: 2100000, guid: 3900c1958a6b04a6390868ddd2c2a00d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_building_white
+    second: {fileID: 2100000, guid: 237b55b0401414227a651ab8d8db8346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_building_yellov
+    second: {fileID: 2100000, guid: 3d04b116f20dc4682869341b299c119f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_doors
+    second: {fileID: 2100000, guid: e2e962ea67334435f931317998639e96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_doors_003
+    second: {fileID: 2100000, guid: a6cdb63083b97421fb36f131776b56b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_doors_02
+    second: {fileID: 2100000, guid: b49a0192c139f4df783c15ae026e56c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_roof_map
+    second: {fileID: 2100000, guid: afbb9b855a9034d0ca8f0fcf5aabac01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_stoun_up
+    second: {fileID: 2100000, guid: 5eb8562c097584cc0905390ab84d6eae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_windows_001
+    second: {fileID: 2100000, guid: 06804dd573b1d488ba6b39f14ed1ffff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_windows_all
+    second: {fileID: 2100000, guid: ca21c732ca4934fef92863e46201d4de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_windows_all_01
+    second: {fileID: 2100000, guid: dfe594e9700524f0f867fc64fbe95292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_windows_glass
+    second: {fileID: 2100000, guid: 89046a6e2628b4b8ebf1de7ca415836e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_40_1_windows_stone
+    second: {fileID: 2100000, guid: 700f9e0bef01f42ebbc6a80b56d206dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai_40_1_plkk_pruun
+    second: {fileID: 2100000, guid: 4a6bcf92e53314860a203acd3f75bd8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai_40_1_puit01
+    second: {fileID: 2100000, guid: d45d70c10bab9446b94924907d491c5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai_40_1_puuserv
+    second: {fileID: 2100000, guid: 6add74eced5c94a61ab19eb7ca7cfdca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai_40_1_vntskaken
+    second: {fileID: 2100000, guid: 3f7031ba02ac6476f905dc628705861c, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

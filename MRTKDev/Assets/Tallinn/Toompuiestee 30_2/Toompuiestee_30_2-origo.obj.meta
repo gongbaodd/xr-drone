@@ -3,12 +3,47 @@ guid: 9e96d4b034963448490170aea4c23985
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_30_k_AKEN
+    second: {fileID: 2100000, guid: f2a909137773b44858f05b294277e1a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_30_k_UKS
+    second: {fileID: 2100000, guid: 2f7c9c940a21b431d8b1742c773155f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_30_k_karniis
+    second: {fileID: 2100000, guid: 14bc06c6aaa0447b9bc9abbcdedf8ec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_30_k_katus
+    second: {fileID: 2100000, guid: fcc953e6099324838b5fff9dabf00c8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_30_k_paekivisein
+    second: {fileID: 2100000, guid: ebd4db860b9ab4552a545894dcba4935, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_30_k_sillus
+    second: {fileID: 2100000, guid: fd50e2710323b4342afbfe5a4f864413, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_30_k_viilualune
+    second: {fileID: 2100000, guid: 4b3588403f401498eb9f62690bb57999, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

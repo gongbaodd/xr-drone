@@ -3,12 +3,152 @@ guid: f41b12bbde3064575a87b3c9ef8e8198
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Balcony01
+    second: {fileID: 2100000, guid: f50622e19296e47f8944e59dde8d557d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_BeigeWall
+    second: {fileID: 2100000, guid: e945bdaf6d29549c7b48912230ed0cd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_DarkGreen01
+    second: {fileID: 2100000, guid: 4bfa7fe56a9354f9b8702315255f367c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Door01
+    second: {fileID: 2100000, guid: 0af1c1a0a324d4743a0748ab4cf09716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Door02
+    second: {fileID: 2100000, guid: aea2728c1496c4f4f9b9838ab58766e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Door03
+    second: {fileID: 2100000, guid: e2b1361544dbf4abb88f38d6f29fd8ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Door04
+    second: {fileID: 2100000, guid: 51617766faf534ea588c526d8e3c30f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Door05
+    second: {fileID: 2100000, guid: 90ff06e4308b744b3a23140217d93e49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Dormer01
+    second: {fileID: 2100000, guid: a030c3eb0a28c4865b94c53d2717dc0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_GrayPlaster
+    second: {fileID: 2100000, guid: 4ec0227f1ef434eec84be5e97a13e6e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_LightGreen01
+    second: {fileID: 2100000, guid: 8b22e854b08d14fe48f5980521313420, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_PinkWall
+    second: {fileID: 2100000, guid: 8ab1634ce601f448ab6edc213d240735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Roof01
+    second: {fileID: 2100000, guid: d942bbb6d05ac4f47966162ac5831c85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Roof02
+    second: {fileID: 2100000, guid: bcbc317f617ee44f7bcb1c3bd0f743fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_RoofDecal01
+    second: {fileID: 2100000, guid: e8f90cc1b5a384989b050df2d29f3e46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_WallDecal01
+    second: {fileID: 2100000, guid: f32697ac5c322440882cec1636102306, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_WallDecal02
+    second: {fileID: 2100000, guid: 9989d35c937fa45cb8204882ad4724b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_WallDecal03
+    second: {fileID: 2100000, guid: 31da0e5b7d00241c7b62728249a6225b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_WhiteWall01
+    second: {fileID: 2100000, guid: 9ef9f6e443f7b4f448118b16b56411d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Window01
+    second: {fileID: 2100000, guid: 3fa2b9c8f179f49588b7556361e573f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Window01_Decal
+    second: {fileID: 2100000, guid: bf828deb856d14235ab25de2e550a92a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Window02
+    second: {fileID: 2100000, guid: 70903a016ef714dff97c69951978f955, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Window03
+    second: {fileID: 2100000, guid: a46581480ea7747be9dcf471562ba16c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Window04
+    second: {fileID: 2100000, guid: cff12baaf3d174f3b8437ddd2c8216ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Window05
+    second: {fileID: 2100000, guid: c0b49574293d145a1bde166042f605db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_Window06
+    second: {fileID: 2100000, guid: 8477a8efbf8594443b57668ec5e3a2f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste4_YellowWall01
+    second: {fileID: 2100000, guid: 82638172f011c48d4aea726630c2b374, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: c3cec39c0250d447f8b2b4982332a74d, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

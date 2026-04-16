@@ -3,12 +3,97 @@ guid: fedae599611c646df995335b1b1e7427
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11_tex1
+    second: {fileID: 2100000, guid: 37d19250fa40746a298ab6a5dc534052, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11_tex_4
+    second: {fileID: 2100000, guid: 483dd3e76508a4a88b34d0f19e8cad4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_1
+    second: {fileID: 2100000, guid: 45c4117f8152a4f09aaf205fc1c3410f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_10
+    second: {fileID: 2100000, guid: d39f6a33d229645e1aec12dd9ba69c67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_11
+    second: {fileID: 2100000, guid: 6df893fc607854b1e8a9277402769dbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_12
+    second: {fileID: 2100000, guid: fc2bf744eed554b5c99fe3ff178dec1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_13
+    second: {fileID: 2100000, guid: 3236eed5529834675886a083ad7317a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_14
+    second: {fileID: 2100000, guid: 286fe4c0a63e941899a3d4bba4132547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_15
+    second: {fileID: 2100000, guid: 8463e0eebab1249b591e1832eb67683c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_16
+    second: {fileID: 2100000, guid: c05130b4c8089442083229c30dcd3fa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_17
+    second: {fileID: 2100000, guid: f9335e4cab3424b5781742d787c7b3a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_2
+    second: {fileID: 2100000, guid: 5dc25dc6e630448b09e361099f985142, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_3
+    second: {fileID: 2100000, guid: db2bf1b48bdcb412e9b6ac03ef32a593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_6
+    second: {fileID: 2100000, guid: 1a2f6265e7944466788d34279e7a2b5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_7
+    second: {fileID: 2100000, guid: 3be9602e1addd45c08c49dd2770022cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_8
+    second: {fileID: 2100000, guid: d54eadee3619d4dd6bc8b94283f2a15b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_11tex_9
+    second: {fileID: 2100000, guid: 1488099e313f3456eaa31ef9f0fd87b9, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

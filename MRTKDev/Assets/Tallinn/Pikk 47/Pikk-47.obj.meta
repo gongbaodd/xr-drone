@@ -3,12 +3,132 @@ guid: 33798f8a0163c44e9b0cab4d782c1928
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47Default
+    second: {fileID: 2100000, guid: b056164207ddc4d8bb9f5cd829e6cca5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47_ka
+    second: {fileID: 2100000, guid: 99a690de5a15f4279832d819d2f0938c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47_kat_v
+    second: {fileID: 2100000, guid: d176d7d807b2e4c4a959d8e8600e7c32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47aken
+    second: {fileID: 2100000, guid: dae3917ba72ba4f43a89fff61894dd2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47akenup
+    second: {fileID: 2100000, guid: 72ea78965158747fd81a6c2bbcc374b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47akenup2
+    second: {fileID: 2100000, guid: c7af4fb01e5554081ad9a38a2323afb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47akenup3
+    second: {fileID: 2100000, guid: 492fd48a5045b45d097733e9f2a9ead9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47barkery
+    second: {fileID: 2100000, guid: 1de2e5dfaa0de4cbcb91e2e313f6bb70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47border
+    second: {fileID: 2100000, guid: 7693d4962f84248d595cf4854aa2a5ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47border2
+    second: {fileID: 2100000, guid: 9aa917acaa9c94ee8864e4828d0e26dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47border3
+    second: {fileID: 2100000, guid: 2f35e6895fb534344922f4f0bfe14ef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47door1
+    second: {fileID: 2100000, guid: 327164265f90a43b3a4bd9d7c8f16f19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47doorup
+    second: {fileID: 2100000, guid: 03fed738e03a74c289afe8d727ea0a30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47roof
+    second: {fileID: 2100000, guid: bfbb98a3e0ab24d29b7a45c0dd8eae07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47roof2
+    second: {fileID: 2100000, guid: 525891de78e07436d9c94485f072929e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47sein1
+    second: {fileID: 2100000, guid: 07e4acc14557c47a9883f87512f53947, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47sein2
+    second: {fileID: 2100000, guid: 3ee8299146f134bc3b5c8a86783e52eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47side
+    second: {fileID: 2100000, guid: baf5a7e184f1c4b5b9e5ea8150d01e20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47sign
+    second: {fileID: 2100000, guid: c9759b2c4896b4e9091ed4c6b672db57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47signcolor
+    second: {fileID: 2100000, guid: 91ae862d373e541ea91d6ceacf7afd78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P47stone
+    second: {fileID: 2100000, guid: 49dca730e2d7d4bb38d8a7f8d5cb7d63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P_47_ka2
+    second: {fileID: 2100000, guid: 0d6f65cad33a5402a96044ed00be81e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P_47_korstn
+    second: {fileID: 2100000, guid: 742189e8d45a84f3c98118901f3e7a56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 4097fe655033b4687849c979975d976b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

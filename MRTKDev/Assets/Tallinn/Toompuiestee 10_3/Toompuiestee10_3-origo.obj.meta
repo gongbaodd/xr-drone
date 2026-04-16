@@ -3,12 +3,42 @@ guid: d7b4501082657427c818045326d6e6e0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tp12_b_GreyPlaster
+    second: {fileID: 2100000, guid: c465612cbee114318a5db7725dc9f52e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tp12_b_SideDoor
+    second: {fileID: 2100000, guid: f5e71dc5985da4f21a50dca0a0befdd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tp12_b_SmallHouseBigDoor
+    second: {fileID: 2100000, guid: 8b1691105dc0a4482be5365e20e8998a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tp12_b_blueTinBlinn
+    second: {fileID: 2100000, guid: 6bd2a2eb1f2a04f8394746c3102f61dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tp12_b_smallHouseWindows
+    second: {fileID: 2100000, guid: 6fc3b06411eb44210b9ae129b1e40834, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tp12_b_yellowPlaster
+    second: {fileID: 2100000, guid: 826be0dd850894ab885b755c69b670cc, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

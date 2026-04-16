@@ -3,12 +3,62 @@ guid: 8d4350de587544ea8b7c81445ac38d66
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default
+    second: {fileID: 2100000, guid: a237763a68812416e98a8479ca6833eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door01
+    second: {fileID: 2100000, guid: fe0ac2261952a4a31a0b97f32f1d98e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: passage
+    second: {fileID: 2100000, guid: 6b97625d293d347259d9cf26df01302c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stairs
+    second: {fileID: 2100000, guid: 9b1c75020ef5642db839beaa70db7937, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: track
+    second: {fileID: 2100000, guid: c7d63a830e67443bfa515292fecc5d0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall01
+    second: {fileID: 2100000, guid: 242f172f1a0174a83b64aa1533f8652e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall02
+    second: {fileID: 2100000, guid: 3b38c4365522f479082d4447a8158f01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wnd01
+    second: {fileID: 2100000, guid: 7b4fcf7f8961b497693bbb367f6b2c54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wnd02
+    second: {fileID: 2100000, guid: da690e4a57331450f94785d97561274b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wnd03
+    second: {fileID: 2100000, guid: 9c7866949af8f44528fb6aeea5a2172c, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

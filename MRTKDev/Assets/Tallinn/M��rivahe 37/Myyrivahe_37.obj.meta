@@ -3,12 +3,152 @@ guid: 84aa1af01974746c78a443608826aaa8
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_aken01
+    second: {fileID: 2100000, guid: b86bdc7d2617c46bab0e6fac82a0d23b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_katus
+    second: {fileID: 2100000, guid: a0039f73e418241e985b56e4b3c886aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_katus2
+    second: {fileID: 2100000, guid: 10ccdb0b5b2454c1ba14cac43657290b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_katuseaken
+    second: {fileID: 2100000, guid: 7e450a37a938648b6a42ba17e2400bd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_paekivi
+    second: {fileID: 2100000, guid: 20a828d1e355446b6abc699eacc641c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat01
+    second: {fileID: 2100000, guid: 75dd0f6c6a29b4a04955a6dadd902f4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat02
+    second: {fileID: 2100000, guid: 10f844fcac2524e589fb221600e12a20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat03
+    second: {fileID: 2100000, guid: 92fe96d1d32544d99807630986843b2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat04
+    second: {fileID: 2100000, guid: 89d298a5e66394cd7806ef1e4856c945, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat05
+    second: {fileID: 2100000, guid: a92fa6a55b54047e7968a6709bc12137, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat06
+    second: {fileID: 2100000, guid: 2f2bb5e26e34d4435ab9d95305b13cc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat07
+    second: {fileID: 2100000, guid: ad5858d80bc6c4ac6b81a9717cc1ea8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat08
+    second: {fileID: 2100000, guid: 3e716be5d8dae45f48ca9cc45d9e8e23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat09
+    second: {fileID: 2100000, guid: 2aae97e9cc3e7443d9360e812235056d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat10
+    second: {fileID: 2100000, guid: 49661d6867c074c1ebba4d5741c9ae95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat11
+    second: {fileID: 2100000, guid: fc98f7c97a27d4cb09e68428d2743ac9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat12
+    second: {fileID: 2100000, guid: 48e807725048741ba962c91be504f7c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat13
+    second: {fileID: 2100000, guid: 263ea4c4d02c54d2684028be8bdc42c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat14
+    second: {fileID: 2100000, guid: c7d287a44015a42cc8a97e9f19670123, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat15
+    second: {fileID: 2100000, guid: f4733dde12f5049a58b1195f2eb760ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat16
+    second: {fileID: 2100000, guid: 42737b7fe1ff144cea4c44ddf40f8be4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat17
+    second: {fileID: 2100000, guid: c9a89bed0e33e4068835684912c9f59f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat18
+    second: {fileID: 2100000, guid: cb4ffc0bdc1ee4fe4988ecc66ac27bf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_plaat19
+    second: {fileID: 2100000, guid: 03c38cdef8315478e8d3e5b19b859a5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_puit
+    second: {fileID: 2100000, guid: 70c76fb1df97e489d83b59f336d3cd85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_uks1
+    second: {fileID: 2100000, guid: 3f510f27c68af420e90a7dccf1be13bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_37_uks2
+    second: {fileID: 2100000, guid: 89cb7d46fadc54b2daa793ff143c4ff4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 0fc5930e1d92d430ba3fc96aec28f4dd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

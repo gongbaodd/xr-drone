@@ -3,12 +3,107 @@ guid: a531e5d6829ff4a87aad96e51c454249
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_default00
+    second: {fileID: 2100000, guid: f5d52715b896e4d9aa9d0e9ea90f0531, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_katus
+    second: {fileID: 2100000, guid: 4bc256362cc3d407cac52611339348a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_kldr_akn
+    second: {fileID: 2100000, guid: 351703d0843f849b296d84a998162c09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_korsten_auk
+    second: {fileID: 2100000, guid: 84f091000a0fd4466b6dad1d35a87890, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_korstnad
+    second: {fileID: 2100000, guid: e4139f303e057403b9662897286fc6c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_krohv
+    second: {fileID: 2100000, guid: b571c3c9ff5e14dd18d98831372dca57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_luuk
+    second: {fileID: 2100000, guid: 156c9d2a7394c4fb2bb34dca9e0e91c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_ndaAken
+    second: {fileID: 2100000, guid: 0927556fe0f1b40348048f27722af35e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_sarikad
+    second: {fileID: 2100000, guid: 8c10b535bf11444719eeea4249df1322, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_seAken
+    second: {fileID: 2100000, guid: 951aaf3765df44466ba8d6ac416d41d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_seAken0
+    second: {fileID: 2100000, guid: b276be48954654bc5b7a7bb30b262ed2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_seAken2
+    second: {fileID: 2100000, guid: aa7feb9fedf324c9788ed26eb129d7d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_trepp
+    second: {fileID: 2100000, guid: a1ad85ed354aa42819f5d5a133d1a546, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_uks01
+    second: {fileID: 2100000, guid: 46ff57cc013ce41bb8403ff0cd9fa9d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_valge_krohv
+    second: {fileID: 2100000, guid: 6a7f943648dbd4c1eb8d82ae8656d95a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_varikatus_ees
+    second: {fileID: 2100000, guid: 715842bf6b4aa46648c4bd6dc321fd6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_varikatus_kylg
+    second: {fileID: 2100000, guid: b070ce4cd77d7463bb66b633b5489ce6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi5_vundament
+    second: {fileID: 2100000, guid: 2e63fe683cee44d49a9ba76bd5d15b0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pi5_katuseaken
+    second: {fileID: 2100000, guid: 4eebdc4dd3f1f4146ac70e14f472b973, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

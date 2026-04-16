@@ -3,12 +3,87 @@ guid: f81a965c6698b4563b792a2213a9e6b9
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_DarkGrayPlaster
+    second: {fileID: 2100000, guid: 832017d410ce74b60b1802471252cc31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_Door01
+    second: {fileID: 2100000, guid: 444a649a5b329432497577edc6d961c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_Door02
+    second: {fileID: 2100000, guid: b067f7a80041547498efddec8142c023, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_Door03
+    second: {fileID: 2100000, guid: 213995f9bc65342eea93aa135de5fbbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_Dormer01
+    second: {fileID: 2100000, guid: 93e5c3ca201bc43288ed88b6715c4847, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_GreyPlaster
+    second: {fileID: 2100000, guid: e0ecb8dedc46e49bf8c573749ba4debe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_OrangePlaster
+    second: {fileID: 2100000, guid: 46b5d0059838e4a6084b4f74d4417726, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_Roof01
+    second: {fileID: 2100000, guid: 9134a5a32e44f4594b97940a4b75185c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_Roof02
+    second: {fileID: 2100000, guid: 103c12f52f82e4c079c3dc82834e8bc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_Roof03
+    second: {fileID: 2100000, guid: 9b94ae1d434924223ae1b0e720a1a996, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_WhitePlaster
+    second: {fileID: 2100000, guid: fea2089612b2b474680e23ba0bcb9fbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_Window01
+    second: {fileID: 2100000, guid: 1f3197ba6121d464fa4bb7b446246d6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_Window02
+    second: {fileID: 2100000, guid: 33a85d777ab484538a70f6e330e02c85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_YellowPlaster
+    second: {fileID: 2100000, guid: d41ac64f48497411c92b6f1341937b12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: d784aa6575c774d588c70e1788f4c1c9, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

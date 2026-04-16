@@ -3,12 +3,62 @@ guid: c06420ca99ab641038a10fa0c587c75a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP30_FASS_1_jpg
+    second: {fileID: 2100000, guid: 83faf2593aa9c470e8c7e3f9052eaae8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP30_FASS_2_jpg
+    second: {fileID: 2100000, guid: 1db074518172442cbb17deb284471c74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP30_FASS_3_jpg
+    second: {fileID: 2100000, guid: e34ca16d7495742f4b9f1632f745bb19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP30_FASS_4_jpg
+    second: {fileID: 2100000, guid: 3c4f99e6af5554f46b8fedfce8e8e6a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP30_KORSTEN
+    second: {fileID: 2100000, guid: f0c8914fa950e4da194932f97b382977, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP30_KORSTEN_auk
+    second: {fileID: 2100000, guid: 87bfa97cbf2e8476e80f80ec6c52ebfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP30_aken_uuk
+    second: {fileID: 2100000, guid: 5a95c5524f8474197b6f48bd8fb565ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP30_katus_1_jpg
+    second: {fileID: 2100000, guid: 8691f0149247541e2bf184b7caf4d1c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP30_raudpits
+    second: {fileID: 2100000, guid: 53542be1d5008418ca3d8f52f63a1146, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP30_valge
+    second: {fileID: 2100000, guid: 66ff9472499164d74aa5246141543085, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

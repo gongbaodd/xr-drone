@@ -3,12 +3,82 @@ guid: 9d6f9eecce6e14af5bb57129d00d32f8
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asfalt
+    second: {fileID: 2100000, guid: 0d8bcf0ccd5254afbadea4702f864c15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon2
+    second: {fileID: 2100000, guid: 0548fe985f1c94917aedbfbeb217d8a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon3
+    second: {fileID: 2100000, guid: 60b5203d1c97e4606916895d3f513b70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_v
+    second: {fileID: 2100000, guid: 0885f4160e41f437bbece8e2fde967dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal2
+    second: {fileID: 2100000, guid: 92f13a102e7244bf89b46cfd73390a53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metall
+    second: {fileID: 2100000, guid: dcc207071179641719db2243ddf450f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muru
+    second: {fileID: 2100000, guid: f85964cb474f649f2beff4ae71a414cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaat
+    second: {fileID: 2100000, guid: 6bc1d447f4be140819138a8bf30ba149, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaat2
+    second: {fileID: 2100000, guid: 00675635a5b6d4979adf07c8e4e9d582, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plk_kat
+    second: {fileID: 2100000, guid: c50e1965fd8ea4273b957e82155c93ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: post
+    second: {fileID: 2100000, guid: 8f16a0a29a9a64aba8ed7b1c23912586, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sein
+    second: {fileID: 2100000, guid: 949550a3565a6414ba932397a01e9376, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trepp
+    second: {fileID: 2100000, guid: 53a7d8b0288944ad4942d033c1ed86a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: f51c0b6969c3d46c4997f06b7e4cc5fa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

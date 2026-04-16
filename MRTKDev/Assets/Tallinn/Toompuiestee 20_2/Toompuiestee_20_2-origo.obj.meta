@@ -3,12 +3,62 @@ guid: e995bdab85b764e2d8a227ae5bc060d5
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Imported_OBJ_Object_lauad_katus
+    second: {fileID: 2100000, guid: 2c5132bd760e940f9aac9129fd640c1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Imported_OBJ_Object_puuots
+    second: {fileID: 2100000, guid: a6cb56ae4ff044e84aff5bcffe0c98b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Imported_OBJ_Object_suur_rooste
+    second: {fileID: 2100000, guid: 953201dd0355840288fbb3d24192ef60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Imported_OBJ_Object_suur_tsingi
+    second: {fileID: 2100000, guid: 68d9bd4fd0f25424eba69e43ff225b96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Imported_OBJ_Object_tellissein
+    second: {fileID: 2100000, guid: 1c0385490d88b47a4b6d34d1be7154ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_20_gar__eterniit
+    second: {fileID: 2100000, guid: 94a085e06e6144f20bcf8bb333c6dd61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_20_gar__reika
+    second: {fileID: 2100000, guid: 0a225eff3489c49a6bc70a5ca77803ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_20_gar__v2ike_raudu
+    second: {fileID: 2100000, guid: 34f7e4d6af3414be0acafd07bd6450ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_20_gar__v2ike_tsink
+    second: {fileID: 2100000, guid: 914b187debe184e88a9006d5f3c294fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 62ff6b3285c35404a8fbe53955d55298, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

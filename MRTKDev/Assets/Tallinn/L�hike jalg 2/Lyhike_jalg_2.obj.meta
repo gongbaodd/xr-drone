@@ -3,12 +3,127 @@ guid: 654145fdecd5548c0a82864be1355978
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_10SG
+    second: {fileID: 2100000, guid: 29773138ec2e0411f886432ceecf3242, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_11SG
+    second: {fileID: 2100000, guid: 1b20f67979aa042f18db0d52a6fbeac6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_12SG
+    second: {fileID: 2100000, guid: b7eb5fc9f5503438fbfd28e714a12ceb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_13SG
+    second: {fileID: 2100000, guid: 4bb5b5eb2f34d413b8e3e800c6ba0f11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_14SG
+    second: {fileID: 2100000, guid: ec9c641709f20445a82b0b91940d71b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_15SG
+    second: {fileID: 2100000, guid: 5c178c9a40273425693c154fd4355db9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_16SG
+    second: {fileID: 2100000, guid: d20d5af200d4144a58d458d601b2bd39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_17SG
+    second: {fileID: 2100000, guid: c940260edd3c442d69b035a458830f17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_18SG
+    second: {fileID: 2100000, guid: 5f8e67c34da6147fd8ff24654dc50ce2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_1SG
+    second: {fileID: 2100000, guid: 90ecbbd1ffe3b485d994a92c605e3613, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_2SG
+    second: {fileID: 2100000, guid: 4ac918b6e1ffa4ed1a8c9b71ce7c2755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_3SG
+    second: {fileID: 2100000, guid: cdfb6b6d6089b45ba9bcbd16def02214, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_4SG
+    second: {fileID: 2100000, guid: a6ee66b0ccb7a4cb9829b247615ede6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_5SG
+    second: {fileID: 2100000, guid: cef56f5a0ce73411c9a7fc4e0540d218, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_6SG
+    second: {fileID: 2100000, guid: 89463e14605a940b98ac9bffdd585c11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_7SG
+    second: {fileID: 2100000, guid: 21e43499a58a545c19321bef074f02f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_8SG
+    second: {fileID: 2100000, guid: 11656f1e681694e77b74aabd772b9ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_9SG
+    second: {fileID: 2100000, guid: 497232f070d394376bb81dcf3a3d40fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_aka
+    second: {fileID: 2100000, guid: 466e2c4bbcfc54ee9a5bed45b52bd3f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_hall
+    second: {fileID: 2100000, guid: e6b143f30f66f4c03aa9c5d91887e18b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_ka
+    second: {fileID: 2100000, guid: 240eedd33730c44d0ab4bf28fac09208, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_laud
+    second: {fileID: 2100000, guid: 0f5ff3f228e304806906bc53df934ee3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_2_pun
+    second: {fileID: 2100000, guid: 781989db97aef4b8a870ffa030a2e015, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

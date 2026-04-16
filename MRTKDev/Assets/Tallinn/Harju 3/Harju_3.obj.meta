@@ -3,12 +3,212 @@ guid: 3b2e410443529490eaa16d36905c9b74
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert10SG_DSC_0765Window_jp_000
+    second: {fileID: 2100000, guid: 28e2696cfdea14dadbd7e13d17ce9dfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert11SG_DSC_0758Window_1__000
+    second: {fileID: 2100000, guid: 91f2f9198f8854fd1a824f9b0d1916df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert12SG_color_2_jpg_001
+    second: {fileID: 2100000, guid: ef375737c2d784f0884961c85a4808c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert13SG_grove2_jpg_001
+    second: {fileID: 2100000, guid: 1f8ecd5533cab4ca7a43dd02681cf56c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert14SG_KAT_plekk_hall_Li_000
+    second: {fileID: 2100000, guid: a5756fd6353c24127a3285f32d6cf896, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert15SG_DSC_0761grove_jpg_001
+    second: {fileID: 2100000, guid: 807290f97c4a847299fd11bed41c50f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert16SG_Window_3_jpg_001
+    second: {fileID: 2100000, guid: aa6ce7185f0004ff68fdb58825440be1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert17SG_Window_2_jpg_001
+    second: {fileID: 2100000, guid: 8cecc83587b27483587e1cd45ab67f5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert18SG_color_3_jpg
+    second: {fileID: 2100000, guid: 60a8ee41055fd42dea647e2530581e01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert18SG_color_3_jpg_001
+    second: {fileID: 2100000, guid: 10a8fba1425bf4ba2bea93354850567b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert19SG_door_jpg_001
+    second: {fileID: 2100000, guid: 77aaad86a6b5f44e6889363be9659f37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert20SG_color_7_jpg_001
+    second: {fileID: 2100000, guid: 289007726d08946abb94857322307c4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert21SG_window_4_jpg_001
+    second: {fileID: 2100000, guid: cab1dbe166d724e6cb81996b424328c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert22SG_DSC_0766Door_jpg_001
+    second: {fileID: 2100000, guid: af994043f99054df481c66ee69c3f4b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert23SG_DSC_0771ShopWindo_000
+    second: {fileID: 2100000, guid: 5b251278468774d13829bbc8769d5cd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert24SG_ShopWindow_1_jpg_001
+    second: {fileID: 2100000, guid: 71510ac7099b843dab593087c0df93a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert25SG_DSC_0764Door_1_jp_000
+    second: {fileID: 2100000, guid: f8d86777252784f468af66cc7c708778, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert26SG_RoundWindow_jpg_001
+    second: {fileID: 2100000, guid: 3d2ae333a0938488c84e5079bcdb0e6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert27SG_DSC_0768Window_1__000
+    second: {fileID: 2100000, guid: 1f62e9617ec2443a587a9751a0735e33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert28SG_DSC_0767Windwo_jp_000
+    second: {fileID: 2100000, guid: a1cdeaba88ccd49e2a64ef8b0a9201e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert29SG_DSC_0770roundWind_000
+    second: {fileID: 2100000, guid: fc05340be372a43f7a8ef08767352364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2SG_color_1_jpg_001
+    second: {fileID: 2100000, guid: 3a062d1f12d784a47b426634f1a5bf80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert30SG_KAT_plekk_pun_jpg_001
+    second: {fileID: 2100000, guid: 6e6e0e009e37e441e8a3bbef619bcc02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert30SG_ka_ker_2_old_jpg
+    second: {fileID: 2100000, guid: 3d7497f8872b54f5e843a677dbb2af92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert31SG_DSC_0773_window_j_000
+    second: {fileID: 2100000, guid: aabf84bc80d744cc38924b1a91515e3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert32SG_DSC_0773Window_2__000
+    second: {fileID: 2100000, guid: b7defe8ad009249bc8f9eaccf729c0cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert33SG_DSC_0776Door_jpg_001
+    second: {fileID: 2100000, guid: f523b0f139efd4d75939b5382c0c9cf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert35SG_DSC_0777Window_jp_000
+    second: {fileID: 2100000, guid: 20e1fdead17e94f0cbb286b0414ac71d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert36SG_Harju_tn_3_1_Idol_000
+    second: {fileID: 2100000, guid: 62808b10f14714620a1aa25184362e70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert37SG_chimnytopred_jpg_001
+    second: {fileID: 2100000, guid: 9b4df249155134fcfb38a2451b6b2e2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert38SG_DSC_0763Drooner_j_000
+    second: {fileID: 2100000, guid: 100b15209438d4e77929f517dbe55440, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert39SG_DSC_0769grove_jpg_001
+    second: {fileID: 2100000, guid: 5a8f32b7b4715422a9723bbe64974ba9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3SG_DSC_0757Window_jp_000
+    second: {fileID: 2100000, guid: f6fe460498fde4754a9aa082a623870e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3SG_ka_ker_2_old_jpg
+    second: {fileID: 2100000, guid: 2fc364ef0c8c745b8b5b0bf95327c093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG_DSC_0759Door_jpg_001
+    second: {fileID: 2100000, guid: aa48290e0d59e4dacbc62beeac20fbfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5SG_kr_v_sile_jpg_001
+    second: {fileID: 2100000, guid: 6c99c23ea125c438a8c1cd97b24df216, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert6SG_color_4_jpg_001
+    second: {fileID: 2100000, guid: 323cbdec8fa4142c480dfb8e9e5c5a56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert7SG_color_6_jpg_001
+    second: {fileID: 2100000, guid: a822526bf4c7c42dda78e6675f1b8d7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert8SG_Grove_1_jpg_001
+    second: {fileID: 2100000, guid: 2081ef23355bf47bfba834cc50c7eb74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert9SG_Window_1_jpg_001
+    second: {fileID: 2100000, guid: c07b1f6cadefd4e82a7dbb0961922617, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

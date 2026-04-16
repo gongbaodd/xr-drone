@@ -3,12 +3,117 @@ guid: d95044dd847d4431ca5f0cccbfb6688e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_chimneys
+    second: {fileID: 2100000, guid: d5b31f68d41bd4a469430be5e186a1c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_door01
+    second: {fileID: 2100000, guid: 5547ccbe87d354a62a94a4507bb3ef10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_hall
+    second: {fileID: 2100000, guid: 55396d20bfd024582adfe3e838f5576d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_lintel
+    second: {fileID: 2100000, guid: dfa29f55a8dd2488cb023f536f1a358b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_lovi_al
+    second: {fileID: 2100000, guid: 926eadb1c35b84128936dfcf9c90dea9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_lovi_yl
+    second: {fileID: 2100000, guid: 327f2cc309348454c8132c670c2fc541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_roof_grey
+    second: {fileID: 2100000, guid: 8aae3cac140a242b0952756d62e6a79c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_roof_white
+    second: {fileID: 2100000, guid: cb2ee2fc384514614b43be3feec490ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_stairs
+    second: {fileID: 2100000, guid: f5c42edfe9e4d47f19967b0c287715cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_tracks
+    second: {fileID: 2100000, guid: e27a786ae4ec44f188d4e11b7dffce54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_wall01
+    second: {fileID: 2100000, guid: a61c58e318957445cbd6688306f9f7e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_wall02
+    second: {fileID: 2100000, guid: d51ee2ea30b74436e8ebac4d11f8e8ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_wall03
+    second: {fileID: 2100000, guid: 5b3c0d7f779f44e3c942c8b76e98368a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_wall04
+    second: {fileID: 2100000, guid: 3a0b9b768a8c24e9c95887f508370db1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_wall05
+    second: {fileID: 2100000, guid: 22c87d8c884404e138c434f8104eb0d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_win01
+    second: {fileID: 2100000, guid: fdcbafba4256649d8b28a78f22801283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_win02
+    second: {fileID: 2100000, guid: 5304c0d447250491d9b543ee6ed9454d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_win03
+    second: {fileID: 2100000, guid: 3c3b2f1a010a34c8caf798167211dd04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_win04
+    second: {fileID: 2100000, guid: 20e10071e063c4306ba4d34d4c141c7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkri4_win05
+    second: {fileID: 2100000, guid: 0beedfafd9c634c49983327dd5da8011, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: b1b88b2a4af2f4e6e992be05cbdc7e08, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

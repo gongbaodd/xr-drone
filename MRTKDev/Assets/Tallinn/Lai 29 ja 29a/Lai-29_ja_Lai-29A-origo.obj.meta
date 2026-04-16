@@ -3,12 +3,187 @@ guid: 9fc027d15bb9d42f4b32060ce7af9dd6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OPACITY_MATERIAL
+    second: {fileID: 2100000, guid: 27ec18f5dce0343beaaf1b167c38e94b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark
+    second: {fileID: 2100000, guid: 4bee51f8197414bd185b193bb760332f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door1
+    second: {fileID: 2100000, guid: 67dbf14e36c844a1aa4d938050122931, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door2
+    second: {fileID: 2100000, guid: 18206238aeff040d5ba08193a69b80a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door3
+    second: {fileID: 2100000, guid: 31b6623ef832b46ca839107ec7c40bd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door4
+    second: {fileID: 2100000, guid: ea808a651d2b143cfa8cc0c24e0e106a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gate
+    second: {fileID: 2100000, guid: e0e3bf2605638464dae0f00f510de083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korsten
+    second: {fileID: 2100000, guid: 0a755b47d49b54d91a6a065654a89798, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: loodusmuuseum
+    second: {fileID: 2100000, guid: 0b777b678a890401c99b155a42ffa29a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plack1
+    second: {fileID: 2100000, guid: 6628dd1eb51ab4dfc8f8f18f03ea5c17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plack2
+    second: {fileID: 2100000, guid: 09694b520c9fd44ab832cfc1a0830222, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plack3
+    second: {fileID: 2100000, guid: 0f283ae84a5754c1d9fae2c659e22113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plack4
+    second: {fileID: 2100000, guid: 0ac8420ffa2e84b2b966a895ebbf862a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: postbox
+    second: {fileID: 2100000, guid: 514185062043349c6b4ad9348c1c7d9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: 43a8320df40d54fbf832e7c3ccb3fe63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stairs
+    second: {fileID: 2100000, guid: d841da4692eac400a8761add0fe19d6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone
+    second: {fileID: 2100000, guid: ff5e1e9eb495442c489c14415ac8fa26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall1
+    second: {fileID: 2100000, guid: 20904f248f31f4e5088d97ad6d5add84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall1_2
+    second: {fileID: 2100000, guid: 4ced8108c189f4bd3a4dc276a91effb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall2
+    second: {fileID: 2100000, guid: 01eb90768e39943dd8a71d3b5efbf347, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall3
+    second: {fileID: 2100000, guid: 3edb160b2cd4e445fa2a433edc21c0e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall8
+    second: {fileID: 2100000, guid: 6b6325a13208845f8b2316faac4e898f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window1
+    second: {fileID: 2100000, guid: d29ac66af70644fcdbd587f7dde330fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window10
+    second: {fileID: 2100000, guid: 1eb9a015d40bc42408626b0b1e0bbbb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window11
+    second: {fileID: 2100000, guid: da7cb5c2d136c486fb3a230041a0ee4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window2
+    second: {fileID: 2100000, guid: 2526a3d97301346c68b996a3836665e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window3
+    second: {fileID: 2100000, guid: 490f58b7f280a4ddf80bf55b1d4e7cce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window4
+    second: {fileID: 2100000, guid: 498a5f0bb3b2c40bc9b080a78dc642fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window5
+    second: {fileID: 2100000, guid: e66d6e2ee8ffd48cfa9ad2ebbb5ac2e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window6
+    second: {fileID: 2100000, guid: cf419ed01cec24043a9cdccb3a3e783d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window7
+    second: {fileID: 2100000, guid: 1382d54ea01234eb38bd026e9e1ac134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window8
+    second: {fileID: 2100000, guid: 94b450e3772b141b6bcdabaaf4ec2d2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window9
+    second: {fileID: 2100000, guid: 2b963690dec424e47b1692059a17358d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: 80ebbefd3d4d947fd972a0fe3918d956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 7e8c963e27e554c2e8fbf6d7f579b9bc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

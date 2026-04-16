@@ -3,12 +3,362 @@ guid: 1bf42876e60f942e59af350cf763bea9
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_a_uuk
+    second: {fileID: 2100000, guid: c21928328d547473e8fbd82251432390, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_aknad
+    second: {fileID: 2100000, guid: 804be889ccbc94a3bb4e3a2392d3af3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_atilluke
+    second: {fileID: 2100000, guid: 1ecf21e3750ed42a397c648e2265a697, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_fence
+    second: {fileID: 2100000, guid: 205f64be1213541b5825f6568f12c5ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_hall
+    second: {fileID: 2100000, guid: b27bd135d31b543839fb2508fd80f724, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_karniis
+    second: {fileID: 2100000, guid: 46b38c108aa1a48b9b700206f0e5e6a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_katplekk
+    second: {fileID: 2100000, guid: 12b034711b78f4ba0a30d0478e6b0bc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_m722
+    second: {fileID: 2100000, guid: 8dc43b612c6474f14bfda1a8bc560a15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_m9brick
+    second: {fileID: 2100000, guid: 358764b142d6745ffbd19ed3e7faaa7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_must
+    second: {fileID: 2100000, guid: 376967de9cfb24cfbb7fad0fa2b71234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_mytsikene
+    second: {fileID: 2100000, guid: f534d07d27fdd4a95a7aa64ae4100b7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_raastas
+    second: {fileID: 2100000, guid: 7b2a9f59682b94ca4af220ba71c5e93a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_sein4
+    second: {fileID: 2100000, guid: e9e14426123e84f689aba2593856309e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_seintn
+    second: {fileID: 2100000, guid: 316fce048fc724977ac04571ab0879bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_trepp
+    second: {fileID: 2100000, guid: 73c9cf25af7fc4d84b5c1bce26d5f76b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_u1
+    second: {fileID: 2100000, guid: f364b206033eb48d58c2ce7e43478065, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_ukel
+    second: {fileID: 2100000, guid: 6249b22070f4b426389966c7a9293ca6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_16_zokl
+    second: {fileID: 2100000, guid: ddca6261bf6a94619ad54455401ffd7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_a_ki_kel
+    second: {fileID: 2100000, guid: 22dbde503dc9e4d2eb55f52d803db36c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_a_ki_yl
+    second: {fileID: 2100000, guid: 365256b65a03f4909abf84cc77779d83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_hicvere
+    second: {fileID: 2100000, guid: 62f3762c3b6414f94aec250b91146464, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_kaar
+    second: {fileID: 2100000, guid: 723d8c9b2c31c429a8d9c74048f667c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_kasipuu
+    second: {fileID: 2100000, guid: 1be69dbb6d53e420bbe899b56a83cc8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_kirikuake
+    second: {fileID: 2100000, guid: 0755f39ad53804dd99699670a9e3f45b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_kirikuake22
+    second: {fileID: 2100000, guid: 42288c7a393fe4cd2a6dd55c54603ad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_kirikuu2
+    second: {fileID: 2100000, guid: caca16e3a73c64afbacec106a63ecd98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_kkasipu
+    second: {fileID: 2100000, guid: 45be47194fae04bfd9c2015e0284411a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_kriikuuks
+    second: {fileID: 2100000, guid: 82ffe0d98c1bb46309aec5d0002ef609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_luugikne
+    second: {fileID: 2100000, guid: effd96de0f3d84aaf941a8bd4d175d36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_peaportaal
+    second: {fileID: 2100000, guid: f69fd5261d9e14e218b384dc2842f2b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_pilt
+    second: {fileID: 2100000, guid: dd7c961f345444c9b8253d33fab17706, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_roosa
+    second: {fileID: 2100000, guid: 12719d551fe504eb8ab6019581b107b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_teineluugikns
+    second: {fileID: 2100000, guid: 9e641142f6ac749f3b6fe5fefab49428, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_tornirest
+    second: {fileID: 2100000, guid: 8a1d4118218bb4abcabecf12c502f974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_ur
+    second: {fileID: 2100000, guid: cd61ca29e01c94433890aa78c33a2bf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene16_voo1
+    second: {fileID: 2100000, guid: 34993983404304f38b9384d82131c48f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_16
+    second: {fileID: 2100000, guid: 85446ff0d971d44e1b2b383b3ebec1f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_RIST
+    second: {fileID: 2100000, guid: 2bb9a4c5bd0f549b8b6504c7123a0d62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_a1
+    second: {fileID: 2100000, guid: c51afe59cb64c4fa18a1f91c01c057d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_a2
+    second: {fileID: 2100000, guid: 150951ae0f4c94db99effeaa193c83ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_a3
+    second: {fileID: 2100000, guid: c722655dd56f24030a8fa3685efd136a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_a4
+    second: {fileID: 2100000, guid: 207f28cb8b1674c4f9941db6c1874ad9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_a5
+    second: {fileID: 2100000, guid: 047fde43da6e0484d843ebd324e76e74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_a6
+    second: {fileID: 2100000, guid: 36679a4e845a7477dbb9747136785e42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_a7
+    second: {fileID: 2100000, guid: 58a0954bb665e4de0b704ed0cc8a8c53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_a_uu2
+    second: {fileID: 2100000, guid: 030eae4283145443b9e2158daa96ebef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_dc
+    second: {fileID: 2100000, guid: 5de62e2b06e99473db4481e02dc18348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_ka
+    second: {fileID: 2100000, guid: ed59c33be86da4e05bed0112b1944663, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_ka_ker1
+    second: {fileID: 2100000, guid: be18d59dc987a4dc78d198cd1d9d6bc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_ka_ker_valge
+    second: {fileID: 2100000, guid: 7c0e9213f62f64cedac149f4a6f76a9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_kirik_7
+    second: {fileID: 2100000, guid: 4b13c8782c0b5429fb58e66b0931e9c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_kla_m
+    second: {fileID: 2100000, guid: da247033ffed14e2a836fc3f85bcadba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_m522
+    second: {fileID: 2100000, guid: b79a87c0534424afaa5aab6ec171215a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_paas3
+    second: {fileID: 2100000, guid: d6c58c19610ed4b009c42027749dfd94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_paekivil
+    second: {fileID: 2100000, guid: 8544cd456057643fc8a17e18754e720c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_pun
+    second: {fileID: 2100000, guid: 4eee99905fb1f4e1ab50f2c0e85144db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_raastasinine
+    second: {fileID: 2100000, guid: db039c24bc4eb46ecbf878ded7ad2233, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_rist2
+    second: {fileID: 2100000, guid: 13354a376b8e04dbba617a9e31fab64a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_roof
+    second: {fileID: 2100000, guid: dad0c2638be404671a34f0472d2c4398, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_sein
+    second: {fileID: 2100000, guid: 1ced58044947e4551a6ed884027ca7e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_sein2
+    second: {fileID: 2100000, guid: 3aa7f7d08bc0f489da7d2dcb7cce2d12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_tumehall
+    second: {fileID: 2100000, guid: 61aa6087f77b94496aa77b45eb56b3f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_u2
+    second: {fileID: 2100000, guid: 3e2300125b0d74a29843d54661382e67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_u3
+    second: {fileID: 2100000, guid: f15233f8f590a4811be86f185dc4d133, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_valge
+    second: {fileID: 2100000, guid: d1cf390bb753044fda5506a56d91e896, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_varavad
+    second: {fileID: 2100000, guid: 7156ef8a829dc4660b51dc3e86b0523b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_viilulaudis
+    second: {fileID: 2100000, guid: de0f1d38912854c588d71b1b850e6d37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_wood
+    second: {fileID: 2100000, guid: 34358fa93e25348c09e4454ba321acc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_16_zokkl
+    second: {fileID: 2100000, guid: e96d1f98d82a7419d9e523090b09f7d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 9e23a2344657740059ff9e31212e006a, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

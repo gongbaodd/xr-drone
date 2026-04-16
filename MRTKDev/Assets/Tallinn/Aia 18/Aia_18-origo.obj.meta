@@ -3,12 +3,52 @@ guid: 95678d3bc9e5245a897a6a8ab1f29b6a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aed1
+    second: {fileID: 2100000, guid: 67832c1c0b049487f8e535353d96deec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aed1v
+    second: {fileID: 2100000, guid: e52a1375b1fb54740b3ae78d764a4ee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon
+    second: {fileID: 2100000, guid: edaf0b7666bd74d69a279c7ae6f2ea8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: klaas
+    second: {fileID: 2100000, guid: b6e136978feb34888909e16f094afd69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_hall
+    second: {fileID: 2100000, guid: 4dcb7f9b1aa044a5998e106d9c256836, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ks_u1
+    second: {fileID: 2100000, guid: 3e4e3327f70d343d88ee5e4202d6f1eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plekk_hall
+    second: {fileID: 2100000, guid: ca346852f1d5c494da2cdd8c65bea37b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruberoid
+    second: {fileID: 2100000, guid: 1c230b691f16b4ac6ae94aa1eda1333a, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

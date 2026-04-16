@@ -3,12 +3,52 @@ guid: db8c22171a3c44eb88191d162fd25783
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F1
+    second: {fileID: 2100000, guid: 4fef87de25dc34f55b5edc264d83203a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K_plek
+    second: {fileID: 2100000, guid: 03eeb6836ad954ec9b2f5e5b591dad80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_10Mat
+    second: {instanceID: 0}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U10_1
+    second: {fileID: 2100000, guid: a9a001e0fd1c640b0a0ffdfeac7a1a9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paekk
+    second: {fileID: 2100000, guid: 58e7478f37e7840db8ead703372949a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruberoid
+    second: {fileID: 2100000, guid: 47817ac9e04ea4d82a018be4f2b53979, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: f1a363733baa243e2a3b514ed735c738, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxxMat
+    second: {instanceID: 0}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

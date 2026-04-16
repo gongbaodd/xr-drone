@@ -3,12 +3,112 @@ guid: 81c4608ba1ac94bb3b5d6099d8cc75e5
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_10
+    second: {fileID: 2100000, guid: 75d4ea2f5879f4828b49610e6f26fdcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_11
+    second: {fileID: 2100000, guid: d0d3a6bbecdc044d799bdf4cf65667e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_12
+    second: {fileID: 2100000, guid: 2ce27fe0d5cdd4553acbfc717f01df70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_13
+    second: {fileID: 2100000, guid: 059275700cfc64acb819b4169d6edf69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_14
+    second: {fileID: 2100000, guid: 1ba20eded81f64a74a2a93f8d500e152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_4
+    second: {fileID: 2100000, guid: a0be0c735918b4d4bb4ec9b6c6c55cc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_5
+    second: {fileID: 2100000, guid: b814af2478bc54116a624f5562ac040b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_7
+    second: {fileID: 2100000, guid: 07da9468ce4fa4b75b61675a1744da61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_8
+    second: {fileID: 2100000, guid: 24f2c7b5c14f6488591cbd356937bcdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_9
+    second: {fileID: 2100000, guid: f30210d3e8a67401ba6e478bcb9dddbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_apoo
+    second: {fileID: 2100000, guid: e4db442ecee424f67a9b1433f44d91c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_ka
+    second: {fileID: 2100000, guid: a89b615ae63f74c5684764718584b945, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_kar
+    second: {fileID: 2100000, guid: a01607de40f43411897fa0a3b393501f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_keldriake
+    second: {fileID: 2100000, guid: b98397a8b7fe14ba0b3cbd88b32c40da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_kor
+    second: {fileID: 2100000, guid: 66132bead063f446898659f74128fc33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_kortsn2
+    second: {fileID: 2100000, guid: 967657e311db5447397bffe6648eb2ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_walls
+    second: {fileID: 2100000, guid: 48875ee1577424fa8a21f0cba5dac303, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_whitedecor
+    second: {fileID: 2100000, guid: 5491d205183514867a93be6f71db9eaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_32_wind_up
+    second: {fileID: 2100000, guid: c1a0aee9c34944ba49879dd4d5984ff9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 490e0762c0b664f239064655a3c14872, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,127 @@ guid: 42272430ad5fc4295a48b87dfb6caae4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_aaris01_estoniapst6_aaris.005
+    second: {fileID: 2100000, guid: 521e67dd968474334b422b9b6e79731a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_aaris01b
+    second: {fileID: 2100000, guid: 62f478ab627ba48db9bf9515c0bedf9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_aaris02_estoniapst6_aaris.009
+    second: {fileID: 2100000, guid: 6e189e23f3e524826b7f47ac381900ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_aaris03_estoniapst6_aaris.003
+    second: {fileID: 2100000, guid: 1a545dca033b14ed7a3e4676c884ffdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_aaris04_estoniapst6_aaris.001
+    second: {fileID: 2100000, guid: 5b05a77a81c7f4865a99666fd18e7a8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_aaris05_estoniapst6_aaris.007
+    second: {fileID: 2100000, guid: 33efc0c7dc0ca4c64ba4dc1a49a735d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_black
+    second: {fileID: 2100000, guid: 8ac75197944154ec5aeedf2d70e3e1f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_door01_estoniapst6_door0.003
+    second: {fileID: 2100000, guid: ca604c038bd804cf8966c973a0ddb44f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_door02_estoniapst6_door0.001
+    second: {fileID: 2100000, guid: 8d476da17fe104f6fbfc52a29884d025, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_misc01_estoniapst6_misc0.001
+    second: {fileID: 2100000, guid: c804043c20f994fdc95cff48ef25ce3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_pRoof_KAT_plekk_hele_hall_l
+    second: {fileID: 2100000, guid: 37d97a559c8b64cd990aaa8f72d5ce7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_pRoof_KtexRoof2.jpg.002
+    second: {fileID: 2100000, guid: b71533ec42dd24978b9931269a04a970, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_wall01
+    second: {fileID: 2100000, guid: b71e17c5e0f80478b964fef9ac4c12f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_wall02
+    second: {fileID: 2100000, guid: 9d543e6b610974c53b288f122df3e05b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_wall03
+    second: {fileID: 2100000, guid: b2f96ca6da0cd408ebfe910dc7be52d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_window01_estoniapst6_windo.007
+    second: {fileID: 2100000, guid: 27ad2ff9424604e508ea18f5bdf6387b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_window02_estoniapst6_windo.005
+    second: {fileID: 2100000, guid: 78c19dca32e7d4966984116a87e0b10f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_window03_estoniapst6_windo.009
+    second: {fileID: 2100000, guid: 010a96186f08546a795df818521e0f14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_window04_estoniapst6_windo.011
+    second: {fileID: 2100000, guid: 6988c9c2c80294f10b4b1b225c30c9da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_window05_estoniapst6_windo.003
+    second: {fileID: 2100000, guid: 2093864db21a948feb6ee1bf2a9b02e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estoniapst6_window06_estoniapst6_windo.001
+    second: {fileID: 2100000, guid: c503f1ff9137c409cb3f978b76bc0476, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korrstenn_Chimneytop.jpg.002
+    second: {fileID: 2100000, guid: 1c0a9f2951cef479b8b41d0daf20e6f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steaars_KtexStairsBright..001
+    second: {fileID: 2100000, guid: 92e7b9ec459ad4c3fbe4d897228a5031, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,27 @@ guid: 7b98df7ee84c64eeaa073f2fefe54f9d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab14a_katus
+    second: {fileID: 2100000, guid: cc3b6a0104b8a4bcc9c7af341d992e22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab14a_krohv_hall
+    second: {fileID: 2100000, guid: e51ef2ddc7f4045679972722a1c570cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab14a_valge
+    second: {fileID: 2100000, guid: 4fa8b9e7b2c9849cd9fee442a2110df2, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

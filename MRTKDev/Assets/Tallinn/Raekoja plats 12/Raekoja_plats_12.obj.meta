@@ -3,12 +3,207 @@ guid: 64369f0f0a88f4b16ace32dc0e1985d1
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_aaris01
+    second: {fileID: 2100000, guid: 6b169bd0298044531836a3149fc5e3ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_aaris02
+    second: {fileID: 2100000, guid: 80ac3e6387b6a4edb9eac7d210410f39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_aaris03
+    second: {fileID: 2100000, guid: 3dba48cc6e5874d6680bbcf22e05da94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_blackmetal
+    second: {fileID: 2100000, guid: e276034d2994943cab4a2a066a311e50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_blue
+    second: {fileID: 2100000, guid: ee6dc93e3819b48bc9c97a55ae857372, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_chinme
+    second: {fileID: 2100000, guid: 668fab52d01e5440f97f15351eee828e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_door01
+    second: {fileID: 2100000, guid: acd745fac17d344b299a766df00ba562, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_door01b
+    second: {fileID: 2100000, guid: 304138c2be4dc4bf4a4186a1019431f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_door02
+    second: {fileID: 2100000, guid: f9140f9cd8bc1454c9ac91b503a8dcef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_door03
+    second: {fileID: 2100000, guid: 7e93230985fca4b07ae73c3bbc7060ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_door04
+    second: {fileID: 2100000, guid: 45e17288093a14209bb5e53a849d8586, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_goofyroofie
+    second: {fileID: 2100000, guid: 7f96d2e0eca544329b62d082bf4f8a26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_kuld
+    second: {fileID: 2100000, guid: d17ff13066b2845dab6caf98dfe414da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_lampFront
+    second: {fileID: 2100000, guid: 606e6ec07f5584205a318ebd858606d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_misc01
+    second: {fileID: 2100000, guid: c2d79162ff74c4d8a9a5d00d4d420996, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_misc01b
+    second: {fileID: 2100000, guid: 173c0de9f5fec4bcc803bcfdb1e3ac84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_misc02
+    second: {fileID: 2100000, guid: 19f1f440777c14056888bda2b5057239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_misc03
+    second: {fileID: 2100000, guid: 1d0f76aa7c7184257a088f2a28afd0af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_misc04
+    second: {fileID: 2100000, guid: c7a1b3cf4ada14a568de95101299f284, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_rooftopcolor
+    second: {fileID: 2100000, guid: 3a47a681236ec407082ac61776f5f323, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_rusty
+    second: {fileID: 2100000, guid: 2856df9aba751447bbfd5205af703716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_stairs
+    second: {fileID: 2100000, guid: 65f235b87cb4145d9980e4a4a0f73d55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_stairsBright
+    second: {fileID: 2100000, guid: ad43499451a4e477d852ef83eb03359a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_wall01
+    second: {fileID: 2100000, guid: ceb4f8de6808f4b6c85c1fb11cea37d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_wall02
+    second: {fileID: 2100000, guid: fb8dea9f4394d4130b508580e0608a1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_wall03
+    second: {fileID: 2100000, guid: eb58835d39b0b402291ee5d99746c94b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_wall04
+    second: {fileID: 2100000, guid: 763c39c7eed8f49d397626fd9c8c74ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_wallcolor1
+    second: {fileID: 2100000, guid: fe0033ff73e0c47e7a4a0ecdbff9ed02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_wallcolor2
+    second: {fileID: 2100000, guid: e05b2b94aa10147cd88933321e0455ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_window01
+    second: {fileID: 2100000, guid: 4214e330328ca4c4580a0e0372de2a21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_window02
+    second: {fileID: 2100000, guid: 17f7e331dff934cd18b2c07330ce9973, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_window03
+    second: {fileID: 2100000, guid: e0ee9ab1ef154435191e9803963d8702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_window04
+    second: {fileID: 2100000, guid: 504c47eb1a31247388cb0895e53c268f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_window05
+    second: {fileID: 2100000, guid: 3bc1853ded28545348fb6ae3ec2988b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_window06
+    second: {fileID: 2100000, guid: fb33b58ec11dd489eb2625bdc41b4045, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_window06b
+    second: {fileID: 2100000, guid: cb40795a0121b4c8888531fe2cb74586, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_window07
+    second: {fileID: 2100000, guid: ba3fbfb1fd7124f0d9a6b9373d835898, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: raekojaplats12iv_window08
+    second: {fileID: 2100000, guid: f5e6e51bf0a7e405bab4cb031e517dc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: a64da137a92d54390a7af69af6c99abe, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

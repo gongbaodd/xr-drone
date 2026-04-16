@@ -3,12 +3,87 @@ guid: 4b0296a09b1154dfaa58a1bb4dffab93
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_KATUS_KAT_plekk_hele_ha
+    second: {fileID: 2100000, guid: 97b4168d896a6429ab4b37a69dbf51d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_aken1_aia_6_aken1
+    second: {fileID: 2100000, guid: 8a8e3499397fc40db96c7070ad1bed66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_aken3_aia_6_aken3
+    second: {fileID: 2100000, guid: 86d206d73beda435db8d8ad5b139c07c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_aken4_aia_6_aken4
+    second: {fileID: 2100000, guid: 6ce92bca1ad5a4fa7a0e41d96a9dafaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_aknakarniis1_Aia_6_akenakarnii
+    second: {fileID: 2100000, guid: 5ed74ccbb3d1a4e858cf560ce65802b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_aknakarniis2_aia_6_aken2karnii
+    second: {fileID: 2100000, guid: d11440037db2643f29d83b0edf4d19bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_aknakarniis3_aia_6_aken3karnii
+    second: {fileID: 2100000, guid: 28f0e90ee01b741919e51e4b93c71479, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_karniis_triip_aia6_karniis-trii
+    second: {fileID: 2100000, guid: cc384c794c01f43d6b27d02cd94ad68f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_korstna_auk_KORSTEN1-auk
+    second: {fileID: 2100000, guid: dfc00ce38cf864b0da0554b9cd126554, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_laudis_aia6_laudis
+    second: {fileID: 2100000, guid: a4ee939a274bf421596b621bd7a87667, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_pruun_aia6_pruun
+    second: {fileID: 2100000, guid: 4dbf54717a6484da98f89b9b48d3e8f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_sepis_aia6_sepis
+    second: {fileID: 2100000, guid: cbe0fbadaa33b4d67907fe91322bf120, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_sokkel_kr_hall
+    second: {fileID: 2100000, guid: 18eab4a0b076749d0880ec2db2665b41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_uks1_Aia_6_uks
+    second: {fileID: 2100000, guid: 5498901be2dbe42279b8a3e8a5d83902, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia_6_aken2_aia_6_aken2
+    second: {fileID: 2100000, guid: a47d85f9f9db74eff8e1ba5022e566c1, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

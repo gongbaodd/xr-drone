@@ -3,12 +3,462 @@ guid: 23a693289c74242fb8bba362795bfc43
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga4_katusekivi
+    second: {fileID: 2100000, guid: 28657018ec9e944ac897485a961cf08f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga4_laudis
+    second: {fileID: 2100000, guid: 5c9ed696e493843e18ad27102a694e5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga4_punane
+    second: {fileID: 2100000, guid: d1b5f446ccc9d4d40a537c52fa249ba0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_a1
+    second: {fileID: 2100000, guid: 6ae25763d5a6f41ab92bf0d80bfc3ea9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_a2
+    second: {fileID: 2100000, guid: e8057ccbd5e3d44d2b9c429037790a19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_a3
+    second: {fileID: 2100000, guid: c817f11fbbc1348e59b3da6edde35903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_a4
+    second: {fileID: 2100000, guid: 8334b11c1cd3542e1910faac2cda78a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_katplekkpun
+    second: {fileID: 2100000, guid: 4fad4f95430a44501ab7b58acfda663c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_lu1
+    second: {fileID: 2100000, guid: 2c821fbe4c5404f0b8e3cd2f8d8c670f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_lu2
+    second: {fileID: 2100000, guid: 8c7bb23b6b5664071bc515ee52c57c09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_sein
+    second: {fileID: 2100000, guid: 6d0b49b27a54a43ec878cdfddcf175ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_trep
+    second: {fileID: 2100000, guid: eff23b5b761c849e49b76555bd1eca99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_u1
+    second: {fileID: 2100000, guid: 68b3830ed6b62459a8ada1557b5bf1e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_valge
+    second: {fileID: 2100000, guid: a5327857fc0a84180ad1d2671f0559bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_varik
+    second: {fileID: 2100000, guid: d305cad4241504f9a9e477dfa5972a7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_4_zokkl
+    second: {fileID: 2100000, guid: be74c367d919048c7be00f92201ed239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_M8_karniis
+    second: {fileID: 2100000, guid: 00c2a39185ea1435e866e63815cf0d5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_M8_punplek
+    second: {fileID: 2100000, guid: 1103af74cc8cc40cc9384746c9b9a740, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_M8sein
+    second: {fileID: 2100000, guid: 3ace20ba816b14b61b4832360e52dfb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_a1
+    second: {fileID: 2100000, guid: 64c94e60adac04398885be36e75aef69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_a2
+    second: {fileID: 2100000, guid: 8c4cad672be69456b895e99a29b4571e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_a3
+    second: {fileID: 2100000, guid: c5919eac5500641b2bf0261bffebfbef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_a5
+    second: {fileID: 2100000, guid: 9bf10284c8a5b40bbba8943e10ef62cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_kat_hall
+    second: {fileID: 2100000, guid: eb6e827aeee8c49f88f610b1f4488dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_kat_plek_hall
+    second: {fileID: 2100000, guid: fbd0389ef20f946778b377930fdc9216, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_kat_plek_pun
+    second: {fileID: 2100000, guid: ea52ee78fee624324afa1f8b2735ca07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_laud1
+    second: {fileID: 2100000, guid: acffadba021464b08bcdccfafc640622, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_sein
+    second: {fileID: 2100000, guid: 2aa8cf5a700174391be5384f7ddb66f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_trep
+    second: {fileID: 2100000, guid: 4c8c7520365e24281908ad6cd29206a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_u1
+    second: {fileID: 2100000, guid: 18a670979471a407e8f23ad7b1df1319, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_valge
+    second: {fileID: 2100000, guid: 30d7ea1dad0f54cbdabde2f3b7e0b1a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_varik1
+    second: {fileID: 2100000, guid: 1dca7054c371f4a899f715b90d257d8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_varik2
+    second: {fileID: 2100000, guid: 9e9c113b262c0499d844eadc4e5783da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_viil
+    second: {fileID: 2100000, guid: b6e8a454fcf8a4e949645e0ecf27d30f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_6_zokkl
+    second: {fileID: 2100000, guid: fdf796a681c2e44e5be3646735da9e9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_20_sein_sinine
+    second: {fileID: 2100000, guid: 12f3238daf1bf4145ba73b006bb0f3f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_20_u6
+    second: {fileID: 2100000, guid: 2a70eb745fe7c47fbbeb905f51278e6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: munga_4_a06
+    second: {fileID: 2100000, guid: 3eeaa23dbbb6b4499b6e223bb2cc34d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: munga_4_a07
+    second: {fileID: 2100000, guid: ee64c26d7de634b84b1086ef6b50edb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: munga_4_a08
+    second: {fileID: 2100000, guid: fa55669cb4e06423999791c9ca4dc80c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: munga_4_a5
+    second: {fileID: 2100000, guid: 4a177bee9db98422e9ad8ea532da7aba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: munga_4_korstnaplekk
+    second: {fileID: 2100000, guid: 840a3ccf7363241288008d1623001923, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: munga_4_msut
+    second: {fileID: 2100000, guid: 2290b691468264a57856b42b74101918, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: munga_4_paas
+    second: {fileID: 2100000, guid: 768547d8122764cd3ac6a618af0eceeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_a01
+    second: {fileID: 2100000, guid: 3546b86e5a1784919afbfe47c66a8af8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_a02
+    second: {fileID: 2100000, guid: 2a24f6e5810fb4ea6bad32f6cf65df9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_a03
+    second: {fileID: 2100000, guid: 79dc8f42bbd01471881b0e76345533d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_a04
+    second: {fileID: 2100000, guid: 3c369b66cf9224f3f9042a0f76f695c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_a5
+    second: {fileID: 2100000, guid: cf25bead6cffa42739c22618ff5edcd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_a6
+    second: {fileID: 2100000, guid: f912d362a92e849d98cb8bcdfa22cc95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_a7
+    second: {fileID: 2100000, guid: 951f287c1554e4f1188e923d16ac7bbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_a8
+    second: {fileID: 2100000, guid: ec56934b702be44099d56ea8c1c8c424, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_akel1
+    second: {fileID: 2100000, guid: d9ca6225dee764b5b94f5ef98da2c0f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_avitriin
+    second: {fileID: 2100000, guid: 00712d7852a854db084f59d3744f2ccb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_avitriin2
+    second: {fileID: 2100000, guid: a5e9c977629a244d1a1c5b5dcf253aa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_hall_plek
+    second: {fileID: 2100000, guid: cc9b85859a4c2442ca13b3e7f205e77c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_hv1_1
+    second: {fileID: 2100000, guid: b6a003a639d7d40fd892df62cbd7a5a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_hv2_02
+    second: {fileID: 2100000, guid: bf7b6d761c84247879e112fd1bc55302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_hv2_1
+    second: {fileID: 2100000, guid: af4b957a3046e40f49d698125739df9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_katplekk_hall
+    second: {fileID: 2100000, guid: 81bbba0e91252490b8a758b7f1cffe7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_katusekivi
+    second: {fileID: 2100000, guid: 39a2d791ad767441a9cbd45d5b023320, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_katuseplekk_pun
+    second: {fileID: 2100000, guid: d2d7c6d777dd3448ca41f0476ae1adc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_punane
+    second: {fileID: 2100000, guid: 6702257a80c92411a9ef6a3216fe0503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_sein
+    second: {fileID: 2100000, guid: 90826e5d1d4fe480ca6deb9868fe89ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_sein_valge
+    second: {fileID: 2100000, guid: 3c0176a9634f04c4895b193cd6a07c66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_seinkoll0
+    second: {fileID: 2100000, guid: 73730570c12fc43c6b8eec4cd7097f21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_trep
+    second: {fileID: 2100000, guid: 36de9c44664154f4caac823c63fde288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_u1
+    second: {fileID: 2100000, guid: 0b65f709b1c414ebfbd13db9b34e5132, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_u2
+    second: {fileID: 2100000, guid: 06fba816be87c40f68a98c1a1c44e8d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_u3
+    second: {fileID: 2100000, guid: 139d4f374ea2343aebfd129dc2c48681, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_valge
+    second: {fileID: 2100000, guid: 5173455b75a2c4636be3170a3401716b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene20_varikand
+    second: {fileID: 2100000, guid: 687e4aedf6c9e4f258e52ffbc7de5ed4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_a09
+    second: {fileID: 2100000, guid: 968961b0eb24e455497f726a903032f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_a10
+    second: {fileID: 2100000, guid: 022b1abea03484fa29f806d9d81c2d37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_a11
+    second: {fileID: 2100000, guid: 2af56dbeffbcf4ecc95994dddb6b25be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_a12
+    second: {fileID: 2100000, guid: c0b5f4161c84f4efe988ba234cf25676, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_a12_alumine
+    second: {fileID: 2100000, guid: 56865277da23f49c6af085d88e44f1b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_a13
+    second: {fileID: 2100000, guid: ed9b1558a860e44df93b7979f2566753, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_hv1_2
+    second: {fileID: 2100000, guid: f104f95b6cbac42c391002f2e9fc3960, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_korstnaloor
+    second: {fileID: 2100000, guid: 140194bf4ce92404da601d3bf4eeaa76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_nurk_paas
+    second: {fileID: 2100000, guid: 7b4da272005ac4d80a9ac9c1904a7b6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_pun_hoovifass
+    second: {fileID: 2100000, guid: 585edf35d6f4d43d6beeaa7ee715b09f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_sein_pun
+    second: {fileID: 2100000, guid: f5cb00ad925b645a1bd544bb092bf8fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_u4
+    second: {fileID: 2100000, guid: 4d32233808009410fa207133192aa872, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_u5
+    second: {fileID: 2100000, guid: a667a1b2ab70a40afadcf9c751b36401, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_uk01
+    second: {fileID: 2100000, guid: 45f5f53a4f9da4779b3b9bc79de25c5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_varav
+    second: {fileID: 2100000, guid: 045f529d337554e74bdffa586047c67d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_vkaar
+    second: {fileID: 2100000, guid: 5eaf8b1776ec447109975bfe1448fe17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_20_zokl
+    second: {fileID: 2100000, guid: 53a8785691d3546bab65ddd363e11e6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 10929d3eb1b31435cb1b1a657024323b, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

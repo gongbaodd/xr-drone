@@ -3,12 +3,47 @@ guid: 9ad769506430c410ea3cece8bea71110
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_1_TK18e
+    second: {fileID: 2100000, guid: 864b2a71db4a5416985164fc3ae4a400, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_2_TK18e
+    second: {fileID: 2100000, guid: da3394b32e3fd4c12a73a37ff5b810e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_3_TK18e
+    second: {fileID: 2100000, guid: 3d4d6a6fbbcff4286b932075f149aef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_4_TK18e
+    second: {fileID: 2100000, guid: 4b77cedc53f00467b84f31f8874ba7cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KATUS_TK18e
+    second: {fileID: 2100000, guid: e7256bfd9beaf44c6bce47876a1b2e5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTEN_TK18e
+    second: {fileID: 2100000, guid: 8b398f7d4e85a439cb264ad2ec000bd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP22a_krstn_peal
+    second: {fileID: 2100000, guid: ef2c5d3433fcb41549ce1a0927365173, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

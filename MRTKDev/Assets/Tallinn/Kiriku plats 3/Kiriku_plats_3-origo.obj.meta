@@ -3,12 +3,132 @@ guid: a031bd8156686423a9104ff5aeaa18e1
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kirikuplatz_3_2_aken
+    second: {fileID: 2100000, guid: 93b184f71289147ba87ace618fee481f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kirikuplatz_3_korstna_ots
+    second: {fileID: 2100000, guid: 4f49653de162d48d7a3d24bb0aac94e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_100
+    second: {fileID: 2100000, guid: 7ab96874df5b745bb9fac724a8e20e28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_2seAknad
+    second: {fileID: 2100000, guid: 3eb7c49712a8a4b7ba35277e0340f807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_2se_Aknad_2
+    second: {fileID: 2100000, guid: 2c56477f426b64014aaae09cc452e037, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_Default
+    second: {fileID: 2100000, guid: 3cfb054638af94503a6575cfcb5653f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_aken1_Parem
+    second: {fileID: 2100000, guid: 100103d56968a4e4794a9ae1ff20e677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_facade
+    second: {fileID: 2100000, guid: 5e8b75d8ecc2e4246b4939cfaaf5d9e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_hoovi_kylg
+    second: {fileID: 2100000, guid: 878be7deb97404a0bb1eea4149ff791e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_katus
+    second: {fileID: 2100000, guid: 08d251839e04341009ccb4ead574c351, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_katuse___red
+    second: {fileID: 2100000, guid: e539551e3b2004330a9c801be49d9159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_myyr_Uks_Vasak
+    second: {fileID: 2100000, guid: d8592b1f3e7ee4a0faff33dde40cbf0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_myyr_uks_parem
+    second: {fileID: 2100000, guid: d49bbc1809ae14dd6b1c83fb5f64c0a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_red
+    second: {fileID: 2100000, guid: 32b76796aaaa14c5792561cbc2f8f167, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_sokkel
+    second: {fileID: 2100000, guid: 0837e2cf2ae87476d8e82e69e9bf1979, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_uks1
+    second: {fileID: 2100000, guid: 55bba0dcb05c84b8fa3481c377e06adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp3_vintskapid_2
+    second: {fileID: 2100000, guid: 5d5857f375c824181b9600f40a025cfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kp_3_katus_2
+    second: {fileID: 2100000, guid: 49e1c5d5373f14fefb7cd4299fa7ace7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kplatz_3_a2
+    second: {fileID: 2100000, guid: 36819d89cd46e400ea04dc6b0c49a869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kplatz_3_hallplekk
+    second: {fileID: 2100000, guid: 96d44bd9559254d78af9c67177f1a956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kplatz_3_laudis
+    second: {fileID: 2100000, guid: d396aae91cfa0444e87d81efa5284f24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kplatz_3_traste
+    second: {fileID: 2100000, guid: 577bd449cb4f04856b97f0341709bc9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kplatz_3_uH
+    second: {fileID: 2100000, guid: 5c57828a5f50147a5afbd924c5abbdf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: c380641721b334545870a563ac887b00, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,112 @@ guid: f2c85b3e1d6104aebbca8cf0884656ab
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_Door01
+    second: {fileID: 2100000, guid: 01931895445bf4aee8dcc5a6c984b7f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_Door02
+    second: {fileID: 2100000, guid: 0f4c68a29372c4ab7b5b943ecf299fa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_Door04
+    second: {fileID: 2100000, guid: 2a21482f8b3514406b6d0fa37d9b33ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_PlasterBrown
+    second: {fileID: 2100000, guid: 0dc70301afc074efdafb2a7c477108a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_PlasterGrey
+    second: {fileID: 2100000, guid: 8a578f59ff9004348915b9b63664aa49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_PlasterYellow
+    second: {fileID: 2100000, guid: 581d62db64d9c4766b41a6cd6da53547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_Roof01
+    second: {fileID: 2100000, guid: 6e7c138eebe1b4795be81081a509b23e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_Roof02
+    second: {fileID: 2100000, guid: e81d8e726c2094fb893cebca62d55b1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_Slate01
+    second: {fileID: 2100000, guid: bbb211ffa7525478897d69a80125b46d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_Window01
+    second: {fileID: 2100000, guid: 7d411d14a7f724a419d2d9e1106a711f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_Window02
+    second: {fileID: 2100000, guid: 8a5174b0c7e6d456794a4a7b5401a528, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_Window03
+    second: {fileID: 2100000, guid: 1e6e44b16859a475398fe00069885888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_Window05
+    second: {fileID: 2100000, guid: 6f21db6eaaeac45ff8d30106cb98ed13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne9_aken01
+    second: {fileID: 2100000, guid: bb0a31b01eb15426cb401a8704e43f1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_9_karniis
+    second: {fileID: 2100000, guid: f3e0856b9cdf14f0f9d9fa24b92b1977, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_9_krohv_vlg
+    second: {fileID: 2100000, guid: 73417a7e24ba34183a35427d105d74cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_9_sepis01
+    second: {fileID: 2100000, guid: 4ca7af277fe3c4c1285b764ae7d86619, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_9_sepis02
+    second: {fileID: 2100000, guid: 7a0b394b35acc441d8eed08b5958ba96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne_9_sepis03
+    second: {fileID: 2100000, guid: a1473d5e8bf4a4752bf724bd5a77e9e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: ea670fab1cabf419f99afea73093793d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

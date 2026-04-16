@@ -3,12 +3,137 @@ guid: ef4e822a1f0a144b39f71295b938556b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_1_2
+    second: {fileID: 2100000, guid: ff1025438b5814fb2a8430219ca49f97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_1_3
+    second: {fileID: 2100000, guid: e9072c7d30da646948881d8268b9e9c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_Kts
+    second: {fileID: 2100000, guid: 6913a7f173dac4c2287db80de31aaa85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_torn
+    second: {fileID: 2100000, guid: 421a9f63fed1b4f45aefdcd611ba213a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D1
+    second: {fileID: 2100000, guid: ff4d2059d5d9a4fc7be085b34929ad4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F1_A1
+    second: {fileID: 2100000, guid: d5527f4f4931d47caaa0ad1e7d684009, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F1_A1B
+    second: {fileID: 2100000, guid: e2705d622f2ea4356a0d4e71a88cbf65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F1_A1B2
+    second: {fileID: 2100000, guid: 50820344621bb4a36a0f45c4c70c30f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F1_A1C
+    second: {fileID: 2100000, guid: c0d569da0b92342d994bfd43135fb033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F2_D1
+    second: {fileID: 2100000, guid: 6ab8d69cde5e5466ea3583f526f42705, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F2_U3
+    second: {fileID: 2100000, guid: f3ded4bd87a2e4afb8279a9d3e4c32a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K_Plek
+    second: {fileID: 2100000, guid: 0c415819961f24cc6a23649914004628, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Katus_Kivi
+    second: {fileID: 2100000, guid: 963945b73a1464d0ea504ef6343a6e60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kivi_trep
+    second: {fileID: 2100000, guid: df314c56f8bdf4ed192c7ea5e9d7f1a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kol3
+    second: {fileID: 2100000, guid: 230433804fac6493087a2cd316b7a735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kol_1
+    second: {fileID: 2100000, guid: de29c37cd9876454691e5fc02a7635b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kol_2
+    second: {fileID: 2100000, guid: f44e43c3e32de4d6fb81eb296372bcee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PKivi
+    second: {fileID: 2100000, guid: ac76f7563d8b847889f6e39c327b7537, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PKivi2
+    second: {fileID: 2100000, guid: eafc4c59496234adfab8784e09446551, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PuitR
+    second: {fileID: 2100000, guid: 430d25a1f82a148cdaa374b50a56088d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sokl
+    second: {fileID: 2100000, guid: aad189d3d8a7f4f4286d102b4aad43eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_1
+    second: {fileID: 2100000, guid: 20b04bd9e8ce149c5ac276da1c4fd005, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_2
+    second: {fileID: 2100000, guid: ecaefab20cbef42fe81fdc8acbd23354, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 8a93dc6c32c80454c99433f44133237c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 0ab4f9862ca1f47c3891df2a39df5798, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,32 @@ guid: 733da5b790de84c179d898c7130dfdda
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK5_katus
+    second: {fileID: 2100000, guid: 7a1901ce925a04d7db96c87f3f2985c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_5_plekk_katus
+    second: {fileID: 2100000, guid: 007176459439b44a5b61507898da540a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_5_roosa
+    second: {fileID: 2100000, guid: 80dde8eb85d0047859cb41586cae8fcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxxx
+    second: {fileID: 2100000, guid: 99fdfc16d570342fb99d6a09c5b537d5, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

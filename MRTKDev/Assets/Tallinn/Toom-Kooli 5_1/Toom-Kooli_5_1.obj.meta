@@ -3,12 +3,52 @@ guid: b25a33b5d863244c8a127ac77d3e5b51
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kat_kivi_valge
+    second: {fileID: 2100000, guid: d6cbb2bf837e54681978f17ffd9f6e94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK5
+    second: {fileID: 2100000, guid: dc1fa658fb895454591ddd99f5d34231, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK5_katus
+    second: {fileID: 2100000, guid: 412d05ea4e1c54034bfb82b6b80683b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK5_katuseaknad
+    second: {fileID: 2100000, guid: ec35089e85e1841098eba46e709854dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK5_korsten
+    second: {fileID: 2100000, guid: 638f97b8b68c5459b8fb67d70bc06879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK5_korstnaots
+    second: {fileID: 2100000, guid: 553d9b540c51c42b5b6ce7cf6b0c7acb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_5_roosa
+    second: {fileID: 2100000, guid: bc1211010460d449a84a0aa1161c6d49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxxx
+    second: {fileID: 2100000, guid: 53766819eae14428f9b30d75ba24e9ea, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

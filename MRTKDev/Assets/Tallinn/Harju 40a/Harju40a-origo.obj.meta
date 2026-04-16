@@ -3,12 +3,62 @@ guid: 8ae3c577134ab4ff6901b1a3e3820287
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick_wall
+    second: {fileID: 2100000, guid: 18630811974d84d55941dc56d28160e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fasad_side_01
+    second: {fileID: 2100000, guid: 65212aa0ff5e249ce85d3ba4ca9b2cc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Karniz
+    second: {fileID: 2100000, guid: 85b248d07c311478d89f6c391424f63b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 2985ebf120af94eeba172b6dffced495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_dark
+    second: {fileID: 2100000, guid: 6bd953d2b80cb4fb1b5542b342b1ae35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_glass
+    second: {fileID: 2100000, guid: 1fd7331f91ab24f65979c35889eeb74d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_vertikals
+    second: {fileID: 2100000, guid: 059dd034ca1014d7c98d9db80917de7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SIDESofWIND
+    second: {fileID: 2100000, guid: d6473c402e7774a6e8d7506a3cd6d8ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _01
+    second: {fileID: 2100000, guid: 366bb9916b5b941feb564038ed7c6c99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2___Default
+    second: {fileID: 2100000, guid: 3558fe4f31c8c44e99efd363c3f297b1, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

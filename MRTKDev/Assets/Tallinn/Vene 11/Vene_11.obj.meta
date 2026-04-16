@@ -3,12 +3,87 @@ guid: 8783219cf06564c84bc1b1a52c2315f4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn10SG
+    second: {fileID: 2100000, guid: a0b58da02546947289d3c8b8ee43bbdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn11SG
+    second: {fileID: 2100000, guid: 87483d450a5c1414e95452195f2cc4e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn13SG
+    second: {fileID: 2100000, guid: bb25b5e703ce84390b79699b20191f3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn14SG
+    second: {fileID: 2100000, guid: 449aba9616bca4f8393e774ffe844599, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn15SG
+    second: {fileID: 2100000, guid: 0596e0007653945808d75977d26438b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn16SG
+    second: {fileID: 2100000, guid: 28587834ba9e54aae9a14421e9954eac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn1SG
+    second: {fileID: 2100000, guid: 8125f25e2525c489c8cb16c2b336f2cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn2SG
+    second: {fileID: 2100000, guid: 4019aee1964814eaf8a53eda35ba0ae6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn3SG
+    second: {fileID: 2100000, guid: c0d2da400f03247e7b80295dd5c914f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn4SG
+    second: {fileID: 2100000, guid: 49bf3f53bc7244b6c894dcafef89b800, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn5SG
+    second: {fileID: 2100000, guid: 193ff6cfc38df4ffb9fb18b3179832fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn6SG
+    second: {fileID: 2100000, guid: a7b07ee5de09d42cdb4b67f1dc681168, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn7SG
+    second: {fileID: 2100000, guid: 43312d53ceba14fe3a6728452b41c8ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn8SG
+    second: {fileID: 2100000, guid: d70abe5068f3b4a80ae5517b22bfdf89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vene_11_blinn9SG
+    second: {fileID: 2100000, guid: d8bd6d5d875164cdba7836ec299b7a4b, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

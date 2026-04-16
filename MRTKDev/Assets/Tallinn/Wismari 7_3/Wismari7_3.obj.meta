@@ -3,12 +3,52 @@ guid: f1f96edb91b9b46829d2870e60f14170
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Door03
+    second: {fileID: 2100000, guid: 3ff92d7013ed64c8ea07c0e7c141c788, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Dormer01
+    second: {fileID: 2100000, guid: b68e898d7339b4802b4d7735352b72c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_MetalTin
+    second: {fileID: 2100000, guid: 8ce94a025be704f47865cdb26014ed7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_OrangePlasterWall
+    second: {fileID: 2100000, guid: 7a4889a0dfe7c4e7682ebc1e9e903622, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_PlasterWall
+    second: {fileID: 2100000, guid: a9a1712f991064d8597a9eaede3750e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Roof01
+    second: {fileID: 2100000, guid: 54e44d4a6718648e3b5ef726f1664abd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window08
+    second: {fileID: 2100000, guid: 8a9a1856106054648b7e954667760727, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window10
+    second: {fileID: 2100000, guid: dc701901c74614661970dfd24ed260a2, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

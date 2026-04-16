@@ -3,12 +3,32 @@ guid: 6a5d1fac74b2142b89ef2b9633497b34
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_23a_katus
+    second: {fileID: 2100000, guid: df798aac2850b4834a7719c2b3419c75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_23a_puit
+    second: {fileID: 2100000, guid: 00cd1d672a63346789ea4a8bbd50c0ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_23a_puit_laud
+    second: {fileID: 2100000, guid: 28578f1476d5a4a248443022499d1b98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_23a_puit_oranz
+    second: {fileID: 2100000, guid: b206aecbd991543d7bc3bd148be5e6ff, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

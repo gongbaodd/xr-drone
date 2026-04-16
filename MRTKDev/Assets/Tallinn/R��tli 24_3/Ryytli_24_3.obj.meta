@@ -3,12 +3,47 @@ guid: 34997a203b9b84023be92a3fbe86d84f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Grey
+    second: {fileID: 2100000, guid: cbc9d308297b747a8ab5c0121166a013, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door02
+    second: {fileID: 2100000, guid: feeafccc69b524209b6d42300979197d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Trim
+    second: {fileID: 2100000, guid: 5e593a77ac23f42b7a4032b371fa5207, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rollup_Doors
+    second: {fileID: 2100000, guid: b524675df15dd49d79757c6819063d40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Type1
+    second: {fileID: 2100000, guid: d2cf88f91735d42ca9cc06440362990d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Cream
+    second: {fileID: 2100000, guid: 34cfe5a9454e7466391b3a4260150543, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White_Paint
+    second: {fileID: 2100000, guid: 2f20c328d835e497c9ab37f60ecaffd5, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

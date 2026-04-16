@@ -3,12 +3,52 @@ guid: 2d0102df2e41f4bdfa5848e0d04c4faa
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP6_fass_1
+    second: {fileID: 2100000, guid: a992101b2357246f4bf4a5dc54105842, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP6_fass_2
+    second: {fileID: 2100000, guid: 4fe57d2dab87a4c77a63c7b6c7a73389, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP6_fass_3
+    second: {fileID: 2100000, guid: 47082f627791b45b1aec6b8bc2b5b1d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP6_katus
+    second: {fileID: 2100000, guid: eb64735e9c1e44212b85618bd7f1d410, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP6_korsten
+    second: {fileID: 2100000, guid: 1ffa148671c9740f1b3e5fc40da2ff6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP6_korsten_auk
+    second: {fileID: 2100000, guid: 661a9ef8955404d338c42f3ee95adfa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP6_raudpits
+    second: {fileID: 2100000, guid: 7d8d25c82dc9b44d7a26c9a167d6387d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 9ec0f888b9f06407fadd354baf3be56f, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

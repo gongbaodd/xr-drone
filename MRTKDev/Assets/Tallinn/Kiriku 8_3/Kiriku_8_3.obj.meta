@@ -3,12 +3,32 @@ guid: aaa4d9ec5bdb348ad8c5698bab7ddbba
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Dormer01
+    second: {fileID: 2100000, guid: fdd84184a54ec40cea001f2fd7bba81c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_OrangePlaster
+    second: {fileID: 2100000, guid: 62d73f2ed9e29469cb4c573199deaeb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Roof01
+    second: {fileID: 2100000, guid: 3ac841d8cc05a48ae92e8a4e8bd9afd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 9537647dfe62a4b4a9145977a88e828d, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

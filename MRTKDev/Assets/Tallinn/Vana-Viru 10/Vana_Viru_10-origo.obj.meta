@@ -3,12 +3,242 @@ guid: 674e4cba3034146a49e787b0b387d08d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Paint
+    second: {fileID: 2100000, guid: 6cd174dea1e814e3a9229aec24437a54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_aken02
+    second: {fileID: 2100000, guid: cb94357089f5e40e9876488c518f3fa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_aken03
+    second: {fileID: 2100000, guid: f824a58cd95874d4ebdaec7e55aec6ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_aken04
+    second: {fileID: 2100000, guid: d9e61b6f273ca4b2f967765996d2f7ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_aknad01
+    second: {fileID: 2100000, guid: adb5c8354e49f4dc084ad8f445d5fc68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_avad_vana
+    second: {fileID: 2100000, guid: 5acd6a6ccf757476e8da4f1d29ccf6cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_dekor01
+    second: {fileID: 2100000, guid: 880c9a3eb0a2e4c5bbf5a6642a7ade46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_kapp
+    second: {fileID: 2100000, guid: d0092b32545bd4d96a3e832578aaff5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_karniis01
+    second: {fileID: 2100000, guid: 48896a3c44e5d4810b28f1bf4d928112, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_kataken
+    second: {fileID: 2100000, guid: dfcbfb28c32354ab190b86b42a4995d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_katplekk_tume
+    second: {fileID: 2100000, guid: 1e827a2a599aa4f7e940e40bdde41961, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_kivi_katus
+    second: {fileID: 2100000, guid: 661233b2095324209aa45cc2d5714a3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_klaas01
+    second: {fileID: 2100000, guid: fb1ff4621dbb6431d9a35ffe9085477a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_klaas02
+    second: {fileID: 2100000, guid: 04dbe2de77ce944bdacc6c135a54da0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_klaas03
+    second: {fileID: 2100000, guid: 89b4edb3cadb84ba384886da16539960, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_kotkaskere
+    second: {fileID: 2100000, guid: 07e2726fbe7d24470bbb08c8deb4ab72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_kotkaspea
+    second: {fileID: 2100000, guid: 210db3d0ca07047c7ba74f5794c80ef0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_kotkastiib
+    second: {fileID: 2100000, guid: cde2413a57b3c43a5a604cda443f8a61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_kr_sinine
+    second: {fileID: 2100000, guid: 9b873301a5131458d9040ffd935b9005, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_kr_tume_roosa
+    second: {fileID: 2100000, guid: 033c931e6119843eea12ad9b0eb75ef1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_krohv_hall
+    second: {fileID: 2100000, guid: d30c974612b9d489f932821491f9de5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_krohv_roosa
+    second: {fileID: 2100000, guid: 1cc22939bf1654ca38ed1bcf7ed3749b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_krohv_valge
+    second: {fileID: 2100000, guid: d1b6bd324d080417d913db99f170f928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_krstn01
+    second: {fileID: 2100000, guid: c7f7eeff9b4be4b439437d5873a85d32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_krstn_auk01
+    second: {fileID: 2100000, guid: a367aacf83b57439bae2294c42ef32f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_kuppel
+    second: {fileID: 2100000, guid: 17c3f6b1689754b1c8a1c4249a2e1d5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_laudis01
+    second: {fileID: 2100000, guid: 44eea0fc5aa4f4e69b46d3ec6a47bc99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_muusika
+    second: {fileID: 2100000, guid: 3f5e27ad61497458ca727ea0032aace6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_paekivi01
+    second: {fileID: 2100000, guid: e5fe8c0ffcc34491e810ab566f8c8ed7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_piire01
+    second: {fileID: 2100000, guid: f076395e1e00149a7bdd15970871bf9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_piire02
+    second: {fileID: 2100000, guid: 41cc8965438ab40ef84138b59bd9e11f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_piire03
+    second: {fileID: 2100000, guid: eb0d1aedad2954af68750ac38f96d12e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_plaat
+    second: {fileID: 2100000, guid: 5e3c2a1cef16f4818937dc091812ef45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_plaat02
+    second: {fileID: 2100000, guid: 3dedc2711ddb042dc8f8990fecce23be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_plekk_hele
+    second: {fileID: 2100000, guid: 981f3247b6b7e45389ce8031d860491e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_post
+    second: {fileID: 2100000, guid: 10242dd5afc724880a58a36d61d5a682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_pronksikas
+    second: {fileID: 2100000, guid: 0bfd647bcfd0e4592940f422bb5c8040, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_pruun
+    second: {fileID: 2100000, guid: a2eece062a74c42dbb4d7e1c1ae3f978, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_pun_plekk
+    second: {fileID: 2100000, guid: e3b8ec443fbde4b64a374db07946bb0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_saht01
+    second: {fileID: 2100000, guid: c755f9436f4044c5fb0da3962b67e267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_saht02
+    second: {fileID: 2100000, guid: 53467365a29f047d2a58e4505c4eb2a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_uks01
+    second: {fileID: 2100000, guid: b3373783f2ed04a55908a6a9e186e1d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_uuk
+    second: {fileID: 2100000, guid: 8912b6077dd554fc19f725b55a3d87e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_vaateaken01
+    second: {fileID: 2100000, guid: 915e7299f6c464fea815320d5958ce29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_vaateaken02
+    second: {fileID: 2100000, guid: 412608b5c48f849bea98c1ae63ed686e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 43985e40199d5407e84ff1fe7a2289e4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

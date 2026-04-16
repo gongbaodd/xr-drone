@@ -3,12 +3,117 @@ guid: 56016921bf8ab43f1bda27fa23fad8e0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP7_katushele
+    second: {fileID: 2100000, guid: a7235cd430bf043b6b7296b3a2ddf303, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP7_krohv
+    second: {fileID: 2100000, guid: 96476b40f15604c1788697f9951eb766, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP7_white
+    second: {fileID: 2100000, guid: 82f4b6f5491b9494380f04d1a0d34301, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_7_uks_balkon
+    second: {fileID: 2100000, guid: 21fbf4da036cc4a49a5cf6a72f1b929c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn10SG
+    second: {fileID: 2100000, guid: e5110b11df5764eeda425a1c57320cc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn11SG
+    second: {fileID: 2100000, guid: 08b3ed02976f54eac91e18851f31e362, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn12SG
+    second: {fileID: 2100000, guid: cb7cadd918b584f1cb27373a52cb3bfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn13SG
+    second: {fileID: 2100000, guid: 67f2eef11be6e47608e671237ac6d429, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn14SG
+    second: {fileID: 2100000, guid: 1c3a23c0f00e8428f95069a2c37319f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn17SG
+    second: {fileID: 2100000, guid: d60f4ea7910f149459bb1bfae552cba1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn18SG
+    second: {fileID: 2100000, guid: 918a102275fa34a0b98b9ef5e22153e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn19SG
+    second: {fileID: 2100000, guid: 930b57e84e0da47e694724b1867e4193, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1SG
+    second: {fileID: 2100000, guid: 4a60476f79a2a4fa1a4c7329bb54f374, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn20SG
+    second: {fileID: 2100000, guid: 13737324989214682a4c5e831e5b8b90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn21SG
+    second: {fileID: 2100000, guid: 8058915dc5e5446ab885e929201013f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn5SG
+    second: {fileID: 2100000, guid: bf59d7ab48318434d846b79e4fcee0d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn7SG
+    second: {fileID: 2100000, guid: 5d343af02287b4d1ea2634c9a844e3d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn8SG
+    second: {fileID: 2100000, guid: 4318996a8d11d41c8b34e2f26a99f0fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn9SG
+    second: {fileID: 2100000, guid: d00151e31e94141cea1a159bcc003b66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus_pun
+    second: {fileID: 2100000, guid: 6653834b8ba704dcb87d4ca1a6105034, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus_valge
+    second: {fileID: 2100000, guid: fedeb7dfac16f476aade4786425cb7dc, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

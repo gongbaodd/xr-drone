@@ -3,12 +3,182 @@ guid: e4c8b43c6c384439c8ee17156051567a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_55_dsc0119
+    second: {fileID: 2100000, guid: 6f2fb9710cf944f719c42e8f29978d4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_55_dsc0120
+    second: {fileID: 2100000, guid: 4b56f7d05f5134b65a9868cc6398822e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_55_hrohv01
+    second: {fileID: 2100000, guid: 97951f766306549cdb032c611bf284d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_55_krohv02
+    second: {fileID: 2100000, guid: 0874373b5ab254425b9cc3216d558569, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_55_krohv_green
+    second: {fileID: 2100000, guid: 10a3efdc0ade84b3bb0b7c892fb03dd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_55_krohv_vlge
+    second: {fileID: 2100000, guid: 5d2495e10d5994713bc7c11eaafccfc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_55_krohv_yell
+    second: {fileID: 2100000, guid: f6c68fa68094841d389977f192812b2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_55_roof
+    second: {fileID: 2100000, guid: d0a9ae869ad5c40168506a9500b5585a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_55_vintsk02
+    second: {fileID: 2100000, guid: c1e1fa614622340148557d9f0c631990, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk53_aken10
+    second: {fileID: 2100000, guid: b712eeffe79e247fc97f413e91a7aef1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk53_betoon
+    second: {fileID: 2100000, guid: 7d61a78b34cd54e42947b9637bf70a28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk53_karniis
+    second: {fileID: 2100000, guid: 03bceb01a051248e1a160c4aa238c821, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk53_uks
+    second: {fileID: 2100000, guid: 6ffe2bbf475a64aa393b6c9439acbca6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk53_uksserv
+    second: {fileID: 2100000, guid: 1e71dc7c7f9b643a88884a9dffa745e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk53_vintsk01
+    second: {fileID: 2100000, guid: 2525ab0b4030949bf98d48e8ad9724df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk53_window08
+    second: {fileID: 2100000, guid: ae9dc2422e407459992e332d3b093638, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk53_window_09
+    second: {fileID: 2100000, guid: 6991a045b37d149f8b1276ae61105536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_aken01
+    second: {fileID: 2100000, guid: 06936dafd8cf54541b909322d570a6d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_aken02
+    second: {fileID: 2100000, guid: 899920e6382d048abb2bae2ff33915de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_aken03
+    second: {fileID: 2100000, guid: 9569bdf9a46564e47a3058f960206e0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_aken04
+    second: {fileID: 2100000, guid: 8557599117dc44299b1c20bfea14b7d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_aken05
+    second: {fileID: 2100000, guid: c46e7b2071c784439a433b5155e2c0bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_karniis02
+    second: {fileID: 2100000, guid: 5be42dbc32aa1482bb78538d84e82240, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_karniis03
+    second: {fileID: 2100000, guid: b11f7b0ad5a864ecaab13cdae5ecdab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_karniis04
+    second: {fileID: 2100000, guid: 26c893ffcbeb543c2a0d5c0ce7fd15ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_kataken
+    second: {fileID: 2100000, guid: 5ed9b854b4f4c4de1876b3e834e886d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_kivid
+    second: {fileID: 2100000, guid: 5f97ed960dc1148cf848f991b59d9683, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_luuk01
+    second: {fileID: 2100000, guid: 427f74951d71f4fe0b609d24706e3f8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_luuk02
+    second: {fileID: 2100000, guid: 8ea5b4c6609614f0b8c8bc3b1e1cf82d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_luuk03
+    second: {fileID: 2100000, guid: cabf3a104d7764506b483e870e2f949f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_plekk_hall
+    second: {fileID: 2100000, guid: 1c2bf57531cf848dbb6a80ae70ea6de4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_plekk_punane
+    second: {fileID: 2100000, guid: fb8e812d52e594377a283966c173296f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_uks01
+    second: {fileID: 2100000, guid: b96d22a6522f0412a9ece04125f74dca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk55_v2rav
+    second: {fileID: 2100000, guid: aca2d4000259543f88764451ff729309, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

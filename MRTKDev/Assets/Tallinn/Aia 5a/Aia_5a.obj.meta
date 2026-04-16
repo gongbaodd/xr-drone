@@ -3,12 +3,137 @@ guid: 48753f8100c314dfabdb092a46d4e366
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia5B_Sign
+    second: {fileID: 2100000, guid: 299651b8968414edaa4ffe12432ec4a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick_Strips
+    second: {fileID: 2100000, guid: 6347d65c2805e499d835254cb8fd432f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Grey
+    second: {fileID: 2100000, guid: c62bbcb0c638c4df8bedbdd704c251c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Type_7
+    second: {fileID: 2100000, guid: 50f299e22fd7e4ccba2a34da0bd233c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Type_8
+    second: {fileID: 2100000, guid: b260433a6f12b4bf38858c9ce156fa13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Double_Doors_Type_2
+    second: {fileID: 2100000, guid: 7437bf33946774c09a1633ee32af79ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Double_Doors_Type_4
+    second: {fileID: 2100000, guid: 11591760164944985bcb38337bacd4e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray_Bottom_Strip
+    second: {fileID: 2100000, guid: 5c2a6d52e2879455d84dccbc28b4092a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pink
+    second: {fileID: 2100000, guid: 1e17b9a0aead84a6d96f053cf4b5c442, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roller_Door_Type_1
+    second: {fileID: 2100000, guid: 610dc1fb5fd4b443ebad5695527c0f64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rollup_Doors_Type_2
+    second: {fileID: 2100000, guid: 8ef79296560294da5a16e829dbf3fb62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rollup_Doors_Type_2_Clr
+    second: {fileID: 2100000, guid: 5d00fa1912d064489891297a86033740, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Light_Gray
+    second: {fileID: 2100000, guid: 692a18f5b03114c588876585d503f860, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Windows_Type1_
+    second: {fileID: 2100000, guid: 38b0b02e5218543c89853bfff1bfd5bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Windows_Type_2
+    second: {fileID: 2100000, guid: 6fce8dabbf98e485ba57ae74fa2971c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Step_Color
+    second: {fileID: 2100000, guid: 6a90d2d4cbcc94dbeb746278159d251b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Gray_Rough
+    second: {fileID: 2100000, guid: 994a58818b9b04866bd7082f0fd5e3fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Light_Gray_Rough
+    second: {fileID: 2100000, guid: 3f935a0069299450a9e632c1af8c2551, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Orange
+    second: {fileID: 2100000, guid: 20c773fd58a454b9ebfc64db93d24183, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 154fb5a467db84e9bb62642277427ad5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type_10
+    second: {fileID: 2100000, guid: 4b85b20f49e3e49caa8ac458b9f09be2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type_11
+    second: {fileID: 2100000, guid: 08ede845a683c48eaa0f3c1b2306e70b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type_12
+    second: {fileID: 2100000, guid: 943ff76937a484eae86a91900f4de093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type_16
+    second: {fileID: 2100000, guid: 08a6b907b2c0a461ba3269bbad587b08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type_4
+    second: {fileID: 2100000, guid: 9229652708c284b8592d38928529dadf, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

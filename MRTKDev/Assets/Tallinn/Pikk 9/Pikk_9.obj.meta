@@ -3,12 +3,142 @@ guid: c9e0fe19dc29d43409db072b9a003b5a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_1seAken
+    second: {fileID: 2100000, guid: 604ca0e364b9c43d88cf7241ac0168b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_1se_Akenluuk
+    second: {fileID: 2100000, guid: 76d4aa16e0abf46b4aae4cec54e3ffa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_2seAken
+    second: {fileID: 2100000, guid: 5bbf36e659bc142fab6f3b2d7f36e29a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_2se_aken02
+    second: {fileID: 2100000, guid: 239831eca68c54cb4b8abbfab6039b2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_3nurk
+    second: {fileID: 2100000, guid: 56bc3cdcca9a84d4990029e338cfb6a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_FASS_01
+    second: {fileID: 2100000, guid: 03b48035a402d425d9390bf50b8388d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_heleplekk
+    second: {fileID: 2100000, guid: 54d26f8f3d36249d2b6bed66c7d91a87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_karniis
+    second: {fileID: 2100000, guid: 6f00c19e1bfbe4096a292bad1f51171e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_katus
+    second: {fileID: 2100000, guid: b35e0d55f0006402fb3eb3b0c4283bea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_katus_plekk
+    second: {fileID: 2100000, guid: 70b24653aed40478188d38ac4ff9ac91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_katus_plekk_V
+    second: {fileID: 2100000, guid: 23c345c372f034bd183d1e27094c455f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_katuseaken
+    second: {fileID: 2100000, guid: 7cb30cfbd35834a6fbe7895269516429, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_katuseaken_2
+    second: {fileID: 2100000, guid: 403d0a02357a341988c5fcf02395ce2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_kiviFASS
+    second: {fileID: 2100000, guid: 5705ada15567149c4a3be43d3662365b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_korstna_ots2
+    second: {fileID: 2100000, guid: f59b7543ffb6d4f6d930d153b4dc7bd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_korstna_otsad
+    second: {fileID: 2100000, guid: 00f4cad7773ee4c19bf2e2921b63c4c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_krstnaotsad
+    second: {fileID: 2100000, guid: d7ecc28ab4ed241288a8ba8d00cf8670, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_lai8_f01
+    second: {fileID: 2100000, guid: 8a187eab8b42a4868a5ae6f473e755ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_lai8f_01
+    second: {fileID: 2100000, guid: 7b60f9a92f85f433e97b5a38ced96bbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_trepiaste
+    second: {fileID: 2100000, guid: 9eaaa1492fee04168977471e56694424, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_uks
+    second: {fileID: 2100000, guid: 14933c45a372f444b9c0427d8dbf1694, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_uks2
+    second: {fileID: 2100000, guid: 50cd28c51a99d4119a43324194ab2313, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_uks_varav
+    second: {fileID: 2100000, guid: 5cd235b1e5aa342f18106b2b3872e99e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_varava_kivi_2
+    second: {fileID: 2100000, guid: bb9821e2e167f4e84bc0675b5a790c12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk9_varavakivi
+    second: {fileID: 2100000, guid: 30f34de180970486bb1b19c1ea61c09e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: e804ad98a5930421eba50e34b0677585, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

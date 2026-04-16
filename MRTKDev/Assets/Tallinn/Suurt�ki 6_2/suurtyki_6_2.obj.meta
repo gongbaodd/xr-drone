@@ -3,12 +3,62 @@ guid: dec59df4857434b53ba7600ff9c48a53
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: c14ac0486586149e680f7f60704415e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KATUS
+    second: {fileID: 2100000, guid: 8dc16a599bb2a49c1af52eb75e186315, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LAUDIS
+    second: {fileID: 2100000, guid: 136067e6f9270496f8b8b495c971e3b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PRUSS1
+    second: {fileID: 2100000, guid: 3b32a975b53564169b3273d1939a386c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katuseLaud
+    second: {fileID: 2100000, guid: 9efe4f2d9fd35470dbfcd42ddefc60ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pruss2
+    second: {fileID: 2100000, guid: 5dd5e47cd5e9d42eca274086e3fae195, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pruss3
+    second: {fileID: 2100000, guid: ec4cf7f631032468d893e5a4976c9707, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pruss_ots
+    second: {fileID: 2100000, guid: 607092a3d6efc483992f1c868ce9376e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uks1
+    second: {fileID: 2100000, guid: 7fae4b48175f14c099b6d72ce92fafa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uks2
+    second: {fileID: 2100000, guid: f90ef43eec5024b2f8a07ab53bd2bf0d, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

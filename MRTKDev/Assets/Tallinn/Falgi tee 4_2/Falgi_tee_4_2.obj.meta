@@ -3,12 +3,42 @@ guid: 0d2746f81d2554bc88914a091ca9b2ca
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eastp
+    second: {fileID: 2100000, guid: 067852bec7de6429eb2936253a1da190, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korsten_suurem
+    second: {fileID: 2100000, guid: 59070ad0022724ce989b67de203f9385, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pisike_north
+    second: {fileID: 2100000, guid: ea896dee646cd4cc4a294e64be08b339, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pisike_south
+    second: {fileID: 2100000, guid: dbacbe8a6218747fc9dd0f9a99a9f626, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pisike_west
+    second: {fileID: 2100000, guid: 353a8a0fb42ff4eb18173fd4c08291fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tellis
+    second: {fileID: 2100000, guid: d50e560f416024c319a8de6c61f6d715, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

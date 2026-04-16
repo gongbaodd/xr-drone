@@ -3,12 +3,32 @@ guid: 4ac325ed0ee724bc7b06d1f0236904c8
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_stone
+    second: {fileID: 2100000, guid: eb567047fa3b34e739d378b11ebc0ef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone_plaster
+    second: {fileID: 2100000, guid: e3972294c412942e7a55c63acd4680d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_plaster
+    second: {fileID: 2100000, guid: 8f08aad1de9b14604b7ab1e951ea4b0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 589d5a0dcf77d48dda04d77d3e585843, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

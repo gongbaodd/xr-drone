@@ -3,12 +3,92 @@ guid: 73cc80815795b4c59954c3ec2a04e59c
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne8_aken3x
+    second: {fileID: 2100000, guid: f4bab4a3f77644ded91a10840eb77203, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nunne8_karniis01
+    second: {fileID: 2100000, guid: 2729f9dfc48ac45a29890190cda594f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_aero
+    second: {fileID: 2100000, guid: 4d2ba069e65c84b1dacb8bddcef01eb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_bricks
+    second: {fileID: 2100000, guid: b12a219a9886748d0af0ebc566e38bd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_brown_wall
+    second: {fileID: 2100000, guid: ad1edacfae3bd4e2985977eb163b5b71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_concrete
+    second: {fileID: 2100000, guid: c2c2317c290234d85af93c68edd00884, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_door
+    second: {fileID: 2100000, guid: e01206aad839a4f3badcd6d5ab741f5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_krohv_roosa
+    second: {fileID: 2100000, guid: 33a0b0274947244919a60a95b96c5f4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_krohv_vlg
+    second: {fileID: 2100000, guid: 2bfdaf443ed5b4fe78c6dad4ae0a221f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_plekk_pun
+    second: {fileID: 2100000, guid: f7b04a268b139437cb9d2ec9c70dd1d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_roofdet
+    second: {fileID: 2100000, guid: c957b5c27a2b943f3842722000d3f64c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_small_door
+    second: {fileID: 2100000, guid: 4f38838da66e940198648fb7457fa5b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_small_win
+    second: {fileID: 2100000, guid: d7f047f25bfc3432fac82b3ae1b230d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_win
+    second: {fileID: 2100000, guid: 7747c971c5a824c3e8cde2159ea38c8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_win1k
+    second: {fileID: 2100000, guid: 5cea96ca71bfa4216a7bfc929988811d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nunne8_win_half
+    second: {fileID: 2100000, guid: ed8fb603a70b54ec8b55599a22dadc22, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

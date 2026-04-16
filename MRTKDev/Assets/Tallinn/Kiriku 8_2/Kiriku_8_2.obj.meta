@@ -3,12 +3,77 @@ guid: d2275ac9459b54d659f821a8c69d35ef
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Door02
+    second: {fileID: 2100000, guid: 980792bffe3534930a9abe64897b4609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Door03
+    second: {fileID: 2100000, guid: 9dc056c13172b4ef8bb162abe29fda9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Dormer01
+    second: {fileID: 2100000, guid: d8026a7d8e9704483b7873d4ef4b5b69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Material__2
+    second: {fileID: 2100000, guid: b991d86c1bb0d4c4ca6da7bd225e6ebd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_OrangePlaster
+    second: {fileID: 2100000, guid: 1fe61d51fabb24b8fb3ac500990094c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_OrangePlaster02
+    second: {fileID: 2100000, guid: 1f1629fe4b7c047858883e2279f9b5e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_PlasterGrey
+    second: {fileID: 2100000, guid: 6a83d3003b42c41139e0e919fb2ba7c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Roof01
+    second: {fileID: 2100000, guid: 0ff0f93ca44414a23abe58b8baee059b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Slate01
+    second: {fileID: 2100000, guid: 9c4caa45059494e17aa4edf9758edbc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_WhitePaint
+    second: {fileID: 2100000, guid: 3b7b6870c33ff4b068236df935a29a2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Window01
+    second: {fileID: 2100000, guid: af60510112cdc4265864952ba1ff03a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_8_Window02
+    second: {fileID: 2100000, guid: b21d515d2dbef4c79858dcb14bee71ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 132399a3bcb38481485e553ecafe5eec, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

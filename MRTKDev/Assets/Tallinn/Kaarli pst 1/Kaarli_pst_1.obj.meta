@@ -3,12 +3,172 @@ guid: 4a70d4a090b9d4b46bf5810606a2017c
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asfalt
+    second: {fileID: 2100000, guid: 4915f2584f72d427788989351a1a4da6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PKivi_plaat
+    second: {fileID: 2100000, guid: ce44e3498e6034efead9d68315b7e592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKivimyyr2
+    second: {fileID: 2100000, guid: 661a6b1e186d54767baf9d316a6d1c84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soil
+    second: {fileID: 2100000, guid: 680928f4af06946de861117424c20609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TR_aste
+    second: {fileID: 2100000, guid: a113c98483ea946fcbacdc5dcfadbc12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TTbox
+    second: {fileID: 2100000, guid: ea9d59229e1f94803914fb74bfb34a73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_kivi
+    second: {fileID: 2100000, guid: 7b82a6d9060d74f51954e8533800186b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_kivi2
+    second: {fileID: 2100000, guid: 479b641edc2ac439085ce2d3db18c33d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_2
+    second: {fileID: 2100000, guid: 60ad1bcc6cef74d7b90d907f9b544e68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_raam
+    second: {fileID: 2100000, guid: 73140e303efbc4a35878dd4b610ca07c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beton
+    second: {fileID: 2100000, guid: f5d2043efb04540a589235ae1bf9b2e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glas
+    second: {fileID: 2100000, guid: 370b0b6aeb2fb42f7816c430bf602856, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glas_2
+    second: {fileID: 2100000, guid: c5c658e961f074635ad8fe5d446c583f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glas_3
+    second: {fileID: 2100000, guid: fe220581ef6c64c8c8427450055c4ad6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glas_4
+    second: {fileID: 2100000, guid: ddc6f8fc107f04bd7bf7dd1b2c36d296, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hall
+    second: {fileID: 2100000, guid: ee8ff941ea92347eabc0c04359a383a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi2
+    second: {fileID: 2100000, guid: c20da4f826f2b4f8c81e128d9542e986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi3_v2ljak
+    second: {fileID: 2100000, guid: 0f0f256c70daf47b3952e4759e8dc2ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi4_trep
+    second: {fileID: 2100000, guid: 9d702774821304e23ae44324237ea6c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi5
+    second: {fileID: 2100000, guid: 4ae1d1bad0e5348d39fb3c06f20b98c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi6
+    second: {fileID: 2100000, guid: 98d88540f388f400c924a5d83e03a68f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi7
+    second: {fileID: 2100000, guid: bb86059a198a7416886e9ff2794a1450, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi_10
+    second: {fileID: 2100000, guid: 121aad397ac094373be78f5638f35f58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivi_9
+    second: {fileID: 2100000, guid: dfde6ae9305534b3181e26abf2b0ce60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kiviplaat
+    second: {fileID: 2100000, guid: b566a8e5cee7741b6be209d5649cbd41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lift_v6re
+    second: {fileID: 2100000, guid: c5b0b274c59ff44d0b82fbb5e8c96e70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muru
+    second: {fileID: 2100000, guid: 01046249d06a84ab9bc83db7e489c98e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paekivi
+    second: {fileID: 2100000, guid: cb567345b4a6c413385993e831f7c7bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rail
+    second: {fileID: 2100000, guid: a3940706152a343948f4193edeefc74e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: text
+    second: {fileID: 2100000, guid: 3810237a5ec054ba6850592893fadaf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: text001_back
+    second: {fileID: 2100000, guid: 1ad7cda50c4804e169326a9aa3b4bb55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: e687aae98dd47460d91f72adf9c34fcc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

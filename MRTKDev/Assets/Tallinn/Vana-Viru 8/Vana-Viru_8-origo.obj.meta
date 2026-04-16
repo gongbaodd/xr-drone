@@ -3,12 +3,77 @@ guid: db97ec441c78d436aaaad5a50c95d168
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_BASE
+    second: {fileID: 2100000, guid: 6cc3a0c821834474f93e1a813f9e4cb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_CORNICE
+    second: {fileID: 2100000, guid: 427d39b8743da4275a4f22af45cf6a4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_CORNICE_2
+    second: {fileID: 2100000, guid: 7a3b92b8d204547889a19abf8f88b385, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_GLASS
+    second: {fileID: 2100000, guid: fc5df2fe85ddb4aa78a6acbfa4d86008, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_LOUVER
+    second: {fileID: 2100000, guid: 77abf8852059443518738af20297ffe2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_MAIN_DOOR
+    second: {fileID: 2100000, guid: b757f33634fae45749c27435653eeed2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_ROOF_METAL
+    second: {fileID: 2100000, guid: aea63bcfe3d1a47ee832eeef3041efa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_SEC_DOOR
+    second: {fileID: 2100000, guid: 5bcb8e95310184014ac4af622a4da11a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_SHOWROOM
+    second: {fileID: 2100000, guid: 121d78700bf954353a6a833367526a83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_STAIR
+    second: {fileID: 2100000, guid: d207da110d12f4d27861577c8e7a2269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_STUCCO_GRAY
+    second: {fileID: 2100000, guid: 7b14bcb38ba9744ba9087a9eeb93d49c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_TRIM
+    second: {fileID: 2100000, guid: a642107b87ce9424eb30740c1139185c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv8_katus_ruber
+    second: {fileID: 2100000, guid: 17c0dab6bdd174a8ebc805127f491c2f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,92 @@ guid: 4fd88ba3f258840b5a4aae79ca09367e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_01
+    second: {fileID: 2100000, guid: 48140275de259411381cc33056e17e67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_02
+    second: {fileID: 2100000, guid: c4852e0b2f6464c89a2c782d37fb1f2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_03
+    second: {fileID: 2100000, guid: b95f8dfb9de4c4cd681fa67e6d0d3132, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_04
+    second: {fileID: 2100000, guid: 2a965e1a677f84b2eb83e4441fd7ea16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_05
+    second: {fileID: 2100000, guid: b27fc822fe3c742a38ed610bab1725c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_06
+    second: {fileID: 2100000, guid: 6a5393eb7e3754ed1bbe3c2d7f18ccd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_07
+    second: {fileID: 2100000, guid: 3b085513e7c1b4a7ca4b70d13d401399, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_08
+    second: {fileID: 2100000, guid: 8043de553ca5d4abfbe4678b790db668, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_09
+    second: {fileID: 2100000, guid: b557966ed2e3c46b3b349ffa459032de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_10
+    second: {fileID: 2100000, guid: bdf77d13304bf46e5b3c803deeedc4d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_11
+    second: {fileID: 2100000, guid: 96173850d9ee44460ae9e0306529335c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_katkivi01
+    second: {fileID: 2100000, guid: 5ac34a4eded4a4744a0ea449406b2fa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_kooli01
+    second: {fileID: 2100000, guid: 4addc8145aabd401698e6672b2bce8f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_roof_kiriku3
+    second: {fileID: 2100000, guid: 948232e9622264aa89cc050fa1d654cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_v2rav01
+    second: {fileID: 2100000, guid: ae3b7b7c240144fbeb04b45614c8ac48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_4_v2rav02
+    second: {fileID: 2100000, guid: 32ba0de53b27e4d0c888e2aea255583f, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

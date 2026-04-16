@@ -3,12 +3,102 @@ guid: 1876760dfc4f2481badb410ed501a569
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_8_sokkel
+    second: {fileID: 2100000, guid: 3bf223b0fa5334c02b32670be0ee8c68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_8_vuuksein_aknapealne_roosa
+    second: {fileID: 2100000, guid: c82db2ec8e2dc4eddb324b5ccc0c9fa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_8_vuuksein_aknapealne_valgeta
+    second: {fileID: 2100000, guid: 8b932cef468a7407e934fb8075482183, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_8_vuuksein_roosa
+    second: {fileID: 2100000, guid: 2e99c8f2d91074f5a9e88966644c1eaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_aken
+    second: {fileID: 2100000, guid: b314cad0102e04f0ea6af415705eec9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_aken2
+    second: {fileID: 2100000, guid: 41400ead752b54361a7995990dd9486c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_kaaraken
+    second: {fileID: 2100000, guid: 56404f4a582c049a78d16d2aadbdc3aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_karniis
+    second: {fileID: 2100000, guid: d9deb69fbdbcb49008dff35ec1c2bece, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_katuseplekk_hall
+    second: {fileID: 2100000, guid: dd1bfcf986cfe4cdcb0d572ba634151b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_keldriuks
+    second: {fileID: 2100000, guid: bebfc425bbf7643c7a20fa4ca019264f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_keldriuks_aknaga
+    second: {fileID: 2100000, guid: 813cba93fa7e04db68701aa55f9f660a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_peauks
+    second: {fileID: 2100000, guid: a95420b07374c492299715e2c387c5e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_plaster_kollane
+    second: {fileID: 2100000, guid: 7d1346064c5a14cb897d8572aa9a1848, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_roosa_krohv
+    second: {fileID: 2100000, guid: 587b510a8820e479694bc44746525f15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_tagauks
+    second: {fileID: 2100000, guid: 7667f6764a55848d1bc4db4d03d1e514, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_tumeroosa_krohv
+    second: {fileID: 2100000, guid: b25d2d82390884e9a9f4a80bafc2578a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_8_valge_krohv
+    second: {fileID: 2100000, guid: b46eee755e31c413090ac9fbc7979ca7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: e22494fda26e24ddd821647d7a702705, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

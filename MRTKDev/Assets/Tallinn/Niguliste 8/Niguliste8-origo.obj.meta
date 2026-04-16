@@ -3,12 +3,67 @@ guid: a781acf56584d4799a21c22db7b6d20c
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Paint
+    second: {fileID: 2100000, guid: a6c23f9f4b6ee45f494368c9d9af65be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1___Default
+    second: {fileID: 2100000, guid: 6511eac0613864b16a4615ea0c556a73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1___pinkWall
+    second: {fileID: 2100000, guid: cfeb349bd8c5d4d01b1660cbc937af29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2___baseWall
+    second: {fileID: 2100000, guid: 75ee0b7f533c1411894744a0b08a9268, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _3___decor
+    second: {fileID: 2100000, guid: f5557670697b84202b7d11438581f8a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4___decorupper
+    second: {fileID: 2100000, guid: 99909e52f6a044e6f973e985be68c963, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _5___concrete
+    second: {fileID: 2100000, guid: e347abe558bc04b5682387f4ce81a69b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _6___Default
+    second: {fileID: 2100000, guid: 3a69a48e0c0f34b249cb4dc7615af099, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _6___darkconcrete
+    second: {fileID: 2100000, guid: 34467084aecc541d9b4abacf57efe0c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _7___Default
+    second: {fileID: 2100000, guid: 6d492eda8281649feb95a8307bf25aea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window87
+    second: {fileID: 2100000, guid: 2a150aeb018e444739701b2babead786, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

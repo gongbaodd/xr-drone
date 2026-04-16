@@ -3,12 +3,42 @@ guid: b293d2bde315f496da77e12f30963075
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kiosk_aken_kiost_aken01.jpg
+    second: {fileID: 2100000, guid: 70c1af160a551475886495184d1af733, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kiosk_hall_plekk_kr_hall.JPG
+    second: {fileID: 2100000, guid: 77f58ed9dba2442e7b6c0d7682c580ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kiosk_sein_plekk_kant_sein_plekk_kant.jpg
+    second: {fileID: 2100000, guid: 9a33e94cebd9744429427cb0c84d7e03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kiosk_sein_plekk_sein_plekk.jpg
+    second: {fileID: 2100000, guid: f1c88ffb3fa6e484ab029f97c0b46a9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kiosk_sein_v6re_sein_v6re.jpg
+    second: {fileID: 2100000, guid: 52706f0f97522431e9c14b9e3480399d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: r-logo_r-logo.jpg
+    second: {fileID: 2100000, guid: f4e8c71b3b2324e24b2c0e2ad958903c, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

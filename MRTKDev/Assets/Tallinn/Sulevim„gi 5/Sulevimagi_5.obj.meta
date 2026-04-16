@@ -3,12 +3,112 @@ guid: 4d0b98f69dd964392a477e08d409983e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_10SG
+    second: {fileID: 2100000, guid: 9c84ce73ac8814558b826250404d5d76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_11SG
+    second: {fileID: 2100000, guid: e805591197da04b87bc334679ca882a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_12SG
+    second: {fileID: 2100000, guid: 6ad0be7b9fe7b4bd7b3ae8e227340977, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_13SG
+    second: {fileID: 2100000, guid: f4b97c81427b9495e9f0820fa2f03abf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_14SG
+    second: {fileID: 2100000, guid: e5cacab858439498c83cd44dfd252680, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_15SG
+    second: {fileID: 2100000, guid: e9b543fbe462d49418a0eab4c3ff2aa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_16SG
+    second: {fileID: 2100000, guid: b57ee53f39f1d46628c5d9225fa35905, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_17SG
+    second: {fileID: 2100000, guid: 17aaf6af23b4c4a038cdd0ad4061e55b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_18SG
+    second: {fileID: 2100000, guid: 4bf6ee5ada31e4288b6e1983a51a7162, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_20SG
+    second: {fileID: 2100000, guid: 945a6d773621449f0b4dd8fcd1c255b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_21SG
+    second: {fileID: 2100000, guid: 5b2fc1bf7681848f8a98ee9666dbb20b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_3SG
+    second: {fileID: 2100000, guid: 62e15eb6cea4240bb982ba69d6e6d8a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_4SG
+    second: {fileID: 2100000, guid: e036181cb10ef4f27911bbec7faa6ec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_5SG
+    second: {fileID: 2100000, guid: 2131b44924e954a8e8d2ba01feabecfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_6SG
+    second: {fileID: 2100000, guid: 696a83b3204f64e80b96766e143ee3d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_7SG
+    second: {fileID: 2100000, guid: e799bcf14105340e096cf823172f74b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_8SG
+    second: {fileID: 2100000, guid: ef7693e40bab8460185eccbfa238d8b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_9SG
+    second: {fileID: 2100000, guid: d65a2645278ed41f18f79718164a7e89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sulevimagi5_sein
+    second: {fileID: 2100000, guid: d24c41b86f766434a9d74b9b5fc21a26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 4dae40dde5cf642b9af4a332eede49b6, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

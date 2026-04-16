@@ -3,12 +3,182 @@ guid: fae7deb3afc8643a08ed7db1dde6955b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_above_doors_windows
+    second: {fileID: 2100000, guid: 99dd50d13afeb4c2197d69e6dd15dfd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_back_doors
+    second: {fileID: 2100000, guid: e69fb46d87ba4452c81d3067b96b1142, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_basement_win
+    second: {fileID: 2100000, guid: 705e96f9c41f3418d99f5656717934f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_door_ornament_front
+    second: {fileID: 2100000, guid: cd1ac5bec8e614b399643fff80b3caaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_door_ornament_side
+    second: {fileID: 2100000, guid: a0d518e0074c9454694a227050104583, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_hor_vert
+    second: {fileID: 2100000, guid: 5f4c6afd1eb8747b3bdf9bbe61d1b95d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_katkivi01
+    second: {fileID: 2100000, guid: 792aee35e1e6c4b9996c87b463caf5c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_paek01
+    second: {fileID: 2100000, guid: 82b4add1f354b42d9a72aea754b30536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_plaster_bluegrey
+    second: {fileID: 2100000, guid: 41cab909fb511459eb806eb7383642bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_plaster_grey
+    second: {fileID: 2100000, guid: 9a7677c7ac28a419998cb8812ff4ff70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_plaster_grey_light
+    second: {fileID: 2100000, guid: b2c814e3017ea41a885ab7695900f9a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_plaster_white
+    second: {fileID: 2100000, guid: 6af3457090bbc490cb3fdf3d04d2c89d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_plaster_white_gradient
+    second: {fileID: 2100000, guid: 89c1fb6fdbe344e38bdfe69b2f8bfda3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_railing_partner
+    second: {fileID: 2100000, guid: 92af3f10835b64a04b25cfa193cd1ae9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_ribbon_main
+    second: {fileID: 2100000, guid: 78bca0a15b0614e37a2f554bdbf13349, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_ribbon_roof_win
+    second: {fileID: 2100000, guid: 25e84e9b48514490abb39f93aaf16cf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_roof_win
+    second: {fileID: 2100000, guid: 0d7ccedbd182242259f9b5b2f5b20d44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_step
+    second: {fileID: 2100000, guid: d9c71db53bf54463e8c4cf2b7b9678ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_tin_silver
+    second: {fileID: 2100000, guid: 18e0865b2c381457d86008536fe98da0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_white_front_doors
+    second: {fileID: 2100000, guid: a177fd498aeaa4668acaa13b63ae43df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_win01
+    second: {fileID: 2100000, guid: 0b4a8d548093d4914a9dc5d89ac04c6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_win02
+    second: {fileID: 2100000, guid: 710f0a7523ad8441b872843a77ad02ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_win03
+    second: {fileID: 2100000, guid: 97f412a16b6c94a498b851f92605a65c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_win_attic
+    second: {fileID: 2100000, guid: 05e17bb2a9667451087233459aec146f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_winx3_horizontal
+    second: {fileID: 2100000, guid: 295bad804df2a4c2da90e57deb25fa47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2_woodsiding
+    second: {fileID: 2100000, guid: 7dfb0336916eb471c88393705bbb9c46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2plaster_black
+    second: {fileID: 2100000, guid: 35a5c248ad4dd480a80d267554f1fbc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2plaster_blue_gray
+    second: {fileID: 2100000, guid: 468f1a3606bba4a4cbd2c3e3b5c34ffe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2plaster_orangelight
+    second: {fileID: 2100000, guid: 23cf97893f1d34e819dd903c75269bac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kooli_2plaster_rusty
+    second: {fileID: 2100000, guid: f1931af1684f0412ebba3ee17dcaa8d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_2_katplekk_pun
+    second: {fileID: 2100000, guid: 23ac96c68a9584a2bbbdbf87e0028bb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kooli_2_uks01
+    second: {fileID: 2100000, guid: a21eaa05023474b24a635a493806e438, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 18c9dfbcbda774b69a05e48790eebb72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx01
+    second: {fileID: 2100000, guid: 15149961b9586486abfacb22599e4c99, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

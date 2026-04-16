@@ -3,12 +3,267 @@ guid: e75ab730298244137b2d48fdda1bffb7
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Windows
+    second: {fileID: 2100000, guid: dee5b245f2c6c429f8ce49a54a250dd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: det1
+    second: {fileID: 2100000, guid: f65b78c9d0c9043daba248bf09f78dc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: detail2
+    second: {fileID: 2100000, guid: 064a5ffffbc89460481a16df122e5069, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus
+    second: {fileID: 2100000, guid: 68004eb975171422e94af1368d1c7770, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_val
+    second: {fileID: 2100000, guid: 8216e75a2d28243978cbecc5b1ba31b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krst
+    second: {fileID: 2100000, guid: 65e74a085516849a2be6b9e02cba6d8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyricahe34_stairs
+    second: {fileID: 2100000, guid: 0b53c10ba3a334522896b33492f3e20b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aaris1
+    second: {fileID: 2100000, guid: 523d3cecf2cff4cdb93094786812557f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aaris2
+    second: {fileID: 2100000, guid: 79452c2c0b253413f9ca94b7637c2eb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aaris3
+    second: {fileID: 2100000, guid: a5ce9400bfdda4e629415b7615f3f131, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aaris4
+    second: {fileID: 2100000, guid: 3471ac7803af144eaabb3bbdaba0a478, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aaris5
+    second: {fileID: 2100000, guid: 7496ca26d5b3542fca68378883604784, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken1
+    second: {fileID: 2100000, guid: a7931f5a1241c48bd8b4307be99d7270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken10
+    second: {fileID: 2100000, guid: 1bfc8615e2b214c8388b7e967b014513, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken11
+    second: {fileID: 2100000, guid: 2c5759ebe26dc46589582b991bd39f51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken2
+    second: {fileID: 2100000, guid: f4c4a4d52bf464e5d9c6a160cff01ed9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken3
+    second: {fileID: 2100000, guid: 8b96b9ac39fb64f22ba352ed381f2ba4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken4k
+    second: {fileID: 2100000, guid: 3d3af2abdf22e4db5a9d2ad83350dcd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken4p
+    second: {fileID: 2100000, guid: 6e08df4a8f64e416f85797e7158a84e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken5
+    second: {fileID: 2100000, guid: f1b94d2ced76d4d159abc5151325747b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken5p
+    second: {fileID: 2100000, guid: 3f9eae705dd564d70bb4a0aa901de7b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken6
+    second: {fileID: 2100000, guid: 72a76373b595147958b184191b1b422b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken7
+    second: {fileID: 2100000, guid: fb8adbe4a011b49a6b007b274fc35aff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken8
+    second: {fileID: 2100000, guid: 1aefbc551718d40a7a2d504a34b9c6a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_aken9
+    second: {fileID: 2100000, guid: 7391734cbbe1d41b2ba2678f14068e5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_kuju1
+    second: {fileID: 2100000, guid: 7db8f214f1c2e40908a1a9aeb088ab28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_kuju2
+    second: {fileID: 2100000, guid: 9770731f586ae4c20a98f875895cd48d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_kuju3
+    second: {fileID: 2100000, guid: 99089955162184af9a15d01750f7a08c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_kuju4
+    second: {fileID: 2100000, guid: fa797938721534d6b939a7d188f8beea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_kuju5
+    second: {fileID: 2100000, guid: 36ed7f4847afc470d89e464804212260, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_kuju6
+    second: {fileID: 2100000, guid: 611ffb66f06d1432098b05bf784d8e34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_kuju7
+    second: {fileID: 2100000, guid: 05ee5a5bff2a6426e9c1dfed72112305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_misc1
+    second: {fileID: 2100000, guid: 2a59030177b5546daa08beaa0d143f46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_misc10
+    second: {fileID: 2100000, guid: 5b7622d8a138f4ed78cabe3cd0e80f3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_misc11
+    second: {fileID: 2100000, guid: a375ac10bd11246fd9eb4198602fd66b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_misc1bb
+    second: {fileID: 2100000, guid: 12429f41e46a34b7b815c900b88ff513, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_misc4
+    second: {fileID: 2100000, guid: 71760da3e97344fe3afc89c3bc6906c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_misc5
+    second: {fileID: 2100000, guid: 362d07373870943e9b1371e509ee8655, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_misc6
+    second: {fileID: 2100000, guid: 966562eefefb042cabd88295bbe9f8e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_misc7
+    second: {fileID: 2100000, guid: 71b96ec543950479c9c14cdb91fdfc16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_misc8
+    second: {fileID: 2100000, guid: a1ca15901f1d4444abb722b97d277461, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_misc9
+    second: {fileID: 2100000, guid: 3b9bd090b7a9c4b6a8d2dc4251aac635, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_uks1
+    second: {fileID: 2100000, guid: 6e07a3724edb04a0fb50647813b1002a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_uks2
+    second: {fileID: 2100000, guid: f428086037cb64a399bed8dadd5bf2ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_uks3
+    second: {fileID: 2100000, guid: 5b499db2215ac437882a09ca56aac240, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_uks4
+    second: {fileID: 2100000, guid: e1f8d05e9749b403fb53629be6a7070f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_uks5
+    second: {fileID: 2100000, guid: 3d64e687ba661414dbbeb775e33ad06f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_wall1
+    second: {fileID: 2100000, guid: 50bd7767a3b764086a0bd149a9f668b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_wall2
+    second: {fileID: 2100000, guid: da695d0e1ea2e4a4cbece307a081e4d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_wall3
+    second: {fileID: 2100000, guid: eb608044d35cc428f8834049031d4844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyrivahe34_wall4
+    second: {fileID: 2100000, guid: 9af8f2c411e644a9daaf398977233024, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

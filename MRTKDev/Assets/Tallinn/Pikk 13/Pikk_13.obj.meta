@@ -3,12 +3,67 @@ guid: 1b72aa9e995f347e08213ebbf8b3dc13
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 17___Default
+    second: {fileID: 2100000, guid: bcceac039bb6e4991b3bcc245a719493, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Korsten_1_P13
+    second: {fileID: 2100000, guid: 92c898cb935074b5ba6e4d1fd0dfc2fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Korsten_2_P13
+    second: {fileID: 2100000, guid: 308b4d64319374174b5f1f9da4ab1bd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Korsten_3_P13
+    second: {fileID: 2100000, guid: d7955a3a8f9ce460e8749012b5d79036, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk13_plekk_hele
+    second: {fileID: 2100000, guid: ff1f7183b61e3498dbf89257e7ee7317, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROOF_4_P13
+    second: {fileID: 2100000, guid: 8191f7c3e8ab24021b244741834d11a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VARV_VALGE_1_P13
+    second: {fileID: 2100000, guid: b7782a20abd684564a8c545fe75c12a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk13__krohv01
+    second: {fileID: 2100000, guid: 9d80530c7206d4b8e8c217c0f22c8c3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk13_kat_valge
+    second: {fileID: 2100000, guid: 0042cd059eb304428833b7da56a8eff7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk13_trepp01
+    second: {fileID: 2100000, guid: a9805cf3c965744369a158a4e1795078, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 893142d5ecf184f718550de93ce25d6f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

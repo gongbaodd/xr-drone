@@ -3,12 +3,42 @@ guid: ee501e1ece0224e97aad1b6df89f6420
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai36_a1_aken01
+    second: {fileID: 2100000, guid: fdbca1d634bef45dd9010a59d58d4dbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai36_a1_aken02
+    second: {fileID: 2100000, guid: 3aaee4e47497c467bb6c4b6d288201cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai36_a1_plekk01
+    second: {fileID: 2100000, guid: 83d8bd2f609024c149dee4828a4392f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai36_a1_puit01
+    second: {fileID: 2100000, guid: d0c661ad748064c0d998419a742c08c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: l36a1_krhv
+    second: {fileID: 2100000, guid: 20af4d5d6082f4f5fb6deb9e7c9fca69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 1db2101c03a844a42830643fe21d3a33, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

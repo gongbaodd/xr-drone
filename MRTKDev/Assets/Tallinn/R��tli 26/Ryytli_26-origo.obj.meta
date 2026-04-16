@@ -3,12 +3,52 @@ guid: fb3e8d4d67f1d406cb76cc3b0af2924f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Grey
+    second: {fileID: 2100000, guid: b3e83bb7083314682802156688f1e4ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doors
+    second: {fileID: 2100000, guid: 2e4debfe63c704a55afb195fa7792837, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_LightGrey_Tin
+    second: {fileID: 2100000, guid: e109f158dffde42bfaf91fb28d083add, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Cream
+    second: {fileID: 2100000, guid: b9144372ab1854200bd7caf25d1da192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_White
+    second: {fileID: 2100000, guid: c897e157f1f4a49b7b642c6c0bc68bdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Bottom_Right
+    second: {fileID: 2100000, guid: bf61276cfefd74347adcf16993600bf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Round
+    second: {fileID: 2100000, guid: 39e554263e50d425f9dac436b9ecb697, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Top_Right
+    second: {fileID: 2100000, guid: 5658200c84c3e428992c4714d09517d1, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,127 @@ guid: 844fdddd09e4f4dc7b388321b151900b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_1
+    second: {fileID: 2100000, guid: eeb349dcab78b44af8607fa1c07ff582, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_1B
+    second: {fileID: 2100000, guid: 915685f7b2b5d49758957cd5e9da8ff0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_1C
+    second: {fileID: 2100000, guid: 3881be6ca5c5141879b4c7b7e83a740d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_Kts
+    second: {fileID: 2100000, guid: 84e32f689ddb147ae90f1b438aa16d8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_Kts2
+    second: {fileID: 2100000, guid: 2ada34ec70ae445abba3ce86dab81924, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_Kts3
+    second: {fileID: 2100000, guid: c150f88f5225f44579468f352917b87e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Det_1
+    second: {fileID: 2100000, guid: e7dafa1ccb0d249ebae652559d8ab23e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F1
+    second: {fileID: 2100000, guid: 598f982f1f9924a2c843a186feda3a2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F2
+    second: {fileID: 2100000, guid: 8d41cdedc528a4079ab616a9e3e8960b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Katus_kivi
+    second: {fileID: 2100000, guid: a344d2c6dc6364cf9891dec4f1a9257b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Katus_plek
+    second: {fileID: 2100000, guid: 723d8fe8842a544deb77ea5b17516033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rahukohtu_2Mat
+    second: {instanceID: 0}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_1
+    second: {fileID: 2100000, guid: e9477b4957aa14d849f28a8042f0fd45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_2
+    second: {fileID: 2100000, guid: c1d90236523f94fc39cde2bf497ddaea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_3
+    second: {fileID: 2100000, guid: 23519140534264fde8b1f56b3f3653bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_4
+    second: {fileID: 2100000, guid: ede334070d3d7437bbf100d1c0417702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emblem
+    second: {fileID: 2100000, guid: e8cc0531721a34903a72b3a374f40b85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: karnis_1
+    second: {fileID: 2100000, guid: 6425a51f374f74c06a809f094cf2c141, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sammas
+    second: {fileID: 2100000, guid: f564d72850be34cefbc040265ef85adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sokkel
+    second: {fileID: 2100000, guid: 3a62287f6f4f347f2a0aa580516cc0b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trep
+    second: {fileID: 2100000, guid: 04975d8bf87014983aa01a58f04228f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: c8775d5c6f0324d5384ecc0fbe69da39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxxMat
+    second: {instanceID: 0}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

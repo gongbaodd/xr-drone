@@ -3,12 +3,77 @@ guid: a6e184daf749041c28a3be0db60b349b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru7__katplekk_hall
+    second: {fileID: 2100000, guid: 2f074fc88839946818f97e03e74cf202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru7_brownroof
+    second: {fileID: 2100000, guid: fab17b3b4659b409f85b3b6c7bf9e0c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru7_chimneyhole
+    second: {fileID: 2100000, guid: 1acd18acae911437589d3970c48cea36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru7_door
+    second: {fileID: 2100000, guid: a049dc0207f994eccbaa041744528368, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru7_gate01
+    second: {fileID: 2100000, guid: 106144cba39244cab873911e9d140c99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru7_leftbigwindow
+    second: {fileID: 2100000, guid: 324f78997d075408f8c48ad18fe06e2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru7_plaster01
+    second: {fileID: 2100000, guid: b6ccfa501805240d3a72d898e7c603ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru7_roofsliding
+    second: {fileID: 2100000, guid: a4277b3e5653144708a83b987e2e9ac9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru7_sliding01
+    second: {fileID: 2100000, guid: e360b7c7914524ad48b170a50ba58b7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru7_topdesign
+    second: {fileID: 2100000, guid: 6bee65362f9304c5fb9727f0da5983a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru7_topsmallwindow
+    second: {fileID: 2100000, guid: 763ef83b8278244c786e3bf314d3fdf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru7_windowtop
+    second: {fileID: 2100000, guid: d35b49e184da240a5938fac7829f089b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru_7_design
+    second: {fileID: 2100000, guid: 6284bb7fe0df34b1b91cb285cdb94f52, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

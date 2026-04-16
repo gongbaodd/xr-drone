@@ -3,12 +3,82 @@ guid: c51536476499c4480828ea090ea9f2a6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04___Default
+    second: {fileID: 2100000, guid: 3d301bc36f82245539a1de7216b1d24b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05___Default
+    second: {fileID: 2100000, guid: cc451b70872b0442d84b03ac38a0270d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base_window
+    second: {fileID: 2100000, guid: ee62dc0c951e6469989c2483a54c1095, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chimney
+    second: {fileID: 2100000, guid: 4a454dbe755d04819af882a49d95884f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: diffuse
+    second: {fileID: 2100000, guid: a19c5c71618aa42fa893902c1bf39610, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: exp_window
+    second: {fileID: 2100000, guid: af78f73f2032b4f1ea443410202151cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_wall
+    second: {fileID: 2100000, guid: 8781aa321837c45d7bcf613d1db430a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: patches
+    second: {fileID: 2100000, guid: fa70afc83cb4a4bf694ae8e3de8fc4e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: 531845a3179204230b0a48b3602ed6bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red_roof
+    second: {fileID: 2100000, guid: 7703f9a9a0c254521a7c917f786540d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: small_roof
+    second: {fileID: 2100000, guid: 2f94ba291d33543318e95c54eab05e62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: small_roof_edge
+    second: {fileID: 2100000, guid: 5621a499bb9d14406aa35d4f68e2a3d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top_ribbon
+    second: {fileID: 2100000, guid: f03114932394a4c2aaa6ed6fa197b287, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 2bcf923cc9ea541a4ab30c6f3f269c6b, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

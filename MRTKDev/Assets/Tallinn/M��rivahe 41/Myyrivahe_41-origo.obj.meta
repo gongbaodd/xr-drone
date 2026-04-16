@@ -3,12 +3,117 @@ guid: 7cdd0597d0ac2452aa0ffa66a29dd5d7
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Brick
+    second: {fileID: 2100000, guid: d52d2b40bc2694cd4af821f67ca8cfb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Chimney
+    second: {fileID: 2100000, guid: 1f9847e59582c49049da9fafdf887a9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Dark_Grey
+    second: {fileID: 2100000, guid: dbae7f94fa6b44368855cca8b6189e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Door_Roof_Clr
+    second: {fileID: 2100000, guid: 14c4425d897004d99a5cb92c441bfa28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Door_Roof_Detail
+    second: {fileID: 2100000, guid: 70a2d705a4e754e6292b76ba038fc807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Door_Type1
+    second: {fileID: 2100000, guid: 96b281266aeb44bb3ab58a44c498cdf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Door_Type2
+    second: {fileID: 2100000, guid: 2f2a0a4657173400083985119ed0825a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Green_Strip
+    second: {fileID: 2100000, guid: 178640df0ef3c4ad49892f00f0d7b96f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Hand_Rail
+    second: {fileID: 2100000, guid: c902a2133038f4a96b59772caa12759a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Roof
+    second: {fileID: 2100000, guid: 096b5ab63e35a4963b3625266a210c82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Steps
+    second: {fileID: 2100000, guid: 59d1f29e1212a4c3299095e99a24ae7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Tin_Brown
+    second: {fileID: 2100000, guid: d0aee264ee7f14a06959a475613854c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Walls
+    second: {fileID: 2100000, guid: 62c7b57bc660541e9a54bcb6714a4cb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_White
+    second: {fileID: 2100000, guid: 24b5057d0dd994388ad75fec416fb73b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_WindowFrame_Clr
+    second: {fileID: 2100000, guid: 8173d776845bf4715a5d42b8c3636c42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_WindowFrames_GreenInset
+    second: {fileID: 2100000, guid: 06cf67218bcd54ce5b6645adcf87b92c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Windows_Basement
+    second: {fileID: 2100000, guid: 943acd1c089fd4e11bbba27e0107f106, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Windows_Type1
+    second: {fileID: 2100000, guid: 8b7414421178b4d35b63eb0e57e1fb77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Windows_Type2
+    second: {fileID: 2100000, guid: 011a6a504d16f497d8f67f8b9f1f2749, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Windows_Type3
+    second: {fileID: 2100000, guid: e9b31b220c1554db284c3feec6837d14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe41_Windows_Type4
+    second: {fileID: 2100000, guid: af234e96f6bad44ecbc9839ba2e29f42, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,182 @@ guid: a4e7f09cf3d3c479cb22cdd61f3921a0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru9_a111
+    second: {fileID: 2100000, guid: 8e8b3e4a587bd4c139b409afd6353d12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru9_ah
+    second: {fileID: 2100000, guid: 102203af1551d4937ac119275d9520fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru9_kollane
+    second: {fileID: 2100000, guid: f1d68083a252b41e092cc5baacaa26d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru9_punane
+    second: {fileID: 2100000, guid: 3ccb50ca3997843fe801ef0621f07539, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru9_v1
+    second: {fileID: 2100000, guid: 5b5c7d446f4ab4d2f9ebe2533ab558cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_aerial01
+    second: {fileID: 2100000, guid: 2f259460cb74c4fbc87196cf75950852, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_akserv
+    second: {fileID: 2100000, guid: 9599f4c5548d54131a8f58a87ca0c104, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_chimneytop
+    second: {fileID: 2100000, guid: a8d245d2168af4552b9a9b274990f78b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_color06
+    second: {fileID: 2100000, guid: ee1df2fa995574fec9d43d8fb5525585, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_color4
+    second: {fileID: 2100000, guid: 0a5d29d7823a64770b041989c4a69b25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_color_1
+    second: {fileID: 2100000, guid: 814e3a6c6ea9a436380fd4944dffc339, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_color_2
+    second: {fileID: 2100000, guid: 70b27366f253643369bd95bc36c1ee43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_drooner02
+    second: {fileID: 2100000, guid: 3ed42d299a57d4f15b4c32a2898a32ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_dsc_1136
+    second: {fileID: 2100000, guid: 750866d9454b24a018d0e4ad2b06ba5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_dsc_1136_2
+    second: {fileID: 2100000, guid: fb72d791ad0834147919c4a8705518be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_dsc_1137
+    second: {fileID: 2100000, guid: 61efeb2bad5e647abb8e8feabbc92765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_dsc_1139
+    second: {fileID: 2100000, guid: 1a365260f5adf4f498d46824d9a14e0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_dsc_1140
+    second: {fileID: 2100000, guid: 67ae294d1a19349379a282ee4cf349b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_dsc_1140_4
+    second: {fileID: 2100000, guid: 8f617cb3bbf1b40f4aa4b5ff3e0a0d05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_dsc_1140_5
+    second: {fileID: 2100000, guid: a0f1d292ec256496db9283ab2a5aae90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_dsc_1140_6
+    second: {fileID: 2100000, guid: 5c5ebccea5f5043b5b9d8e99be11d07e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_dsc_1142
+    second: {fileID: 2100000, guid: 9fcfedd82a269489d80b678f76795dea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_dsc_1143
+    second: {fileID: 2100000, guid: ca411d01372334e09847088b4f9a2f08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_dsc_1144_2
+    second: {fileID: 2100000, guid: 76aad4a7b72eb4ec5bd04ee9d93b3328, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_gate01
+    second: {fileID: 2100000, guid: 398019c5044904b7c90cea214cc0850b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_kat_plekk_pun
+    second: {fileID: 2100000, guid: 5fbc3c3d532534fa59ac326bdb6c6866, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_katplekk_hall
+    second: {fileID: 2100000, guid: 05ed675a71f4f47ba9c18e1c3d2c71e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9_red_chimneytop2
+    second: {fileID: 2100000, guid: 89243a7881290477295bfe47b3eadd0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9dsc_1144
+    second: {fileID: 2100000, guid: 82b10a788057d4e4b940a035a5df02b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_9krohv_vlg
+    second: {fileID: 2100000, guid: ffe29cbaf7eed417cb6f14c3f403297e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru9_kivikatus
+    second: {fileID: 2100000, guid: 86c75df9253c24438b8512865c79ee60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru9_paekivi01
+    second: {fileID: 2100000, guid: 633ce4906a023417ba7ba21412fdcc8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru9_puit01
+    second: {fileID: 2100000, guid: ca93b37162125415a8b0fe5e16a24cf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru9_puit02
+    second: {fileID: 2100000, guid: fa21573505b85449ba4f52351364cf26, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

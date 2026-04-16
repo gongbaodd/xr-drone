@@ -3,12 +3,102 @@ guid: 206dc3a1d849a46f7b6396d040d49030
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_aken1
+    second: {fileID: 2100000, guid: 49079470986ec45af8401d0dd1762614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_aken2
+    second: {fileID: 2100000, guid: 4f4b20d71f3ed472e887926354713529, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_aknakaunistus
+    second: {fileID: 2100000, guid: e9e4c9c9d1159479a8fdc9e020520a01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_betoon
+    second: {fileID: 2100000, guid: 48331b10bc67e4dc1bcacb82a2c729e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_karniis
+    second: {fileID: 2100000, guid: 48b3b724f4449463b9621ad819816649, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_katuseaken
+    second: {fileID: 2100000, guid: b0f655195fdac4632bad5dbc4d267a0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_katuseaken2
+    second: {fileID: 2100000, guid: fe0a3d0ec4764408d93c054b8b48c408, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_katuseplekk_hele
+    second: {fileID: 2100000, guid: 53ae0a653adbc46c3b339a5d2b13030f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_katuseplekk_punane
+    second: {fileID: 2100000, guid: 12d28ea1f62af4b89b6405d07aa8edb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_katuseruut_pruun
+    second: {fileID: 2100000, guid: 4682eb8a16d5f4682add637fa2e483fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_katuseruut_punane
+    second: {fileID: 2100000, guid: 4ad36c2fd2671446284e282ff108aa5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_korsten
+    second: {fileID: 2100000, guid: b8c9c54b6ea7c433b92e1b0482cf724e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_plaster_kollane
+    second: {fileID: 2100000, guid: b3c61b02c3f8e438c9e044c800e10ab2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_sokkel
+    second: {fileID: 2100000, guid: e59f437a1a0c44a0bba04c5d1f93270a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_uks1
+    second: {fileID: 2100000, guid: b7a88dca6189842f494ee591d4be17e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_uks2
+    second: {fileID: 2100000, guid: c260b816af5bd4611b600fa22505ddd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_10_valgeplaster
+    second: {fileID: 2100000, guid: 541b6aa3cd65448a68076dd3a6a921b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 69498a1398cdc43a2b8fb28344935256, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

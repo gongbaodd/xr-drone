@@ -3,12 +3,112 @@ guid: 8c27ff90571c04eb7930190f087b7859
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box001Mat
+    second: {fileID: 2100000, guid: 85f41659450484bfd9b84d6aba37d105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__111
+    second: {fileID: 2100000, guid: a24353d61eea94c0d960cfec901a296e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__124
+    second: {fileID: 2100000, guid: c87b828da9c3f4e579fa09d79963f10d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__138
+    second: {fileID: 2100000, guid: 51cd60bff056141fea0f700f9251ba98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__153
+    second: {fileID: 2100000, guid: edfc5600a2ed34757827e67ff4aa77de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__16
+    second: {fileID: 2100000, guid: 02f028de76d694bdba46130414ac5c43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__199
+    second: {fileID: 2100000, guid: a17f8d56a416c4c91a4e53b49da21003, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__20
+    second: {fileID: 2100000, guid: 42a0c74908c734485845558e021260d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__22
+    second: {fileID: 2100000, guid: a6f21433302a5439ab63e90c963f6d4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__245
+    second: {fileID: 2100000, guid: 415801a8eada349b991f2245632ebca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__28
+    second: {fileID: 2100000, guid: e0ae497395bb344c1b867ed083ca31b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__330
+    second: {fileID: 2100000, guid: ece32a80766e446d09d31a9767e24fd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__399
+    second: {fileID: 2100000, guid: a52cde8ce227a445b909deef98d43112, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__41
+    second: {fileID: 2100000, guid: 00a0f2910aa9649dc95b3befefdb222b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__438
+    second: {fileID: 2100000, guid: 5525a5540f6874f13b000b2e21882e1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__559
+    second: {fileID: 2100000, guid: 59f3b74c8b22e4916acfbac166d09c4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__65
+    second: {fileID: 2100000, guid: 1c4d0e4e01eaa4f93825cab0aa5f1769, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__707
+    second: {fileID: 2100000, guid: 8ad1b75226fec4482a4195a5c7b29c88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__729
+    second: {fileID: 2100000, guid: 04a552503192c45eba64691a7f6d3ccf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__893
+    second: {fileID: 2100000, guid: c1e4fc78c41134e139b7798b79077c51, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

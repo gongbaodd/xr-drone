@@ -3,12 +3,252 @@ guid: 4c545e1a31ae64a00b243d9384992a10
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_KAT_plekk_hall
+    second: {fileID: 2100000, guid: ee71c39a46a2646f3aea3ad975ce76e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_KORSTEN1
+    second: {fileID: 2100000, guid: 9df3332f3368b477ebaf835dae6479fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_PLASTER_blue
+    second: {fileID: 2100000, guid: d023e8565d7134ea2b11a8546f9510d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_PLASTER_grey
+    second: {fileID: 2100000, guid: 807e79587d82845a29011640326f299a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_PLASTER_pink
+    second: {fileID: 2100000, guid: fc7f7f900f4244fd184441cd68327923, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_PLASTER_yellow
+    second: {fileID: 2100000, guid: c9fe8f96f803a4024a4b1c2df2b7fa77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_P_10_korstn
+    second: {fileID: 2100000, guid: e32273821af36478286b9df1130f85ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_Plekk_must
+    second: {fileID: 2100000, guid: 0e717d54e02f74c158dd70d6a5251dfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_STEELPLT
+    second: {fileID: 2100000, guid: f35ddd31a51154ad0abd918ebfb5d201, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_STEELPLT2
+    second: {fileID: 2100000, guid: 2d180ef4a2d1c43e08f7499ac4fa1fa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aken1
+    second: {fileID: 2100000, guid: 2f1f98932fcfe4558a83152bf552f784, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aken1b
+    second: {fileID: 2100000, guid: 5a7849f51f35748fa9dbb5f3af2c51cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aken2
+    second: {fileID: 2100000, guid: 39021bdddc7364180b59a867c5daf026, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aken3
+    second: {fileID: 2100000, guid: 5dd46d047794d4d77aa266c96178b2bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aken4
+    second: {fileID: 2100000, guid: c590f7da8eb7048358c2acf2cb07f88b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aken5
+    second: {fileID: 2100000, guid: 4fa0bd223737d4fafa57f8ea418f0b6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aken6
+    second: {fileID: 2100000, guid: 1f4c5a02c5a8d43d583350c3ece4f86c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aken7
+    second: {fileID: 2100000, guid: a87c01508886e4a0d8f8b716777e4eef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aken8
+    second: {fileID: 2100000, guid: 6ff8096e59fd84e9fae199a0023a36d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aken9
+    second: {fileID: 2100000, guid: 2fdd6054e30bb4605ac83cd392afbf20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aknaalune_dekoor
+    second: {fileID: 2100000, guid: 640d20a2521f24acda2ca9bebf619062, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aknaalune_karniis
+    second: {fileID: 2100000, guid: ae4408ebe928640e987a4d6a8f6d5099, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aknaluuk1
+    second: {fileID: 2100000, guid: 5eafc3f91a6f34e8cb6124fb9fb1180a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aknaluuk1b
+    second: {fileID: 2100000, guid: 0c2ddffb2784447189608c4f27504924, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aknapealne__dekoor1b
+    second: {fileID: 2100000, guid: 06243a1a5a5d94adbbca03d0d6fb83af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_aknapealne__dekoor2b
+    second: {fileID: 2100000, guid: 4c888d28219314d809729ea53929c0ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_betoon
+    second: {fileID: 2100000, guid: 50cfd81843b4c412788f586d53a0c898, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_door_h_2
+    second: {fileID: 2100000, guid: abf570fc3ce654819a86f14df062a251, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_fass01_uks
+    second: {fileID: 2100000, guid: 3f7fe6623b45f4e0a9f9e05b75fcf968, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_fass03_uks
+    second: {fileID: 2100000, guid: 9c302440c71dd4b92a76fbcee1b4ed5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_fass05_uks
+    second: {fileID: 2100000, guid: 37e144e2780fe4bc9bb7de9592e03036, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_fass07_aknaluuk1
+    second: {fileID: 2100000, guid: 9953a755e1b8d4c3a93feb1da63d2ece, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_fass07_sein_rustika
+    second: {fileID: 2100000, guid: b053ab9fd40904edeaf5a218c8e08027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_fass07_sein_rustika_sillus
+    second: {fileID: 2100000, guid: da4677e1ed81b41fca7000b00146aa59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_fass07_uks
+    second: {fileID: 2100000, guid: bb2f4bf09860343428155b3b71de5d56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_kangialune_valge
+    second: {fileID: 2100000, guid: 4992d46aa8fb44c4d90badcc7d9fe108, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_kangialune_valge_karniis
+    second: {fileID: 2100000, guid: 543af01464fc746e68d1a65cc4fbd8a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_karniis_1
+    second: {fileID: 2100000, guid: e91cae63c56b44141bbcfa9f5e1716af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_karniis_2
+    second: {fileID: 2100000, guid: b5fb2d4e12a96411099164b5da642162, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_kat_kivi_punane
+    second: {fileID: 2100000, guid: b8f1165f9558645f4b2f2ea058c91e8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_laudis1
+    second: {fileID: 2100000, guid: e31f9ff7add4f436ab0ff048f32f75e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_piilar
+    second: {fileID: 2100000, guid: 79e9641683d9d4296bc6ffb4d2370d0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_varavasepis
+    second: {fileID: 2100000, guid: ffb252ff3b4d74d03a53aa122e5a76fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_varikatus_sepis_F14
+    second: {fileID: 2100000, guid: 921f12d6e7e7e4b2cad36e4aadc1a288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_varikatus_sepis_kylg_F14
+    second: {fileID: 2100000, guid: fb81bb1d9eb6c4a6e873bfb5878a81c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_varikatuse_sepis1a
+    second: {fileID: 2100000, guid: dcde072cc2fb24de7b96a3c8f4cc2667, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_varikatuse_sepis1b
+    second: {fileID: 2100000, guid: bf0d95d5955b5473fb3d79a962593ad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 11de7d0287d32443baf793d50deff183, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

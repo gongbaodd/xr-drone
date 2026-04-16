@@ -3,12 +3,162 @@ guid: ecf068058c7bd4e43a695101aa4d8b4d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_chimneys
+    second: {fileID: 2100000, guid: 7702993225a1245f980abd81d342abb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_door01
+    second: {fileID: 2100000, guid: dc6ea35cde4ee43aab7c3d3ebbf88c5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_door02
+    second: {fileID: 2100000, guid: 008a06f73999e402eb8fffb8c0941881, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_door03
+    second: {fileID: 2100000, guid: c9b74495eb86a470a935e33616a47c63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_door04
+    second: {fileID: 2100000, guid: cde6ee51783b54806bfe5513826e1cae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_dormer01
+    second: {fileID: 2100000, guid: b7eef500378fa4bbc94ccdad2c32660f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_gate
+    second: {fileID: 2100000, guid: 55010e91f08a649659096595f347e121, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_krohv_kollane
+    second: {fileID: 2100000, guid: a36a70e919e6640f4b39ea38a5761622, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_plate
+    second: {fileID: 2100000, guid: 52186a319ce074abeaf218bbcf2ce587, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_roof
+    second: {fileID: 2100000, guid: 79c67e82e237f4048b58d1f70d88858e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_roof02
+    second: {fileID: 2100000, guid: c9cd1d411c6c14a54b7b906782caeb5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_stairs
+    second: {fileID: 2100000, guid: a7b89c3835440403a98cab675a59beb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_street
+    second: {fileID: 2100000, guid: 4e312856a0612453a8e3d8965e86d677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_terrace
+    second: {fileID: 2100000, guid: 8dd380ced7b0b42a797bcabbbd633f2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_tracks
+    second: {fileID: 2100000, guid: 34a174425dd9f47fb8ca8f3bac152e24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_wall01
+    second: {fileID: 2100000, guid: 1d001d90e92a644e2a548fea99607819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_wall02
+    second: {fileID: 2100000, guid: 9f41f36af765f4fd4b15aff6f78b8b75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_wall03
+    second: {fileID: 2100000, guid: 9b561b140a4584488a153119d68073b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_wall04
+    second: {fileID: 2100000, guid: 3a6c155f80d544d56bdb736e546fd7e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_wall05
+    second: {fileID: 2100000, guid: 128d88d909e1e4cc7879b3d21f1dc958, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_win01
+    second: {fileID: 2100000, guid: 4910ca212d079497b98843b1ae07aa7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt1_win02
+    second: {fileID: 2100000, guid: 05e793ae4b5104b1f8bb4f7ab09b252a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apteegi1_aknad_taga
+    second: {fileID: 2100000, guid: e5d10f3db0e2d41f0a78c19248bd585b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apteegi1_aknad_taga01
+    second: {fileID: 2100000, guid: 091a9ec7d3e1f4e4988a87c76b9bb168, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apteegi1_betoon_krohv
+    second: {fileID: 2100000, guid: 98ae546f655e04a89b41509dd8265941, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apteegi1_kat_hall
+    second: {fileID: 2100000, guid: 4d943224a23fe4d0f8b2f5f143c1437a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apteegi1_kivi
+    second: {fileID: 2100000, guid: d0e03940f87474ba1a30e1d145cd8e41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apteegi1_sepis01
+    second: {fileID: 2100000, guid: 6b570d82830cf455d97b37a5d283afce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apteegi1_sepis02
+    second: {fileID: 2100000, guid: 4150473e3db6f4161b772583883f96a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: b12a88a0ff9ed4d8b87712fc7c845b78, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

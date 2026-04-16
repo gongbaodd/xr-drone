@@ -3,12 +3,142 @@ guid: 62e7a7e34bcf24257af0834723f6f5f7
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kning4_ratas
+    second: {fileID: 2100000, guid: e04b8d77a33dc403097d6b9c155da68f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_Roof
+    second: {fileID: 2100000, guid: 5e2b08b328ab74b09b757b0f0c2543b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_basement_vent
+    second: {fileID: 2100000, guid: 3217391b0d2854840a8686b2efbd29af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_chymney_hole
+    second: {fileID: 2100000, guid: cdb252e62cfb945f284c935745e35a9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_door1
+    second: {fileID: 2100000, guid: 20cbe083767874e7f92394d1872b5daf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_door2
+    second: {fileID: 2100000, guid: ee2ff8011f4a74b6e95d06deb12abd07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_ext_side_passway
+    second: {fileID: 2100000, guid: ed7476af27aa84f10a534fb9e71e8c78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_grey_tile
+    second: {fileID: 2100000, guid: 3897c1176f86843febb729ca12fb81fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_karniis
+    second: {fileID: 2100000, guid: 54bcb0aebb3544430a90b3d2adaf37ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_left_door_up
+    second: {fileID: 2100000, guid: f880c7525ee904e4a898f15383214a06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_lower_wall
+    second: {fileID: 2100000, guid: e6fe78fb354f44472b14686e91b9edcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_main_door
+    second: {fileID: 2100000, guid: 9ed3d8d1244b64d069864203d67eb05d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_plekkkk
+    second: {fileID: 2100000, guid: d3c97b4d94fb847909215d1f0442f760, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_red_wall
+    second: {fileID: 2100000, guid: 83c8bb37cc0424f4e845cea7eeab5524, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_roheline
+    second: {fileID: 2100000, guid: bbb192d2533bb4f49a3ecc23cd3b7b3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_upper_wall
+    second: {fileID: 2100000, guid: 1d86663f4e28d4fc48df1c584c9da4fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_upper_wall_2
+    second: {fileID: 2100000, guid: 721b5e81df7fe42ee84e8b224595a781, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_varik
+    second: {fileID: 2100000, guid: 2bc7eb4e21e824304b510eac97ff4090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_varikees
+    second: {fileID: 2100000, guid: 8e1679f9d9ab54a0ca17730fb649455f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_wall_left
+    second: {fileID: 2100000, guid: 9172d4c5d2e15491d9a21075f714dde7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_wall_orange
+    second: {fileID: 2100000, guid: 919f3db9db2974f449d05cf6d655671b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_white_wall
+    second: {fileID: 2100000, guid: 75151be4f949b46e6ad361fab2b1093d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_window1
+    second: {fileID: 2100000, guid: ea539d43d8a37464690ce938727664e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_window2
+    second: {fileID: 2100000, guid: 34d74196cd48a4dceb6136ab46d1e113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun4_window_glass
+    second: {fileID: 2100000, guid: ed12150ae4906408694bd1d68338135a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 6143ddd7c7eb347f1840683d2acd373c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

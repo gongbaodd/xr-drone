@@ -3,12 +3,217 @@ guid: d8f99be12c8524493a80abef0b547426
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RAAM_valge_v_rv_
+    second: {fileID: 2100000, guid: d8ba47e1860224f0099155d122383f40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Valgevask
+    second: {fileID: 2100000, guid: 5e75acf124edf4c15b50e03dedb33630, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_Gate1
+    second: {fileID: 2100000, guid: 7da72369db35b45feab21de1150d2ea1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_KROHV_hall
+    second: {fileID: 2100000, guid: 0d7e5421cb42c4549816d001ee5bf79b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_Kivikatus
+    second: {fileID: 2100000, guid: 35d636ab2d9cf46a2b9d213c17fde433, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_PAAS
+    second: {fileID: 2100000, guid: d8e5cbdb860f54a9392379add2602e69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_PAAS_sillus
+    second: {fileID: 2100000, guid: 4ceef3c1056ec4427af8aa67f0866553, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_PlekkKatus
+    second: {fileID: 2100000, guid: 2f779d016e0ef45e2884ae2130ce2835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_SileKivi
+    second: {fileID: 2100000, guid: 07316031e253f42f4918510f8b3273d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_UKS2
+    second: {fileID: 2100000, guid: 737014374ab8a415c9147eaf8a27e53f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_UKS3
+    second: {fileID: 2100000, guid: 5069b982fecb44d36bed334d18ebbfa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_UKS4
+    second: {fileID: 2100000, guid: 5357c79bfd9fc4995b85e66a411d2969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_UKS_1
+    second: {fileID: 2100000, guid: 4e37e4870cc0348269440b1a847623a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_VAPP
+    second: {fileID: 2100000, guid: d52dc1fc0261d402db80ae595380d730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_beesikas
+    second: {fileID: 2100000, guid: e978dcf5a2b3246de88cb54ca74ad78f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_disk
+    second: {fileID: 2100000, guid: 1c72d01bf46174062885f4e4b3687934, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_fass_ylemine1
+    second: {fileID: 2100000, guid: e1fec1f8a30fb4be3a7b2950f4784976, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_fass_ylemine2
+    second: {fileID: 2100000, guid: 793c176b1aff94aaa9b6a00c2cee8969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_karniis_lained_kaunistus
+    second: {fileID: 2100000, guid: b7ccdc788725444359bb54a83a26799b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_kat_plekk_hall
+    second: {fileID: 2100000, guid: 95ef25fd7105845f988749675ea8a8ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_katusaken
+    second: {fileID: 2100000, guid: 3da5a30fb5e4b40a2bf5b6eef126b79c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_kaunist_kolmn
+    second: {fileID: 2100000, guid: 1fc424679cd3a466b9d1628827d17ca8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_kaunist_ovaal
+    second: {fileID: 2100000, guid: 2750b242b53554e9bba5c6e8e24f15f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_kaunistussein1
+    second: {fileID: 2100000, guid: f0b9c763c666b40dcb18ee67b786fad6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_keldriaken
+    second: {fileID: 2100000, guid: 86b41892219a74aadb82d91d9c807a86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_klaas
+    second: {fileID: 2100000, guid: cad4b0f677b9e45269a022ad2656974b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_kuppel
+    second: {fileID: 2100000, guid: be98636c4f0364ca48bd9ef02e7a93f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_postike
+    second: {fileID: 2100000, guid: 1db052c2176854db4861bbf9f4f8e77d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_postike_rest
+    second: {fileID: 2100000, guid: b275cc1f76c00409bb76bb077d5c68f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_puit_pruun
+    second: {fileID: 2100000, guid: 1b07ff6bbd1eb4bbda51ca8080b51d9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_rekl_TAHVEL
+    second: {fileID: 2100000, guid: 566245987777140fea3f362f11f42d33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_reljeef1_p
+    second: {fileID: 2100000, guid: 1fb98be07ca3b40b98ef4ea86cbf78ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_reljeef1_v
+    second: {fileID: 2100000, guid: 7e8d992792e4d4769ba32ee31a8f07fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_rest
+    second: {fileID: 2100000, guid: 9dc820756578a4a7299649db2a84819a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_sein_tume
+    second: {fileID: 2100000, guid: d4b87ab2288b142038b09bb5abd8238c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_tahvel_arh
+    second: {fileID: 2100000, guid: 73c6afd0bf3e541ea88889389c655a26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_uks_5
+    second: {fileID: 2100000, guid: 0c8dad71b1531413c97ad88f8acafbd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_uuk
+    second: {fileID: 2100000, guid: 2a01e27e4a4bb4eef9b679c277034708, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_valge
+    second: {fileID: 2100000, guid: c7e556a9d53a64b86b135d372943857b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: draama_viilualune_kaunistus1
+    second: {fileID: 2100000, guid: 8938b2a2553364f6199b8b341fdc4e3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fass_ylem_1_B
+    second: {fileID: 2100000, guid: 001be49e936ce4b8283c87cf1e541808, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

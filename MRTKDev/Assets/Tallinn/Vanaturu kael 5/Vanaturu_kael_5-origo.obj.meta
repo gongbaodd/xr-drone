@@ -3,12 +3,112 @@ guid: 78986ddd1e0854f0b92044bec67a02ba
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus.001_Untitled.005
+    second: {fileID: 2100000, guid: 4f0ebc01d7d84471abaabc298c3b3dc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja
+    second: {fileID: 2100000, guid: db1b74e78e57f4c3b91336b607ccefd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_1stF-aken.jpg
+    second: {fileID: 2100000, guid: 24c545a58295d4e328ba57837718296a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_1stF-trepp.jpg
+    second: {fileID: 2100000, guid: 5f8fb334c538b47709698cc3d36a8d88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_1stF-trepp02.jpg
+    second: {fileID: 2100000, guid: 7c266712228c74778af50290394898cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_1stF-uks.jpg
+    second: {fileID: 2100000, guid: 17289dbe6dd274ff686c072f3c97f4ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_1stF-vundament.jpg
+    second: {fileID: 2100000, guid: 3b1ece8366f3943faa87d4d80fef0051, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_2ndF-aken02.jpg
+    second: {fileID: 2100000, guid: f4231ac080c484315acdd45d7794b12f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_3rdF-aken02.jpg
+    second: {fileID: 2100000, guid: 7571c05ccdcd04acaa44d728febb9780, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_4thF-aken.jpg
+    second: {fileID: 2100000, guid: 942148c7637534718ac6c15cdba82af9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_korsten.jpg
+    second: {fileID: 2100000, guid: 5c93b435e09154f38bb56e34b37c5f7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_korsten02.jpg
+    second: {fileID: 2100000, guid: a934778b4f2ab42be8a08053b1f75207, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_korstnajull.jpg
+    second: {fileID: 2100000, guid: 02cbd105199cc4c249a4e24fb93a60bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_seinTex1-2F.jpg
+    second: {fileID: 2100000, guid: 27ea7297371e24678b345a78dcd768c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_seinTex1-2F02.jpg
+    second: {fileID: 2100000, guid: eaee745f957f54956bf4d67581db56a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_seinTex3-4F.jpg
+    second: {fileID: 2100000, guid: 07d3946ce7cab496ab309699617bf8ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_seinTex3-4F02.jpg
+    second: {fileID: 2100000, guid: 64ce06bb77e784b15afd139eeae04e21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_skylight.jpg
+    second: {fileID: 2100000, guid: 1536d2ff2d7314ab8b0eb0bc1bf56047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maja_ymarAken.jpg
+    second: {fileID: 2100000, guid: d4f29bbb702de4a408d8fec0503bbe02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reeling
+    second: {fileID: 2100000, guid: 3e4a79d0239524340a31c1389eac67c0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

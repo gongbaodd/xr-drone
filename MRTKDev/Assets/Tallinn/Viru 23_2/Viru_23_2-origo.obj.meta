@@ -3,12 +3,27 @@ guid: cd49d3a63ff964cb6ad41b0edb2d168a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vana_viru_10_plekk_hele
+    second: {fileID: 2100000, guid: 416807ebd59354e3c862a3b62f2fd0be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru23_2_krohv_valge
+    second: {fileID: 2100000, guid: 6f40cd81056e143de8a7740797350533, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: b0a86857f9b7c4b42a601ad0c7b8f932, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

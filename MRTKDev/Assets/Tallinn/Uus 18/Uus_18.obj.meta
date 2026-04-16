@@ -3,12 +3,97 @@ guid: 53343fdeb14ad4073bf5398132106302
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus
+    second: {fileID: 2100000, guid: 18306ec5fdfac4182ae97072db8f4538, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_aed
+    second: {fileID: 2100000, guid: 14f995426cf62484689746b20fef7c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_aken2
+    second: {fileID: 2100000, guid: 1d097a8ff7d6f4ed6a3a09e5c83ccd31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_akenalumine
+    second: {fileID: 2100000, guid: 31ef2691306ea4910bb12d0eac4892b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_hall
+    second: {fileID: 2100000, guid: b786bfbd5ba7644a380c580b33a3537f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_karniis_triip
+    second: {fileID: 2100000, guid: be375a115acd047bbbf7bd70ecf48bfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_katus
+    second: {fileID: 2100000, guid: d6fc22def27bf4f3580ba7822fa26c46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_korstna_auk
+    second: {fileID: 2100000, guid: cac9f21a5f1bf435491c7e3e1085b1a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_kr_hall
+    second: {fileID: 2100000, guid: 95a66ba76ce37436497180e74c536a5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_plekk
+    second: {fileID: 2100000, guid: f82a234bb6e3f488ebb94bbbb9a8cf97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_pruun
+    second: {fileID: 2100000, guid: bcbd75c4396fa4739810823512e2b68a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_sein
+    second: {fileID: 2100000, guid: 9a8858661f5b14b7abd20abff968d4fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_triipvalge
+    second: {fileID: 2100000, guid: 3caaa20dc1cc34141aff76554edfc1ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_uks
+    second: {fileID: 2100000, guid: 759a9222bae6f4fbd936d08a85a1145e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18_v_rav
+    second: {fileID: 2100000, guid: 04c730dd34018446ead9add1de19ae94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus18valge
+    second: {fileID: 2100000, guid: cd9a708f07a434ad5a3598bb238c42d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 47b9a58127b9b4104a4df4121721f7be, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

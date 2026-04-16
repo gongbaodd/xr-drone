@@ -3,12 +3,37 @@ guid: cd3477e347b5a461f9559642f552795f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_1_bricks
+    second: {fileID: 2100000, guid: 70dec6507e07a4d9798e76d72803380d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_1_details
+    second: {fileID: 2100000, guid: 5af48a34abb8a4821ae6d0a75fe6beb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_1_roof
+    second: {fileID: 2100000, guid: b271ac60a8aa34cc2893d551c09faaa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_1_walls
+    second: {fileID: 2100000, guid: 350cb268af74a45a6a649ea1cfe5a712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_1_windows
+    second: {fileID: 2100000, guid: 59330c9e5e17f41978cdebbe614ee447, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

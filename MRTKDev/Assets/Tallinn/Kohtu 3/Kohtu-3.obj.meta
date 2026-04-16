@@ -3,12 +3,82 @@ guid: 8f74ea99f29844619b530c207eb09717
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kht_3_BALKONI
+    second: {fileID: 2100000, guid: 446f3b19930834726bb15c81f1cb1b45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kht_3_chimneys_part_3
+    second: {fileID: 2100000, guid: 20b974ef02e344661ad6b81c57352543, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kht_3_door_01
+    second: {fileID: 2100000, guid: 1004f2b46f1e4424c9c0318f5df0e3d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kht_3_gate
+    second: {fileID: 2100000, guid: e653a0f2a40a64314a4ce9085463cec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kht_3_katusaken
+    second: {fileID: 2100000, guid: 077bed49eab9445bf82044b9fe4fbf56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kht_3_korstna_augud
+    second: {fileID: 2100000, guid: 502f5679773f4455bad9e3d6434aeff0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kht_3_puanentriip
+    second: {fileID: 2100000, guid: c0afc6041ffc44cc1858e2af835a1296, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kht_3_roof_kivi
+    second: {fileID: 2100000, guid: ae2d801f16c844da8bd1ab6a1559cf69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kht_3_roof_plekk_hall
+    second: {fileID: 2100000, guid: 77a36d740fed5486882a3a9e80d9ba3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kht_3_sokkel
+    second: {fileID: 2100000, guid: 11aaaaa32f09148b1b8ec0db2f043ce9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kht_3_window_01
+    second: {fileID: 2100000, guid: 3f3724b18ba5f4235abe70612828c7c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 883065a712acc4d058526ed50cac8027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chimneys_part
+    second: {fileID: 2100000, guid: f8478715a00b645388ecfc55de922ed9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_2
+    second: {fileID: 2100000, guid: 86a33d34a75bd45cab1b6fbc4d772b2d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

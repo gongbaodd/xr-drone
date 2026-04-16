@@ -3,12 +3,232 @@ guid: 6ea1008c53c5d4653a120b971aa0b0ef
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KAT_kivi_pun
+    second: {fileID: 2100000, guid: 14aedba2b6eb24ae69ec578da6cd175e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KAT_plekk_hall
+    second: {fileID: 2100000, guid: 69f4baf133dd646829780bcc161cdfae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KAT_plekk_pun
+    second: {fileID: 2100000, guid: 3a93436dfd96d438ab708f0d25c0d095, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTEN1_auk
+    second: {fileID: 2100000, guid: 5793aade1772a44ecb5a021f48e3e366, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__235
+    second: {fileID: 2100000, guid: 6e1ca53e71291416b80d7b7aafbe8bbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__280
+    second: {fileID: 2100000, guid: e3182a6f43e884d1f826a9b236247003, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIKK22_Plekk_must
+    second: {fileID: 2100000, guid: 51f94385cc2824c279b28559ded76d07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_t_pun_plekk
+    second: {fileID: 2100000, guid: 5c654cce8e3ba41899b15a340820aab8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_pits2
+    second: {fileID: 2100000, guid: 90d79f11bc3b64848ba9dedb43910839, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 34f53f6137e8d46d9bea615c2b21efa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ka_ker_2_old
+    second: {fileID: 2100000, guid: f0ce000750fa542fda7be3d7e02fd537, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_v_sile
+    second: {fileID: 2100000, guid: c4b425df0779e418db283bedf53b367c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken01
+    second: {fileID: 2100000, guid: b1454b2ccd6014fb8a92f955b1d63190, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken02
+    second: {fileID: 2100000, guid: 35fda30eb01eb4dcd90e6c5184cbf684, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken03
+    second: {fileID: 2100000, guid: 72aa97b3d7e254386b61a7a4b68b6db5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken04
+    second: {fileID: 2100000, guid: eb444e2a3d72a4799a3da9f8ea4d8231, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken05
+    second: {fileID: 2100000, guid: b5b3b3ddb08944607917202674fee37d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken06
+    second: {fileID: 2100000, guid: 16684da7b5dcb4993a448dc59343b5ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken07
+    second: {fileID: 2100000, guid: c696aca8e130c4055afa687c60e12710, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken08
+    second: {fileID: 2100000, guid: 21e5b8f2979834da3a0cd913d8a33e19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken09
+    second: {fileID: 2100000, guid: b208e3e4d7cf74711915b84161ad53fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken10
+    second: {fileID: 2100000, guid: 41eb146c5faec4ba49839885a3215e04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken11
+    second: {fileID: 2100000, guid: 7679817d7b7d94005a192eb6b503e87a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken12
+    second: {fileID: 2100000, guid: ddac43b06d5a047b29b1d51d3b78d7c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken13
+    second: {fileID: 2100000, guid: 2e1ba8afe3d864c7385f7098eb3f3fd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken14
+    second: {fileID: 2100000, guid: 82e40364ce1b6402d917e7e12ddce6eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken15
+    second: {fileID: 2100000, guid: 71825a33aeb7840eaa194aa2e0daba8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_aken17
+    second: {fileID: 2100000, guid: 07928cc0dbd3e48a6b013984f051f77a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_betoon01
+    second: {fileID: 2100000, guid: d2709d291fbb24867be600beaad64830, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_dekoor01
+    second: {fileID: 2100000, guid: 05d336afb10a64b379684672f3419df3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_dekoor02
+    second: {fileID: 2100000, guid: 93f8cbd2bda6a44a6b7e90033ee96a82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_dekoor03
+    second: {fileID: 2100000, guid: 8f70e1e9f167e42969c92acffd49aa59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_dekoor04
+    second: {fileID: 2100000, guid: 1617863e8ea7048c8b7190a476afa5cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_katuseplekk_roh
+    second: {fileID: 2100000, guid: ba358378f01c94e22af56fa1c85c90c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_kivi1
+    second: {fileID: 2100000, guid: de61033f913f94e27932996f54cea002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_kivi_02
+    second: {fileID: 2100000, guid: d2aec1cf7ecd04db79ee2e5d389a2b42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_kivi_03
+    second: {fileID: 2100000, guid: 3cfe8d76e0b6e4c92bc577390dbaa52c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_lipuvarras
+    second: {fileID: 2100000, guid: ce6a4aae1160749618f3a95a8b50983e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_punane_laudis
+    second: {fileID: 2100000, guid: 6d5dae4922dc0499f95c18e504160984, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_punane_puit
+    second: {fileID: 2100000, guid: e288eddc04dc34728a45243f6cca4f55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_uks01
+    second: {fileID: 2100000, guid: 88a5ddaa59ea342619a3d8052807eeae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_uks02
+    second: {fileID: 2100000, guid: 89e6115daaa40442ba750b4c129d7866, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_uks03
+    second: {fileID: 2100000, guid: 6551e066cff544a7ba7716284fe6f9f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suur_karja1_uks04
+    second: {fileID: 2100000, guid: faa55a729cfc24d0abde7b0f8d68628f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

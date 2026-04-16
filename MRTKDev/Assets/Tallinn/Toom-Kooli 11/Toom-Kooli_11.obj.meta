@@ -3,12 +3,117 @@ guid: a954c4526a1bc4ed38b45265922e1726
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_ARKLIAKNAD
+    second: {fileID: 2100000, guid: e9d444cb7dd2342d294091ca65764488, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_FASSAAD_111111
+    second: {fileID: 2100000, guid: 1c7d9111c0644427bb88b4c64aa7b0c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_FASSAAD_2222_TK11
+    second: {fileID: 2100000, guid: 5d2a3628ff7fe46798c7d6f84725c366, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_FASSAAD_333
+    second: {fileID: 2100000, guid: f4fe0abdad5094f1985e7fc1cdac1d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_FASS_TK11_nurgataga
+    second: {fileID: 2100000, guid: 0208009efc29e483991a611cb47f60de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_KAPPIDE_TK11
+    second: {fileID: 2100000, guid: aa8f2176484a844d684dc58ba9760076, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_KARNIIS_fass111_TK11
+    second: {fileID: 2100000, guid: 32029dcdec2084186ae3e61c99dee628, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_KATUS_TK11
+    second: {fileID: 2100000, guid: 5b71bbad1e80f428e82c3ba808f95282, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_KORSTNAD_TK11
+    second: {fileID: 2100000, guid: 84d6dec3dbd6047adaf317d6b8af61d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_RAAMAT_TUME_TK11
+    second: {fileID: 2100000, guid: cb14408b501924af7a9ca64fcb0e4b74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_TAGASEIN_TK_9
+    second: {fileID: 2100000, guid: a9dc12ec536414e2cb2b5371f5407aa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_TK_11_KAT_plekk_hall
+    second: {fileID: 2100000, guid: 8de2be77835264bed9544179ef6a0c1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_VINTSKAPI_KATUS_TK11
+    second: {fileID: 2100000, guid: a15bb26b213314e2d9785cdf865a3900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_fas_02
+    second: {fileID: 2100000, guid: 43052a088ef46478e9e47085377ff1c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_fas_03_TK11
+    second: {fileID: 2100000, guid: 976f2c8fb5a2b4d06a9904a56f928b68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_fas_04TK11
+    second: {fileID: 2100000, guid: d678b13cf1f3c4deb95523035277ae20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_korsten_auk
+    second: {fileID: 2100000, guid: 8f4dcc906370242f2acc1327cc7cb4bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK11_punplekk
+    second: {fileID: 2100000, guid: 6eeff72243c234db689b9be9890a19c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_11_varikatus_eest
+    second: {fileID: 2100000, guid: 0fc1f7fc21be5431c8b9ed3cffc7128c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_11_varikatus_kylg
+    second: {fileID: 2100000, guid: 5a1e8497208bb488b8fbca93aef79169, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tk_11_hall
+    second: {fileID: 2100000, guid: 79d1e3a372fac41e4b662af052c03f92, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

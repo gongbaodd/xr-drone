@@ -3,12 +3,62 @@ guid: fd594651b27654bc39bbc6309380f18e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling
+    second: {fileID: 2100000, guid: 7e9ded017963a42edae4264378bc323d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doors_Single
+    second: {fileID: 2100000, guid: 2e9599c3443bc455085b5d81a5417735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Type2
+    second: {fileID: 2100000, guid: 1669829ba627b41f1a946145f1a1ed67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Type3
+    second: {fileID: 2100000, guid: 6068d733fae524935973c179d52fb93a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side_Window
+    second: {fileID: 2100000, guid: d08968630a528467ca01ee2f491fe274, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Cream
+    second: {fileID: 2100000, guid: d0948c36d7c07480fb5239ef6135ac50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White_Paint
+    second: {fileID: 2100000, guid: 74eb5efa83d8d4ef5b63de8905a38102, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type2
+    second: {fileID: 2100000, guid: 88ee7b93b58e7424e800b9e4820038f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon
+    second: {fileID: 2100000, guid: 4c266ef6f2f994fbfbc2edd8197a4d45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 19567b14572a34c29a8535c299705e9b, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

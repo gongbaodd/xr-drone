@@ -3,12 +3,182 @@ guid: 7aed44c6737114f52aa5a114c498dfa2
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken
+    second: {fileID: 2100000, guid: 512b1f5dfeff04a11be129a4221d0e39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon
+    second: {fileID: 2100000, guid: da6d40d93d5464559b10e9b816825dd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1SG
+    second: {fileID: 2100000, guid: 2c3a3ae13442c409689dcd48eac7d807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn2SG
+    second: {fileID: 2100000, guid: 22fab85fe17c447b080ee06f5b9c5561, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn3SG
+    second: {fileID: 2100000, guid: 49ef46695ebe344e19139c5652bef313, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn5SG
+    second: {fileID: 2100000, guid: 7eb530d4c191441d1a610219a9901088, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door2
+    second: {fileID: 2100000, guid: b46ca349de4eb435798a2be637eec427, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus
+    second: {fileID: 2100000, guid: f81d4f373c2d846babee790b7c566eb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_pr
+    second: {fileID: 2100000, guid: c97ff0f8b5778498594f86927529db3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_val
+    second: {fileID: 2100000, guid: 0beae70335bbd476a8bec58ffafc5f78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: must
+    second: {fileID: 2100000, guid: 1d722801b75de4611af6d452df5036f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plk_kat
+    second: {fileID: 2100000, guid: a963a6b028b4f4dbb9df7893dff22f7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: s12_de
+    second: {fileID: 2100000, guid: 0d06db10e8f954587863ec15e6d54352, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: s12_kr1
+    second: {fileID: 2100000, guid: 7065b7b3dd8fb49de9f49b13dada4e4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: s12_kr2
+    second: {fileID: 2100000, guid: 0aa81ae0c564e44d4a52c5416a3cbb5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: s12_u1
+    second: {fileID: 2100000, guid: 4ca1d4f21a0454432accf9cf460dc1f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: s12_u2
+    second: {fileID: 2100000, guid: 3c099a68f869d4af884f96ce14b1a1a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: s12_uy
+    second: {fileID: 2100000, guid: 9057e4be6b20a43f0a634536416c31a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_blinn1SG
+    second: {fileID: 2100000, guid: 8cbc2a4c57c33496fb64d1a1d0117631, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn10SG
+    second: {fileID: 2100000, guid: dcbbcae05d5f54342a14569ced72c48b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn11SG
+    second: {fileID: 2100000, guid: 13cb76d5a08604c3bb5ee26dfa3fdb8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn14SG
+    second: {fileID: 2100000, guid: 84eed23601fb7483c8c013ddb552e986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn16SG
+    second: {fileID: 2100000, guid: 866be0b5fd32c4d079ba18b7cde5dced, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn17SG
+    second: {fileID: 2100000, guid: 85e617f29999c4aa38b6978e16543178, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn18SG
+    second: {fileID: 2100000, guid: fb9ed3ecccc39416882d48c060f64ad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn19SG
+    second: {fileID: 2100000, guid: 1f52100e3009e4c6193ceda7b83e311f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn20SG
+    second: {fileID: 2100000, guid: c8ff169f1cacf4b5b91c20a516c1e362, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn22SG
+    second: {fileID: 2100000, guid: cbf6f1886ef8f4b9ca3e6eb14f57b335, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn2SG
+    second: {fileID: 2100000, guid: f62f2e21b697f4769a6eb432f339ab8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn4SG
+    second: {fileID: 2100000, guid: 96d6e6bf36e5140ed9c9ca6df400428d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn6SG
+    second: {fileID: 2100000, guid: 8199b321f845e4f54b673205a16d7fd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn7SG
+    second: {fileID: 2100000, guid: 51ad4a68f915447dcae6f18330ea3fca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sauna_12_5_sauna_12_4_blinn8SG
+    second: {fileID: 2100000, guid: a881b525af4ec4c0a93b5d4a424b64f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window2
+    second: {fileID: 2100000, guid: 053551437965b49d4aa6973af09e2072, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

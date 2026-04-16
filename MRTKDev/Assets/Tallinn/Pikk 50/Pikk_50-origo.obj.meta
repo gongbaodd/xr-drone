@@ -3,12 +3,112 @@ guid: 6a291681de94640acb34f0e60d8bddfa
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50__bet
+    second: {fileID: 2100000, guid: cced58f0681a74168abcaa40a121a0a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_color02
+    second: {fileID: 2100000, guid: a29f21a64550045d7bde49bbb19ee495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_color1
+    second: {fileID: 2100000, guid: 7e897f3ad37884d839e5ff66313680a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_door
+    second: {fileID: 2100000, guid: fdc6eb34e78da4b59b3f225f9d4a8d83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_door_bekk
+    second: {fileID: 2100000, guid: 1505b109ae83846adbc19b98bf0e9404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_grill_window
+    second: {fileID: 2100000, guid: 13c5961853b1f4cd9a43bb0b444e3029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_grove02
+    second: {fileID: 2100000, guid: dbd8c0324950c4ce38383d6052747ebf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_grove03
+    second: {fileID: 2100000, guid: 61a30c8c417ac4ca7998e4fc51830cd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_grove04
+    second: {fileID: 2100000, guid: cde51300411c34a4e941a5eb47e311b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_katplekk_punane
+    second: {fileID: 2100000, guid: 4eeee7b1bf2eb49e4b43aaa197cc6a44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_kivi
+    second: {fileID: 2100000, guid: 1e6b185f756d9442787f19b053331567, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_krohv_vlge
+    second: {fileID: 2100000, guid: 87741790202fd480496ede80c05b8da1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_lgrove01
+    second: {fileID: 2100000, guid: 16186f6a6796f4aa7bc9138ea6f2a6f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_smalldoor
+    second: {fileID: 2100000, guid: 17dce387086384fcdb7e35fd836a1111, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_vent
+    second: {fileID: 2100000, guid: e1bb23611284f4773b2c5c452b45da7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_window01
+    second: {fileID: 2100000, guid: 35d66c7c5857b4d1ebde53ddf0cba9b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_window02
+    second: {fileID: 2100000, guid: eae4ebf56c80e41a1a7ae7959b7232e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_window03
+    second: {fileID: 2100000, guid: 999fcd01dfa6b41c8bb2f2618a88c84f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_window04
+    second: {fileID: 2100000, guid: 425d0e9619d1441258d249ed45835363, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_50_window05
+    second: {fileID: 2100000, guid: e1030b8a839fe4f8ca4e9775cee30a70, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,22 @@ guid: a9d0525e6dfad467ea349c53da17e221
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_GreyPlaster
+    second: {fileID: 2100000, guid: d981bd59479a9455d849303e7dfabb84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V18_20_YellowPlaster
+    second: {fileID: 2100000, guid: 1718a34018c6b422999e333dac732e9b, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

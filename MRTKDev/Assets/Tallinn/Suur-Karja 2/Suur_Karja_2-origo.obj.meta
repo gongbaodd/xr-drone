@@ -3,12 +3,97 @@ guid: 857534ae127f6444bb8f00cddd611cad
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_D1
+    second: {fileID: 2100000, guid: aa8be6da1dc3e4fee8fc9fb9669322bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_D2
+    second: {fileID: 2100000, guid: 4e658e6ecd0664419924da63a89cea98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_D3
+    second: {fileID: 2100000, guid: 628bec0673d04438fac296c638dd956a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_Det1
+    second: {fileID: 2100000, guid: b0ffd0d6a68e7442f8b779ae68cf18bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_Det2
+    second: {fileID: 2100000, guid: 6fd663065577c464aaeed8e400b09849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_GW
+    second: {fileID: 2100000, guid: 191cd8b1e2b7f479ea9c4775b858f785, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_RW
+    second: {fileID: 2100000, guid: e32793ce8e5154f439b6503152f8c24b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_RWl
+    second: {fileID: 2100000, guid: c798a1effc62847729fafe1a0c587d33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_Rf2
+    second: {fileID: 2100000, guid: 99400386cd52f439ca0dc7eb029eaa87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_Rf3
+    second: {fileID: 2100000, guid: a5ae21f84ab4142bd823b19a388da63b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_W1
+    second: {fileID: 2100000, guid: 5cac51e99d55f49edb8960e27f7b78ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_W2
+    second: {fileID: 2100000, guid: f8ce3f19b7cd94435bed502c468e5184, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_WL1
+    second: {fileID: 2100000, guid: b60ae87a8cd894431b5e62624ace1c2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_WL2
+    second: {fileID: 2100000, guid: 7281ed5fe93ec4936a425467fc0c8b83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_can1
+    second: {fileID: 2100000, guid: 7261d934b831b4164b2286eba068c550, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sr_Ka_2_can2
+    second: {fileID: 2100000, guid: 0a7c62e038d614ae5bbbc1dd6eecd13d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 1f1cdb60a46cb4d99a45d4e7a2016234, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

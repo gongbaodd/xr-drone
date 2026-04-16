@@ -3,12 +3,87 @@ guid: 2b22f53c84a974ff3b63d22c054a680a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__103
+    second: {fileID: 2100000, guid: 7003cb3595cd6422e8f00c16f3069d2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__104
+    second: {fileID: 2100000, guid: cb201a02a9fe647a291652630a11c208, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__105
+    second: {fileID: 2100000, guid: 26bb2ed7abee34bbaa8efed3f4466204, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__106
+    second: {fileID: 2100000, guid: a05b53914e2ad4c75aa96fe98e4294f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__117
+    second: {fileID: 2100000, guid: 7a4b27070811b43c8a5adfac802910af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__118
+    second: {fileID: 2100000, guid: fd78e1204adf244a094f3d9ef5e89661, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk24_01
+    second: {fileID: 2100000, guid: 27947b71d294845f6a38cc84b71094cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk24_KAT_plekk_hall
+    second: {fileID: 2100000, guid: 4d4a7268af2cb43dea1be5fcbea74049, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk24_ka_ker_2_old
+    second: {fileID: 2100000, guid: 7ed7d6e8df8c5469e9b479d01606e814, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk24_pikk262
+    second: {fileID: 2100000, guid: 039bc3405cced4a0fb49e99f46e7ce16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk24_pv9_sein
+    second: {fileID: 2100000, guid: 46b5e68d60bd34a6c89839f6d38f2a87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk24_pv9aken
+    second: {fileID: 2100000, guid: acc171977eec4422ba8857fdbeb80c84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk24_pvsein
+    second: {fileID: 2100000, guid: b0f06dd3b237546ad8eb2ea1c12eef2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk26
+    second: {fileID: 2100000, guid: 2027ed0a650c741b6aac881f0701a969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 86021a5166f214f698ed69246e00e779, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,132 @@ guid: 58c589e08de9947108ba21af58488d6d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_a1
+    second: {fileID: 2100000, guid: b0bb858e94c9640279db6807776405ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_a2
+    second: {fileID: 2100000, guid: c118b17d282a84e7c8451c1591ba551a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_a3
+    second: {fileID: 2100000, guid: 33cd9d0a20ef445b6913efb716758758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_a4
+    second: {fileID: 2100000, guid: a3cd4d743515e4d34acef29ea5d75328, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_kap
+    second: {fileID: 2100000, guid: 8b5a97be750294df3be338e061c5ac37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_karniis
+    second: {fileID: 2100000, guid: d57db38b5706541dab0538fa4fb737de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_katus
+    second: {fileID: 2100000, guid: f5b9ec63587bd40ee85617a38010aee6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_korstn
+    second: {fileID: 2100000, guid: 8d9abd6a4d9d0456eae3e98f2ee7be4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_korstnaloor
+    second: {fileID: 2100000, guid: f3f017946e115497092b8ef47c6b027c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_mans_viil
+    second: {fileID: 2100000, guid: ac467483a889d4c88a712e24708ad442, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_pil
+    second: {fileID: 2100000, guid: 0f21292bf8b9a4d3ead9504f4414ca40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_sein
+    second: {fileID: 2100000, guid: ee1062aedec804bcf8522043a0dcf01f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_sein_al
+    second: {fileID: 2100000, guid: 642926d4470004d459860c420e338f36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_sein_al_puhas
+    second: {fileID: 2100000, guid: 7cc7cde36819b44cda1406f9f5d39cf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_sil1
+    second: {fileID: 2100000, guid: fe52a9fcaf6164adc935bfbcc2e2bb6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_sil2
+    second: {fileID: 2100000, guid: e0d8db2128af94d7693d4b01461423e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_sil3
+    second: {fileID: 2100000, guid: e15804c30ea2f4367a4a9201277cc84e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_sokkl
+    second: {fileID: 2100000, guid: c2dbb5f095a9c46189fe7ab88b9b05fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_trep
+    second: {fileID: 2100000, guid: f7d3e950c56dc4b7d989ca6b389e0fa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_u1
+    second: {fileID: 2100000, guid: d3a90ce63a1a54a16ae835974a40fbff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_u2
+    second: {fileID: 2100000, guid: 6450369e1493d4bc988031c9807e6f08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_uuk
+    second: {fileID: 2100000, guid: d32f642783eca413cad1d1c3ade85973, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP10_valge
+    second: {fileID: 2100000, guid: 9f4b992dd48dc48c5ae53d1222cb3f64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: fd0e8b48499894c85a94c20348c65712, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

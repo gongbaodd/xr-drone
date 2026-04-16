@@ -3,12 +3,62 @@ guid: cdb927f165bf840eeb39663508dc34bb
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_2_ka
+    second: {fileID: 2100000, guid: cb5dae4e7c7bf401197d51312d72db74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_2_kat_helehall
+    second: {fileID: 2100000, guid: 183c3248f27774b7a9e309ac0d8a5588, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_2_kat_pun
+    second: {fileID: 2100000, guid: 0bb20fa3bd70449e5a27aefbe2aecbb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_2_korstn
+    second: {fileID: 2100000, guid: 3de39b11ad6eb4696ab705aac0ba90f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_2_korstnaots
+    second: {fileID: 2100000, guid: 0eee96382b7f84e29b0cf6e3b1cde4ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_2_pun_korstnaots
+    second: {fileID: 2100000, guid: 53da9b3592362429f92a2954f598aca3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_2_roosa
+    second: {fileID: 2100000, guid: 5f9787008370a4a34b5f22948cba926b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_2_uuk
+    second: {fileID: 2100000, guid: d072d1dad854f4dae8d13d413566c79d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_39_2_valge
+    second: {fileID: 2100000, guid: a1520a6d5795e44d3931a49966122879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: cef7be40a64e84a7fbf20a1b41d3a78b, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

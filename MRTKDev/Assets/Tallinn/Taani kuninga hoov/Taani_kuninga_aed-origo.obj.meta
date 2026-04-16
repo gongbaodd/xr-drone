@@ -3,12 +3,47 @@ guid: 9959b2c01c2f14d6f9ecd9d90a862c32
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Taani_ryytel
+    second: {fileID: 2100000, guid: cf933a3d13c7945259ac49ba601fc471, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Taani_sepis
+    second: {fileID: 2100000, guid: cc7a7ee514cfa4ff994dd1d3be36e369, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kruus_02
+    second: {fileID: 2100000, guid: 0c5d08d7e71294984831468c10595cec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kruus_1
+    second: {fileID: 2100000, guid: 5b8e71b527cc94513b7c6522130e56ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paekivi_fat_ylw
+    second: {fileID: 2100000, guid: 6c9ba0969b6ba48448bafd666fb0f944, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaatkate
+    second: {fileID: 2100000, guid: 98aa9775660c64836a507806d4c87aab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: slate__4
+    second: {fileID: 2100000, guid: a584434c9cdfa4dc7ac13c597c870fb1, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

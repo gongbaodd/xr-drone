@@ -3,12 +3,62 @@ guid: 4da79c8edefb948d49ab6f3649a15aae
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pyhavaimu_2_2_aken
+    second: {fileID: 2100000, guid: 88f10b84e026b46099f431c8ce553aab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pyhavaimu_2_2_katus_kivi
+    second: {fileID: 2100000, guid: 7c099d59b2fe541188baf8c67e12aeeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pyhavaimu_2_2_kivi
+    second: {fileID: 2100000, guid: 8221f3b9fefa1482cace0e1698b44110, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pyhavaimu_2_2_krohv_valge
+    second: {fileID: 2100000, guid: 95a0ff9dccf21435ab5634d257b4456c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pyhavaimu_2_2_plekk
+    second: {fileID: 2100000, guid: 47c4c300fb6bf47a1b5d377cc0e44c95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pyhavaimu_2_2_rest1
+    second: {fileID: 2100000, guid: 3b00c1a22d02149d19cd8b49b48e83fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pyhavaimu_2_2_rest2
+    second: {fileID: 2100000, guid: 355ca4e2b71e94f14b9c5a9b9f291343, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pyhavaimu_2_2_uks1
+    second: {fileID: 2100000, guid: 59fd07649995d4d9488c862b31e36785, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pyhavaimu_2_2_uks2
+    second: {fileID: 2100000, guid: cea5c2c9c4b814b0ebd4fde61223dc0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 1fe007b6277b9401894f98bff8b3ffae, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

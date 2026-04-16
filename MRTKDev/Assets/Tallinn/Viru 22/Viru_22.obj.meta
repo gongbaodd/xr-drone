@@ -3,12 +3,152 @@ guid: 7635c37e311cb4be5b4e493dd80824ce
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_02___Default
+    second: {fileID: 2100000, guid: 27b3ff34e5fea4f018942fdb644a6cce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_03___Default
+    second: {fileID: 2100000, guid: 903ce6e8f606f48f59a09a43e22c6d1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Black
+    second: {fileID: 2100000, guid: 548e7ff96a3394b3bb8f987aa820a463, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Chimney1
+    second: {fileID: 2100000, guid: 6f42e1ab84566467c83e8f53bf4915c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Chimney_3
+    second: {fileID: 2100000, guid: 72f53a4a1f92a4dddbc74fed9c9ba9af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Chimney_4
+    second: {fileID: 2100000, guid: bc02cdb6453474c7fb5145b351ef6f18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Chimney_Bid_Front
+    second: {fileID: 2100000, guid: 21f1cf3ca7de64d2e9047e6cf846e4a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Door_Shop
+    second: {fileID: 2100000, guid: a62a2bf90380942fd867a00a0efac367, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Door_Under_hood
+    second: {fileID: 2100000, guid: 53184123749de48f082aba220de1b5ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Greyish_Plaster
+    second: {fileID: 2100000, guid: 91d3c2b9778c7418a930a7dd31910873, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Inner_Blue_Wall_Color
+    second: {fileID: 2100000, guid: 17ccb56b37c5f41258934d0c981bbbf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Inner_Wall_Front_Gate
+    second: {fileID: 2100000, guid: 5c8cb68070c834f30bf93127081fbf9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Lined_Roof
+    second: {fileID: 2100000, guid: 9143a0af3e0984434a261635b3645c78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Lower_panel_First_locker
+    second: {fileID: 2100000, guid: 634c66231e17448b388fa18076661730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Lower_panel_Locker_2
+    second: {fileID: 2100000, guid: 32e6ec4e23c2c432d8a8ba8e9ac37c66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Red_Stone_Roof
+    second: {fileID: 2100000, guid: c3a5d071eefd340828b7cb58b8dd0284, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Shop_Front
+    second: {fileID: 2100000, guid: 1b833918e2ef047a9b06429bcdb44df2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Shop_side
+    second: {fileID: 2100000, guid: ae8849252cca84d93a79b672a5315f20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Stair_Tile_Color
+    second: {fileID: 2100000, guid: df751eb946fa640c7b2f43076cf83093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Stairs_cement_Color
+    second: {fileID: 2100000, guid: 167bae449aa3d4e71be117c910218507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Upper_Hut_Small_
+    second: {fileID: 2100000, guid: c96206220d85748f585139d81395e0a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Wall_Color
+    second: {fileID: 2100000, guid: d91c3b3b9e75e4d85bac7524bf9e9bc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Window_Low_Long
+    second: {fileID: 2100000, guid: 919e8a09a0d374a408f7bb52dba37463, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Window_Mid
+    second: {fileID: 2100000, guid: dcc36748c43624932806320aac469e72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_Window_Upper
+    second: {fileID: 2100000, guid: 48dead790ab50477da65c8e5e63f1202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_default
+    second: {fileID: 2100000, guid: f17c172ab0f4b42578c67c5abe5bc928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_22_v2rav01
+    second: {fileID: 2100000, guid: 85bec3d4df42c485e8103e78451a63ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru22_vlge_krohv
+    second: {fileID: 2100000, guid: f1cb925912d6d4a5ca56f53850ff9214, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

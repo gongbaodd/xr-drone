@@ -3,12 +3,47 @@ guid: 0690ef0677f5a49999b7c5f5209cb972
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Double_Doors
+    second: {fileID: 2100000, guid: ee77fb6f6bac54e8db5acd8eb4cfe7e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Type3
+    second: {fileID: 2100000, guid: 7bd996035b50d4157b32c947943e425e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Windows_Color
+    second: {fileID: 2100000, guid: 007dffcfa369844a2be2de6bc6db983b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Blue
+    second: {fileID: 2100000, guid: 731b6cb1bdb25430f8eaa51e234a098b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type1
+    second: {fileID: 2100000, guid: 4023d287990b84ecea01992d8a6e97b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tellis_vana
+    second: {fileID: 2100000, guid: 6802c66a09fab4c228a3f00dd5701c2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: b5e85990ece8740a284fdf73e1e971ad, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

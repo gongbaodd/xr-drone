@@ -3,12 +3,102 @@ guid: 7e29304a8160343f6937f4084b5d9a1e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_04
+    second: {fileID: 2100000, guid: 9f0cc4c2c17ec466d8fb00de5cf68601, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_13
+    second: {fileID: 2100000, guid: 5b28e6ee85ab846a199158199a16593f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_14
+    second: {fileID: 2100000, guid: 3372762a28d98470b8a2d355f7d13a4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_15
+    second: {fileID: 2100000, guid: c23953769b25b4cfc914fe252252f58d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_16
+    second: {fileID: 2100000, guid: 17cff888330a94d1898b6c348cc0530d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_17
+    second: {fileID: 2100000, guid: dc686d1a8083e4378a8b840c55c19fa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_18
+    second: {fileID: 2100000, guid: a54d3e325b0f0496f9a34c4f03d5c877, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_black_patch
+    second: {fileID: 2100000, guid: 6d84044cf127f44f59f2941347692bfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_clear_white
+    second: {fileID: 2100000, guid: c76060e611781441393d84d4bd2181f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_exp_left
+    second: {fileID: 2100000, guid: 2062e0b486c754926bad8f71a188a32c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_exp_right
+    second: {fileID: 2100000, guid: 89cc705908300498ebf4f03aef0c623d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_grey_plaster
+    second: {fileID: 2100000, guid: 05bac3b83d9e144dbaa6244516c81820, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_inner_doors
+    second: {fileID: 2100000, guid: f813ebc1fe74f4379a1801c9d8f3623a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_l_olive_plaster
+    second: {fileID: 2100000, guid: 7de4d13ce25ea4dfba6585675e9e1016, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_main_doors
+    second: {fileID: 2100000, guid: 816c9640fdd9f477ab97c54466c9383d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_plaster_white
+    second: {fileID: 2100000, guid: 6f152d9f1b9884160a79837dfb3e26db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_win_1
+    second: {fileID: 2100000, guid: e1547841ddede47dda0865121b5c42c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_11_win_2
+    second: {fileID: 2100000, guid: d1f16031bf2cd45df98bf737fb96257d, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,167 @@ guid: e794e904d19e24f7c991286b071c3b80
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_a1
+    second: {fileID: 2100000, guid: 32c355e6bd6c442fca0fb8edf8c636ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_a2
+    second: {fileID: 2100000, guid: f8092b4cf33104e9ca591dda72481e4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_chimneys
+    second: {fileID: 2100000, guid: 84212148d063540ae9a40304331941ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_door01
+    second: {fileID: 2100000, guid: 2aa7580c1d6e24caf89ff4ff9fd5f0da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_kattume
+    second: {fileID: 2100000, guid: 1466fc96bbb1b488db6762b490d422b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_katvalge
+    second: {fileID: 2100000, guid: d9a5e8582805c4d139b51807afe38317, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_lintels01
+    second: {fileID: 2100000, guid: 7fa6ae76768b741899e3fd43a01e5c84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_lintels02
+    second: {fileID: 2100000, guid: 1bfe2e49486354ad6b3e518d3a5d778e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_luuk
+    second: {fileID: 2100000, guid: d9ffd12390f4446b898dd75c852339d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_munknunn
+    second: {fileID: 2100000, guid: 259b51464f0ce49d88b923256be40419, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_roof_gray
+    second: {fileID: 2100000, guid: e113bf94a94dc4012b11fe07c994a64b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_roof_stone
+    second: {fileID: 2100000, guid: 8ec6f0992fdd24b5887fa9081fdd081a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_roof_tin
+    second: {fileID: 2100000, guid: 2909c2c2adf85444f8c4bdb729540b2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_stairs
+    second: {fileID: 2100000, guid: a89bb2237339140e88f99618570acb88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_tracks
+    second: {fileID: 2100000, guid: 2fdfb60e92a864223a339ee67786ba37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_tracks02
+    second: {fileID: 2100000, guid: af53af297f55945419006cfaa54a3b5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_v1
+    second: {fileID: 2100000, guid: 804f6f0c3faad4bb9969efaa774d488c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_valge
+    second: {fileID: 2100000, guid: c8fb6d3d0be154a4ead2b77993eb738b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_wall01
+    second: {fileID: 2100000, guid: 5f3dc5e316191494d831d36a7a839f10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_wall02
+    second: {fileID: 2100000, guid: a41b4c78792eb4de68899de4d9eb1cd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_wall03
+    second: {fileID: 2100000, guid: 3dd230eb0da2249ca9aa9e5a0e519511, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_wall04
+    second: {fileID: 2100000, guid: c5a3091aabe9b474aa58f366e36a1c8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_wall05
+    second: {fileID: 2100000, guid: 6759992a923484cf5ac94b1b15ae749c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_wall06
+    second: {fileID: 2100000, guid: 531dd8a40add547268d5eecda70240fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_wall07
+    second: {fileID: 2100000, guid: f313d6e40e7364ac5a3829cd6786e424, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_win01
+    second: {fileID: 2100000, guid: 16e186185c9aa4f28af028dcec001d9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_win02
+    second: {fileID: 2100000, guid: 9946c7998bd6f41d58a69052ff4c97dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_win03
+    second: {fileID: 2100000, guid: d9db44ea703644912803fbe43c06ff29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_win04
+    second: {fileID: 2100000, guid: 7fee56f5b0c354d1fa27c8fe9ca18734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga3_win05
+    second: {fileID: 2100000, guid: 3065a57287d8c4044b366c68a3aafdc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: b576085c36010409f8ca4c7de67dd028, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,157 @@ guid: 48d9c94c2bae746709250bad8d7866fe
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_blinn11SG
+    second: {fileID: 2100000, guid: afbd3ff4d4bf049469b60f1ef9cbcd4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_blinn12SG
+    second: {fileID: 2100000, guid: 9aa8499a023524761b6c419705c0cd15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_blinn13SG
+    second: {fileID: 2100000, guid: 516326179344d4e5bb93bcd81550d871, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_blinn14SG
+    second: {fileID: 2100000, guid: ab8da668079bd4ca3adae44d8f36c563, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_blinn15SG
+    second: {fileID: 2100000, guid: 8ba74a56e9f7a4370b7cd3f96333338e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_blinn16SG
+    second: {fileID: 2100000, guid: d50ad8ccf4b884dec960a770e311c36b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_blinn2SG
+    second: {fileID: 2100000, guid: a3aa1082da2a945bfa21a4e509c35b57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_blinn3SG
+    second: {fileID: 2100000, guid: f74a3f5de294f420ab100e4c2546a94b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_blinn4SG
+    second: {fileID: 2100000, guid: c276aab0562424d9da823d0d2ce4de2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_blinn5SG
+    second: {fileID: 2100000, guid: dca97e8423b154ff49fa6a22d3b4e753, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_blinn6SG
+    second: {fileID: 2100000, guid: e6c158f75db664a2cacb1e7b48c88ef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_blinn7SG
+    second: {fileID: 2100000, guid: 29e0be01b9fac437fb96c3d18bcd9cd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk34_korstn
+    second: {fileID: 2100000, guid: 55f7e00329e6746ad8e57127a4243417, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn10SG
+    second: {fileID: 2100000, guid: 65c691a673b6a4f2283bede275a9de54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn11SG
+    second: {fileID: 2100000, guid: 3a6df93b9e4aa4b23a75665c0ce4cae6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn12SG
+    second: {fileID: 2100000, guid: 8883e8214c1184f2589ea2816950eeee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn13SG
+    second: {fileID: 2100000, guid: 40d31d01d53c84d22a2646168fd05c06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn14SG
+    second: {fileID: 2100000, guid: b39ff40520cce4662b7ac86f51deb198, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn16SG
+    second: {fileID: 2100000, guid: d8b3da6618a364a88a36bc720199cbab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn17SG
+    second: {fileID: 2100000, guid: 3d1b79a97be8f41f1b2fa36b1d4cf0ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn1SG
+    second: {fileID: 2100000, guid: 1227ebfcd3daf4e82b0f6b0f6bf0ca10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn2SG
+    second: {fileID: 2100000, guid: a2e1b6af49d564b3fa180141270fe4e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn3SG
+    second: {fileID: 2100000, guid: 6c5e622c96a934f749a6d302d51233d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn4SG
+    second: {fileID: 2100000, guid: 6bce7c5af40dc49088c2958bb914ac98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn5SG
+    second: {fileID: 2100000, guid: f2f462233cb1242fdb552fea9ee4b6ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn6SG
+    second: {fileID: 2100000, guid: fa6b1c148fde8486ba073de17fb2b86f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn7SG
+    second: {fileID: 2100000, guid: ceaa4c9e091744eb5901afa831648daa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_34_2_blinn8SG
+    second: {fileID: 2100000, guid: cbb3517f6af62433da8e16cbbfcd50a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 1d34a5590e5cc4011a2b78292e5b11a1, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

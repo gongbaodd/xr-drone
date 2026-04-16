@@ -3,12 +3,92 @@ guid: 1b5c3ef69085d4c82a28c880ddf1ed5c
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_KATUS
+    second: {fileID: 2100000, guid: 19e579cf1804e4a928f9bf0c60138375, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_KORSTEN
+    second: {fileID: 2100000, guid: 0f76da4d559c84d689f6805bf33a2825, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_PRUUN
+    second: {fileID: 2100000, guid: 5c7f501f193a14d1680335545a212fb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_VALGE
+    second: {fileID: 2100000, guid: 436d9aa1e37ea442b958a5e5609582d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_fas_01
+    second: {fileID: 2100000, guid: c0d218a62f53f467c8d69980f70f53b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_fas_02
+    second: {fileID: 2100000, guid: f9b0320b58fcc4bab8e5fbe919ce2dde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_fas_03
+    second: {fileID: 2100000, guid: 707525494fbef467cbd7179fc1525dfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_katus_kivi_valge
+    second: {fileID: 2100000, guid: 1718380a60b834202a220a8d5151d95e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_katusaken
+    second: {fileID: 2100000, guid: 98760939a28a340c88947036ae97e2b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_krstn_auk
+    second: {fileID: 2100000, guid: e1928f69003374533914fa75a9d04969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_plekk_hall
+    second: {fileID: 2100000, guid: 452b953461fa84e169e4fc3569820925, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_plekk_punane
+    second: {fileID: 2100000, guid: 9c2bf2e554e984deab892708097bde49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_uuk_hele
+    second: {fileID: 2100000, guid: 1b6355cb8934a4d20a46105f62d7eea3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_uuk_tume
+    second: {fileID: 2100000, guid: ecb39e7bf39394fa38b2decc600e3194, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP3_uuk_tume_2
+    second: {fileID: 2100000, guid: c3b94d17b49bb47bdbd2d77806aafed2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: f2539597ae94049388216f77496b1b27, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

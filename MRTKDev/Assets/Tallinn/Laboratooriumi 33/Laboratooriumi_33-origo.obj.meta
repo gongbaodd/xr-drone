@@ -3,12 +3,52 @@ guid: aca3dd4b911fd4969a22cc0bac28520e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick_Strip
+    second: {fileID: 2100000, guid: 584cdb927c03c444bbea94ab27eed2ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick_Walls
+    second: {fileID: 2100000, guid: f3e1eb7e4d9a2410f82ff9f8cc9b73ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: ccc413c58e46146e2bb1b3c5401976f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray_Brick
+    second: {fileID: 2100000, guid: b1157b4fac6ea4f6c91d982806002b9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 0561a13551f5d488c81f8e8a173df39f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Sign
+    second: {fileID: 2100000, guid: 8e75e4e53a68144c498246a527ebcf18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tall_Windows
+    second: {fileID: 2100000, guid: b7c6c48dfe116485e84549ef7683bedc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Square
+    second: {fileID: 2100000, guid: 075f56dd81c9e413290fb1998ace8ef0, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

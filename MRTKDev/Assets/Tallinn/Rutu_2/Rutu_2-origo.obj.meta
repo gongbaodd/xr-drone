@@ -3,12 +3,97 @@ guid: 0ddceb754f86447c39ddac0a1c66167d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_aken_1
+    second: {fileID: 2100000, guid: 0b15158fe7b6c4ca5aeac71c2600f9c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_aken_2
+    second: {fileID: 2100000, guid: fc9536285861b4aa6a8ebecb267a3fd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_aken_3
+    second: {fileID: 2100000, guid: 0cbcbc6b174f744f7807230a99311f86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_facade
+    second: {fileID: 2100000, guid: 68e97e650833b4a3cbdea94a1146b38c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_facade_2
+    second: {fileID: 2100000, guid: 50bfc709130704caa8dbf3ca09ada9e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_hoovi_aknad_uksed
+    second: {fileID: 2100000, guid: b8682e0df2b974d9fb8737cfe239eeb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_katus
+    second: {fileID: 2100000, guid: d03a48888e76246a8b18ddeae5c172e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_katus2
+    second: {fileID: 2100000, guid: 13d336b371f9941238caaa33710b9713, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_korsten
+    second: {fileID: 2100000, guid: d130f123015a84b4f843926b674fe1c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_sokkel
+    second: {fileID: 2100000, guid: 837239e6ecb8843aeb5cae9a50f8f8a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_uks
+    second: {fileID: 2100000, guid: f3bf88c9d179e4759a072f232728a482, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_uks_Suur
+    second: {fileID: 2100000, guid: a418202a0c7704f1da0485d4e909f802, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_uks_myyr
+    second: {fileID: 2100000, guid: 4aea8faf9d7c64feaa3deeb7352b86fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_vintskapid2
+    second: {fileID: 2100000, guid: 9186c63a6766c4547b56fd68bdd69d92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutu2_vintskapid_1
+    second: {fileID: 2100000, guid: ccd9c2e6cb86a4587aade0dd0b9d7bb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sokkel_2
+    second: {fileID: 2100000, guid: 72b554751a6a14087a3e2f8f57883a61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 72593642f5d5d460ba5c8a2e8a954d57, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

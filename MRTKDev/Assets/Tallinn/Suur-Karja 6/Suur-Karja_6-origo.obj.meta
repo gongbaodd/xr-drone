@@ -3,12 +3,152 @@ guid: 7634a640434dc4ff9a71dee4ab079b71
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRICK_03
+    second: {fileID: 2100000, guid: bb8e056813ccb45cd94cd4e3769d29f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CHIMENEY_BODY
+    second: {fileID: 2100000, guid: 05c9afa036739443f862048bb38e484e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CHIMENEY_TOP
+    second: {fileID: 2100000, guid: 276685de2c88445d2b72de0b29c2f488, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: COLUMN_1
+    second: {fileID: 2100000, guid: c2dd20fc127c14f788b7a8f33154a5a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: COLUMN_2
+    second: {fileID: 2100000, guid: 8249f55c339ea48a0842bcf5de7e977e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CORNICE
+    second: {fileID: 2100000, guid: 9e5bde27fdfdc49a694dc3b1d5b4b1c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DOOR
+    second: {fileID: 2100000, guid: 14ad455e1c5f642b5b7750be689a442c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOUVER
+    second: {fileID: 2100000, guid: a5f68538227524510a75c611c454267f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAIN_DOOR
+    second: {fileID: 2100000, guid: 234c9d52d464e4f2e8ced030f9cc2233, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: METAL_ROOF
+    second: {fileID: 2100000, guid: ff7295b8dc118426ab5ab3b392ffb115, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: METAL_ROOF_RED
+    second: {fileID: 2100000, guid: f36c43d119fb142d290018ca317ce745, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MOLDING_01
+    second: {fileID: 2100000, guid: 5f83e828484854ba7bf7cec567a63d35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROWLOCK_01
+    second: {fileID: 2100000, guid: d694cfcd26dce4d99bf92bf764eac8ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROWLOCK_02
+    second: {fileID: 2100000, guid: 962638fbce4b640948d97a1889b818ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: STAIR_CONCRETE
+    second: {fileID: 2100000, guid: b376782aa541a4a7ba9b3372ee130676, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: STRIP
+    second: {fileID: 2100000, guid: 9199f55c68c7e415c8cf3d1e897431cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: STUCCO_GRAY
+    second: {fileID: 2100000, guid: 651cef40faeb14513b91419b0c4535a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TOP_FLOOR
+    second: {fileID: 2100000, guid: 1ae447e94814447a5a1e5216017080c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TOP_FLOOR_2
+    second: {fileID: 2100000, guid: ac24b753446a14021a5af8063597766b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TOP_FLOOR_2_window
+    second: {fileID: 2100000, guid: dc7d3dc7f02264197a7e960da614bc47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TOP_FLOOR_window
+    second: {fileID: 2100000, guid: 0d275928f765b4c6aa2b7b0d01b9edec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TOP_FLOOR_window_small
+    second: {fileID: 2100000, guid: dd20a0fbf2a1e418096101f3487de2bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VENT_GLASS
+    second: {fileID: 2100000, guid: 0303012ab96aa41f595db2f07c4de1ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VENT_MARK
+    second: {fileID: 2100000, guid: 0e323705ac4d34c7c8194fc1a546c7d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WIN01
+    second: {fileID: 2100000, guid: 91d9f12d3b99e4e90b844d8e7a2da4bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WIN02
+    second: {fileID: 2100000, guid: 280bec155718a446cbab7213ba49397c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall13
+    second: {fileID: 2100000, guid: 0d6f5f8fbcd304941a411d0049cbfc55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 5bd15c3b4b7c443c2a98017f0edbda89, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

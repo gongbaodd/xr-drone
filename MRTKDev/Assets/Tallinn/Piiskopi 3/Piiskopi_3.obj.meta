@@ -3,12 +3,87 @@ guid: 09809c8960f7344b79d6985bf6800ebd
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_298
+    second: {fileID: 2100000, guid: 02fda58a128204ff4845d78333cb6654, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_2seAken
+    second: {fileID: 2100000, guid: 3626e8fd8a94f4d47af24deb51c033d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_FASS_01
+    second: {fileID: 2100000, guid: 03c1bef448b264bc8ae7c1e34d958ad5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_facade_01
+    second: {fileID: 2100000, guid: d6693ad055ca14f12b1ae4ff7801f1a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_katuseaken
+    second: {fileID: 2100000, guid: 1274f6500cd5b4624b3527ecc36786e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_katused
+    second: {fileID: 2100000, guid: 40f0038cde37e4a9f9331f34b6df81de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_kivikatus
+    second: {fileID: 2100000, guid: 47e7b6fa29dae4a638ff97992a621c10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_korsten_auk
+    second: {fileID: 2100000, guid: d0fddb8a3c87c4307beead9966c00878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_korstnad
+    second: {fileID: 2100000, guid: 3ea146de4d857419db261dd7e2fe0948, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_raastas
+    second: {fileID: 2100000, guid: aa7387382eb5040fba160647c176ba80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_sokkel
+    second: {fileID: 2100000, guid: 541ec34e46f9c40a78794d5c8e0b8197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_uks1
+    second: {fileID: 2100000, guid: 665ed82220f0e405e85c16f318a315b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_uks2
+    second: {fileID: 2100000, guid: 29fb7f1c924e8421dac05217638de03a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pi3_valge
+    second: {fileID: 2100000, guid: f85f74a63eee94eb09dc8b8426b51315, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: b7f580fae2c894be4b0fc93caf24aecf, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,92 @@ guid: 3cae6f10840da4f568c6169ae685a74c
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Balka
+    second: {fileID: 2100000, guid: a18e28d8b142a460ca4531f54f6d2065, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DOor
+    second: {fileID: 2100000, guid: 10643248b2eee496e9cfec7d70e3eb03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_FL
+    second: {fileID: 2100000, guid: d9f5406a9ad5745d9ac5d96a020e83e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Down
+    second: {fileID: 2100000, guid: 2bebf18daf8a74ec98e4f6312a84da2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FLigel_door
+    second: {fileID: 2100000, guid: 2e331671d04354e0699e602cb863e08a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GD1
+    second: {fileID: 2100000, guid: 4b2b51fca467f4fafbca5fb5bdc6bbf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GD2
+    second: {fileID: 2100000, guid: d4df5e01fa8654e629e07ca91222b52b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jelob
+    second: {fileID: 2100000, guid: 62b34b0b91ae44d25b2e11f8ecdc521b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krilco
+    second: {fileID: 2100000, guid: 66be6948ef0904985b058a694d190500, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Podokonnik
+    second: {fileID: 2100000, guid: f921d8812f7934be6a0be67f5d457db9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 9c8f8cb6f5515458a92418358a954181, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WALLS_
+    second: {fileID: 2100000, guid: 9ff5cea6bd83b462ba94723624ef1e23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wind_01__one_
+    second: {fileID: 2100000, guid: affc5f6876857406490dc907d14d199a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window
+    second: {fileID: 2100000, guid: 049a3c0d7084e4750ad0fd634cf88f4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window2
+    second: {fileID: 2100000, guid: 37687497f254d4ee5aff2c133116ddee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window2_one
+    second: {fileID: 2100000, guid: 24df434bd88fb4f9592d744c1a2242ba, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

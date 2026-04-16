@@ -3,12 +3,122 @@ guid: 7da7fb92faf474f518ad905a206fcafc
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottom_Window1
+    second: {fileID: 2100000, guid: a85fc06ba03b445d6987d76ba2e6dda6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cream
+    second: {fileID: 2100000, guid: e5caea6e982ee47eca676013498f1c29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Cream
+    second: {fileID: 2100000, guid: d2eafc9348bd9404e919fe1d11e3906f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Double_Door
+    second: {fileID: 2100000, guid: dd3b93a2c19754751a247f20a41f5533, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Galerii_Doors
+    second: {fileID: 2100000, guid: 933ed124f5b63435e9def2841c8c6c46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Galerii_Lilac
+    second: {fileID: 2100000, guid: 4d45c55554ec944cc9d45460c7e2419b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gallerii_RoofWindow
+    second: {fileID: 2100000, guid: ab66b5a7c830848cba722e7e6e934ac4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grid
+    second: {fileID: 2100000, guid: 1afc9cc7db8b645dba164369e7e7c700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Middle_Window_Detail
+    second: {fileID: 2100000, guid: 928174100363141d2830c468880af891, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Middle_Windows
+    second: {fileID: 2100000, guid: b933040cff9534d62ab8f9a48f57ed33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OliveGreen
+    second: {fileID: 2100000, guid: c3e9ca64e49044232b7d7795d657a74f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_RoofStructure
+    second: {fileID: 2100000, guid: 16d99ac53914e4d4ba01ed179d800470, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: cdf6e646f886d4e1f9bf579d0c990cf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Windows
+    second: {fileID: 2100000, guid: 24767f6c937f34b77909781e199579f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steps
+    second: {fileID: 2100000, guid: d7f3bd82dbc084339aa88815e890e61a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top_Cornice_Detail
+    second: {fileID: 2100000, guid: e6f77c228ccb54e378ed3e59cc55e8db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top_Window_Detail
+    second: {fileID: 2100000, guid: 0bd6a653693764a69a34063b8d9cd0f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top_Windows
+    second: {fileID: 2100000, guid: f7ab1bc7ff3f74c6e8c1218fc295a9c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Cream_Grooves
+    second: {fileID: 2100000, guid: 0f45bd29c28474bc1ba6c7bcf2f1b367, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_DarkCream_Grooves
+    second: {fileID: 2100000, guid: e954b7141e14e45349ecec9af95eaf1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 68edf6b6a47a040fd92543f6ad64aa87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Small
+    second: {fileID: 2100000, guid: 4f2f4e26962b543b1b45d516a62345f1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

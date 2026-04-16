@@ -3,12 +3,127 @@ guid: 2d0cd50b58d674e318bcc41d3c753ead
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_dec
+    second: {fileID: 2100000, guid: 3e244a965764c44a2a1fc742fae96146, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_door1
+    second: {fileID: 2100000, guid: 8d8bd275ffdc748f89d2f84689d08dbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_door2
+    second: {fileID: 2100000, guid: 2c0835c63585d419c81f3c37ac17b6c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_door2wood
+    second: {fileID: 2100000, guid: 247985ab161a24cb4bb4d575ab42999d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_door2wood2
+    second: {fileID: 2100000, guid: 185bdc9a2d47e4d9c99d3abbdf2afe3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_fencecolor
+    second: {fileID: 2100000, guid: bff6efd0dbdb2436290681431970dc07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_gray
+    second: {fileID: 2100000, guid: f25c473840ae145469cc5a6b4975dcd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_holesdark
+    second: {fileID: 2100000, guid: 8d8d79c13179d43268277f5feba68516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_holeslight
+    second: {fileID: 2100000, guid: 6b1097fa04974455fa103ce0d4e487c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_kat_kivi01
+    second: {fileID: 2100000, guid: 0f948b7c0378f4247a3a7c46c4f45115, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_kat_plekk_hall
+    second: {fileID: 2100000, guid: c44226b0d80964a4b8c9fa6ff5777a63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_krohv_vlg
+    second: {fileID: 2100000, guid: 2f275558732bb46459038f88ec48b2b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_puit01
+    second: {fileID: 2100000, guid: 61a68eed0ac9e424c9f7597f3fa2c3f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_puit02
+    second: {fileID: 2100000, guid: 7590fb0dafd8f4adeae486b6943cb0e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_stone
+    second: {fileID: 2100000, guid: 47049be333e0b4794a3b8e34754bd2b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_vintsk01
+    second: {fileID: 2100000, guid: 9cdc4d818d61c4fffa53a9a2ffb8124f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_wallscolor
+    second: {fileID: 2100000, guid: e5231dc2c361342838bd25fec3691a25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_wind
+    second: {fileID: 2100000, guid: eeea133d75ec4475f8b7abceaf3745f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_wind1st
+    second: {fileID: 2100000, guid: ea608416c86f74e30bbf1ba6b5fa6325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_wind1stwood
+    second: {fileID: 2100000, guid: ccb8369207f7b46c197a06aba150920d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_windsml
+    second: {fileID: 2100000, guid: 407f7efd7e627405d86f99bb47637c7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_windsml02
+    second: {fileID: 2100000, guid: 1312d1c629e084cb098a96b755230151, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apt3_windwood
+    second: {fileID: 2100000, guid: 1e7237246c84a4d1d845b512c386e18d, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

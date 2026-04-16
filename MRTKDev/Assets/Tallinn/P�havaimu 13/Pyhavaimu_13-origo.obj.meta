@@ -3,12 +3,57 @@ guid: a472c5a1d4b484fa28784d0cc5e763f2
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon
+    second: {fileID: 2100000, guid: 07378619c813f4105b5e003e4557046e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kat
+    second: {fileID: 2100000, guid: 74ebd7b7f5256426dac31306f9d7e0e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_v
+    second: {fileID: 2100000, guid: 0a27fc819faec4579aef400cfc319e4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: p13a1
+    second: {fileID: 2100000, guid: 30e10017a1ad04bd5a80931ffa9928d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: p13a2
+    second: {fileID: 2100000, guid: e18fe7f4346d340279f89cd6e1b5489e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: p13a3
+    second: {fileID: 2100000, guid: e63e27a46cb25449481ffc2aa6701926, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: p13u1
+    second: {fileID: 2100000, guid: 9653083132aa94cecbc3372c8b418bb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: p13u2
+    second: {fileID: 2100000, guid: 6d9ab994cebd94b20855b8734c17b9d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 985be2f4da96247c5a6d1200860b2577, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

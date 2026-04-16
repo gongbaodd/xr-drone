@@ -3,12 +3,77 @@ guid: b250225285f894c389b80f1bd48f6577
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick
+    second: {fileID: 2100000, guid: 07dc12a0ba61341e48c623beb34fb6b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 34c502aee748941b195244271e4ef3c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Trim
+    second: {fileID: 2100000, guid: fd634e60ef06c4955af916cb6da110af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Wood_Color
+    second: {fileID: 2100000, guid: 67cff20fd15c448358eb6a097d2ea5c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Wood_Strips
+    second: {fileID: 2100000, guid: abb998c43ef414994b4b3f48421a0fbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Type1
+    second: {fileID: 2100000, guid: 86eca3ed3ca0f42bcac3376995b77f1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone_Color
+    second: {fileID: 2100000, guid: 7e97c4838a82340458938b60521672c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Cream
+    second: {fileID: 2100000, guid: e21d52525e3a54abc955f03ee3fc8fbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White_Paint
+    second: {fileID: 2100000, guid: ab6a735d1db1e489d8f408cdcebfffc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Detail
+    second: {fileID: 2100000, guid: d00c36532fec346ca885ab2e496c304b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_HalfRound
+    second: {fileID: 2100000, guid: 09ffce0c20718409d98978f146df6e82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type1
+    second: {fileID: 2100000, guid: 3a70e5c68de894f1383903a99931f791, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type2
+    second: {fileID: 2100000, guid: dd048c529a9fc4fb1899ec4a936be1c4, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

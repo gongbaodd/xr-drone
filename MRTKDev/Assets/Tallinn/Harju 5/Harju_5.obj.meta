@@ -3,12 +3,207 @@ guid: a7c338e02002a43948a46e1b94f03d92
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_0742door
+    second: {fileID: 2100000, guid: 413da760c66ac4a3980402a47e07c298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_0742grove
+    second: {fileID: 2100000, guid: f5ae4c045f8e24728b09d7998183d238, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_0742grove02
+    second: {fileID: 2100000, guid: 997b773d6e9a14618866015b6b94e509, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_0745window
+    second: {fileID: 2100000, guid: 660467ad80396402a92ca6fbf2299b6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_0783door01
+    second: {fileID: 2100000, guid: f460cfc59798b42dfb3510f8dd648c15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_0783door02
+    second: {fileID: 2100000, guid: ca9d944c3af654987bb88b7a65db5deb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_0783grove
+    second: {fileID: 2100000, guid: fa26895af81b64bfbac2a4acaaad41cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_0783walgrove
+    second: {fileID: 2100000, guid: 97d7d088c419f46fda2ab442e17eb9db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_0783window
+    second: {fileID: 2100000, guid: 3c01973ec75fe455fbf8fcdebf89219d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_0783window02
+    second: {fileID: 2100000, guid: 7bbf1d16894c34a228361aca74fe6e29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_chimneytop
+    second: {fileID: 2100000, guid: 0e538148293e0489f934c17e5502bfaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_chimneytop02
+    second: {fileID: 2100000, guid: b6c3d61afdfd241d88b42a4e6479b192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_color01
+    second: {fileID: 2100000, guid: 08ae3970015a64210a68ef1b33edc73d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_color04
+    second: {fileID: 2100000, guid: d13a904e97ddc4ec7a949e1e9a0969ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_color_3
+    second: {fileID: 2100000, guid: baf4215b65ce34d73929afcea5430872, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_detail01
+    second: {fileID: 2100000, guid: f3da82a50443944ed8a0359f54f46cf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_doorgrove
+    second: {fileID: 2100000, guid: a8b10a364714d447ab2540ad182d70fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_grove
+    second: {fileID: 2100000, guid: c39cde211de084182a144af271394083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_grove002
+    second: {fileID: 2100000, guid: f97a43687dbd041458afdddafcbebcb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_grove04
+    second: {fileID: 2100000, guid: bf0db02790f054440be6dc93be65462e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_grove06
+    second: {fileID: 2100000, guid: 4e1e46c2fa9084ae2aed8be0d1546c8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_grove2
+    second: {fileID: 2100000, guid: 308955305d347464599334860858a243, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_grove4
+    second: {fileID: 2100000, guid: 958b147682abb49a1bc651a54d97df7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_kat_plekk_pun
+    second: {fileID: 2100000, guid: e091899eb087a4fac955b448d5a715f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_katkivi
+    second: {fileID: 2100000, guid: e430cd11ebe7244a596b3c8ceffafc18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_krohv_hall
+    second: {fileID: 2100000, guid: 2f7a8e85a8a634b59b9ef3388965f581, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_krohv_vlg
+    second: {fileID: 2100000, guid: 6d73e26c965704627b70be870a5429ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_piire01
+    second: {fileID: 2100000, guid: e0d884f78819b4dbd94ccecf62fe04a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_plekk_hall
+    second: {fileID: 2100000, guid: b5155da5ab85944fdbc80cec4b4111e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_roundwindow
+    second: {fileID: 2100000, guid: 516f80c9f870b4861baabb5baee6e7ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_uks_taga
+    second: {fileID: 2100000, guid: bcfa619b84a32488fad09353b704e2f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_walltiles
+    second: {fileID: 2100000, guid: ae6cbf4e9fb5748dc83715e304ba0ec6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_window
+    second: {fileID: 2100000, guid: 141ccfe47cb6d4be7a8dca0697a0d7ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_window02
+    second: {fileID: 2100000, guid: 34b30aa6946024919a501344b3f3c967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_window03
+    second: {fileID: 2100000, guid: 498facb781c24450c9935a07728559ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_window2
+    second: {fileID: 2100000, guid: edd575615b02d44699d766596a50df14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_windowgrove
+    second: {fileID: 2100000, guid: 3cd26bde6dd5046d6bf3b71151abb9af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5_windwo
+    second: {fileID: 2100000, guid: 330904854cbb64addbc4cd6064e069f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_5grove_02
+    second: {fileID: 2100000, guid: b97b1f4280a9c403a9253e62a24eecc3, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

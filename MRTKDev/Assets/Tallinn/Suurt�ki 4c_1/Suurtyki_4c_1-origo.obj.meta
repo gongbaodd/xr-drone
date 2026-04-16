@@ -3,12 +3,107 @@ guid: 977f6bdc3f3da49dcbf95f8badbd086b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__1079
+    second: {fileID: 2100000, guid: c4c4e92f8379542a791ff61e95cc7811, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__334
+    second: {fileID: 2100000, guid: 759592d0721af4eb5ba9a8ac98a6b43e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__950
+    second: {fileID: 2100000, guid: 53100155804a9443fb7276db72e27b3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhiteRoof
+    second: {fileID: 2100000, guid: 2cfc65e56a4db4d5390cb25688ffad62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0___StairTop
+    second: {fileID: 2100000, guid: 2e6fbc09526c74415bced607a19408b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0___Win_1
+    second: {fileID: 2100000, guid: 2becb17d7c98542e7a31a4d8eb5f99ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1___DoorShield
+    second: {fileID: 2100000, guid: a998aac10c4e14906b0c4656800d2b3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1___Door_1
+    second: {fileID: 2100000, guid: 3d759d3fbc8c64b779f138560e6ebf58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2___roof
+    second: {fileID: 2100000, guid: ebf8eeae14a594daf9fcd4b0199c0baf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _3___RedTin_dark
+    second: {fileID: 2100000, guid: 10221c2109dbe4e579a7e38f347c4d27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _3___RedTin_wtHollow
+    second: {fileID: 2100000, guid: 72b92a61a7995461fafbe726436732be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4___roofWin
+    second: {fileID: 2100000, guid: 72dd64fd586fc42f78d8cf593e8d90b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _5___facongRoof
+    second: {fileID: 2100000, guid: 90f9e56701e4b42f7a78a609078135b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _6___pureRedTin
+    second: {fileID: 2100000, guid: 36f297334ebbe4776ae675ba96469e50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _7___3Step_stone
+    second: {fileID: 2100000, guid: babb16f6f95aa4ab2bd4f8d35611f33b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _7___Chimney
+    second: {fileID: 2100000, guid: c0ddd62ac8dc44211b8c387e340871f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _9___Big_win
+    second: {fileID: 2100000, guid: 2d07069514f314dec86063ae0cb006a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _9___WhiteWal
+    second: {fileID: 2100000, guid: e664acb3bf1bf47b5893b1b6afbb5b33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 96a13a1679d1c457babbe22ab026a978, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

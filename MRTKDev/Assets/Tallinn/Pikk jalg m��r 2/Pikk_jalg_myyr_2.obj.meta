@@ -3,12 +3,27 @@ guid: 6febb5d52fd9d494dbb70b8c6d97fee0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_jalg_betonts
+    second: {fileID: 2100000, guid: 708133786a6444f53977d095a2536e9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_jalg_paas
+    second: {fileID: 2100000, guid: afce6c22a9ebe41e88def98fc79f7537, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: d074dc80c3ffc4a1d91845ff25169850, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

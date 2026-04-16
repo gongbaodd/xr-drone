@@ -3,12 +3,32 @@ guid: 3bb1e850fdfcc4917ba7dfb50f65575b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 17a_F1
+    second: {fileID: 2100000, guid: ee1bdd1ceab3b4bf4acfc74cd49a7a5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ruberoid
+    second: {fileID: 2100000, guid: 12311c0ae5234457b93a370efcd0061a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krohv_valge
+    second: {fileID: 2100000, guid: eb86435db268445cc89ad40b2f3bf987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plekk_hall
+    second: {fileID: 2100000, guid: 34dba98d8958a4bdb8b92c2f8f0ded73, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

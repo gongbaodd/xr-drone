@@ -3,12 +3,102 @@ guid: 63371d0f6b8e84ccaa0bacc6af0ca64f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex1
+    second: {fileID: 2100000, guid: 1e49b128f03eb45fcafea17a0eda4264, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex10
+    second: {fileID: 2100000, guid: 138b2d95cc6bd44209ea37e9c91f93aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex11
+    second: {fileID: 2100000, guid: 7f362ac8b46934803be895f47584c4f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex12
+    second: {fileID: 2100000, guid: a77b39e32ae3540a8a0f922d9ae6bbd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex13
+    second: {fileID: 2100000, guid: 9470d874e31a2410a90a99ad207666cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex14
+    second: {fileID: 2100000, guid: 1ce3d12e7b66a4229bacccd8e33cdc0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex15
+    second: {fileID: 2100000, guid: 6bc6b316a0eb24d9daf3946ddd6cab6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex16
+    second: {fileID: 2100000, guid: 87215605b7ff54a8eb603d0261a4e0ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex17
+    second: {fileID: 2100000, guid: db46828d5e4344e5f8ef0c07c2684a29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex18
+    second: {fileID: 2100000, guid: 1ac29bc6c07b14453a98ad47ace1488d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex2
+    second: {fileID: 2100000, guid: b441016f7ca554fc88a09ff21cc68076, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex3
+    second: {fileID: 2100000, guid: be5f833b9438947c9b880844c2705234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex4
+    second: {fileID: 2100000, guid: d37da78bfd3f944008eadda67a119cf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex5
+    second: {fileID: 2100000, guid: 09abbf1e4324c429f9a567e2c199f5f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex6
+    second: {fileID: 2100000, guid: 871a771506ab4489697f48c597c6f7cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex7
+    second: {fileID: 2100000, guid: 32e4131536e17442285a5e2c08a458f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex8
+    second: {fileID: 2100000, guid: 02bf68e221da94f308e60ed216d5a8a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pikk_48_tex9
+    second: {fileID: 2100000, guid: aa1a1a2e3fee64705af1aeb2b1106f93, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

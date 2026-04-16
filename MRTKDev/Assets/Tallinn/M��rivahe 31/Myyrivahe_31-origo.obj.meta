@@ -3,12 +3,122 @@ guid: 6d1de2b502b0d4a5db2544fb89f0effb
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_aken1
+    second: {fileID: 2100000, guid: c8000b96f61ce4bd391d1f3da373b537, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_aken2
+    second: {fileID: 2100000, guid: 5506f85dde389418f912475f86d1f220, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_aken3
+    second: {fileID: 2100000, guid: 974e50157d86f4c428fdd0f506eaefec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_aken4
+    second: {fileID: 2100000, guid: 872513d2ffaca4282bec1d15b3eee3b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_aken5
+    second: {fileID: 2100000, guid: 7fae0fe16030e45d2b4dc96517a1660f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_katuseaken
+    second: {fileID: 2100000, guid: ecb884d8af2ad48d393551b6c5002835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_katuseplekk
+    second: {fileID: 2100000, guid: 1040ae125d7a8434bac9bf7632031d17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_kaunistus
+    second: {fileID: 2100000, guid: 37788e97f493f43249a94a953d9bb654, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_korsten
+    second: {fileID: 2100000, guid: 793bdcfbf602e4e72999086854dc1258, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_krohvhall
+    second: {fileID: 2100000, guid: 5634d532e64df4d768ff0a9556f8981c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_krohvkollane
+    second: {fileID: 2100000, guid: b94206a2590f641b0a1b3267f2be63c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_krohvkollasem
+    second: {fileID: 2100000, guid: e3e52daae183b4b7cbe8173a936dc305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_krohvvalge
+    second: {fileID: 2100000, guid: e7947b10f1b7b4c678f2d4726aa885ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_kvarav
+    second: {fileID: 2100000, guid: a249611f59b944931b898c297eb350f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_paekivi
+    second: {fileID: 2100000, guid: 95512fa449c5a4a329b76a012fecba45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_puit
+    second: {fileID: 2100000, guid: ea8a7eafb89164492a2a75980d64515e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_uks1
+    second: {fileID: 2100000, guid: 3abf82033b2be4d4fbd5dad8aec44a11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_uks2
+    second: {fileID: 2100000, guid: 0fc63efe7157e48489e002363912bd59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_uks3
+    second: {fileID: 2100000, guid: 8f543853adfed48a88256707fd202544, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_uksaken1
+    second: {fileID: 2100000, guid: f1fe1c63941884623b568ff7de81ffab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myyrivahe_31_uksaken2
+    second: {fileID: 2100000, guid: d004482d7e38a47fdbe205f6422494cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: d5113f4b0082c447691ee1fa82c43f2d, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

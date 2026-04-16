@@ -3,12 +3,92 @@ guid: 3c94748c0957540ee967fba1f0044c77
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_a1
+    second: {fileID: 2100000, guid: 176353e948a6044a898426740b9b574c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_chimneys
+    second: {fileID: 2100000, guid: 4bb7238765dbf42f8b7124bb31440b74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_door
+    second: {fileID: 2100000, guid: 3ca1daf32e8604643a3e6c710cd8e979, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_door_back
+    second: {fileID: 2100000, guid: 03c5dda6abe2147c59692a892531a6db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_garage
+    second: {fileID: 2100000, guid: f16e56b481001423bba0668648c71f1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_gates
+    second: {fileID: 2100000, guid: 373d9854b9f5b4c0bb8425617c958b65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_katus
+    second: {fileID: 2100000, guid: 3f0b369b737ac4dd39ca99a1791f4cb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_main
+    second: {fileID: 2100000, guid: 15b6c19378f41484e89706db70f61a8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_pink_building
+    second: {fileID: 2100000, guid: 70af1942b18014a138ed1d991549bca7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_pun_kivi
+    second: {fileID: 2100000, guid: 197488a2e1f1042438b8a62ff73198f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_roof
+    second: {fileID: 2100000, guid: 65bec3eb4fe6b446194af90fd9ede8cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_roosa_kar
+    second: {fileID: 2100000, guid: 1610faa48c3364d9f98dbcea0376c2a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_small_building
+    second: {fileID: 2100000, guid: 2e4c70c1f93364c3da1984575d30c990, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_v1
+    second: {fileID: 2100000, guid: 9eedf535dd9a54e4e8f98d841df65667, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_windows01
+    second: {fileID: 2100000, guid: a78a2a3f44e264a77b7fa73304629c69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_13_windows02
+    second: {fileID: 2100000, guid: 9d9799c584a2641d28a0d03106abab8a, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

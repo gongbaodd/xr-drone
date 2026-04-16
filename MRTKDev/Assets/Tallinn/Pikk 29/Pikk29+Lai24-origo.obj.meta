@@ -3,12 +3,117 @@ guid: fc5b0871fd5ec4c719475f53ca543a34
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02___Default
+    second: {fileID: 2100000, guid: b385a609ab09e4d2f92c4d690568c710, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patches
+    second: {fileID: 2100000, guid: 15680a117abac48288ff6ba323b39de7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base_window_lai
+    second: {fileID: 2100000, guid: 3f77b894f005d4df98e71a969baf7efe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chimneys
+    second: {fileID: 2100000, guid: afbba714e2236412da5f934997c3ad79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: edge_1
+    second: {fileID: 2100000, guid: 386b73d567d454ec2bf6794f7ec3e384, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: edge_2
+    second: {fileID: 2100000, guid: 908910e3caadd4639b0420e38adce291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: exp_window_left
+    second: {fileID: 2100000, guid: d176b56fefa4047d3967265410aea4e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: exp_window_right
+    second: {fileID: 2100000, guid: 60fa5447287434c5891e830c9a11ccb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai_front_main
+    second: {fileID: 2100000, guid: 9a4fc8b25a1184161a7d79a8d2c9f6e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main_door
+    second: {fileID: 2100000, guid: 07ede32ca2d834ab48c4dddec211ff0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk_base_window
+    second: {fileID: 2100000, guid: 43f8395aca0014279b7155d080846ec5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: railing
+    second: {fileID: 2100000, guid: 1e39d34fb4e9549dc93731e327adb55a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_1
+    second: {fileID: 2100000, guid: dc9bd0e5cf752438f83f4b0f1ff19c88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_2
+    second: {fileID: 2100000, guid: 41425c008b2d04538be15ea75e07b477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_window
+    second: {fileID: 2100000, guid: 83c65a6430f4140168b06e3a924f0ed3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: step
+    second: {fileID: 2100000, guid: 5b8353a97e8304e42a3547ba96c9df0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_plaster
+    second: {fileID: 2100000, guid: 3d864738c8feb464caf8ab5f2e8fcab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_2nd_floor
+    second: {fileID: 2100000, guid: c21c60aff5202411a9e5a025fd3234b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_3rd_floor
+    second: {fileID: 2100000, guid: a9b7e1ec6d6b24d478daad204bf18c2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_attic
+    second: {fileID: 2100000, guid: afac7f9943ef44ca387e748ba2190171, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 35aa1f52c4cf74901a84739d6056acaa, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

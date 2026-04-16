@@ -3,12 +3,137 @@ guid: eac3f968c8a2840158dfe150036d2b03
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_12SG
+    second: {fileID: 2100000, guid: eefb1f28b200f486fb7db276bc34fa27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_13SG
+    second: {fileID: 2100000, guid: 94595b9148dc94680b28843e70885694, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_14SG
+    second: {fileID: 2100000, guid: 8d911354a103e4ed494423bf1128f592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_15SG
+    second: {fileID: 2100000, guid: 8e6724a2d7d77497e9340b145403f66d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_1SG
+    second: {fileID: 2100000, guid: 91737b175e68c4698a43d892d7deab0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_2SG
+    second: {fileID: 2100000, guid: 0801a5df5bbb047a0a5958c9f47a2eeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_3SG
+    second: {fileID: 2100000, guid: 578b043d569b04e6b9d09fc2f8dff3a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_4SG
+    second: {fileID: 2100000, guid: f7c272f8baafd4fe68c4f8002b6d2168, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_5SG
+    second: {fileID: 2100000, guid: 205b768685a274f3eab8c896546c2b1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_6SG
+    second: {fileID: 2100000, guid: d8f2aad1c3fd54e3db028c3ed46f0fb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_a1
+    second: {fileID: 2100000, guid: 8fa6d6a1864b64f3d9b8c20c04de6183, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_a2
+    second: {fileID: 2100000, guid: 4ca586d3ac6ef45fab8cf0ed8cf90515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_a3
+    second: {fileID: 2100000, guid: 2fe13bc9164424bc3a4661cb0a3100b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_etikukivi
+    second: {fileID: 2100000, guid: 5fc5e684ea7394beb954f0f9a3aabdad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_karniis
+    second: {fileID: 2100000, guid: 2a0ae6536109847c29fd63b9008f115f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_kat_punane
+    second: {fileID: 2100000, guid: 03d558d17acd54553824dffc968253fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_katus_valge
+    second: {fileID: 2100000, guid: 3f6647cb3532e4709b5fa7b2f4b27b27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_korstnaots
+    second: {fileID: 2100000, guid: fa06f7ee6edb542a696997fc07da455c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_paas
+    second: {fileID: 2100000, guid: 1c9ec9c7e7cf243968067963247d604e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_sein
+    second: {fileID: 2100000, guid: aea819b85617f47edb55b9634870d06b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_trep
+    second: {fileID: 2100000, guid: 483b55ade2fac4ed98fc8c5772b5ff11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_u1
+    second: {fileID: 2100000, guid: 580caeb66286348d9bb045dece3b23da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_valge
+    second: {fileID: 2100000, guid: a74235dfc7a84468da26abb1a5d8ec57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W9_zokkl
+    second: {fileID: 2100000, guid: 48e6530ed88634b00a5075a7f311c43e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W_9
+    second: {fileID: 2100000, guid: 5a8f741fd403a4f6dab6bd0d1cd166de, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

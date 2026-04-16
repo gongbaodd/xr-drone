@@ -3,12 +3,92 @@ guid: 57a40c791c10f4d63b37d3ca9806e04b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AKEN7
+    second: {fileID: 2100000, guid: 796b72d6595be4964a0cb5311459a9f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken2
+    second: {fileID: 2100000, guid: 4e3bea38a42d94032910d4a79afcd71d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken2b
+    second: {fileID: 2100000, guid: 8f86d86cf16764bb1af629a449bcb9ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken4
+    second: {fileID: 2100000, guid: 325d83b011cd146908cc1128d9d56bed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken4b
+    second: {fileID: 2100000, guid: ed145730159cc4e2d84392c337947c35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken6
+    second: {fileID: 2100000, guid: 924b65b7921e9477184e96ebfc62b841, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon
+    second: {fileID: 2100000, guid: c97be47a7c3904cb796cc7b10b5b0453, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hel_kol_kr
+    second: {fileID: 2100000, guid: a2703044b2d6f485e9970986477b03c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: karniis
+    second: {fileID: 2100000, guid: af3b2f0bf18484d3d8e472697c3bab51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kol_kr
+    second: {fileID: 2100000, guid: 08ad563e15aaa4407a240b6bed553932, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krst
+    second: {fileID: 2100000, guid: f6bdc65e5221e40c3804c872e7b94346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pun_plk
+    second: {fileID: 2100000, guid: a05a3bf5190bc4b85b44336cdd4637cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: slate1
+    second: {fileID: 2100000, guid: 682facf982c9c48f0b5fd1e97fb1a7b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uks2
+    second: {fileID: 2100000, guid: 97440083aa38a4ce8aad0770b0edc77c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uks3
+    second: {fileID: 2100000, guid: 1e95d7790f07d4721912b58b2c5dfa26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: val_kr
+    second: {fileID: 2100000, guid: 458c0e5f37c1d431887ae29894c23240, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

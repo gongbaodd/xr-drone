@@ -3,12 +3,52 @@ guid: d1261f0a913fb435089c5e57be025314
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_42_door01
+    second: {fileID: 2100000, guid: 0e18a6f9902144c2d85ce2fb5f4ceed9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_42_katkivi
+    second: {fileID: 2100000, guid: f01f6ec4d77484a7b9873bc0cde9f3c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_42_krohv_kollane
+    second: {fileID: 2100000, guid: 7fa9d2b126afb42ba81afce6546c7a7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_42_krohv_vlge
+    second: {fileID: 2100000, guid: 247a28e6984284490825e71fec7afe99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_42_red_color
+    second: {fileID: 2100000, guid: 37d48d0dc9d28431d8fd8b6e731013b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_42_roofline
+    second: {fileID: 2100000, guid: 168111529d420438fa1b89604d028875, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_42_tin
+    second: {fileID: 2100000, guid: a33c819dc01ff407db2adf9e247e2a29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_42_window01
+    second: {fileID: 2100000, guid: 504bdcbdb7f164bc99a23d2f493c5baf, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

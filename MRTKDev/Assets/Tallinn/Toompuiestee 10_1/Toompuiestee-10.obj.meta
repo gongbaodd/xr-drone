@@ -3,12 +3,127 @@ guid: 847e7e6bd071a483492a210566e2fdc4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: all
+    second: {fileID: 2100000, guid: fb5a02a9a4f3f422cb32a36938786d28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: 19c237e6c9bff4a29ac0a9a1ac951cd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: border
+    second: {fileID: 2100000, guid: 9156f0437904f4623b8a24fd12ae827b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown
+    second: {fileID: 2100000, guid: 92ab44db948794aa6922298553990d29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown_2
+    second: {fileID: 2100000, guid: 8833fae948b004355a592efbeb5dc64d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_1
+    second: {fileID: 2100000, guid: 2b073fdc14965485d8b8e972f780b153, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_2
+    second: {fileID: 2100000, guid: d7b0bf0bf907e44c3b273d2dd0197b49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_3
+    second: {fileID: 2100000, guid: 419acd4041afa475595336f1cabb127a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_border
+    second: {fileID: 2100000, guid: e83825404c1984f71b8478fdb992be38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_glass_window_1
+    second: {fileID: 2100000, guid: c23b08f32db12413592cc56c3e141da7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_glass_window_2
+    second: {fileID: 2100000, guid: ea7d8557c9d3e401bb620c64b38f354f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey
+    second: {fileID: 2100000, guid: b90a5b16997d74844af199e35c863c27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey_glass
+    second: {fileID: 2100000, guid: 107f46cde7e574a6f97b0e9dfe94387c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: 373940a4676a74cb6abd3af921bedb58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top_window_1
+    second: {fileID: 2100000, guid: fb256183d88a74126a59d08caa2d14ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top_window_2
+    second: {fileID: 2100000, guid: b3c969ef0e8824eb1892d3d3a754b902, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: triangle
+    second: {fileID: 2100000, guid: c4ea4424aa25e4b0096a4238b21c6afc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_2
+    second: {fileID: 2100000, guid: cdee6e9179b734a86a4b6c2f75f3499d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_4a
+    second: {fileID: 2100000, guid: 6308298585b47445d945210c48b1e3e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_5
+    second: {fileID: 2100000, guid: ac39fa84c2a3f464b8271d636456f32c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_6
+    second: {fileID: 2100000, guid: b726f43745a84494f86a88758abc2894, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow_lines
+    second: {fileID: 2100000, guid: f05fd3cb1e14741c498e88f2bacc5bb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow_lines_with_design
+    second: {fileID: 2100000, guid: 8f205506ea6d94a0c86dda236e7a076f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

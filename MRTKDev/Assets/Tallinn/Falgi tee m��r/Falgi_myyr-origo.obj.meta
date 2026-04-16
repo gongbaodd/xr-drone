@@ -3,12 +3,27 @@ guid: bd851f93c6ed1418a97af5aa56e8aa01
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Aggregate_Smoke
+    second: {fileID: 2100000, guid: eafee7def4049404bb571b2a58ea693f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paekivi_fat_old
+    second: {fileID: 2100000, guid: 399d25886eb6f4bac9da58e64d82d3ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Slate_14
+    second: {fileID: 2100000, guid: 324f6b95bdac04a6f9fa7b93184442e2, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

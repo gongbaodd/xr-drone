@@ -3,12 +3,77 @@ guid: 67b4b0b376eed47f795adbc2d76be2af
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 22
+    second: {fileID: 2100000, guid: 617beb7527df94f3694d084022c3d33c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door2
+    second: {fileID: 2100000, guid: f89e8039d4ffd46b9b6c98ae3b1ea566, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door3
+    second: {fileID: 2100000, guid: dee63d30d16a14d5389e53988235d18f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gray
+    second: {fileID: 2100000, guid: d25a6660554c847e786bb91350efa3c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_kol_h
+    second: {fileID: 2100000, guid: 12a62734fd1ef4703bc713acde16bab2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_val
+    second: {fileID: 2100000, guid: ad8082f1456e04472b960ed69357ed8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun1_krh
+    second: {fileID: 2100000, guid: 77201f14bae1542a3a4d32744546e2ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plk_kat
+    second: {fileID: 2100000, guid: 8248545085767439cbf46b486b4b216e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: 070fa6f46f2c14a32a45ebed5910ecc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: step
+    second: {fileID: 2100000, guid: 74b66458fdda7420b8de6a003dd71f78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: u132_sl
+    second: {fileID: 2100000, guid: f415c9b74b93443a2b1bafff621e8512, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: u132_vrv
+    second: {fileID: 2100000, guid: a71338525f51d4d4c8471680b137070a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uus_13_2Mat
+    second: {instanceID: 0}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

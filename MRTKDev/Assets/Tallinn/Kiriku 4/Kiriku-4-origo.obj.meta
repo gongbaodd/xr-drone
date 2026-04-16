@@ -3,12 +3,167 @@ guid: e93e5181094c44c3f8a4e00ba5980f5d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KRK4_wall2
+    second: {fileID: 2100000, guid: 5d79b535fa63843ba8e58090ec33faa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_BLACK
+    second: {fileID: 2100000, guid: 4cbbae2d879c84797bd822a6d31f689c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_BlACK
+    second: {fileID: 2100000, guid: 4cbbae2d879c84797bd822a6d31f689c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Door_Left
+    second: {fileID: 2100000, guid: b6c67e2e170614971aadabc67df89040, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Door_front_fas
+    second: {fileID: 2100000, guid: 260d026708b4043bc86c71923078644f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Door_horse
+    second: {fileID: 2100000, guid: 995cf75cdf6384ebaa5e85e5015e46dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Door_under
+    second: {fileID: 2100000, guid: c3d3b272ae439400ab8aa1cac135ab24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Door_upstair
+    second: {fileID: 2100000, guid: 6f4395d0c8d42451d855fdd8eb42eddb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Downside
+    second: {fileID: 2100000, guid: 3fa8d53f5433d4770abeae2c919d7ea7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Molding
+    second: {fileID: 2100000, guid: 018d6d84b09b8474aa92a6214690d6c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Perila
+    second: {fileID: 2100000, guid: ee248f75ede544910b61dc541e215b18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_ROOD_EDGE
+    second: {fileID: 2100000, guid: 35a4dbb747fb54d6397349494535ba43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_ROOF_TOP
+    second: {fileID: 2100000, guid: 4890d07861b5d4611a25fe4934424ffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Roof_red_sheets
+    second: {fileID: 2100000, guid: d0fdcc582b0464fd2b92d359991e282b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Roof_white
+    second: {fileID: 2100000, guid: 6918e13b17b0844ccb5bb9b8824197ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Stair
+    second: {fileID: 2100000, guid: 4f1daca2325694c29889b782dc7d9010, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Stone_Podval
+    second: {fileID: 2100000, guid: 72c6c8cb40348431daa6fdb8e67201ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Under_01
+    second: {fileID: 2100000, guid: 840addb0fd53848a3b1ca96745b3a8c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Walls
+    second: {fileID: 2100000, guid: 8225f4a502bcc4dea933254496c260b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Wind_R_F_Small
+    second: {fileID: 2100000, guid: 0adf59a94e315455798c1b9932ca893b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Wind_cherd
+    second: {fileID: 2100000, guid: b5b9e5ec4c7b84667bf89aeddad27175, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Wind_four
+    second: {fileID: 2100000, guid: 8f76b5e44ed4a4e54968febdfa654b92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Wind_round
+    second: {fileID: 2100000, guid: 81dbc8db6711645db9ac89b446614e49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Window_BIG
+    second: {fileID: 2100000, guid: 05e0866ac7af449629131216e5a252cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Window_poik
+    second: {fileID: 2100000, guid: e4a27a0a5b28d4975b2f4c031cee833d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Window_small
+    second: {fileID: 2100000, guid: 56135a1ad0d404a3d93e32b5514cf1d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Windowsill
+    second: {fileID: 2100000, guid: 492f7b834ce7a49b28c8a6c9677224ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_window_BIG2
+    second: {fileID: 2100000, guid: 36dfdba9d05724a98a4ea3152c31bd1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_window_small3
+    second: {fileID: 2100000, guid: 2e2e76bb4560545d99b69820c4f19fc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_window_small_2
+    second: {fileID: 2100000, guid: 00c6d63de2a94462a8f22364b1506c75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 6e8afd10669174defa979536f1d57781, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

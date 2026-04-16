@@ -3,12 +3,217 @@ guid: 946cbcdc5e70b45c18d192fdac5e4a03
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chimneys_kul_13
+    second: {fileID: 2100000, guid: a5c64200a846e4cd5b222ee4dd274a35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_007
+    second: {fileID: 2100000, guid: b4aa07d509bc644a28bde486a4c371ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_08___Default
+    second: {fileID: 2100000, guid: 50a0bea89b0824ba386fc88159d505db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_19
+    second: {fileID: 2100000, guid: ea23fc6f98ddd4084bb3a39d57c23a05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_Standard_13
+    second: {fileID: 2100000, guid: 7561d1e991bb34197b0876fc327967a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_Standard_14
+    second: {fileID: 2100000, guid: 4ec99feb0bff44c5d8faada4eeb96ca3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_Standard_15
+    second: {fileID: 2100000, guid: 9f4a270b337f24c9aa5e42fdbf8088b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_Standard_16
+    second: {fileID: 2100000, guid: d25f64434d3234c1291c948edda3f17e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_Standard_17
+    second: {fileID: 2100000, guid: bcec21e7d5b4d472a944b81922e71856, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_Standard_18
+    second: {fileID: 2100000, guid: 44da6161acff14846aa8a4221a1a9334, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_Standard_22
+    second: {fileID: 2100000, guid: 8e6dd1453a42d41d182d9b76f3d8610d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_Standard_23
+    second: {fileID: 2100000, guid: aae6c93e38b7d425284f0accd97979c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_Standard_24
+    second: {fileID: 2100000, guid: d4b74ecd7d30240b8bc1e1e0d729e610, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_Standard_8
+    second: {fileID: 2100000, guid: e162df21290c348d6ba5b9145c38b4b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_anemometer
+    second: {fileID: 2100000, guid: fce799d2382ca4486b78533f75f3b74b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_arch_1
+    second: {fileID: 2100000, guid: b543dba098a2940cd8978fe61836b63f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_arch_2
+    second: {fileID: 2100000, guid: 8d9029e2662234218880841680b2c840, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_arch_3
+    second: {fileID: 2100000, guid: 58ca7a596f0ba43e095e5cdef7808202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_attic_win
+    second: {fileID: 2100000, guid: 04d3533fc34174cc2ad1dd173d847a4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_attic_win021
+    second: {fileID: 2100000, guid: 159ad4c5a9dd34bc8910b0fbb681bf85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_bet
+    second: {fileID: 2100000, guid: ef698ec1df28a4c258de0ac73c79b9c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_black_patch
+    second: {fileID: 2100000, guid: 3a5fe17f021ee44e399d061cb0f2be78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_brick_plaster
+    second: {fileID: 2100000, guid: 98cec2c002d0d4e53af43bc30ca78a1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_central_spike
+    second: {fileID: 2100000, guid: 6adaf799765c84cab871aecec0725ce7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_corner_tower
+    second: {fileID: 2100000, guid: c85e8fd84c6d6404080677bf71751134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_exp_kul
+    second: {fileID: 2100000, guid: 96f5f661d024d4bfaa87bd114b965eea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_exp_kun
+    second: {fileID: 2100000, guid: 6398145d3bf1940659dc3b8e673e7ca0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_grey_plaster
+    second: {fileID: 2100000, guid: be4bbf3f1d8ad495dafe26b7aa9135b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_jagg_ribbon
+    second: {fileID: 2100000, guid: 68d9fd908e31d4a769c08f8a95c3b735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_kasipu
+    second: {fileID: 2100000, guid: 3a65b1ebeedc844fc9aa436cd5f18682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_middle_ribbon
+    second: {fileID: 2100000, guid: a6069c46a06f244d3acbcd29707f60d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_patches
+    second: {fileID: 2100000, guid: 4bf96dbb1882f4e238de91ca41ec8da2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_pink_plaster
+    second: {fileID: 2100000, guid: d0dc89c8e97cd4dc1a9935303c0fdd18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_ribbon_AB_jagg
+    second: {fileID: 2100000, guid: 4d707a4edf8e3470da4ba273655e6724, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_sillus
+    second: {fileID: 2100000, guid: 0162452665ecb47b5857c250403c8198, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_small_attic_win
+    second: {fileID: 2100000, guid: 98d99b1dd6ca149da8bd32d31110af82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_stripped_orange
+    second: {fileID: 2100000, guid: c52c13bbe711c492bbf98615c8d95424, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_tower_side
+    second: {fileID: 2100000, guid: f6b0619a698e44b3ca66f961a90690ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_13_win_2nd_floor
+    second: {fileID: 2100000, guid: 95ed35117ba254e2d8aad0a8899f43ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_grey_kul13
+    second: {fileID: 2100000, guid: 7320c65608659497a88da7675d4c096c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 62885eb73396c4ac8b4d83235ded37d3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

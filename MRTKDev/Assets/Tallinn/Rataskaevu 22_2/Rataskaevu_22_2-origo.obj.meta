@@ -3,12 +3,62 @@ guid: 9f924108112644f1c83c0dad0b9f8f66
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_10SG
+    second: {fileID: 2100000, guid: 3cea8817638d943619ad2a2c6e93c21e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_16SG
+    second: {fileID: 2100000, guid: 3c13cdba9ce9c4e88968bbf8feb4d593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_17SG
+    second: {fileID: 2100000, guid: 6cd23e267297a4612a07404958ee26bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_222SG
+    second: {fileID: 2100000, guid: 6f80d773ce1214feeacd9c7627c305a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_23SG
+    second: {fileID: 2100000, guid: e64f9752332ed495b8f3ca3aa4aab3d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_24SG
+    second: {fileID: 2100000, guid: db0f712342d124089a2fd03e6fc6f48e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_37SG
+    second: {fileID: 2100000, guid: e51165afadad4415ab20e36cb6b125be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_38SG
+    second: {fileID: 2100000, guid: cb52f44f0157f409285d27c8f21cf7a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu22_katvalge
+    second: {fileID: 2100000, guid: ba5eaad89e87546d0bebe22390c1a2c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: a5dc63ec2762244358e5042e930c0bf0, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

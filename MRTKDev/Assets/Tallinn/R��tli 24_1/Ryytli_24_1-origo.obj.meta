@@ -3,12 +3,92 @@ guid: 03ba27788fab345789a8907df41304df
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick
+    second: {fileID: 2100000, guid: f04f5602a345a42cba6d19e9fa85ac1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: d49d49f3ed621491b8f19e7d58b5da8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Grey
+    second: {fileID: 2100000, guid: b4477d6b53c0a4ff69fef68792238662, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 46d81e745bd494620902c6109b3ec1ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Trim
+    second: {fileID: 2100000, guid: 80ab84b8f0b5b481692bbf74730b2aa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Wood_Color
+    second: {fileID: 2100000, guid: a62421268bbb54a0aa2ca2ac48d118e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Wood_Strips
+    second: {fileID: 2100000, guid: 14bf15fa938e44e1581ee22f1e54ba89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Red_Tin
+    second: {fileID: 2100000, guid: 532c1b1c7e138453e966d28dd3607e1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Type1
+    second: {fileID: 2100000, guid: 063dc0f739b0f48b9be6bb42e30aced2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Type2
+    second: {fileID: 2100000, guid: 4a99e2957a8ba431d99677f61c6a3f5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Cream
+    second: {fileID: 2100000, guid: 60eafbc568bb346a3a81feffc1cd54bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White_Paint
+    second: {fileID: 2100000, guid: 41b9bcb5c61624caaa604d405daea359, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Detail
+    second: {fileID: 2100000, guid: f85a2e5163d50474694bbd69560358d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_HalfRound
+    second: {fileID: 2100000, guid: 968b00d1c2e804a49bed06926a3479ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type1
+    second: {fileID: 2100000, guid: 4e20f92a707b34a2cabca9625d945a9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type2
+    second: {fileID: 2100000, guid: be2b56aaa6d5340c0b32cefbfb0e7b47, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

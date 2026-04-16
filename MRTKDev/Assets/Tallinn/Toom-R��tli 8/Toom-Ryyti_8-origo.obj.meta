@@ -3,12 +3,82 @@ guid: 6f27bcadab2e14c09b860ef2adbdc16e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy8_RookBlinn
+    second: {fileID: 2100000, guid: 6c58c95d101144ea28bbd053463c940e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy8_UpperWindowBliin
+    second: {fileID: 2100000, guid: 824c5f0d2bbb24f3d955c29ebd74d65c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy8_ake
+    second: {fileID: 2100000, guid: 8910dcc4147954d7d8f188082639268e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy8_backDoorBlinn
+    second: {fileID: 2100000, guid: 7f1d169c9c3b14e92b3a4e6b00a78caf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy8_chimenyBlinn
+    second: {fileID: 2100000, guid: af2c1340c001941af9aded658fd7d42c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy8_doorBlinn
+    second: {fileID: 2100000, guid: 5d628856a7e53408bb7d0deb01551063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy8_hal
+    second: {fileID: 2100000, guid: 511c742d2fba64f04b4cb1b39b568b08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy8_korstnaots
+    second: {fileID: 2100000, guid: 752ced890998e4441a998e417ae1e8f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy8_mainDoorBlinn
+    second: {fileID: 2100000, guid: dce06588a925145a184c4cd9b0885815, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy8_metalBlinn
+    second: {fileID: 2100000, guid: 856aa5a8719d145d3bfad9ddd247bce3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy8_plaster
+    second: {fileID: 2100000, guid: 878503b7a61154c63a2b851a91b31ada, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy8_roofSlantingBlinn
+    second: {fileID: 2100000, guid: d1a215c67fdda41b894c09c11d927a6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: backSmallDoor
+    second: {fileID: 2100000, guid: c1bd88c01833c423ea977e53474b7e8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dormerBlinn
+    second: {fileID: 2100000, guid: 1abfedaa6c2ae4bf6811efbc9a5832c7, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

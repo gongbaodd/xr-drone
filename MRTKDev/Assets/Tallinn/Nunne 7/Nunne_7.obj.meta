@@ -3,12 +3,27 @@ guid: 9eb9778c733354548a2fa7f1f50a9178
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doorMat
+    second: {fileID: 2100000, guid: 8c378f40a9fc441b28fc9b323f5ea9ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gateMat
+    second: {fileID: 2100000, guid: a83cde2fcb4d44c6c891cde0b29a2ca5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: houseMat
+    second: {fileID: 2100000, guid: cade05cd9425747e7a9808b34b0ee056, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

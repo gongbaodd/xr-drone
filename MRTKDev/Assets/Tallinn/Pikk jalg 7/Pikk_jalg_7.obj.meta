@@ -3,12 +3,72 @@ guid: db335ba9ca15841f285a75121ea4763d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ7__windows03
+    second: {fileID: 2100000, guid: 18bf7ed740d1044398d2674ffe6de3a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ7_aken01
+    second: {fileID: 2100000, guid: ff22a75af941f4986a78f4b02f3921cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ7_chimneys
+    second: {fileID: 2100000, guid: 314408737460145eeb5039b1c9d87d39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ7_door01
+    second: {fileID: 2100000, guid: 0daa112dbb49e4c7884c40313eab041f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ7_door02
+    second: {fileID: 2100000, guid: d51fee6e4589f4d4787769d1a190a0a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ7_doors03
+    second: {fileID: 2100000, guid: 43c836faab38b47c99a250294a618010, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ7_dormers
+    second: {fileID: 2100000, guid: 4a143c70233de442eb345911b0d964e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ7_house
+    second: {fileID: 2100000, guid: eb410ae3f027543faa13dbdd9098615d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ7_roof
+    second: {fileID: 2100000, guid: da776d03a5b674122abb0dcb8f629a7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ7_windows01
+    second: {fileID: 2100000, guid: f484afa01240d458fb0e1dd62a5aa00a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ7_windows02
+    second: {fileID: 2100000, guid: 83e0aab193fbf4a109bb7d41a4965ec1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 254e42abf99e9423488170f37bed1d55, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

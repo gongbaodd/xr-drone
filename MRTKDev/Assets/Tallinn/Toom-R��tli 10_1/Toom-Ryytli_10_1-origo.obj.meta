@@ -3,12 +3,102 @@ guid: 23be52f7f315c4c9aa1926d2b3fe0bfd
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_11SG
+    second: {fileID: 2100000, guid: a6ddc1fc398a54f7484cfafc817cb8ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_12SG
+    second: {fileID: 2100000, guid: fe8037a05a05346ddb1e9ca61c234d64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_13SG
+    second: {fileID: 2100000, guid: bb1ed323e9c14493e8a4fbed8e34da81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_15SG
+    second: {fileID: 2100000, guid: 61aa2e5e3c48e4c418d3d7ddc4cf2b70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_2SG
+    second: {fileID: 2100000, guid: ec263d47aa570423192240e1958c84e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_3SG
+    second: {fileID: 2100000, guid: 0fcec530590394094b8f1945f2c2c835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_4SG
+    second: {fileID: 2100000, guid: 24775e1b3a0c2485f8dfb65f6c3fecb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_6SG
+    second: {fileID: 2100000, guid: c7ba4fd4acb944696807d38f7e74fe3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_7SG
+    second: {fileID: 2100000, guid: 5c05219dd656d4142be0fa195b1f8435, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_8SG
+    second: {fileID: 2100000, guid: ef25acfc0b68747ab916ecc541f51c79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_9SG
+    second: {fileID: 2100000, guid: 2fa7f075ae6b4446484cb04ae95db624, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_plek
+    second: {fileID: 2100000, guid: 783beb02f2cda475f9f5c0fbd5fc608f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_u1
+    second: {fileID: 2100000, guid: d6902e389feec49ebbd387d44738231c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_valge
+    second: {fileID: 2100000, guid: 612c0e973a20245e1a6e18907d79cb5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_varav
+    second: {fileID: 2100000, guid: 233bdd235b4bc4eb0a245067280a0bf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_1_zokkl
+    second: {fileID: 2100000, guid: 4e923a5f0fc2545da95776ed3a543265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5SG
+    second: {fileID: 2100000, guid: 4351f0032c8684aaa814ede996adea81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 0932e50dfaa254b2b8360db1c41c1489, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

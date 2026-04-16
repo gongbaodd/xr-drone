@@ -3,12 +3,317 @@ guid: ee9fa02d7edcd404599e8d40ad2ca364
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harju_1_window03
+    second: {fileID: 2100000, guid: a7c56c6ae7ff24321ae2494d55b2740b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon
+    second: {fileID: 2100000, guid: ce7293fed23fd4a4f94b0f2f52781759, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: haju_1_office01
+    second: {fileID: 2100000, guid: 2de23b7e8c4714188974542fb3114d5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1__paek01
+    second: {fileID: 2100000, guid: d40f1ce4ddb524bd0be1ed1eaebe11ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_aken01
+    second: {fileID: 2100000, guid: 95d232883233a4b1282538c3fb8c1e35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_bestwine_win01
+    second: {fileID: 2100000, guid: e3f5ac3e82ea548cd937d19993624dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_chimneytop
+    second: {fileID: 2100000, guid: 35dc0bbc2a0814569afe946960313edb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_chimneytop02
+    second: {fileID: 2100000, guid: 796ddfd2c72794806b87ae363cf8de36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_chimneytop03
+    second: {fileID: 2100000, guid: da2e89b0327de46c48e405e610570177, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_color001
+    second: {fileID: 2100000, guid: de2dac461a018419ea7b3f820d200e16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_color02
+    second: {fileID: 2100000, guid: e3dc46bf8198345aab0134679a778000, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_color04
+    second: {fileID: 2100000, guid: a6b0387a03f1c45c6bee1c5cabf858bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_color05
+    second: {fileID: 2100000, guid: 6c3f3f33ef16e4986a70d8185c6bc7c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_color7
+    second: {fileID: 2100000, guid: e95bc500eee95470da3fda16a66b4ee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_door01
+    second: {fileID: 2100000, guid: e4d837fe663b54edfbb9c29ee38d7b37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_door02
+    second: {fileID: 2100000, guid: aaf2626ac56754210a8021389567f79a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_drooner02
+    second: {fileID: 2100000, guid: d9241ff2d2d1340d0be144d31ed53af9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_drooner03
+    second: {fileID: 2100000, guid: 8f09c6e6944fa4f0ebbf335d9f4fd13e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_drooner04
+    second: {fileID: 2100000, guid: 675c8c92cc6d640deb980a998123e7b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_drooner4
+    second: {fileID: 2100000, guid: 022289b26d76141bcabb653f36256a20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_drooner_01
+    second: {fileID: 2100000, guid: 7c07ec9e1403548678ba615b9531c3d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_droonerwin
+    second: {fileID: 2100000, guid: de7f3376c2016473d89ab8b49c6dfa82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_dsc_0608
+    second: {fileID: 2100000, guid: 2ac60d9b0bf3d4b978ec06d5712e0335, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_gate01
+    second: {fileID: 2100000, guid: 005118caccc984271be7ff9a4e5f737b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_idol01
+    second: {fileID: 2100000, guid: c2ab8ed98cb444cdabd9de1d3f42e329, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_kat_kivi
+    second: {fileID: 2100000, guid: 7da6eacfc6aa34e47a108eae790a8647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_katkivi02
+    second: {fileID: 2100000, guid: e833be5bcc5904fd5861f76189b35583, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_katkivi03
+    second: {fileID: 2100000, guid: fb4ab53cb46e44b0a9ef979c3c42472f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_katkivi04
+    second: {fileID: 2100000, guid: c23955ca269e34f3394344efa6d22544, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_krohv_vlg
+    second: {fileID: 2100000, guid: d923afd4d0b954d01b72298354132e14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_krohv_vlg02
+    second: {fileID: 2100000, guid: 06e8df2db91bb43c18992d5301be5066, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_krohv_vlg04
+    second: {fileID: 2100000, guid: 647d1f7c84c324ea298341e97c38f3da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_krohv_vlge
+    second: {fileID: 2100000, guid: 4af7b4b0f3d5a44538676f3e87c51c2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_krohv_vlge03
+    second: {fileID: 2100000, guid: 0ef32d5751dd449a8a64b39ee6e8681b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_marinadoor
+    second: {fileID: 2100000, guid: 7c190bc75585c4df381b2435271630a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_marinashowwin
+    second: {fileID: 2100000, guid: 170175299bc5c46ebad72c9d9fbf0ee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_paek01
+    second: {fileID: 2100000, guid: da3eaaeb329ef4b2c9359f702bf4532c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_paek02
+    second: {fileID: 2100000, guid: 098c36224ce18430881552a58907f959, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_plekk_hall
+    second: {fileID: 2100000, guid: e0c69db422fcb458ea399e1c5a39657d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_plekk_hall02
+    second: {fileID: 2100000, guid: 124bfb491ffab49b6ab83a609783626e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_plekk_hall03
+    second: {fileID: 2100000, guid: 534a777b81dd04f0c8c292487b6e2558, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_plekk_hall04
+    second: {fileID: 2100000, guid: 029dd647636d442438ce71bc4e79eed7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_plekk_hall_lightblue
+    second: {fileID: 2100000, guid: 584f9dd6e0aa242a79d773de9f39ca1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_plekk_helehall
+    second: {fileID: 2100000, guid: 1afb0d3e547cb4318a6eacc9b86882cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_plekk_punane02
+    second: {fileID: 2100000, guid: 78bd43c99303e46c78c1d1dca96b4c11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_plell_pun
+    second: {fileID: 2100000, guid: 36cd3d124b0c7491294226507f7b3515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_signboards
+    second: {fileID: 2100000, guid: 4143545446dcd4054b3c1f15d24d376e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_striptex
+    second: {fileID: 2100000, guid: b5499a799f2364b2f898f5236addbf12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_tumehall
+    second: {fileID: 2100000, guid: 6313236d82b6c4ee1b08a6bde8f5d0a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_vintsk01
+    second: {fileID: 2100000, guid: 583fbccb581b24cf097f60c686c6b34d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_win001
+    second: {fileID: 2100000, guid: 106916591d965422488df039ae63a918, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_win02
+    second: {fileID: 2100000, guid: 0970d479189bc40ed975599f2467f8a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_win03
+    second: {fileID: 2100000, guid: e551266d2f185437cb1822536c508388, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_win04
+    second: {fileID: 2100000, guid: eb0cd94ec98ba4fecb4a63dd22d7ebea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_win05
+    second: {fileID: 2100000, guid: 4b526884b37e94a85a050176041d7a74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_window
+    second: {fileID: 2100000, guid: 1626cb997bd23421794361c599f8af4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_window02
+    second: {fileID: 2100000, guid: 43c9d7ac8acb442fb9bbd7fbc4914417, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_window1
+    second: {fileID: 2100000, guid: 047b23c769af14864b647905977f14b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_window2
+    second: {fileID: 2100000, guid: 7bf25dc53836a4f8c9d7f66365b2badc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harju_1_winedoor
+    second: {fileID: 2100000, guid: c672db7025e7f4e2995966847e9b5490, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: haru_1_win01
+    second: {fileID: 2100000, guid: e1920007b86d7429ea8ebeda673537f9, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

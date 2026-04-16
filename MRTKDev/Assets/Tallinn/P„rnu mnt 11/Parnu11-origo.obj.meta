@@ -3,12 +3,147 @@ guid: fd43513bff3544cd09a0d2dc226898a5
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_lamp
+    second: {fileID: 2100000, guid: cf06e1dcd6f9f48d99267d74cbc4e052, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DOWN_parnu
+    second: {fileID: 2100000, guid: 27cefb7c1a01c4b9dbe35b4a577f38f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door01
+    second: {fileID: 2100000, guid: 2919481df82a8434988f50f26f24e67f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_s1
+    second: {fileID: 2100000, guid: ec8b0839879b94f08b2cb1ef6aabcb2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krilco_black
+    second: {fileID: 2100000, guid: af8175edd9220482683f94fc797c2947, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krilco_red
+    second: {fileID: 2100000, guid: f1726e0912b994426bc3982a3d524db0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamp
+    second: {fileID: 2100000, guid: b1ddde8782b6d4d04a06e39b55eb30f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__1380
+    second: {fileID: 2100000, guid: 1fc2fdcb7e20d42fcba70bbe0acf939c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Moulding
+    second: {fileID: 2100000, guid: af6479e7b4e304ae08a216d79425ecf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MouldingDARK
+    second: {fileID: 2100000, guid: 7143b2d3e2b47410497d31cdc8f7d37b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: POdval_wind
+    second: {fileID: 2100000, guid: 553c36bac60ed4c47b870a2766901693, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane009Mat
+    second: {instanceID: 0}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROOF
+    second: {fileID: 2100000, guid: f61dfa46b9678431fa0f827cb5eb7fb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofColor
+    second: {fileID: 2100000, guid: e7d0784ccdb84443e91ae5b6fea03904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stair
+    second: {fileID: 2100000, guid: 2f6d11269a4834fa49991adea0036b56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WallosGreen
+    second: {fileID: 2100000, guid: 7f45e84f3242e421dac58e80996fb988, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wind_Rounded
+    second: {fileID: 2100000, guid: dea1f65d53b2540a6854ae4a2b50e42a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window1
+    second: {fileID: 2100000, guid: 386561b868570401db8156db91dbb319, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_roof_B
+    second: {fileID: 2100000, guid: 3875f93080659486585264e83d1cce29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_small
+    second: {fileID: 2100000, guid: d04b1251c13e14fa48db4a0d96d298bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windowsill
+    second: {fileID: 2100000, guid: 7e8f2ed504452415da2c49b209ebbe64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wv
+    second: {fileID: 2100000, guid: 11d9234b9c4034a02ae9d6b79fd8ec24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mouldingg
+    second: {fileID: 2100000, guid: 32d07922e9670416183ad00ce1363f05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vent_cage
+    second: {fileID: 2100000, guid: f78c4fcbfb4f4456f8b9875f720315e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wind_alum_small
+    second: {fileID: 2100000, guid: 7a677e6f3c717428a85d1538226e02a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windows1
+    second: {fileID: 2100000, guid: a2f5191efee804345907757449ba5905, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windows2
+    second: {fileID: 2100000, guid: 47df3527fc8ef495bb0febd2ab13a000, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

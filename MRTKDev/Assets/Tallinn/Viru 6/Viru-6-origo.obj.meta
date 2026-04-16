@@ -3,12 +3,102 @@ guid: 6f056e5a2ef414807b0014c05fcd3ec7
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V6_BACK
+    second: {fileID: 2100000, guid: 24760511ca8704c5f98c9a5b0ecba5b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V6_ROOF_WINDOW
+    second: {fileID: 2100000, guid: e1a815ec2d16045cdb381aa1d53386de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V6_STONE
+    second: {fileID: 2100000, guid: 82acfe15cd0e34303a4253df352bb844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowsRoofMat_V6
+    second: {fileID: 2100000, guid: 7ccec7c02fe02415eadc2b88bc794bc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bordersWindowMat_V6
+    second: {fileID: 2100000, guid: 04e29fa7b8003499988da9c4b6a8e1ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chimney01_V6
+    second: {fileID: 2100000, guid: 2fd5f9b5693a94b8a9388c461ddc5d27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chimney02
+    second: {fileID: 2100000, guid: 877590cb56ad5412f82f445686300730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chimney03_V6
+    second: {fileID: 2100000, guid: f3a46590381c8492ca3e62947d30bd1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decorRoof01Mat_V6
+    second: {fileID: 2100000, guid: 15a3641b2dc444cac8dc9057d2680293, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decorRoof02Mat_V6
+    second: {fileID: 2100000, guid: c209979f7be7040ff83d0781a8e16742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pillarMat_V6
+    second: {fileID: 2100000, guid: 05a9da5178f5e43bca739cc512dc081d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofWindowMat_V6
+    second: {fileID: 2100000, guid: 71f452c8b6d2140a9b1fa709f9e0554b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofmat_V6
+    second: {fileID: 2100000, guid: 9998ccc14590840448ed3159c721cfe5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: smallRoofCornersMat_V6
+    second: {fileID: 2100000, guid: ce3aae20f39984046b6d92644b637906, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: smallRoofMat_V6
+    second: {fileID: 2100000, guid: 9698075d0c621434c968edc5036a05ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stepShopsMat_V6
+    second: {fileID: 2100000, guid: 98f418ebd3f74444082c3407b045cb97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: topPillarMat_V6
+    second: {fileID: 2100000, guid: 3c9e5d6091b7841b2baf431d22fa6e9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 842448bdbe37945dd94616ce8d216e03, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

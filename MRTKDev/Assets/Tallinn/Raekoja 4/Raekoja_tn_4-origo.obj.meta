@@ -3,12 +3,102 @@ guid: e4f1b84b31a5446ed9e017fad8e821a6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_a1
+    second: {fileID: 2100000, guid: 0b46ac11d664b49f18c2fba33090b259, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_a2
+    second: {fileID: 2100000, guid: 44a2f070094e74a9eb51e2ec3a58c2c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_katus
+    second: {fileID: 2100000, guid: a6c2ce3da85894e2ebbf0893408420df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_l1
+    second: {fileID: 2100000, guid: bc39217676c084dc2aa4ab4aa4c5bd30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_paas
+    second: {fileID: 2100000, guid: 898e2de95d33247ac8291c1a4143bfc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_plek
+    second: {fileID: 2100000, guid: a0f8a7fb30c874b8aa6fec2c11a692b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_puit
+    second: {fileID: 2100000, guid: d2212b59a51ef4df993edf886acec8ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_rlaud
+    second: {fileID: 2100000, guid: 08bc40b40217249919412ffef9584096, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_sein
+    second: {fileID: 2100000, guid: 61e3f8cb525db4cbe931bee47a857964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_traste
+    second: {fileID: 2100000, guid: 0011caddc9f904c3cabd8357338944ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_u1
+    second: {fileID: 2100000, guid: eae70c10430214d95bdb375c607b7155, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_u2
+    second: {fileID: 2100000, guid: fffb13ef1c7734855ae67eb6855e3968, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_valge
+    second: {fileID: 2100000, guid: 12831feae5794414cbaf12074ef8a007, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_valtsplek
+    second: {fileID: 2100000, guid: aef8163ba732a46ff85e10ebd8421c68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_vimpl
+    second: {fileID: 2100000, guid: b3ba7d8224f6c4f0bbc810fc0e692e1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_vr
+    second: {fileID: 2100000, guid: c0b66066a37a64fb495062c859338006, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raektn4_zokl
+    second: {fileID: 2100000, guid: d25a6f35657224706a4699da0dc054a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 9387000188683445d8814a596266fade, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

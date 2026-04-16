@@ -3,12 +3,42 @@ guid: 6067097454c8443068a64b5fd6974c8a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vviru_12_2_betoon
+    second: {fileID: 2100000, guid: 0d4dd91db359f4512945c296156cfc0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vviru_12_2_kivi01
+    second: {fileID: 2100000, guid: af441a10a71a849988fbcd30c2281e65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vviru_12_2_krhv_kollane
+    second: {fileID: 2100000, guid: 90381ea474fb64991b46eb72b225368c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vviru_12_2_kts_plekk01
+    second: {fileID: 2100000, guid: 015862b0e9df54302aca74437711fa99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vviru_12_2_vlge_krhv
+    second: {fileID: 2100000, guid: 3f0031df41a8b4fd5a80032b79d4378a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 18f6b08f898eb4911a990e70267b5482, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

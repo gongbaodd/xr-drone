@@ -3,12 +3,127 @@ guid: dcfa2af7138a341239d6cea708c05223
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1w
+    second: {fileID: 2100000, guid: fe3ac0edd800a4c76915dfe837ae411a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__33
+    second: {fileID: 2100000, guid: 61095bebae0fb461788d018112d8b819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__34
+    second: {fileID: 2100000, guid: d0038f7eee89e41499ec6f3bd7bf3d58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__34df
+    second: {fileID: 2100000, guid: e869af67f852746e3971ce09f2583008, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__35
+    second: {fileID: 2100000, guid: cc61fb56944a145ffb46a90635dc5857, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Paintt
+    second: {fileID: 2100000, guid: 05499a7e026d74ce4818022d7db2625b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ywall
+    second: {fileID: 2100000, guid: 218efedf27c40467db8b586626a8a7d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: adf
+    second: {fileID: 2100000, guid: 6d1dae62377ee46d4800e584d3c86f71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: adfd
+    second: {fileID: 2100000, guid: cb8b55132039b4275a2810ce6469f3a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: adfd2
+    second: {fileID: 2100000, guid: aeee966f5c6014ff6a488361ba870132, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: adfd23
+    second: {fileID: 2100000, guid: 77688ffb1f73a4f58b0c8a6ff31bcb8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: adfd2aa1
+    second: {fileID: 2100000, guid: a4f12452d29d34546bd82398d001dc0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: af
+    second: {fileID: 2100000, guid: 594399525092a4c6d90b2cf6bd0d2900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asdf
+    second: {fileID: 2100000, guid: f064b0ca078544b66a94da0001351dcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gd
+    second: {fileID: 2100000, guid: 972be5cb1509d417583c7bf4bbe136c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: re
+    second: {fileID: 2100000, guid: 753f550e76398429cbc0e3b60a8dec00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: 50ef46f289ece498c976bcf4c73872de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof1
+    second: {fileID: 2100000, guid: 530710adacdc54e30b753cf7da4dfffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rr1
+    second: {fileID: 2100000, guid: ad780c7e8c30e43648fd464a55175603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uustn16iivMat
+    second: {instanceID: 0}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: w
+    second: {fileID: 2100000, guid: 069003ef61b8a4d34b1dff76aa8e17d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 9696e3bf7badb4190a1d5794409d6d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: www
+    second: {fileID: 2100000, guid: 9c81744863b094bb18c6b57f4aaf1ec5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

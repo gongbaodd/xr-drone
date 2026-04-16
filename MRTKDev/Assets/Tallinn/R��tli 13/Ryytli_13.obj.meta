@@ -3,12 +3,162 @@ guid: f8047f93bc7cb4386aceb3718c12b173
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG
+    second: {fileID: 2100000, guid: 9f0ec9cd1b5364f818c472b33fa55576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG1
+    second: {fileID: 2100000, guid: 9f768b232c87642fab3f7c83cc672f13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG10
+    second: {fileID: 2100000, guid: 919808ce58b4b46fda9b402d55953904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG11
+    second: {fileID: 2100000, guid: fc061f07f106e40489e218f60c486b68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG12
+    second: {fileID: 2100000, guid: 3a95724f9ea5147118aa03c64444ed5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG13
+    second: {fileID: 2100000, guid: f9977296c5b634bd9a3088cd589cd407, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG14
+    second: {fileID: 2100000, guid: ec3a3078ea76c4d84a14576700a0f9f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG15
+    second: {fileID: 2100000, guid: 14a5889f91a364fa48a50f7693e192c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG16
+    second: {fileID: 2100000, guid: 8ab818c16eee84193a2a142fc2a58f81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG2
+    second: {fileID: 2100000, guid: d685aa1c8fc4e411cb12dd0845dc2b7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG3
+    second: {fileID: 2100000, guid: 3a6b2ad699f8e48db9317abe5c1ce185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG4
+    second: {fileID: 2100000, guid: e3b37309ffefc44f99bb2f4220802cd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG5
+    second: {fileID: 2100000, guid: 15aa28166ed5548d6b8685b05c2a4c99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG6
+    second: {fileID: 2100000, guid: 4088eaffb06bb4efda6eb731de5b1e93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG7
+    second: {fileID: 2100000, guid: ff8cbfa0f553946f3bab9168b7f463cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_8_pPlane1SG8
+    second: {fileID: 2100000, guid: 67cde2d731a90420dbad3c72fb00e4a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_gate01
+    second: {fileID: 2100000, guid: 5d4fe9da6ebe6497caab480d6f7bad68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_hall02
+    second: {fileID: 2100000, guid: 459a85de262714cc98d232577436482e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_kivid01
+    second: {fileID: 2100000, guid: cbefdd4cd420046c5994af053acbce0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_skating02
+    second: {fileID: 2100000, guid: 9301509d165b744b8a0e599f76df064b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ryytli_13_smallwin02
+    second: {fileID: 2100000, guid: 411025580d8fc4963a86a6aa47cad35c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1SG
+    second: {fileID: 2100000, guid: 32e21b21dfb0545bda094a16dbc1c1ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn2SG
+    second: {fileID: 2100000, guid: dcf2f7bc471bf406e9221c34f80d2a87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn3SG
+    second: {fileID: 2100000, guid: 6133d91eb6a444491aef8870efdb9fbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn4SG
+    second: {fileID: 2100000, guid: 62d848fe3664b4d64947006cadb5c0d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn5SG
+    second: {fileID: 2100000, guid: 82a68064114ae470d9d8c2e2a4df4415, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn6SG
+    second: {fileID: 2100000, guid: 812d0df601fce418986e37b27fb95f3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn7SG
+    second: {fileID: 2100000, guid: 1b2dc52885f1f4dd68183a7915bfead3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn8SG
+    second: {fileID: 2100000, guid: 3701b8b88ecb34bbaaad1bacda54a5f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn9SG
+    second: {fileID: 2100000, guid: c800b3dba4aac43c4aeb3e496669895d, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

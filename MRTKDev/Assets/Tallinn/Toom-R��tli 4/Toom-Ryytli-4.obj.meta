@@ -3,12 +3,162 @@ guid: 8a27ed31f40fe4afc845ce047640743a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_d4
+    second: {fileID: 2100000, guid: 1e827d73266074774aad4b997b4d71f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_door1
+    second: {fileID: 2100000, guid: 55ca2b0c8680f4e0aa1e577241b67989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_door2
+    second: {fileID: 2100000, guid: 6c30d67c36e8440ab865398e2b44cc16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_fasad
+    second: {fileID: 2100000, guid: d95c3f400005b4e67b4c9abaf5c62398, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_fasad_blue
+    second: {fileID: 2100000, guid: ed27d8ab0bab84a1a8a5887e97071182, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_gate
+    second: {fileID: 2100000, guid: 98b2319e53af2490897356860dae7418, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_ka_ker_v
+    second: {fileID: 2100000, guid: 0e7b66b185a724b7f92dd7a4b65ff1a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_korstn_p
+    second: {fileID: 2100000, guid: be78bb754281d43eb93bf82b58d45019, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_pipe
+    second: {fileID: 2100000, guid: bfbdc76cc27e54fcfb68cf1e422e73b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_plekk
+    second: {fileID: 2100000, guid: 17a7d5309d6cb4cdaa8f1f16c36cdebe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_profile1
+    second: {fileID: 2100000, guid: 63aafed57a9744336b7ca78562d70c43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_punane_pl
+    second: {fileID: 2100000, guid: 857364126d2bb4240ba666256dbb1986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_red
+    second: {fileID: 2100000, guid: e313a5c71bd544d00a084057cb9a942f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_roof
+    second: {fileID: 2100000, guid: ed9e50cf4a91247f79fdbe55a47321f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_roof0
+    second: {fileID: 2100000, guid: 374b343d782b64887827b89c42139d9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_roof2
+    second: {fileID: 2100000, guid: 348c2a6c53c5e4140a851e653e8b823b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_triangle
+    second: {fileID: 2100000, guid: c2b85e310a4b543cab50f1a87c420197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_uuks
+    second: {fileID: 2100000, guid: 528896be82612496e9158bdaf286e04e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_varik2
+    second: {fileID: 2100000, guid: e5a7ff98c047b45b195eeb07cfce82ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_vk_esi
+    second: {fileID: 2100000, guid: 5ae440ebc369e4919b3181f42b7c352e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_white_sand
+    second: {fileID: 2100000, guid: 6cb0d146598f2415597349eae18c3033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_win
+    second: {fileID: 2100000, guid: 2aeae6faf69104ca7ad706d599a7821d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_win_down
+    second: {fileID: 2100000, guid: 87c300c82fc2d4272ba9af7b1658a574, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_win_mans
+    second: {fileID: 2100000, guid: 7725835a531e245e9ac740a1e54c1bfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_win_mans2
+    second: {fileID: 2100000, guid: 4485dba5342b94be389743d49864649a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_win_up2
+    second: {fileID: 2100000, guid: 329c9be3f81524cc9a0e9e3030fb93a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_window_down_small
+    second: {fileID: 2100000, guid: 5b29cd169c19f4d479ff9fe429b0a621, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_window_up
+    second: {fileID: 2100000, guid: 8fd1e17d439324a809c585540aa1b3bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tr_4_wood
+    second: {fileID: 2100000, guid: 764105be2160b415ba79f206776e5a4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 20bec692b745645518763010d7761fb0, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,152 @@ guid: efaec8a7434d8439cb364ea5b550b055
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_A0
+    second: {fileID: 2100000, guid: dbb4b111ba36a46fdadee1f4ba63e477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_A1
+    second: {fileID: 2100000, guid: dbb54399d165c4535b526ca69f39acf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_A2
+    second: {fileID: 2100000, guid: 0bb8ae5d8d2124accbba8d0157e3eef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_Det_1
+    second: {fileID: 2100000, guid: bedc1433aac8f45e6b03ce444f167b9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_Det_2
+    second: {fileID: 2100000, guid: 90fa2a5a04f1b4ac8802bd2a34ec45f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_Det_2B
+    second: {fileID: 2100000, guid: 05621811741014d3d8de06719c48730a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_Det_2C
+    second: {fileID: 2100000, guid: a35685f07cf854decbffce1e3f711f35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_Det_3
+    second: {fileID: 2100000, guid: fb0e5036e139e4e9ca2fd65b5f835b88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_Det_4
+    second: {fileID: 2100000, guid: 88e48ebc8af014223a3bb7ac7ac73805, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_Det_5
+    second: {fileID: 2100000, guid: 763d2589e77224babac8f1452eb39a45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_Fass_1
+    second: {fileID: 2100000, guid: f6bb928e3957f49f5b16a21a85f8c71b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_Fass_2
+    second: {fileID: 2100000, guid: a23d02174a7494021900f3664aeeacb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_K_Kivi
+    second: {fileID: 2100000, guid: b676755f26c144a2a8ed448d3bcac784, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_K_Kivi2
+    second: {fileID: 2100000, guid: db2bbbd0244f04c629203a57e05df26b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_K_PLek
+    second: {fileID: 2100000, guid: b2739a71848ea4d708d4de1ca27def0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_Korsten
+    second: {fileID: 2100000, guid: ee38fff7a5d6545338f53c780c785e5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_U_0
+    second: {fileID: 2100000, guid: d12ab95941c8748ed82bbad134b50329, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_U_1
+    second: {fileID: 2100000, guid: af6bd54ab8ae9427fa63420f788a7b8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_U_Det_1
+    second: {fileID: 2100000, guid: ba33aaaaf424247b398e0326d4b77017, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_U_Det_2
+    second: {fileID: 2100000, guid: ad693b09ea5114fd7acf8cf7f6284196, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_kataken
+    second: {fileID: 2100000, guid: 2b18fe23ee71641089666da0a99785ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_krohv_roosa
+    second: {fileID: 2100000, guid: feb6f7ace746643bf85b383aa4d9b5d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_roof02
+    second: {fileID: 2100000, guid: 4c9974525d0614fab8e05dc7c3c7d04d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_roof_plekk
+    second: {fileID: 2100000, guid: 46ac6ea4405684076bff3f16ddb356f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_sokkel
+    second: {fileID: 2100000, guid: b9eb9c65c3d5f4c72958621a7e71121f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_trepp
+    second: {fileID: 2100000, guid: a345bc44fcdc54937a77267eab9c9507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kng3_white
+    second: {fileID: 2100000, guid: dfcf20bb299ce4d8cb724128e0d0a263, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: da379fa304ca34113bdeaeb09b19a2ed, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

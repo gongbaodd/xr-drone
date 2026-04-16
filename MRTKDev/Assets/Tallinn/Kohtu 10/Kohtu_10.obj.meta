@@ -3,12 +3,122 @@ guid: 3a6e82bb75c224d38b0a3f11a23a9160
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu8_must
+    second: {fileID: 2100000, guid: 19a104c9679f444218a8f53dcde69d0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_border
+    second: {fileID: 2100000, guid: 46b2f1e382c9f41269df8e89fba1d73c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_border_3
+    second: {fileID: 2100000, guid: a328e4e4e586543ca902eeb702b9c83e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_chimney_tex
+    second: {fileID: 2100000, guid: 85b356997c4e846d09ee53cf2ac10221, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_door_1
+    second: {fileID: 2100000, guid: a0be9b35344de4a94827bdece6f6480d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_door_10
+    second: {fileID: 2100000, guid: 3fd99b95470df4f2d8aa15cd1d1ab7cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_door_11
+    second: {fileID: 2100000, guid: bb0d1abac6cc247e88486929e780bb52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_door_2
+    second: {fileID: 2100000, guid: 439721a43e4b146ab8da641d85c872ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_door_3
+    second: {fileID: 2100000, guid: b85cc240ffc0c4cfb856375f3880b2c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_door_part
+    second: {fileID: 2100000, guid: 0e7da028ceeaa4e99b04a3687719884c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_green_3_lines_top
+    second: {fileID: 2100000, guid: dc1541be4556e4c05bc3597d4f8e3b59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_roof
+    second: {fileID: 2100000, guid: 5b389de0aa09b457182b379eae91c075, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_roof_part
+    second: {fileID: 2100000, guid: d4a5834f6a88444c5867d84fe7abd4f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_tin_roof
+    second: {fileID: 2100000, guid: f9bf6676144c54e1e8622c61ab5f856a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_wall
+    second: {fileID: 2100000, guid: e2c70d33d40f849e1a987364251c8cb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_white_2
+    second: {fileID: 2100000, guid: abdb668dedd284d0e898d75f46a73463, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_white_roof
+    second: {fileID: 2100000, guid: d3d601674c0dd4a45a5446a9bcbb3da1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_white_wall_1
+    second: {fileID: 2100000, guid: 1aa6bcdf92a674b2db7bf0535c7e7071, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_white_wall_2
+    second: {fileID: 2100000, guid: 8fc4b53d6f263437989f06a11b3cd95c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_win_down
+    second: {fileID: 2100000, guid: b726d6c4d38414b76b0e0e1967eef73f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_window_1
+    second: {fileID: 2100000, guid: 6bd2b1ec218b94aa5ad74d28520b6124, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu10_yellow_wall
+    second: {fileID: 2100000, guid: ba67c55d38d4444689f99933baebfe3e, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,112 @@ guid: 1319f894f1db7499a9af1e253c684384
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__83
+    second: {fileID: 2100000, guid: 69b4323997fbc4b0ea524b77702dcb80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex10
+    second: {fileID: 2100000, guid: b4129dc2f237d4f44b5801335a71709f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex11
+    second: {fileID: 2100000, guid: d49a9a9f4404e43b8a5ed0d0c22de392, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex12
+    second: {fileID: 2100000, guid: 73b79c84812f24fbc96b348eaa582428, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex13
+    second: {fileID: 2100000, guid: 4d76a5ea477574af9a4dffc96de5d814, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex14
+    second: {fileID: 2100000, guid: 0a368b536c75246eb84b15b25f242d76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex15
+    second: {fileID: 2100000, guid: c259f1dbcf4ab4ca1a7a823e23617b7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex16
+    second: {fileID: 2100000, guid: ba8480c9820a44b9d8235867ef6b8b8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex17
+    second: {fileID: 2100000, guid: 910002a98a5364dc8806cdae8e40e327, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex18
+    second: {fileID: 2100000, guid: e63a26be5cb6040589b40d4e5af9cf37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex1_
+    second: {fileID: 2100000, guid: cce0c487cb9d74b828196b890b31bc8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex2
+    second: {fileID: 2100000, guid: fd15d8c18df0945a2b97b1f02e7351b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex3
+    second: {fileID: 2100000, guid: e3dc0c9a455ed4d0d8fb5a07bfcbda36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex4
+    second: {fileID: 2100000, guid: 3f0b493708fcb440db3beef0af9c0d66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex5
+    second: {fileID: 2100000, guid: f60afd5931d344ff8a8a0bd4cd61af1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex6
+    second: {fileID: 2100000, guid: df9f2fc3d1d8f4f2c814ab26ca76cee6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex7
+    second: {fileID: 2100000, guid: 725d13a89d1ea4c0195b60c1641ffb56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex8
+    second: {fileID: 2100000, guid: 85c2e1eaae9dc470fa603f708ded544c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_15_tex9
+    second: {fileID: 2100000, guid: 09c272c7bf919441fbc8f8335a7ae923, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: slate_12
+    second: {fileID: 2100000, guid: 9849ed6bab2ae4724b34e937494f7305, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

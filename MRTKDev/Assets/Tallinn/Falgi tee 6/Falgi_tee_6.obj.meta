@@ -3,12 +3,112 @@ guid: 935e97a0b108048a4a36ddf33a5c353d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_ARKLIAKEN_F6
+    second: {fileID: 2100000, guid: 7bb71a794f44d41cb95fd34ecccac4c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_F1_F6
+    second: {fileID: 2100000, guid: 75114f71949a242a68796660c2e8ce19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_F4_F6
+    second: {fileID: 2100000, guid: f494c0f7889f74b9c9e04ec09b2125da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_F6_PALGID
+    second: {fileID: 2100000, guid: 5daff20c2dfb14eee8bdf7fda5077d82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_F6_VARIKATUS
+    second: {fileID: 2100000, guid: f4c63de69aa7846288171a0538c63c68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_F7_F6
+    second: {fileID: 2100000, guid: c04532f8787f94748b665a461e3ea982, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_F8_F6
+    second: {fileID: 2100000, guid: 3fd5dc81de1f34464b43fbf5f669cb9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_FAS_9_F6
+    second: {fileID: 2100000, guid: 9873f29ab15334522ab2b385b0102e10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_ILLUMINAATORID_F6
+    second: {fileID: 2100000, guid: 79aca302274d34e1389f8fd21affd2a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_KAPID_F6
+    second: {fileID: 2100000, guid: 794937094fbfd43eca574fafa9d8785f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_KAPP_1_F6
+    second: {fileID: 2100000, guid: e8eb882bdf65d4816ba6478f4f324b2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_KATUS_F6
+    second: {fileID: 2100000, guid: ffd559cd5e7284f26bee33de3ccfa624, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_KORSTEN_F6
+    second: {fileID: 2100000, guid: f95177b8dde7442488b3208400248ef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_KORSTNATIPP_F6
+    second: {fileID: 2100000, guid: b6a9c76ce27234192936bb1732c8152a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_OPACITY_MATERIAL
+    second: {fileID: 2100000, guid: 5bba527ab7d904e869285a4f70f864e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_RAASTA_VARV_F6
+    second: {fileID: 2100000, guid: 833c3e11a6e474f6c95b3b4bd699ee10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_VARIKATUS_kylg
+    second: {fileID: 2100000, guid: fe7505c767e414fe3b04b133e2209c31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_VARJU_SILT_3_F6
+    second: {fileID: 2100000, guid: ce5f5376f3fe8400390ee840cd989321, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_fas_1_f6
+    second: {fileID: 2100000, guid: a15ca60cea7404da0b58bfd5b02667bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Falgi6_katusaken
+    second: {fileID: 2100000, guid: 7b961caa9503848eca5af114c8350b7c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

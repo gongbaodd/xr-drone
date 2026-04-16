@@ -3,12 +3,52 @@ guid: 628963cf477014ecf8868c3b6181f3c6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia_22a_plekk_hele
+    second: {fileID: 2100000, guid: 49e14929c5b2e47dbbdc60063e083fc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia_22e_brown
+    second: {fileID: 2100000, guid: 5f76b5a9ea58a4f2e8e7774d7ed93c94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia_22e_door
+    second: {fileID: 2100000, guid: 9d2b69e375517467e8219f6871022c92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia_22e_gray_cement
+    second: {fileID: 2100000, guid: f459c1ee014f74c558e55dcba02794c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia_22e_largewindow
+    second: {fileID: 2100000, guid: 6652a73c254f14216b5b9cfc28e9f75d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia_22e_small_window
+    second: {fileID: 2100000, guid: 4c34d9a14908e4f999a690e40df0ea1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia_22e_top
+    second: {fileID: 2100000, guid: 9eff49cce94e84935b3b0b91c3ca09f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aia_22e_white
+    second: {fileID: 2100000, guid: b2cc4f483f9be402f9955895b0ae2df7, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

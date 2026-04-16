@@ -3,12 +3,67 @@ guid: e5945a5fa8d0548caa9952d35d357348
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chimney
+    second: {fileID: 2100000, guid: c456b8fcdac1f4f3a8c939e5526a7373, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chimney_top
+    second: {fileID: 2100000, guid: a78e90a29ec594fd690b6b601cb9708a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete
+    second: {fileID: 2100000, guid: e4da3b4d1e3364bf3bed9a2e8c145667, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__51
+    second: {fileID: 2100000, guid: 36269dabaa97742ca9605aa0b0b36b4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_thin
+    second: {fileID: 2100000, guid: 76cb4f31f6f82416f82da4ae18e2eacc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1___Default
+    second: {fileID: 2100000, guid: ac0d5a66a39464987bb6b6c0c79baf25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2___Window_up_flr
+    second: {fileID: 2100000, guid: 3c98c096eccbb429bad7215a3ea4c7d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4___Default
+    second: {fileID: 2100000, guid: 2121370e5d39f45a7a2a5cd3efc82757, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4___Door
+    second: {fileID: 2100000, guid: 452c53b8dc9044386a420a597001bece, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _5___Wall
+    second: {fileID: 2100000, guid: be0b9aaeeb81e46668027ca4b4f4ab44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _6___Roof
+    second: {fileID: 2100000, guid: 06dfb2640c4204ec0bea516a7b43dd3e, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

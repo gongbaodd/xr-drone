@@ -3,12 +3,82 @@ guid: efef1f6311e8d40d3a260469068a3ecc
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_Door01
+    second: {fileID: 2100000, guid: 8e593fe843a4a4676b37300c413b6c10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_Door02
+    second: {fileID: 2100000, guid: 2045e7a69ad1b46b990585f6c79573f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_Door03
+    second: {fileID: 2100000, guid: 7feec03c0606743199c06bb41865c74a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_GreyPlaster
+    second: {fileID: 2100000, guid: 58cc71f7dc22c4dffb1d1fbb623d3db3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_RedRoof
+    second: {fileID: 2100000, guid: 906b6a53ef2134e9cb5d9605bdd678b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_Roof01
+    second: {fileID: 2100000, guid: c4c7635e157c0436db8c14d6c7cc8328, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_Roof02
+    second: {fileID: 2100000, guid: 3c47a6c64958143a3ae2b6f0d782ac74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_Roof04
+    second: {fileID: 2100000, guid: f8788fe1a1c6144ea9fcb7033b1d567d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_Vent01
+    second: {fileID: 2100000, guid: f184278cac3c942ac9bf0d6d89e5c917, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_WhitePlaster
+    second: {fileID: 2100000, guid: 268f03fde46b44c3686df368506040d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_Window01
+    second: {fileID: 2100000, guid: 917afb4a4a213407abc5db5ebfa7236d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_Window02
+    second: {fileID: 2100000, guid: b4732ae47300649bd995e52107bd91d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK2_Window03
+    second: {fileID: 2100000, guid: ce39a8a067b5d41729cf7750ebd84996, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: bdaef7d7d730847eab62ffb6542d49d4, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

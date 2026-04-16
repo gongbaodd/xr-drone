@@ -3,12 +3,152 @@ guid: 9c4216383cc0f4d499279f96c120eae7
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Balcony
+    second: {fileID: 2100000, guid: 4ff30702b38fe403bb4600771bef48c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Balcony_Door
+    second: {fileID: 2100000, guid: d279540ed61f24bb3ae84a6db2fadae4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basement_Door
+    second: {fileID: 2100000, guid: da3a2863569474c99bf9f3c5ada4dd8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black_Roof_Trim
+    second: {fileID: 2100000, guid: 52e1a31cbfc034f88a25cb2bdb3b30c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown_Facia
+    second: {fileID: 2100000, guid: 0ae5aafe11aa64957a05ded51f45884a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown_Strip
+    second: {fileID: 2100000, guid: 3656d54ae8a584ba19df2a56eb9b3357, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cornice_White
+    second: {fileID: 2100000, guid: 524bb059ad1b94b5d9ca5389cf66ef33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Grey
+    second: {fileID: 2100000, guid: c408b03fb11a946699d910f031915820, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Shop
+    second: {fileID: 2100000, guid: f2f205850492a4913b8ae03f0da220ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Type1
+    second: {fileID: 2100000, guid: 3f41180d8eecb4747afd8120c6228a77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaster_Strip
+    second: {fileID: 2100000, guid: 2790e6f7c4dc94645bfc8c1993b3c619, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Facia
+    second: {fileID: 2100000, guid: 110858a1306ea4a9f9b3ed62ca1e71e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 3d288afa2110e49df82af3cc0c07abab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Grey
+    second: {fileID: 2100000, guid: ddd26cda7b69a43ab93f3f52868ff42b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_RedTin
+    second: {fileID: 2100000, guid: c90b7b0bc290245068dc50b08083ea5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Windows2
+    second: {fileID: 2100000, guid: 4111c6814f4bb4c799e5017d33c92ed5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Cream
+    second: {fileID: 2100000, guid: b02ee43a8de7c4096afa1cb630106a60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_LightCream
+    second: {fileID: 2100000, guid: 43f52eeb9c8e04252b5a4a39c1158150, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Plaster
+    second: {fileID: 2100000, guid: 8d22a7538feb149f2a4c27f3d3de0c27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_White
+    second: {fileID: 2100000, guid: dde7732aeb0694c3687653e2e1dde1c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Shop
+    second: {fileID: 2100000, guid: 5a3f7e82f680f47ca8c59cfd0294c02b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_TopFloor_Side
+    second: {fileID: 2100000, guid: 0a3451f9bc51744e385a63c3c154641a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_TopFlr_Front
+    second: {fileID: 2100000, guid: b727d3c55b9094e29a4d2b556d420b99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Roof
+    second: {fileID: 2100000, guid: 5cdc3db462c0c4b6481366ab3617452b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Shut
+    second: {fileID: 2100000, guid: 259572fb0a1c54cdba742b336e0a333d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type1
+    second: {fileID: 2100000, guid: b5e5fb4bfcc1c45baa64a8596ebcce48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wndow_Small
+    second: {fileID: 2100000, guid: 3f0daaceabc6c4d71babb52e9a4ac5ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon
+    second: {fileID: 2100000, guid: 8c4e595da739c4762888ab3ea4fd3270, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

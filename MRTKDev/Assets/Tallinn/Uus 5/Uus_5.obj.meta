@@ -3,12 +3,112 @@ guid: c20546ffcef504adba5b1774b85a6017
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__12
+    second: {fileID: 2100000, guid: 896ec1df4c9c14094ad092aef90f1c45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__23
+    second: {fileID: 2100000, guid: b486f4cd990d146d78e465d0256ce229, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__29
+    second: {fileID: 2100000, guid: dbbb4d8b38fcd40f0b4d6c6bd4a4bc81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex1
+    second: {fileID: 2100000, guid: 00563f29861b34dd7b59e2af6ab841ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex10
+    second: {fileID: 2100000, guid: 55ab484d151bc4efbaddf5071c5e69b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex11
+    second: {fileID: 2100000, guid: 4d7ad5826de69413bbd063f110692af3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex12
+    second: {fileID: 2100000, guid: 7a9230a0a1cad4431851f8ddabd2d948, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex14
+    second: {fileID: 2100000, guid: 60de9e46c3f0a411ba8f32710f2e9e3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex2
+    second: {fileID: 2100000, guid: e68e2f11f69494ff4a590a74141ec9b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex3
+    second: {fileID: 2100000, guid: 5d983dc384657499b99cc05b4a7ef430, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex4
+    second: {fileID: 2100000, guid: 8b56165b44e9347aa8f9800593c07442, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex5
+    second: {fileID: 2100000, guid: 8525b86b9f08f4585895cf19a34c2afd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex6
+    second: {fileID: 2100000, guid: 5981537f749c9451e90af67adc22460a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex7
+    second: {fileID: 2100000, guid: 8464c225624584376b86de68eed45c9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex8
+    second: {fileID: 2100000, guid: 7d5a578f931fc4d0b9ebcd3ace38012d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uus_tn_5_Tex9
+    second: {fileID: 2100000, guid: 4f9e07d0191e143b38a8c5772fe5b5b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus
+    second: {fileID: 2100000, guid: 539184c2f776f4ddc8f1bd5fe43f6603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_val
+    second: {fileID: 2100000, guid: d587c0641d4904d98827020cd10a0494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: u5krn
+    second: {fileID: 2100000, guid: 4e036f558dc544656bff706641871964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: u5uks1
+    second: {fileID: 2100000, guid: 6eff173c2fea1483185a43b5ae92c2c8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

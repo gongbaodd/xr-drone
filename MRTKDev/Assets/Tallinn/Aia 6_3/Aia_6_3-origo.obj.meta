@@ -3,12 +3,37 @@ guid: b86bce4c7348046cf993ffde3e275f8f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_3_KATUS
+    second: {fileID: 2100000, guid: 552e18443d0f643bb8dde91db0efa936, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_3_laudis
+    second: {fileID: 2100000, guid: 4815870be85234567ba8db75d669977f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_3_sokkel
+    second: {fileID: 2100000, guid: b292be8907df04ce08883d43b49db0ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_3_valge
+    second: {fileID: 2100000, guid: e91154ecca5b14f9fb4789cee3666760, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aia6_pruun
+    second: {fileID: 2100000, guid: 03e827a7e45574abab1a6fb71a729a10, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

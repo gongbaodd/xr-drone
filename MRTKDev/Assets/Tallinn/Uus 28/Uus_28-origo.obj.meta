@@ -3,12 +3,152 @@ guid: f7c48fa5c14fa4d2f95cc68a7ef74e41
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arched_Brick_Detail
+    second: {fileID: 2100000, guid: 08f127b14d3564cdbbe9283652d046fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back_Single_Door
+    second: {fileID: 2100000, guid: 0641d2c6e900c4c959c6dd4ce7060915, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back_Small_Roof_Brace
+    second: {fileID: 2100000, guid: 34e2b8015d2064aa590d204b86d0e656, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back_Small_Roof_Color
+    second: {fileID: 2100000, guid: f4c1ba4d757f342d89ede96e9c4f521c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back_Small_Roof_Detail
+    second: {fileID: 2100000, guid: 734adae738cf44cb098d48fbe1bbee2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back_Step_Color
+    second: {fileID: 2100000, guid: c1f5a4f13649b42f488f3e86a1f11aed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottom_Strip_Color
+    second: {fileID: 2100000, guid: 5d18600a8e5594763a5ceec9e6d6f934, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick_Color
+    second: {fileID: 2100000, guid: 5ecbf7cb735fe4a6aa91b8caf7640697, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick_Strip
+    second: {fileID: 2100000, guid: 570d4568c67ff48f6aedb73f47a24d4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Gray
+    second: {fileID: 2100000, guid: 160d7fb586bd34963bbd39df7e9f2f73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Diamond_Window
+    second: {fileID: 2100000, guid: c604c8021997e4349b6ab8225782d522, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Double_Door_T1
+    second: {fileID: 2100000, guid: 62aa460d513cc4d6b9b71844d1d5af64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_Small_Roof_Brace
+    second: {fileID: 2100000, guid: 92952f75a84334320a3d31f49f3ccfec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Trim
+    second: {fileID: 2100000, guid: d5affe508d7c64921b8cfc034122961f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Red_Tin
+    second: {fileID: 2100000, guid: c1ae80093ff67422990789d137644c15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Stone
+    second: {fileID: 2100000, guid: d4bc5f9ba3d734a5a9243f4f83d1c9af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Windows
+    second: {fileID: 2100000, guid: 9aa297542d2444e21b729c33ea2b8b2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Wood_Color
+    second: {fileID: 2100000, guid: 8d17b3c2f016146bb8050454daf8ea3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone_Details
+    second: {fileID: 2100000, guid: facecada392be45049f0e01b365966fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Triple_Door
+    second: {fileID: 2100000, guid: 2d8c52f27df7e41828ceb5cd03eefccd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type_1
+    second: {fileID: 2100000, guid: de01d7505daf340e7b070963b02c96fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type_2
+    second: {fileID: 2100000, guid: 98fb4390c811b4379861ea8e4f2f945d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type_3
+    second: {fileID: 2100000, guid: 22552fb24a75b40a2a01712dffb1b642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type_4
+    second: {fileID: 2100000, guid: 649994cf8e01140c48e505725c3895c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Planks
+    second: {fileID: 2100000, guid: ed48b78fcb252429a98ce797dd1a121a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_hh
+    second: {fileID: 2100000, guid: fe2572ea3ada24034bc9588f83bc2395, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_val
+    second: {fileID: 2100000, guid: a27d5962870a243ba9ae3474c9bd4d1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tellis
+    second: {fileID: 2100000, guid: 67b0c6029b99047af8943ce0a25cdf67, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

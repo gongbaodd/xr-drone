@@ -3,12 +3,167 @@ guid: 603ad198d40684d6a9181b6c83cc95d1
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: a5ab8474def5e4fbd8e3385eb01e1f19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door1
+    second: {fileID: 2100000, guid: 33dcf0098992b48428021394dcf12831, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_02
+    second: {fileID: 2100000, guid: 15f78f89b32b842069259562a6dd20df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Karniz02
+    second: {fileID: 2100000, guid: 8f73cecd51c41479889179b5a10db95d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_black
+    second: {fileID: 2100000, guid: 908550ab91bbd4c7da576f1df483ccf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_list
+    second: {fileID: 2100000, guid: b219a64fa6df740a6b019946dff44f45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_wooden_RED
+    second: {fileID: 2100000, guid: 0c258240e643f4e75bb952e8c4a1578f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shop_wind_05
+    second: {fileID: 2100000, guid: a20d2c479652d4a04aefab44edbd8a24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shop_wind_pr_01
+    second: {fileID: 2100000, guid: 4b1b6584f7c9c4e98a4137756122c0ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shop_wind_pr_02
+    second: {fileID: 2100000, guid: f56e7de67d70a48ab905f830defd626d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Snones_Light
+    second: {fileID: 2100000, guid: 62c79f94faa0e4e9b8471aedd09632a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs
+    second: {fileID: 2100000, guid: 10fa1006e0f314e99b94d40db6ad917e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StairsSTR
+    second: {fileID: 2100000, guid: 9a91573851af1434d80ba6b834ffd919, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stolbi
+    second: {fileID: 2100000, guid: c98a22a7892514193b8b1969787f19aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube
+    second: {fileID: 2100000, guid: c0569585d3a6e4a4b84cb1fc3dda1d69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VENT
+    second: {fileID: 2100000, guid: 2d8e530af80b4440eaa52a4ed91fb5bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2100000, guid: 0f63c4bc6a94041cbbde545b3de55e38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls2
+    second: {fileID: 2100000, guid: 81fb3156e4f864713b84562ea4fa67eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_bighter
+    second: {fileID: 2100000, guid: c4ecd2ca9300642d6bbf2f4bf9d7fa8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wind6_2
+    second: {fileID: 2100000, guid: b9815f24a734c4a98867be184884cdfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wind6_2_180
+    second: {fileID: 2100000, guid: f4de56788c8524a809e2d1d6245a9f53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wind6_2_rotated
+    second: {fileID: 2100000, guid: fc4b47b9f162643459d2c8aea181493b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wind6_3
+    second: {fileID: 2100000, guid: a84861112de094f148223e64a6e7bc1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wind_04
+    second: {fileID: 2100000, guid: deaa6473db1ca415582851f21c889b1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wind_05
+    second: {fileID: 2100000, guid: 4b4b0d1bbcf074ed8b40a6a368d8a8c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window1
+    second: {fileID: 2100000, guid: 66d640647509e46769ddf9283fe0557f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_rotaied
+    second: {fileID: 2100000, guid: d947775ae342a409a800f3e2f07dd419, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shop_wind_1
+    second: {fileID: 2100000, guid: 6f738e8505b65484fa884aecc962369a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shop_wind_2
+    second: {fileID: 2100000, guid: 39dbfe494b5164e609db95d699b2a742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shop_wind_3
+    second: {fileID: 2100000, guid: a3351752478c246d7a9990f8438245f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shop_wind_4
+    second: {fileID: 2100000, guid: e9597e088d9b449abbf31a4d7cfeb77a, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

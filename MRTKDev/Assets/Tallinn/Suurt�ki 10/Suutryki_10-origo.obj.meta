@@ -3,12 +3,92 @@ guid: 353a6be20082f46019676ff3241fd89b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: 0bf8b5d14971247b290e13f8fcc4b5b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTEN
+    second: {fileID: 2100000, guid: 26ca962e02cd843ebbf1bcca42d5cca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken2
+    second: {fileID: 2100000, guid: daf6ef94bd81941c6b548e16619fd802, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aknad
+    second: {fileID: 2100000, guid: cbdf1f46ba7fc4354a7319d0e470a914, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aknad_ornament
+    second: {fileID: 2100000, guid: 76766593747634325aabf4b1b1f8d5c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus
+    second: {fileID: 2100000, guid: 1472f3a736dd3460a8dd3e90b2c53580, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katuselaud
+    second: {fileID: 2100000, guid: 9e351321a229c4c619aefbaba3ece0d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laudis
+    second: {fileID: 2100000, guid: 0f8c5ddd6e9574e37a69f11ccbbc40c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laudis1
+    second: {fileID: 2100000, guid: e8ad3675a9dd1432b9e8bbab32d06762, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laudis2
+    second: {fileID: 2100000, guid: 1cac99e408546404e9271f4e6523bcd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: postid
+    second: {fileID: 2100000, guid: 65740f63025914ce1b8ec71bb5f6aae6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pun_ornament
+    second: {fileID: 2100000, guid: bd4359978be1249b6a08f1132093a6a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: punane_laud
+    second: {fileID: 2100000, guid: f48436a42be5949758f590857f0b7273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trepp
+    second: {fileID: 2100000, guid: 7326973cac38e4ceea21c06adf5db7c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uks1
+    second: {fileID: 2100000, guid: b5524170786b04b68ae0a6a07dcd4c6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vundament
+    second: {fileID: 2100000, guid: 2c6391129cb7d40288a60b48e65f2929, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

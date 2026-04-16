@@ -3,12 +3,112 @@ guid: 737029feb3d144e4b9d44dd92bc099a6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken_k1_aken_k1_jpg
+    second: {fileID: 2100000, guid: 25bb03e6604bd43658ea43243457840c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken_k2_aken_k1_jpg
+    second: {fileID: 2100000, guid: e02a3414ea3a44bfab51d8ddc8a9a580, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken_k2_aken_k2_jpg
+    second: {fileID: 2100000, guid: 43a1d3157ce304b5fb931d4225b40405, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken_kaarega_aken_kaarega_jpg
+    second: {fileID: 2100000, guid: fb1cce1a354634ccdab8a1fd8703f96a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken_vaike_aken_vaike_jpg
+    second: {fileID: 2100000, guid: e4f4d24a0ecab4215b467b02f7ee7259, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus_kar_ker_3_jpg
+    second: {fileID: 2100000, guid: 09123a6b7d4fb4f7bb1f5df0d76d342f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus_plekk_KAT_plekk_hall_jpg
+    second: {fileID: 2100000, guid: 166d3dd9a798e425b9819a1ebc35ed70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus_plekk_roheline_tornike_plekk2_jpg
+    second: {fileID: 2100000, guid: 65b25f1d9e10f46f2987c428975f914d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krohv_hele_kr_krob_pru_jpg
+    second: {fileID: 2100000, guid: 21ca1d8568a0f47baa4363027df15021, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krohv_tume_kivi_tume_jpg
+    second: {fileID: 2100000, guid: 1888ac4d46ef242b192079a693952966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krohv_valge_KAT_plekk_hall_jpg
+    second: {fileID: 2100000, guid: 1e88f2fb8a45641fb880b3e39849caad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krohv_valge_kr_v_sile_jpg
+    second: {fileID: 2100000, guid: 797bc414743d747fd8387ef110dfaa00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krohv_valge_slate_10_jpg
+    second: {fileID: 2100000, guid: 65c4ea40bc3754718a15abdd0dc21772, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krohv_valge_uks_kaarega_jpg
+    second: {fileID: 2100000, guid: 1ea0399b73bfa426c9c5fe68fda5402e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paekivi_slate_10_jpg
+    second: {fileID: 2100000, guid: b5142c1af23444578a5fecb75174b7c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: post_silt1_silt_adventkirik_jpg
+    second: {fileID: 2100000, guid: 385f1c1f43a364e68b736aa00c50d222, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: putka_putka_png
+    second: {fileID: 2100000, guid: 4b3dcb007d35c453d891613638b7a60f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tumepunane_tumepunane_jpg
+    second: {fileID: 2100000, guid: 9af9e3f67401640f0b90a163b5b207d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uks_kylgmine2_door2_jpg
+    second: {fileID: 2100000, guid: eb7b3b236518b4d7cbb5a3604f2fff1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uks_kylgmine_uks_kylgmine01_jpg
+    second: {fileID: 2100000, guid: ddfb7b8b99f2f44409af479c2ad5470d, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

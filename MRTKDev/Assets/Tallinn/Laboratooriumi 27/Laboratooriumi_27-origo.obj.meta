@@ -3,12 +3,57 @@ guid: a27ee8c61b5dc4376b4633200bd9bf1d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab27_chimneytop
+    second: {fileID: 2100000, guid: ee7b6aa1064f64b5a8de2018e943165b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab27_color01
+    second: {fileID: 2100000, guid: 65655586a688748a2bd901616d98d9f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab27_door
+    second: {fileID: 2100000, guid: b309b7403ee324ff7b7a0d298ca5bb93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab27_door02
+    second: {fileID: 2100000, guid: 2941946468ae941258977029b05e3335, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab27_katkivi
+    second: {fileID: 2100000, guid: 96524975e508b42d692273b6ee58e0e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab27_puit01
+    second: {fileID: 2100000, guid: 7779a45e0a275455ba7f83ac43c48286, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab27_slate_10
+    second: {fileID: 2100000, guid: 3ce6308ecfdd44aebb0e672799bc07d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab27_window01
+    second: {fileID: 2100000, guid: 92970a87e30544227bc303a77ee966be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab27_window02
+    second: {fileID: 2100000, guid: 3b2d54a5174a44e7fb2a5e3aef5f803c, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

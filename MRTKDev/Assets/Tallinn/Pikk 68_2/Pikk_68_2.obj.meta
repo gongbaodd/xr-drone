@@ -3,12 +3,32 @@ guid: bb0a69c5396ce44a891f8dc8c1665d16
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kivika
+    second: {fileID: 2100000, guid: d48dc5562f78d4c7aa9417cc0d75b0e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krohv_kollane
+    second: {fileID: 2100000, guid: 900c1b4eb16104377ba75fa44b4b6ff5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paek1
+    second: {fileID: 2100000, guid: df56fce3378e54e0092adcbb89d03f54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plekk_v_rvitu
+    second: {fileID: 2100000, guid: 63ba3466d81b540d9871778c7915ae7a, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,127 @@ guid: f8a0071ae44ee45088b245c7900af72f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_CHIMENEY
+    second: {fileID: 2100000, guid: 1e2ce749764be4b448824b6f7a72e333, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_CHIMENEY_METAL
+    second: {fileID: 2100000, guid: 91369879ffaef4118a52afef5d1ea6d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_CHIMENEY_TOP
+    second: {fileID: 2100000, guid: 977ad406cda324c53a327d542e775d7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_CONCRETE
+    second: {fileID: 2100000, guid: 38c7cb24f0f214080b50e72b0826f5f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_FASCIA
+    second: {fileID: 2100000, guid: 2827c0e29c07a4a6d8a67f737f03eb0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_IRONGATE
+    second: {fileID: 2100000, guid: 118f9265bd47d42e9af231504acb1326, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_LOUVER
+    second: {fileID: 2100000, guid: 050919fb168194faca22682c8426f158, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_METAL_ROOF_TOP
+    second: {fileID: 2100000, guid: 4becfd12fdbab4960b576a91a711222a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_ROOF
+    second: {fileID: 2100000, guid: e9b624c0d7233495e956add775550ca6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_SLATE_01
+    second: {fileID: 2100000, guid: e19ba1aabcc0d4f6d9a1b68f5492b2f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_STUCCO_WALL
+    second: {fileID: 2100000, guid: bb531fa86fdb0410ca8dec865fdba8d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_WIN_01
+    second: {fileID: 2100000, guid: e90b8ff80b4ca4cc19b2d966f1a529ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_WIN_02
+    second: {fileID: 2100000, guid: 81801152eca664727ae5c16a2640edff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_WIN_03
+    second: {fileID: 2100000, guid: 9bd88aa5c71404d8eb18fdf19c79361d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_WIN_04
+    second: {fileID: 2100000, guid: 199f69ba591c54832b4f8bd6144f0c60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_WIN_05
+    second: {fileID: 2100000, guid: 64bb638c40861451db67ad1dfd83aad2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_ka
+    second: {fileID: 2100000, guid: c7e10f51237734b90aa31fccb4ec9e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_kat_punplek
+    second: {fileID: 2100000, guid: bf23aad9be8a945dd903baf2b5e3294e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_u1
+    second: {fileID: 2100000, guid: d9e066d9e18c84e6db01844577f40614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK23_valgekivi
+    second: {fileID: 2100000, guid: 7d1992a7f16584446880ad15e9d90eea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_23_uuk
+    second: {fileID: 2100000, guid: 88345bab97a8d4383885572fa913a4ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk23_sinep
+    second: {fileID: 2100000, guid: 3624672282b594b6ba53375f99212e6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 8e04232cfde7e4c9099939570114b92c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

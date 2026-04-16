@@ -3,12 +3,57 @@ guid: baa0653b471ae42e8aed2a93a602c532
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_2_brick_wall
+    second: {fileID: 2100000, guid: 64731238a178941cb82bbb2d47c448b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_2_details
+    second: {fileID: 2100000, guid: 0e9dd1aecc40049929d93583642b6e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_2_fense
+    second: {fileID: 2100000, guid: 04e27084f573c43f9b0c9880f2cdf321, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_2_roof
+    second: {fileID: 2100000, guid: e282e1adaa474431f9c4c3a78e925230, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_2_wall_cream
+    second: {fileID: 2100000, guid: d15cdc315b67a4440b4a636caa776ca6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_2_wall_gray
+    second: {fileID: 2100000, guid: b33e8f12c63f04fd79910db9b6b4b931, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_2_walls_white
+    second: {fileID: 2100000, guid: 76b130a85b10441ae9998c3a45300b6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_2_windows
+    second: {fileID: 2100000, guid: 1af73eb5b6e8b4794ad49b8cecae42fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suurtyki_4a_2_wood
+    second: {fileID: 2100000, guid: 094e7d4059025430e972cae5a72c8929, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

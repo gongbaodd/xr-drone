@@ -3,12 +3,122 @@ guid: d52b7b52ad0674a119b2c8c80c7d4fc5
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_1
+    second: {fileID: 2100000, guid: c077bbe705f3a4ddd9abed7363f80486, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_2
+    second: {fileID: 2100000, guid: 7010908bd7f3645fbad0e6599fe7e5e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_3
+    second: {fileID: 2100000, guid: 0332a6934b5454df79516655d6292983, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_5
+    second: {fileID: 2100000, guid: 1ce0a78452aa14f408667ebe1d4f86bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_6
+    second: {fileID: 2100000, guid: 864cebfbeadbd41aeb6a43a3f8944b80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_a1
+    second: {fileID: 2100000, guid: 5215cda83695d4ac0a2c6a3e445ef9cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_a2
+    second: {fileID: 2100000, guid: 20129bf5a2eb345f1bd9b0cfb17cbb2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_betonts
+    second: {fileID: 2100000, guid: 36a9a6df7af4a4746939963e3dded47e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_ka
+    second: {fileID: 2100000, guid: 05a01736f92f74914854b3ee0437c6b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_kat2_kerv
+    second: {fileID: 2100000, guid: 778dabbc214a040fa9c005cde91a1aed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_kat2ker
+    second: {fileID: 2100000, guid: 8c38bd59439a84615aa1e681eb6dffdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_kat_p
+    second: {fileID: 2100000, guid: a4feb3e50c3d4459391ee36d5fb9c4d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_kor
+    second: {fileID: 2100000, guid: 52616df10e60f427a8b336accb5529d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_paas
+    second: {fileID: 2100000, guid: ab3d483228024474c90bcf4a70b57050, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_plekpu
+    second: {fileID: 2100000, guid: 4b430c974340647619c180d01af61146, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_rplekk
+    second: {fileID: 2100000, guid: 7b821b85dac524e198b30bba2ecd4aa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_trep
+    second: {fileID: 2100000, guid: c999ae6441edd4ef7aa972fbe5ee9a72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_u1
+    second: {fileID: 2100000, guid: 2a6282c40e49a436784ad76ab39442b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk21_1_valgesein
+    second: {fileID: 2100000, guid: e249ce25d56bb44419e7c362da28860e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk_21_1_u2
+    second: {fileID: 2100000, guid: 0c1e711aa48d6429387e6988701e7a6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tk_21_1_varav
+    second: {fileID: 2100000, guid: c5df0c6d6a4ab4eb99ac19f47c5eadc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 3ca07fe8b3e2446c9bae846250868ebf, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

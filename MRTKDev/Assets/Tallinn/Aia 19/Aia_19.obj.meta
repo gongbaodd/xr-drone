@@ -3,12 +3,22 @@ guid: 9be6cd71361134174a9354454e1cb9fd
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ruberoid
+    second: {fileID: 2100000, guid: d5852e104777b4b1f80d296048be2427, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beton
+    second: {fileID: 2100000, guid: 316b5e7c2f7764719adb18aa2134f886, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

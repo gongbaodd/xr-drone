@@ -3,12 +3,187 @@ guid: a3cc29c98a4c547b9bb19498e5195d8f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert20SG
+    second: {fileID: 2100000, guid: 7ceef8820c4424f1c9785a8d68910e8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_10SG
+    second: {fileID: 2100000, guid: 77f70505c28e74dd18e6e3ebbb397925, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_11SG
+    second: {fileID: 2100000, guid: 096cb38d551074281b885798ad4820a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_13SG
+    second: {fileID: 2100000, guid: 36eec22c963c84bdd8ab3a3078d00b2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_14SG
+    second: {fileID: 2100000, guid: 06b5af8302be2429abe489f67a2dfb9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_15SG
+    second: {fileID: 2100000, guid: a20a2059b54a943a4a16975052387eff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_16SG
+    second: {fileID: 2100000, guid: 4385d210f49b342bd98aee221d8875b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_17SG
+    second: {fileID: 2100000, guid: b7ce0e4a20dc64917acea0eb50d05ec1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_18SG
+    second: {fileID: 2100000, guid: cf7f8c2d0e4d7433a93833f1ac5047e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_19SG
+    second: {fileID: 2100000, guid: ce0572bca1a4c48569a49398615e599b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_2121212SG
+    second: {fileID: 2100000, guid: 8722fc8722476418e95df5247663f0d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_21SG
+    second: {fileID: 2100000, guid: d378c582d8764473d9f14fd39ce76fc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_22SG
+    second: {fileID: 2100000, guid: baea262ff54174129accc7d2e9b02d73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_23SG
+    second: {fileID: 2100000, guid: eccf5deed356d4340979540557bd318f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_24SG
+    second: {fileID: 2100000, guid: 47323e0f46b7a4b9ba6f4ced020532c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_25SG
+    second: {fileID: 2100000, guid: c5e51c0366dcd4993b26ab1d6db5fc05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_26SG
+    second: {fileID: 2100000, guid: 7e33088e2d0154970a54ff42082f6140, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_27SG
+    second: {fileID: 2100000, guid: 50996525458d241f9a193a5ec72233cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_28SG
+    second: {fileID: 2100000, guid: d71ce147e22e4491abdafe8f61550dd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_29SG
+    second: {fileID: 2100000, guid: a44a1a846edf741c5861a7bc13e7f063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_2SG
+    second: {fileID: 2100000, guid: 57fac43f9fdc04c939b3775cf3f431f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_30SG
+    second: {fileID: 2100000, guid: 833d18345bc7a45cc8a4fc5fd23d7263, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_31SG
+    second: {fileID: 2100000, guid: 137bd8178225f4741bfe95a98832676c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_32SG
+    second: {fileID: 2100000, guid: a4a4d509917894b7393fbbf64f22880d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_33SG
+    second: {fileID: 2100000, guid: c9d925107d2b04f43a57c62f4b98e2a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_3SG
+    second: {fileID: 2100000, guid: 6edf9af1dcf5b49029db59082a98ce26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_4SG
+    second: {fileID: 2100000, guid: 4074d2cf527d8490b8648ddd28921db7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_5SG
+    second: {fileID: 2100000, guid: f6b460551e44248e192a915c3add3f48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_6SG
+    second: {fileID: 2100000, guid: 142da225403ee4b7e9f5140c0c717304, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_7SG
+    second: {fileID: 2100000, guid: 888d5e80275244315825c9752a74fb15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_8SG
+    second: {fileID: 2100000, guid: f4540637450c54dcaa4af3efa5d44637, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_9SG
+    second: {fileID: 2100000, guid: d0c2ddea781ad40a894dff6df0ed4bff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_betonts
+    second: {fileID: 2100000, guid: 9c945cc86591f4553bd7dad5049667b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_kath
+    second: {fileID: 2100000, guid: 429a059e7463b46748ad7018fb630cd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk40_rp
+    second: {fileID: 2100000, guid: 299e185a6111d4da0be3875230215cfb, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

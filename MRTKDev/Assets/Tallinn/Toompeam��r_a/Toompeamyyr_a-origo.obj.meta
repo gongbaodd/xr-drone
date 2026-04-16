@@ -3,12 +3,37 @@ guid: eb4bff7049b3a45929946968354cfc6e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompeamyyr_betoonkivi
+    second: {fileID: 2100000, guid: 09ba9de23a41f4644bad89adc7740ccd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompeamyyr_ilusam_tellis
+    second: {fileID: 2100000, guid: 6e1cba452a03e43a88651480e6496d84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompeamyyr_piire_hall
+    second: {fileID: 2100000, guid: 218bcca5fd13f4b3cbca78c616dc0e05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompeamyyr_trepp
+    second: {fileID: 2100000, guid: a3a57b014e2e3465dace2b92785acdb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: a8cbc9bebcec24c05b7683970762ca4c, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,72 @@ guid: 118fe30d026ea466092ce882320cc1e9
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_3_Standardmaterial
+    second: {fileID: 2100000, guid: cc6f956ca8f7a46f8bf3ef52d03bf3d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_3_Wall
+    second: {fileID: 2100000, guid: 859fe4b9f1b3b4875b2f763e0a962adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_3_chimney
+    second: {fileID: 2100000, guid: 9b3814e61bed44a90a752bdb3dff3d18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_3_foundation
+    second: {fileID: 2100000, guid: 2977e27f79c9d416993fc1e9d6a99087, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_3_gate
+    second: {fileID: 2100000, guid: 09752b17da4fe48fa9fe3c84faa09412, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_3_karniis
+    second: {fileID: 2100000, guid: fde30a635fce2420fa05fa3f34193dba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_3_paasusilm
+    second: {fileID: 2100000, guid: 854c504b934d04401af0898af5f0c899, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_3_roof
+    second: {fileID: 2100000, guid: 1885e117cf1754d86ab3e74e86c0d8b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_3_strip_wall
+    second: {fileID: 2100000, guid: cab7ddf8cbbe44ddebea5de2da3464a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_3_valge
+    second: {fileID: 2100000, guid: 8b600617ab6f0478e915d500658192df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_3_yl_karniis
+    second: {fileID: 2100000, guid: 2ca87ee623a8047dfa6e65a9f7123a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 1d17c76e09617404f9a337ac4dc7c259, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

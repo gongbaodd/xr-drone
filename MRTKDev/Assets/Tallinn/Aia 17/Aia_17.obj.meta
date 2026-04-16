@@ -3,12 +3,32 @@ guid: 55a0129f57be04a60bc60f0d5034e564
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Katus_kivi
+    second: {fileID: 2100000, guid: 62f69fe6cdde849088e69a2093fd2e30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ruberoid
+    second: {fileID: 2100000, guid: 07123259ba265429d9ab5a589bb450ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krohv_valge
+    second: {fileID: 2100000, guid: b92e4565bc1ef47bba539f61407bddef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: old_wood
+    second: {fileID: 2100000, guid: a5fb960b5e7d843ecac3b2fbdac9be25, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

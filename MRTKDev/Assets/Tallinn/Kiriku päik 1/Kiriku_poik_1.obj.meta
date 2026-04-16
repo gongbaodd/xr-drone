@@ -3,12 +3,257 @@ guid: 66d26e5aeda014387baf2866185b1f11
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KP_1_katuseaken01
+    second: {fileID: 2100000, guid: 9a24a02eedb10498888495f0efb7be4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KP_1_krohv_hall
+    second: {fileID: 2100000, guid: bb75dce30b2234d21b355b1af5dfb136, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KP_1_krohv_valge
+    second: {fileID: 2100000, guid: f03831a60c4fd42379eb6b287bf12e17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KP_1_myyr_karniis
+    second: {fileID: 2100000, guid: f3d14eefdb91a496bae598df4114eff6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KP_1_myyr_karniis02
+    second: {fileID: 2100000, guid: cd64e529b2bb64c9782ffa526a46321c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KP_1_v2ravad
+    second: {fileID: 2100000, guid: 2e06d2dc59b6242f0aa1ffa0a8370e46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_aaris01
+    second: {fileID: 2100000, guid: 6997c8140aab943c8866bc791ba51bbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_aaris02
+    second: {fileID: 2100000, guid: 0beba3db8380f4ca2b958b622cbee9fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_aaris03
+    second: {fileID: 2100000, guid: ea03094ae521244849efb3587011777a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_aken01
+    second: {fileID: 2100000, guid: c53953c964b874943b259c1444e2548d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_chimney
+    second: {fileID: 2100000, guid: f9d33269048be4d10ba705338e9658eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_chimney2
+    second: {fileID: 2100000, guid: 0fc32788401e94b5faefa799c4078e50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_door01
+    second: {fileID: 2100000, guid: fbea7c11938e642168339744eeb98ab0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_misc01
+    second: {fileID: 2100000, guid: 2360242bd3930457b8ffa95edaca7e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_misc02
+    second: {fileID: 2100000, guid: 0fac18f904ca54e97b190d489f6591ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_misc03
+    second: {fileID: 2100000, guid: 8063173b3d63f413da8d809e6d1c5c0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_plekkhele
+    second: {fileID: 2100000, guid: 10af1ac4ecfc440b3b11ed1c3d1bfe47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_puit
+    second: {fileID: 2100000, guid: 7bba9c017eadd4a12a376a39ff9f5f73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_roof1
+    second: {fileID: 2100000, guid: dc02648e31699486c9b9a9ee47d0a1aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_roof2
+    second: {fileID: 2100000, guid: 2c29010843fbe48df8387c2fe99dbd9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_ukstaga
+    second: {fileID: 2100000, guid: 1b7b7829ff0fa4ad99456cb971d65f00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_wall04
+    second: {fileID: 2100000, guid: 47d22afa709104a4f9215b9c86011e1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_wall05
+    second: {fileID: 2100000, guid: 925a238176fa8491199b3de1988c4c3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_wall06
+    second: {fileID: 2100000, guid: 5df77c14a3c704f79b3e21371ca9b53e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_wall07
+    second: {fileID: 2100000, guid: a82180440aabf4b8e80d401725618aba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_wall3
+    second: {fileID: 2100000, guid: 9067dc04612db49e1a75e9c8da8249e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_window01
+    second: {fileID: 2100000, guid: c224b90076861432ea8a8c8387ae0613, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_window02
+    second: {fileID: 2100000, guid: 50108d8cd5b8044fa8644ed8afc2f363, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_window03
+    second: {fileID: 2100000, guid: 0d66913c85b1143b08a824a776cdedf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_window04
+    second: {fileID: 2100000, guid: 2af7c2ac3718d4beebeed08f0c8b0a23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_window05
+    second: {fileID: 2100000, guid: 96da6b9418df141e385bb83a5113df07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_window06
+    second: {fileID: 2100000, guid: d5caa2288eb754726b59aa1241a0ab61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_window07
+    second: {fileID: 2100000, guid: 77da1742769154f7695518239340b985, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_window08
+    second: {fileID: 2100000, guid: ff39dfd406e51468a828450e7cd911b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_window09
+    second: {fileID: 2100000, guid: 6eaaa4a3fdbf54b98a31ce1b20a1844d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_window10
+    second: {fileID: 2100000, guid: bddb91e2c33e94309aa60e0ef0f8a637, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_window11
+    second: {fileID: 2100000, guid: 191afbc841cd244398b0fc4c9c0949b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirikupoik1_window12
+    second: {fileID: 2100000, guid: aadc76548eae24b648cecf1e98b76f7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_1_kaaraken
+    second: {fileID: 2100000, guid: 4ecaad65b2f2b49ea9a6d17f5ff4424e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_1_must
+    second: {fileID: 2100000, guid: 39ed2359be8e9457cabd6a39d34983ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_1_ring
+    second: {fileID: 2100000, guid: 1c3c84c4cb7f74656977bc8b1a70d4b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_1_stone_stair
+    second: {fileID: 2100000, guid: 20d4ebedc8abf44bdb45a0a778cd7546, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_stonewall
+    second: {fileID: 2100000, guid: b71c3f52a22594baaaa26cf3db5277d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_tagasein
+    second: {fileID: 2100000, guid: 3c1a80985e0f240a2b9d0ec816286368, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_vintsk01
+    second: {fileID: 2100000, guid: cb69d3ac838b4402b8519765f8fb27c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_vintsk02
+    second: {fileID: 2100000, guid: 021fcacd5c9a3495eaa68efb9dc58096, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_vintsk03
+    second: {fileID: 2100000, guid: bc224744488c64507885bdb05090467e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirp_vintsk04
+    second: {fileID: 2100000, guid: fd75041162b0140d79a2a4684de7140c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: a7c4235d46ac342609cac6f6809b6233, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

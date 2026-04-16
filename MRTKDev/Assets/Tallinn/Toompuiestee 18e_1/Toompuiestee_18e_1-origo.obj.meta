@@ -3,12 +3,27 @@ guid: c0130b5d8fe2c4455a5dc9c9a35017e0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_1_2_TP18e
+    second: {fileID: 2100000, guid: 65f3a150a1c5c4ae8bbb4d758d7fbb28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAS_1_2__F2_TP18e
+    second: {fileID: 2100000, guid: fefe2cee2f58444cdbf559bf6875a12f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KATUS_2_TP18e
+    second: {fileID: 2100000, guid: eec892db97b574d3e815a3b564461557, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,117 @@ guid: 36fe081368ce84145943df4004085b69
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patches
+    second: {fileID: 2100000, guid: b3d485557540f4983aff7bb37374f5d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base_window1
+    second: {fileID: 2100000, guid: de9f8a31fd88943c78b904f69430ba62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base_window2
+    second: {fileID: 2100000, guid: 22eaf953e483a496db24c612bcd256ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base_window3
+    second: {fileID: 2100000, guid: b94dbe32f6f52487689f228c2b8d989e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chimney
+    second: {fileID: 2100000, guid: cdf6297be517e43e3bdbb5cd7b0861fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_top1
+    second: {fileID: 2100000, guid: 58cdfd5aabd33487e8e13670c6002314, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_top2
+    second: {fileID: 2100000, guid: 1bad6cea6927a4a808d3a862a915602d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doors
+    second: {fileID: 2100000, guid: 3527a587c3b4a407f9c99f2afbd2b823, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_main_corner
+    second: {fileID: 2100000, guid: 3df5930e8ee7e4845aaeb22efb0608ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_main_left
+    second: {fileID: 2100000, guid: 06a5932cc0b794d23a8b49393e362c97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_main_right
+    second: {fileID: 2100000, guid: 3d1503890510c4608ba7bc5b83f1ee26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gate
+    second: {fileID: 2100000, guid: ad04ffec6bd434218bc4bf1f5f5524d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: 2a84db8eaa741474aa43fe3f8ff23704, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_window_1
+    second: {fileID: 2100000, guid: 9e54d8aedee6046cf918e2566e62417c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_window_2
+    second: {fileID: 2100000, guid: 8db4199061ef84a5299da9d5fb1ab66e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_window_3
+    second: {fileID: 2100000, guid: fb45b42a8ac114da7baf505310ea99ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_window_siding
+    second: {fileID: 2100000, guid: 298cffd027726492d9774eb5c6567a5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top_ribbon
+    second: {fileID: 2100000, guid: d799de8b8d8d349488bd1f7533208713, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_1st_floor
+    second: {fileID: 2100000, guid: 6aa57bb62b4be40aea66437010ba8980, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_2nd_floor
+    second: {fileID: 2100000, guid: 3bcd0d3e9765c4c51a40bacbaef142dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: ae80f11ec556a41cd9cc010b1c397d13, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

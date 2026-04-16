@@ -3,12 +3,162 @@ guid: f8ecbe8410ada4ca699787107d9efb6b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_a4
+    second: {fileID: 2100000, guid: 70945c779da874b3fa3a0f69b13ee476, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_a5
+    second: {fileID: 2100000, guid: 73298d382f7ee49579d310546f4d12df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_building_111
+    second: {fileID: 2100000, guid: 3f7f81b9ff5e24b4e9867c4736589267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_building_orange
+    second: {fileID: 2100000, guid: eb60fcc899f39440a9674791eacb1242, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_building_white
+    second: {fileID: 2100000, guid: 4226bd8d812184525ab0d26cb98e0e0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_doors_001
+    second: {fileID: 2100000, guid: 582bc235e88d44a95b472c9614f85d05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_doors_002
+    second: {fileID: 2100000, guid: 2545996705aa6459e9f389b188444a71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_doors_003
+    second: {fileID: 2100000, guid: ba3097b1d63b04887808e20f1706f6e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_doors_004
+    second: {fileID: 2100000, guid: 7c947247bd7de4e0fb356e01eeaa9c17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_ka
+    second: {fileID: 2100000, guid: 61a62cae124ee405ea3944628d19b340, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_karniis
+    second: {fileID: 2100000, guid: 98e1df54ffa144fc388ac6b35da9c3ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_katk_v
+    second: {fileID: 2100000, guid: e7fdcf61f0614424e99b7219840153b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_korstnaots
+    second: {fileID: 2100000, guid: 28119c43ad6394cc28da31b5eb89a9c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_korstnaots2
+    second: {fileID: 2100000, guid: fe1a451b241e14c75857ee24876cef45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_psilm
+    second: {fileID: 2100000, guid: 74cbbfc397b4d4dba833f4ccc77daf62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_roof
+    second: {fileID: 2100000, guid: 8504a40dcccb5496ab2a64d55320dbe4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_roof_colour
+    second: {fileID: 2100000, guid: 46c8187fece1b457eb1572e43d992236, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_roof_map_02
+    second: {fileID: 2100000, guid: d7120adfd4ce94922b4697264cac1c30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_side
+    second: {fileID: 2100000, guid: 17916ef4d7fcf43499cb8877dfa7d6dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_stone
+    second: {fileID: 2100000, guid: cc7e85be84eea4063ad21d564170c502, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_traste
+    second: {fileID: 2100000, guid: df7ac09e021e244adb58069b18ad92cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_windows_002
+    second: {fileID: 2100000, guid: ceb844103d83a4410a072887258c50da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_windows_all
+    second: {fileID: 2100000, guid: 76b446b5a37ef4679b6c0fc262a6de50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_zokkl
+    second: {fileID: 2100000, guid: 292edcabf06214414a9c7b716e494ce8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Koh5_a1
+    second: {fileID: 2100000, guid: 1c2101ece63534256bc869a1848a20f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Koh5_a2
+    second: {fileID: 2100000, guid: 0bc59faa2126343a1af3846c01d6a9eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Koh_5_kat_pun
+    second: {fileID: 2100000, guid: 9ee85f07ebe9e43aa8a2ce956286cf2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Koh_a3
+    second: {fileID: 2100000, guid: 3deeab726beca40a9a2ff8d73131638e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 54a8a5cbb1df149f99668e41bdc13484, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon
+    second: {fileID: 2100000, guid: 8cc16363856fa4f789443b7363767451, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

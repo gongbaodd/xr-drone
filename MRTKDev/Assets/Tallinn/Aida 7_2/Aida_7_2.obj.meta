@@ -3,12 +3,47 @@ guid: a3f40b7fc2d7c4f5bbb02e40c4d7cd75
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a72a
+    second: {fileID: 2100000, guid: c051bd40912274d6bab7f7eaa5390584, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a72u
+    second: {fileID: 2100000, guid: 4d25cf8546af746bba534e2824fcd0b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aida5_7SG
+    second: {fileID: 2100000, guid: 48f2f62caaaeb49499085e62f0b064ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon
+    second: {fileID: 2100000, guid: 66d7e6678faf34b9cb9aa9c8894b15fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paek
+    second: {fileID: 2100000, guid: fde224963d0be434f89ff5263e409248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruberoid
+    second: {fileID: 2100000, guid: 76227bd6123714f4993a88b11f97a9be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 32c61d7e348854dc898c1aaede42a707, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

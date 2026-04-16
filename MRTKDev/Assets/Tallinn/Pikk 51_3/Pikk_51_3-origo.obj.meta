@@ -3,12 +3,77 @@ guid: 4687b16337d4149f191f9417a2806b91
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_3_aken01
+    second: {fileID: 2100000, guid: 590bad014f01c4224a538dd34735818a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_3_aken02
+    second: {fileID: 2100000, guid: 197a214d2394a407981dbdef98d0c8ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_3_kat_plekk
+    second: {fileID: 2100000, guid: 165068b1bfb984ab2bb93c93da6aa60f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_3_katkivi
+    second: {fileID: 2100000, guid: 0cfeb15e7f5984f61b2c2bd576eae4c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_3_kivi01
+    second: {fileID: 2100000, guid: 9688596391b1146a88f398416b045fc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_3_krhv_hall
+    second: {fileID: 2100000, guid: be3cb1e68df2f46b5a4795738f715266, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_3_krhv_roosa
+    second: {fileID: 2100000, guid: 4f694ae6323bd4c4485b3060458cc6e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_3_krhv_vlg
+    second: {fileID: 2100000, guid: 301950b92ad574b1db7d6d876522e3dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_3_krstn_auk
+    second: {fileID: 2100000, guid: 236b3605f11644fea9f35844f7cba933, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_3_must01
+    second: {fileID: 2100000, guid: 203507bd7ef074bbda2318ea7da4c175, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_3_otsasein01
+    second: {fileID: 2100000, guid: 671bb72bb437e48ecb7c3fb84534c1da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_3_punane01
+    second: {fileID: 2100000, guid: f1b8bcea4303643e8aa13020f93d29bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: afde85f2015dd48439b5583686d75435, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

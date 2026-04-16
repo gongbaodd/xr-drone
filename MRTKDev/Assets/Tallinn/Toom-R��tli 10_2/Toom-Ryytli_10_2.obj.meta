@@ -3,12 +3,77 @@ guid: 14f2f7adfd099484a9ff7cb5d11d6fc8
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_210SG
+    second: {fileID: 2100000, guid: 8f8a540d05c4a40729326a77f05b8fd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_22SG
+    second: {fileID: 2100000, guid: fa2d817992b1848fb9e55a66cd6efc32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_23SG
+    second: {fileID: 2100000, guid: 8c30342e8de6c42b8b4c740ed895bb45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_24SG
+    second: {fileID: 2100000, guid: cd697b825123b48c49db07f81ddb5b4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_26SG
+    second: {fileID: 2100000, guid: 00d45a09642ab4894b652fe25fef72c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_27SG
+    second: {fileID: 2100000, guid: f02a01473709842ffaf838f92edc0fc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_28SG
+    second: {fileID: 2100000, guid: b30e494c20c264323bd7fd1d921440b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_29SG
+    second: {fileID: 2100000, guid: 36f45eb7a880546f98310bffc85a73fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_2_a1
+    second: {fileID: 2100000, guid: dfca58daa3ca54fe99654a9398519b82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_2_katpl
+    second: {fileID: 2100000, guid: 308205f6eabf34ad58defdcf54c15ed4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_2_rodukonsool
+    second: {fileID: 2100000, guid: d5d9493a68cac4af3bcd2ec1f2aea04c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_2_rodupii
+    second: {fileID: 2100000, guid: 80abb3be2a8774051b4a22232ffcb336, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRyy10_2_uks_vale
+    second: {fileID: 2100000, guid: 45d8778d35f794e188436ebc84594522, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

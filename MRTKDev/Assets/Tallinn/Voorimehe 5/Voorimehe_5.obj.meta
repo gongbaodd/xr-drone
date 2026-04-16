@@ -3,12 +3,97 @@ guid: 2bd014694f61047c0958cf93cec478ba
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_215
+    second: {fileID: 2100000, guid: 778312881246c45ba93ba11865d40e7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_Concrete_dirty
+    second: {fileID: 2100000, guid: 8e372c83e0cbf4b96938913287fbd1b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_Dirty_win
+    second: {fileID: 2100000, guid: c12385593737049c389b47405cbfa918, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_Door_orange
+    second: {fileID: 2100000, guid: 645316ac5f99f48b8815a02ef6069adc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_Wall
+    second: {fileID: 2100000, guid: 12ab26088e679479ab63806cc3e9ae92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_Window_upper
+    second: {fileID: 2100000, guid: c303804256cdf40979904df8d0c88e38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_aknaplek
+    second: {fileID: 2100000, guid: a182598e7c96d4fa084b857e388b20eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_door_white
+    second: {fileID: 2100000, guid: eb0f0cbf06ff4403188af790b46ca4f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_karniis
+    second: {fileID: 2100000, guid: 98ad7b0ff8f2b42229ad9d53bba0eac4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_korstnloor
+    second: {fileID: 2100000, guid: 1ad4381507c424fe399fad4c355d641b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_orange
+    second: {fileID: 2100000, guid: 409b8e3f02c18454f845f24139c301b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_roof
+    second: {fileID: 2100000, guid: c90999bc117c846b18fe160fa9ca4e06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_valge
+    second: {fileID: 2100000, guid: d214e40cd69a44c96aa7c187db028217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_varav
+    second: {fileID: 2100000, guid: c899c1c0a97914580a8bab23abfb5e86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_window_Back
+    second: {fileID: 2100000, guid: 6ec0ee5825bbb4e29a0602da1213f512, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voo5_window_dwn
+    second: {fileID: 2100000, guid: 2cf6da3ce8ec74afe885895ba3b5662a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 206eda251b5fd4422bfcccc336a0c245, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,92 @@ guid: 5e4d213ffda9741079e3547be1c5d1d4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_1F_DOOR
+    second: {fileID: 2100000, guid: 97bae402b146b4b30a7af87730c581a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_1F_WIN
+    second: {fileID: 2100000, guid: 53a8097714dd3412196a0ff3b3b73267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_2F_WIN
+    second: {fileID: 2100000, guid: a6c87792f52d14e448a636d7e308a33c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_3F_WIN
+    second: {fileID: 2100000, guid: 4d039d8373077444391229c4962c40e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_ACCENT
+    second: {fileID: 2100000, guid: 71bec651a13ab427d850baaecb0721bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_CHIMENEY_BODY
+    second: {fileID: 2100000, guid: d55c87c2291654d24975e7be3425b799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_CHIMENEY_TOP
+    second: {fileID: 2100000, guid: df0613cd5c1624c359928a93d711cb85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_MKETAL_ROOF
+    second: {fileID: 2100000, guid: 78fa315d1cc1042d984dc46b0e6dd785, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_MOLD01
+    second: {fileID: 2100000, guid: 5c964fc463eb14ee18a9dc049978917b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_MOLD02
+    second: {fileID: 2100000, guid: 08d1b8697f0064578926c62851852208, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_ROOF
+    second: {fileID: 2100000, guid: 92535648459b042c3a9cfef8d99633d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_STUCCO
+    second: {fileID: 2100000, guid: cbd9d2bc4cf5040aebc4ec316ab3849c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_TRIM
+    second: {fileID: 2100000, guid: 7cfe1c60b7487460c9bf4cfde421acaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_7_ka
+    second: {fileID: 2100000, guid: c898e4512eb304d6483fed79c87fe256, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kull7_42
+    second: {fileID: 2100000, guid: 5ec3d287df6604ab8844378c98df9247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 605400f596c3b4e01af6c0353e009d11, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

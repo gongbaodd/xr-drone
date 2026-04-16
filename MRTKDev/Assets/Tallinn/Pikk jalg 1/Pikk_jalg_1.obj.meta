@@ -3,12 +3,97 @@ guid: 8a60568cb806f42d48988440faaf2dda
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_GrayPlaster
+    second: {fileID: 2100000, guid: 2194b7c9f07444588a6b9ff4edf16f02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_Roof
+    second: {fileID: 2100000, guid: c0edeb5a5d1414c2f8aafa1aaaa0051c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_RoofFlag
+    second: {fileID: 2100000, guid: e9d4933566ac44a529f7e69e14ead488, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_Stone02
+    second: {fileID: 2100000, guid: 076e5b85f2c43475b92e3cfe6fca6cef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_Stone03
+    second: {fileID: 2100000, guid: e2f935860657c49a494b80a45b5aea03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_Window01
+    second: {fileID: 2100000, guid: 3dacae53cc84c4313b26ae7236786116, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_Window02
+    second: {fileID: 2100000, guid: ff94fb443a36444f2b3df02f2334fa65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_Window03
+    second: {fileID: 2100000, guid: c389d23ed94244f358f42e53e71cb845, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_Window04
+    second: {fileID: 2100000, guid: 1ee52661a33104a08a90c1328a520c2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_Window06
+    second: {fileID: 2100000, guid: 8a27f7a93c552457db146634df67a098, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_Window07
+    second: {fileID: 2100000, guid: 40fcf5ab08bde4af08b95954bdb841cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_Window08
+    second: {fileID: 2100000, guid: 2c08f88e4e76d4ba485c700a475b3647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_katusvalge
+    second: {fileID: 2100000, guid: a6420b1a1f299464fbe8f085ad9f05f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_korstn
+    second: {fileID: 2100000, guid: 50af7f1d401ff4ed69bd714e2257a4ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_krstnn
+    second: {fileID: 2100000, guid: c236083edf326420fb4fc263bd38d061, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikkjalg1_paas
+    second: {fileID: 2100000, guid: b93bc798bb6a24fd5a36553a63cf2c28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 2cbb6cd5216274a858cdaeea1faccd98, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

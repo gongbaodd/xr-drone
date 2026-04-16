@@ -3,12 +3,102 @@ guid: eed7db803daea447a9bd03181459d4b0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L18_psilm
+    second: {fileID: 2100000, guid: 13ec0c0abe23a4855bfa0eb81567947c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_002
+    second: {fileID: 2100000, guid: 51ff309d26f894e85b862688a584dcdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_1
+    second: {fileID: 2100000, guid: 844d6ddf88de74154b63b22671874472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_2
+    second: {fileID: 2100000, guid: 0e97ee26710144127bce30a07ea9ae82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_3
+    second: {fileID: 2100000, guid: 8da6916e174ed432da91700ff219c042, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_4
+    second: {fileID: 2100000, guid: 94e4b2e326cb34c9ab8bcdd1b1d12b81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_6
+    second: {fileID: 2100000, guid: 6f66bc625d81b49c8a5c13ea8807ddfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_7
+    second: {fileID: 2100000, guid: afb767cc65feb443ca904de9c33d4612, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_a1
+    second: {fileID: 2100000, guid: 9fc8ac8d770b048fc9df45b07efe7202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_akel
+    second: {fileID: 2100000, guid: f037a6f1859ab4ea08942bb364936d0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_karniisijutt
+    second: {fileID: 2100000, guid: 6e927354f29354c13a48ac74503cbaa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_s2
+    second: {fileID: 2100000, guid: aaaabd22fbf604e7c89a3a7412eb5b80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_sein
+    second: {fileID: 2100000, guid: a8ddd7f06b2d4441c86beb43c0dc0544, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_sillus
+    second: {fileID: 2100000, guid: cf0e9076ad8d74b5d90cf645b32f7324, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_sokkl
+    second: {fileID: 2100000, guid: 3aa2a84a203ab4593aa55f5ff96cb0d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_u1
+    second: {fileID: 2100000, guid: 9b53c3335f00d4c6592d06db4ca46ec3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_28_v1
+    second: {fileID: 2100000, guid: 3df1a1da5de4340d9ae26ca498de1d43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: ae6c05e5082744e31bca35014a61a4b9, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

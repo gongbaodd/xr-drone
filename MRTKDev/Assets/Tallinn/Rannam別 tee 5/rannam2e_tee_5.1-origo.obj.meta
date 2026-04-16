@@ -3,12 +3,57 @@ guid: b58dbd60edcdf404fa1b44c40b6febc4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken
+    second: {fileID: 2100000, guid: bbea7827b7ce04a97975be1703d04b07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus
+    second: {fileID: 2100000, guid: d63d71ceff3b545beaaf9cab67371045, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katuselaud
+    second: {fileID: 2100000, guid: 2cf8e56493ee74468b505c20a84dc49b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krohv
+    second: {fileID: 2100000, guid: 5c9079fd3f58b4d46be48157d8651031, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krohv2
+    second: {fileID: 2100000, guid: 445e4febeeb964c9f82b68fecd16878a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plekk
+    second: {fileID: 2100000, guid: e2795d1fc724f4511bf5f960403b30da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sein
+    second: {fileID: 2100000, guid: 9066b349aa7e54781a3a8550152d7c67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trepp
+    second: {fileID: 2100000, guid: f614e791ec8fd4460ac98330273954d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uks
+    second: {fileID: 2100000, guid: 003d54844be1c4d36a6cedad2ba6e5d9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

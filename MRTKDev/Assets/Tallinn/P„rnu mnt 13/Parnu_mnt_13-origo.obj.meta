@@ -3,12 +3,127 @@ guid: 0e924c6919d5e42c385c07e02f375cc7
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_glass01
+    second: {fileID: 2100000, guid: fe64f2b102c2941369e2a79bff9f7d1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_katus01
+    second: {fileID: 2100000, guid: ebcd632a0b90343869840a0478eeb9d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_katus02
+    second: {fileID: 2100000, guid: 7de460108131d498b98e812a33fc7f3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_klaas01
+    second: {fileID: 2100000, guid: a7959433478104cc8a70f7986658012f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_klaas02
+    second: {fileID: 2100000, guid: c2bb8d58e5b97447f98f1322c0d8ab18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_klaas03
+    second: {fileID: 2100000, guid: 8bc98fced9f5942b890bd8d34bd4cf8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_klaas04
+    second: {fileID: 2100000, guid: 240291487e5ff4c3eab4f61451a05c6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_klaas05
+    second: {fileID: 2100000, guid: a93ef1fdd6b9449dabf0080bdb7f5bfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_klaas06
+    second: {fileID: 2100000, guid: 7827b48fa728a4a2cbdbce5e7bf97f4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_metall
+    second: {fileID: 2100000, guid: 722a5d95f084e45399077c049a57980d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_peauks
+    second: {fileID: 2100000, guid: b7ae65c9bf6b34c8e8783f3eb4ec252e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_piire01
+    second: {fileID: 2100000, guid: 9e20399b94dab4fa69a063e12a35f67d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_piire02
+    second: {fileID: 2100000, guid: 23d554f62fad14ecc932c0869b51de3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_piire03
+    second: {fileID: 2100000, guid: 0dc586f6b1de64bfb8e7c0c9ddc7cfc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_piire04
+    second: {fileID: 2100000, guid: 9d93b5163ca824107820830d5e295d15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_puit01
+    second: {fileID: 2100000, guid: ae75b3cedd7524156abcb37755b6090c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_sein
+    second: {fileID: 2100000, guid: 356bf575936514b6186fa2346752d8ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_toed
+    second: {fileID: 2100000, guid: 7e6ef7c1814014017b9cbf768cfae8be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_ujula
+    second: {fileID: 2100000, guid: 8173280e12b584b73b9a114bb9da2866, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_uks01
+    second: {fileID: 2100000, guid: 944624d09880b426ca12ccc1ae286290, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_v6re01
+    second: {fileID: 2100000, guid: b15fba1e0816f458ebe8ee1b8d983f0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pmnt_13_varikatus
+    second: {fileID: 2100000, guid: f616cfe0691eb4432a3769e43a5f8b98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pmnt_13_mat
+    second: {fileID: 2100000, guid: 84beb002518ea4411ae539f9a18bcd35, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

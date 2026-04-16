@@ -3,12 +3,112 @@ guid: 2b021ca9a9b4a469f94c4c461a1c6270
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_a1
+    second: {fileID: 2100000, guid: 39b6d003f85b24b4d91d528439c622a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_a2
+    second: {fileID: 2100000, guid: 14a06069b322946d4a8e22a2bd222158, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_a3
+    second: {fileID: 2100000, guid: f93c44c886a7d48e68cb70e148635a4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_a4
+    second: {fileID: 2100000, guid: 0a4b499b79e534e17877d5a2b479b496, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_a5
+    second: {fileID: 2100000, guid: 638c89ebbdd4146a2aa0f8458b1905ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_bet
+    second: {fileID: 2100000, guid: 01e2e27e3b0184366a0951f47b1cf0d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_katus
+    second: {fileID: 2100000, guid: 50e1138f658344385bf22c9fbb0071b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_l1
+    second: {fileID: 2100000, guid: a119f1afbef594a228bb4ef11c4244a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_l2
+    second: {fileID: 2100000, guid: 604a00355d5384c84948c57f03575a06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_laud
+    second: {fileID: 2100000, guid: 549e481e2380a4e5da1612806774c447, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_msut
+    second: {fileID: 2100000, guid: 761e30d2091524fe0babd78e2a0deff5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_paas
+    second: {fileID: 2100000, guid: f632c4cf4861c4adfbfdc63f1aa16d4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_paemyyr
+    second: {fileID: 2100000, guid: 6a23f1b7e7aa64279b382ef159049eee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_pun
+    second: {fileID: 2100000, guid: 7197e28077a7042629aebc6afbabbbbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_rp
+    second: {fileID: 2100000, guid: 29d2be2937d39403982065bbe5a78d77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_sein
+    second: {fileID: 2100000, guid: a8d95cb3873f44b41890b81e0d42d574, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_u1
+    second: {fileID: 2100000, guid: 4884b81acece847fe8840cd3ecfb8461, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_u2
+    second: {fileID: 2100000, guid: f4798e4f51e934bc0a9d9967e7ff7bc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_3_valge
+    second: {fileID: 2100000, guid: f55b93c04a7de4cc78f32f7b7cd4af0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 7cf7e9c8807334ae58c48ec33522e316, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,97 @@ guid: 5011c9f741a1045129ac6f12eddbb63e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLACK
+    second: {fileID: 2100000, guid: 62695b55de09b4114bda2fc868a88844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Poik
+    second: {fileID: 2100000, guid: e321c20b261914ab185d38a52a16d4e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_poik_2
+    second: {fileID: 2100000, guid: 7ac4d3c38f8fc44dd9a0a711e2fe0738, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Molding
+    second: {fileID: 2100000, guid: b1c8e087d4d0e43148529c6e725949e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROOD_EDGE
+    second: {fileID: 2100000, guid: c9e16e6a0861f4f859cf63f6c1bf4fd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_sheet
+    second: {fileID: 2100000, guid: b8bb904838aa541d39bdeda8e276fbb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rood_Glass
+    second: {fileID: 2100000, guid: be97695e15fa9432fb3d904c3f9368a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_red_Tin
+    second: {fileID: 2100000, guid: db955e6a30345490aafb1c39e329a175, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs
+    second: {fileID: 2100000, guid: 3918638c2b3fc45f6af481ab2f8df7a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone_Podval
+    second: {fileID: 2100000, guid: 72a9a603eef134415acf3fb69aa8c8ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stucco
+    second: {fileID: 2100000, guid: f9c8a399ced364f74ae6c6c028809c25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2100000, guid: 27e325093588b445db88a318c4203e97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_BIG
+    second: {fileID: 2100000, guid: 9da52ad4d710b4a29abfdbd19fa870e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_poik
+    second: {fileID: 2100000, guid: 7d29fdc6564024bb2a8567775a4ebd52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_small
+    second: {fileID: 2100000, guid: da00c8f88d04e48fdb9c3dab19ce7238, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_planks
+    second: {fileID: 2100000, guid: c20032b7f2bbf4810af0e58d1bce5fa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 75d406c8e7b5b44f3b16a4ee75274eac, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

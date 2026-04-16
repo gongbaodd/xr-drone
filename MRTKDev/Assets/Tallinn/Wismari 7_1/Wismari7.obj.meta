@@ -3,12 +3,182 @@ guid: c5a04f50b84f14b4eaa1b8f54a08e965
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Balcony01
+    second: {fileID: 2100000, guid: d344cfcb8158d47baa39fc4808d03772, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_BrickWall01
+    second: {fileID: 2100000, guid: c0c52722757fc4ddbac080fab9e2f6e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Door01
+    second: {fileID: 2100000, guid: 9ff95deb7320f48d296e0b676805ac73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Door02
+    second: {fileID: 2100000, guid: 5309c2d7d3fdc4fada74b8fa45da8f38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_EdgeDetail01
+    second: {fileID: 2100000, guid: 885cffcfa59c2452eafc40ba13a44788, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_EdgeDetail02
+    second: {fileID: 2100000, guid: 4de04566f3b5f411b956af94d352d9ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_EdgeDetail04
+    second: {fileID: 2100000, guid: dfc34778d00b64399b8b3db522ae3934, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_EdgeDetail05
+    second: {fileID: 2100000, guid: f87991d57932b4b639b429fdd4ec2106, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_EdgeDetail06
+    second: {fileID: 2100000, guid: 5345c97d8230c420eaf7f2346f59f00d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_MetalTin
+    second: {fileID: 2100000, guid: ac55a441fbc87418e9901a650ca9604b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Ornament
+    second: {fileID: 2100000, guid: 33f71f5c88e8542718cd91291b7bc5da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Pillar01
+    second: {fileID: 2100000, guid: 066db6f4eaaff4444931d60044fb17ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_PillarDetail01
+    second: {fileID: 2100000, guid: c487f76a0caa64378a8f5ab343eb53c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_PlasterWall
+    second: {fileID: 2100000, guid: adab0eb4d3a4f499ca97136ce9d05a6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Roof01
+    second: {fileID: 2100000, guid: b8f9a1fe4f9544d0bb026259f72b333e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_RoofDetail01
+    second: {fileID: 2100000, guid: 8109e01b63255493eb999c3a8020a380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_WallDecal_01
+    second: {fileID: 2100000, guid: 1c060443b37964f36ab19eb78c5d3a70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window01
+    second: {fileID: 2100000, guid: 2c08117ef08fd4092b9a3eaa565cc877, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window02
+    second: {fileID: 2100000, guid: 55509ae02e49e40e38b6d3ff2cd13223, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window03
+    second: {fileID: 2100000, guid: 50b3d016fd69145a1be395adc14ad02d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window04
+    second: {fileID: 2100000, guid: 6d2d7610303c2408090919b131505b6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window05
+    second: {fileID: 2100000, guid: 7ab703719062e47dcaca72356bf694ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window06
+    second: {fileID: 2100000, guid: 317de58c4db71431b80aab796eb248d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window07
+    second: {fileID: 2100000, guid: 7362687d8d34047beab9ec466d793fce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window08
+    second: {fileID: 2100000, guid: 1cf1974c2879e477e98b379dab495380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window09
+    second: {fileID: 2100000, guid: d96faea9bf313474f8b35cd5a4f2adbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window10
+    second: {fileID: 2100000, guid: 7cc1777e6e37e41bca3508eb7a88c504, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window11
+    second: {fileID: 2100000, guid: 7aa97db8749d34234af37e5ed2c9e239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window12
+    second: {fileID: 2100000, guid: 9324d3f9a22704f0b9799d34b9dfef16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window13
+    second: {fileID: 2100000, guid: ea017e8661ebf4a5aac963dec64f3207, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window14
+    second: {fileID: 2100000, guid: 27d7477f620094566bff20767ad91421, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window15
+    second: {fileID: 2100000, guid: 8e87d482904534528b7fa7186fb7e133, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window16
+    second: {fileID: 2100000, guid: dfa2aa9c63aa74b0392a3d278276b91f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W7_Window17
+    second: {fileID: 2100000, guid: e70b5e7a7344340e2aaef866a9f80526, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,32 @@ guid: 9502a0dcaa42d4fdc97b713b42ecf739
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai36_a2_plekk01
+    second: {fileID: 2100000, guid: 6d8452cefa1614e8b9a9fb02839713eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai36_a2_katkivi
+    second: {fileID: 2100000, guid: 791002c5b539941a9a06f739dd17d7cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai36_a2_krhv_vlg
+    second: {fileID: 2100000, guid: 0a329ca8c0b514523bfac3cde55037be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 607591f14c613466bb5a82b1a18ca4d1, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

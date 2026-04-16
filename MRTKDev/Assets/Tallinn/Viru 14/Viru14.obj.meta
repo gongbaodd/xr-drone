@@ -3,12 +3,162 @@ guid: a6c80c2f4a63e444fb8612f2ec7dff25
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CHIMENEY_BODY
+    second: {fileID: 2100000, guid: d3a5afeb95efb44e99b4ffdcb5df90b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CHIMENEY_TOP
+    second: {fileID: 2100000, guid: 3e6c3583aaffc49b1beee45cc5ec6628, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HALF_WINDOW
+    second: {fileID: 2100000, guid: ab077d4687db14c1cb730598b0830eb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOUVER
+    second: {fileID: 2100000, guid: f0301e8e3ac4c449f85be2bfa7f44519, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOUVER_GRAY
+    second: {fileID: 2100000, guid: 9040d1701bb3f4c64998b114693e2ad0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAIN_DOOR
+    second: {fileID: 2100000, guid: e0f3c1db2bf6e444497ea6cd9d28973f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAIN_DOOR_window
+    second: {fileID: 2100000, guid: af1df7304362f486596be14acebf45c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: METAL_ROOF
+    second: {fileID: 2100000, guid: c5eeb9a2221a64451b1549ec3ab67b07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: METAL_ROOF_gray
+    second: {fileID: 2100000, guid: 48f9ce0e76df24396ab21874611594f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MOLD_blue
+    second: {fileID: 2100000, guid: 967f914d2054149e6ada0ccd33f9f257, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MOLD_roof
+    second: {fileID: 2100000, guid: 10ecf9f47d3ca40658b31303ca8778ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MOLD_white
+    second: {fileID: 2100000, guid: 79f30d79fea6b483c9ebd340105d3481, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RAILING
+    second: {fileID: 2100000, guid: 1e0d1fc51e10244a99f9c75df6e9311a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROOF_CAP
+    second: {fileID: 2100000, guid: 2e7919bc1b62243bab782148b67821a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SHOWCASE_01
+    second: {fileID: 2100000, guid: f886198058232464aa4885cb2c59f925, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SHOWCASE_02
+    second: {fileID: 2100000, guid: 34bf2419f98cc456d917ed5f9bc0af47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: STUCCO_BLUE
+    second: {fileID: 2100000, guid: 29dc7f05cb064469ebc5939aa3c77c34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: STUCCO_WHITE
+    second: {fileID: 2100000, guid: 2adedab39f8284914836082093598bb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRIM_first_floor
+    second: {fileID: 2100000, guid: 46581e11153d246278502047aba1cda2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRIM_first_floor2
+    second: {fileID: 2100000, guid: 54c1bf15eec9841a6bc842959a6d6101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRIM_second_floor_01
+    second: {fileID: 2100000, guid: 3f30b70a09fb240b29224b4db43c84da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRIM_second_floor_02
+    second: {fileID: 2100000, guid: 16d1b48ae365f422ea9da0a4983e01da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VENT_GLASS
+    second: {fileID: 2100000, guid: 58dc7e578a0054056a1fb3b03d6ceb82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VENT_MARK
+    second: {fileID: 2100000, guid: bb18836c63ee64537aa5dfe37f6d0fee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WIN_OVER_SHOWCASE01
+    second: {fileID: 2100000, guid: 8c210c714db2a4faaa5a5f60ec0ca4c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WIN_OVER_SHOWCASE02
+    second: {fileID: 2100000, guid: 42d2f13d4593d4708a1abcc0628bf972, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WIN_first_floor
+    second: {fileID: 2100000, guid: b3487a6b030554227bd464ffd796bee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WIN_over_entrance
+    second: {fileID: 2100000, guid: c10871696702f46c68045168e06f7ff5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WIN_second_floor
+    second: {fileID: 2100000, guid: 4c252ac71626a4535b86fa9169984003, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WIN_third_floor
+    second: {fileID: 2100000, guid: a82cff0bba4a14550953dc06f9a02287, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

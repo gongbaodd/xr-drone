@@ -3,12 +3,112 @@ guid: 67b357e57440c49a687b2c0432ceefc6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_20SG
+    second: {fileID: 2100000, guid: ab5353df61e844983ae016ec8c488ef1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_21SG
+    second: {fileID: 2100000, guid: c5b65d8257b274a30a25f49b12c55d8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_28SG
+    second: {fileID: 2100000, guid: 3459ecd38d05044f789ab0f1dc366c34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_2SG
+    second: {fileID: 2100000, guid: a11609453d3764bf68a39760430c16f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_38SG
+    second: {fileID: 2100000, guid: b879446b66fd142de81e77e24644b19c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_42SG
+    second: {fileID: 2100000, guid: dd14c9a163722483aaa4431ed9748cdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_44SG
+    second: {fileID: 2100000, guid: e3632cc3a3aaa4cda8e16e1285341517, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_45SG
+    second: {fileID: 2100000, guid: ea705f57fa9f248099038853aea9b7e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_47SG
+    second: {fileID: 2100000, guid: 5595321ee67274b31b453e595c135c89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_49SG
+    second: {fileID: 2100000, guid: ecdf7facfb5a046f8bb205de239044f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_50SG
+    second: {fileID: 2100000, guid: 1100c4a54a60d488f98ed1f5add0b749, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_53SG
+    second: {fileID: 2100000, guid: e67e66a9777b4415eb2a0994f0894c04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_54SG
+    second: {fileID: 2100000, guid: 63e5a4ad5bbdb4fe9b23e87f3a3c6d33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_55SG
+    second: {fileID: 2100000, guid: e24641913b46b4ce985e57aef7e9b2ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_6SG
+    second: {fileID: 2100000, guid: 4bc7b5e89ff024296821b4b340bbdd3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_betonts
+    second: {fileID: 2100000, guid: fb00fcaef7fe84612972aea2c69a68b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_mustuks
+    second: {fileID: 2100000, guid: 92ae85553a918433685e10f656fc96b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_vanakivi
+    second: {fileID: 2100000, guid: 5ac05b1b618504d15beca1cf82e143f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_6_vanakivi_valge
+    second: {fileID: 2100000, guid: 5a0e3ede8d29542cbb879a90ca07f6ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: f1fdde97612894323a89e549535a844c, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

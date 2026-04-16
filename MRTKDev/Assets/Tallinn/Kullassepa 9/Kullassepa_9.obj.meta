@@ -3,12 +3,112 @@ guid: bf44cc3a7d5354ee988b201c61f2be2b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_1F_DOOR
+    second: {fileID: 2100000, guid: c0e96543ba2954973845e0e2e88ccf57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_1F_SHUTTER
+    second: {fileID: 2100000, guid: 8de23cc776f4144fdbeda2472f053855, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_1F_WIN
+    second: {fileID: 2100000, guid: 6e1ee2e3be8f943a7a835effcb49dd4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_2F_DETAIL
+    second: {fileID: 2100000, guid: 6e7d92698c38a4826adba700f2e461ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_2F_MOLD_DETAIL
+    second: {fileID: 2100000, guid: 9d2d66b865dbd4f66802069884906965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_2F_TRIM
+    second: {fileID: 2100000, guid: f1582d923eafc4372a59b6d112f4e80f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_2F_WIN
+    second: {fileID: 2100000, guid: 247f62e3a19014d7b8b7e061e018dfdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_3F_TRIM
+    second: {fileID: 2100000, guid: 4e034f618fd874a33b1c04dd9b61c777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_4F_WIN
+    second: {fileID: 2100000, guid: a4e53a7710e0741d8bcc1c5a157a3bab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_ACCENT
+    second: {fileID: 2100000, guid: c9a9ec4d952ee40048f443713ce38e8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_DORMER_FRONTIS
+    second: {fileID: 2100000, guid: 3a15c696034ce40ecb51e70c73804a25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_DORMER_MOLD
+    second: {fileID: 2100000, guid: a5cec16cc63914ff8b485e0a72f482f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_DORMER_STUCCO
+    second: {fileID: 2100000, guid: c5062d7a002e8493797eb67647c8ab1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_MOLD01
+    second: {fileID: 2100000, guid: 501ad14041f75400f8c282f0627198eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_ROOF
+    second: {fileID: 2100000, guid: a0b6a923cee2a42beb4be6c0158b3b9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_ROOF_MOLD
+    second: {fileID: 2100000, guid: fee3d2fc7ad3d44c7801c8f1e7ff7741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_STUCCO
+    second: {fileID: 2100000, guid: a10eaa5283f1c48dd941a662164a12ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_STUCCO_BASE
+    second: {fileID: 2100000, guid: e87b8e2468c264ee185e9b71a6fb704a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_TRIM
+    second: {fileID: 2100000, guid: 2bde572594dab46688f7b4c7b2b9676c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kul_9_a1
+    second: {fileID: 2100000, guid: e32b0f79a3caf416eaf1c78f55b635c8, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

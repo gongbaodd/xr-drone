@@ -3,12 +3,87 @@ guid: ecd2830434a5b4a448bdf95305bf3e4c
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_5
+    second: {fileID: 2100000, guid: ae93fc474b5a341a9baa7a7792d2e26f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_patch
+    second: {fileID: 2100000, guid: c693d092dad5a482d85eadcc8048f62c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orange_plaster
+    second: {fileID: 2100000, guid: aeb5fa55fafa4448abbb179e8f847b00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: patches
+    second: {fileID: 2100000, guid: 5bcea1e292d204f88ad74cc0a975b51f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone_plaster
+    second: {fileID: 2100000, guid: 6d97b3e7decfb4c489f7b261e25776f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone_roof
+    second: {fileID: 2100000, guid: f25c32fceb3084fcaaa578cf77e419b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tin_roof
+    second: {fileID: 2100000, guid: 49cb75fb26952497cb68c0c9e8a83c0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_plaster
+    second: {fileID: 2100000, guid: 20bd2540018e043a49ba1d00d6f30715, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_1
+    second: {fileID: 2100000, guid: 24b76a76711264243b803f77df399a77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_2
+    second: {fileID: 2100000, guid: 807fcb7eb22454cba84af3e767391fc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_3
+    second: {fileID: 2100000, guid: 31945e5e644874118836554b889000e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_4
+    second: {fileID: 2100000, guid: f02a2c7fcda6641a49ed608e97894aeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_5
+    second: {fileID: 2100000, guid: f2bedc2538f7e49ad87eb4acc043d904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_siding
+    second: {fileID: 2100000, guid: 1067cc61f8a0441b99d782b7f90f5160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 823f38d1220554721b1a32063e5334fc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

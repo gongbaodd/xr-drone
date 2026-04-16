@@ -3,12 +3,102 @@ guid: 6d4aaf2ee5dd645c081dfa949a857218
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H12_loorid
+    second: {fileID: 2100000, guid: 60ef9837f750147d7b5874c326a76f0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP12_bet
+    second: {fileID: 2100000, guid: e9cb9c661ec0d4720ba4a60d5249114f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP12_valgekivi
+    second: {fileID: 2100000, guid: d465676bf137946b69e502094af10f64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP_12_fasdet
+    second: {fileID: 2100000, guid: 8dae92d635bce41cda87f4bdc6c5680d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HP_12_sokkel
+    second: {fileID: 2100000, guid: ba3e881c803dc4652bf11e003a9354f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_12_aken1
+    second: {fileID: 2100000, guid: e0b85e8a3406d40e3b693b5c06f2f263, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_12_aken2
+    second: {fileID: 2100000, guid: 9da04cbaa27b1431682445fc784a7f5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_12_ava
+    second: {fileID: 2100000, guid: a01891aba7c374a8ab422e446f15827e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_12_katusekivi
+    second: {fileID: 2100000, guid: 2c7d3312189ba4233bcfc570260e0cbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_12_korsten
+    second: {fileID: 2100000, guid: b585ffc0246404068834860ee10e9498, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_12_luuk1
+    second: {fileID: 2100000, guid: 44cd84ac9a594467997c8f28dc957b1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_12_luuk2
+    second: {fileID: 2100000, guid: 2f92075e91a4040a7b08125e8b4e1650, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_12_luuk3
+    second: {fileID: 2100000, guid: f4a58a54673b94de29d17ef9e0b03fd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_12_plekk
+    second: {fileID: 2100000, guid: 431e8bc7f8ba8476bb7fb83feb0e00d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_12_sein
+    second: {fileID: 2100000, guid: ce4775728bb744243932c924f378cdc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_12_tali
+    second: {fileID: 2100000, guid: 4d1bd8c9bb9d1460fadc8ba44faeee55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_12_uks1
+    second: {fileID: 2100000, guid: dd4afe62248c2478992e40e8d10f1531, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 53cd1c4556f8d4e42b4789c7f425c283, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,127 @@ guid: adf51d64433124d8ab6a2b15906328b7
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_aken1_jpg
+    second: {fileID: 2100000, guid: d9d3cfafb40434ff3b3c1ff7d6993309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_aken3_jpg
+    second: {fileID: 2100000, guid: 81d7696ab23ea491fb2ce925c71768b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_aken4_jpg
+    second: {fileID: 2100000, guid: 65b44707ab83444e9ba6a469f49278d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_aken5_jpg
+    second: {fileID: 2100000, guid: 41c1e5cef53dc42f38e9c09c6e437c76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_auk_jpg
+    second: {fileID: 2100000, guid: c12856d0141f64d6a9746fe1d4e0681e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_bettrepp_jpg
+    second: {fileID: 2100000, guid: b5ba6fc3488764e4cab5aa9cafb9f1a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_fass1_jpg
+    second: {fileID: 2100000, guid: 942a33e060f7b4635a2dfb29cadc9100, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_fass2_jpg
+    second: {fileID: 2100000, guid: 458f9679cacf142c5aa16a37bdc69364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_galerii_png
+    second: {fileID: 2100000, guid: 90fd79f8cb0e040ea8150c3db1abb413, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_kasipuu_png
+    second: {fileID: 2100000, guid: 1bbfb9a0d473b424491b8dbb6017c0e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_kat_kivi_valge
+    second: {fileID: 2100000, guid: 9e9ae0a0b37164a478378c79dc80af3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_katus1_jpg
+    second: {fileID: 2100000, guid: b05c7ad880d23400e87228525437fc7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_kivi1_jpg
+    second: {fileID: 2100000, guid: eab6bd2726a3d437cb6cfa53be6f74e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_lipp2_png
+    second: {fileID: 2100000, guid: 4f1fceb13aaeb47c4818cb0a4af1c495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_lipp3_png
+    second: {fileID: 2100000, guid: 4ed0ce44b8d284fa580521a5f05cfdc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_puittala_jpg1
+    second: {fileID: 2100000, guid: b16edd49b35bc48de84800243c531103, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_uks1_jpg
+    second: {fileID: 2100000, guid: 596182f551cef4c28867fc26beb79ee3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_uks3_jpg
+    second: {fileID: 2100000, guid: 32d726cd3a2d44cd9bad28cf179655f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_uks4_jpg
+    second: {fileID: 2100000, guid: 7f0840a1bf06946f6bae007fefe8a7da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_volv_jpg
+    second: {fileID: 2100000, guid: 9aab6341b8c6f4fd396c59e29096e67e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_volv_jpg1
+    second: {fileID: 2100000, guid: 8023e6982ac5e4c27888ccc4d6dc106b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: slate__4
+    second: {fileID: 2100000, guid: 25e1869e7e49442ddacbbaf616f00965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 49ac804aeb30f46ad8bb80a4d1cb2de1, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

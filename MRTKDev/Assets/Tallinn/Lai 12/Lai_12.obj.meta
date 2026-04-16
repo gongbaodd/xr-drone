@@ -3,12 +3,102 @@ guid: ba3e35e4624624f6581666f2fe4e38e5
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_column_down
+    second: {fileID: 2100000, guid: 1ef76ee65435a42f6b1968a80e53eb4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_column_up
+    second: {fileID: 2100000, guid: 058e6fdca06b7446097b94a1f9ff9998, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_door
+    second: {fileID: 2100000, guid: 12032609a2e58457dadc467a6d6ddbc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_fasad
+    second: {fileID: 2100000, guid: 8ee97358d2d814f0e8ff29a10ecee53a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_katus_kivi_heledam
+    second: {fileID: 2100000, guid: af23cf7436fce40b3b4bf0f2d95d9764, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_pipe_01_top
+    second: {fileID: 2100000, guid: 5699c0d4d08234476844b7e4c383b73d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_pipe_red
+    second: {fileID: 2100000, guid: 0cde3592012c94c79b552c1dc35cde5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_profile_01
+    second: {fileID: 2100000, guid: 8a5eeca6d3d5d4e36afb1cf1968e704e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_profile_02
+    second: {fileID: 2100000, guid: f2e8a6b34b2dd4734b374a93336acb09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_roof_a
+    second: {fileID: 2100000, guid: 825b22204134441719c81a2cca320636, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_roof_b
+    second: {fileID: 2100000, guid: 942b0bc91d05e4ebb9f02c139d1c46f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_stairs
+    second: {fileID: 2100000, guid: 7aaa49331f5be4497808f3b0b1375727, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_wall_green
+    second: {fileID: 2100000, guid: f0bf5c66180c545efbafc2b8663ab39e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_wall_white
+    second: {fileID: 2100000, guid: afd24f662f5d24436aefb1386a646bc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_window_a
+    second: {fileID: 2100000, guid: c3809f0769150496887643eaa2c7a04b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_window_b
+    second: {fileID: 2100000, guid: e2cb01d84467145b18144ebf959a5969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_12_window_c
+    second: {fileID: 2100000, guid: a96b40f8b229142be821e6e20c13e349, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 9679329e8048f45e081c44f1e532036f, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

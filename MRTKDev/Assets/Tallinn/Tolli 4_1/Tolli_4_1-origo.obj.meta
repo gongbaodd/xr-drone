@@ -3,12 +3,92 @@ guid: 829bb29d70a0247648178c49fcd00b03
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_4_katus
+    second: {fileID: 2100000, guid: 911b795a3719542758e1d0b194ba6c5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_4_kivi
+    second: {fileID: 2100000, guid: ee8732100872b4165a72d5cbf67cf928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_4_plaster_kollane
+    second: {fileID: 2100000, guid: 497d0372c452240699ba46da11b4c94e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_4_plaster_kollane_kiviga
+    second: {fileID: 2100000, guid: 9b1f9667012a74ca19b8906a758f59db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tolli_4_sokkel
+    second: {fileID: 2100000, guid: 770a945c838e4478588175a41171b527, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_4__aken_9
+    second: {fileID: 2100000, guid: 897ca207247324e9688e30ca874ce1e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_4__karniis
+    second: {fileID: 2100000, guid: d80a9143edc344180b9584fde77ef2b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_4__uksekaunistus
+    second: {fileID: 2100000, guid: b120e7da212444499842deb60d30f3ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_4__valge_krohv
+    second: {fileID: 2100000, guid: b4ef3b666aca24b81b77b64b04b216a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_4_aken3
+    second: {fileID: 2100000, guid: d078207f5d185481c80e0e770ddc8ac1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_4_laudis
+    second: {fileID: 2100000, guid: 024c390462b874e7c84105f3ef017a58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_4_plekk_katus
+    second: {fileID: 2100000, guid: 80cf86aed26974d3381741ab7ef80642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_4aken_1
+    second: {fileID: 2100000, guid: 8892a1da0c5be4b9181ea51f279f388a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_4aken_2
+    second: {fileID: 2100000, guid: 3992f3267fdb84e0982f5fc37bb21e7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tolli_4uks
+    second: {fileID: 2100000, guid: 4c65a8322e4c3403c805f04cafb2b7be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: a49528c5d2a1c4a63b0b31e4b7efa244, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

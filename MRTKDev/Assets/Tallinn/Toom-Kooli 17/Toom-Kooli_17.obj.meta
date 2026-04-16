@@ -3,12 +3,227 @@ guid: d20ec7af24602450980386ca7b81ff36
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_Paas_myyrisein
+    second: {fileID: 2100000, guid: 23bfe3b83957345d29e17ce319177776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_04
+    second: {fileID: 2100000, guid: ce3aa62bab69c4baab582463d8b509e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_05
+    second: {fileID: 2100000, guid: ad381c1f01a184cdbbe799e28b5a313e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_06
+    second: {fileID: 2100000, guid: 74d88101d28f8458faef339ed73dd645, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_kaar_krohv
+    second: {fileID: 2100000, guid: 510d35d9db56d4b66a4a7635f5a7dcc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_kaar_krohv_lai
+    second: {fileID: 2100000, guid: 851bde22842df429d9efc7bcf81d3d6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_kaar_tellis
+    second: {fileID: 2100000, guid: 7c07c24715bb745b5925eee86deca63e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_kaar_tellis_2
+    second: {fileID: 2100000, guid: 593ea1a3b18f94c5ea7bbeaa604ca24e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_kaar_tellis_3
+    second: {fileID: 2100000, guid: e2381c602b864413eb69a5bd6e1f688b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_kaar_tellis_4
+    second: {fileID: 2100000, guid: e0ee2fd7d9b0544be8efd0f28fff74b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_keldri_04
+    second: {fileID: 2100000, guid: 92a358d2d3a5e4c008c576bf2dcb1944, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_keldri_1
+    second: {fileID: 2100000, guid: 28b9ca604d9ac4f3e9c37c447878d4d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_keldri_2
+    second: {fileID: 2100000, guid: fe263ce31f93d4a568ba629af1fb85f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_keldri_3
+    second: {fileID: 2100000, guid: f1c01ce0fb37140b8a0686a765a89ad9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_aken_refl
+    second: {fileID: 2100000, guid: 7229c48c616f046729731ef6b74934b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_default
+    second: {fileID: 2100000, guid: 7ee76796f0cad4c75b76bdeaa34458f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_jupp
+    second: {fileID: 2100000, guid: 8557b4f81686f46a69dbc16c44927075, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_karniis
+    second: {fileID: 2100000, guid: fa529d4621d6d4f31889b640ab4cfaa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_katusaken
+    second: {fileID: 2100000, guid: 5d69ce6015bd442958a02db17e48b8dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_laudis_pruun
+    second: {fileID: 2100000, guid: ee0776d68f0044e3cadcdf73822c8198, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_tellissein
+    second: {fileID: 2100000, guid: 7de25142ca37b480ebf7f6fd623057d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_uks1
+    second: {fileID: 2100000, guid: 12bae74a77a154030a2d6a84ebb00f02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_varik_front
+    second: {fileID: 2100000, guid: 7c864157622834de9a6bd12c4c1bcadd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK17_varik_side
+    second: {fileID: 2100000, guid: 748a181864cba494cbe55cddbe4060fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_fassaad
+    second: {fileID: 2100000, guid: 04192d65f71f24db882a58e253287f6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_katus_taga
+    second: {fileID: 2100000, guid: 2215d44c51fc141208a82fdf9a98fd91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_katuseplekk
+    second: {fileID: 2100000, guid: 3f9aff42d86d5431e8dbd737e1c7fbfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_korst_peal1
+    second: {fileID: 2100000, guid: 85325c44de9ca4bc096d298143a246a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_korsten
+    second: {fileID: 2100000, guid: ba4c88882ba4b4bc29b583cf669ddcdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_krohv1
+    second: {fileID: 2100000, guid: dd0b9068654e0489b93dac7b5dc76a0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_kylg
+    second: {fileID: 2100000, guid: 17db4dc5b6db44828a42c7a60dcc6401, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_madal1
+    second: {fileID: 2100000, guid: 5a25f844f599044c789a9e4c626d0e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_north
+    second: {fileID: 2100000, guid: 5b73409bb166343d3bdb39e02e2e5e38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_nurk
+    second: {fileID: 2100000, guid: 342690564a2634ac8960a7e29131180c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_paekivin
+    second: {fileID: 2100000, guid: 3170863b2be934265bfe10ad9edbbd0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_piire1
+    second: {fileID: 2100000, guid: 09ac8cf7ffb694ec2b4bec6c5d78ced9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_pits1
+    second: {fileID: 2100000, guid: bbb72886f224e4f1ab1b21744f841bcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_pits2
+    second: {fileID: 2100000, guid: b006277d2a38f4b28aa725b27713d4b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_postid
+    second: {fileID: 2100000, guid: 273dd2252a1174f968c854457b2b8b48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_puit
+    second: {fileID: 2100000, guid: a5716e64283eb4965af2e46e04e0d961, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_south
+    second: {fileID: 2100000, guid: a4c6c4888bc8e46b0840683cac0f7baa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_17_tagakylg
+    second: {fileID: 2100000, guid: bc4fbe2a675504774bd508871c4daeb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: b38c7486bdd3545218f87677719421b8, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

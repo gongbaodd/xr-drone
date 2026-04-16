@@ -3,12 +3,82 @@ guid: 55de348e9bfcc4942944ddd565e67c90
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk44_Chevron
+    second: {fileID: 2100000, guid: 65cbe2246dc18496a83390fbf76429b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk44_Door
+    second: {fileID: 2100000, guid: caab0b422bed64ee28795ea647c3a9e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk44_GreyStrip_Steps
+    second: {fileID: 2100000, guid: 319e1dc382564477ea0b7578a6daf403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk44_LightGrey_Tin
+    second: {fileID: 2100000, guid: f76a7a1ffbacc401ca008c2833c8634f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk44_Roof
+    second: {fileID: 2100000, guid: 1a420e21bd10948d4b25a1dc92f925e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk44_Roof_Detail
+    second: {fileID: 2100000, guid: 67e58f6f165504d62b86b15aba10a2fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk44_Walls
+    second: {fileID: 2100000, guid: 6e3c73c8cf07d473dacbac3070450202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk44_White
+    second: {fileID: 2100000, guid: 7f470e3e9a2454fa1a85e4debf65675e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk44_Window_Small
+    second: {fileID: 2100000, guid: 0479523c36ad346a7a2adca99c0dbfc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk44_Windows
+    second: {fileID: 2100000, guid: 621b9eb4cf203474581efa89eb640454, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk44_WoodTrim_Roof
+    second: {fileID: 2100000, guid: 7243711c098f7484b975eaeb0ab852d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk44_Wood_Strips
+    second: {fileID: 2100000, guid: 30302569c1ef442c5ba601ecb9bd565d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_44
+    second: {fileID: 2100000, guid: d1b3a8b50b3104a499503a1a71394e82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 13167d5a9db3349439682fbdd3c41df5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

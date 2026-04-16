@@ -3,12 +3,52 @@ guid: 789ad035ba3ef4877a44df3946544cf1
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Downside
+    second: {fileID: 2100000, guid: 2b8889bce002f489593598f7af1630d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_ROOD_EDGE
+    second: {fileID: 2100000, guid: 76e3a29d499424256bfa120f4f26d82c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku_4_Walls
+    second: {fileID: 2100000, guid: ad72c6d8499884ad6a2c53015622c0f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: k6_3_lambert10SG
+    second: {fileID: 2100000, guid: e7355366acb874b8ead496561db0cfb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: k6_3_lambert11SG
+    second: {fileID: 2100000, guid: 3c5c9d73e2ed54f98bb514a4613cc14b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: k6_3_lambert13SG
+    second: {fileID: 2100000, guid: 1997ac20a9f0f47a5a839bd29c228ab3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: k6_3_lambert4SG
+    second: {fileID: 2100000, guid: b4989af3a927e4d2fa0907611660e77c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 2f8d710c2c29e46819e0edd3ee3b266b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

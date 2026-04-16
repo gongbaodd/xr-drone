@@ -3,12 +3,147 @@ guid: 8ead1c1c15e644a2ebc4545891121b3e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basement_Windows
+    second: {fileID: 2100000, guid: 656ba245dcaad472299da0841c472211, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick_Detail
+    second: {fileID: 2100000, guid: 37ac391fa80e64ecb95986a28c14e28a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corner_Detail
+    second: {fileID: 2100000, guid: 223e427e5b42944f68c5fe89e1dfd6e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_Door
+    second: {fileID: 2100000, guid: 513f0b32b2d9d4b04b9b52426a4974d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_Door_Detail
+    second: {fileID: 2100000, guid: 4bcab384773ca49698d9dcebd490ed3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_Door_Top_Detail
+    second: {fileID: 2100000, guid: fd8b881d905264f5d8d3cf9e8945b1d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gate
+    second: {fileID: 2100000, guid: 939a6bcecec8b43e8b5f1520444f379e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 65dd5c293220642d7b7c0a60797192f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side_Planks
+    second: {fileID: 2100000, guid: 46266a7d0e0bd43629f77f8a726e51f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stair_Bricks
+    second: {fileID: 2100000, guid: 8875331332f784c2ab4682c31c9703f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stair_Railing
+    second: {fileID: 2100000, guid: 262ecfbf23c0d4c6d867aaf620251fae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top_Detail
+    second: {fileID: 2100000, guid: ac56bf85d60ff4c9d8410e325df51b49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vertical_Planks
+    second: {fileID: 2100000, guid: 7d77f66771022489eabaeeb00065543d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 76e39b2cf1abf451faadb65f377ed2c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_T1_Border_Detail
+    second: {fileID: 2100000, guid: 6a7b0b989f0ef43d6935e357e0419282, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_T2_Border_Detail
+    second: {fileID: 2100000, guid: df935c713479c497cb22fdf1e69442df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Trim_Color
+    second: {fileID: 2100000, guid: 1db0f6d82bb1d41f5b1d31d9874ccce9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type_1
+    second: {fileID: 2100000, guid: 406bb10f0c5c640388244ea6c713715e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type_2
+    second: {fileID: 2100000, guid: 2d0e48c7b9a32467db4d92485144f50d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type_3
+    second: {fileID: 2100000, guid: e8a5e905b2fc1472897fcc20c9214473, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windvane_Bird
+    second: {fileID: 2100000, guid: 791c755dabd49427ebf5a4bcdbfcc706, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windvane_BottomDetail
+    second: {fileID: 2100000, guid: b521c5da2d94f4500829b3db74d76008, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windvane_Sign
+    second: {fileID: 2100000, guid: cdc93ccac1cc04028873ba7b7579dcb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_kol_h
+    second: {fileID: 2100000, guid: e995cae082392494c9483451b18d12e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun1_krh
+    second: {fileID: 2100000, guid: 4c4d96009c26746f8b1f1f340b7dc629, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kun1_krk
+    second: {fileID: 2100000, guid: b963804473652410aad1943670d3d8a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: a66e0fd5955ed4ebca493023c8db38ab, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

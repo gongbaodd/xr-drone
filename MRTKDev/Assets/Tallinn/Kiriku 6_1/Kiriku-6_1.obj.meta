@@ -3,12 +3,127 @@ guid: b18b6eb0fd6674a338b52281b462c54e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_aken1
+    second: {fileID: 2100000, guid: 872fc0fd6b8d54cbf80cad8949d5d254, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_aken2
+    second: {fileID: 2100000, guid: d8b4c7c26492442efbfa64f3777bb27c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_aken3
+    second: {fileID: 2100000, guid: 05e376c61457c431389d0f2a7a087dc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_aken4
+    second: {fileID: 2100000, guid: 00f5275baab7c402b82c044d558976d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_aken5
+    second: {fileID: 2100000, guid: e0a696f40ea19450fb608b026a1f862c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_aken6
+    second: {fileID: 2100000, guid: 2e1fe372e189c4b58b356734058048fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_door2
+    second: {fileID: 2100000, guid: 3529f15206d7042978c7014fa63c0224, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_hall
+    second: {fileID: 2100000, guid: 5ad2e84c8ef4c4b719ba5a328c2ae0ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_katus_kivi
+    second: {fileID: 2100000, guid: 2be1801b9be0443f8bbfc96a97ac0f9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_katus_plekk_pun
+    second: {fileID: 2100000, guid: 2ad3494731dbc4f238cdefabd7dd20d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_latern
+    second: {fileID: 2100000, guid: 663ca474445014ecebd5d683d7083c7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_plaster1
+    second: {fileID: 2100000, guid: 39cfd967149764e68b8f5751a5ead7bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_plaster2
+    second: {fileID: 2100000, guid: 8901c0484fbc749218b247da1aa53b8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_plaster3
+    second: {fileID: 2100000, guid: 54d38617cc9d14e1e8e0ea98cb55188d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_plaster_grey
+    second: {fileID: 2100000, guid: 29b9f58eb59cf4a37a1f5f2120cb444e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_plaster_white
+    second: {fileID: 2100000, guid: f0bd1ef9db2f54cb8ba747d09fa4cfbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_sein_otsa
+    second: {fileID: 2100000, guid: c61709624c8b343ce959375ced822f9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_uks1
+    second: {fileID: 2100000, guid: e70218ba1808e417280e248f240ba6a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_uuk_kylg
+    second: {fileID: 2100000, guid: 76b994c1ad16643ec88071bd2e8f5131, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_vapp
+    second: {fileID: 2100000, guid: 4eab295c2dc264216a0eed50efcbe34b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiriku6_1_varikatus
+    second: {fileID: 2100000, guid: 9300ffcd81b134ee7b392d552f0f04d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk6_1_katus_valge
+    second: {fileID: 2100000, guid: 6e2265f6771204d3a81d989c85701981, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 46e18f13a778f437ebf36ffcd3280457, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

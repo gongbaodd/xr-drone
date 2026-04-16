@@ -3,12 +3,22 @@ guid: 04f5bd7413c304d1192023763d65bf47
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hrj6_katus_tume
+    second: {fileID: 2100000, guid: c6b6138ddbf66457989c521bd502fa7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hrj6_laudis_valge
+    second: {fileID: 2100000, guid: 7ffcf3f0391be4abdbd92c4b78b96367, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,22 @@ guid: b579f1c488c2a4e60bc5057d1e8ca746
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_2_kat_plekk
+    second: {fileID: 2100000, guid: 79b29ad7322764232be347f586d39d10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk51_2_krhv
+    second: {fileID: 2100000, guid: 8c3ce3257001b497a836ecd9be26fe28, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

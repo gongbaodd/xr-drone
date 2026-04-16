@@ -3,12 +3,42 @@ guid: d5bbf8f1311b84ebe8f46ed164ac10fa
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paekivi_fat_old
+    second: {fileID: 2100000, guid: 27654e202cd6942d7b21f6fd5d982be8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Slate_14
+    second: {fileID: 2100000, guid: 7d36128de526f4e628cb0d4b76ded606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TFM_AIAPOST
+    second: {fileID: 2100000, guid: 97d7f60901b8441d887f4d3d2a607632, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TFM_noname
+    second: {fileID: 2100000, guid: 99efa83ccbb5b4b68aaccc9af82fa38b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TFM_sepis_1
+    second: {fileID: 2100000, guid: 66196785c2eba433481fad0d23aa0f3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TFM_sepis_2
+    second: {fileID: 2100000, guid: 37662276cd7424302897f6bafbd44fb1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

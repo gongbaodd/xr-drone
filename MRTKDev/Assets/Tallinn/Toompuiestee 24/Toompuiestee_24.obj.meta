@@ -3,12 +3,227 @@ guid: 5c8a06da9114c40948edd4171499b6a4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ImTP_24_trepp
+    second: {fileID: 2100000, guid: 03bcb62646b284d7f80206aa0ad5b025, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_22e1
+    second: {fileID: 2100000, guid: efc75650d3bfe4ed1babae09550eb5c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_22r2
+    second: {fileID: 2100000, guid: b6523de3838c548d38e0beff2fef9da7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24__OBJ_O05
+    second: {fileID: 2100000, guid: 62a6c6139fb4344b7a932066401e19a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_akensq
+    second: {fileID: 2100000, guid: 3ad7b8a5dce814c9999d01a460531c7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_akn_plekk
+    second: {fileID: 2100000, guid: 25ef70e5db380464985d3ad534ec28cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_all1
+    second: {fileID: 2100000, guid: d59ae6c587ca045c6add370b76e45444, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_alumine1
+    second: {fileID: 2100000, guid: 259bdc2292471430e95657376cf1f558, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_f_ak
+    second: {fileID: 2100000, guid: 610fc6eff6a834c29bc1995f7b0a6611, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_f_ap
+    second: {fileID: 2100000, guid: d1e688198af1a439c832389eb3b7d263, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_f_va
+    second: {fileID: 2100000, guid: 5891791e281c74062a3cb5c21e8fa686, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_f_vy
+    second: {fileID: 2100000, guid: 09d6c56dc69924233a6e250b52146adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_f_yk
+    second: {fileID: 2100000, guid: 1ecaf3e341dd445b5b8de55fbd7c951f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_f_yp
+    second: {fileID: 2100000, guid: 923193856f479458384f0eaf4ce8a8c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_kakn_p
+    second: {fileID: 2100000, guid: 57ddcb69059ba49e5a095d8ed935f7ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_kivi22r
+    second: {fileID: 2100000, guid: eea1c8c0ca5584f6c8f7cf0469fa31e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_klaas
+    second: {fileID: 2100000, guid: 18214b4daeea44f6eb4b3ade0db80cc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_lisas1
+    second: {fileID: 2100000, guid: a5f8f50ef695e40789a388f4f95000d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_lisas2
+    second: {fileID: 2100000, guid: 3d6b9f5009b844f48a8cee3c58c34ad7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_lisas4
+    second: {fileID: 2100000, guid: 7ca4e77d578044fd0b9c18329d446556, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_maxsein
+    second: {fileID: 2100000, guid: af3f36dbd477241ac80b58c79cae0c36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_pae22r
+    second: {fileID: 2100000, guid: b3fcd48b21b7d4597b5ad3d094495a63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_paemyyr
+    second: {fileID: 2100000, guid: c9edbfd2e03a44165a21daea5f0bcc40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_peauks
+    second: {fileID: 2100000, guid: 3c087a606b36d4761a1e8fe480368266, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_pikkaken
+    second: {fileID: 2100000, guid: b340b946a4a52451f8a155bac45fac1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_pitsOBJ_O43
+    second: {fileID: 2100000, guid: 32a2859de78e6474c9b2d85486d2aa45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_pitsbalkon
+    second: {fileID: 2100000, guid: 3e41c87c5b69c45a0a9d14fc22b28c8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_plstakn
+    second: {fileID: 2100000, guid: 8cda9234aa7b5451990d803f955eeb72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_plstakny
+    second: {fileID: 2100000, guid: 3c4dc85c00a244778949a06a6f083d41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_post
+    second: {fileID: 2100000, guid: 5de2d0e8124f2449d8a71ec8a57f1bdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_rduasi
+    second: {fileID: 2100000, guid: 415d2ebcee4bc4db7a7dad156cbdf85e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_snplekk
+    second: {fileID: 2100000, guid: d74c031e3694c42609f225193d7e785e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_tasein
+    second: {fileID: 2100000, guid: f68b2434a26c649c88358147d0b5dffb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_tellis
+    second: {fileID: 2100000, guid: e450d75aa0e1d45faba7ad7f6908ad20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_tksksk
+    second: {fileID: 2100000, guid: 1a4394abc8b5442e6852fb39b637e231, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_tksyn
+    second: {fileID: 2100000, guid: 3d48ac34c49f84a3f8c5597456fe71cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_trepil
+    second: {fileID: 2100000, guid: 85eed92a5a2a249118e30f3c183ae700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_tseiny
+    second: {fileID: 2100000, guid: 481dc12cf36aa43f79093282add6f852, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_tuks1
+    second: {fileID: 2100000, guid: 169fec103d5e347bb9eccd57bfe818fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_tuks2
+    second: {fileID: 2100000, guid: f4184ede5bf8f495e957617a093fa893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_tuks3
+    second: {fileID: 2100000, guid: bb3b005175cb4487c834c6a21479e7b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_tvsksk
+    second: {fileID: 2100000, guid: b6c8ceb9b4dd34c0f96472bfa291aa15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TP_24_vkrohv
+    second: {fileID: 2100000, guid: d7e4c1200d68542d392a900ae7745804, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

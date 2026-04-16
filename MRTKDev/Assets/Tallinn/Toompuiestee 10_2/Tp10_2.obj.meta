@@ -3,12 +3,42 @@ guid: 52c4076ffa4264900b8d25270c8dda37
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__35
+    second: {fileID: 2100000, guid: 414f8dc8a779746759f990423a22121d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tp12_a_RedTinRoof
+    second: {fileID: 2100000, guid: 2403aadf67bf2448e823dcd9a2783cff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tp12_a_SideDoor
+    second: {fileID: 2100000, guid: 0544a1e6c4bbb44b3bff15199a05d47d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tp12_a_SideHouseWindows
+    second: {fileID: 2100000, guid: dfb198db58b574a09bae35bed0f1895b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tp12_a_WhitePlasterBlinn
+    second: {fileID: 2100000, guid: b5a57f07be20f4296afbe9e0a242ae2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tp12_a_yellowPlaster
+    second: {fileID: 2100000, guid: f4c7ca750dd01480db6672b97f87488e, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

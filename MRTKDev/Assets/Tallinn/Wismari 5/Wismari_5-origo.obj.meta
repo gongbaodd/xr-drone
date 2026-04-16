@@ -3,12 +3,22 @@ guid: 0b2f23100897047ca8d9ba1971ca107e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wismari_5_texture
+    second: {fileID: 2100000, guid: 88a0a18ce43c6468f99566dfd95c71f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wismari5_piire01
+    second: {fileID: 2100000, guid: 0f165b7b5c8d04575bff30c8fa1bf51c, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

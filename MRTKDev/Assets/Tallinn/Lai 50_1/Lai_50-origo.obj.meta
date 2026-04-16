@@ -3,12 +3,197 @@ guid: 63559312987f343af8b5ad0331c291f5
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15___Default
+    second: {fileID: 2100000, guid: e72de626d057b4730badc255886c640d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24___Default
+    second: {fileID: 2100000, guid: 58b4ed1737c7d46ff9a61cb78613bd4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_1
+    second: {fileID: 2100000, guid: 4514468fa1eb8405eab836cb87b10472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_10
+    second: {fileID: 2100000, guid: 0e6658b1da5724e99836e83ed19c2d89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_14
+    second: {fileID: 2100000, guid: 745d56864551747e99aafd6f9d34b7e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_15
+    second: {fileID: 2100000, guid: cdba4c5396b0e4bc1a73de1d8ae4bcf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_18
+    second: {fileID: 2100000, guid: ee78cb453e1b34e719bb4df3a77778c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_22
+    second: {fileID: 2100000, guid: 34c19d49f1d8a4e4c8987a3950c2e35b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blend_grey
+    second: {fileID: 2100000, guid: f10f77677944f43d4958b6cd9117e8d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blend_light_grey
+    second: {fileID: 2100000, guid: 1e9e765d08e664d63a418461c9c2e052, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: copper_roof
+    second: {fileID: 2100000, guid: 370328e55e87148e79bbe2651774a992, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cross
+    second: {fileID: 2100000, guid: fc5eb603474984652b74a9d4dbf146a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ghaki_light
+    second: {fileID: 2100000, guid: 02ff75e04e3924e6ca0f585eac55790a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grave_arch
+    second: {fileID: 2100000, guid: d33d31d47b70e44488c9664c1fda4a50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaster_black
+    second: {fileID: 2100000, guid: a680d5801757c4fca80a49e14b556264, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaster_ghaki
+    second: {fileID: 2100000, guid: 17b914570674a4b5ea3b51017b6c3605, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaster_gold
+    second: {fileID: 2100000, guid: eb1bf83cf1fb4417ab9c334e73dd7fb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaster_grey
+    second: {fileID: 2100000, guid: 2db5b8df3742348ccb0bd14dcaef562d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaster_grey_1
+    second: {fileID: 2100000, guid: f4def9e25c1e542f1a08146c8204e664, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaster_grey_2
+    second: {fileID: 2100000, guid: dc8667460c5304025a0bd120f7f6d13a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaster_white
+    second: {fileID: 2100000, guid: 6504c95ed7aa543bb9107b83840bf580, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ribbon_1
+    second: {fileID: 2100000, guid: fad4876ce786045f5a93acaa1efdcc33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ribbon_2
+    second: {fileID: 2100000, guid: 651e50514d2794a54a5369e30e17779b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ribbon_3
+    second: {fileID: 2100000, guid: e6cc1ac61babf4ec69fa70d5057b1dd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_2
+    second: {fileID: 2100000, guid: bd26d52fd431545a6966a5b808a907aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: solar_clock
+    second: {fileID: 2100000, guid: a5005cecc5eab45bda70b47da41486fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: south_portal_doors
+    second: {fileID: 2100000, guid: 1b532983552aa4eb2bb1d13dd32cc3b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower_green_doors
+    second: {fileID: 2100000, guid: d933ae9cca83e472f94df42fd5bc857f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_1
+    second: {fileID: 2100000, guid: 715fe073bcc2a4335840dd2ae08b7c6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_2
+    second: {fileID: 2100000, guid: 00adba3b7586e4c1187bed926ee575af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_3
+    second: {fileID: 2100000, guid: 3646d6ef4e1fd445e8ab28c88aa13c96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_4
+    second: {fileID: 2100000, guid: 81b4a5f1d5c61419590aeb93d5c01817, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_doors
+    second: {fileID: 2100000, guid: 8e6a13927612440a99ed650f5c58558e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: win_1
+    second: {fileID: 2100000, guid: db310b54b6c2242ac83eef64406b6878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: win_2
+    second: {fileID: 2100000, guid: 406210befffc4400886f9e5971ea4ee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: win_4
+    second: {fileID: 2100000, guid: e718b0973ae174419acea22aee443334, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: win_main
+    second: {fileID: 2100000, guid: 86ba62c76e8fc4fa98ab21af4a407b1e, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

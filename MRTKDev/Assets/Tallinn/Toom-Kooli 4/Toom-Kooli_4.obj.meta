@@ -3,12 +3,112 @@ guid: 39fdeb6b699324fba8bb19b399b74490
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_002
+    second: {fileID: 2100000, guid: df59cb59606ab4e949939303c289a4b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_1seAken
+    second: {fileID: 2100000, guid: 09ef5cc4ae74f424a8c1a8982878c6a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_2seAkenRodu
+    second: {fileID: 2100000, guid: a45e7fb57f2c44007a815b30c700e0ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_KeldriAken
+    second: {fileID: 2100000, guid: 08c43dcc9bef64883a0411d52f109fbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_a2
+    second: {fileID: 2100000, guid: 7a2477c761e2c43bcb16ea5ef020edba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_fass_TK4
+    second: {fileID: 2100000, guid: 39908ae75584a46cb8c3d3fde05210a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_hooviuks
+    second: {fileID: 2100000, guid: 14b1105588ad947c7bbdfcf13626932e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_kat_plek
+    second: {fileID: 2100000, guid: 14256d49d1f0a48d5b0d50ee42713323, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_kat_valge
+    second: {fileID: 2100000, guid: e3581dcd9468749738ba845dd6359f9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_katus
+    second: {fileID: 2100000, guid: 2c59d4d6cfc104d45905446f5aa58958, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_katuseaken
+    second: {fileID: 2100000, guid: e4273ce48243c4c69afaf18642d555a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_n_gu
+    second: {fileID: 2100000, guid: f0d46be2fc06d4734b0318c93f3e6d1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_rodusein
+    second: {fileID: 2100000, guid: 8be2f2fada7f34fbd9bb6d2ef8b6a31f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_siltAll
+    second: {fileID: 2100000, guid: a37641ba3c2c8483cbc8b332f1b464d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_siltKylg
+    second: {fileID: 2100000, guid: aacddf8743d3f49e0934c25f746ad9e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_siltKylg1
+    second: {fileID: 2100000, guid: 550096ca7defc4d13ac5c9cb94e0fb22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_sokkel
+    second: {fileID: 2100000, guid: c6590a103c61c461dbca1ce0dfee08c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_taust
+    second: {fileID: 2100000, guid: 9a55b1299f7bb41baa9dad9e904c59c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_uks01
+    second: {fileID: 2100000, guid: f222731c69f1b4feba2177b901a9f3d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK4_uks02
+    second: {fileID: 2100000, guid: d2b8d1f806ee743c8a7c82ed355b4085, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,32 @@ guid: 6940dd38895d94e4d8f078cfa14e0da5
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Default_Material
+    second: {fileID: 2100000, guid: 8dc07a6b6a282411d9f38222de4505a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Stone_Granite_Midnite
+    second: {fileID: 2100000, guid: 597ab0c686e4b4736a2cd99b6a725c1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paekivi_fat_ylw
+    second: {fileID: 2100000, guid: 44e4e4bed5bb54067bf8e872fb395244, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: slate__4
+    second: {fileID: 2100000, guid: cdac6d4e0849e4079946ed5275fdb357, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

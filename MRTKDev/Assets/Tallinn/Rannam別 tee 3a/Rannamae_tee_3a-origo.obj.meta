@@ -3,12 +3,117 @@ guid: cb73011139b334e8ca5df622b9e6c092
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken1
+    second: {fileID: 2100000, guid: e9f74c5a7e6cd4f27ae1820b298dc039, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken1b
+    second: {fileID: 2100000, guid: 967b83b3a0509475884f07e8a572cbe3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken1c
+    second: {fileID: 2100000, guid: b0b0bf84f947a4e07a5f0c7200cc66b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken2
+    second: {fileID: 2100000, guid: 234bf75b60b674e1392ba2c87df38a44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken3
+    second: {fileID: 2100000, guid: fd6db85b1d9d84c3c8b4ec79e432a61c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aken4
+    second: {fileID: 2100000, guid: 6d51086297da74660b5758385ebd19fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon
+    second: {fileID: 2100000, guid: 46de5b58b070740deac609ccc74b8dea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: det1_fr
+    second: {fileID: 2100000, guid: e2011c958f0784514901150160581404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: det2
+    second: {fileID: 2100000, guid: 0cf2850e868794ad3acc36159aa06e6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: det3
+    second: {fileID: 2100000, guid: 85a86818da80b4ec896df78248006a1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: det4
+    second: {fileID: 2100000, guid: 80d5a9fb697b24ad8991d87c140c1a1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kat_aken
+    second: {fileID: 2100000, guid: cda474bec73cd4ada9cbcda5877a50a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus
+    second: {fileID: 2100000, guid: eb321f749e0ca4ce18e535d2ba7c4635, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_kol
+    second: {fileID: 2100000, guid: 4042ef0cb7a6442cd9cc632aef2271a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_roh
+    second: {fileID: 2100000, guid: e89f29b3002044ba9aa759d03681d913, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_valge
+    second: {fileID: 2100000, guid: 2b3e74e8007ba48bf82b22077163ba86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krst
+    second: {fileID: 2100000, guid: bbabfe26b10b34702bf215df95f6335c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laudis
+    second: {fileID: 2100000, guid: 6347e8a81909040b0b222aebeb87a9aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roh_plekk
+    second: {fileID: 2100000, guid: fc4430bb106ee470ca06a8302cda40e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: slate
+    second: {fileID: 2100000, guid: dd7fa5622c29543bc8ce14995e068fdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uks1
+    second: {fileID: 2100000, guid: 6e26b6b6d17994867a38bf34bec68797, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

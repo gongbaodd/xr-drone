@@ -3,12 +3,42 @@ guid: a12b547ba47524dc1abf740052b284c8
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_26_cloth
+    second: {fileID: 2100000, guid: 89d013de5226f4833bc36395a7f9512e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_26_door
+    second: {fileID: 2100000, guid: eaf2f600a2ba7472d8761f2963595e24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_26_door01
+    second: {fileID: 2100000, guid: 043d4f0b090b94bbaa080b3d8314f592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_26_ground
+    second: {fileID: 2100000, guid: 142f473287e44492d809d8cebf6810cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_26_paekivi_lihv
+    second: {fileID: 2100000, guid: 2e60d9685937340e38a40dafdc9cf8c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru26_door02
+    second: {fileID: 2100000, guid: 23b1d7b4d121e49e7b3b002a4b8a1722, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

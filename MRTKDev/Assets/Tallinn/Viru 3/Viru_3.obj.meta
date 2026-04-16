@@ -3,12 +3,117 @@ guid: 308b8b66332f34287bf14e6b66b1d86b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V3_dormer_window
+    second: {fileID: 2100000, guid: f83c5ee0294024550a152f23e4b93c63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V3_katusel
+    second: {fileID: 2100000, guid: 5d0a8069e1f374d6eac046590d456f1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V3_paas
+    second: {fileID: 2100000, guid: 05f6e0ad9e1914016ab568ecce1169a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V3_small_upperwindow
+    second: {fileID: 2100000, guid: 42c9ebfa683414e1cab91a4b3d62701b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: V3_varav
+    second: {fileID: 2100000, guid: 9b28200b40a684e96aa25825a985844d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_big_upper_window02
+    second: {fileID: 2100000, guid: 7be334412108a4673a20c155c69b7238, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_bigwindow
+    second: {fileID: 2100000, guid: 9468a9bc8af5042f7838e3dfd61ba775, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_chimney_hole02
+    second: {fileID: 2100000, guid: ca06aa5c1bae54bdbb818c9210bebf98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_chimneyhole
+    second: {fileID: 2100000, guid: a3e73e1a415c5432a92443a9ea5559a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_doorabove_window
+    second: {fileID: 2100000, guid: 007c575e2a306416b9a093939fabf5ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_front_design
+    second: {fileID: 2100000, guid: 0679c4156d3cf4ee986efd5e789f8920, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_katkivi01
+    second: {fileID: 2100000, guid: be596258b5eaa40aaad0ffd05699e1f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_krohv_hall
+    second: {fileID: 2100000, guid: 35d7de9883869446c80da21c26a66ff3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_krohv_roosa
+    second: {fileID: 2100000, guid: c2478165032bb4f76839cc5522225d9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_krohv_vlg
+    second: {fileID: 2100000, guid: c681d4fcb8cb14a7a99608003624170c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_plekk_hall
+    second: {fileID: 2100000, guid: 26a8fc1121dd24e18a4570f7b52e1e23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_plekk_pun
+    second: {fileID: 2100000, guid: daf9e2900d32e4c4fad0b93d037058d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_roofslanting
+    second: {fileID: 2100000, guid: 6ea3e9b4f614343a480fe9566a20eb6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_slanting
+    second: {fileID: 2100000, guid: a54789c6963c545f093fe1b1adc1666c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_vintsk_aken
+    second: {fileID: 2100000, guid: e46135e6c627c42b28914c6887247dd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v3_window02
+    second: {fileID: 2100000, guid: 4a3752f46a19f4a32af405ed2668ff2d, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

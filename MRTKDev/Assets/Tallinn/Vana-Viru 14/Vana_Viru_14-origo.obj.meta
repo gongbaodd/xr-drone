@@ -3,12 +3,172 @@ guid: d0d40421fe5c740a4b9f57adac2468eb
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 99e415bfc8a9e4d76a3e0704f47f3334, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vviru14_kr_hallikas
+    second: {fileID: 2100000, guid: 1e6fe908ac1e84c77876448fc4294e2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vviru14_paek_lihvit
+    second: {fileID: 2100000, guid: 3e4082ce6b41c437d91ccec2000e558a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_aken_01
+    second: {fileID: 2100000, guid: 8488b5947cdc54736b0007dd14f3738d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_aken_02
+    second: {fileID: 2100000, guid: 888b009bd41934e808d0d4de7fd78365, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_aken_03
+    second: {fileID: 2100000, guid: 70cb53a8610aa4208ab37e4ffb1517b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_aken_04
+    second: {fileID: 2100000, guid: c81b67127d6934feaa0298ce08b8bfec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_aken_05
+    second: {fileID: 2100000, guid: 8365e87c2c5c44c7a82af1c977922643, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_aken_06
+    second: {fileID: 2100000, guid: ccbfd2c73a58444d6853bb1196b586c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_aken_07
+    second: {fileID: 2100000, guid: e27447794527c4f88984ad05424204c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_aken_07b
+    second: {fileID: 2100000, guid: 9e920068913304f52a60ea36871444e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_aken_07c
+    second: {fileID: 2100000, guid: 38b715c5818ec4e3eb5e6134941487e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_aken_08_uuk
+    second: {fileID: 2100000, guid: d03027c76ee38439fa7e119fe1c15503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_aken_09_uuk
+    second: {fileID: 2100000, guid: 64cf01ba7219a40eba558e1ea7906e08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_balkon
+    second: {fileID: 2100000, guid: 5d9b6ad7d40cc484094f87a4188761eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_gate
+    second: {fileID: 2100000, guid: 6ce7e7a60c13a458b90c6b913156217f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_karniis_k
+    second: {fileID: 2100000, guid: d66a1b26cfb68485c991fa9abb58679a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_karniis_v
+    second: {fileID: 2100000, guid: 82ce9f3ddcc24412cb48cea3808093f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_katus
+    second: {fileID: 2100000, guid: 4ad11d1284b34479581c58ed6dbb71e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_katus_hall
+    second: {fileID: 2100000, guid: 952a4520ddc0547c6b399fedb4120fe5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_korsten
+    second: {fileID: 2100000, guid: 7e65aa1ab1ac14ff6a9a5adb5d7235ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_korsten2
+    second: {fileID: 2100000, guid: d57eb4bcc2229424b8ee9ee15dace5f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_korsten_AUK
+    second: {fileID: 2100000, guid: df3b9614be6cb4ee6b82c281b50cc9ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_kr_kollane
+    second: {fileID: 2100000, guid: 6f6e02fe8a9b84cdd8e97dfd603016a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_kr_roosa
+    second: {fileID: 2100000, guid: 64f07ac61a33e429c9ed4103764779e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_kr_valge
+    second: {fileID: 2100000, guid: e52d7aec0cd484bd7a19713a82f98edc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_kr_valge_ylem
+    second: {fileID: 2100000, guid: e59ee6e7afad04824aaa9ee43a61fd0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_paas
+    second: {fileID: 2100000, guid: debe2c90185f24cdeb76d4796d994d2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_plekk
+    second: {fileID: 2100000, guid: e1618110eb3de4281b56bd130709b1a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_uks_1
+    second: {fileID: 2100000, guid: 32533704b31f74e1d8d4231f76ff5adf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_uks_2
+    second: {fileID: 2100000, guid: 8ff34068323e84018a66a0174953cf70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vvr_14_uks_3
+    second: {fileID: 2100000, guid: d8d9e5e3a62f44511a8d6381f9f61da1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

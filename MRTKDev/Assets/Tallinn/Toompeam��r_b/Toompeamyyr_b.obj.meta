@@ -3,12 +3,62 @@ guid: fdba8c2e244624e78b2860b167e75470
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPmyyr_pat_trepii
+    second: {fileID: 2100000, guid: 259d329ef8ce14f9b8b16127f022a80e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompeamyyr_Pat_piire
+    second: {fileID: 2100000, guid: 2545ee89b4888427d9363d565754b916, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompeamyyr_betoonkivi
+    second: {fileID: 2100000, guid: b267c54513ac3450e9096900e96ca051, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompeamyyr_ilusam_tellis
+    second: {fileID: 2100000, guid: ac2c2b5d3bb534cc5b78c442c680b0bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompeamyyr_piire_hall
+    second: {fileID: 2100000, guid: 6b91ae425747b467585ac9fcc6b73440, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompeamyyr_punkat
+    second: {fileID: 2100000, guid: b68d62c3716574c098d452cec606cee0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompeamyyr_trepp
+    second: {fileID: 2100000, guid: 8653665456a8f4d6599cc8f46505bf0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toompeamyyr_valge
+    second: {fileID: 2100000, guid: 262cd923b210b439bb252da4d1dfd7fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_008008136
+    second: {fileID: 2100000, guid: 1c77d23b577214c83b1aa5109469d8c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 39777c735e4614d64802d116b918d367, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

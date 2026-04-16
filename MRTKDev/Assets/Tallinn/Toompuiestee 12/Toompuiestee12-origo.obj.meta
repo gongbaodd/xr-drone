@@ -3,12 +3,142 @@ guid: 3d799939e55774df6b780a7fefd07492
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlocksBlinn
+    second: {fileID: 2100000, guid: 3fa900f2eafa448bbbab40ff80c5ee82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChimneyHoleBlinn
+    second: {fileID: 2100000, guid: 3577855d36cec4e4dbec3174e061138b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 44f403f4406d14ef997895d4290a24aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorTopDesignBlinn
+    second: {fileID: 2100000, guid: d56c7f5890c874bed9b1c4ab3a2eb7a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontDoorBlinn
+    second: {fileID: 2100000, guid: 67c2cd09733df461e8baff5508f0e2e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontDoorSideDesignBlinn
+    second: {fileID: 2100000, guid: 50d285ce0553e42e8837b72420e12889, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontTopDesign
+    second: {fileID: 2100000, guid: b3bdafc6cd16849d0861db98eb300f95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontWindowsLargeBlinn
+    second: {fileID: 2100000, guid: fbd198a88c3bf4ade81fbdacb5995179, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreyPlaster
+    second: {fileID: 2100000, guid: 79cc2347979484c8f85c72daf9f87e65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MostTopRoofSlantingBlinn
+    second: {fileID: 2100000, guid: 748918a86d85d4956be9d88f71dfc541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PinkPlasterBlinn
+    second: {fileID: 2100000, guid: 95dab8ec749164246ae705ef15d6de83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PinkRoofTilesBlinn
+    second: {fileID: 2100000, guid: 14e1e49c235664a478a32c0b5e7302e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SideBottomWindow
+    second: {fileID: 2100000, guid: 70083f10f8e6041498350325d47f473c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SideDoor
+    second: {fileID: 2100000, guid: cd100396c204f461a9b7f73226050fd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SideMiddleWinodow
+    second: {fileID: 2100000, guid: ca76b080f68b64409bb56106e57b3f7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ThreeWindowBlinn
+    second: {fileID: 2100000, guid: 01d9458c7461c4d40a78a8d0b3fe7019, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TwinWindowsBlinn
+    second: {fileID: 2100000, guid: ee63de0f293e14863b33ac27f377ed9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UnderneathWithTexture
+    second: {fileID: 2100000, guid: 230629e2d91ac4d47a2f6652d54f37a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhitePlasterBlinn
+    second: {fileID: 2100000, guid: 08c83c30c89174311a45df280b07baea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowWithWhite
+    second: {fileID: 2100000, guid: 0353d473ef99742caa05de5da0e111ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowsInRowBlinn
+    second: {fileID: 2100000, guid: f47270149a2124da89a4a6657f72bd0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anotherTopDesignBlinn
+    second: {fileID: 2100000, guid: fecfbb2b06bbb4cc28102964cf66ada4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blueTinBlinn
+    second: {fileID: 2100000, guid: a635da26c0f154501a894a3da26146ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sideTopWindow
+    second: {fileID: 2100000, guid: 0e32df110e9014ca1a9c1de224d32776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: smallWindowsDownWidnows
+    second: {fileID: 2100000, guid: f308aa771c7fc434ea9b2cc41dc6ee2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellowPlaster
+    second: {fileID: 2100000, guid: 03bfeb522077b4b47bf8f6f044d1099a, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

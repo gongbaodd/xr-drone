@@ -3,12 +3,332 @@ guid: 594ea41e0b2194c0aa48ba449a355e02
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_23___Default
+    second: {fileID: 2100000, guid: 6495713d1f4fe464cb8d0a20573897ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_NE_wall_rect
+    second: {fileID: 2100000, guid: c9c57089d23f149d6866cd1e6100f710, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_NW_wall_doors
+    second: {fileID: 2100000, guid: e1ee50f8952f34d018f31b80bda448eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_SE_doors_left
+    second: {fileID: 2100000, guid: 6a5e6e191808747ac928c10150b29bbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_SE_doors_right
+    second: {fileID: 2100000, guid: 73fbb5a25a2ec4c408698813e4052066, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_1
+    second: {fileID: 2100000, guid: 482361c319a5844979b547b8104b1835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_10
+    second: {fileID: 2100000, guid: 008dc90fe3a3b4e9db2622b811d9bd64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_11
+    second: {fileID: 2100000, guid: 149c1cc18705f47cca373774e934631a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_12
+    second: {fileID: 2100000, guid: 9390213d79dee46fd862a43225c22fc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_14
+    second: {fileID: 2100000, guid: b65ed11e0596741a180c4448a90fc7f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_15
+    second: {fileID: 2100000, guid: 1bc26901b02894c77bec03a87e3a65de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_16
+    second: {fileID: 2100000, guid: 1ceec789f7c7b457fb03c1e4e59e2c47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_17
+    second: {fileID: 2100000, guid: 12fe0c8c4d6a247c0922febefed5354c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_2
+    second: {fileID: 2100000, guid: a406fe8e7e555416081010af07b6257c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_20
+    second: {fileID: 2100000, guid: c1efddd30f6a64d17a7552829baaa897, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_21
+    second: {fileID: 2100000, guid: f3e7bd630098548a4bf2ee625f69a7b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_22
+    second: {fileID: 2100000, guid: ecb807470892e465b9d8be77bd305999, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_23
+    second: {fileID: 2100000, guid: 890a2f1c1361943d4bd7321675435eb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_24
+    second: {fileID: 2100000, guid: 577db1e7635324c098f5cd6d8ea774ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_4
+    second: {fileID: 2100000, guid: a9b883bf835f14a36897683a9648bbf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_5
+    second: {fileID: 2100000, guid: 6f5295921bdf64e4fb4abb4fc83a216f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_6
+    second: {fileID: 2100000, guid: b5599b3923adb42669fd2af874a49d2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_7
+    second: {fileID: 2100000, guid: c1baed1167592490c847347d7246d22b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_8
+    second: {fileID: 2100000, guid: 9077d0f1f88f7442387d6b5945764e68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_Standard_9
+    second: {fileID: 2100000, guid: e078f60989abb44f4abe9f77b1b4304f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_anno
+    second: {fileID: 2100000, guid: f1df82c5830a74f519b1f84a3a1cc515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_basement_win
+    second: {fileID: 2100000, guid: 9c3c5f0057abd45938553c812651a0f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_black_patch
+    second: {fileID: 2100000, guid: cf9936cca7ef94910b3c908ac5f9c696, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_clock
+    second: {fileID: 2100000, guid: 4c571e8751ea84356928069ad6c8a52c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_copp_roof
+    second: {fileID: 2100000, guid: 3d30be7b397bf41b8a85fc1922193880, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_gargoyle_body
+    second: {fileID: 2100000, guid: d7729338275e84797aef035390f2963b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_gargoyle_detail
+    second: {fileID: 2100000, guid: 4dce9db9f4b2742b2b6f8bd3684fdcb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_plaster_black
+    second: {fileID: 2100000, guid: ef74b0bcf12874372a313eb79ec761af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_plaster_gold
+    second: {fileID: 2100000, guid: a0257499ac3db42dd816e9de311fed1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_plaster_grey
+    second: {fileID: 2100000, guid: 8bb08a64543d6497cb4e0969c8703a5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_plaster_orange
+    second: {fileID: 2100000, guid: 37626c9265639450da5db11ad017e3dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_plaster_red
+    second: {fileID: 2100000, guid: be20f150aef6f4d75a9dfe715dc63029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_plaster_white
+    second: {fileID: 2100000, guid: f9392843363c54e37b636462dcd66266, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_plate
+    second: {fileID: 2100000, guid: 75cabafd672624296a7b69c111ed6d8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_pointer
+    second: {fileID: 2100000, guid: a1569be571b3b41cf84d47edf3175e86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_rectangle_window
+    second: {fileID: 2100000, guid: f6fec5e35a8784b7386f7667df525187, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_rectanglle_window_crust
+    second: {fileID: 2100000, guid: 31fda26859604481588ba3ca8612edb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_step
+    second: {fileID: 2100000, guid: adb388df95dda4848a13aa265739781b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_stone_roof_old
+    second: {fileID: 2100000, guid: 7375387ae6cfe49319b439d359a53dfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_the_crest
+    second: {fileID: 2100000, guid: d600d62238a90433aaf0743f9c48f296, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_thermometer
+    second: {fileID: 2100000, guid: a2d92ec575f7a4089bc59df1ab291f3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_tin_black_cooper
+    second: {fileID: 2100000, guid: c874c4209772e4f04a4700190f5f4aa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_tin_grey
+    second: {fileID: 2100000, guid: 69afc41e665364eb1b4bb4b6ed14111c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_tin_white
+    second: {fileID: 2100000, guid: 0afc10720f848433b9bab02ada9f7b6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_tow_ribbon_1
+    second: {fileID: 2100000, guid: 3d08355018eae4577ab4d1146ede2ae5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_tow_ribbon_2
+    second: {fileID: 2100000, guid: 63de45d54c53a479287fc8abcfd784b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_tow_ribbon_3
+    second: {fileID: 2100000, guid: 7093a8a0c3fb04fac9611cb14409198b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_tow_ribbon_4
+    second: {fileID: 2100000, guid: 2dc79b87cdf6a485098e8096acf3645e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_under_gargoyle
+    second: {fileID: 2100000, guid: de5f48354e40249889587e9103353535, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_vault_doors
+    second: {fileID: 2100000, guid: 22a08c32c612749699aa43944be05b73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_vault_rect_win
+    second: {fileID: 2100000, guid: c705a86610bba43c9b7a55beeb3eece0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_vault_win_rounded
+    second: {fileID: 2100000, guid: 198070ee6ae204400ab1f0cd5140b2d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_wall_1
+    second: {fileID: 2100000, guid: 79c0df761c3e14c4bbb44b78c5a30a5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_wall_2
+    second: {fileID: 2100000, guid: 2e286590d44014050ab16062540b6085, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_white_plaster_glow
+    second: {fileID: 2100000, guid: f7acdca4f08834272b2f8bab72b6d85a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_win_NW_wall
+    second: {fileID: 2100000, guid: 3d3523a5df7ed4c6295e611f106257dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_win_door
+    second: {fileID: 2100000, guid: 1bc21c2bfc6a2480f8afe5e148c77b7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_win_thermo
+    second: {fileID: 2100000, guid: cc3f299423b1d4d9f82beb606e51924e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKP_1_worship_stained_glass
+    second: {fileID: 2100000, guid: 364a9344ea94e4ffe90ccade1406bc8b, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

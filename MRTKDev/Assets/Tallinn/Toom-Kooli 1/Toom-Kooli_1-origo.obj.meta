@@ -3,12 +3,82 @@ guid: 67701395868a349c1b4d6253a6c69747
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_betoon
+    second: {fileID: 2100000, guid: 55e5df48f8b6b4be1b43a3fb37c9f91d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_east
+    second: {fileID: 2100000, guid: 1bbfbb1dd003e46ca9e4b7c6fffed0e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_katuseplekk
+    second: {fileID: 2100000, guid: 8791e46f011e545fd9170e4c638a1868, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_korsten2
+    second: {fileID: 2100000, guid: 9dfe9f68e7db44c4596b8496b548449d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_krsten_pealt
+    second: {fileID: 2100000, guid: 6920ef569e28c4064ae628492fd84a70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_north
+    second: {fileID: 2100000, guid: cc6a2776dfb754a49812a94f52b2a683, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_piire1
+    second: {fileID: 2100000, guid: 7970e981a85b74c4a91a4fe16ea1a231, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_piire2
+    second: {fileID: 2100000, guid: 74a496527514d4b2f8cfa2ad42aa3c07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_south
+    second: {fileID: 2100000, guid: 55fe5ab76a64a47e19865d76dac31c48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_vari2
+    second: {fileID: 2100000, guid: d1704e9d9c7d443ab86906b55e99d25d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_vari3
+    second: {fileID: 2100000, guid: 646c1578fcc1e429fafdda05569edb4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_varikatus
+    second: {fileID: 2100000, guid: 65671c26db0be430b81b4248744b0e6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK1_west
+    second: {fileID: 2100000, guid: fcc937785d3c741fabe04f08d9e7118b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 41ea2a608cdc74b8d84d425663e0ca16, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

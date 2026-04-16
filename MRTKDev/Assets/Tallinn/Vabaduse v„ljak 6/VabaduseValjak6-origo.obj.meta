@@ -3,12 +3,132 @@ guid: 13ea19fc6b2864be2b8562ab06526df2
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_1
+    second: {fileID: 2100000, guid: 6568792236d5d408baa197995895ef52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_10
+    second: {fileID: 2100000, guid: 64df0a19ca3404f5c854452da736a02a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_11
+    second: {fileID: 2100000, guid: 52872bfe89b8c4f40a9e0996709d4794, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_12
+    second: {fileID: 2100000, guid: 9c5b505d3084a44f593c83458f08292c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_13
+    second: {fileID: 2100000, guid: 1088329c5edac467d8a620c0cb8e6df5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_14
+    second: {fileID: 2100000, guid: 0cc53ffc974f443fab5e5abfb41ada32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_15
+    second: {fileID: 2100000, guid: a8fef4fbb96cd47b0bb24444ba6f5094, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_16
+    second: {fileID: 2100000, guid: 3e62716f1f4a44a9690357201c5ce359, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_17
+    second: {fileID: 2100000, guid: a374ded5d84f542718fe17b637441435, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_18
+    second: {fileID: 2100000, guid: 699cd6a1beb2d4286873ec19761618d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_19
+    second: {fileID: 2100000, guid: c335c3a7b45814625a00f2e240652479, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_2
+    second: {fileID: 2100000, guid: 801ce31e8b5d6461480ebb1b28820793, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_20
+    second: {fileID: 2100000, guid: ae70289a544b743ca8be138cfad4ff4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_21
+    second: {fileID: 2100000, guid: 94d59b7dbb51a4de1809efa2fbde0db1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_22
+    second: {fileID: 2100000, guid: c0d3ed664dec14f0393d036cbcc56b95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_23
+    second: {fileID: 2100000, guid: 61057ec19545b4897849fc3dd1463182, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_3
+    second: {fileID: 2100000, guid: df5ea69cce15845be94137228f2991b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_4
+    second: {fileID: 2100000, guid: 55fc5c7126f754b7f8979ce18170e0c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_5
+    second: {fileID: 2100000, guid: f6134907403c446a387ad7e806362244, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_6
+    second: {fileID: 2100000, guid: c2b03676f479d49898420453c4b8c0e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_7
+    second: {fileID: 2100000, guid: 80d2cacb12ae745499d3ff86b6be9e86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_8
+    second: {fileID: 2100000, guid: 05c0f4cb9966742ddbf851332586dba0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_9
+    second: {fileID: 2100000, guid: 2b11544cc9d4b420fb3bfcca8ec4689c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 4fbb1b252fc13408dbec555aa4c5a040, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

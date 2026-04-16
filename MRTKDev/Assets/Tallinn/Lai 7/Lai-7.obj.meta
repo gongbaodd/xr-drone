@@ -3,12 +3,107 @@ guid: 4117026fe99ae44c5988bdc5a13f8973
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FASSAAD_1_L7
+    second: {fileID: 2100000, guid: 4415b4c20d0bb42428b9227c75bfff2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KAPPIDE_AKNAD_L7
+    second: {fileID: 2100000, guid: e16fa4c748bc447bb9c38ed8d78da1bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KAPP_L7
+    second: {fileID: 2100000, guid: 181d6ee943edf476dae2f6c20d47bfac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KAPP_LAUDIS_L7
+    second: {fileID: 2100000, guid: 1885886c65be94660af9fd74af0b84c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KATUSEPLEKK_1_L7
+    second: {fileID: 2100000, guid: 4ba76010649a1424db02e7d1efc1eb6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KATUSEPLEKK_3_L7
+    second: {fileID: 2100000, guid: 2cc1f873a811d463da52b9b02b50bf80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KATUSEPLEKK_4_L7
+    second: {fileID: 2100000, guid: cccf865c70a5e4f33b0005eab92d8024, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KATUSE_DEKO_1_L7
+    second: {fileID: 2100000, guid: a26ea1375c7424dd0a9139638af00644, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KATUSE_DEKO_2_L7
+    second: {fileID: 2100000, guid: fdd8f51dc2e7f4c429111c4a2c0c63db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTNAD_L7
+    second: {fileID: 2100000, guid: 8e427d9abf64d4e7f976e82312d3cadd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTNA_TIPP_1_L7
+    second: {fileID: 2100000, guid: d4a9b63cbbd054e909327e84f7799eb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTNA_TIPP_2_L7
+    second: {fileID: 2100000, guid: f64914020fd6942d9a4d057ccec4e7aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTNA_TIPP_3_L7
+    second: {fileID: 2100000, guid: bb2d7e36465934e1a94b3989d50b8bb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORVALHOONE_VARV_L7
+    second: {fileID: 2100000, guid: 52291bbd4f3bf416da1f97e861826a1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MUTS_L7
+    second: {fileID: 2100000, guid: e55d288f9fe5e4768bec86ea21da9331, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__0
+    second: {fileID: 2100000, guid: 0882654ded9294ab1a23eb16861a6162, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PARAPET_L7
+    second: {fileID: 2100000, guid: 12dc8273dcf334fbfa5fee4eb7544b12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VARAV_L7
+    second: {fileID: 2100000, guid: eeadf4fb3b1fc4d3f818421c817be819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 69e6085104ef644059989f8d33c7f464, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

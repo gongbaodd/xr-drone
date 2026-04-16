@@ -3,12 +3,47 @@ guid: f2991f6454fe94dd39008bdc4d3021d6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_jalg_betonts
+    second: {fileID: 2100000, guid: 6983df17b7d604d6791f8aff95f87a3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_jalg_myyr_plekkh
+    second: {fileID: 2100000, guid: 7e4b573b9d5aa4f189c6ef2404feb9e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_jalg_myyr_plekkp
+    second: {fileID: 2100000, guid: 00a380b8e2dff4515b8103c8e4cabe47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_jalg_myyr_sillus
+    second: {fileID: 2100000, guid: 02d8f1db632714dde9614acc2df9a69c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_jalg_myyr_v1
+    second: {fileID: 2100000, guid: 82805ff798af147708995d3102fb5e16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_jalg_paas
+    second: {fileID: 2100000, guid: cede064d1b8c2431cbb58acd9e4ad66a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 67c938da1305b4d3aa3e377d6c8d3231, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

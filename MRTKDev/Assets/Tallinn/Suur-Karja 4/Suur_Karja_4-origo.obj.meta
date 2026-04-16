@@ -3,12 +3,127 @@ guid: 00c38de0d50484feaa441cc158257a7c
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KAT_plekk_t_pun
+    second: {fileID: 2100000, guid: c3aa7d58aad5e4ae782e86d11782f2a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTEN1
+    second: {fileID: 2100000, guid: 686b5bf3dc15942bdb01d0d92931f3be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTEN1_auk_pun
+    second: {fileID: 2100000, guid: ac0fa174b73504683bb8b5b6d662783d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__49
+    second: {fileID: 2100000, guid: 599d37e4e48df4dfabb5c3e5672501f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P_10_korstn
+    second: {fileID: 2100000, guid: f80663820c18847e1b8a02051b6ba269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_PLASTER_blue
+    second: {fileID: 2100000, guid: 4a667f547ec59412f838f7ce99d3506c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_PLASTER_dark_grey
+    second: {fileID: 2100000, guid: 2db3712bdd61049978fc22d6db797f81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_PLASTER_white
+    second: {fileID: 2100000, guid: abc31b22293a2455a959d99f3209c8bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_PLASTER_yellow
+    second: {fileID: 2100000, guid: 3077b471eca5243a0a61ccce32a3619c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_aken1
+    second: {fileID: 2100000, guid: d3ebb461b762549dcb5ca25c3d036e6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_aken2
+    second: {fileID: 2100000, guid: 6e055a3539a0d465e886412e48832d5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_aken4
+    second: {fileID: 2100000, guid: 06ec5ac51fe764e71a233f8d5f6a2476, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_aken5
+    second: {fileID: 2100000, guid: 70721d1f8059f49078575f0f07489806, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_dekoor1
+    second: {fileID: 2100000, guid: 56c0ffd4715bc4c00a09142d968e4bbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_dekoor2
+    second: {fileID: 2100000, guid: 440ad0eb145e04c0a80d70e1e2730545, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_karniis01
+    second: {fileID: 2100000, guid: b20530f74c4aa4aa7a913fa14f6586c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_keldriaken1
+    second: {fileID: 2100000, guid: 5936f3421052445df9d9496e2b49829e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_punane_karniis
+    second: {fileID: 2100000, guid: 5d16a0b02982d418491d90c74ec3aeb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_t_pun_plekk
+    second: {fileID: 2100000, guid: 0d1479ee9bbac493a999485356e3540e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_uks1
+    second: {fileID: 2100000, guid: f69aa8f86b2994bdf901e3adb726b790, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_uks2
+    second: {fileID: 2100000, guid: dadd4a681cf34435a96a9a3eecab7011, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUURKARJA4_uks3
+    second: {fileID: 2100000, guid: 6fb0cbcb3821f46e1a956ea7ce9c6b86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katusaken
+    second: {fileID: 2100000, guid: 8f8458c47bacf42179fc261ee85971b4, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

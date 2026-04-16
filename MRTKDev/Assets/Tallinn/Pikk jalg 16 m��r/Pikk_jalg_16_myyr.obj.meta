@@ -3,12 +3,42 @@ guid: eb76415963a6e4af8b3a65ff79d25293
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ_16_myyr_aed1
+    second: {fileID: 2100000, guid: 18be50b21ddf740f8ba03086514d09b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ_16_myyr_paas
+    second: {fileID: 2100000, guid: 06bdfb5c26d0b4a118194194f52cb5d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_jalg_16_aed2
+    second: {fileID: 2100000, guid: dab7d64f4d46e40af98a6321d9fdac0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_jalg_16_myyr_bet
+    second: {fileID: 2100000, guid: bffddabdb121841c58d7c34e848d21ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_jalg_16_myyr_v1
+    second: {fileID: 2100000, guid: 2b2259c7d1d3145a1abad63b2d29dfa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 55c935f859dff46c38962b80d0a2514f, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

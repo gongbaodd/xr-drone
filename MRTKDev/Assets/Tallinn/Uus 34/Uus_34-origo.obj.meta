@@ -3,12 +3,77 @@ guid: 2ab6cb596b80f49288e50ad550b5b922
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__37
+    second: {fileID: 2100000, guid: 6c45cad4d0cd94245904ec391929ff03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__54
+    second: {fileID: 2100000, guid: eecb5383155ef4b7685403d3d3691210, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__56
+    second: {fileID: 2100000, guid: 85b3d5d1aea124b16a9eaa150e89fdb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__58
+    second: {fileID: 2100000, guid: d52c89370a81c42d986c4e11f1f7ce69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__61
+    second: {fileID: 2100000, guid: a1894a5b819814855b744b9887e14924, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__81
+    second: {fileID: 2100000, guid: 923dd5348d0cd4db499ab7203da8ff15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__82
+    second: {fileID: 2100000, guid: 026248b8fe2614728878a3e74b424e9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark_blue_paint
+    second: {fileID: 2100000, guid: 09b8a02b2bdc747bba31530be2a4b834, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gate
+    second: {fileID: 2100000, guid: fc351ebd2cf1c4b96a865e243ba74b6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone_roof
+    second: {fileID: 2100000, guid: 693ecbc97a1804045b631f8184adebba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tin_roof
+    second: {fileID: 2100000, guid: 23c54fc1869b44c19b8a454b5d50de30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall
+    second: {fileID: 2100000, guid: f6d0a861c1bbf4ef8ad3837d72abea68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window
+    second: {fileID: 2100000, guid: 6ffaf4c942c9c4a8c9c4aaea410f6dbb, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

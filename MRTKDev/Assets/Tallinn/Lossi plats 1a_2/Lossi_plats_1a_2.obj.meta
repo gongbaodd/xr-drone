@@ -3,12 +3,267 @@ guid: 4907e81d0fc534810b2b3aa754b1c755
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_KAT_plekk_hall
+    second: {fileID: 2100000, guid: b75f26024fba943e4ac0fcaa071bdbf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_KAT_plekk_pun
+    second: {fileID: 2100000, guid: a06f333fa61f840fab1c73e5fa7440a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_PLASTER_grey_light
+    second: {fileID: 2100000, guid: 8b205a48d830f4d2786a185efe0c7c07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_PLASTER_lght_ylw2
+    second: {fileID: 2100000, guid: 6f0ba82002c4144789e4dc051b476ed7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_TMP_korsten_auk
+    second: {fileID: 2100000, guid: a45d056cf440242b0aabf3f7c50e4c0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_F12
+    second: {fileID: 2100000, guid: a40a52bd258de441989373d4f485c685, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_F21_01
+    second: {fileID: 2100000, guid: 86e60365ec25b410f9496ad43afdc474, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_F21_02
+    second: {fileID: 2100000, guid: 9f84dbe5fe7024b78a8369b74cf5775b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_F21_03
+    second: {fileID: 2100000, guid: 55074df6dc6e74f06aafc69252d84f0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_F21_04
+    second: {fileID: 2100000, guid: 2910986b8e8dd4cf58972e6f65842f7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_F21_balkon
+    second: {fileID: 2100000, guid: 597f42f623b96494eb115c8d73bbd658, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_F21_balkon_02
+    second: {fileID: 2100000, guid: b9253ff8d2517461ea105ae2a84043b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_F21_kaar
+    second: {fileID: 2100000, guid: cb867cf599f8347778681e11b2461534, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_F21_siksak
+    second: {fileID: 2100000, guid: 6e93489b1168848b6a46eac9451bd6bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_F22_uuk
+    second: {fileID: 2100000, guid: 9bc87f305073e4b8982191d329d9885d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_F6_kaar
+    second: {fileID: 2100000, guid: dde7cb229c9a445ebbf5b4d5866d5e7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_03
+    second: {fileID: 2100000, guid: 1c5175109d63d4e5aa45f60adcdabf2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f5_02
+    second: {fileID: 2100000, guid: ce059b055a6f14387a1d21a538b6e106, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f6_01
+    second: {fileID: 2100000, guid: 738db9e149f474bd9a444d17aaebbe1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f6_02
+    second: {fileID: 2100000, guid: ee899adbfeb0b4a08b91b24648632e9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f6_03
+    second: {fileID: 2100000, guid: f8b1f6a88500b4bebbe7d274d18fbfbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f7_01
+    second: {fileID: 2100000, guid: a0fe923342a734316a754930fcc80b06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f7_02
+    second: {fileID: 2100000, guid: 69d7ba927f2ec402c9717c0795bb91f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f8_01
+    second: {fileID: 2100000, guid: 503c4b3a2e28542d2ad953474f458ecb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f8_02
+    second: {fileID: 2100000, guid: 73a5e83a3750c4d21aaf9408cc7689d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f8_03
+    second: {fileID: 2100000, guid: 6136b39fb50f948aa9fcc302e9f93d35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_h_f9_01
+    second: {fileID: 2100000, guid: 0cc13c011150f43b18e4485ad8314075, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_kaar_F11
+    second: {fileID: 2100000, guid: 340f2a7236bea401cbf8919908c4a8ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_kaar_F12
+    second: {fileID: 2100000, guid: 6fafb88d9bc6040bc871c117a87a5ed0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_aken_uuk_kaar_F7
+    second: {fileID: 2100000, guid: 79924134efceb412ea498fdeede73824, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_door_F11
+    second: {fileID: 2100000, guid: 4257e5b1daf35489c8cca1465ed87095, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_door_F12
+    second: {fileID: 2100000, guid: bd98b91123d6a461d892b3d84c66a7c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_door_F6_01
+    second: {fileID: 2100000, guid: ec696c7eccbe743078b556dbbad2253a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_door_h_F8
+    second: {fileID: 2100000, guid: 5cd20d7d255b843aa9dbb6a42064391d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_gate_F12
+    second: {fileID: 2100000, guid: b1303d82e5dfb42ada0f2de69d4c37fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_gate_frame
+    second: {fileID: 2100000, guid: bae17cdbbe1784fddb23fb8e5fc8356e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_gate_grid
+    second: {fileID: 2100000, guid: dcf823c42cbc94f38896a40464cc958b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_graniit_pun_tum
+    second: {fileID: 2100000, guid: b6f71b8238deb4e74957376974e416cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_grill_h_F11
+    second: {fileID: 2100000, guid: 7088b6966505741849c4afea1022ec0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_kaar_F6
+    second: {fileID: 2100000, guid: eccd7771d3fe14999a5ed4117bf643ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_korsten
+    second: {fileID: 2100000, guid: 04025fffb70ec467fb5b1027fbb0948d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_plaatkivi
+    second: {fileID: 2100000, guid: 5d3bab17f61a3421a816fa4073e4c498, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_plaster_black
+    second: {fileID: 2100000, guid: 67f496b10b1434abbabe62d267dd2d84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_plaster_grey
+    second: {fileID: 2100000, guid: fc4ad6d2c81ff49a280587ffcb687a97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_plaster_white
+    second: {fileID: 2100000, guid: 28de1d39966334d899daa1f04e40432b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_plaster_ylw
+    second: {fileID: 2100000, guid: c4d4ae4598edb442d94105518e1571e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_uuk_F23
+    second: {fileID: 2100000, guid: 9cc5a2aa99b03485387084d8a5d019ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_uuk_F8
+    second: {fileID: 2100000, guid: cb565b9267b8e4a38ad07db6cc9e556e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TMPea_uuk_F8_b
+    second: {fileID: 2100000, guid: dcfd4567220574f9e9166f4de74a417c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus_kivi
+    second: {fileID: 2100000, guid: 624e290344c6641c38b2f0edbb5b625d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus_kivi_valge
+    second: {fileID: 2100000, guid: 36dd409be2a4140e9a70dfe7f357df7b, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

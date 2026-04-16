@@ -3,12 +3,82 @@ guid: 50a0ce78221724c289374eab45b53d70
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_aken1
+    second: {fileID: 2100000, guid: e78387355ef1b47bb9427d3e3863da3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_karniis
+    second: {fileID: 2100000, guid: 1aa70c272f8c34013a22a3834c4415e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_katus1
+    second: {fileID: 2100000, guid: 0844398eb78c1469d9053955f6d246ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_katus2
+    second: {fileID: 2100000, guid: 4477e087defe84ee3a11e69189178c49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_katus3
+    second: {fileID: 2100000, guid: e7242417672df46f8ae2d3a7b37a910a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_katuseaken
+    second: {fileID: 2100000, guid: 73affcb4e1a0b42baa59894e1ef15505, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_katuseaken2
+    second: {fileID: 2100000, guid: 447f6381dae4d47dcbb66213c0551754, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_katuseaken3
+    second: {fileID: 2100000, guid: a4fd2e028bd274f07830b371351e1c7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_keldriuks
+    second: {fileID: 2100000, guid: 093b2c5fef2f34988964fda6142820cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_plaster
+    second: {fileID: 2100000, guid: a9710f79ddbc94bd3b837bd50c97aba3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_sokkel
+    second: {fileID: 2100000, guid: 666d384bcf7c44beaa4a3ad45df2b348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_valge
+    second: {fileID: 2100000, guid: e814a5d4b8ff745879f9585471324ff7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_35_37_vuuksein_kollane
+    second: {fileID: 2100000, guid: bc3d18c7477a7403e97f48693a25afc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: b694af751177245849a02b62bcafae84, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

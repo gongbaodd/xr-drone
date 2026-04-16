@@ -3,12 +3,117 @@ guid: 94ba7c4048a8f403d8abbbe01769cdaf
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_basement_left_doors
+    second: {fileID: 2100000, guid: 68e10c7ba37054070b4cb78f8b31000b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_grey_lt
+    second: {fileID: 2100000, guid: 97b70f01b4e7743318d3255084ea328f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_krohv_vlge
+    second: {fileID: 2100000, guid: 0ba06c80497e24b1ea03c2585c8c3e45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_main_window
+    second: {fileID: 2100000, guid: 6923dcf0563f548cc81a1cf67e494a12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_plaster_black
+    second: {fileID: 2100000, guid: 759737aef722f4b5e94fa28fd0a03563, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_plaster_blue_grey
+    second: {fileID: 2100000, guid: eb7792e04d3c14d0182b35b7cfb810b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_plaster_gold
+    second: {fileID: 2100000, guid: 657cf26431ff34706878ce96d0e68a43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_plaster_grey
+    second: {fileID: 2100000, guid: e3b5f05d0d2874ef18c335d7d0b15dfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_plaster_orange_lt4
+    second: {fileID: 2100000, guid: ab17f30b2cc5849fcb85a639adb7a7d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_plaster_orange_lt_darker
+    second: {fileID: 2100000, guid: e0092a6e7eebe40f6a8a5bf07d7d6eac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_ribbon01
+    second: {fileID: 2100000, guid: 232c66bc9ac9747dfae3927ba4ebb5c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_ribbon02
+    second: {fileID: 2100000, guid: 192f16caba867450b8be970b847967bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_ribbon03
+    second: {fileID: 2100000, guid: 4f5be959698d4420a86b780f9b36a3dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_stoneplaster
+    second: {fileID: 2100000, guid: 014560d3e8d5a4d03aa703875119f79a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_tin_brown
+    second: {fileID: 2100000, guid: c081fbaf120074ca5ba6a5d52fa18637, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_tin_copper_rusty
+    second: {fileID: 2100000, guid: f7d9aea075f3846cdb9903bf1bf28f64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_tower_window
+    second: {fileID: 2100000, guid: eb72f0045e40b416483c40305a6fdb75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_uks01
+    second: {fileID: 2100000, guid: b97949f6bdd0b42f9881ab613eb3e721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKl_14_2_white_grad
+    second: {fileID: 2100000, guid: dcce9806e3a7a488e9a403dcb11cd482, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: c13dcb937d45e42fc9fb1ea8bc129201, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: c13dcb937d45e42fc9fb1ea8bc129201, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

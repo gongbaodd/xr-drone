@@ -3,12 +3,92 @@ guid: 65c7781248e4645f08cda23ee1b6acb3
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto
+    second: {fileID: 2100000, guid: 8cbf454c43ed24d549b2477251a0b83b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto1
+    second: {fileID: 2100000, guid: bc931d686acf74f26a20bbb244716b9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto14
+    second: {fileID: 2100000, guid: bc4e501250d1c4c37b3a0e930268a513, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto18
+    second: {fileID: 2100000, guid: f3a77709a2a804f02ad4855bd7158174, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto19
+    second: {fileID: 2100000, guid: 2f7a440ac76e743209c89d0f2ef1530d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto2
+    second: {fileID: 2100000, guid: 6cc63316fdb4c42b28896ae985abef28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto20
+    second: {fileID: 2100000, guid: 624b831ac68e345579197f4cf399aa47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto21
+    second: {fileID: 2100000, guid: 455693b28afc9482cb9320ad8a7c1eaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto22
+    second: {fileID: 2100000, guid: 1085c41d0c24d4f919ca49c7d11914ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto23
+    second: {fileID: 2100000, guid: 8b46f87865dca4a23a0c592ec38f0751, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto28
+    second: {fileID: 2100000, guid: 1ec3249ada0544a659a4026c7949176c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto29
+    second: {fileID: 2100000, guid: 4461aa91cb0a84a52b725319f0386617, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto30
+    second: {fileID: 2100000, guid: 5f73d1a74319b48dfb5857b285f3cb8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto31
+    second: {fileID: 2100000, guid: cddcaa1984695473a9b330e0eca71ddb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto37
+    second: {fileID: 2100000, guid: e86f420e7db7c471db7cf1135110d277, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auto38
+    second: {fileID: 2100000, guid: f03b2054427ce4b4ea344f2d0180f5c2, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

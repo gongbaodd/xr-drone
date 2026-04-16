@@ -3,12 +3,47 @@ guid: 008af58a97368482cb7a528be0d1c38e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: l36b_gate01
+    second: {fileID: 2100000, guid: 40187d43d7ebf4907beb4dac57e54956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: l36b_gate02
+    second: {fileID: 2100000, guid: f1c810fddf8794b62a25d3c5e55f6d56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: l36b_katkivi01
+    second: {fileID: 2100000, guid: 25e8552bab92441dfaa8bbe4799f3401, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: l36b_katkivi02
+    second: {fileID: 2100000, guid: f1b7b6549827b4fccaa94c2af7662e7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: l36b_krhv01
+    second: {fileID: 2100000, guid: 50fd785c51b1b4731afac8c1c68282e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: l36b_vlge_krhv
+    second: {fileID: 2100000, guid: 1ac2ea2eee73440b89d6b2d592a7c9ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 86c7b136c84bc46d4b8d5955171b2f3a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,62 @@ guid: a1cf679b1b3504c068c7ff906ad685a5
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_9_betoon
+    second: {fileID: 2100000, guid: ce17082b5d17646c5bfb98a372812d1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_9_kat_kivi
+    second: {fileID: 2100000, guid: 337dfa3ea975c45079abbaac5d71feb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_9_kat_plekk_pun
+    second: {fileID: 2100000, guid: 9ad1bf9958a6840508bad25d42db36ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_9_kataken
+    second: {fileID: 2100000, guid: f6c8998adb006448a8521affcc10ff7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_9_kivi
+    second: {fileID: 2100000, guid: 4df31e7cf983a4a4bad91e47dfbc2c11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_9_krohv_valge
+    second: {fileID: 2100000, guid: 31088881e26df4695971cd7113ada1b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_9_must
+    second: {fileID: 2100000, guid: d9182794ed04b42e49bbd11f96f8d831, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_9_plekk_hele
+    second: {fileID: 2100000, guid: f35cbc2423df04366ae7b9a8d0ac540e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_9_uksed
+    second: {fileID: 2100000, guid: 39ba612a0dca74809af7d53af5115652, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 153d8b46a5a674ddd85e3dd4ce54b242, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

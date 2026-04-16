@@ -3,12 +3,67 @@ guid: a271769236b5b4e0794cb1efa6ba1221
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai5_Aknad
+    second: {fileID: 2100000, guid: c7efd5d19542147e09697e34aeb01e17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai5_Black_Tile
+    second: {fileID: 2100000, guid: 6ebf4f86fe9f64291ae55f30e5654f46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai5_Doors
+    second: {fileID: 2100000, guid: 84235f995bb5740dc80f519c5b47488d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai5_Fences
+    second: {fileID: 2100000, guid: 86ac9cb6ddfb748368889914641864db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai5_Red_Wood
+    second: {fileID: 2100000, guid: e856a66b156e041c8ada296f169ab67b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai5_Roof2
+    second: {fileID: 2100000, guid: 7d34a92dbbc6448119b4591097a10988, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai5_Wall1
+    second: {fileID: 2100000, guid: 49adf530ccc284a318728aba06393335, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai5_Wall2
+    second: {fileID: 2100000, guid: d2a042e608ef64aa68aca2a0f88ee777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai5_Wall_Tile
+    second: {fileID: 2100000, guid: 34683e42e53dd4f58900d29c7b376af1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai6_Roof
+    second: {fileID: 2100000, guid: dd0f66271fd1a4d16ba3d7c093a20c1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 45ff1e035df634675a7ee9ccab00bc69, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,52 @@ guid: 615e04e9759e040bda7d2919f9d7e593
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_30_1
+    second: {fileID: 2100000, guid: af1735d9fa1e34028a7c77bbf46e1b51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_30_ka_ker_2_old
+    second: {fileID: 2100000, guid: 115af5349de734f35b60e44dad86171c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_30_katr
+    second: {fileID: 2100000, guid: 84ef5123bbe534f42ab9412bbee4d7cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 1231aeb93ec854d9eaeea98290aaa9b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orange_plaster
+    second: {fileID: 2100000, guid: 6eb79ee1b9cfb484c82908429ef4597b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: weathered_wood
+    second: {fileID: 2100000, guid: 4ec275b56a24a49858b5a1edb88b8022, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window
+    second: {fileID: 2100000, guid: c5b1ad68f9e1947eab69c4e19760a384, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: efab1d578ec83414483fc1bbc9557fc4, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

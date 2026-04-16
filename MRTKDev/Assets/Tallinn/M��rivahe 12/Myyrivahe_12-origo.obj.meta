@@ -3,12 +3,122 @@ guid: 653c9bf531eda43e3bb6932fea85e924
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_1
+    second: {fileID: 2100000, guid: 6be0076da5d334aaa84d5f8ae6428c27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_2
+    second: {fileID: 2100000, guid: e4890904691ee44a199ce2e145bec567, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_3
+    second: {fileID: 2100000, guid: fcb7c4a23d94444c6be20baab2c36b93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_4
+    second: {fileID: 2100000, guid: ca651d17f49cd4f028bc319c77ff6346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_5
+    second: {fileID: 2100000, guid: c30d266d47c4641dc8810598e55a907b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_kts
+    second: {fileID: 2100000, guid: c203732f10b824fdd9478de45f9d45fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Det_1
+    second: {fileID: 2100000, guid: ab1f272e8a9324b81a5ea6b28c7ba10b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Det_2
+    second: {fileID: 2100000, guid: 7cf0d24683a624648b19373bed7e3054, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Det_3
+    second: {fileID: 2100000, guid: c4c105617892947219ef65754ae9205a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F1
+    second: {fileID: 2100000, guid: cf4f0250918864e01b78e7de47359b66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F2
+    second: {fileID: 2100000, guid: c6e5e6252933f4aa5aeda550e49966bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K_plek
+    second: {fileID: 2100000, guid: 126e1f5b99734478a875000a1e9bdbd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_1
+    second: {fileID: 2100000, guid: 882cbe334d39c4c04b9bf67254a44e43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_2
+    second: {fileID: 2100000, guid: b34321d2ca1e7480daf095431f4f907a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_3
+    second: {fileID: 2100000, guid: 663aae2af95764648a3beac4336a248b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_4
+    second: {fileID: 2100000, guid: b6c1cfe3412b14c4687e666a816cfd54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: U_5
+    second: {fileID: 2100000, guid: e8bd0bbe08a9441a3baee4205ff77954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paekivi
+    second: {fileID: 2100000, guid: 9baaf499d729f41888b47430c9262304, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_old
+    second: {fileID: 2100000, guid: 00beb7886c88f472388e1946855199f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: cf229bff766aa45e6adec5b7ee529b02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: b923294126748482e9efd1cd450e4ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: a6d4cc306cfd64c7cb94e7caeb04bee0, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

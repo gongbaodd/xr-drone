@@ -3,12 +3,122 @@ guid: 377e2ae70b79a48d697941bd6d33e334
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_a1
+    second: {fileID: 2100000, guid: 1b236087e1f10424dabd7a64d515e13b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_a2
+    second: {fileID: 2100000, guid: 3ab61c3577c994c7aa2c2e89011ab6bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_a3
+    second: {fileID: 2100000, guid: 273b5bac84fe544fdb078c7d34be4dc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_a4
+    second: {fileID: 2100000, guid: 81e3be1ae216249cfbf7ff42258496bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_a5
+    second: {fileID: 2100000, guid: 283511219d0b047a28e0b2ddd0f77b6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_ka
+    second: {fileID: 2100000, guid: 290298fd35fcb45f3875525e683fc8fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_karniis
+    second: {fileID: 2100000, guid: d7607b2b9e544486f87c9380cd2514f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_kat_kivi
+    second: {fileID: 2100000, guid: 591b1cf4991ec4435847c4c27f5820d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_l1
+    second: {fileID: 2100000, guid: 4a27edb2ea4e24ce5a88d76f37ccca39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_must
+    second: {fileID: 2100000, guid: 67708da4e240649f2bda8ad9eb5dc21e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_paas
+    second: {fileID: 2100000, guid: a83a5aba5ebf940abab8ee11356db710, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_paasuslm
+    second: {fileID: 2100000, guid: cad817adc0ebf41438aa914de5e60c07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_plekk
+    second: {fileID: 2100000, guid: d68dae2fc570844dda4ec46f69fb6650, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_punplek
+    second: {fileID: 2100000, guid: 817f2f03f98b347fd8c31bae1fde371b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_seinaorv
+    second: {fileID: 2100000, guid: f0b6c22d8a6a14c66a5df5ed00bbfb89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_u1
+    second: {fileID: 2100000, guid: 1a082b82e390b44c1a987245f6207c53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_u2
+    second: {fileID: 2100000, guid: a0e4bd5b2a0da4ab7b3b09ebce930974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_uuk
+    second: {fileID: 2100000, guid: ffe5b3e738f014f89a39dfee69f43083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_uuk_karniis
+    second: {fileID: 2100000, guid: ff554a4c39e934ce6b84b737bc1c2e05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8_valge
+    second: {fileID: 2100000, guid: 6471e75f019e3431386cc087f6000e20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Munga_8sein
+    second: {fileID: 2100000, guid: d8edf43332143414487025b9935a9b9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 5ee84bd3d101546889e731b558e610e0, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

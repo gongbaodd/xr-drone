@@ -3,12 +3,137 @@ guid: 5a67ea65cdf9e4a798bb3d659ffc6b7b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKoh3_A4
+    second: {fileID: 2100000, guid: ddb8fff388e1d44ecb98854c8e6753ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKoh_3_heleplek
+    second: {fileID: 2100000, guid: 2e69671768cc24b37ac0391b37a85f64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_A2
+    second: {fileID: 2100000, guid: 3b1b861d4c86c48cbaab2686ebc2db38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_A3
+    second: {fileID: 2100000, guid: 9065ed31041764b74a8f8122d48e89aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_A_katus
+    second: {fileID: 2100000, guid: ec00d1eb60fce44c186264cc060f0724, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_FLAG
+    second: {fileID: 2100000, guid: 8631b878f8c8c4b7ca1fe327243f028d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_U1
+    second: {fileID: 2100000, guid: 8ebca66d0822943eb85fdab17ae96cbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_U_deko_1
+    second: {fileID: 2100000, guid: f873ce26443ea4afba5a78ff2a81401e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_U_deko_2
+    second: {fileID: 2100000, guid: be7156c5066d2441eb702d6d18b5a2de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_Uks_2
+    second: {fileID: 2100000, guid: e5323950779484316949581b917e6271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_VAPP
+    second: {fileID: 2100000, guid: 1bad3b56c8a6546139347c964ef080c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_beez
+    second: {fileID: 2100000, guid: 71084365e0bea4cdaa314c4665d9d42b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_beez_kivi
+    second: {fileID: 2100000, guid: f047f60bad316443ebaba5d4e7ab5552, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_borde_02
+    second: {fileID: 2100000, guid: 7a4bdc80534a74fa192b3956342d745f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_borde_03
+    second: {fileID: 2100000, guid: 4225a8a35478c43b0a9f1c99a72dae33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_det_3
+    second: {fileID: 2100000, guid: a6e8da7253981414ab1af1df1cf676c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_karniis
+    second: {fileID: 2100000, guid: fe74a8c979e8948ad84054fb9d9ba58a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_katus
+    second: {fileID: 2100000, guid: 1ad6b869da7be4f78a6480ff526e1ba7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_katus_plek
+    second: {fileID: 2100000, guid: 1930f7034d52645f49d3f998b1484902, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_kollane
+    second: {fileID: 2100000, guid: cc1d4782989dc4d7cbed01811024d114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_silt
+    second: {fileID: 2100000, guid: dc920add63eb2448dba65c4ff95146aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_sokkel_2
+    second: {fileID: 2100000, guid: 006528c41121c4ca08b947f06b33dad1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_trep
+    second: {fileID: 2100000, guid: 08511c37bb3ae426aa18162e2cf55444, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_v2rav
+    second: {fileID: 2100000, guid: 4e7c4db3893ef4f539337a348acc03c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rkoh3_white
+    second: {fileID: 2100000, guid: 65b7e3e37e5404008b9c7aab092a5261, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

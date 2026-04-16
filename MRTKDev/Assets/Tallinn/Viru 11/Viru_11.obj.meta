@@ -3,12 +3,177 @@ guid: 04570c09f9ae24a39ac909142d206aa4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_bigfront
+    second: {fileID: 2100000, guid: 156a073de12fd4682b07fca5e8c78aab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_bigwindow
+    second: {fileID: 2100000, guid: fca07261c53154e6e8bb87ead0111655, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_brownwall
+    second: {fileID: 2100000, guid: adc1c1947e0c74fe48dbfeb45b9fded5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_chimneyhole
+    second: {fileID: 2100000, guid: 5bb1721400002497bb641c8bd4f7663b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_chimneyholesq
+    second: {fileID: 2100000, guid: c78b27f10a763402babafb417bdf4c0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_dromer
+    second: {fileID: 2100000, guid: 0c269353df5404661957d6fca265551b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_katplekkhall
+    second: {fileID: 2100000, guid: 5ea1d74dddd564bbdaa8680a5e4da294, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_kr_vlge
+    second: {fileID: 2100000, guid: a611db80d09ad4b9294432fec7999534, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_lights
+    second: {fileID: 2100000, guid: 5f5e89d78312749b89216a1ecdb8f5c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_long_window
+    second: {fileID: 2100000, guid: 7aa9d46d2b25e474fa34d424883253ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_longbackwindow
+    second: {fileID: 2100000, guid: 426c91cb716934419bfb9b27ee16b5ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_longfrontwindow
+    second: {fileID: 2100000, guid: f40b9381de77b4516a2760a3f4520596, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_roof_green
+    second: {fileID: 2100000, guid: 50f26348042af4a9d97ddb9cfa78d27d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_roofslant
+    second: {fileID: 2100000, guid: 8e3b8ed543f4b4b32b2aa27db0018e5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_sidewindow
+    second: {fileID: 2100000, guid: 5b3d73578354c4ea486cc7a63f47a816, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_smalldoor
+    second: {fileID: 2100000, guid: 6eb8bce3f0ea74a96993b337af9db117, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_uks01
+    second: {fileID: 2100000, guid: e9d5b1a6cd7cc48c7aad6bbfd0811204, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11_window
+    second: {fileID: 2100000, guid: d24c0189619d4471da38d4c5d5423365, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11backdoor
+    second: {fileID: 2100000, guid: aba97d55804114c47919254a49154cfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11backwindow
+    second: {fileID: 2100000, guid: e565d7603a8374f78bceb89e3c04778a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11doorbig
+    second: {fileID: 2100000, guid: 89cf898d2c3b249be9e02bbb0da052bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viru_11dromer_special
+    second: {fileID: 2100000, guid: fa5e6924372f9411a95337ac55321571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru11_aken01
+    second: {fileID: 2100000, guid: 98a414421cdab4557b75c5e6709ade96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru11_aken02
+    second: {fileID: 2100000, guid: a76b2ea86ed7647b7be8cd4dbfbd26df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru11_aken03
+    second: {fileID: 2100000, guid: 76043bd4e03914a74994defec9b29fa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru11_aken04
+    second: {fileID: 2100000, guid: 6a44bd85ab993404fb2357ce8f555192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru11_aken05
+    second: {fileID: 2100000, guid: f3be82384515144239cf42a38d48dd26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru11_detail01
+    second: {fileID: 2100000, guid: 6f65beb76f75d46df8c40856902c1c43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru11_hall
+    second: {fileID: 2100000, guid: 47f868889d9af42618e7fd8fed6f6e8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru11_kat_aken
+    second: {fileID: 2100000, guid: 36dbd60ad082c410ea8968cf84941553, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru11_kivi01
+    second: {fileID: 2100000, guid: 01b5dc6849dfb4ab4a341a188b6333b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru11_kivi02
+    second: {fileID: 2100000, guid: b5b788286a2024a2e8db493ea98a952c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: viru11_uks02
+    second: {fileID: 2100000, guid: 498519e0f4df94b219fcebd74109f091, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

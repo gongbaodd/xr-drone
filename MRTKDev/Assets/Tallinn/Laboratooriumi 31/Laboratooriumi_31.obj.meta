@@ -3,12 +3,47 @@ guid: 6460c4111a05c4b6888d815041357624
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrickTop
+    second: {fileID: 2100000, guid: d7dd319c63a06401e93b2ab2d8cf7834, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__1173
+    second: {fileID: 2100000, guid: 2c94bd477e8814d119c6088e37e6f249, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__1208
+    second: {fileID: 2100000, guid: 23fd4e54884f84a1bae57c443c3df494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhiteWal
+    second: {fileID: 2100000, guid: 97dc66dd5c22e4004bb8277ecc29ebef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4___roofOrange
+    second: {fileID: 2100000, guid: 1072d79f5bdaf42a8ba9becb2127ea79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _7___3Step_stone
+    second: {fileID: 2100000, guid: 69e24a2da95be4014afa06ae12df974f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _8__Roof__Metal
+    second: {fileID: 2100000, guid: 1d0ffc141ca61426290d9c47241dac37, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

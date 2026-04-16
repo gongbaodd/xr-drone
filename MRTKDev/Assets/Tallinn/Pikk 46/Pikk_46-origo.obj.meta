@@ -3,12 +3,82 @@ guid: fcde30522d9b2433fac74d8892d6fa47
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_Chevron
+    second: {fileID: 2100000, guid: f72cf2b6c3a8c4c52be917a3deddb191, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_Door
+    second: {fileID: 2100000, guid: 872c76c9639524583b45a91bdef03551, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_GreyStrip_Steps
+    second: {fileID: 2100000, guid: 1fc6d6d23f9804afb959c11faf707944, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_LightGrey_Tin
+    second: {fileID: 2100000, guid: 3c1a37f16abdc4c11a86d9d924c74d14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_Roof
+    second: {fileID: 2100000, guid: 8f85b144aa6a845b591b412e13620b34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_Roof_Windows
+    second: {fileID: 2100000, guid: 84738a2115a7e4c1f94b76ff85be6e19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_Tin
+    second: {fileID: 2100000, guid: 453e9539dde3045cca4a0b8fc40427ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_Walls
+    second: {fileID: 2100000, guid: ad06dbee82fb24f5e8d37895958f0b7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_White
+    second: {fileID: 2100000, guid: 06d140813766748588e114c793e88a6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_Window_Small
+    second: {fileID: 2100000, guid: 7e6df0812b2a04e58852246700ef29ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_Windows
+    second: {fileID: 2100000, guid: 7182703d1c32f4187bb642dcdddb5331, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_Windows_GrndFlr
+    second: {fileID: 2100000, guid: 9c24e33dffeb846e59f72e567d5532ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk46_korstnaots
+    second: {fileID: 2100000, guid: 9ea7bc7465388478cbfe010cf9297db0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: d65c49e6072d04d8c9465cd2ae7b9235, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

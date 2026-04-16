@@ -3,12 +3,252 @@ guid: d6c0a8256b89448e096e12339c2478cc
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_aknad01
+    second: {fileID: 2100000, guid: 8c7108cfafc9f4965b474076311457db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_aknad02
+    second: {fileID: 2100000, guid: 51e20f668cf6e4e10b67cc46e7970bca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_betoon
+    second: {fileID: 2100000, guid: 128c825a3038b4b09807a59b93802ca4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_graniit
+    second: {fileID: 2100000, guid: 3752db3c96c144ef8ab74424c91ad469, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_hopner02
+    second: {fileID: 2100000, guid: 6d8086db70a1e46b38ecf2dcad3071f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_hopner03
+    second: {fileID: 2100000, guid: 1efa8c2b795ea4b338071d5231f0efa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_hopner04
+    second: {fileID: 2100000, guid: 27795406dd9174a6c9d99f30bd34b0ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_hopner05
+    second: {fileID: 2100000, guid: bc259716b43fe4a588297ea3f541b52e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_karniis01
+    second: {fileID: 2100000, guid: 881e35d4212964f2e9d9df35063e2d3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_karniis02
+    second: {fileID: 2100000, guid: 65b7a996891314de1a61ce1f74b023ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_karniis03
+    second: {fileID: 2100000, guid: d65f15e99041e47129ad6b2fd5784cf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_karniis04
+    second: {fileID: 2100000, guid: fe1bc196c8c43487fafe142db286fe2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kat_hopner01
+    second: {fileID: 2100000, guid: 4c96f377a164e4f29aa1e7fb2ab42ef4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kat_plekk_hall
+    second: {fileID: 2100000, guid: 6d87e221878204c06b38130162d24bb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kat_plekk_rohek
+    second: {fileID: 2100000, guid: 872294ae58097483180bbebb51e47cc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kat_plekk_rohel
+    second: {fileID: 2100000, guid: 90ceb573482a444bcb02411ecceba06f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_katus
+    second: {fileID: 2100000, guid: 08a6b63510392400e9ee20923f9d4c82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kivi01
+    second: {fileID: 2100000, guid: 94ffa484b1f31496e96de6acd4496f6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kivi02
+    second: {fileID: 2100000, guid: f1df555e962df43f4b9956964caa9754, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kivid01
+    second: {fileID: 2100000, guid: fafbc4aee67874e1cb903b067f5b12fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kivid02
+    second: {fileID: 2100000, guid: e36b9ab011156444c9c8e4827e729f86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kivine
+    second: {fileID: 2100000, guid: 9f333fdc358c94199a3540a57b6aebe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_krohv_ko
+    second: {fileID: 2100000, guid: 12225e5f379ba49bfa41e9aa6edeca3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_krohv_pruun
+    second: {fileID: 2100000, guid: 54cc4ce5bd4304768bdc99e857fc1e8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_krohv_valge
+    second: {fileID: 2100000, guid: a66d299781ad1423392cf8717bb88450, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_krstn_pealt
+    second: {fileID: 2100000, guid: 82f8c5874a7fe40e3ade39363d9bf437, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_krstn_tipp
+    second: {fileID: 2100000, guid: 113290ce896ce44438aa3423ce38e168, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kuju01
+    second: {fileID: 2100000, guid: 8bac3dbef896f430fb7e2e9576151a20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kuju02
+    second: {fileID: 2100000, guid: 2e9ec2fc91a624877aa4cc0daba951de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kuju03
+    second: {fileID: 2100000, guid: aefb139a38ee1454dab7f806bf4d0fbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kuju04
+    second: {fileID: 2100000, guid: 80fe488ec09d34c4092caf50b3698029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kuju05
+    second: {fileID: 2100000, guid: d232278860c3345be9534a711fd98636, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_kuju06
+    second: {fileID: 2100000, guid: 988ae408625974b09a04686d8f654194, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_portaal01
+    second: {fileID: 2100000, guid: ad4eb17a9e00d495caef421d5535c884, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_portaal02
+    second: {fileID: 2100000, guid: 18c7d3d99268b42b38762b12b74a7575, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_pruun
+    second: {fileID: 2100000, guid: 2e7572afec98b4b14b289a41507771b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_sepised
+    second: {fileID: 2100000, guid: bcc12deb7305647569b8b4ebfe741558, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_tipp01
+    second: {fileID: 2100000, guid: 0ed70ec5a5f0745cfa2f301f05e45dc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_tipp02
+    second: {fileID: 2100000, guid: 0b79ead3e0848491182762a1000be5ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_trepp01
+    second: {fileID: 2100000, guid: 116754f1ee8b84c74810cc561ab4fd47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_trepp02
+    second: {fileID: 2100000, guid: c4e8730b3c2a5497095b1a01e46b8634, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_tuulelipp01
+    second: {fileID: 2100000, guid: d4dec329a45974c749e57906c2284d58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_tuulelipp02
+    second: {fileID: 2100000, guid: d683fbb2192c94acda7bedaa1631ea37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_uks01
+    second: {fileID: 2100000, guid: abe5931f4f4a74e25a3901b5a2ba6274, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_uks02
+    second: {fileID: 2100000, guid: bea1febadd3dc4013a9cecb3cef7402e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_uks03
+    second: {fileID: 2100000, guid: de24696e7902e4527bd6568bf9fb346c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vtk3_v2rav
+    second: {fileID: 2100000, guid: c1baab620af75465187757e0e040cb97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 66e255ee88fcb4418b3c16cb63f8e62b, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,77 @@ guid: 299e0759b66394214baefd55558ac45d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_41_2_kast
+    second: {fileID: 2100000, guid: ad8dbe755b9854484b5dc71516590f72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_41_2_kataken01
+    second: {fileID: 2100000, guid: 2ebec7d0e489044d9a050a7f47c329d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_41_2_kataken02
+    second: {fileID: 2100000, guid: c438cdd7eec004d2ea1a90fd556c6b54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_41_2_katus
+    second: {fileID: 2100000, guid: 6f5d5b0cb40d342e0bd4967ceef73e9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_41_2_krohv01
+    second: {fileID: 2100000, guid: 447232c3b229b4d52a8021712b726f24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_41_2_krohv02
+    second: {fileID: 2100000, guid: 9e8d328dab4a54d25b51c1d0ceaf7415, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_41_2_krohv03
+    second: {fileID: 2100000, guid: f3cb5e9c2372d4b90b531a868bf5ec30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_41_2_krstn01
+    second: {fileID: 2100000, guid: 7dfdd71d1404f471d99ef55f702bb6fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_41_2_paek
+    second: {fileID: 2100000, guid: 29460bd32e580460e85b3953aee12700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_41_2_plekk_hall
+    second: {fileID: 2100000, guid: 8df2d301464814c2d81f456b83d6159a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_41_2_plekk_punane
+    second: {fileID: 2100000, guid: f42cc788b2be94492adf7bcdec0e0efd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pikk_41_2_tellis
+    second: {fileID: 2100000, guid: 16d49fb9fe48441b48467cee83519bca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 99aa60426d2f34e0abac3cc6da1db7db, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

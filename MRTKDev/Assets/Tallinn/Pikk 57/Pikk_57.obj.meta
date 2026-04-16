@@ -3,12 +3,117 @@ guid: 6919d6c4a9caa475aab2ae750bbed279
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57__black
+    second: {fileID: 2100000, guid: e2cecdeb0f9cf426395db158fb0e95b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57__edgetop
+    second: {fileID: 2100000, guid: 254c7d324ef4f44559712e3df499b474, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57__krhv_kollane
+    second: {fileID: 2100000, guid: 94a259a5a125549d79e4cb40f79beb9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_betoon
+    second: {fileID: 2100000, guid: d30fa0afd074e41d3b2fd6616ee7653b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_bigdoor
+    second: {fileID: 2100000, guid: 56b5b4413c3264350af8b02c1f7b1609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_bigwindow
+    second: {fileID: 2100000, guid: ed770ad48b1354e64b581db9fb335bb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_chimneyhole
+    second: {fileID: 2100000, guid: 570adc51dbc044333a86620c113f925e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_doortopdesign
+    second: {fileID: 2100000, guid: de7382a7d8d2c4c94a56ff8d951c98ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_doortopdesignclosed
+    second: {fileID: 2100000, guid: dda80e9ac78b548769a8339dc60852c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_edgebottom
+    second: {fileID: 2100000, guid: de5fdad4a1fdc48ad8d49155492e842b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_frontdesign
+    second: {fileID: 2100000, guid: 6e2122c859f4c4a679c60fa1ee598670, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_frontsmalldoor
+    second: {fileID: 2100000, guid: dab9c7e1b02dd4b42ac6997de3af0b3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_frontwindowdown
+    second: {fileID: 2100000, guid: b8ab95cd2461b443b8b49cc196de6248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_kataken
+    second: {fileID: 2100000, guid: 5e01788e7818f403ca02eb91f9f5d4bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_katplekk_pun
+    second: {fileID: 2100000, guid: fe6ac5b1f5d3f4aeba9013e28d72f8e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_krhv_vlge
+    second: {fileID: 2100000, guid: 77444612d9934420a91e3354680470e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_laudis01
+    second: {fileID: 2100000, guid: 3b68ee651eb1a410da638e81eb3ba0e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_smalldoor
+    second: {fileID: 2100000, guid: 6353ffd74d5a74c8bb1bb0e2cf178905, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_topsketting
+    second: {fileID: 2100000, guid: 3079de469eb384c378a4734424a4ef2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_upperdormer
+    second: {fileID: 2100000, guid: 01e84bd55bc9b4291956e1fcca461670, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pikk57_windowstopshade
+    second: {fileID: 2100000, guid: 3c9174cac84084eb1b36f76fa695af00, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

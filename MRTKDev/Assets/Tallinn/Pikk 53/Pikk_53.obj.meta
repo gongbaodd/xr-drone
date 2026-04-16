@@ -3,12 +3,27 @@ guid: b1e68d332cf4d47fbac3aabef8bd0065
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kat
+    second: {fileID: 2100000, guid: 69a4e8b9e8e0f4886a0eaa9392693184, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_kol
+    second: {fileID: 2100000, guid: 48b990e0fe39246e8bed38b0c8e73dd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 58567abe77d594016a2644b3963d3678, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

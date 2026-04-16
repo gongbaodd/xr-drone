@@ -3,12 +3,172 @@ guid: 37ff1ef1f0ef64fefbdb8795bafd94aa
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27aaris
+    second: {fileID: 2100000, guid: afaaa4160bcd0478ea40c65127dea99c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27aaris2
+    second: {fileID: 2100000, guid: ccae088f5a7b74f71aba5b143a36407c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27aaris3
+    second: {fileID: 2100000, guid: 694b38fc8e4c74784b2886b7681f80b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27aaris4
+    second: {fileID: 2100000, guid: 392bfd2185a614b748c4adacd204b74e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27aaris5
+    second: {fileID: 2100000, guid: f67e25a43ef7b4ff4afa44693c2a8f94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27aaris6
+    second: {fileID: 2100000, guid: 3e00fc674585840f38368853704b4649, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27aed
+    second: {fileID: 2100000, guid: 0fa1578887da84a55a2645755d36b1f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27door1
+    second: {fileID: 2100000, guid: 8ef3c1cc22efa4cc9912a5a7edf3f219, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27door2
+    second: {fileID: 2100000, guid: 3e3fe0472cdae43b59da4c094c9195e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27katuseaken
+    second: {fileID: 2100000, guid: d0288e2c1c85949999fe272961823889, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27katusetipp
+    second: {fileID: 2100000, guid: 2df994d01fcfb412f99218f4886219f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27korsten
+    second: {fileID: 2100000, guid: c6716134b887d42a7aa1b1d396016267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27misc1
+    second: {fileID: 2100000, guid: 2343bc43cb8494b25a674ae69ba70dcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27misc2
+    second: {fileID: 2100000, guid: c3a1eb8d6472c4842bc362e6134ad5d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27misc3
+    second: {fileID: 2100000, guid: e18955a1f34e447c79d4c6680a6da0e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27misc4
+    second: {fileID: 2100000, guid: 65831e876e0fb4707968e48437a8f0d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27roff
+    second: {fileID: 2100000, guid: 2a32dfdb5035849c9aea9e2ddd58dd29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27wall1
+    second: {fileID: 2100000, guid: 2a92e30c00fe34fc6bcfc8c603dcdd61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27wall2
+    second: {fileID: 2100000, guid: 4c2224e80af5e4e7d819cd530e7cc870, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27wall3
+    second: {fileID: 2100000, guid: 202143c4e155b45cdb07426426ebc806, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27wall4
+    second: {fileID: 2100000, guid: 1e72b09e7f75e49719ca4a9d6ead05ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27wall5
+    second: {fileID: 2100000, guid: a4393036751674894ac1406ffba9158a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27window1
+    second: {fileID: 2100000, guid: dc69cb45e00994a8caea42bfb7785f5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27window2
+    second: {fileID: 2100000, guid: c46f5bf62250d4f5f99a073b19e55d43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27window3
+    second: {fileID: 2100000, guid: af717e44fe1ca483f98f01a013c32778, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27window4
+    second: {fileID: 2100000, guid: b3a43525f77574ed8ac086095ea17376, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27window5
+    second: {fileID: 2100000, guid: b8380265204d1447f88f166c2538d8a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27window6
+    second: {fileID: 2100000, guid: f0d58f4581ec746dd98ce711ff65127a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27window7
+    second: {fileID: 2100000, guid: 8159d5ded47e54933912f3fb66acda38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27window8
+    second: {fileID: 2100000, guid: e79e7abefbca44403bfe415431cc4230, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai27window9
+    second: {fileID: 2100000, guid: e5b9e2e86aa364616979c96573b2a54f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 9014199e3c2fa49c38f7d0cf7d9613d3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

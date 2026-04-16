@@ -3,12 +3,182 @@ guid: 15007a4573f9945dc8ddaa4d2ba78a1a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_AKEN_7
+    second: {fileID: 2100000, guid: c81f2e381fb2942b2aa0bb12412f6f34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_AKEN_8
+    second: {fileID: 2100000, guid: 399351167a16c4c0c9bf2b0d1bad96db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_KROHV_uksekohal
+    second: {fileID: 2100000, guid: 31113a716e5184d6099f876e1f15cda3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_Mustjas
+    second: {fileID: 2100000, guid: 67a5670ad04b54384bfe9cee8b61d445, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_aken1
+    second: {fileID: 2100000, guid: 6eed1769f72e64695b077b4a325e3cfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_aken2
+    second: {fileID: 2100000, guid: 604c6bbc3b20c45e69d9c62ef1e0401a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_aken3
+    second: {fileID: 2100000, guid: c9065ef115215474a9c4e7a83bc71874, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_aken4
+    second: {fileID: 2100000, guid: 1b7f1c1733b9c40a786607ab1b592465, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_aken5
+    second: {fileID: 2100000, guid: 68e0fb408f2a5447c8888c94a6ce30ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_aken6
+    second: {fileID: 2100000, guid: 9f1327df304f1474b85faa93c3c20b7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_aken_uuk_kaar
+    second: {fileID: 2100000, guid: aa0a242b365e8407e9d0ea459a620271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_hele_laudis
+    second: {fileID: 2100000, guid: bf19f7e69e81e41e181de1476d1e7bf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_karniis
+    second: {fileID: 2100000, guid: 82b46b7977bbf42e694730be0c2d2643, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_katus
+    second: {fileID: 2100000, guid: 9c8f42791fc6b411c9464a6dcec16c85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_kivikatus
+    second: {fileID: 2100000, guid: aab2ec8dce9c5478eb393cc9bc731001, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_korsten_AUK
+    second: {fileID: 2100000, guid: 90a3a4a7a1b9f4d3c836033b3601db33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_korsten_valge
+    second: {fileID: 2100000, guid: dd278e0141d8941058b02b63647ef4e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_krohv_kollane
+    second: {fileID: 2100000, guid: 4dee2671a918c4959968175154c15e86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_krohv_red
+    second: {fileID: 2100000, guid: 18e8bb8509210440eb7d63faa227de00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_kuuriuks
+    second: {fileID: 2100000, guid: 9086389baed5b44719f7e0e4a1afd5fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_latern
+    second: {fileID: 2100000, guid: eaa2bf1e7a3944fa596dba01e6bc245c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_paekivi
+    second: {fileID: 2100000, guid: 4abb6b1d39b414898be77aa45f504900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_trepid
+    second: {fileID: 2100000, guid: 304a74e6f56dd4094b821ebb166a6d08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_uks1
+    second: {fileID: 2100000, guid: 25f1bda078d7e42de9d0bb5e732f826a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_uks2
+    second: {fileID: 2100000, guid: 9785e3df6b4b842848136f7e8358916d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_uks3
+    second: {fileID: 2100000, guid: 4bb1d54207abd469e9e036bfcd90a095, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_uks4
+    second: {fileID: 2100000, guid: 4dab0e8f1830b4d279147d3bc4fa98dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_uks5
+    second: {fileID: 2100000, guid: 5a5b6a4012a2e43adb96670cae7156c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_uks_6
+    second: {fileID: 2100000, guid: b8333a1832735448fb3d3730c86310ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_uuk
+    second: {fileID: 2100000, guid: 0e541652ff40a49fa81c0253f1d06d26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_varikatus_OP
+    second: {fileID: 2100000, guid: 1cf12ba44860a4c8c839437adbee13d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_varikatus_OP_2
+    second: {fileID: 2100000, guid: d5c81a7a54973449bafc110ed731085f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RK5_varikatus_hall
+    second: {fileID: 2100000, guid: 59245128f0aba4f16b635db08156d069, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 2c0119d95ae4e4a77a778316d25d64ac, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

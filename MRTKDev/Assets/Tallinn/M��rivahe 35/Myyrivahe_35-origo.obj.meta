@@ -3,12 +3,92 @@ guid: 66ad8323f4b614c06b6106ee02e02c07
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy35_paas
+    second: {fileID: 2100000, guid: 2fd2bac9868a44e5698c597204fc8d79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy35_plkatus
+    second: {fileID: 2100000, guid: 94157cefacd2e4c43b42556c5505593e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy35_wood
+    second: {fileID: 2100000, guid: 799a09aade0ac4e5bb5b4d899af846f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy_35_a22
+    second: {fileID: 2100000, guid: 6b2ee6e8c07f1430599ea2eb8604f354, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy_35_a29
+    second: {fileID: 2100000, guid: a051d853764df4f41b354e12d1e31300, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy_35_a30
+    second: {fileID: 2100000, guid: 536f8453613d6461d8dd2e40e7e129f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy_35_betonts
+    second: {fileID: 2100000, guid: 71cbf005f0ab7496891b72d8add24ef9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy_35_ho2s3
+    second: {fileID: 2100000, guid: 1acd4a9c827914f18b1b6ba0171a38c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy_35_kat_roh
+    second: {fileID: 2100000, guid: 951d3825ecf6a4b558766aee834e1dfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy_35_must
+    second: {fileID: 2100000, guid: 59912d3f0098049c889ad3f25431b287, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy_35_trepii3
+    second: {fileID: 2100000, guid: 6ec9a51121f43438e828e1b639bf32bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy_35_u11
+    second: {fileID: 2100000, guid: f8e8e047403394a8e8b2101a7d14b545, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy_35_v1
+    second: {fileID: 2100000, guid: 492c4a174c1824816a5d46a8ea33b604, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy_35_vagekrohv
+    second: {fileID: 2100000, guid: 13997812e01c34831832bd0713218bd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Myy_35_vk3
+    second: {fileID: 2100000, guid: caa38984297b14d0d836264f993158a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: bd1791141cf674bca94796d7408600a1, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

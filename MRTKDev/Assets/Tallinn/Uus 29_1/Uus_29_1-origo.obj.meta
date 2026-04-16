@@ -3,12 +3,87 @@ guid: cd85a0f31159b47d587e542cebd31c9e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 86f28f03de61941ea91dd8bf8dbc38b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick
+    second: {fileID: 2100000, guid: 251fb1bc9aff941e092b5bc865f672b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cornice_Big
+    second: {fileID: 2100000, guid: 48e342901631d4aa084693afd3f60d8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cornice_Top
+    second: {fileID: 2100000, guid: 2a634c524f26244bab912fb1683f7e87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 647c71b70fdad4bb6bd5024fa7a6a1f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garage_Door
+    second: {fileID: 2100000, guid: 4151ff0ebc1b543849f7eab484d983f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 6e23a907887bb43899f2dd695c8f2910, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SmallRoof_Detail
+    second: {fileID: 2100000, guid: a0d1d5976823947abbe3737aef67cd35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steps
+    second: {fileID: 2100000, guid: eb855aad98858400bb745e6e5c26055f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tin_Red
+    second: {fileID: 2100000, guid: a2ce0cc234e38446bab79159903c127b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Cream
+    second: {fileID: 2100000, guid: 96447981b83fb41aab86c8ff2933bc38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 6b644559446944844a9c2654fc41104a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Big
+    second: {fileID: 2100000, guid: ee6b8773aa38a4062933bb0059d8b92a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Small
+    second: {fileID: 2100000, guid: 963519db7f25e4d0e9ff78b7d291af3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: det1
+    second: {fileID: 2100000, guid: 729f776e0f50e404daaa542c8588788a, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

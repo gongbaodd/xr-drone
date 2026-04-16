@@ -3,12 +3,47 @@ guid: a61697dc3b79640ee8f7114de5b3cc4d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick
+    second: {fileID: 2100000, guid: 1d4576a704ecb4c60b5cdcc16a320d45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bricks_Vertical
+    second: {fileID: 2100000, guid: 68900d00eecfb43bcba4b8d3f3e581c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: ec01900d0c9bf4803b23036c4906b155, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Planks
+    second: {fileID: 2100000, guid: 47c3b3e994c14455c800d94a37ecebb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows
+    second: {fileID: 2100000, guid: 1f26eded290b744e3910c41ab091781d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Planks
+    second: {fileID: 2100000, guid: 05124981d7c994b3c8796d40535be325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Trim
+    second: {fileID: 2100000, guid: 9ea964086b4024e08bb1c90cdf7c98ca, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,367 @@ guid: c68e9b3cdb63e4c09b5a2f5b0b41c544
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu4_2_aaris1
+    second: {fileID: 2100000, guid: f4811e3d8b368478984fddfaa9908647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu4_2_aaris2
+    second: {fileID: 2100000, guid: 015cb9dc38eb547a5aebeb80970e91c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu4_2_aaris3
+    second: {fileID: 2100000, guid: e6471f61b4fd4475ea388d988093107f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu4_2_aaris4
+    second: {fileID: 2100000, guid: 8ac2982d09acc4af4b563c424aba70f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu4_2_misc1
+    second: {fileID: 2100000, guid: 1b0ed83b9ef414ee3b06a7923b3bf745, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu4_2_misc2
+    second: {fileID: 2100000, guid: 62fbe10ee142e4c42a66a27b05bd6263, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu4_2_misc3
+    second: {fileID: 2100000, guid: 76d7a8204c5384ce6b9427bb877bdf5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu4_2_roof1
+    second: {fileID: 2100000, guid: 832f3641556df4204bb3f3683f7a1243, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu4_2_window1
+    second: {fileID: 2100000, guid: 76b0daa849dc04c14b57193fc082b51f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu4_2_window2
+    second: {fileID: 2100000, guid: 27ac9b1924f2a43638c25e39642213e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu4_2_window3
+    second: {fileID: 2100000, guid: fb8103c0ad2e44e43a913edc5e487c99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu4_2_window4
+    second: {fileID: 2100000, guid: 0a8293f612ad7476c9b9e9f4a217f788, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_4_1_roduuks
+    second: {fileID: 2100000, guid: 4cba247a58e474db5954edc28666e34a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_4_1_triibu
+    second: {fileID: 2100000, guid: 0ae0ba08853764fee80cc9d58590e10a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_4_graniit
+    second: {fileID: 2100000, guid: cb40daeccbd594ee48401174238b4a0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_4_hall_plekk
+    second: {fileID: 2100000, guid: 37ec80002614e4a2db59d7d7ed93c480, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_4_sillus
+    second: {fileID: 2100000, guid: 15f034ba5a54f4b55aa38b22fd3b15b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu_4_vv1
+    second: {fileID: 2100000, guid: bf15fdc1bcadb4e1381b5cc3edb46996, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_1_aaris1
+    second: {fileID: 2100000, guid: 730718df40a124a1eaebdc082b658d6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_1_aaris2
+    second: {fileID: 2100000, guid: 60cd23e667e2746c8a036142dadcbe82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_1_aaris3
+    second: {fileID: 2100000, guid: b16b872a301e143d39e2a344518a5c7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_1_aaris4
+    second: {fileID: 2100000, guid: c394e79a891834163b7693afe7b16d3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_1_aaris5
+    second: {fileID: 2100000, guid: 9212b7d25658942d09e71ecb277504de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_1_aaris6
+    second: {fileID: 2100000, guid: 95c016355c38546339718cea5c7f6817, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_1_katuseaken
+    second: {fileID: 2100000, guid: 4f7735737de7442c890404f5465fd1af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_1_rodupost
+    second: {fileID: 2100000, guid: c8f1769c3b65d4e38af116815c2a6330, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_1_theroofisonfire
+    second: {fileID: 2100000, guid: 8a46d1d25b5964617b0b6ebbbf2d0199, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_1_window1
+    second: {fileID: 2100000, guid: b1da48130ec4642e59355a4db6122ed5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_1_window2
+    second: {fileID: 2100000, guid: a2e2e635b135648a58c0f87542fc944c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_2_wall1
+    second: {fileID: 2100000, guid: 93a694578af3247cebd657c16907f02b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_2_wall2
+    second: {fileID: 2100000, guid: cec26c61dfa0e4322b9b630304572f86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_aaris1
+    second: {fileID: 2100000, guid: 5828192f5636142ff8f99de8e498a9a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_aaris10
+    second: {fileID: 2100000, guid: a3d7ad6c01d6a4947b29bd6ffa175ee0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_aaris11
+    second: {fileID: 2100000, guid: fdbe828ef342f4c9d9c9d6b9ba93dde4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_aaris2
+    second: {fileID: 2100000, guid: 3d4327bb09e8644eb89488f455b55d4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_aaris3
+    second: {fileID: 2100000, guid: 64f2c8502b5134d5eb829f959e688770, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_aaris4
+    second: {fileID: 2100000, guid: de839d04aaeb245feba0b02d132be875, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_aaris5
+    second: {fileID: 2100000, guid: 7cbab01839ebb465bbb5bb2350743dc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_aaris6
+    second: {fileID: 2100000, guid: 0b75437ffe86a469c93e15eeaff9e063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_aaris7
+    second: {fileID: 2100000, guid: 6e75fb1b1aa384de082bef6c97b8c991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_aaris8
+    second: {fileID: 2100000, guid: 4d13f7c7e7cd24b6f961aef47306de90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_aaris9
+    second: {fileID: 2100000, guid: 3a79c534176334d3fb15ae0c4339c312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_flag3
+    second: {fileID: 2100000, guid: 604ae4236ab4a4487a569762054af504, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_misc2
+    second: {fileID: 2100000, guid: ef68fc4a12b98408199de888a78696cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_misc3
+    second: {fileID: 2100000, guid: 83fcb5902e1b04af8a9fb482e4f0fa28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_misc4
+    second: {fileID: 2100000, guid: 1173f4ba5eddd4069ba13d023a6c7072, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_misc5
+    second: {fileID: 2100000, guid: acf4bb006f67e4dc9930f81a03a41666, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_wall1
+    second: {fileID: 2100000, guid: 9f462e97af48f44098779d07623e9b94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_wall3
+    second: {fileID: 2100000, guid: 7e28ff1587db24d5ba60c1a551af9229, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_window1
+    second: {fileID: 2100000, guid: e4b442dc93fce4caa8a3b08cf3e6d9b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_333_window2
+    second: {fileID: 2100000, guid: a0d5a5f7c78984de8b56cb61019551dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_33_door1
+    second: {fileID: 2100000, guid: cc3289020103d4a47a06ffb24d479db1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_33_misc1
+    second: {fileID: 2100000, guid: b51d05d4cad9c40338a8fe0345f95d82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_aaris1
+    second: {fileID: 2100000, guid: 3b0087c3a078b471fa33604decf2842a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_aaris2
+    second: {fileID: 2100000, guid: 85b407be591cc4b91b441b09bfd370fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_aaris3
+    second: {fileID: 2100000, guid: aa891a311dfde4d63901798182ce3dce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_aaris3b
+    second: {fileID: 2100000, guid: 3154421b463244c3dabdcb00b27b5809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_aaris4
+    second: {fileID: 2100000, guid: 6230eec2bff554671951bb5b97db8a21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_aaris5
+    second: {fileID: 2100000, guid: 856ef88289f60463a9f5f95c6d3c71bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_aaris6
+    second: {fileID: 2100000, guid: b08145aa7207941ef955b78abec6c956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_door1
+    second: {fileID: 2100000, guid: 0bb3b553034114ce4bbfbb204b6f1217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_roof1
+    second: {fileID: 2100000, guid: b9f04844a7cfd40739ff2222d5224a2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_valge
+    second: {fileID: 2100000, guid: b392acbdedfb4470d846bc3ef38c758c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_wall1
+    second: {fileID: 2100000, guid: 36461da04b7224aa4a101b1353ebe941, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_window1
+    second: {fileID: 2100000, guid: 911f18fba3bdd46089348479cf311194, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_window2
+    second: {fileID: 2100000, guid: b38726ff5cbd9466993ed09ad5d1b5e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_3_window3
+    second: {fileID: 2100000, guid: a24b4ff3fde1040239b07abc9deefbad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu4_arkel
+    second: {fileID: 2100000, guid: d0fa38e80f7c54f1daed7f5dbbeae875, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu_4_1_korsten
+    second: {fileID: 2100000, guid: 1c4503245f70744c7b7f591d3ae0024c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu_4_ka
+    second: {fileID: 2100000, guid: 5dfe717c3747c4731b7a345c4784ab7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 54643e7b7fb164748a3d3a765a0f385a, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

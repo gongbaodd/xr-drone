@@ -3,12 +3,62 @@ guid: 353a2226dee164f5cb607a2e8a5dafbb
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__43
+    second: {fileID: 2100000, guid: 3f58ab461bd3f48a78f5f4bad783045b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__44
+    second: {fileID: 2100000, guid: e24037f71e11548da8c4bafb689c82b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__45
+    second: {fileID: 2100000, guid: 702c7189bb96441dcbbb09528cba6479, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__46
+    second: {fileID: 2100000, guid: c2a6029d294c34a6d8f4563539e76c23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__47
+    second: {fileID: 2100000, guid: c6446359f7c48482dba77e0905d33c08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__48
+    second: {fileID: 2100000, guid: 125ae7f8e93d64cdeb86e0fc4229b964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__49
+    second: {fileID: 2100000, guid: 7095fdde2806c4c088c116cfcc7ab7bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__50
+    second: {fileID: 2100000, guid: 96f917c7bbed1449aa00ca592e7c2ca7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__51
+    second: {fileID: 2100000, guid: 54562cbde453f4a48b5b4751d5552c06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__52
+    second: {fileID: 2100000, guid: 7043935e69d114d6892ce9a5599c5670, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

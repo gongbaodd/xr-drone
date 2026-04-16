@@ -3,12 +3,82 @@ guid: 790e81ee767404812a7d2e75f74a218c
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu4_Blue_Glass
+    second: {fileID: 2100000, guid: f7739a77b9ed948babafb3f49953e25f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu4_Blue_Line
+    second: {fileID: 2100000, guid: 5de67ff32aa0c400cbbc549888f91a9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu4_Door
+    second: {fileID: 2100000, guid: c8f9780d52a7141fa969ac845b7f0f60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu4_Glass_Window_Roof
+    second: {fileID: 2100000, guid: 2fc09a4e6f06a4d08be14f4cc1aee781, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu4_Lower_Brick_Tiles
+    second: {fileID: 2100000, guid: 3714e32f5b60544ff8fc965ce58b91c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu4_Lower_Vent
+    second: {fileID: 2100000, guid: 82161427ee6794c5a8b37cc0689bda05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu4_Roof
+    second: {fileID: 2100000, guid: bd2a1cdb0362b41ceaaf1185efd1ed92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu4_Stairs_texture
+    second: {fileID: 2100000, guid: 8f61dc7c8447b484ea35a35d74760c00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu4_Wall
+    second: {fileID: 2100000, guid: ab6713fbfd9b0445d941eef29819e46f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu4_White_Color
+    second: {fileID: 2100000, guid: 72624178561334f53b1f577293e07419, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu4_Window_Lower
+    second: {fileID: 2100000, guid: a19bbe2844cf3444e9163ba7053e550f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rataskaevu4_Windows_Upper
+    second: {fileID: 2100000, guid: 316ddca5a67c440a5ac8a8ebff982fbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rataskaevu4_latern
+    second: {fileID: 2100000, guid: d0e00c4c062ac4c2180e95e46c5447cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: c1f7f71e40dc74865a0a702c0a134472, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,52 @@ guid: 18dd5065abcf346caa1bbce3945bc396
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_38_Chimey_whole
+    second: {fileID: 2100000, guid: 3ac1960685f454d549303266a7c58aa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_38_fassaad
+    second: {fileID: 2100000, guid: 9dd92779399524509abfbec2962e7b87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_38_karniis
+    second: {fileID: 2100000, guid: 34f5ec942a0d04d14886831287c67260, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_38_katus
+    second: {fileID: 2100000, guid: c08b67f06a9b04b80baf6e8020235e78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_38_korstnaauk
+    second: {fileID: 2100000, guid: bf6eb70e6377a460a9f1882bf3603286, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_38_pl_katus
+    second: {fileID: 2100000, guid: b3b2f9b5bc54e4427a8f34c58d236621, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_38_plaster
+    second: {fileID: 2100000, guid: 78d72d80c4ad04145a75005daa5586bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: fc10927a38b1d4d8f97a61981539c49a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

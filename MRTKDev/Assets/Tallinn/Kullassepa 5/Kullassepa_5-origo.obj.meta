@@ -3,12 +3,97 @@ guid: 8f38f3b39cfb34315b7d3367852cd16e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chimney_White_Kull_5
+    second: {fileID: 2100000, guid: 2e412320a276e4a5b8f4b0a04432d7a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chimney_yl_Kull_5
+    second: {fileID: 2100000, guid: a8fe02c0adbd146e9961df42d6d75dd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Mid_Lower_Kull_5
+    second: {fileID: 2100000, guid: 85f6b4ebfae934bd6bd68493484215d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kull5_ka
+    second: {fileID: 2100000, guid: 23d6ee55729d142718bb7784386c5de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kull5_korstn
+    second: {fileID: 2100000, guid: b6751d67b9d05429d81edb41fc2fd978, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kull5_rist
+    second: {fileID: 2100000, guid: 104c9d4e435b94388bf3b44c0c155b08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kull_5_zokkl
+    second: {fileID: 2100000, guid: e7c8301a689fe43ce988824b5c7b322f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mid_Door_Side_Door_Tex_Kull_5
+    second: {fileID: 2100000, guid: 34fa8ba0c17274391b83467218ee6406, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Flat_Tiles_Kull_5
+    second: {fileID: 2100000, guid: c618477b825f249b88946db9cd8b78c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Tiles_Red_Kull_5
+    second: {fileID: 2100000, guid: 906b985c4f254408689cc638738c0e58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stair_Front_Kull_5
+    second: {fileID: 2100000, guid: 4c5efc9bf129f4908aaa69a7e0bb3251, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top_Floor_Mid_Window_Kull_5
+    second: {fileID: 2100000, guid: f1d32e24dc41f41c4a4f318dd7d2bd0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Color_Kull_5
+    second: {fileID: 2100000, guid: bafc99ae905be4b709f614275e4c8ee0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Beside_Mid_top_Kull_5
+    second: {fileID: 2100000, guid: b71be6c712dae4b2d9e588b14eb63515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Lower_Floor_Kull_5
+    second: {fileID: 2100000, guid: 8e5e2451c3590479399c17122d7bcf9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_second_Floor_Kull_5
+    second: {fileID: 2100000, guid: 78075327be43145baa418a2ad0792963, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: f80abdc9704eb4494b1f921c2607d731, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

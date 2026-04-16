@@ -3,12 +3,112 @@ guid: a482ee46db6534d489abcb95470bfb30
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07___Default
+    second: {fileID: 2100000, guid: e6a4894b12f194970a06bc1ef697adf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13___Default
+    second: {fileID: 2100000, guid: 8eb252899ca2143fab493bd78e1bfb34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__2
+    second: {fileID: 2100000, guid: f0ebdfc36f8254f248c9bbb2b490da54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__2_d
+    second: {fileID: 2100000, guid: 0e27e18fa7c7740e98e7e581c995336c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__5
+    second: {fileID: 2100000, guid: c97f57a714cc34775a52869cfdfd8fcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brick
+    second: {fileID: 2100000, guid: 4764a75bbc57f4ab0bd7650adc057d3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door
+    second: {fileID: 2100000, guid: 09f3a0ef66e004c8dae3faf64a80ce87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door10
+    second: {fileID: 2100000, guid: c7064c03a57ea423087dc990e45907c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door11
+    second: {fileID: 2100000, guid: 7c83956787c1747f5ac98ca1756ac3a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door12
+    second: {fileID: 2100000, guid: 9e2130d78eb0340c382160342dd49a50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door3
+    second: {fileID: 2100000, guid: 653b1b7d1e5604b7a9885be7cb793f78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door5
+    second: {fileID: 2100000, guid: 2c94374efa9f54285991b8aa86935ffc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door6
+    second: {fileID: 2100000, guid: 3ce12fd6636f04f788df1b4526d7808e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door7
+    second: {fileID: 2100000, guid: ec16407fb3d2141228e805725c15edf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door8
+    second: {fileID: 2100000, guid: af229eff07f23420890193de88a92fba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door9
+    second: {fileID: 2100000, guid: b17f45534bfbb4d49accedbf4d2ad819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof1
+    second: {fileID: 2100000, guid: de1f21afd8bd34c5381c4d5bda7c7ab7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof2
+    second: {fileID: 2100000, guid: 3269970aa9e5040e6b9db418e94e93e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof3
+    second: {fileID: 2100000, guid: 0171c8de04eac4967ae71bcb10007b44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: fe7e5047898124c40b9f8d8f1b75a085, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

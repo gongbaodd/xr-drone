@@ -3,12 +3,107 @@ guid: 74266363f32cc4261b728de7e4fcca87
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Balcony_Detail
+    second: {fileID: 2100000, guid: 62e37d3abdba14c65b6a8e6994d17938, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Type1
+    second: {fileID: 2100000, guid: 521c3b20581604e86bc5261d6fbe72f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_Strip
+    second: {fileID: 2100000, guid: a402fa17f41874aabb3a118a01773e62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai50_3_Ceiling_Detail
+    second: {fileID: 2100000, guid: d28aa74b5a171452fb2fe4648ea97d61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai50_3_Chimneys
+    second: {fileID: 2100000, guid: 2c3751cf3e2354783bdf545143e24cc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai50_3_Dark_Grey
+    second: {fileID: 2100000, guid: 34cc5d9a7b9b04beba65a85672eddbe3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai50_3_Door_Type2
+    second: {fileID: 2100000, guid: af12449d254ef4909a50ae3dbcbb6f08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai50_3_Doors_Toilet
+    second: {fileID: 2100000, guid: 7ef3ebb0193b44ec9b57dec1497f604b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai50_3_Railing
+    second: {fileID: 2100000, guid: 24e7c9037d7594910a9ea20d178ae6ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai50_3_Red_Facia
+    second: {fileID: 2100000, guid: e10e35e1638d4433da5a7371c8cec4f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai50_3_Roof_Red
+    second: {fileID: 2100000, guid: 067861f1f89394902a3153075d861f19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai50_3_Tiles_Stairs
+    second: {fileID: 2100000, guid: da6eba99ea3d0446593d3b870f023fb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai50_3_Walls_Brown
+    second: {fileID: 2100000, guid: 6270688bd00db465f9c9fa35e58ba220, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai50_3_Windows_Type2_Lai50_3
+    second: {fileID: 2100000, guid: 627881037dfd44a8d81e76b68835f423, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Tin
+    second: {fileID: 2100000, guid: 62163145423ed4cd08a34b91f9f2daf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steps_Lai50_3
+    second: {fileID: 2100000, guid: 0400f1fea79b74b50a410bd4f5ce2cfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Cream
+    second: {fileID: 2100000, guid: 6922c873afe0c4e6cbbf2b80dc06978a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 067e2f7da4c944241898e1c1e7e63e2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Type1_Lai50_3
+    second: {fileID: 2100000, guid: fba1523969d764b9ea7fd939a6acabd4, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

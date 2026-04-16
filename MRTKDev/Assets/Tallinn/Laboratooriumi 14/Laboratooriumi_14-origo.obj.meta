@@ -3,12 +3,87 @@ guid: 82f836e127804430e89866ebc3ed8b3f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab14_a50
+    second: {fileID: 2100000, guid: f8168e4633b764d848eca415fdd305f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab14_hoos
+    second: {fileID: 2100000, guid: 4c6f9e8886bd942299fb6b0bdebcd5cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab14_katusepl
+    second: {fileID: 2100000, guid: a4ceb66681e734311aaa47802b0c30b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab14_korstn
+    second: {fileID: 2100000, guid: f3dfe829783a04a008c572a2862131d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab14_varav
+    second: {fileID: 2100000, guid: a7f4fa8bc207646d2af5fe15cb4355aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab14_zokkl
+    second: {fileID: 2100000, guid: 95c1ddf9b98b7427592eb9c81f9ad85c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Labo14_a1
+    second: {fileID: 2100000, guid: 06c20a509de4546c7af8ac49951bde26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Labo_14_02
+    second: {fileID: 2100000, guid: a4ff97e4ef70f45f3a1ba1923db2d14d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Labo_14_03
+    second: {fileID: 2100000, guid: e1c1a1b3a0a454f01a7e4c7a91dcf950, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Labo_14_04
+    second: {fileID: 2100000, guid: 3b6ce9db76ea9446c9099a72d1aa2bb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Labo_14_05
+    second: {fileID: 2100000, guid: 77d990ccecfa24d39802cdf9ca63e9e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Labo_14_09
+    second: {fileID: 2100000, guid: 0d7d99c7f5dbb47ee8303ee8eeb7a22e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Labo_14_a2
+    second: {fileID: 2100000, guid: 616216339911f4f0885557b70e6093e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Labo_14_valge
+    second: {fileID: 2100000, guid: 97c19a4de0ace46119e5321c5babb0f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XXX
+    second: {fileID: 2100000, guid: 6404591a9187844a89aff4aefc617279, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

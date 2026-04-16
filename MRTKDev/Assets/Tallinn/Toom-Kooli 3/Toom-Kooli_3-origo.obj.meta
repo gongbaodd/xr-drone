@@ -3,12 +3,102 @@ guid: 672482e26673b4c6cabf0ab703311c66
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 18___Default
+    second: {fileID: 2100000, guid: e0b0a99b12934416a8028cc714560808, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kat_kivi_valge
+    second: {fileID: 2100000, guid: 9725580b233d54a56b293e7150129d1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK3_AKEN_taga
+    second: {fileID: 2100000, guid: 6aa95a436cc5e40f8bc3ac0b54baee9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK3_eest
+    second: {fileID: 2100000, guid: 6d3ad3efc11d0471a9ee1b4bbbc0c71a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK3_gate3
+    second: {fileID: 2100000, guid: c431a9e7f70554e31846e5c125fe47c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK3_katus
+    second: {fileID: 2100000, guid: 38158d278f3da4694b41f140df80a697, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK3_katuseaknad
+    second: {fileID: 2100000, guid: efd7670409ca1467b9cc58e5612a6df3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK3_katusenikerdis
+    second: {fileID: 2100000, guid: dcc7d270016fe436184a69ab2a6f744f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK3_katusenikerdis2
+    second: {fileID: 2100000, guid: 380432ab12e07457c917e531fbd0deac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK3_katuseplekk_hall
+    second: {fileID: 2100000, guid: 5a30c844e89924c13b7847214238a7df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK3_korsten
+    second: {fileID: 2100000, guid: df5c05fe717cf46aa96209ce945401f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK3_korsten_auk
+    second: {fileID: 2100000, guid: c9abb89ed711f44c6bf9ef373fc70fe3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK3_r__stas
+    second: {fileID: 2100000, guid: a507491024e40415cabc5bd1b9759f6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK3_valge
+    second: {fileID: 2100000, guid: 5fc3f9572d2a1442cbc798d8cdb8e951, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TK_3_roosa
+    second: {fileID: 2100000, guid: c4eb5a6bdcffb46a4bd34612500eabc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tk3_varav2
+    second: {fileID: 2100000, guid: d1311f6bc7d434378a3f021ed7bc61c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tk_3_varav1
+    second: {fileID: 2100000, guid: 6694becfb257c4ce09ec4ba0f7d0ef6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxxx
+    second: {fileID: 2100000, guid: 46d0e8b1977984294870b41be8110c96, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

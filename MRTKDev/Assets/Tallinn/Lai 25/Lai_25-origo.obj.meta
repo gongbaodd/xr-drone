@@ -3,12 +3,162 @@ guid: f36cb39c5e69049138bd728837fe0da9
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02___Default_L25
+    second: {fileID: 2100000, guid: 5d5f3cadd032b4a57a14a2b2fd59a69f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 16_L25
+    second: {fileID: 2100000, guid: 1805fa5e4086943659a316c9326b2913, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19___Default_L25
+    second: {fileID: 2100000, guid: da3a39db0551e4c9891e1e4bf475c396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 20_L25
+    second: {fileID: 2100000, guid: cf1dae497c6f14482a88f0512a6a480b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 23_L25
+    second: {fileID: 2100000, guid: 85ae9c8932b0946b0be6bb4b15b5306d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L25_metallic
+    second: {fileID: 2100000, guid: fca1fd9a5329c466fbbfbee5d15d3c30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_25_psilm
+    second: {fileID: 2100000, guid: 02a5d6d5f43c54b27a92361eede1d068, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab12_a1
+    second: {fileID: 2100000, guid: a646647c364414602b9680310f855677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab12_a2
+    second: {fileID: 2100000, guid: e08e9688f8d024a258d6d7da500bcce7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab12_se
+    second: {fileID: 2100000, guid: bc6354d9f8543474f9808b12ea97e4ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai25_a1
+    second: {fileID: 2100000, guid: fa2099cdd1ff043e29d070b08cc2a741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai25_fass_h2
+    second: {fileID: 2100000, guid: b48d553d769ec4f0795207645707d096, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai25_fass_v
+    second: {fileID: 2100000, guid: 68674350360f14d308a814dde5deef06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_25_plekk
+    second: {fileID: 2100000, guid: 3fc817ef0365d4607896c3c9771cbb9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: akeu_L25
+    second: {fileID: 2100000, guid: f52e6a5e9b8c240a696e4ede5635cb16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: backwall2_L25
+    second: {fileID: 2100000, guid: 1150b4c9154e54238ba6605ff0ec2ea1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katuseaken1_L25
+    second: {fileID: 2100000, guid: 3f1a10107883442d7ae712588467b758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab12_theroofisonfire
+    second: {fileID: 2100000, guid: 1a55bb991ce1343c7a7bef9aa5390360, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laboratooriumi12_gate
+    second: {fileID: 2100000, guid: 36e5792a9bba24a52a6d910862dc3d62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laboratooriumi12_misc
+    second: {fileID: 2100000, guid: b99ac2a8ae0fe40c9b3bd752103a5aec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laboratooriumi12_wall1
+    second: {fileID: 2100000, guid: de9ae6c44d83945cca32e6c2fc4b7246, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laboratooriumi12_wall2
+    second: {fileID: 2100000, guid: 4eed8bbe1794f4cd8950a2b25279827e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laboratooriumi12_wall3
+    second: {fileID: 2100000, guid: b3f70b988a2fe4e47add163b296ac6e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai25border1_L25
+    second: {fileID: 2100000, guid: 85df257600ba44503a13188758ed8265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai25border2_L25
+    second: {fileID: 2100000, guid: cf1d673340bdb4ef3b514198832bd161, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai25gate_L25
+    second: {fileID: 2100000, guid: eed894b9e1a304111a2873c3ea50411e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai25wall1_L25
+    second: {fileID: 2100000, guid: f9609973df18344d28fc37de85613f7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai25window2_L25
+    second: {fileID: 2100000, guid: b708bcee381d64d07b0e43bf0ddd7001, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai25window3_L25
+    second: {fileID: 2100000, guid: 804ed921116b6453296ecf37bc6c7c2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 6d4a7c6c3419f4544bf16279dbbdec74, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

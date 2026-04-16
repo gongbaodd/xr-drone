@@ -3,12 +3,67 @@ guid: 2ccab989d0add406db50f629318731fe
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_KLAAS
+    second: {fileID: 2100000, guid: 080169ff5ee6e4705b7ce5b645f42d77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_RAAM
+    second: {fileID: 2100000, guid: 7b7720199a3494f83a6b107a0cd55002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_aken2_jpg
+    second: {fileID: 2100000, guid: 0a94b08a15ceb45a4a156ac2e78bd91a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_aken3_jpg
+    second: {fileID: 2100000, guid: e99a640dc1388450fa03998e127305f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_katus1_jpg
+    second: {fileID: 2100000, guid: 30e67a257fd0b4468a4308d624604ce8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_kivi1_jpg
+    second: {fileID: 2100000, guid: 09b28db53cb854459ae0712bbfc2df1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_kivi2_jpg
+    second: {fileID: 2100000, guid: 1c82c79ac4b3e4f08b466218555b21b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_lipp1_png
+    second: {fileID: 2100000, guid: 804c3e51184e14cdf9a1d6972ea871d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_puittala_jpg1
+    second: {fileID: 2100000, guid: 4390122cbd98441219723cd28655f2cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_silt
+    second: {fileID: 2100000, guid: 8d89f375c23854228814e9203966bf6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3torni_uks2_jpg
+    second: {fileID: 2100000, guid: 0290b224d147044e280353a79c73a39d, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

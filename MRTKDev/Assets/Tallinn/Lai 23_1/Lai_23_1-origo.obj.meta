@@ -3,12 +3,602 @@ guid: c4c3e23102741496d8c9f0317d24cc11
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06___Default_L23
+    second: {fileID: 2100000, guid: 7ba026be1466f477da212367f0615c50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12___Default_L23
+    second: {fileID: 2100000, guid: 01af1a41c617d4a3a9c20491af3dc55c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 16___Default_L23
+    second: {fileID: 2100000, guid: eaea30b96139f4a61b24645ec1c2e7f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 18___Default_L23
+    second: {fileID: 2100000, guid: 05e43c7716d114b97a91c5ee1610e3e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 22___Default_L23
+    second: {fileID: 2100000, guid: 132ac63ed563d4c7788c4c6c2b05c6aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24___Default_L23
+    second: {fileID: 2100000, guid: 593b5a67bc00f4672a5134345210e78a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Born_L23
+    second: {fileID: 2100000, guid: 29dc35f97a5ca42c59285abd30736a4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_Roheline_fassaad_L23
+    second: {fileID: 2100000, guid: 14ec251203277445687ca568c1ead24b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23__maraken
+    second: {fileID: 2100000, guid: 00a89015f10344e9ebcfd2bee3351a26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_a1
+    second: {fileID: 2100000, guid: 22024946e2c0c4704a5d2998969cdfb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_ake_pisike
+    second: {fileID: 2100000, guid: 5fbac1d5b53924ef29d9da9ceca2e7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_border1
+    second: {fileID: 2100000, guid: 6bc0da38aa71844f89e787b6a86addfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_border2
+    second: {fileID: 2100000, guid: 20e198affd9724551bd7408b79c39409, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_border3
+    second: {fileID: 2100000, guid: 415d652efbb1e401b94b98736abf8e43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_corner
+    second: {fileID: 2100000, guid: bf63190fe5191479694eda281ab48d41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_door1
+    second: {fileID: 2100000, guid: f416d2c7a8d8344589d3dc45d4bea5b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_doorL1
+    second: {fileID: 2100000, guid: 2eec3550cecf44672bff4ddd311e7ca8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_doorL2
+    second: {fileID: 2100000, guid: a19f85a7e36ed490fa96d74c0cb9a24d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_gate1
+    second: {fileID: 2100000, guid: 6ba34ed06d3c9440490a6c0d4a0579fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_housewhitestuff
+    second: {fileID: 2100000, guid: bf265f536522b4f958e59635241e71dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_ightovertheresomewhere
+    second: {fileID: 2100000, guid: daf13160a9d014b02b698ada76bcbe7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_korsten
+    second: {fileID: 2100000, guid: 498a3c97be3b246439cdd77136d13732, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_luuk2
+    second: {fileID: 2100000, guid: ec0b9e6ab0fc24ebaba69601e03797c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_miskine_asi
+    second: {fileID: 2100000, guid: a1a4ca85cd4314b8c8641ff8a696c614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_paekonsool
+    second: {fileID: 2100000, guid: 2f626bef8cda54fd991aab42700d0c66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_peauks
+    second: {fileID: 2100000, guid: 6a2cd49aca4284d57a291a4aa000b914, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_ruutudegrey
+    second: {fileID: 2100000, guid: cb5451bb94ee24e5c9533e769d30a3e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_stairs
+    second: {fileID: 2100000, guid: b60aceed9fc77400a8301c331f4ae590, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_u_kel
+    second: {fileID: 2100000, guid: 3c1b1b38f78774723b42136b09dfa06a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_wallL1
+    second: {fileID: 2100000, guid: 63d0af73c507441518abb1d09497db5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_wallbees
+    second: {fileID: 2100000, guid: 5237377f82ab641caa489b9394255411, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_wi_2cover
+    second: {fileID: 2100000, guid: 01c1e86c3a11e465f85ef3f8ee6330d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_widow2
+    second: {fileID: 2100000, guid: 1ba385fb4ac2c451da74347001dc3d52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_window0
+    second: {fileID: 2100000, guid: 43c09c15059f74d7d97496f1bedd5033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_window1
+    second: {fileID: 2100000, guid: 6cf3074c0205c4d68ae83cadb25f4dee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_window1front
+    second: {fileID: 2100000, guid: 2b23a3790576c4f9b8594565df674a5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_window3
+    second: {fileID: 2100000, guid: c3c4a27b13f7343e9a1ab296391e85a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_window5
+    second: {fileID: 2100000, guid: 5a935cbde9d8146e3be06b56ac968e2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_windowL3
+    second: {fileID: 2100000, guid: b7315e6873d0649b6afee53c1e401dc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L23_zokkl
+    second: {fileID: 2100000, guid: 040d05897bbc046d1a4ca46a41e35528, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_23_tuulekastitykikene
+    second: {fileID: 2100000, guid: 860942190eb7642f793f06d158cadd64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_23a_puit
+    second: {fileID: 2100000, guid: 41e1909866828409bad3138c983c9034, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai23_21karniis
+    second: {fileID: 2100000, guid: f2307ac6333b74e6ebccf50bb682d1d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai23_hoo_o_a1
+    second: {fileID: 2100000, guid: d4f5c3513d318494493e9c7c947f4e0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai23_hoo_otsaviid
+    second: {fileID: 2100000, guid: 68796f1ed54614cd5bba0563d730dabe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai23_luuk_aknaga
+    second: {fileID: 2100000, guid: bfd98b65b96704721b8f6a3c87a17e21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai23_piirdelaud2
+    second: {fileID: 2100000, guid: 64763c53f154545228eea28a006a1f94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_1_betonts
+    second: {fileID: 2100000, guid: 19760da8fa81b4aacba7e4ad61eeff69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_R_zokkl
+    second: {fileID: 2100000, guid: 32156647e517a40049a78808fdef6837, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_a2
+    second: {fileID: 2100000, guid: 52a5042653ece418e89451553f200c3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_a3
+    second: {fileID: 2100000, guid: 1e5b5f97801464efd9c1117520448f20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_a3hoovipoolne
+    second: {fileID: 2100000, guid: 8343b7fb441a94d53aff6e253806aa8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_a5
+    second: {fileID: 2100000, guid: 4a7cd98e08b8c46f389126619e7dfebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_a_f1
+    second: {fileID: 2100000, guid: cfcc4b856f12342d6ad51296815494f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_a_f2
+    second: {fileID: 2100000, guid: a7b7ddcd15c404d42877f5d9091908dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_a_piirdelaud2
+    second: {fileID: 2100000, guid: 3b7d38ee6fdef4318a00b02cc71c9c21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_a_pisike
+    second: {fileID: 2100000, guid: 8450552694ef14b62be47e01d22a904e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_a_pos_all
+    second: {fileID: 2100000, guid: a65fffb8c430541eb9956e9ffabbc16a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_avad
+    second: {fileID: 2100000, guid: 3ca9c1e4df4684ca585d697dfc1642c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_diagonaalid
+    second: {fileID: 2100000, guid: 68820c6197e5a4f57b812700e3865f7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_e1
+    second: {fileID: 2100000, guid: 1e94898e3a38d44869fa139ef44c88a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_e2
+    second: {fileID: 2100000, guid: d94598035efd142a09fe7571c17e02b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_ho_o_a2
+    second: {fileID: 2100000, guid: f68479902a92e45d59f21c8674502484, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_hoo1
+    second: {fileID: 2100000, guid: 18befd179000441ef84ebf1cc8a67954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_hoo2
+    second: {fileID: 2100000, guid: 5074ba2f72b7041269655ed36778fb6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_hoo3
+    second: {fileID: 2100000, guid: a6b706ac4fa08491a92c05ee38c83e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_hoo4
+    second: {fileID: 2100000, guid: ed7541279fdde4ad0bf3cf662c207de0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_hoo6
+    second: {fileID: 2100000, guid: c52e29922c787424b8e6c8f3ca4bb1b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_hoo_varav
+    second: {fileID: 2100000, guid: 7821e9c5511c14c4d87c0ea03cbe9ab7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_hoo_varik_uuk
+    second: {fileID: 2100000, guid: 609e7f2f6dd794e2e8fdbc52f0c08431, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_k_a
+    second: {fileID: 2100000, guid: e99ad775f4c71457a9d49848915cac9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_ka
+    second: {fileID: 2100000, guid: 67be2128690d04f9db44de102cd8fd0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_karniisiplekk
+    second: {fileID: 2100000, guid: 212d3b4aaa2d14f889d9c5ac18464521, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_kat_hall
+    second: {fileID: 2100000, guid: 32688eda5feda4228967ee28839528d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_kat_kivi_valge
+    second: {fileID: 2100000, guid: e65f170f1fa7d45de906727216fe7b71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_katuseplekk
+    second: {fileID: 2100000, guid: 33aeea9d1b19e4642bf2bc378c296cd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_keldriake
+    second: {fileID: 2100000, guid: 4f244b8c16e034722b85962380983a83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_kontraforsikene
+    second: {fileID: 2100000, guid: abe5d4c9f930846bb90ef8d444ee4ae6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_lipp
+    second: {fileID: 2100000, guid: deff0112dd7e14d5db73354f464d4bb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_lipualus
+    second: {fileID: 2100000, guid: 02615a9f64fee477c894c7d6b66833a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_luuk_roh
+    second: {fileID: 2100000, guid: d419f5fe338824fcf8dff85cca64f790, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_myyriankur
+    second: {fileID: 2100000, guid: dabf315cee6db4bb69c5f3870d5e1357, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_ouefass1
+    second: {fileID: 2100000, guid: 364c5bbc6cc3046339b14aa29e7dae78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_paasusilm
+    second: {fileID: 2100000, guid: 8c111afd75a944e3c83c9ae91aa199f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_piirdelaud_K_yl
+    second: {fileID: 2100000, guid: 61c6a74a1ebd04da492d4eac532be2e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_pl_pu
+    second: {fileID: 2100000, guid: e3e9269cb744f47238cf178c983f6325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_pun_laud
+    second: {fileID: 2100000, guid: dc88ee044e04142588a315ae143e919f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_putkakene
+    second: {fileID: 2100000, guid: a405fa7bc27274cf4879ae40c5866b3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_raastaplekk_pun
+    second: {fileID: 2100000, guid: dcf492376c3fd46aa95a41475caa2095, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_rodupiire
+    second: {fileID: 2100000, guid: f6a74bd2f71fb4e1d9433f71ddae4362, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_tuulelipp
+    second: {fileID: 2100000, guid: 832267970ee434f96ac49e8d1a5e5f9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_tuulelipualus
+    second: {fileID: 2100000, guid: 93d7fbd2f1bb44e92a6257c9c46c469e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_u1m
+    second: {fileID: 2100000, guid: 6ae701fbef00a4ee98fac4d5b6c923d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_uugi_tuulekast
+    second: {fileID: 2100000, guid: 7bb93380eaada40279141ce27f3a26d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_uukake
+    second: {fileID: 2100000, guid: dc04de88bc3f14f3fb3c50a0dd1f1223, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_vahetyk
+    second: {fileID: 2100000, guid: 3e58e2598d02e41498a7022f37b2517c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_vent
+    second: {fileID: 2100000, guid: ffcaf4c5e2b4c48fc8f854f3197fcfd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_vent1
+    second: {fileID: 2100000, guid: b678f2b47d6244fe3b5cfc7ffdb70a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lai_23_ventkorstn
+    second: {fileID: 2100000, guid: 44d539b38efc74b56b59070535af755c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raasta_aar_L23_3
+    second: {fileID: 2100000, guid: 3e795b5838f1b47259029202630326ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: backwall1_L23
+    second: {fileID: 2100000, guid: e98dafce6465e48538ddab36f8037731, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: backwall2_L23
+    second: {fileID: 2100000, guid: 8af8e87716d87461a862d5d6ebccc179, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katuseaken1_L23
+    second: {fileID: 2100000, guid: 5d6e11b70ae8f489b9f1dec9ab41d172, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katuseaknapunane_L23
+    second: {fileID: 2100000, guid: 252184b0a75544dc5b92cec7d636bbd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai23_hoo_piirderist
+    second: {fileID: 2100000, guid: 0129088ffff504399b097d36d630ef9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai23_hoo_piirdetyk
+    second: {fileID: 2100000, guid: 44f99807288e34484a7cf7c3d90672cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lai23_hoo_piire
+    second: {fileID: 2100000, guid: 64a2e49ddb6f042a68d83cc0f3af3832, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linnateatrikatuseelemetn_L23
+    second: {fileID: 2100000, guid: d7308e828d30a41f3a8404908872dcb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linnateatrikivi_L23
+    second: {fileID: 2100000, guid: 6b7c254d0ccaf4d13bf62c776473e794, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linnateatrivarv_L23
+    second: {fileID: 2100000, guid: 479737d7bba1e4658869b19a7a672837, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orn1a_L23
+    second: {fileID: 2100000, guid: 9109572832e91401e88fc59ea3630669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orn2_L23
+    second: {fileID: 2100000, guid: 346ead53d41ab4a30a6042d669709ae5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orn3_L23
+    second: {fileID: 2100000, guid: ab481c90c7dca4b869fd0009258efa79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orn4_L23
+    second: {fileID: 2100000, guid: e6865c85c126b4fc0925b60b3e0adff0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rail_L23
+    second: {fileID: 2100000, guid: ac5af287b97e64237891bf75d6811563, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stones_L23
+    second: {fileID: 2100000, guid: 3ce94ff8f90cb427fbcc50d7fb684154, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taiestivaleuks_L23
+    second: {fileID: 2100000, guid: 6b9edc4382d324fd6a3845575f67b4b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: a9ed2cf19baa54547b1dce17eaf171bc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

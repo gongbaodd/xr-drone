@@ -3,12 +3,107 @@ guid: 531e30aa74b774ff78bfa8c90ff4f932
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Chimney
+    second: {fileID: 2100000, guid: e37f7c47a1778471d93c6af02a623626, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Door1
+    second: {fileID: 2100000, guid: f4cf8b54352134f3ba06f277e8c85fba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Door2
+    second: {fileID: 2100000, guid: aed77862b65a14540b2ccb174f4ffa94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Floor
+    second: {fileID: 2100000, guid: c0c3aadae0f2e4119bfe0fb758894591, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Roof1
+    second: {fileID: 2100000, guid: 853972ef2655f45dfaa66c6f67e169fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Roof1_Detail
+    second: {fileID: 2100000, guid: ad2b3e4f2f3f54da789f3949946e80e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Roof1_Underside
+    second: {fileID: 2100000, guid: ae70feed513fc4624bb46ebd70495fe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Roof2
+    second: {fileID: 2100000, guid: 1d540fa9aaffe4602baf6d5ea51c7d4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Roof2_Detail
+    second: {fileID: 2100000, guid: bce7314dade2b475e8082e60a0939c15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Roof2_Underside
+    second: {fileID: 2100000, guid: 0b8517ac7925c46f88e4e7cf17eebf75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Roof2_Window
+    second: {fileID: 2100000, guid: 19c58a1c279bd454f96e895d4186fc0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Stone
+    second: {fileID: 2100000, guid: 1aadba315bffc40eb8b0b57c403ad52b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Stone2
+    second: {fileID: 2100000, guid: 2b2d2533834cd44b1b7500ad3d12e3cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Wal2
+    second: {fileID: 2100000, guid: d8035e83fdb2b4fa28887c2b08b3edd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Wall
+    second: {fileID: 2100000, guid: 60cc632c4a25f4f6190701e3bf3e954f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Wall_Grey1
+    second: {fileID: 2100000, guid: 013e8f80665544d3886692b28c22bfca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Wall_Grey2
+    second: {fileID: 2100000, guid: 6d9d635c808ea4f91a12f7bbc5abf7fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Wall_Grey3
+    second: {fileID: 2100000, guid: 367dd9e7a190d4685a243e781cc12f07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estonia_pst_6_2_Window
+    second: {fileID: 2100000, guid: 278f7d0fef0bd4876a6fd2563c325622, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

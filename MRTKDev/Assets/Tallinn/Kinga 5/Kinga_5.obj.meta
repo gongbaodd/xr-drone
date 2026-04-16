@@ -3,12 +3,92 @@ guid: 4def33a6c47a0427c83bd616dd37c8e9
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex1
+    second: {fileID: 2100000, guid: b6251fa71d1de4a45984bacd51d74928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex10
+    second: {fileID: 2100000, guid: 7164be406a6844d84bcedc20631d9b7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex11
+    second: {fileID: 2100000, guid: 0235f73562c7f4fe5bbe1dd6952012da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex12
+    second: {fileID: 2100000, guid: 3a1c045dd301941f1aa37310930159d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex13
+    second: {fileID: 2100000, guid: 5300a05811bda4669a8690f0eb199ccc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex14
+    second: {fileID: 2100000, guid: b36d5c075452f440194f90a8df791366, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex15
+    second: {fileID: 2100000, guid: b004cc928dfbf42cb88a432d82695726, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex16
+    second: {fileID: 2100000, guid: e9cd6bcb950cb4463b627ed90295471f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex2
+    second: {fileID: 2100000, guid: 8a216031779194c7c82f93ed9a57a1ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex3
+    second: {fileID: 2100000, guid: a2e502f6e2b7542a6a7aa4d5f1cff0f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex4
+    second: {fileID: 2100000, guid: 595713c4230044928b1a82e8ababb01d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex5
+    second: {fileID: 2100000, guid: cf147f2a6a21d42cdbf5810ad2b43234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex7
+    second: {fileID: 2100000, guid: 17397c59be3144382a038022aebb8e62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex8
+    second: {fileID: 2100000, guid: 59f1bbb1ed52d4bf19ae4cb08b4fa4d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kinga_5_Tex9
+    second: {fileID: 2100000, guid: 38014961e05254b8db19212ece55f4ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: ab98a5559f0174badb687c5af1e2eb38, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

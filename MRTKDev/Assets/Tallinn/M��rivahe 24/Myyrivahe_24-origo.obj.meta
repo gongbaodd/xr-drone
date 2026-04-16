@@ -3,12 +3,187 @@ guid: 878fab255663d454dab520096043cf24
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_backdoor
+    second: {fileID: 2100000, guid: 9cb2c7c4b6535447189f9a58ebcd72b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_backhouse_win
+    second: {fileID: 2100000, guid: f86675710908b4838a1370631e787f10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_big2win
+    second: {fileID: 2100000, guid: 99a924cbe844248acac4a548e284a0b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_chimneyholesqu
+    second: {fileID: 2100000, guid: c027cfd2f235147cb96aeea2cd0f50ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_design
+    second: {fileID: 2100000, guid: 8f63a2d1b6662406694bc4f2fa70f855, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_door
+    second: {fileID: 2100000, guid: 55ce3405b6a584a288107bebb526be0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_downwalltex
+    second: {fileID: 2100000, guid: 4825bcb5f53c744888906ed015ba5344, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_frontsmallwin
+    second: {fileID: 2100000, guid: e3aa2b09ec29144abbe57e76cebf641f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_gate
+    second: {fileID: 2100000, guid: a37894c16bc184d7f9e19f23c3d7fe66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_housewalltex
+    second: {fileID: 2100000, guid: 5277b84c4417347a1b309544b1bcf7be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_lowerslanting
+    second: {fileID: 2100000, guid: fa8d2aac62b2644ce8758312eb4908c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_plekk_hall
+    second: {fileID: 2100000, guid: 1d653759dae0f47f18d859aba50112fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_plekk_pun
+    second: {fileID: 2100000, guid: 34bf52a964f764eff8b8afc3b916ee65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_redwalltex
+    second: {fileID: 2100000, guid: 3697392668d4347808f0ee69a9209c12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_roofslanting
+    second: {fileID: 2100000, guid: 3a05870df6316494682ea5d85a27964e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_sidebig
+    second: {fileID: 2100000, guid: 1f6eb2a6f10dc4f2dac522157965adae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_sidedoor
+    second: {fileID: 2100000, guid: 1c3f7ca48a908498bb0ddce68af1ca28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_sidehousesmall_win
+    second: {fileID: 2100000, guid: bbba50a28fe4048da9354727d3bd44c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_sidehousewindow
+    second: {fileID: 2100000, guid: 4ad0413850991410993b7e49d5a6b716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_sideupperwin
+    second: {fileID: 2100000, guid: 2441088de410e4d5f90ff5ea82656ae5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_sidewin
+    second: {fileID: 2100000, guid: d0b1a7e951d754333a06d62f46004db3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_signboard
+    second: {fileID: 2100000, guid: 617a669f70ef6477197fcd5a157b97e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_slanting01
+    second: {fileID: 2100000, guid: 548460e2ed5204c69aaeb435dbc3eb8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_slantingup
+    second: {fileID: 2100000, guid: 2dbde65091b80452ea917a2be07af01c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_upperwall
+    second: {fileID: 2100000, guid: a844f6693697b4b6a904bfee959e89e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_upperwindows
+    second: {fileID: 2100000, guid: 4d7e67cb36cb94ecdad9c8bdb58716ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_walldarktex
+    second: {fileID: 2100000, guid: 265510cb91c78422d8ea60d2a51ee30a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_walllines
+    second: {fileID: 2100000, guid: 760cf4dde0b024de69e69be5603b8766, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_walltexture
+    second: {fileID: 2100000, guid: c21d3f1a44e4b4e67acb06df5758943e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_white
+    second: {fileID: 2100000, guid: 0becd8cd399fb48a0bc471e268efd7e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_win_in
+    second: {fileID: 2100000, guid: 8dfa39b31f5e84c5ba2a104db479674c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_win_withangle
+    second: {fileID: 2100000, guid: 5d0be3cdf572842bbba42f117af2f7c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_winangle
+    second: {fileID: 2100000, guid: 637c41b2ec4854373b2bdc7c4001428d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_24_wooden
+    second: {fileID: 2100000, guid: f8995686a197a47f99398e1aea7b4d0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: e992fd04063034b1fb65f089dc8184e4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

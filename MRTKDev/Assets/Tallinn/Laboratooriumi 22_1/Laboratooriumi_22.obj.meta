@@ -3,12 +3,62 @@ guid: e2e7db6def4c34ec1ab62f0c04e6e884
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laboratooriumi_22_aken_1
+    second: {fileID: 2100000, guid: 29ff4c107b28d46bfae7b2b6c657a810, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laboratooriumi_22_katus
+    second: {fileID: 2100000, guid: ba50b2b673edd47949eff8c0bf7cb1b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laboratooriumi_22_paekivi
+    second: {fileID: 2100000, guid: 9f15e6187ba16405381f377453504638, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laboratooriumi_22_plaster
+    second: {fileID: 2100000, guid: bea9bd10814444db1b0463528857d4ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laboratooriumi_22_puit
+    second: {fileID: 2100000, guid: 87fa11d68602443808d96bdf86a49d38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laboratooriumi_22_uks_1
+    second: {fileID: 2100000, guid: 37c46394340e74fbca316e06eea8f489, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laboratooriumi_22_uks_2
+    second: {fileID: 2100000, guid: e6ad280706d7f4cc5935048a3c33676e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laboratooriumi_22_uks_3
+    second: {fileID: 2100000, guid: f2bdb952d98614b0aa9825110ad14e06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laboratooriumi_22_uks_4
+    second: {fileID: 2100000, guid: 3e70340b572584e49bdec3d1bfcb1dc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 62723671ea72949899580859b8f327d1, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

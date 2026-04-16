@@ -3,12 +3,152 @@ guid: 8a818def64fbb4d3c838d0e45af75a09
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_aken1
+    second: {fileID: 2100000, guid: 4930f1dfff1d0476aab6bfc853c853ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_aken2
+    second: {fileID: 2100000, guid: 573eb1c53b6dd4335ad6db1113b1ea60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_aken3
+    second: {fileID: 2100000, guid: c9dca78f0943641e986ad6d720808711, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_aken4
+    second: {fileID: 2100000, guid: bbb585420694641d88c1f33fc4ff84a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_aken5
+    second: {fileID: 2100000, guid: 84e0cf57183db49deacc126224b394fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_aken6
+    second: {fileID: 2100000, guid: 5be2bb2c38754410b8d9aa908db79b2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_beez_krohv
+    second: {fileID: 2100000, guid: 754eb4af030e6497a9ffa523712f84c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_fass2
+    second: {fileID: 2100000, guid: f82804cde524a4d7b97fa6f7330c19c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_fass3
+    second: {fileID: 2100000, guid: d277bf3d9df4e4282b0525e6a41f8737, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_fass4
+    second: {fileID: 2100000, guid: 3a735bbc2e5b548ce83092b39f5a33da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_fassaad1
+    second: {fileID: 2100000, guid: da7516c9e78064a8893c976bc588a6cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_hall
+    second: {fileID: 2100000, guid: ccfa327f08ad94e549510a7c7fa79064, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_karniis
+    second: {fileID: 2100000, guid: 7c8300d0b443b4bb6b046f818e6e0ce0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_kat_plekk
+    second: {fileID: 2100000, guid: 30504bc14b026429bb33ec67dde6f888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_katusekivid
+    second: {fileID: 2100000, guid: ca5d6bfedc9c043c4875b8016e94597e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_ker2
+    second: {fileID: 2100000, guid: 7356ee11ef7884059abe058cc8bd9dd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_krstn
+    second: {fileID: 2100000, guid: a00951c59313943d790cd01661edf54c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_metall
+    second: {fileID: 2100000, guid: c920ba73959b24199a4af10cf0d289d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_myyriuks
+    second: {fileID: 2100000, guid: dac73c51a1c4049198b591bccf20512b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_punane_plekk
+    second: {fileID: 2100000, guid: 0f24634ee4fa240debdadf27b75e347a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_trepiastmed
+    second: {fileID: 2100000, guid: 4bd473bc7688541a6b1415ae558e96b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_trepiastmed2
+    second: {fileID: 2100000, guid: 4a3e5a7dffb2a47d8a734c818b675d9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_trepipiire
+    second: {fileID: 2100000, guid: 28e0d723d55f34750a697146656295e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_trepipiire2
+    second: {fileID: 2100000, guid: 908bdf578611c462fbec04f3e57da477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_uks1
+    second: {fileID: 2100000, guid: 7934b5a6f231b4caaacdb6e40fafe55f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_uuk1
+    second: {fileID: 2100000, guid: a00eddde57070411e9e83d4b12afd540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Krk2_valge_krohv
+    second: {fileID: 2100000, guid: 0be5a79836d634fd9ae8e5e111fdb3bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 8ae56eb42412f410aa162baf6a4c935c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

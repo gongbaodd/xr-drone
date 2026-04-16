@@ -3,12 +3,47 @@ guid: 31fcbe7eff03447c9804acc6cccad127
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste_6_DdirtyConcrete
+    second: {fileID: 2100000, guid: cab63e612f7de4174a04753677ec4cde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste_6_aknaduksed
+    second: {fileID: 2100000, guid: 47179eb4f05574656a7de8e8c96c4a2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste_6_himney
+    second: {fileID: 2100000, guid: 1cc43a149de7a44aab0ed80115848d71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste_6_roof
+    second: {fileID: 2100000, guid: 0c8d4dd31f28d478ca08165a23b5fe7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste_6_sein
+    second: {fileID: 2100000, guid: 761536dc741944a27a911274d2db8abe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Niguliste_6_whiteConcrete
+    second: {fileID: 2100000, guid: 8c122f2053dd948cdb7b90b9a13fb4cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 5bea3db626fae415797e6e6e6cc71e75, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

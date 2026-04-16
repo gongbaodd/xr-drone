@@ -3,12 +3,117 @@ guid: b18f6a8873a044ed7a6a770b4a310c1f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__43
+    second: {fileID: 2100000, guid: f6346ae5388974334af7a937c31bdf4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__430
+    second: {fileID: 2100000, guid: 9ec599c849ee44a08a7281b256a0cada, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__54
+    second: {fileID: 2100000, guid: efbc240af50764b55b13f5b3ba75d2bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__55
+    second: {fileID: 2100000, guid: d7ea866d7b3594d1eb3ad684fe6f267f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__56
+    second: {fileID: 2100000, guid: ecb63c863a5264cf68eab4b09497d0b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__58
+    second: {fileID: 2100000, guid: 40daf1e56537045bcbf07eb960537ab8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__59
+    second: {fileID: 2100000, guid: 7880c2c0694d6439098f6c68689b3e16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__60
+    second: {fileID: 2100000, guid: efc4da5990baa458495ac9257302db41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__61
+    second: {fileID: 2100000, guid: fd3bc07a561714f519331a0c76bb1e5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__62
+    second: {fileID: 2100000, guid: d2c33b8e353a14bc7a747cf03f829b82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__620
+    second: {fileID: 2100000, guid: d1bc3a101dd3b4894b1b91c3ff2087ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__621
+    second: {fileID: 2100000, guid: 9e4070392b66349a3aa6d748954a1e0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__622
+    second: {fileID: 2100000, guid: da712d5d9deca428e871e14823f890d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__623
+    second: {fileID: 2100000, guid: 9071dc0a646164d09934bdcede10678c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__624
+    second: {fileID: 2100000, guid: fffe1a3114d124c6aa5e436e3ed9b298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__625
+    second: {fileID: 2100000, guid: ec0f812e42944441d9771cf64c6184a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__626
+    second: {fileID: 2100000, guid: 26e99bb39092a465aab6c90fb3ed93bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__69
+    second: {fileID: 2100000, guid: 9603069e1571b44d5b851c4bfbff3f71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__72
+    second: {fileID: 2100000, guid: 04f79d2e2f3934e8b9dd8441dad6417e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kr_kol
+    second: {fileID: 2100000, guid: 55c413b1b475248948579c15589c52d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paekivi
+    second: {fileID: 2100000, guid: 39c01232422614c8998547b4e6c6f8f3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

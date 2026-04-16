@@ -3,12 +3,107 @@ guid: f2d9f970e04fc4883996d1f002c3f8f8
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K6_klaaskatus
+    second: {fileID: 2100000, guid: 265836acbe5e84f77a29c904f659db0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_aaris1
+    second: {fileID: 2100000, guid: 719a078edc7ee4736b1d5069f4cea7ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_door1
+    second: {fileID: 2100000, guid: 51002cca7a8294695b7e9754211ec7b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_door2
+    second: {fileID: 2100000, guid: 712eb07907d7a4d2294b3cbb939653a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_door3
+    second: {fileID: 2100000, guid: 7cd567da683ca4fc6941a190c96d94bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_misc1
+    second: {fileID: 2100000, guid: 9922e7c7a8bef40389336591bcacdbd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_postike
+    second: {fileID: 2100000, guid: 27ac29bb6c70b4947b81df337c60409b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_roof
+    second: {fileID: 2100000, guid: 968ce2a27c85d4961a8d28b9cdc99571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_wall1
+    second: {fileID: 2100000, guid: 1151d4eaa528f4e3ba8ce08db39ebf52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_wall2
+    second: {fileID: 2100000, guid: 34ce4c75aa44242098c9ddb6669536aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_window1
+    second: {fileID: 2100000, guid: 38171cc46cffa412dac7e63aaded10c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_window2
+    second: {fileID: 2100000, guid: 492278502091143e38181f7343860d02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_window3
+    second: {fileID: 2100000, guid: de44754f9628640ec90c679b0eb6ee85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_window4
+    second: {fileID: 2100000, guid: 5b864338710c3468ab4144102bd578a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_window5
+    second: {fileID: 2100000, guid: 0c231ff856cc24523bedc6ee5f45ba16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kohtu6b_window6
+    second: {fileID: 2100000, guid: e2aa346c3108545918d133d435f6b98b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kohtu6b_tellis_hall
+    second: {fileID: 2100000, guid: 6e0fae93f5d0842b4afa7e61e41e10f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korsten_K6
+    second: {fileID: 2100000, guid: 7aa0a1c41f73948ada531663d6cee33a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 188668a7b6cc84862b35bf04402d86c2, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

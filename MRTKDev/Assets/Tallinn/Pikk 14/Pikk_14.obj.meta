@@ -3,12 +3,147 @@ guid: 75893a272c6724f03b9987cac42cb3d6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: a270001d72669400e8ce57b173c16acb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_1K_aken01_jpg
+    second: {fileID: 2100000, guid: b8f8d2d00cbf544b7821546b066bf96f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_1K_aken02_jpg
+    second: {fileID: 2100000, guid: 6f987fe6b0ce54362b4f413b08947908, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_1K_aken03_jpg
+    second: {fileID: 2100000, guid: 08c98f4225c2244a39bfe1689e48d84c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_1K_kapiteel_jpg
+    second: {fileID: 2100000, guid: 600d91d1cd48f49c0ad2a8e045a6b9bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_1K_sein01_jpg
+    second: {fileID: 2100000, guid: 1cc423bcab8d1470ea6266689c0b6de5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_1K_sein02_jpg
+    second: {fileID: 2100000, guid: 273ec3a73aa834fce9eb04a32e95bd3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_1K_sein03_jpg
+    second: {fileID: 2100000, guid: 2f908fc2439b244e2addacbddc806e8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_1K_uksV_jpg
+    second: {fileID: 2100000, guid: 3961c49640c834822a114562a7c34a56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_1K_vundamentTile02_jp
+    second: {fileID: 2100000, guid: e0f9b1a83d63342318eca6e173b9fa73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_2K_aken_jpg
+    second: {fileID: 2100000, guid: d797279777cec4b169a1988087a5dd46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_2K_seinTex_jpg
+    second: {fileID: 2100000, guid: fcc0234fa53834c589c1331297382f41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_4K_aken_jpg
+    second: {fileID: 2100000, guid: 5334ff1757e614f299025c3afd5a9ef9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_4K_kapiteel_jpg
+    second: {fileID: 2100000, guid: 00d0e093e6c5743cf8d9e4b123fdcc71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_KatuseAken_jpg
+    second: {fileID: 2100000, guid: 3dba073cf014245d696e62f7040ee88d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_katus02_jpg
+    second: {fileID: 2100000, guid: 3dd6aca72cd1e491c9bd31f9010ae33a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_keldriUks_jpg
+    second: {fileID: 2100000, guid: 550d56e612ee04ec6a9d7adf450ce4db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_korstenTop_jpg
+    second: {fileID: 2100000, guid: dab5b7630c6a84050b828e42ebf00746, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_tinRooflet_jpg
+    second: {fileID: 2100000, guid: 99abe1773dfe94e928314dbb2c01690c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_trepp01_jpg
+    second: {fileID: 2100000, guid: 02ef6657c9b104f28a2b9459f928d6a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_trepp02_jpg
+    second: {fileID: 2100000, guid: 90e0a41f6e8c042b6a5be97bd6938e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_valge_jpg
+    second: {fileID: 2100000, guid: 2ba7939f023a047d69b01c20c27b5ce1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_valuuta_aken_jpg
+    second: {fileID: 2100000, guid: c3212415ec26d41cab83cbbf72088ebf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_valuuta_kapiteel_tile
+    second: {fileID: 2100000, guid: 825473d70b95447f49f0d35ebae6a2a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_valuuta_mustServ_jpg
+    second: {fileID: 2100000, guid: f2c86a5e7fc224e8c917d2d4e3bd0ee4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_valuuta_pruunServ_jpg
+    second: {fileID: 2100000, guid: 3260b69f056f849b7ba34189d9ca3139, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_valuuta_uks_jpg
+    second: {fileID: 2100000, guid: adef954247e994abfb47bb397a8ba017, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

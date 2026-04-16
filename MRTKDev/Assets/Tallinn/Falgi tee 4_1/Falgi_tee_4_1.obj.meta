@@ -3,12 +3,107 @@ guid: b28d86e10cb3d4042b60c548b9b0189a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_aia_puit
+    second: {fileID: 2100000, guid: 33d3f60eafb70488ba24967393574e4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_aken1
+    second: {fileID: 2100000, guid: acdb717525e6440e4a00ad3c334274bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_aken2
+    second: {fileID: 2100000, guid: a34d59e200554476bac0d98fdeaa59eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_aken3
+    second: {fileID: 2100000, guid: 80d897062d705496184ba6bc53426a73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_aken_uuk
+    second: {fileID: 2100000, guid: 3ad25a7ca85384830a80905b44ed7cec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_betoon
+    second: {fileID: 2100000, guid: 6ea17553429664026bb216ee66137e3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_karniis
+    second: {fileID: 2100000, guid: 6acf5466d3bdb4d1580a6dcda7e24224, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_krohv
+    second: {fileID: 2100000, guid: 2bf14f5fa84544bd09cab4c4b3c58f85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_plekkkatus
+    second: {fileID: 2100000, guid: 0184f37e248c541ca9b5df1618a1e560, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_raudpits2
+    second: {fileID: 2100000, guid: f891c515d73e54cdf98a7c1e964ee229, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_raudpits3
+    second: {fileID: 2100000, guid: 9f4de59b7166f4d46b90e6b750609654, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_sokkel
+    second: {fileID: 2100000, guid: 80795b6b7ad7e47b9b4ff6ca612dafaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_tellis
+    second: {fileID: 2100000, guid: 86e8f9ff627744705b53c7948a5122ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_uks1
+    second: {fileID: 2100000, guid: cdab727cefaeb4c74b0690b8733ff092, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_uks2
+    second: {fileID: 2100000, guid: bf25fc59baa5041d1b0f006407f733c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_uks3
+    second: {fileID: 2100000, guid: 876c9c00261f843f495f6965ed2c0e2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_uks4
+    second: {fileID: 2100000, guid: c612885063d14467c89543c185b23861, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ft4_uuk_eest
+    second: {fileID: 2100000, guid: a090d630b9abb4e47b836c86c8a3c937, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KORSTEN1_auk
+    second: {fileID: 2100000, guid: 2bb905663638f4119b0fb40bac99d36b, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

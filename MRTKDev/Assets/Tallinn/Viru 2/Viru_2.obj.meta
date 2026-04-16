@@ -3,12 +3,227 @@ guid: 9cdd5f10e16af40fbbadd26cf68061cc
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arc_Mat
+    second: {fileID: 2100000, guid: 3cca99e9daea240bd9a1b4d758c4371e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arc_win_Mat01
+    second: {fileID: 2100000, guid: c251148479ccc49e29f8ebfbf219170d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cornice_Mat01
+    second: {fileID: 2100000, guid: 64f99cf3c99d440ad84964d8574206bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cornice_Mat02
+    second: {fileID: 2100000, guid: 105749524f09b4e4bb3b09c97fa4d832, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: detail1
+    second: {fileID: 2100000, guid: 96ccb980813a746d5b6e6b961e00b7ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_Mat
+    second: {fileID: 2100000, guid: d377aee52c45b471f863c5d83f46944a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_Mat01
+    second: {fileID: 2100000, guid: 2a865d266c8b74838aa364253b8a3a8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_Mat02
+    second: {fileID: 2100000, guid: 5a96628a90a554e9aad6e6f8f854ce34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_arc_Mat
+    second: {fileID: 2100000, guid: 578043dc5ff804f7e92a375fcd13347a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_step_Mat
+    second: {fileID: 2100000, guid: 316e7134c6b83442c920bbf69c334b59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: facade_Mat01
+    second: {fileID: 2100000, guid: dfec0971757734ddabf7394a5cf5d452, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: facade_Mat02
+    second: {fileID: 2100000, guid: ef4dd2553b03a4442b7ce5809f16234e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flag_Mat02
+    second: {fileID: 2100000, guid: ee4ff2afb9e2e4c37be9c6f2b6846972, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korsten
+    second: {fileID: 2100000, guid: 4144d3d9c8c264ed0918251c6c6edc0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lower_win_Mat01
+    second: {fileID: 2100000, guid: 73b3bfa16d8934b35abd676851d4f127, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lower_win_Mat02
+    second: {fileID: 2100000, guid: 47c87152a46814052bec980e07906afa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mid_frame_Mat02
+    second: {fileID: 2100000, guid: d7fe8d1c6e0bc4a86af93a2445516273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mid_win_Mat
+    second: {fileID: 2100000, guid: 2bb204430101140c19bc5ac0ef1f8613, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rail_Mat
+    second: {fileID: 2100000, guid: 8cc3eaa7f5b184d4d97849f056ce8417, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: railings_Mat
+    second: {fileID: 2100000, guid: a8885caa682454b148e91bde94a1a297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red_roof
+    second: {fileID: 2100000, guid: 45ec1aed37c7b4eec88b5e17e5d1aa22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_Mat
+    second: {fileID: 2100000, guid: 79897a18f4de9494ba0f4d745b8df9fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_Metal01
+    second: {fileID: 2100000, guid: 6fa5240d2adf64fda8d6d5b7e41d2a1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_cornice_Mat01
+    second: {fileID: 2100000, guid: 6f1b221e7bc1a48d58d440eb41772a83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_cornice_Mat02
+    second: {fileID: 2100000, guid: 8bd8b18d5e3274ebfab9b77f002d4df5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_cornice_bottom_Mat
+    second: {fileID: 2100000, guid: 1c5d236de4ab04b19bd97d82ffa1588b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_cornice_front_Mat
+    second: {fileID: 2100000, guid: edf3311f767754760ad347e9be125aaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_spire_Mat
+    second: {fileID: 2100000, guid: e6c6434926f274d84a09b00b29c9c4a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_win_Mat01
+    second: {fileID: 2100000, guid: 3ffb3a69c83e94a2ebe16b4f52b8fea2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruberoid
+    second: {fileID: 2100000, guid: 7b547061aa3c6432da7eda4943fac529, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steps_Mat
+    second: {fileID: 2100000, guid: 25b9f42ea9f7d40378027bc2760632c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steps_Mat01
+    second: {fileID: 2100000, guid: 27092f0ae635d4693aaa27974aa57aa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steps_Mat02
+    second: {fileID: 2100000, guid: 2842fb8e955294cdc86f3104672ea17f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: upper_win_Mat
+    second: {fileID: 2100000, guid: 2243b1420285648c1905e37fe5ffb165, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_wall
+    second: {fileID: 2100000, guid: f0adfb161505d4176bcc0fd9adc2d559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: win04_frame_Mat
+    second: {fileID: 2100000, guid: 13b92f74f8164414786bebc1bb57d3d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: win06_frame_Mat
+    second: {fileID: 2100000, guid: 840090fc0898443b78385f7e1a4bb33f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: win06_sides_Mat
+    second: {fileID: 2100000, guid: c49a90494036d4650b617bd68122c5b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: win_Mat03
+    second: {fileID: 2100000, guid: 57d10fcdc841940e6a17a21e646b5560, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: win_Mat04
+    second: {fileID: 2100000, guid: 778c0c3d191774b21a6212e110275853, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: win_Mat05
+    second: {fileID: 2100000, guid: 875334ece179c4a03b1345e087375784, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: win_Mat06
+    second: {fileID: 2100000, guid: 025b8736eeb4d4a45bb9b29ff548d1f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 6ad4a58915b3e4262bb14b652d940d57, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

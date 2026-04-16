@@ -3,12 +3,112 @@ guid: b8bbb5c8de3384da8abfe29fafb4d04d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_001
+    second: {fileID: 2100000, guid: 5fa057dbf5c394ec6b58d7e6776ded22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_10SG
+    second: {fileID: 2100000, guid: 015bb117ed03f48ff86de0d6c87b2eb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_11SG
+    second: {fileID: 2100000, guid: a2ffee9b9399c4c5aa5968f6e8fc7010, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_12SG
+    second: {fileID: 2100000, guid: c585516ad52a34d629b663250ec307ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_15SG
+    second: {fileID: 2100000, guid: 37734c77709724ea18748a0c39f0b193, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_16SG
+    second: {fileID: 2100000, guid: df8e3d160e9c2456bb137cf245e3b544, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_17SG
+    second: {fileID: 2100000, guid: 2c7b1b7a758a34665aee1d02866df7c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_18SG
+    second: {fileID: 2100000, guid: c07973eb0bdca4860838ac79dac73763, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_19SG
+    second: {fileID: 2100000, guid: c26720d7f2da345ca8626426dc8d023f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_20SG
+    second: {fileID: 2100000, guid: 05f46f7f06f7248cdb091059fca46d8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_21SG
+    second: {fileID: 2100000, guid: dd584c512afde4c1faf71249f7fe6501, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_22SG
+    second: {fileID: 2100000, guid: 300b603dcdf3147f8aa862c2d105c507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_23SG
+    second: {fileID: 2100000, guid: e8a950875eef44f80b92e9c026000d39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_24SG
+    second: {fileID: 2100000, guid: b4387ea7286bd4424b5b3762b174d83a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_2SG
+    second: {fileID: 2100000, guid: dbb81680991cc44af8de138c536c7887, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_5SG
+    second: {fileID: 2100000, guid: 40c921deafc3d43f2ab5b5a21c2050d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_6SG
+    second: {fileID: 2100000, guid: 9f297484e0ab04dff825cb03428427ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_7SG
+    second: {fileID: 2100000, guid: 1f87a6d57ab3949ea868c11f4e3b4295, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_8SG
+    second: {fileID: 2100000, guid: e15b7672c8a48484f9e0a4a0bd004c48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkri1_traste
+    second: {fileID: 2100000, guid: ad85f0a95ddfa4fd8951bf3df05767b3, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

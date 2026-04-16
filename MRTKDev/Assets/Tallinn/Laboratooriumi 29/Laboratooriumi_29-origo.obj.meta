@@ -3,12 +3,52 @@ guid: abc8a6bed4c9d4503bab5c689a30122f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__4
+    second: {fileID: 2100000, guid: 40fa61874c14940d1b2fcdbce98bf7f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1___TowerDoor
+    second: {fileID: 2100000, guid: 01785df994824494ca159fe40ba286f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2___DoorArch
+    second: {fileID: 2100000, guid: 12a5459d60fa44ac1883314c2bfa28fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _3___stone
+    second: {fileID: 2100000, guid: ed40c5510347a47ce8c0ae5dcae55e3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4___roofOrange
+    second: {fileID: 2100000, guid: cde2fa59037aa4e5788c5bef11828d55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _5___Window
+    second: {fileID: 2100000, guid: 07103e734c2f7420089fa2bef5f918b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _7___Chimney
+    second: {fileID: 2100000, guid: 273b021c321c541188050046f967c1a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _8__Roof__Metal
+    second: {fileID: 2100000, guid: 12a906c7e1bdd4de5951e954cc070e03, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

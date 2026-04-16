@@ -3,12 +3,57 @@ guid: 36fbc9afb9a3f4dbeab4bdeee46e512f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 48_aken
+    second: {fileID: 2100000, guid: 1175d714532014f65abdd080f0afdba4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 48_aken_ymar
+    second: {fileID: 2100000, guid: db0c9cf4695164f0a95db45ba3be8ae7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 48_luuk
+    second: {fileID: 2100000, guid: a350bb3d39dfa4ecbaf15bb1f881069a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 50_puit2
+    second: {fileID: 2100000, guid: e1e7a7cfce10d47ad914e13413f23fe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Det_3
+    second: {fileID: 2100000, guid: 12ef87b42e05f4c4f80ee4bc0ac0cf1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katus_kivi
+    second: {fileID: 2100000, guid: 5894189fdcd2b4aef9628b719c612313, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krohv_valge
+    second: {fileID: 2100000, guid: d49407bbe20e14ce0936147e678cf135, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paekivi
+    second: {fileID: 2100000, guid: 07641aeb9d5954fd6a64beb6d5fa7a90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 56921b756005f47369f4398fa3e95113, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,77 @@ guid: adbd783245bc64fe6aeecbe3b3bf3219
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door2
+    second: {fileID: 2100000, guid: 5c499d17013304c2dbe410380d53b784, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab23_brick_yellow
+    second: {fileID: 2100000, guid: bb3c0c74f3bac4a9c9821fae558e5ec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab23_chimneytop
+    second: {fileID: 2100000, guid: bdc0e7c1d1af247198fff019f55edaff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab23_color01
+    second: {fileID: 2100000, guid: 7a27fe96dbb464c1ead18b1977f86cbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab23_color02
+    second: {fileID: 2100000, guid: 64371b642d4c34af69fa5e528a9420b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab23_door01
+    second: {fileID: 2100000, guid: e58f55c0f3c8947e29e4517d7c00d0d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab23_door02
+    second: {fileID: 2100000, guid: e886e0e2bf95448479dc9587109823cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab23_droonerdoor
+    second: {fileID: 2100000, guid: ee6d4a0d688ff4a9985db01eac016f3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab23_katkivi
+    second: {fileID: 2100000, guid: 71b72f70371d34936b70f4312fe36d04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab23_slate_10
+    second: {fileID: 2100000, guid: cd635fbb30a7848f8a151bebe32f8818, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab23_window01
+    second: {fileID: 2100000, guid: 71b91ed281a7f49b9bf56624ca0bc891, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab23_window02
+    second: {fileID: 2100000, guid: 8bf8213067eed4c04a9d8936cebfada1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab23_wood01
+    second: {fileID: 2100000, guid: b7340d7621de3441bafbaf2ccf801aa4, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -3,12 +3,37 @@ guid: 8aa39ab72e2804149bf826d6c4ebc5b4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_8_2_katusekivi
+    second: {fileID: 2100000, guid: 8603876bfa40345b199251ed334683bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_8_2_katuseplekk
+    second: {fileID: 2100000, guid: 8d2032ed7e35e40f6ac5aa53fb0c2472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_8_2_seinad
+    second: {fileID: 2100000, guid: 94453f0b5d9d045a28825f94c96b4896, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vene_8_2_valge
+    second: {fileID: 2100000, guid: 8b27b8ac534684748a5cd392d7a0ebf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: ce033948e06d84e9e98ba957206acb8c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

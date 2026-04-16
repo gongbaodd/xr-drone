@@ -3,12 +3,152 @@ guid: c34a5fc5cfab747e0988aa773b1859a2
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__1397
+    second: {fileID: 2100000, guid: d59b819f0c30a404096471a54565fb1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex1
+    second: {fileID: 2100000, guid: e2752869d19b64ba8ba14cee7df5ac24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex10
+    second: {fileID: 2100000, guid: 182e99fd4934247298d17723fe50e5d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex11
+    second: {fileID: 2100000, guid: 33cb401fcf6a34333ab78b15235eae98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex12
+    second: {fileID: 2100000, guid: ebedd70c20e0a4734bd99ce0fd03261b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex13
+    second: {fileID: 2100000, guid: 293d89a0bbf0d4631ba0a3f7e2e0befa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex14
+    second: {fileID: 2100000, guid: a6f88721c752c4249af19dbfecabfb21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex15
+    second: {fileID: 2100000, guid: 7e701c94256304a04a4e6b283d43330d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex16
+    second: {fileID: 2100000, guid: a19e17476239340068026d5deb1175e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex19
+    second: {fileID: 2100000, guid: 1ba8f3be4a6394976be2765dbec0c97c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex2
+    second: {fileID: 2100000, guid: f8c471c001e3f48ab9849d8a3477ff59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex3
+    second: {fileID: 2100000, guid: c61334a74010f456f97b8fd806772e01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex4
+    second: {fileID: 2100000, guid: c8c09e240debc40608bc54c961c5ac38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex5
+    second: {fileID: 2100000, guid: 5ec002fbad14f4fa5b316b8d24d9c7dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex6
+    second: {fileID: 2100000, guid: 39c735c23780e40d3ad0faa426dd7ee3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex7
+    second: {fileID: 2100000, guid: 3aa69ada68883454f82d8b00d9ad547d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vana_Viru_tn_13_tex8
+    second: {fileID: 2100000, guid: 7b2387dc4cd7b424ba544aba5c3b0101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: betoon
+    second: {fileID: 2100000, guid: f4ea9793d242f42d0b7e6692d7ef0e91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: klaas
+    second: {fileID: 2100000, guid: 4272abf8acc554d788ddc0308ab19d35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orn1
+    second: {fileID: 2100000, guid: f95d4058c63dd49b6a9cfe385a41695b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orn2
+    second: {fileID: 2100000, guid: 478e21606fac0463a9b786c7ed6401a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orn3
+    second: {fileID: 2100000, guid: 37cf5d94c30cf42abad3cc0338163010, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv13a1
+    second: {fileID: 2100000, guid: adfa0d882fa9b48759ce1fda7a5e68f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv13u1
+    second: {fileID: 2100000, guid: 8e6024346dcd54117b3a35982b2b72f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv13u2
+    second: {fileID: 2100000, guid: af36a1475426049cdae06b9ce1520fd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv13u3
+    second: {fileID: 2100000, guid: 4718d1c5133094983a785b7ce1621c31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv13u4
+    second: {fileID: 2100000, guid: 47a1df99185b34ad9bd6a55358bf052b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vv13u4b
+    second: {fileID: 2100000, guid: daad09d56da91438b8ac454c8fcd6269, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

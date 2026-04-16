@@ -3,12 +3,122 @@ guid: 6675288bd51454559b74aedaf18ca74a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_05
+    second: {fileID: 2100000, guid: a45227042a60941599a50925d9726c2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_10
+    second: {fileID: 2100000, guid: 57dec00cfdd7f4cb3b03b5b43c3d8b13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_11
+    second: {fileID: 2100000, guid: 40d914e2d08a74313b46cf947f9a7a98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_12
+    second: {fileID: 2100000, guid: d95237480ad4d4d26896fe7f1ab8fd17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_2th_fl_win
+    second: {fileID: 2100000, guid: 2e043d1303ee84240957e89c0f838404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_2th_fl_win_sg
+    second: {fileID: 2100000, guid: 65ba1589ab8df4ee0a069fee6770294d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_attic_win
+    second: {fileID: 2100000, guid: bbc73186b6fc84ea9982d0a183ffc9e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_big_win
+    second: {fileID: 2100000, guid: 20cbec2e4b3654181bfafbdf1fa006d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_black_patch
+    second: {fileID: 2100000, guid: de0eff57dfb8f40308369d8d72945849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_chimneys
+    second: {fileID: 2100000, guid: 5789a8c566c9347d4ab9fa3c765ae27b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_dark_grey_plaster
+    second: {fileID: 2100000, guid: 4bdd0aac189bf4da8aad645c842161f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_green_edge
+    second: {fileID: 2100000, guid: 006535d0224db43c58f5e8282fe27d7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_grey_plaster
+    second: {fileID: 2100000, guid: a49be2375f7834b6a8121f0fd9e71120, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_griddy_win
+    second: {fileID: 2100000, guid: db3f79ce940944f94b50e46f269ce52f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_kat_pl
+    second: {fileID: 2100000, guid: 7fefdb204d192488eb8583ff4272b946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_main_door
+    second: {fileID: 2100000, guid: 8963409aec5904a4bad41c01cac06d1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_orange_plaster
+    second: {fileID: 2100000, guid: 46ee522238fe8455ca5793a071472aad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_patches
+    second: {fileID: 2100000, guid: f7ece05d0ecde4ef59c07daad3117cf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_portal
+    second: {fileID: 2100000, guid: 998b98a072703486696a72b5f9f5a08e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_roof
+    second: {fileID: 2100000, guid: d5a09b9f4d3494ebc8046bca7538c0d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kun_6_step
+    second: {fileID: 2100000, guid: cf836f3dd60704a109734b6fce86a85b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 07141bd9af88d421482a83958a5a27c6, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

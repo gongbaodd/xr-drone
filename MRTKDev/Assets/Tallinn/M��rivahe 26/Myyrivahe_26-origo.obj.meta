@@ -3,12 +3,112 @@ guid: d1c1a1ee9bc9a495b813d4c71a935adc
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_0148
+    second: {fileID: 2100000, guid: 3b4d55b71a79d49988c4a0414c206d41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_0149
+    second: {fileID: 2100000, guid: de2805dcc68ee4fb283d48222442dfa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_0149_01
+    second: {fileID: 2100000, guid: d96f6d28faa4f4baab235315f9485647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_0149_02
+    second: {fileID: 2100000, guid: 17f0a43490de741d1b10ed2a7bde828f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_0149_03
+    second: {fileID: 2100000, guid: 8c17da8330be14bfca19c714e3b70d7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_0151_01
+    second: {fileID: 2100000, guid: 4d567aed880dc47049e38c7a3f308904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_0152_02
+    second: {fileID: 2100000, guid: b4fd9134b48f94c539961c2a1726cc4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_0153_01
+    second: {fileID: 2100000, guid: 8dcc7a87ca3504abcabd252f3ab46f77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_0154_01
+    second: {fileID: 2100000, guid: bd9f51e8f4d1941d6b40592dcb526fa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_0155_2
+    second: {fileID: 2100000, guid: e21aab1769d4c4d0791ae189a78663de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_chimneytop
+    second: {fileID: 2100000, guid: e51a7e192821b4b70a0421281ab60d1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_color02
+    second: {fileID: 2100000, guid: 68d6c0a0362814d0cbc323b2af0d1f0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_color_01
+    second: {fileID: 2100000, guid: b612dc923da484fdab0019f20d881ca8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_kivid01
+    second: {fileID: 2100000, guid: d705aec866a61487db9c241a99612ca7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_krohv_hall
+    second: {fileID: 2100000, guid: dcb02a1d846534c46bd6995adaca02ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_krohv_vlg
+    second: {fileID: 2100000, guid: af088b3c4abfa4cfab3d93d7749d5647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_ktplekk_hall
+    second: {fileID: 2100000, guid: d42b48de21cd747ba8e31050103e337f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_paek01
+    second: {fileID: 2100000, guid: a8ee20f2c230146c996beea8a06ce606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_piire01
+    second: {fileID: 2100000, guid: 786fa3622a5d04871ae665f9fee8a796, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myyriv_26_window
+    second: {fileID: 2100000, guid: d3ee011c2a808436ba1c9f960691446c, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

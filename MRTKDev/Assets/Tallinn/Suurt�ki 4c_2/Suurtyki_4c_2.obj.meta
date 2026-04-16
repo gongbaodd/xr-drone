@@ -3,12 +3,107 @@ guid: 8720effc8ac124fffae6327aa15f6594
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__1545
+    second: {fileID: 2100000, guid: 54ca52233f273491f815d50704255bf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__1547
+    second: {fileID: 2100000, guid: 09c778d11f4e64622914261a0a441c22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__1745
+    second: {fileID: 2100000, guid: 2822261d32f37431ba0db13f2cfee087, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__1802
+    second: {fileID: 2100000, guid: 9d5c87b42c971414193140ecd92b7cd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__2170
+    second: {fileID: 2100000, guid: f918747ade9574c7ca3b57ddc26ad367, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__582
+    second: {fileID: 2100000, guid: fdc4fecc308094bb388b51859a73d695, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhiteWal
+    second: {fileID: 2100000, guid: 5c46506466e0d432996d9e65db2cc921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0___StairTop
+    second: {fileID: 2100000, guid: ec4b6e41c964648339159a97a3fba9c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0___Win_1
+    second: {fileID: 2100000, guid: e5146c6762e8743edb38060cb174334a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1___DoorShield
+    second: {fileID: 2100000, guid: ec9aae93466e441dc994340e1d9023fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1___DoorShield0
+    second: {fileID: 2100000, guid: b32a282a6866440d08a7dc2be06aec8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1___Door_1
+    second: {fileID: 2100000, guid: 40ef37aaa56c4430c9e7624ba478b8ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4___roofWin
+    second: {fileID: 2100000, guid: 24b3add970d05499195e5a073142aa35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _5___facongRoof
+    second: {fileID: 2100000, guid: 3e92c3912cf6e4669ac71b6f3b808e1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _7___3Step_stone
+    second: {fileID: 2100000, guid: d26836206923f46949dd3f1e9f033571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _7___Chimney
+    second: {fileID: 2100000, guid: 94dabf1c23c5248228ac9d14fd070d1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _9___Big_win
+    second: {fileID: 2100000, guid: 4ea54cd9e36ab4f15b5cf28f68d55a6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ewgg
+    second: {fileID: 2100000, guid: cc63e96bc19f3407fb65ebfdcb76e074, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 13d71173bd4a645ea9d6814ce8590910, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

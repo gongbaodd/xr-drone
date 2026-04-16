@@ -3,12 +3,62 @@ guid: e37115ea6e859416a80174fe045edd21
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Lai50_2
+    second: {fileID: 2100000, guid: fc3ce885d349544668291dfc69f95b17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gutters_Lai50_2
+    second: {fileID: 2100000, guid: c0033412c573a48439d7f2c3ccfc6da8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L50_2_WindowTrim_Color
+    second: {fileID: 2100000, guid: 344e486593d774a7381d89353a37ca88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L50_2_chimney
+    second: {fileID: 2100000, guid: b9066892105304fed8a2d9a70881a823, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L50_2_concrete01
+    second: {fileID: 2100000, guid: 8416a2560dd704d7fa06a395ac71d6c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L50_2_dark_grey
+    second: {fileID: 2100000, guid: 74d80c6eb4cb34c09877d3cc6edd8571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L50_2_roof_red
+    second: {fileID: 2100000, guid: 875b036fd0e64466ca2b278be6ad1f9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steps_Lai50_2
+    second: {fileID: 2100000, guid: a19d03d1ff18f43239866d02259414cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_Lai50_2
+    second: {fileID: 2100000, guid: 39fd29514c37c4b6fa0b855924fa3325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: ede97474dbf1b4a3daf601815ea5ca51, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

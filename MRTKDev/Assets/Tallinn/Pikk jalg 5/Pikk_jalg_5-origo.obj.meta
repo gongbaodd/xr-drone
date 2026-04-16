@@ -3,12 +3,107 @@ guid: ff2d43026f3b34d079f3d337048e66c9
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_6_Wall2
+    second: {fileID: 2100000, guid: 978077a5dca964dd8a78b982fb590ff7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_6_Window1
+    second: {fileID: 2100000, guid: f262a7c7f4f0a4e6b956d3d35a362090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LJ_6_Wood
+    second: {fileID: 2100000, guid: 83d0aeda9707443188129cae94098d0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_Bricks
+    second: {fileID: 2100000, guid: 0d1587dfb706b4c17892b74bcfaf5af9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_Details
+    second: {fileID: 2100000, guid: 03ff93ca245e84dfdb702e79ad5d41f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_Door1
+    second: {fileID: 2100000, guid: 3bb0107a99901429c8c387aa58ccd715, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_Door2
+    second: {fileID: 2100000, guid: 4a0e4088337e2490d9deb999ecfa1072, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_Roof
+    second: {fileID: 2100000, guid: 6b39e4ccd421a4227a2f7d44009cb77b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_StoneWall
+    second: {fileID: 2100000, guid: b077c21e84d8e46abb46a793715d5fd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_Wall1
+    second: {fileID: 2100000, guid: fe6f6da40ef1d4c8cb34092e8104b154, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_Window1
+    second: {fileID: 2100000, guid: 3c0a1b433cf9b46f28554af2b289e7ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_Window2
+    second: {fileID: 2100000, guid: 2f5edf6b297234315a03b42deb816b4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_Window3
+    second: {fileID: 2100000, guid: 7ca7ad21b92f5409dae52d49fb2fad68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_aken_ymber01
+    second: {fileID: 2100000, guid: c1670709550be446f886ab40257ec76e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_green_wall
+    second: {fileID: 2100000, guid: b686698360acc4758b043c15fcbe607c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_krohv_valge
+    second: {fileID: 2100000, guid: 9c3ea4ab86e2e4218bace8d5330dc1eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ5_punane
+    second: {fileID: 2100000, guid: c4ccf109b62284710933b240dc7efb42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PJ_5_vintskapp
+    second: {fileID: 2100000, guid: 421bf0f1f00bf471fa0850ac2ba63dbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xxx
+    second: {fileID: 2100000, guid: 9307dfe806c794465b4ba12382a2d222, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

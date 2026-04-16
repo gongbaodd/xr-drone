@@ -3,12 +3,37 @@ guid: b2a2decb7ea6f4159b01adc2e8ad02eb
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HRVE_autahvel
+    second: {fileID: 2100000, guid: b2ce4f7cf4ddd4c17ab2505609f019db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HRVE_kylg
+    second: {fileID: 2100000, guid: 1e0e17f8eca5141e0a5bf4723ca8d392, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HRVE_plaattee
+    second: {fileID: 2100000, guid: 2b9867c8a44c1483096acb3e6d98d3d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paekivi_fat_ylw
+    second: {fileID: 2100000, guid: 2ed2e457af10046a1836f47123b32ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: slate__4
+    second: {fileID: 2100000, guid: 79b1107e72a3e4d469d92be3ebff621c, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
