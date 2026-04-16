@@ -9,6 +9,10 @@ Machine-readable project notes for assistants and tools:
 
 Open the relevant rule(s) above and keep them updated when rendering, packages, or flight tooling changes.
 
+## OBJ / MTL texture mapping (URP)
+
+For Wavefront **OBJ + MTL** imports where **`map_Kd` textures exist on disk but URP Lit materials show NULL `_BaseMap`**, follow `.cursor/skills/unity-obj-mtl-texture-remap/SKILL.md` (parse MTL, write external materials under `Materials/`, `ModelImporter.AddRemap` + external location, reimport). Prefer **Unity MCP** `Unity_RunCommand` for scripted fix and verification.
+
 ## XR Joystick HUD conventions
 
 For HUD work, follow `.cursor/skills/xr-joystick-hud/SKILL.md`.
