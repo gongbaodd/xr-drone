@@ -14,12 +14,20 @@ public static class TallinnObjMtlRewire
 {
     const string TallinnRoot = "Assets/Tallinn";
     const string MenuPath = "Tallinn/Rewire All OBJ MTL Materials (URP Lit)";
+    /// <summary>Single-asset path for <see cref="Rewire192Sauna3Only"/>.</summary>
+    public const string Sauna3_192ObjPath = "Assets/Tallinn/Sauna 3/192_Sauna_3.obj";
+    /// <summary>Single-asset path for <see cref="RewireViru16Only"/>.</summary>
+    public const string Viru16ObjPath = "Assets/Tallinn/Viru 16/Viru_16.obj";
+    /// <summary>Single-asset path for <see cref="RewireViru22Only"/>.</summary>
+    public const string Viru22ObjPath = "Assets/Tallinn/Viru 22/Viru_22.obj";
     /// <summary>Single-asset path for MCP <c>Unity.RunCommand</c> (see <see cref="RewireVanaViru15Only"/>).</summary>
     public const string VanaViru15ObjPath = "Assets/Tallinn/Vana-Viru 15/Vana-Viru_15.obj";
     /// <summary>Single-asset path for <see cref="RewireVanaViru13Only"/>.</summary>
     public const string VanaViru13ObjPath = "Assets/Tallinn/Vana-Viru 13/Vana-viru_13.obj";
     /// <summary>Single-asset path for <see cref="RewireVanaViru10Only"/>.</summary>
     public const string VanaViru10ObjPath = "Assets/Tallinn/Vana-Viru 10/Vana_Viru_10.obj";
+    /// <summary>Asset GUID for <c>Myyrivahe_myyr.obj</c> (folder name is Unicode; resolve path at runtime).</summary>
+    public const string MyyrivaheMyyrObjGuid = "167af8846050d4786a28c94467bc0e4f";
 
     [MenuItem(MenuPath, false, 1000)]
     public static void RewireAll()
@@ -80,7 +88,7 @@ public static class TallinnObjMtlRewire
 
     /// <summary>
     /// Rewires one OBJ from its sidecar MTL (URP Lit external materials + ModelImporter remaps).
-    /// Use from Unity MCP <c>Unity.RunCommand</c>, e.g. <c>TallinnObjMtlRewire.RewireObjAtPath(TallinnObjMtlRewire.VanaViru13ObjPath)</c>.
+    /// Use from Unity MCP <c>Unity.RunCommand</c>, e.g. <c>TallinnObjMtlRewire.RewireObjAtPath(TallinnObjMtlRewire.VanaViru13ObjPath)</c> or <c>RewireObjAtPath(GetMyyrivaheMyyrObjPath())</c> for Unicode folder names.
     /// Requires <c>com.unity.render-pipelines.universal</c> so <c>Universal Render Pipeline/Lit</c> exists.
     /// </summary>
     public static void RewireObjAtPath(string objAssetPath)
@@ -107,6 +115,25 @@ public static class TallinnObjMtlRewire
 
         Debug.Log($"[TallinnObjMtlRewire] RewireObjAtPath finished for {objAssetPath}.");
     }
+
+    /// <summary>Resolves <see cref="MyyrivaheMyyrObjGuid"/> to an asset path (Unicode folder name safe).</summary>
+    public static string GetMyyrivaheMyyrObjPath() => AssetDatabase.GUIDToAssetPath(MyyrivaheMyyrObjGuid);
+
+    /// <summary>Rewires <see cref="Sauna3_192ObjPath"/> (MTL → URP Lit).</summary>
+    [MenuItem("Tallinn/Rewire 192_Sauna_3.obj (MTL)", false, 993)]
+    public static void Rewire192Sauna3Only() => RewireObjAtPath(Sauna3_192ObjPath);
+
+    /// <summary>Rewires <see cref="Viru16ObjPath"/> (MTL → URP Lit).</summary>
+    [MenuItem("Tallinn/Rewire Viru_16.obj (MTL)", false, 994)]
+    public static void RewireViru16Only() => RewireObjAtPath(Viru16ObjPath);
+
+    /// <summary>Rewires <see cref="Viru22ObjPath"/> (MTL → URP Lit).</summary>
+    [MenuItem("Tallinn/Rewire Viru_22.obj (MTL)", false, 995)]
+    public static void RewireViru22Only() => RewireObjAtPath(Viru22ObjPath);
+
+    /// <summary>Rewires <c>Myyrivahe_myyr.obj</c> under Tallinn (MTL → URP Lit).</summary>
+    [MenuItem("Tallinn/Rewire Myyrivahe_myyr.obj (MTL)", false, 996)]
+    public static void RewireMyyrivaheMyyrOnly() => RewireObjAtPath(GetMyyrivaheMyyrObjPath());
 
     /// <summary>Rewires <see cref="VanaViru10ObjPath"/> (MTL → URP Lit).</summary>
     [MenuItem("Tallinn/Rewire Vana_Viru_10.obj (MTL)", false, 997)]

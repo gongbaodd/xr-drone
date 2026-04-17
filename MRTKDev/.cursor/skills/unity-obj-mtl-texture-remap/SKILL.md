@@ -57,7 +57,7 @@ Unity’s OBJ pipeline created **URP Lit** materials from the MTL but did **not*
 
 ## Project helper (MRTKDev)
 
-- **`Assets/Editor/TallinnObjMtlRewire.cs`**: scans `Assets/Tallinn` OBJs, parses MTL (including full `map_Kd` paths with spaces), resolves textures (including space → underscore), writes URP Lit externals, sets **BasedOnMaterialName** + **Everywhere**, and **`AddRemap`**. Menu: **Tallinn/Rewire All OBJ MTL Materials (URP Lit)**; single-asset menus: **Vana_Viru_10** (`VanaViru10ObjPath`), **Vana-viru_13** (`VanaViru13ObjPath`), **Vana-Viru_15** (`VanaViru15ObjPath`); arbitrary path: **`RewireObjAtPath("Assets/.../file.obj")`**. Requires **`com.unity.render-pipelines.universal`** (see **unity-openxr-urp-missing-universal** if `Universal Render Pipeline/Lit` is missing / CS0234).
+- **`Assets/Editor/TallinnObjMtlRewire.cs`**: scans `Assets/Tallinn` OBJs, parses MTL (including full `map_Kd` paths with spaces), resolves textures (including space → underscore), writes URP Lit externals, sets **BasedOnMaterialName** + **Everywhere**, and **`AddRemap`**. Menu: **Tallinn/Rewire All OBJ MTL Materials (URP Lit)**; single-asset menus: **192_Sauna_3** (`Sauna3_192ObjPath`), **Viru_16** (`Viru16ObjPath`), **Viru_22** (`Viru22ObjPath`), **Myyrivahe_myyr** (`MyyrivaheMyyrObjGuid` / `GetMyyrivaheMyyrObjPath()` — avoids hardcoding Unicode folder names), **Vana_Viru_10**, **Vana-viru_13**, **Vana-Viru_15**; arbitrary path: **`RewireObjAtPath("Assets/.../file.obj")`**. Requires **`com.unity.render-pipelines.universal`** (see **unity-openxr-urp-missing-universal** if `Universal Render Pipeline/Lit` is missing / CS0234).
 
 ## Materials without textures
 
