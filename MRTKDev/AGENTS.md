@@ -11,7 +11,7 @@ Open the relevant rule(s) above and keep them updated when rendering, packages, 
 
 ## OBJ / MTL texture mapping (URP)
 
-For Wavefront **OBJ + MTL** imports where **`map_Kd` textures exist on disk but URP Lit materials show NULL `_BaseMap`**, follow `.cursor/skills/unity-obj-mtl-texture-remap/SKILL.md` (parse MTL, write external materials under `Materials/`, `ModelImporter.AddRemap` + external location, reimport). Prefer **Unity MCP** `Unity_RunCommand` for scripted fix and verification.
+For Wavefront **OBJ + MTL** imports where **`map_Kd` textures exist on disk but URP Lit materials show NULL `_BaseMap`**, or materials are wrong while a sibling `*-origo.obj` is correct, follow `.cursor/skills/unity-obj-mtl-texture-remap/SKILL.md` (full `map_Kd` lines with spaces, filename normalization, **`ModelImporter.materialName` = BasedOnMaterialName** so remaps match `usemtl`, `Materials/` + `AddRemap`, reimport). Prefer **Unity MCP** `Unity.RunCommand` or **`Assets/Editor/TallinnObjMtlRewire.cs`** menu actions for scripted fix and verification.
 
 ## XR Joystick HUD conventions
 

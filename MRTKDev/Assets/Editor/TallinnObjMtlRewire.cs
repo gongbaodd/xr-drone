@@ -14,6 +14,8 @@ public static class TallinnObjMtlRewire
 {
     const string TallinnRoot = "Assets/Tallinn";
     const string MenuPath = "Tallinn/Rewire All OBJ MTL Materials (URP Lit)";
+    /// <summary>Single-asset path for MCP <c>Unity.RunCommand</c> (see <see cref="RewireVanaViru15Only"/>).</summary>
+    public const string VanaViru15ObjPath = "Assets/Tallinn/Vana-Viru 15/Vana-Viru_15.obj";
 
     [MenuItem(MenuPath, false, 1000)]
     public static void RewireAll()
@@ -72,6 +74,49 @@ public static class TallinnObjMtlRewire
         Debug.Log($"[TallinnObjMtlRewire] Done. Processed OK: {ok}, skipped: {skipped}, errors: {errors}, total .obj: {total}.");
     }
 
+    /// <summary>
+    /// Rewires <see cref="VanaViru15ObjPath"/> only (MTL map_Kd → URP Lit external materials + importer remaps).
+    /// Call from Unity MCP tool <c>Unity.RunCommand</c> using the golden <c>CommandScript</c> template, e.g.:
+    /// <code>
+    /// using UnityEngine;
+    /// using UnityEditor;
+    ///
+    /// internal class CommandScript : IRunCommand
+    /// {
+    ///     public void Execute(ExecutionResult result)
+    ///     {
+    ///         TallinnObjMtlRewire.RewireVanaViru15Only();
+    ///         result.Log("Rewired Vana-Viru_15.obj materials from MTL.");
+    ///     }
+    /// }
+    /// </code>
+    /// </summary>
+    [MenuItem("Tallinn/Rewire Vana-Viru_15.obj (MTL)", false, 999)]
+    public static void RewireVanaViru15Only()
+    {
+        var lit = Shader.Find("Universal Render Pipeline/Lit");
+        if (lit == null)
+        {
+            EditorUtility.DisplayDialog("Tallinn OBJ rewire", "URP Lit shader not found. Is URP installed?", "OK");
+            return;
+        }
+
+        AssetDatabase.StartAssetEditing();
+        try
+        {
+            if (!ProcessOneObj(VanaViru15ObjPath, lit))
+                Debug.LogWarning($"[TallinnObjMtlRewire] RewireVanaViru15Only: skipped or failed for {VanaViru15ObjPath}");
+        }
+        finally
+        {
+            AssetDatabase.StopAssetEditing();
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+        }
+
+        Debug.Log($"[TallinnObjMtlRewire] RewireVanaViru15Only finished for {VanaViru15ObjPath}.");
+    }
+
     static bool ProcessOneObj(string objAssetPath, Shader litShader)
     {
         var folder = Path.GetDirectoryName(objAssetPath)?.Replace('\\', '/');
@@ -125,6 +170,10 @@ public static class TallinnObjMtlRewire
 
         importer.materialImportMode = ModelImporterMaterialImportMode.ImportViaMaterialDescription;
         importer.materialLocation = ModelImporterMaterialLocation.External;
+        // Must match working imports (e.g. Vana-Viru_15-origo.obj): name slots from MTL/usemtl, then apply remaps.
+        // BasedOnTextureName + RecursiveUp breaks externalObject material remaps when map_Kd filenames differ from material names.
+        importer.materialName = ModelImporterMaterialName.BasedOnMaterialName;
+        importer.materialSearch = ModelImporterMaterialSearch.Everywhere;
 
         var subMaterials = AssetDatabase.LoadAllAssetsAtPath(objAssetPath).OfType<Material>().ToArray();
         IEnumerable<string> modelMaterialNames;
@@ -353,6 +402,12 @@ public static class TallinnObjMtlRewire
         if (rest.Length == 0)
             return null;
 
+        // 3ds Max / many exporters: filename may contain spaces ("Vana-Viru tn 15 tex9.jpg").
+        // Do NOT take only the last token — that becomes "tex9.jpg" and fails to resolve on disk.
+        if (!rest.StartsWith("-", StringComparison.Ordinal))
+            return rest.Replace('\\', '/');
+
+        // Wavefront optional flags (-o u v w, -s u v w, -clamp on, …) then filename (often last token).
         var parts = rest.Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
         if (parts.Length == 0)
             return null;
@@ -377,6 +432,24 @@ public static class TallinnObjMtlRewire
             {
                 var assetPath = folderAssetPath + "/" + Path.GetFileName(path);
                 return AssetDatabase.LoadAssetAtPath<Texture2D>(assetPath);
+            }
+        }
+
+        // 3ds Max MTL: map_Kd "Vana-Viru tn 15 tex9.jpg" → on disk "Vana-Viru_tn_15_tex9.jpg"
+        var altBase = baseName.Replace(' ', '_');
+        if (!string.Equals(altBase, baseName, StringComparison.Ordinal))
+        {
+            var altRel = folderAssetPath + "/" + altBase;
+            if (File.Exists(ToFullPath(altRel)))
+                return AssetDatabase.LoadAssetAtPath<Texture2D>(altRel);
+
+            foreach (var path in Directory.GetFiles(fullFolder))
+            {
+                if (string.Equals(Path.GetFileName(path), altBase, StringComparison.OrdinalIgnoreCase))
+                {
+                    var assetPath = folderAssetPath + "/" + Path.GetFileName(path);
+                    return AssetDatabase.LoadAssetAtPath<Texture2D>(assetPath);
+                }
             }
         }
 
