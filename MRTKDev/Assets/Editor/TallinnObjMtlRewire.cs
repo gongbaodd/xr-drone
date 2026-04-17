@@ -16,6 +16,10 @@ public static class TallinnObjMtlRewire
     const string MenuPath = "Tallinn/Rewire All OBJ MTL Materials (URP Lit)";
     /// <summary>Single-asset path for MCP <c>Unity.RunCommand</c> (see <see cref="RewireVanaViru15Only"/>).</summary>
     public const string VanaViru15ObjPath = "Assets/Tallinn/Vana-Viru 15/Vana-Viru_15.obj";
+    /// <summary>Single-asset path for <see cref="RewireVanaViru13Only"/>.</summary>
+    public const string VanaViru13ObjPath = "Assets/Tallinn/Vana-Viru 13/Vana-viru_13.obj";
+    /// <summary>Single-asset path for <see cref="RewireVanaViru10Only"/>.</summary>
+    public const string VanaViru10ObjPath = "Assets/Tallinn/Vana-Viru 10/Vana_Viru_10.obj";
 
     [MenuItem(MenuPath, false, 1000)]
     public static void RewireAll()
@@ -75,6 +79,44 @@ public static class TallinnObjMtlRewire
     }
 
     /// <summary>
+    /// Rewires one OBJ from its sidecar MTL (URP Lit external materials + ModelImporter remaps).
+    /// Use from Unity MCP <c>Unity.RunCommand</c>, e.g. <c>TallinnObjMtlRewire.RewireObjAtPath(TallinnObjMtlRewire.VanaViru13ObjPath)</c>.
+    /// Requires <c>com.unity.render-pipelines.universal</c> so <c>Universal Render Pipeline/Lit</c> exists.
+    /// </summary>
+    public static void RewireObjAtPath(string objAssetPath)
+    {
+        var lit = Shader.Find("Universal Render Pipeline/Lit");
+        if (lit == null)
+        {
+            EditorUtility.DisplayDialog("Tallinn OBJ rewire", "URP Lit shader not found. Add Universal RP to the project (see unity-openxr-urp-missing-universal skill) and assign URP in Graphics settings.", "OK");
+            return;
+        }
+
+        AssetDatabase.StartAssetEditing();
+        try
+        {
+            if (!ProcessOneObj(objAssetPath, lit))
+                Debug.LogWarning($"[TallinnObjMtlRewire] RewireObjAtPath: skipped or failed for {objAssetPath}");
+        }
+        finally
+        {
+            AssetDatabase.StopAssetEditing();
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+        }
+
+        Debug.Log($"[TallinnObjMtlRewire] RewireObjAtPath finished for {objAssetPath}.");
+    }
+
+    /// <summary>Rewires <see cref="VanaViru10ObjPath"/> (MTL → URP Lit).</summary>
+    [MenuItem("Tallinn/Rewire Vana_Viru_10.obj (MTL)", false, 997)]
+    public static void RewireVanaViru10Only() => RewireObjAtPath(VanaViru10ObjPath);
+
+    /// <summary>Rewires <see cref="VanaViru13ObjPath"/> (MTL → URP Lit).</summary>
+    [MenuItem("Tallinn/Rewire Vana-viru_13.obj (MTL)", false, 998)]
+    public static void RewireVanaViru13Only() => RewireObjAtPath(VanaViru13ObjPath);
+
+    /// <summary>
     /// Rewires <see cref="VanaViru15ObjPath"/> only (MTL map_Kd → URP Lit external materials + importer remaps).
     /// Call from Unity MCP tool <c>Unity.RunCommand</c> using the golden <c>CommandScript</c> template, e.g.:
     /// <code>
@@ -92,30 +134,7 @@ public static class TallinnObjMtlRewire
     /// </code>
     /// </summary>
     [MenuItem("Tallinn/Rewire Vana-Viru_15.obj (MTL)", false, 999)]
-    public static void RewireVanaViru15Only()
-    {
-        var lit = Shader.Find("Universal Render Pipeline/Lit");
-        if (lit == null)
-        {
-            EditorUtility.DisplayDialog("Tallinn OBJ rewire", "URP Lit shader not found. Is URP installed?", "OK");
-            return;
-        }
-
-        AssetDatabase.StartAssetEditing();
-        try
-        {
-            if (!ProcessOneObj(VanaViru15ObjPath, lit))
-                Debug.LogWarning($"[TallinnObjMtlRewire] RewireVanaViru15Only: skipped or failed for {VanaViru15ObjPath}");
-        }
-        finally
-        {
-            AssetDatabase.StopAssetEditing();
-            AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh();
-        }
-
-        Debug.Log($"[TallinnObjMtlRewire] RewireVanaViru15Only finished for {VanaViru15ObjPath}.");
-    }
+    public static void RewireVanaViru15Only() => RewireObjAtPath(VanaViru15ObjPath);
 
     static bool ProcessOneObj(string objAssetPath, Shader litShader)
     {
