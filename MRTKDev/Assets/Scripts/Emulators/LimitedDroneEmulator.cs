@@ -21,6 +21,8 @@ public class LimitedDroneEmulator : MonoBehaviour
 
     private const float BoundaryProbePadding = 0.02f;
     private const float InsideEpsilon = 0.0001f;
+    private const int BoundaryBinarySearchSteps = 16;
+    private const float OutsideRecoverySpeed = 6f;
 
     [Header("Flight boundary")]
     [Tooltip("Assign a closed boundary Collider (for example Route/Collider MeshCollider).")]
@@ -32,6 +34,7 @@ public class LimitedDroneEmulator : MonoBehaviour
     private bool hasArmedFromThrottleGate;
     private bool hasLastValidBoundaryPosition;
     private Vector3 lastValidBoundaryPosition;
+    private readonly ProbeDebugData[] probeDebugData = new ProbeDebugData[3];
 
     private void Awake()
     {
@@ -103,8 +106,7 @@ public class LimitedDroneEmulator : MonoBehaviour
 
         Vector3 v = rb.linearVelocity;
         Vector3 p = rb.position;
-        if (TryRecoverToLastValidPosition(ref p, ref v))
-            rb.position = p;
+        TryRecoverOutsideBoundary(ref p, ref v);
 
         float dt = Time.fixedDeltaTime;
         Vector3 target = p;
@@ -113,6 +115,7 @@ public class LimitedDroneEmulator : MonoBehaviour
         target = ConstrainAxis(target, desiredDelta.x, Axis.X, ref v);
         target = ConstrainAxis(target, desiredDelta.y, Axis.Y, ref v);
         target = ConstrainAxis(target, desiredDelta.z, Axis.Z, ref v);
+        EnforceBoundaryAlongSegment(p, ref target, ref v);
 
         if (IsInsideBoundary(target))
         {
@@ -122,6 +125,49 @@ public class LimitedDroneEmulator : MonoBehaviour
 
         rb.position = target;
         rb.linearVelocity = v;
+    }
+
+    private void EnforceBoundaryAlongSegment(Vector3 start, ref Vector3 target, ref Vector3 velocity)
+    {
+        if (IsInsideBoundary(target))
+            return;
+
+        Vector3 attemptedTarget = target;
+
+        // Find the furthest point still inside the boundary along this physics step.
+        float low = 0f;
+        float high = 1f;
+        for (int i = 0; i < BoundaryBinarySearchSteps; i++)
+        {
+            float mid = (low + high) * 0.5f;
+            Vector3 sample = Vector3.Lerp(start, target, mid);
+            if (IsInsideBoundary(sample))
+                low = mid;
+            else
+                high = mid;
+        }
+
+        Vector3 clamped = Vector3.Lerp(start, attemptedTarget, low);
+        if (!IsInsideBoundary(clamped))
+        {
+            if (hasLastValidBoundaryPosition)
+                clamped = lastValidBoundaryPosition;
+            else
+                clamped = flightBoundary.ClosestPoint(start);
+        }
+
+        Vector3 blockedDelta = attemptedTarget - clamped;
+        if (blockedDelta.sqrMagnitude > InsideEpsilon * InsideEpsilon)
+        {
+            Vector3 blockedDirection = blockedDelta.normalized;
+            float blockedSpeed = Vector3.Dot(velocity, blockedDirection);
+            if (blockedSpeed > 0f)
+                velocity -= blockedDirection * blockedSpeed;
+        }
+
+        target = clamped;
+        hasLastValidBoundaryPosition = true;
+        lastValidBoundaryPosition = clamped;
     }
 
     private void OnDrawGizmosSelected()
@@ -137,6 +183,8 @@ public class LimitedDroneEmulator : MonoBehaviour
         Gizmos.DrawLine(center, center + Vector3.right * bounds.extents.x);
         Gizmos.DrawLine(center, center + Vector3.up * bounds.extents.y);
         Gizmos.DrawLine(center, center + Vector3.forward * bounds.extents.z);
+
+        DrawProbeGizmos();
     }
 
     private enum Axis
@@ -146,13 +194,46 @@ public class LimitedDroneEmulator : MonoBehaviour
         Z
     }
 
+    private struct ProbeDebugData
+    {
+        public bool valid;
+        public bool hit;
+        public Vector3 origin;
+        public Vector3 direction;
+        public float distance;
+        public Vector3 hitPoint;
+    }
+
     private Vector3 ConstrainAxis(Vector3 current, float delta, Axis axis, ref Vector3 velocity)
     {
+        int axisIndex = (int)axis;
+        probeDebugData[axisIndex] = default;
+
         if (Mathf.Abs(delta) <= Mathf.Epsilon)
             return current;
 
         Vector3 candidate = current;
         SetAxis(ref candidate, axis, GetAxis(current, axis) + delta);
+
+        // If we're already outside, allow motion that moves us back toward the last valid interior point.
+        if (!IsInsideBoundary(current))
+        {
+            if (!hasLastValidBoundaryPosition)
+                return candidate;
+
+            float currentDist = (current - lastValidBoundaryPosition).sqrMagnitude;
+            float candidateDist = (candidate - lastValidBoundaryPosition).sqrMagnitude;
+            if (candidateDist <= currentDist + InsideEpsilon * InsideEpsilon)
+                return candidate;
+
+            float outsideAxisVelocity = GetAxis(velocity, axis);
+            float toInteriorAxis = Mathf.Sign(GetAxis(lastValidBoundaryPosition - current, axis));
+            if (toInteriorAxis != 0f && Mathf.Sign(outsideAxisVelocity) != toInteriorAxis)
+                outsideAxisVelocity = 0f;
+            SetAxis(ref velocity, axis, outsideAxisVelocity);
+            return current;
+        }
+
         if (IsInsideBoundary(candidate))
             return candidate;
 
@@ -160,7 +241,19 @@ public class LimitedDroneEmulator : MonoBehaviour
         Vector3 direction = AxisToVector(axis) * directionSign;
         float rayDistance = Mathf.Abs(delta) + BoundaryProbePadding;
         float safeAxisValue = GetAxis(current, axis);
-        if (flightBoundary.Raycast(new Ray(current, direction), out RaycastHit hit, rayDistance))
+        bool hitBoundary = flightBoundary.Raycast(new Ray(current, direction), out RaycastHit hit, rayDistance);
+
+        probeDebugData[axisIndex] = new ProbeDebugData
+        {
+            valid = true,
+            hit = hitBoundary,
+            origin = current,
+            direction = direction,
+            distance = rayDistance,
+            hitPoint = hit.point
+        };
+
+        if (hitBoundary)
             safeAxisValue = GetAxis(hit.point, axis) - directionSign * BoundaryProbePadding;
 
         SetAxis(ref current, axis, safeAxisValue);
@@ -176,7 +269,27 @@ public class LimitedDroneEmulator : MonoBehaviour
         return current;
     }
 
-    private bool TryRecoverToLastValidPosition(ref Vector3 position, ref Vector3 velocity)
+    private void DrawProbeGizmos()
+    {
+        for (int i = 0; i < probeDebugData.Length; i++)
+        {
+            ProbeDebugData probe = probeDebugData[i];
+            if (!probe.valid || probe.direction.sqrMagnitude <= Mathf.Epsilon || probe.distance <= 0f)
+                continue;
+
+            Gizmos.color = probe.hit ? Color.red : Color.green;
+            Vector3 end = probe.origin + probe.direction.normalized * probe.distance;
+            Gizmos.DrawLine(probe.origin, end);
+
+            if (probe.hit)
+            {
+                Gizmos.DrawWireSphere(probe.hitPoint, 0.12f);
+                Gizmos.DrawLine(probe.hitPoint, probe.hitPoint + Vector3.up * 0.6f);
+            }
+        }
+    }
+
+    private bool TryRecoverOutsideBoundary(ref Vector3 position, ref Vector3 velocity)
     {
         if (IsInsideBoundary(position))
         {
@@ -186,17 +299,26 @@ public class LimitedDroneEmulator : MonoBehaviour
         }
 
         if (!hasLastValidBoundaryPosition)
-            return false;
+        {
+            // No known interior point yet: do not guess with bounds center, just stop pushing.
+            velocity = Vector3.zero;
+            return true;
+        }
 
-        Vector3 outsideDelta = position - lastValidBoundaryPosition;
-        position = lastValidBoundaryPosition;
+        Vector3 toInterior = lastValidBoundaryPosition - position;
+        float distance = toInterior.magnitude;
+        if (distance <= InsideEpsilon)
+        {
+            position = lastValidBoundaryPosition;
+            velocity = Vector3.zero;
+            return true;
+        }
 
-        if (Mathf.Abs(outsideDelta.x) > InsideEpsilon && Mathf.Sign(velocity.x) == Mathf.Sign(outsideDelta.x))
-            velocity.x = 0f;
-        if (Mathf.Abs(outsideDelta.y) > InsideEpsilon && Mathf.Sign(velocity.y) == Mathf.Sign(outsideDelta.y))
-            velocity.y = 0f;
-        if (Mathf.Abs(outsideDelta.z) > InsideEpsilon && Mathf.Sign(velocity.z) == Mathf.Sign(outsideDelta.z))
-            velocity.z = 0f;
+        Vector3 direction = toInterior / distance;
+        // Soft recovery: only cancel outward velocity so pilot can still fly back in.
+        float outwardSpeed = Vector3.Dot(velocity, -direction);
+        if (outwardSpeed > 0f)
+            velocity += direction * outwardSpeed;
 
         return true;
     }
