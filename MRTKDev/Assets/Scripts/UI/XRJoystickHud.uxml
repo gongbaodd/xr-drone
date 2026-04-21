@@ -5,11 +5,13 @@
             <ui:VisualElement name="left-map" class="stick-map">
                 <ui:VisualElement class="cross-horizontal" />
                 <ui:VisualElement class="cross-vertical" />
+                <ui:VisualElement name="left-pid-dot" class="stick-dot pid-stick-dot" />
                 <ui:VisualElement name="left-dot" class="stick-dot" />
             </ui:VisualElement>
             <ui:VisualElement name="right-map" class="stick-map map-right">
                 <ui:VisualElement class="cross-horizontal" />
                 <ui:VisualElement class="cross-vertical" />
+                <ui:VisualElement name="right-pid-dot" class="stick-dot pid-stick-dot" />
                 <ui:VisualElement name="right-dot" class="stick-dot" />
             </ui:VisualElement>
         </ui:VisualElement>

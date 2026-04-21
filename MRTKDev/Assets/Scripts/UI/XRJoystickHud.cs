@@ -8,8 +8,11 @@ public class XRJoystickHud : MonoBehaviour
 
     private UIDocument uiDocument;
     private LimitedDroneEmulator emulator;
+    private PidMapAutoFlightController pidMapAutoFlightController;
     private VisualElement leftDot;
     private VisualElement rightDot;
+    private VisualElement leftPidDot;
+    private VisualElement rightPidDot;
     private Transform hudQuadTransform;
     private Transform mainCameraTransform;
     private bool isHudReady;
@@ -19,17 +22,34 @@ public class XRJoystickHud : MonoBehaviour
     {
         uiDocument = GetComponent<UIDocument>();
         emulator = FindAnyObjectByType<LimitedDroneEmulator>();
+        pidMapAutoFlightController = FindAnyObjectByType<PidMapAutoFlightController>();
         BuildUi();
         SetupWorldView();
     }
 
     private void Update()
     {
-        if (emulator == null || !isUiReady)
+        if (!isUiReady)
             return;
 
-        ApplyDotPosition(leftDot, emulator.CurrentLeftStick);
-        ApplyDotPosition(rightDot, emulator.CurrentRightStick);
+        if (emulator != null)
+        {
+            ApplyDotPosition(leftDot, emulator.CurrentLeftStick);
+            ApplyDotPosition(rightDot, emulator.CurrentRightStick);
+        }
+
+        if (pidMapAutoFlightController != null)
+        {
+            Vector2 pidLeftStick = new Vector2(
+                Mathf.Clamp(pidMapAutoFlightController.OutRawLeftHorizontal, -1f, 1f),
+                Mathf.Clamp(pidMapAutoFlightController.OutRawLeftVertical01 * 2f - 1f, -1f, 1f));
+            Vector2 pidRightStick = new Vector2(
+                Mathf.Clamp(pidMapAutoFlightController.OutRawRightHorizontal, -1f, 1f),
+                Mathf.Clamp(pidMapAutoFlightController.OutRawRightVertical, -1f, 1f));
+
+            ApplyDotPosition(leftPidDot, pidLeftStick);
+            ApplyDotPosition(rightPidDot, pidRightStick);
+        }
     }
 
     private void LateUpdate()
@@ -47,7 +67,9 @@ public class XRJoystickHud : MonoBehaviour
 
         leftDot = root.Q<VisualElement>("left-dot");
         rightDot = root.Q<VisualElement>("right-dot");
-        isUiReady = leftDot != null && rightDot != null;
+        leftPidDot = root.Q<VisualElement>("left-pid-dot");
+        rightPidDot = root.Q<VisualElement>("right-pid-dot");
+        isUiReady = leftDot != null && rightDot != null && leftPidDot != null && rightPidDot != null;
     }
 
     private void SetupWorldView()
