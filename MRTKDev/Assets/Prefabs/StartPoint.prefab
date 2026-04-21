@@ -167,6 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 445816031661233662}
+  - component: {fileID: 3141592653589793238}
   m_Layer: 0
   m_Name: StartPoint
   m_TagString: Untagged
@@ -191,6 +192,73 @@ Transform:
   - {fileID: 4218646248184263632}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3141592653589793238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5525529961885351996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8f3df2f683f43f7b088466f2d1240df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droneRoot: {fileID: 0}
+  droneRigidbody: {fileID: 0}
+  inputModule: {fileID: 0}
+  dronePhysics: {fileID: 0}
+  autoStartOnPlay: 1
+  takeoffHeight: 3
+  waypointReachDistance: 2.1
+  finishReachDistance: 2.1
+  maxSegmentSpeed: 7
+  waypointTagPrimary: Waypoints
+  waypointTagFallback: Waypoint
+  finishTag: Finish
+  pidX:
+    Kp: 1.9
+    Ki: 0.04
+    Kd: 0.8
+    maxOutput: 10
+    maxIntegral: 5
+  pidY:
+    Kp: 3.2
+    Ki: 0.08
+    Kd: 1.1
+    maxOutput: 12
+    maxIntegral: 5
+  pidZ:
+    Kp: 1.9
+    Ki: 0.04
+    Kd: 0.8
+    maxOutput: 10
+    maxIntegral: 5
+  altitudeIntegralDeadband: 0.18
+  pidVx:
+    Kp: 1
+    Ki: 0.03
+    Kd: 0.22
+    maxOutput: 7
+    maxIntegral: 5
+  pidVy:
+    Kp: 1.4
+    Ki: 0.08
+    Kd: 0.35
+    maxOutput: 10
+    maxIntegral: 5
+  pidVz:
+    Kp: 1
+    Ki: 0.03
+    Kd: 0.22
+    maxOutput: 7
+    maxIntegral: 5
+  pidYaw:
+    Kp: 2.4
+    Ki: 0
+    Kd: 0.5
+    maxOutput: 6
+    maxIntegral: 5
 --- !u!1001 &3892047882150377392
 PrefabInstance:
   m_ObjectHideFlags: 0
