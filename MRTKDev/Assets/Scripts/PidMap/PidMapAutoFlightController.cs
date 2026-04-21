@@ -1,19 +1,16 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using YueUltimateDronePhysics;
 
 /// <summary>
 /// Tag-driven PID autopilot for SimplifyiedMapPID.
-/// Discovers waypoint triggers and finish trigger, then drives Yue input sticks automatically.
+/// Discovers waypoint triggers and finish trigger, then computes stick outputs for visualization.
 /// </summary>
 [DefaultExecutionOrder(100)]
 public sealed class PidMapAutoFlightController : MonoBehaviour
 {
     [Header("Drone binding")]
     [SerializeField] private Transform droneRoot;
-    [SerializeField] private YueInputModule inputModule;
-    [SerializeField] private YueDronePhysics dronePhysics;
     [SerializeField] private Rigidbody droneRigidbody;
 
     [Header("Mission")]
@@ -85,7 +82,6 @@ public sealed class PidMapAutoFlightController : MonoBehaviour
         ResolveReferences();
         InstallTriggerRelay();
         NeutralizeOutputs();
-        PushOutputsToInput();
     }
 
     private void Start()
@@ -104,12 +100,8 @@ public sealed class PidMapAutoFlightController : MonoBehaviour
         {
             SetPhase(FlightPhase.Idle);
             NeutralizeOutputs();
-            PushOutputsToInput();
             return;
         }
-
-        if (dronePhysics != null)
-            dronePhysics.armed = true;
 
         currentPathIndex = 0;
         cruiseAltitude = ResolveTakeoffAltitude();
@@ -119,7 +111,7 @@ public sealed class PidMapAutoFlightController : MonoBehaviour
 
     private void Update()
     {
-        if (droneRoot == null || inputModule == null)
+        if (droneRoot == null)
             return;
 
         float dt = Time.deltaTime;
@@ -141,7 +133,6 @@ public sealed class PidMapAutoFlightController : MonoBehaviour
                 break;
         }
 
-        PushOutputsToInput();
     }
 
     private void HandleTakeoff(float dt)
@@ -186,7 +177,6 @@ public sealed class PidMapAutoFlightController : MonoBehaviour
     {
         SetPhase(FlightPhase.Complete);
         NeutralizeOutputs();
-        PushOutputsToInput();
     }
 
     private void ApplyPathTracking(Vector3 closestPoint, Vector3 pathDirection, float desiredPathY, float dt)
@@ -259,18 +249,6 @@ public sealed class PidMapAutoFlightController : MonoBehaviour
         if (errorY > 0f)
             outY = Mathf.Max(0f, outY);
         return outY;
-    }
-
-    private void PushOutputsToInput()
-    {
-        if (inputModule == null)
-            return;
-
-        // Keep conventions from PIDDroneEmulator bridge: controller throttle is 0..1, input expects -1..1.
-        inputModule.rawLeftVertical = OutRawLeftVertical01 * 2f - 1f;
-        inputModule.rawLeftHorizontal = OutRawLeftHorizontal;
-        inputModule.rawRightVertical = OutRawRightVertical;
-        inputModule.rawRightHorizontal = OutRawRightHorizontal;
     }
 
     private void NeutralizeOutputs()
@@ -473,27 +451,9 @@ public sealed class PidMapAutoFlightController : MonoBehaviour
 
     private void ResolveReferences()
     {
-        // Prefer explicitly assigned components first so mission targeting uses the real drone transform,
-        // even when this controller lives on a manager object.
-        if (inputModule == null)
-            inputModule = GetComponent<YueInputModule>();
-        if (dronePhysics == null)
-            dronePhysics = GetComponent<YueDronePhysics>();
-
         if (droneRoot == null)
-        {
-            if (inputModule != null)
-                droneRoot = inputModule.transform;
-            else if (dronePhysics != null)
-                droneRoot = dronePhysics.transform;
-            else
-                droneRoot = transform;
-        }
+            droneRoot = transform;
 
-        if (inputModule == null && droneRoot != null)
-            inputModule = droneRoot.GetComponent<YueInputModule>();
-        if (dronePhysics == null && droneRoot != null)
-            dronePhysics = droneRoot.GetComponent<YueDronePhysics>();
         if (droneRigidbody == null && droneRoot != null)
             droneRigidbody = droneRoot.GetComponent<Rigidbody>();
     }
