@@ -283,7 +283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &394114842
 Transform:
   m_ObjectHideFlags: 0
@@ -416,7 +416,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &588642324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,7 +465,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &624030187
 Transform:
   m_ObjectHideFlags: 0
@@ -707,6 +707,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1109291458}
+    - targetCorrespondingSourceObject: {fileID: 1310926270657974294, guid: adb540b78007b484fb4e85791757953c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1109291459}
   m_SourcePrefab: {fileID: 100100000, guid: adb540b78007b484fb4e85791757953c, type: 3}
 --- !u!1 &1109291453 stripped
 GameObject:
@@ -754,8 +757,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::YueUltimateDronePhysics.PIDHoverEmulator
   dronePhysics: {fileID: 1109291454}
   inputModule: {fileID: 1109291455}
-  pidFlightController: {fileID: 0}
+  pidFlightController: {fileID: 1109291459}
   preferPidMissionInputs: 1
+--- !u!114 &1109291459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109291453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdc90e95d1ddaff4f996d3f8a484a1a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PIDHoverController
+  droneRoot: {fileID: 0}
+  droneRigidbody: {fileID: 0}
+  takeoffHeight: 2
+  minimumTakeoffRise: 1
+  takeoffReachBand: 0.35
+  pidY:
+    Kp: 3.2
+    Ki: 0.08
+    Kd: 1.1
+    maxOutput: 12
+    maxIntegral: 5
+  pidVy:
+    Kp: 1.4
+    Ki: 0.08
+    Kd: 0.35
+    maxOutput: 10
+    maxIntegral: 5
+  altitudeIntegralDeadband: 0.18
+  maxSegmentSpeed: 7
 --- !u!1001 &1325516521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -988,7 +1022,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1495946776
 MonoBehaviour:
   m_ObjectHideFlags: 0

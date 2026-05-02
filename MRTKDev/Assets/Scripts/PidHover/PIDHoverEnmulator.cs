@@ -3,7 +3,7 @@ using UnityEngine;
 namespace YueUltimateDronePhysics
 {
     /// <summary>
-    /// Bridges manual input or <see cref="DronePIDFlightController"/> stick outputs into <see cref="YueInputModule"/>.
+    /// Bridges manual input or <see cref="PIDHoverController"/> stick outputs into <see cref="YueInputModule"/>.
     /// Physics and pose updates are handled by <see cref="YueDronePhysics"/>; this script only writes raw stick axes and optional respawn.
     /// </summary>
     public class PIDHoverEmulator : MonoBehaviour
@@ -14,10 +14,10 @@ namespace YueUltimateDronePhysics
         [SerializeField]
         private YueInputModule inputModule;
         [SerializeField]
-        private DronePIDFlightController pidFlightController;
+        private PIDHoverController pidFlightController;
 
         [Header("Input source")]
-        [Tooltip("When off, keyboard axes drive the drone. When on and the mission is active, sticks come from DronePIDFlightController.")]
+        [Tooltip("When off, keyboard axes drive the drone. When on and the mission is active, sticks come from PIDHoverController.")]
         [SerializeField]
         private bool preferPidMissionInputs = true;
 
@@ -29,7 +29,7 @@ namespace YueUltimateDronePhysics
             dronePhysics = GetComponent<YueDronePhysics>();
             inputModule = GetComponent<YueInputModule>();
             if (pidFlightController == null)
-                pidFlightController = GetComponent<DronePIDFlightController>();
+                pidFlightController = GetComponent<PIDHoverController>();
 
             startPos = transform.position;
             startRot = transform.rotation;
@@ -37,7 +37,7 @@ namespace YueUltimateDronePhysics
 
         void Update()
         {
-            if (preferPidMissionInputs && pidFlightController != null && pidFlightController.IsPidDrivingInputs)
+            if (preferPidMissionInputs && pidFlightController != null)
             {
                 inputModule.rawLeftHorizontal = pidFlightController.OutRawLeftHorizontal;
                 // Controller exposes throttle as 0..1; YueInputModule expects -1..1 for rawThrust.
