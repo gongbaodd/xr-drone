@@ -775,9 +775,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdc90e95d1ddaff4f996d3f8a484a1a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PIDHoverController
-  droneRoot: {fileID: 0}
-  droneRigidbody: {fileID: 0}
-  takeoffHeight: 2
+  droneRoot: {fileID: 1109291457}
+  droneRigidbody: {fileID: 1109291460}
+  takeoffHeight: 5
   minimumTakeoffRise: 1
   takeoffReachBand: 0.35
   pidY:
@@ -794,6 +794,11 @@ MonoBehaviour:
     maxIntegral: 5
   altitudeIntegralDeadband: 0.18
   maxSegmentSpeed: 7
+--- !u!54 &1109291460 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 1310926270657974290, guid: adb540b78007b484fb4e85791757953c, type: 3}
+  m_PrefabInstance: {fileID: 1109291452}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1325516521
 PrefabInstance:
   m_ObjectHideFlags: 0
