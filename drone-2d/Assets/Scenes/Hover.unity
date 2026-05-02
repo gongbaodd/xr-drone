@@ -1398,6 +1398,10 @@ PrefabInstance:
       propertyPath: targetHeight
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3507129856291540883, guid: f686cec1d263e4f40a7259cd68f0f0ce, type: 3}
+      propertyPath: acceptableRadius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4097747844459074536, guid: f686cec1d263e4f40a7259cd68f0f0ce, type: 3}
       propertyPath: useAgentInput
       value: 1

@@ -1,3 +1,7 @@
+using System;
+using System.Globalization;
+using System.IO;
+using System.Text;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
@@ -47,6 +51,10 @@ public class DroneHoverAgent : Agent
     [Tooltip("Seconds after reset before ground contact counts as crash.")]
     [SerializeField] float crashGraceSeconds = 0.5f;
 
+    [Header("Throttle telemetry CSV")]
+    [SerializeField] bool enableThrottleCsvLog = true;
+    [SerializeField] string throttleCsvFileName = "hover_throttle_telemetry.csv";
+
     Vector3 startPosition;
     Quaternion startRotation;
     float episodeTimer;
@@ -57,6 +65,10 @@ public class DroneHoverAgent : Agent
 
     HoverScorer hoverScorer;
 
+    string throttleCsvPath;
+    bool throttleCsvHeaderWritten;
+    static readonly object ThrottleCsvLock = new object();
+
     float TargetH => hoverScorer.targetHeight;
     float Radius => Mathf.Max(hoverScorer.acceptableRadius, 1e-6f);
 
@@ -64,6 +76,71 @@ public class DroneHoverAgent : Agent
     public float ResolvedTargetHeight => hoverScorer.targetHeight;
 
     public bool useAgentInput = true;
+
+    /// <summary>
+    /// Sets normalized throttle on <see cref="droneInput"/> and optionally appends one CSV row:
+    /// UTC timestamp, raw stick values (same semantics as <see cref="YueInputModule"/> raw fields), height (m).
+    /// </summary>
+    public void SetDroneThrottle(float throttleNormalized)
+    {
+        if (droneInput == null)
+        {
+            Debug.LogError(
+                $"{nameof(DroneHoverAgent)}: missing reference to {nameof(AgentDroneEmulator)} ({nameof(droneInput)}).");
+            return;
+        }
+
+        throttleNormalized = Mathf.Clamp01(throttleNormalized);
+        droneInput.agentThrottle = throttleNormalized;
+
+        if (!enableThrottleCsvLog)
+            return;
+
+        droneInput.GetCommandedRawInputs(out float rawLeftH, out float rawLeftV, out float rawRightH, out float rawRightV);
+        float height = droneRb != null ? droneRb.position.y : transform.position.y;
+        AppendThrottleTelemetryRow(rawLeftH, rawLeftV, rawRightH, rawRightV, height);
+    }
+
+    void AppendThrottleTelemetryRow(
+        float rawLeftHorizontal,
+        float rawLeftVertical,
+        float rawRightHorizontal,
+        float rawRightVertical,
+        float heightMeters)
+    {
+        string fileName = string.IsNullOrWhiteSpace(throttleCsvFileName)
+            ? "hover_throttle_telemetry.csv"
+            : throttleCsvFileName;
+        if (string.IsNullOrEmpty(throttleCsvPath))
+            throttleCsvPath = Path.Combine(Application.persistentDataPath, fileName);
+
+        string utc = DateTime.UtcNow.ToString("o", CultureInfo.InvariantCulture);
+        var line = new StringBuilder(128)
+            .Append(utc).Append(',')
+            .Append(heightMeters.ToString("R", CultureInfo.InvariantCulture)).Append(',')
+            .Append(rawLeftHorizontal.ToString("R", CultureInfo.InvariantCulture)).Append(',')
+            .Append(rawLeftVertical.ToString("R", CultureInfo.InvariantCulture)).Append(',')
+            .Append(rawRightHorizontal.ToString("R", CultureInfo.InvariantCulture)).Append(',')
+            .Append(rawRightVertical.ToString("R", CultureInfo.InvariantCulture))
+            .AppendLine();
+
+        lock (ThrottleCsvLock)
+        {
+            if (!throttleCsvHeaderWritten)
+            {
+                if (!File.Exists(throttleCsvPath))
+                {
+                    const string header =
+                        "TimestampUtc,HeightM,RawLeftHorizontal,RawLeftVertical,RawRightHorizontal,RawRightVertical";
+                    File.WriteAllText(throttleCsvPath, header + Environment.NewLine, Encoding.UTF8);
+                }
+
+                throttleCsvHeaderWritten = true;
+            }
+
+            File.AppendAllText(throttleCsvPath, line.ToString(), Encoding.UTF8);
+        }
+    }
 
     public override void Initialize()
     {
@@ -131,7 +208,7 @@ public class DroneHoverAgent : Agent
         droneInput.SetUseAgentInput(useAgentInput);
 
         // Always mirror actions so UI (e.g. yellow agent dots) can show policy output when not driving the drone.
-        droneInput.agentThrottle = throttleNormalized;
+        droneInput.SetDroneThrottle(throttleNormalized);
 
         if (useAgentInput)
         {

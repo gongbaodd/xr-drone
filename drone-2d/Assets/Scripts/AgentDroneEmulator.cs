@@ -38,6 +38,38 @@ namespace YueUltimateDronePhysics
             useAgentInput = enabled;
         }
 
+        /// <summary>
+        /// Raw stick values as commanded for <see cref="YueInputModule"/> (same mapping as <see cref="Update"/>).
+        /// Call after updating <see cref="agentThrottle"/> when logging or inspecting commands.
+        /// </summary>
+        public void GetCommandedRawInputs(
+            out float rawLeftHorizontal,
+            out float rawLeftVertical,
+            out float rawRightHorizontal,
+            out float rawRightVertical)
+        {
+            rawLeftHorizontal = GetYaw();
+            rawRightHorizontal = GetRoll();
+            rawRightVertical = GetPitch();
+            rawLeftVertical = GetLeftVerticalRaw();
+        }
+
+        /// <summary>
+        /// Sets agent throttle in [0,1]. If a <see cref="DroneHoverAgent"/> is on the same GameObject, forwards to
+        /// <see cref="DroneHoverAgent.SetDroneThrottle"/> so CSV telemetry can run there.
+        /// </summary>
+        public void SetDroneThrottle(float throttleNormalized)
+        {
+            var hoverAgent = GetComponent<DroneHoverAgent>();
+            if (hoverAgent != null)
+            {
+                hoverAgent.SetDroneThrottle(throttleNormalized);
+                return;
+            }
+
+            agentThrottle = Mathf.Clamp01(throttleNormalized);
+        }
+
         void Start()
         {
             dronePhysics = GetComponent<YueDronePhysics>();
@@ -190,36 +222,11 @@ namespace YueUltimateDronePhysics
 
         void Update()
         {
-            inputModule.rawLeftHorizontal = GetYaw();
-
-            // Example Population of InputModule
-            switch (dronePhysics.flightConfig)
-            {
-                case (YueDronePhysicsFlightConfiguration.AcroMode):
-                    inputModule.rawRightHorizontal = GetRoll();
-                    inputModule.rawRightVertical = GetPitch();
-
-                    inputModule.rawLeftVertical = GetThrottle();
-                    break;
-
-                case (YueDronePhysicsFlightConfiguration.SelfLeveling):
-                    inputModule.rawRightHorizontal = GetRoll();
-                    inputModule.rawRightVertical = GetPitch();
-
-                    inputModule.rawLeftVertical = GetThrottle();
-                    break;
-
-                case (YueDronePhysicsFlightConfiguration.AltitudeHold):
-                    inputModule.rawRightHorizontal = GetRoll();
-                    inputModule.rawRightVertical = GetPitch();
-
-                    // Altitude hold uses mouse wheel sign/direction in manual play.
-                    // When driven by an agent, preserve action sign for up/down.
-                    inputModule.rawLeftVertical = useAgentInput
-                        ? (agentThrottleZeroToOne ? Mathf.Clamp01(agentThrottle) : agentThrottle) * 100f
-                        : Input.GetAxis("Mouse ScrollWheel") * 100f;
-                    break;
-            }
+            GetCommandedRawInputs(
+                out inputModule.rawLeftHorizontal,
+                out inputModule.rawLeftVertical,
+                out inputModule.rawRightHorizontal,
+                out inputModule.rawRightVertical);
 
             // Respawn on Fire 1
             if (Input.GetButton("Fire1") && !useAgentInput)
