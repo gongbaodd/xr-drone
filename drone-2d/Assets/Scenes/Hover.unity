@@ -898,6 +898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControllerUI
   emulator: {fileID: 713331089}
+  pidFlightController: {fileID: 0}
 --- !u!1001 &1577272200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1349,6 +1350,10 @@ PrefabInstance:
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 5022602860645237092, guid: b7d70e2f027cd49a995dfc0771313ba6, type: 3}
+    - target: {fileID: 2600697441219651549, guid: f686cec1d263e4f40a7259cd68f0f0ce, type: 3}
+      propertyPath: physicsConfig.thrust
+      value: 18.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3464366542029956173, guid: f686cec1d263e4f40a7259cd68f0f0ce, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

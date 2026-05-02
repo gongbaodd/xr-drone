@@ -1,3 +1,6 @@
+using System;
+using System.Globalization;
+using System.IO;
 using UnityEngine;
 
 /// <summary>
@@ -17,6 +20,7 @@ public sealed class PIDHoverController : MonoBehaviour
     [SerializeField] private float takeoffHeight = 5f;
     [SerializeField] private float minimumTakeoffRise = 1f;
     [SerializeField, Min(1)] private int controlPeriodFrames = 20;
+    [SerializeField] private string csvFileName = "pid_hover_control_log.csv";
 
     [Header("Altitude PID (PidMapAutoFlightController takeoff)")]
     [SerializeField] private PIDController pidY = new PIDController { Kp = 3.2f, Ki = 0.08f, Kd = 1.1f, maxOutput = 12f };
@@ -41,11 +45,13 @@ public sealed class PIDHoverController : MonoBehaviour
     private float cruiseAltitude;
     private int framesAccumulated;
     private float accumulatedDt;
+    private string csvFilePath;
 
     private void Awake()
     {
         ResolveReferences();
         NeutralizeOutputs();
+        InitializeCsvLogging();
     }
 
     private void Start()
@@ -76,6 +82,7 @@ public sealed class PIDHoverController : MonoBehaviour
 
         framesAccumulated = 0;
         ApplyAltitudeHoldOnly(cruiseAltitude, accumulatedDt);
+        AppendControlLog();
         accumulatedDt = 0f;
     }
 
@@ -149,5 +156,32 @@ public sealed class PIDHoverController : MonoBehaviour
 
         if (droneRigidbody == null && droneRoot != null)
             droneRigidbody = droneRoot.GetComponent<Rigidbody>();
+    }
+
+    private void InitializeCsvLogging()
+    {
+        string fileName = string.IsNullOrWhiteSpace(csvFileName) ? "pid_hover_control_log.csv" : csvFileName.Trim();
+        csvFilePath = Path.Combine(Application.persistentDataPath, fileName);
+        if (File.Exists(csvFilePath))
+            return;
+
+        File.WriteAllText(csvFilePath, "timestamp,left_vertical,left_horizontal,right_vertical,right_horizontal,drone_height\n");
+    }
+
+    private void AppendControlLog()
+    {
+        if (string.IsNullOrWhiteSpace(csvFilePath))
+            InitializeCsvLogging();
+
+        string row = string.Format(
+            CultureInfo.InvariantCulture,
+            "{0},{1:F6},{2:F6},{3:F6},{4:F6},{5:F6}\n",
+            DateTime.UtcNow.ToString("O", CultureInfo.InvariantCulture),
+            OutRawLeftVertical,
+            OutRawLeftHorizontal,
+            OutRawRightVertical,
+            OutRawRightHorizontal,
+            droneRoot != null ? droneRoot.position.y : 0f);
+        File.AppendAllText(csvFilePath, row);
     }
 }
