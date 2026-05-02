@@ -16,6 +16,7 @@ public sealed class PIDHoverController : MonoBehaviour
     [SerializeField] private bool autoStartOnPlay = true;
     [SerializeField] private float takeoffHeight = 5f;
     [SerializeField] private float minimumTakeoffRise = 1f;
+    [SerializeField, Min(1)] private int controlPeriodFrames = 20;
 
     [Header("Altitude PID (PidMapAutoFlightController takeoff)")]
     [SerializeField] private PIDController pidY = new PIDController { Kp = 3.2f, Ki = 0.08f, Kd = 1.1f, maxOutput = 12f };
@@ -38,6 +39,8 @@ public sealed class PIDHoverController : MonoBehaviour
 
     private FlightPhase phase = FlightPhase.Idle;
     private float cruiseAltitude;
+    private int framesAccumulated;
+    private float accumulatedDt;
 
     private void Awake()
     {
@@ -66,7 +69,14 @@ public sealed class PIDHoverController : MonoBehaviour
             return;
         }
 
-        ApplyAltitudeHoldOnly(cruiseAltitude, dt);
+        accumulatedDt += dt;
+        framesAccumulated++;
+        if (framesAccumulated < controlPeriodFrames)
+            return;
+
+        framesAccumulated = 0;
+        ApplyAltitudeHoldOnly(cruiseAltitude, accumulatedDt);
+        accumulatedDt = 0f;
     }
 
     [ContextMenu("Start Hover Takeoff")]
@@ -79,6 +89,8 @@ public sealed class PIDHoverController : MonoBehaviour
         cruiseAltitude = ResolveTakeoffAltitude();
         phase = FlightPhase.HoldAltitude;
         ResetAltitudePids();
+        framesAccumulated = controlPeriodFrames - 1;
+        accumulatedDt = 0f;
     }
 
     private void ApplyAltitudeHoldOnly(float targetY, float dt)
