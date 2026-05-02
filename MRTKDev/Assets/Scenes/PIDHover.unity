@@ -643,6 +643,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1325516522}
     m_Modifications:
+    - target: {fileID: 1310926270657974288, guid: adb540b78007b484fb4e85791757953c, type: 3}
+      propertyPath: physicsConfig.thrust
+      value: 18.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1310926270657974289, guid: adb540b78007b484fb4e85791757953c, type: 3}
       propertyPath: rawLeftHorizontal
       value: 0
