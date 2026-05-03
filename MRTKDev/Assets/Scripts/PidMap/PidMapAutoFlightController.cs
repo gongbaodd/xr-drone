@@ -28,7 +28,7 @@ public sealed class PidMapAutoFlightController : MonoBehaviour
 
     [Header("Bezier path generation")]
     [SerializeField, Range(0f, 1f)] private float bezierTension = 0.25f;
-    [SerializeField, Min(2)] private int samplesPerSegment = 20;
+    [SerializeField, Min(2)] private int samplesPerSegment = 30;
 
     [Header("Path tracking")]
     [SerializeField] private PIDController pidX = new PIDController { Kp = 1.9f, Ki = 0.04f, Kd = 0.8f, maxOutput = 10f };

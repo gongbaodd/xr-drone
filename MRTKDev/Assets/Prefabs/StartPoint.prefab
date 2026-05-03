@@ -158,6 +158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84f9d7a56a4f4e8495ffd44e4ea7f6e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::YueUltimateDronePhysics.XRJoystickHud
+  emulator: {fileID: 3481085964326187541, guid: f30748f20dfa56e478b02f779d078d41, type: 3}
+  pidMapAutoFlightController: {fileID: 3141592653589793238}
 --- !u!1 &5525529961885351996
 GameObject:
   m_ObjectHideFlags: 0

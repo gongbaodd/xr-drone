@@ -6,9 +6,11 @@ public class XRJoystickHud : MonoBehaviour
 {
     private const string HudQuadName = "XR Joystick HUD Quad";
 
+    [Header("Stick data sources")]
+    [SerializeField] private LimitedDroneEmulator emulator;
+    [SerializeField] private PidMapAutoFlightController pidMapAutoFlightController;
+
     private UIDocument uiDocument;
-    private LimitedDroneEmulator emulator;
-    private PidMapAutoFlightController pidMapAutoFlightController;
     private VisualElement leftDot;
     private VisualElement rightDot;
     private VisualElement leftPidDot;
@@ -21,8 +23,6 @@ public class XRJoystickHud : MonoBehaviour
     private void Awake()
     {
         uiDocument = GetComponent<UIDocument>();
-        emulator = FindAnyObjectByType<LimitedDroneEmulator>();
-        pidMapAutoFlightController = FindAnyObjectByType<PidMapAutoFlightController>();
         BuildUi();
         SetupWorldView();
     }
