@@ -15,8 +15,20 @@ EditorBuildSettings:
     path: Assets/Scenes/MapLocal.unity
     guid: 2c7fa9ff3ca9a4231ac11f92c515e610
   - enabled: 1
-    path: Assets/Scenes/Start.unity
+    path: Assets/Scenes/Contents/Start.unity
     guid: ad6cb1fd3ef5d9f41bf4520a1dcb8709
+  - enabled: 1
+    path: Assets/Scenes/Contents/Tutorial.unity
+    guid: 10f973c2c09c2a9429ab7b668baa78e1
+  - enabled: 1
+    path: Assets/Scenes/Contents/PlayGround.unity
+    guid: a72416bd89b4f504b9382094e1f7b286
+  - enabled: 1
+    path: Assets/Scenes/Contents/CityGuide.unity
+    guid: 330b635b2d54aef42b0d4fbc6e1235b8
+  - enabled: 1
+    path: Assets/Scenes/Contents/City.unity
+    guid: 72a19ffe647c0d14ea3516c78ea0be2a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 87467803e919cef4394e7f39c6521b51, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: e61946fb8f8ff5e418d6ebb56cca2034, type: 2}
