@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
 using UnityEngine;
 namespace YueUltimateDronePhysics
 {
@@ -50,6 +52,7 @@ public sealed class PidFollowController : MonoBehaviour
     [Header("Debug")]
     [SerializeField] private bool drawDebug = true;
     [SerializeField] private float debugAxisLength = 3f;
+    [SerializeField] private string csvFileName = "pid_follow_control_log.csv";
 
     public float OutRawLeftVertical01 { get; private set; } = 0.5f;
     public float OutRawLeftHorizontal { get; private set; }
@@ -80,12 +83,14 @@ public sealed class PidFollowController : MonoBehaviour
     private bool hasDebugPathDirection;
     private int framesAccumulated;
     private float accumulatedDt;
+    private string csvFilePath;
 
     private void Awake()
     {
         ResolveReferences();
         InstallTriggerRelay();
         NeutralizeOutputs();
+        InitializeCsvLogging();
     }
 
     private void Start()
@@ -150,6 +155,8 @@ public sealed class PidFollowController : MonoBehaviour
                 HandleFollowPath(controlDt);
                 break;
         }
+
+        AppendControlLog();
 
     }
 
@@ -576,6 +583,52 @@ public sealed class PidFollowController : MonoBehaviour
         Debug.Log($"[PidMapAutoFlightController] Phase: {previous} -> {nextPhase}");
         if (nextPhase == FlightPhase.FollowPath)
             Debug.Log($"[PidMapAutoFlightController] Altitude hold enabled at Y={cruiseAltitude:F2} during target tracking.");
+    }
+
+    private void InitializeCsvLogging()
+    {
+        string fileName = string.IsNullOrWhiteSpace(csvFileName) ? "pid_follow_control_log.csv" : csvFileName.Trim();
+        csvFilePath = Path.Combine(Application.persistentDataPath, fileName);
+        if (File.Exists(csvFilePath))
+            return;
+
+        File.WriteAllText(
+            csvFilePath,
+            "timestamp,left_vertical,left_horizontal,right_vertical,right_horizontal,drone_pos_x,drone_pos_y,drone_pos_z,drone_rot_x,drone_rot_y,drone_rot_z,path_end_dx,path_end_dy,path_end_dz\n");
+    }
+
+    private void AppendControlLog()
+    {
+        if (string.IsNullOrWhiteSpace(csvFilePath))
+            InitializeCsvLogging();
+
+        Vector3 position = droneRoot != null ? droneRoot.position : Vector3.zero;
+        Vector3 rotation = droneRoot != null ? droneRoot.eulerAngles : Vector3.zero;
+        Vector3 pathEndDelta = Vector3.zero;
+        if (droneRoot != null && missionPath.Count > 0)
+        {
+            Vector3 pathEnd = missionPath[missionPath.Count - 1];
+            pathEndDelta = pathEnd - droneRoot.position;
+        }
+
+        string row = string.Format(
+            CultureInfo.InvariantCulture,
+            "{0},{1:F6},{2:F6},{3:F6},{4:F6},{5:F6},{6:F6},{7:F6},{8:F6},{9:F6},{10:F6},{11:F6},{12:F6},{13:F6}\n",
+            DateTime.UtcNow.ToString("O", CultureInfo.InvariantCulture),
+            OutRawLeftVertical01,
+            OutRawLeftHorizontal,
+            OutRawRightVertical,
+            OutRawRightHorizontal,
+            position.x,
+            position.y,
+            position.z,
+            rotation.x,
+            rotation.y,
+            rotation.z,
+            pathEndDelta.x,
+            pathEndDelta.y,
+            pathEndDelta.z);
+        File.AppendAllText(csvFilePath, row);
     }
 }
 

@@ -928,6 +928,7 @@ MonoBehaviour:
   finishReachDistance: 2.1
   maxSegmentSpeed: 7
   lineLookAheadDistance: 3
+  controlPeriodFrames: 20
   waypointTargets:
   - {fileID: 1255605944}
   - {fileID: 1065353197}
@@ -985,6 +986,7 @@ MonoBehaviour:
   yawDeadbandDegrees: 3
   drawDebug: 1
   debugAxisLength: 3
+  csvFileName: pid_follow_control_log.csv
 --- !u!114 &1109291462
 MonoBehaviour:
   m_ObjectHideFlags: 0
