@@ -59,6 +59,30 @@
     background-color: rgba(41, 242, 255, 0.95);
 }
 
-.pid-stick-dot {
-    background-color: rgba(255, 255, 255, 0.95);
+.pid-stick-quadrant {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+}
+
+.pid-stick-quadrant-tl {
+    left: 0;
+    top: 0;
+}
+
+.pid-stick-quadrant-tr {
+    left: 60px;
+    top: 0;
+}
+
+.pid-stick-quadrant-bl {
+    left: 0;
+    top: 60px;
+}
+
+.pid-stick-quadrant-br {
+    left: 60px;
+    top: 60px;
 }

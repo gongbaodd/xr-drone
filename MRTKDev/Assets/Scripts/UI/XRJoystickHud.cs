@@ -5,6 +5,7 @@ using UnityEngine.UIElements;
 public class XRJoystickHud : MonoBehaviour
 {
     private const string HudQuadName = "XR Joystick HUD Quad";
+    private const float AxisHighlightThreshold = 0.05f;
 
     [Header("Stick data sources")]
     [SerializeField] private LimitedDroneEmulator emulator;
@@ -13,8 +14,14 @@ public class XRJoystickHud : MonoBehaviour
     private UIDocument uiDocument;
     private VisualElement leftDot;
     private VisualElement rightDot;
-    private VisualElement leftPidDot;
-    private VisualElement rightPidDot;
+    private VisualElement leftPidTopLeft;
+    private VisualElement leftPidTopRight;
+    private VisualElement leftPidBottomLeft;
+    private VisualElement leftPidBottomRight;
+    private VisualElement rightPidTopLeft;
+    private VisualElement rightPidTopRight;
+    private VisualElement rightPidBottomLeft;
+    private VisualElement rightPidBottomRight;
     private Transform hudQuadTransform;
     private Transform mainCameraTransform;
     private bool isHudReady;
@@ -47,8 +54,8 @@ public class XRJoystickHud : MonoBehaviour
                 Mathf.Clamp(pidMapAutoFlightController.OutRawRightHorizontal, -1f, 1f),
                 Mathf.Clamp(pidMapAutoFlightController.OutRawRightVertical, -1f, 1f));
 
-            ApplyDotPosition(leftPidDot, pidLeftStick);
-            ApplyDotPosition(rightPidDot, pidRightStick);
+            ApplyQuadrantHighlights(leftPidTopLeft, leftPidTopRight, leftPidBottomLeft, leftPidBottomRight, pidLeftStick);
+            ApplyQuadrantHighlights(rightPidTopLeft, rightPidTopRight, rightPidBottomLeft, rightPidBottomRight, pidRightStick);
         }
     }
 
@@ -67,9 +74,25 @@ public class XRJoystickHud : MonoBehaviour
 
         leftDot = root.Q<VisualElement>("left-dot");
         rightDot = root.Q<VisualElement>("right-dot");
-        leftPidDot = root.Q<VisualElement>("left-pid-dot");
-        rightPidDot = root.Q<VisualElement>("right-pid-dot");
-        isUiReady = leftDot != null && rightDot != null && leftPidDot != null && rightPidDot != null;
+        leftPidTopLeft = root.Q<VisualElement>("left-pid-quadrant-tl");
+        leftPidTopRight = root.Q<VisualElement>("left-pid-quadrant-tr");
+        leftPidBottomLeft = root.Q<VisualElement>("left-pid-quadrant-bl");
+        leftPidBottomRight = root.Q<VisualElement>("left-pid-quadrant-br");
+        rightPidTopLeft = root.Q<VisualElement>("right-pid-quadrant-tl");
+        rightPidTopRight = root.Q<VisualElement>("right-pid-quadrant-tr");
+        rightPidBottomLeft = root.Q<VisualElement>("right-pid-quadrant-bl");
+        rightPidBottomRight = root.Q<VisualElement>("right-pid-quadrant-br");
+        isUiReady =
+            leftDot != null &&
+            rightDot != null &&
+            leftPidTopLeft != null &&
+            leftPidTopRight != null &&
+            leftPidBottomLeft != null &&
+            leftPidBottomRight != null &&
+            rightPidTopLeft != null &&
+            rightPidTopRight != null &&
+            rightPidBottomLeft != null &&
+            rightPidBottomRight != null;
     }
 
     private void SetupWorldView()
@@ -102,6 +125,32 @@ public class XRJoystickHud : MonoBehaviour
         float y = Mathf.Clamp(stick.y, -1f, 1f) * travel;
         dot.style.left = travel + x;
         dot.style.top = travel - y;
+    }
+
+    private static void ApplyQuadrantHighlights(
+        VisualElement topLeft,
+        VisualElement topRight,
+        VisualElement bottomLeft,
+        VisualElement bottomRight,
+        Vector2 stick)
+    {
+        if (topLeft == null || topRight == null || bottomLeft == null || bottomRight == null)
+            return;
+
+        float clampedX = Mathf.Clamp(stick.x, -1f, 1f);
+        float clampedY = Mathf.Clamp(stick.y, -1f, 1f);
+        bool onVerticalAxis = Mathf.Abs(clampedX) <= AxisHighlightThreshold;
+        bool onHorizontalAxis = Mathf.Abs(clampedY) <= AxisHighlightThreshold;
+
+        bool activateLeft = onVerticalAxis || clampedX < 0f;
+        bool activateRight = onVerticalAxis || clampedX > 0f;
+        bool activateTop = onHorizontalAxis || clampedY > 0f;
+        bool activateBottom = onHorizontalAxis || clampedY < 0f;
+
+        topLeft.style.opacity = activateTop && activateLeft ? 1f : 0f;
+        topRight.style.opacity = activateTop && activateRight ? 1f : 0f;
+        bottomLeft.style.opacity = activateBottom && activateLeft ? 1f : 0f;
+        bottomRight.style.opacity = activateBottom && activateRight ? 1f : 0f;
     }
 
     private void UpdateHudFacing()
