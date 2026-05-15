@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="DroneMap.uss" />
+    <ui:VisualElement name="map-root" class="map-root">
+        <ui:VisualElement name="map-circle" class="map-circle">
+            <ui:VisualElement name="map-cursor" class="map-cursor" />
+            <ui:VisualElement name="map-finish-dot" class="map-finish-dot" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

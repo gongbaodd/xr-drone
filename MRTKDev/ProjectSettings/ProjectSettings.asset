@@ -164,6 +164,10 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -185,7 +189,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: org.MixedRealityToolkit.MRTK3Sample
+    Android: org.xrdrone.simple_map
     Standalone: org.MixedRealityToolkit.MRTK3Sample
   buildNumber:
     Standalone: 0
