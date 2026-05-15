@@ -173,9 +173,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6778186370615771761, guid: 95b30f1a0c879cd4f907752e53952f76, type: 3}
+      propertyPath: cityScene
+      value: Assets/Scenes/MapLocal.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 6778186370615771761, guid: 95b30f1a0c879cd4f907752e53952f76, type: 3}
+      propertyPath: tutorialScene
+      value: Assets/Scenes/ControllerScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 6778186370615771761, guid: 95b30f1a0c879cd4f907752e53952f76, type: 3}
       propertyPath: menuGameObject
       value: 
       objectReference: {fileID: 378348762}
+    - target: {fileID: 6778186370615771761, guid: 95b30f1a0c879cd4f907752e53952f76, type: 3}
+      propertyPath: playGroundScene
+      value: Assets/Scenes/SimplifyiedMapPidAssist.unity
+      objectReference: {fileID: 0}
     - target: {fileID: 8108672518027823116, guid: 95b30f1a0c879cd4f907752e53952f76, type: 3}
       propertyPath: m_Name
       value: SceneManager
@@ -282,7 +294,7 @@ PrefabInstance:
       objectReference: {fileID: 1688917938433983979}
     - target: {fileID: 1209144797496283624, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadTutorial
+      value: LoadTutorialScene
       objectReference: {fileID: 0}
     - target: {fileID: 1209144797496283626, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
       propertyPath: m_Size.x
@@ -335,6 +347,34 @@ PrefabInstance:
     - target: {fileID: 2045274825387191897, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
       propertyPath: m_Size.x
       value: 415.9265
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045274825387191899, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045274825387191899, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045274825387191899, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1688917938433983979}
+    - target: {fileID: 2045274825387191899, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045274825387191899, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadCityScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045274825387191899, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FPVSceneManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045274825387191899, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2045274825387191900, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
       propertyPath: m_AnchorMax.y
@@ -459,6 +499,34 @@ PrefabInstance:
     - target: {fileID: 3419173475952355257, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
       propertyPath: m_Size.x
       value: 415.9265
+      objectReference: {fileID: 0}
+    - target: {fileID: 3419173475952355259, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3419173475952355259, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3419173475952355259, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1688917938433983979}
+    - target: {fileID: 3419173475952355259, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3419173475952355259, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadPlayGroundScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3419173475952355259, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FPVSceneManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3419173475952355259, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3419173475952355260, guid: a2c86d8d3c18a2e448839728f03fe5b4, type: 3}
       propertyPath: m_AnchorMax.y

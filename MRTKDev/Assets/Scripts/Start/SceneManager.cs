@@ -1,22 +1,26 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-/// <summary>
-/// Hub singleton for loading application scenes by name. Add matching scenes to Build Settings.
-/// </summary>
 public class FPVSceneManager : MonoBehaviour
 {
-    [SerializeField] GameObject menuGameObject;
 
-    /// <summary>Disables the menu root GameObject.</summary>
-    private void DisableMenuGameObject() 
+    [Header("Scenes (must be in Build Settings)")]
+    [SerializeField] string tutorialScene = "";
+    [SerializeField] string playGroundScene = "";
+    [SerializeField] string cityScene = "";
+
+    public void LoadTutorialScene()
     {
-        if (menuGameObject != null)
-            menuGameObject.SetActive(false);
+        SceneManager.LoadScene(tutorialScene);
     }
 
-    public void LoadTutorial() {
-        DisableMenuGameObject();
+    public void LoadPlayGroundScene()
+    {
+        SceneManager.LoadScene(playGroundScene);
     }
 
+    public void LoadCityScene()
+    {
+        SceneManager.LoadScene(cityScene);
+    }
 }
